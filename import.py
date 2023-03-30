@@ -1,6 +1,6 @@
 import json
 import yaml
-from usdm_excel.usdm_excel import USDMExcel
+from usdm_excel import USDMExcel
 
 def save_as_json_file(raw_json, filename):
   with open('source_data/%s.json' % (filename), 'w', encoding='utf-8') as f:
