@@ -1,6 +1,6 @@
-import usdm_excel.usdm_excel as ue
 import json
 import yaml
+from usdm_excel.usdm_excel import USDMExcel
 
 def save_as_json_file(raw_json, filename):
   with open('source_data/%s.json' % (filename), 'w', encoding='utf-8') as f:
@@ -28,7 +28,7 @@ studies = [
 for study in studies:
   print ("Processing study %s ..." % (study))
   file_path = "source_data/%s.xlsx" % (study)
-  x = ue.USDMExcel(file_path)
+  x = USDMExcel(file_path)
   save_as_json_file(x.to_json(), study)
   nodes, edges = x.to_nodes_and_edges()
   save_as_node_file(nodes, study)
