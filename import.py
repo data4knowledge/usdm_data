@@ -1,6 +1,7 @@
 import json
 import yaml
 from usdm_excel import USDMExcel
+import logging
 
 def save_as_json_file(raw_json, filename):
   with open('source_data/%s.json' % (filename), 'w', encoding='utf-8') as f:
@@ -24,6 +25,8 @@ studies = [
   'simple_2',
   'profile_1'
 ]
+
+log = logging.basicConfig(level=logging.INFO)
 
 for study in studies:
   print ("Processing study %s ..." % (study))
