@@ -1,0 +1,13 @@
+- column: null
+  message: "Exception [1 validation error for AliasCode\nstandardCode\n  none is not\
+    \ an allowed value (type=type_error.none.not_allowed)] raised reading sheet. Traceback\
+    \ (most recent call last):\n  File \"/Users/daveih/Documents/python/usdm/src/usdm_excel/study_sheet/study_sheet.py\"\
+    , line 50, in __init__\n    self._process_sheet()\n  File \"/Users/daveih/Documents/python/usdm/src/usdm_excel/study_sheet/study_sheet.py\"\
+    , line 122, in _process_sheet\n    self.phase = Alias().code(phase, [])\n  File\
+    \ \"/Users/daveih/Documents/python/usdm/src/usdm_excel/alias.py\", line 7, in\
+    \ code\n    return AliasCode(aliasCodeId=id_manager.build_id(AliasCode), standardCode=standard_code,\
+    \ standardCodeAliases=aliases)\n  File \"pydantic/main.py\", line 341, in pydantic.main.BaseModel.__init__\n\
+    pydantic.error_wrappers.ValidationError: 1 validation error for AliasCode\nstandardCode\n\
+    \  none is not an allowed value (type=type_error.none.not_allowed)\n"
+  row: null
+  sheet: study

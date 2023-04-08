@@ -426,245 +426,260 @@
 - end: 83
   id: 86
   properties:
-    label: transitionStartRule
+    label: encounterContactModes
   start: 80
 - end: 84
   id: 87
   properties:
-    label: transitionEndRule
+    label: transitionStartRule
   start: 80
-- end: 86
+- end: 85
   id: 88
   properties:
-    label: encounterType
-  start: 85
+    label: transitionEndRule
+  start: 80
 - end: 87
   id: 89
   properties:
-    label: encounterEnvironmentalSetting
-  start: 85
-- end: 89
+    label: encounterType
+  start: 86
+- end: 88
   id: 90
   properties:
-    label: encounterType
-  start: 88
-- end: 90
+    label: encounterEnvironmentalSetting
+  start: 86
+- end: 89
   id: 91
   properties:
-    label: encounterEnvironmentalSetting
-  start: 88
-- end: 80
+    label: encounterContactModes
+  start: 86
+- end: 91
   id: 92
   properties:
-    label: encounters
-  start: 12
-- end: 85
+    label: encounterType
+  start: 90
+- end: 92
   id: 93
   properties:
-    label: encounters
-  start: 12
-- end: 88
+    label: encounterEnvironmentalSetting
+  start: 90
+- end: 93
   id: 94
   properties:
-    label: encounters
-  start: 12
-- end: 93
+    label: encounterContactModes
+  start: 90
+- end: 80
   id: 95
   properties:
-    label: procedureCode
-  start: 92
-- end: 92
+    label: encounters
+  start: 12
+- end: 86
   id: 96
   properties:
-    label: definedProcedures
-  start: 91
-- end: 91
+    label: encounters
+  start: 12
+- end: 90
   id: 97
+  properties:
+    label: encounters
+  start: 12
+- end: 96
+  id: 98
+  properties:
+    label: procedureCode
+  start: 95
+- end: 95
+  id: 99
+  properties:
+    label: definedProcedures
+  start: 94
+- end: 94
+  id: 100
   properties:
     label: activities
   start: 12
-- end: 95
-  id: 98
-  properties:
-    label: standardCode
-  start: 94
-- end: 94
-  id: 99
-  properties:
-    label: studyDesignBlindingScheme
-  start: 12
-- end: 96
-  id: 100
-  properties:
-    label: bcSurrogates
-  start: 12
-- end: 97
+- end: 98
   id: 101
   properties:
-    label: bcSurrogates
-  start: 12
-- end: 98
+    label: standardCode
+  start: 97
+- end: 97
   id: 102
   properties:
-    label: bcSurrogates
+    label: studyDesignBlindingScheme
   start: 12
 - end: 99
   id: 103
   properties:
     label: bcSurrogates
   start: 12
-- end: 12
+- end: 100
   id: 104
+  properties:
+    label: bcSurrogates
+  start: 12
+- end: 101
+  id: 105
+  properties:
+    label: bcSurrogates
+  start: 12
+- end: 102
+  id: 106
+  properties:
+    label: bcSurrogates
+  start: 12
+- end: 12
+  id: 107
   properties:
     label: studyDesigns
   start: 1
 - end: 80
-  id: 105
+  id: 108
   properties:
     label: encounterIds
     type: List
   start: 20
-- end: 85
-  id: 106
+- end: 86
+  id: 109
   properties:
     label: encounterIds
     type: List
   start: 20
-- end: 88
-  id: 107
+- end: 90
+  id: 110
   properties:
     label: encounterIds
     type: List
   start: 26
 - end: 54
-  id: 108
+  id: 111
   properties:
     label: relativeFromScheduledInstanceId
     type: Other
   start: 55
 - end: 80
-  id: 109
+  id: 112
   properties:
     label: scheduledInstanceEncounterId
     type: Other
   start: 58
 - end: 58
-  id: 110
+  id: 113
   properties:
     label: relativeFromScheduledInstanceId
     type: Other
   start: 59
 - end: 67
-  id: 111
+  id: 114
   properties:
     label: relativeToScheduledInstanceId
     type: Other
   start: 59
-- end: 91
-  id: 112
+- end: 94
+  id: 115
   properties:
     label: activityIds
     type: List
   start: 58
 - end: 62
-  id: 113
+  id: 116
   properties:
     label: relativeFromScheduledInstanceId
     type: Other
   start: 63
 - end: 54
-  id: 114
+  id: 117
   properties:
     label: conditionAssignments
     type: Condition
   start: 66
 - end: 67
-  id: 115
+  id: 118
   properties:
     label: conditionAssignments
     type: Condition
   start: 66
-- end: 85
-  id: 116
+- end: 86
+  id: 119
   properties:
     label: scheduledInstanceEncounterId
     type: Other
   start: 67
 - end: 67
-  id: 117
+  id: 120
   properties:
     label: relativeFromScheduledInstanceId
     type: Other
   start: 68
 - end: 58
-  id: 118
+  id: 121
   properties:
     label: relativeToScheduledInstanceId
     type: Other
   start: 68
-- end: 91
-  id: 119
+- end: 94
+  id: 122
   properties:
     label: activityIds
     type: List
   start: 67
-- end: 88
-  id: 120
+- end: 90
+  id: 123
   properties:
     label: scheduledInstanceEncounterId
     type: Other
   start: 71
 - end: 71
-  id: 121
+  id: 124
   properties:
     label: relativeFromScheduledInstanceId
     type: Other
   start: 72
 - end: 67
-  id: 122
+  id: 125
   properties:
     label: relativeToScheduledInstanceId
     type: Other
   start: 72
-- end: 91
-  id: 123
+- end: 94
+  id: 126
   properties:
     label: activityIds
     type: List
   start: 71
 - end: 39
-  id: 124
+  id: 127
   properties:
     label: treatment
     type: Other
   start: 77
 - end: 50
-  id: 125
+  id: 128
   properties:
     label: variableOfInterest
     type: Other
   start: 77
-- end: 96
-  id: 126
-  properties:
-    label: bcSurrogateIds
-    type: List
-  start: 91
-- end: 97
-  id: 127
-  properties:
-    label: bcSurrogateIds
-    type: List
-  start: 91
-- end: 98
-  id: 128
-  properties:
-    label: bcSurrogateIds
-    type: List
-  start: 91
 - end: 99
   id: 129
   properties:
     label: bcSurrogateIds
     type: List
-  start: 91
+  start: 94
+- end: 100
+  id: 130
+  properties:
+    label: bcSurrogateIds
+    type: List
+  start: 94
+- end: 101
+  id: 131
+  properties:
+    label: bcSurrogateIds
+    type: List
+  start: 94
+- end: 102
+  id: 132
+  properties:
+    label: bcSurrogateIds
+    type: List
+  start: 94
