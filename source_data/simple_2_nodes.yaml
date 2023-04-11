@@ -274,11 +274,11 @@
   properties:
     _type: Code
     code: '12345'
-    codeId: Code_40
+    codeId: Code_55
     codeSystem: SNOMED
     codeSystemVersion: January 31, 2018
     decode: Indication1
-    label: Code_40
+    label: Code_55
 - id: 37
   properties:
     _type: Indication
@@ -289,11 +289,11 @@
   properties:
     _type: Code
     code: '345678'
-    codeId: Code_43
+    codeId: Code_58
     codeSystem: SNOMED
     codeSystemVersion: January 31, 2018
     decode: Indication2
-    label: Code_43
+    label: Code_58
 - id: 39
   properties:
     _type: Indication
@@ -304,20 +304,20 @@
   properties:
     _type: Code
     code: X
-    codeId: Code_41
+    codeId: Code_56
     codeSystem: ICD-10
     codeSystemVersion: ''
     decode: Y
-    label: Code_41
+    label: Code_56
 - id: 43
   properties:
     _type: Code
     code: A
-    codeId: Code_42
+    codeId: Code_57
     codeSystem: SNOMED
     codeSystemVersion: January 31, 2018
     decode: B
-    label: Code_42
+    label: Code_57
 - id: 41
   properties:
     _type: InvestigationalIntervention
@@ -328,20 +328,20 @@
   properties:
     _type: Code
     code: DD
-    codeId: Code_44
+    codeId: Code_59
     codeSystem: ICD-10
     codeSystemVersion: ''
     decode: CC
-    label: Code_44
+    label: Code_59
 - id: 46
   properties:
     _type: Code
     code: A
-    codeId: Code_45
+    codeId: Code_60
     codeSystem: SNOMED
     codeSystemVersion: January 31, 2018
     decode: B
-    label: Code_45
+    label: Code_60
 - id: 44
   properties:
     _type: InvestigationalIntervention
@@ -382,20 +382,20 @@
   properties:
     _type: Code
     code: C85826
-    codeId: Code_49
+    codeId: Code_64
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Trial Primary Objective
-    label: Code_49
+    label: Code_64
 - id: 53
   properties:
     _type: Code
     code: C94496
-    codeId: Code_50
+    codeId: Code_65
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Primary Endpoint
-    label: Code_50
+    label: Code_65
 - id: 52
   properties:
     _type: Endpoint
@@ -417,21 +417,21 @@
 - id: 58
   properties:
     _type: Code
-    code: ANCHOR
-    codeId: Code_36
+    code: C99901x3
+    codeId: Code_45
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
-    decode: anchor
-    label: Code_36
+    decode: Fixed Reference
+    label: Code_45
 - id: 59
   properties:
     _type: Code
-    code: START TO START
-    codeId: Code_37
+    code: C99900x1
+    codeId: Code_49
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
-    decode: Start to start
-    label: Code_37
+    decode: Start to Start
+    label: Code_49
 - id: 57
   properties:
     _type: Timing
@@ -451,21 +451,21 @@
 - id: 62
   properties:
     _type: Code
-    code: CYCLE START
-    codeId: Code_30
+    code: C99901x3
+    codeId: Code_33
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
-    decode: cycle start
-    label: Code_30
+    decode: Fixed Reference
+    label: Code_33
 - id: 63
   properties:
     _type: Code
-    code: START TO START
-    codeId: Code_31
+    code: C99900x1
+    codeId: Code_34
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
-    decode: Start to start
-    label: Code_31
+    decode: Start to Start
+    label: Code_34
 - id: 61
   properties:
     _type: Timing
@@ -485,21 +485,21 @@
 - id: 66
   properties:
     _type: Code
-    code: PREVIOUS
-    codeId: Code_38
+    code: C99901x2
+    codeId: Code_52
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
-    decode: previous
-    label: Code_38
+    decode: Before
+    label: Code_52
 - id: 67
   properties:
     _type: Code
-    code: START TO START
-    codeId: Code_39
+    code: C99900x1
+    codeId: Code_54
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
-    decode: Start to start
-    label: Code_39
+    decode: Start to Start
+    label: Code_54
 - id: 65
   properties:
     _type: Timing
@@ -529,21 +529,21 @@
 - id: 71
   properties:
     _type: Code
-    code: PREVIOUS
-    codeId: Code_32
+    code: C99901x2
+    codeId: Code_37
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
-    decode: previous
-    label: Code_32
+    decode: Before
+    label: Code_37
 - id: 72
   properties:
     _type: Code
-    code: START TO START
-    codeId: Code_33
+    code: C99900x1
+    codeId: Code_39
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
-    decode: Start to start
-    label: Code_33
+    decode: Start to Start
+    label: Code_39
 - id: 70
   properties:
     _type: Timing
@@ -563,21 +563,21 @@
 - id: 75
   properties:
     _type: Code
-    code: PREVIOUS
-    codeId: Code_34
+    code: C99901x2
+    codeId: Code_42
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
-    decode: previous
-    label: Code_34
+    decode: Before
+    label: Code_42
 - id: 76
   properties:
     _type: Code
-    code: START TO START
-    codeId: Code_35
+    code: C99900x1
+    codeId: Code_44
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
-    decode: Start to start
-    label: Code_35
+    decode: Start to Start
+    label: Code_44
 - id: 74
   properties:
     _type: Timing
