@@ -19,8 +19,7 @@ if __name__ == "__main__":
     if errors.count() > 0:
       with open(f"test_data/{filename}_errors.yaml", 'w', encoding='utf-8') as f:
         yaml.dump(errors.dump(), f, default_flow_style=False)
-    else:
-      with open(f"test_data/{filename}.json", 'w', encoding='utf-8') as f:
-        f.write(json.dumps(json.loads(excel.to_json()), indent=2))
+    with open(f"test_data/{filename}.json", 'w', encoding='utf-8') as f:
+      f.write(json.dumps(json.loads(excel.to_json()), indent=2))
   else:
     print("Multiple command line arguments detected.")
