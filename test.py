@@ -12,7 +12,14 @@ if __name__ == "__main__":
   elif arg_count == 2:
     
     from usdm_excel import USDMExcel
+    from usdm_info import __package_version__ as code_version
+    from usdm_info import __model_version__ as model_version
     
+    print("")
+    print (f"Test Utility, using USDM Python Package v{code_version} supporting USDM version v{model_version}")
+    print("")
+    print("")
+
     filename = sys.argv[1].strip()
     excel = USDMExcel(f"test_data/{filename}.xlsx")
     errors = excel.errors()
