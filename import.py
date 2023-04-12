@@ -4,6 +4,8 @@ log = logging.basicConfig(level=logging.INFO)
 import json
 import yaml
 from usdm_excel import USDMExcel
+from usdm_info import __package_version__ as code_version
+from usdm_info import __model_version__ as model_version
 
 def save_as_json_file(raw_json, filename):
   with open('source_data/%s.json' % (filename), 'w', encoding='utf-8') as f:
@@ -28,6 +30,10 @@ studies = [
   'profile_1'
 ]
 
+print("")
+print (f"Import Utility, using USDM Python Package v{code_version} supporting USDM version v{model_version}")
+print("")
+print("")
 for study in studies:
   print ("Processing study %s ..." % (study))
   file_path = "source_data/%s.xlsx" % (study)
@@ -36,3 +42,6 @@ for study in studies:
   nodes, edges = x.to_nodes_and_edges()
   save_as_node_file(nodes, study)
   save_as_edges_file(edges, study)
+  print("ERRORS:", x.errors().dump())
+  print("")
+  print("")
