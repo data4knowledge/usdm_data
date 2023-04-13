@@ -27,7 +27,8 @@ studies = [
   'cycles_1',
   'simple_1',
   'simple_2',
-  'profile_1'
+  'profile_1',
+  'simple_3'
 ]
 
 print("")
