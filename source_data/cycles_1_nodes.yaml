@@ -121,80 +121,80 @@
   properties:
     _type: Code
     code: C15714
-    codeId: Code_46
+    codeId: Code_53
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Basic Research
-    label: Code_46
+    label: Code_53
 - id: 17
   properties:
     _type: Code
     code: C139174
-    codeId: Code_47
+    codeId: Code_54
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Device Feasibility Study
-    label: Code_47
+    label: Code_54
 - id: 18
   properties:
     _type: Code
     code: C49666
-    codeId: Code_48
+    codeId: Code_55
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Efficacy Study
-    label: Code_48
+    label: Code_55
 - id: 19
   properties:
     _type: Code
     code: C82639
-    codeId: Code_49
+    codeId: Code_56
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Parallel Study
-    label: Code_49
+    label: Code_56
 - id: 22
   properties:
     _type: Code
-    code: C174266
-    codeId: Code_54
+    code: C174267
+    codeId: Code_43
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
-    decode: Experimental Arm
-    label: Code_54
+    decode: Active Comparator Arm
+    label: Code_43
 - id: 23
   properties:
     _type: Code
     code: C188866
-    codeId: Code_53
+    codeId: Code_44
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Data Generated Within Study
-    label: Code_53
+    label: Code_44
 - id: 21
   properties:
     _type: StudyArm
     label: StudyArm_1
-    studyArmDataOriginDescription: ''
-    studyArmDescription: Active
+    studyArmDataOriginDescription: Data collected from subjects
+    studyArmDescription: Active Substance
     studyArmId: StudyArm_1
     studyArmName: Active
 - id: 25
   properties:
     _type: Code
-    code: C165873
-    codeId: Code_50
+    code: C48262
+    codeId: Code_47
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
-    decode: OBSERVATION
-    label: Code_50
+    decode: Trial Screening
+    label: Code_47
 - id: 24
   properties:
     _type: StudyEpoch
     label: StudyEpoch_1
     nextStudyEpochId: StudyEpoch_2
     previousStudyEpochId: null
-    studyEpochDescription: Screening
+    studyEpochDescription: Screening Epoch
     studyEpochId: StudyEpoch_1
     studyEpochName: Screening
 - id: 27
@@ -224,19 +224,19 @@
 - id: 31
   properties:
     _type: Code
-    code: C165873
-    codeId: Code_51
+    code: C101526
+    codeId: Code_48
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
-    decode: OBSERVATION
-    label: Code_51
+    decode: Treatment Epoch
+    label: Code_48
 - id: 30
   properties:
     _type: StudyEpoch
     label: StudyEpoch_2
     nextStudyEpochId: StudyEpoch_3
     previousStudyEpochId: StudyEpoch_1
-    studyEpochDescription: Treatment
+    studyEpochDescription: Treatment Epoch
     studyEpochId: StudyEpoch_2
     studyEpochName: Treatment
 - id: 33
@@ -266,19 +266,19 @@
 - id: 37
   properties:
     _type: Code
-    code: C165873
-    codeId: Code_52
+    code: C99158
+    codeId: Code_49
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
-    decode: OBSERVATION
-    label: Code_52
+    decode: Clinical Study Follow-up
+    label: Code_49
 - id: 36
   properties:
     _type: StudyEpoch
     label: StudyEpoch_3
     nextStudyEpochId: null
     previousStudyEpochId: StudyEpoch_2
-    studyEpochDescription: Follow-Up
+    studyEpochDescription: Follow-up Epoch
     studyEpochId: StudyEpoch_3
     studyEpochName: Follow-Up
 - id: 39
@@ -308,26 +308,26 @@
 - id: 43
   properties:
     _type: Code
-    code: C174266
-    codeId: Code_56
+    code: C174268
+    codeId: Code_45
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
-    decode: Experimental Arm
-    label: Code_56
+    decode: Placebo Comparator Arm
+    label: Code_45
 - id: 44
   properties:
     _type: Code
     code: C188866
-    codeId: Code_55
+    codeId: Code_46
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Data Generated Within Study
-    label: Code_55
+    label: Code_46
 - id: 42
   properties:
     _type: StudyArm
     label: StudyArm_2
-    studyArmDataOriginDescription: ''
+    studyArmDataOriginDescription: Data collected from subjects
     studyArmDescription: Placebo
     studyArmId: StudyArm_2
     studyArmName: Placebo
@@ -1237,20 +1237,20 @@
   properties:
     _type: Code
     code: T2_DIABETES
-    codeId: Code_43
+    codeId: Code_50
     codeSystem: SPONSOR
     codeSystemVersion: '12'
     decode: Type 2 diabetes
-    label: Code_43
+    label: Code_50
 - id: 153
   properties:
     _type: Code
     code: '73211009'
-    codeId: Code_44
+    codeId: Code_51
     codeSystem: SNOMED
     codeSystemVersion: January 31, 2018
     decode: Diabetes mellitus (disorder)
-    label: Code_44
+    label: Code_51
 - id: 155
   properties:
     _type: AnalysisPopulation
@@ -1761,11 +1761,11 @@
   properties:
     _type: Code
     code: C49659
-    codeId: Code_45
+    codeId: Code_52
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Open Label Study
-    label: Code_45
+    label: Code_52
 - id: 208
   properties:
     _type: AliasCode

@@ -198,80 +198,80 @@
   properties:
     _type: Code
     code: C15714
-    codeId: Code_121
+    codeId: Code_130
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Basic Research
-    label: Code_121
+    label: Code_130
 - id: 25
   properties:
     _type: Code
     code: C139174
-    codeId: Code_122
+    codeId: Code_131
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Device Feasibility Study
-    label: Code_122
+    label: Code_131
 - id: 26
   properties:
     _type: Code
     code: C49666
-    codeId: Code_123
+    codeId: Code_132
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Efficacy Study
-    label: Code_123
+    label: Code_132
 - id: 27
   properties:
     _type: Code
     code: C82639
-    codeId: Code_124
+    codeId: Code_133
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Parallel Study
-    label: Code_124
+    label: Code_133
 - id: 30
   properties:
     _type: Code
-    code: C174266
-    codeId: Code_131
+    code: C174267
+    codeId: Code_118
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
-    decode: Experimental Arm
-    label: Code_131
+    decode: Active Comparator Arm
+    label: Code_118
 - id: 31
   properties:
     _type: Code
     code: C188866
-    codeId: Code_130
+    codeId: Code_119
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Data Generated Within Study
-    label: Code_130
+    label: Code_119
 - id: 29
   properties:
     _type: StudyArm
     label: StudyArm_1
-    studyArmDataOriginDescription: ''
-    studyArmDescription: TCZ+SOC
+    studyArmDataOriginDescription: Data collected from subjects
+    studyArmDescription: Tocilizumab with Standard of Care
     studyArmId: StudyArm_1
     studyArmName: TCZ+SOC
 - id: 33
   properties:
     _type: Code
-    code: C165873
-    codeId: Code_125
+    code: C48262
+    codeId: Code_122
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
-    decode: OBSERVATION
-    label: Code_125
+    decode: Trial Screening
+    label: Code_122
 - id: 32
   properties:
     _type: StudyEpoch
     label: StudyEpoch_1
     nextStudyEpochId: StudyEpoch_2
     previousStudyEpochId: null
-    studyEpochDescription: Screening
+    studyEpochDescription: Screening Epoch
     studyEpochId: StudyEpoch_1
     studyEpochName: Screening
 - id: 35
@@ -301,19 +301,19 @@
 - id: 39
   properties:
     _type: Code
-    code: C165873
-    codeId: Code_126
+    code: C125938
+    codeId: Code_123
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
-    decode: OBSERVATION
-    label: Code_126
+    decode: Baseline Epoch
+    label: Code_123
 - id: 38
   properties:
     _type: StudyEpoch
     label: StudyEpoch_2
     nextStudyEpochId: StudyEpoch_3
     previousStudyEpochId: StudyEpoch_1
-    studyEpochDescription: Baseline
+    studyEpochDescription: Baseline Epoch
     studyEpochId: StudyEpoch_2
     studyEpochName: Baseline
 - id: 41
@@ -343,19 +343,19 @@
 - id: 45
   properties:
     _type: Code
-    code: C165873
-    codeId: Code_127
+    code: C101526
+    codeId: Code_124
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
-    decode: OBSERVATION
-    label: Code_127
+    decode: Treatment Epoch
+    label: Code_124
 - id: 44
   properties:
     _type: StudyEpoch
     label: StudyEpoch_3
     nextStudyEpochId: StudyEpoch_4
     previousStudyEpochId: StudyEpoch_2
-    studyEpochDescription: Treatment
+    studyEpochDescription: Treatment Epoch
     studyEpochId: StudyEpoch_3
     studyEpochName: Treatment
 - id: 47
@@ -385,19 +385,19 @@
 - id: 51
   properties:
     _type: Code
-    code: C165873
-    codeId: Code_128
+    code: C99158
+    codeId: Code_125
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
-    decode: OBSERVATION
-    label: Code_128
+    decode: Clinical Study Follow-up
+    label: Code_125
 - id: 50
   properties:
     _type: StudyEpoch
     label: StudyEpoch_4
     nextStudyEpochId: StudyEpoch_5
     previousStudyEpochId: StudyEpoch_3
-    studyEpochDescription: Follow Up
+    studyEpochDescription: Follow-up Epoch
     studyEpochId: StudyEpoch_4
     studyEpochName: Follow Up
 - id: 53
@@ -427,19 +427,19 @@
 - id: 57
   properties:
     _type: Code
-    code: C165873
-    codeId: Code_129
+    code: C99158
+    codeId: Code_126
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
-    decode: OBSERVATION
-    label: Code_129
+    decode: Clinical Study Follow-up
+    label: Code_126
 - id: 56
   properties:
     _type: StudyEpoch
     label: StudyEpoch_5
     nextStudyEpochId: null
     previousStudyEpochId: StudyEpoch_4
-    studyEpochDescription: Study Completion
+    studyEpochDescription: Completion Epoch
     studyEpochId: StudyEpoch_5
     studyEpochName: Study Completion
 - id: 59
@@ -469,27 +469,27 @@
 - id: 63
   properties:
     _type: Code
-    code: C174266
-    codeId: Code_133
+    code: C174268
+    codeId: Code_120
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
-    decode: Experimental Arm
-    label: Code_133
+    decode: Placebo Comparator Arm
+    label: Code_120
 - id: 64
   properties:
     _type: Code
     code: C188866
-    codeId: Code_132
+    codeId: Code_121
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Data Generated Within Study
-    label: Code_132
+    label: Code_121
 - id: 62
   properties:
     _type: StudyArm
     label: StudyArm_2
-    studyArmDataOriginDescription: ''
-    studyArmDescription: Placebo+SOC
+    studyArmDataOriginDescription: Data collected from subjects
+    studyArmDescription: Placebo with Standard of Care
     studyArmId: StudyArm_2
     studyArmName: Placebo+SOC
 - id: 61
@@ -2033,20 +2033,20 @@
   properties:
     _type: Code
     code: '840539006'
-    codeId: Code_118
+    codeId: Code_127
     codeSystem: SNOMED
     codeSystemVersion: January 31, 2018
     decode: Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)
-    label: Code_118
+    label: Code_127
 - id: 249
   properties:
     _type: Code
     code: U07.1
-    codeId: Code_119
+    codeId: Code_128
     codeSystem: ICD-10
     codeSystemVersion: ''
     decode: COVID-19 virus identified
-    label: Code_119
+    label: Code_128
 - id: 251
   properties:
     _type: AnalysisPopulation
@@ -3781,11 +3781,11 @@
   properties:
     _type: Code
     code: C49659
-    codeId: Code_120
+    codeId: Code_129
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Open Label Study
-    label: Code_120
+    label: Code_129
 - id: 424
   properties:
     _type: AliasCode
