@@ -10,7 +10,7 @@ from usdm_info import __model_version__ as model_version
 def save_as_json_file(raw_json, filename):
   with open('source_data/%s.json' % (filename), 'w', encoding='utf-8') as f:
     json_object = json.loads(raw_json)
-    f.write(json.dumps(json_object, indent=2))
+    json.dump(json_object, f, indent=2)
 
 def save_as_yaml_file(data, filepath):
   with open(filepath, 'w') as f:
