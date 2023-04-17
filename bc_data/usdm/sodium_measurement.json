@@ -1,5 +1,5 @@
 {
-  "biomedicalConceptId": "BiomedicalConcept_131",
+  "biomedicalConceptId": "BiomedicalConcept_28",
   "bcName": "Sodium Measurement",
   "bcSynonyms": [
     "Sodium",
@@ -8,16 +8,16 @@
   "bcReference": "/mdr/bc/packages/2023-02-13/biomedicalconcepts/C64809",
   "bcProperties": [
     {
-      "bcPropertyId": "BiomedicalConceptProperty_408",
+      "bcPropertyId": "BiomedicalConceptProperty_73",
       "bcPropertyName": "Laboratory Test Result",
       "bcPropertyRequired": true,
       "bcPropertyEnabled": true,
       "bcPropertyDatatype": "decimal",
       "bcPropertyResponseCodes": [],
       "bcPropertyConceptCode": {
-        "aliasCodeId": "AliasCode_539",
+        "aliasCodeId": "AliasCode_101",
         "standardCode": {
-          "codeId": "Code_563",
+          "codeId": "Code_101",
           "code": "C36292",
           "codeSystem": "NCI Thesaurus",
           "codeSystemVersion": "",
@@ -27,16 +27,16 @@
       }
     },
     {
-      "bcPropertyId": "BiomedicalConceptProperty_409",
+      "bcPropertyId": "BiomedicalConceptProperty_74",
       "bcPropertyName": "Laboratory Test Fasting Status",
       "bcPropertyRequired": true,
       "bcPropertyEnabled": true,
       "bcPropertyDatatype": "boolean",
       "bcPropertyResponseCodes": [],
       "bcPropertyConceptCode": {
-        "aliasCodeId": "AliasCode_540",
+        "aliasCodeId": "AliasCode_102",
         "standardCode": {
-          "codeId": "Code_564",
+          "codeId": "Code_102",
           "code": "C83309",
           "codeSystem": "NCI Thesaurus",
           "codeSystemVersion": "",
@@ -46,16 +46,16 @@
       }
     },
     {
-      "bcPropertyId": "BiomedicalConceptProperty_410",
+      "bcPropertyId": "BiomedicalConceptProperty_75",
       "bcPropertyName": "Molarity Unit",
       "bcPropertyRequired": true,
       "bcPropertyEnabled": true,
       "bcPropertyDatatype": "string",
       "bcPropertyResponseCodes": [],
       "bcPropertyConceptCode": {
-        "aliasCodeId": "AliasCode_541",
+        "aliasCodeId": "AliasCode_103",
         "standardCode": {
-          "codeId": "Code_565",
+          "codeId": "Code_103",
           "code": "C64567",
           "codeSystem": "NCI Thesaurus",
           "codeSystemVersion": "",
@@ -65,16 +65,16 @@
       }
     },
     {
-      "bcPropertyId": "BiomedicalConceptProperty_411",
+      "bcPropertyId": "BiomedicalConceptProperty_76",
       "bcPropertyName": "Biospecimen Type",
       "bcPropertyRequired": true,
       "bcPropertyEnabled": true,
       "bcPropertyDatatype": "string",
       "bcPropertyResponseCodes": [],
       "bcPropertyConceptCode": {
-        "aliasCodeId": "AliasCode_542",
+        "aliasCodeId": "AliasCode_104",
         "standardCode": {
-          "codeId": "Code_566",
+          "codeId": "Code_104",
           "code": "C70713",
           "codeSystem": "NCI Thesaurus",
           "codeSystemVersion": "",
@@ -85,9 +85,9 @@
     }
   ],
   "bcConceptCode": {
-    "aliasCodeId": "AliasCode_538",
+    "aliasCodeId": "AliasCode_100",
     "standardCode": {
-      "codeId": "Code_562",
+      "codeId": "Code_100",
       "code": "C64809",
       "codeSystem": "NCI Thesaurus",
       "codeSystemVersion": "",

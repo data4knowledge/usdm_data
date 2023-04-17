@@ -1,5 +1,5 @@
 {
-  "biomedicalConceptId": "BiomedicalConcept_140",
+  "biomedicalConceptId": "BiomedicalConcept_46",
   "bcName": "Body Temperature",
   "bcSynonyms": [
     "Temperature"
@@ -7,16 +7,16 @@
   "bcReference": "/mdr/bc/packages/2022-10-26/biomedicalconcepts/C174446",
   "bcProperties": [
     {
-      "bcPropertyId": "BiomedicalConceptProperty_432",
+      "bcPropertyId": "BiomedicalConceptProperty_120",
       "bcPropertyName": "Vital Signs Result",
       "bcPropertyRequired": true,
       "bcPropertyEnabled": true,
       "bcPropertyDatatype": "decimal",
       "bcPropertyResponseCodes": [],
       "bcPropertyConceptCode": {
-        "aliasCodeId": "AliasCode_572",
+        "aliasCodeId": "AliasCode_166",
         "standardCode": {
-          "codeId": "Code_601",
+          "codeId": "Code_177",
           "code": "C173522",
           "codeSystem": "NCI Thesaurus",
           "codeSystemVersion": "",
@@ -26,17 +26,17 @@
       }
     },
     {
-      "bcPropertyId": "BiomedicalConceptProperty_433",
+      "bcPropertyId": "BiomedicalConceptProperty_121",
       "bcPropertyName": "Unit of Temperature",
       "bcPropertyRequired": true,
       "bcPropertyEnabled": true,
       "bcPropertyDatatype": "string",
       "bcPropertyResponseCodes": [
         {
-          "responseCodeId": "ResponseCode_30",
+          "responseCodeId": "ResponseCode_12",
           "responseCodeEnabled": true,
           "code": {
-            "codeId": "Code_602",
+            "codeId": "Code_178",
             "code": "C42537",
             "codeSystem": "http://www.cdisc.org",
             "codeSystemVersion": "2022-12-16",
@@ -45,9 +45,9 @@
         }
       ],
       "bcPropertyConceptCode": {
-        "aliasCodeId": "AliasCode_573",
+        "aliasCodeId": "AliasCode_167",
         "standardCode": {
-          "codeId": "Code_603",
+          "codeId": "Code_179",
           "code": "C44276",
           "codeSystem": "NCI Thesaurus",
           "codeSystemVersion": "",
@@ -57,16 +57,16 @@
       }
     },
     {
-      "bcPropertyId": "BiomedicalConceptProperty_434",
+      "bcPropertyId": "BiomedicalConceptProperty_122",
       "bcPropertyName": "Vital Signs Location",
       "bcPropertyRequired": true,
       "bcPropertyEnabled": true,
       "bcPropertyDatatype": "string",
       "bcPropertyResponseCodes": [],
       "bcPropertyConceptCode": {
-        "aliasCodeId": "AliasCode_574",
+        "aliasCodeId": "AliasCode_168",
         "standardCode": {
-          "codeId": "Code_604",
+          "codeId": "Code_180",
           "code": "C83088",
           "codeSystem": "NCI Thesaurus",
           "codeSystemVersion": "",
@@ -77,9 +77,9 @@
     }
   ],
   "bcConceptCode": {
-    "aliasCodeId": "AliasCode_571",
+    "aliasCodeId": "AliasCode_165",
     "standardCode": {
-      "codeId": "Code_600",
+      "codeId": "Code_176",
       "code": "C174446",
       "codeSystem": "NCI Thesaurus",
       "codeSystemVersion": "",

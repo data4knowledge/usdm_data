@@ -1,5 +1,5 @@
 {
-  "biomedicalConceptId": "BiomedicalConcept_138",
+  "biomedicalConceptId": "BiomedicalConcept_42",
   "bcName": "Body Mass Index (BMI)",
   "bcSynonyms": [
     "BMI",
@@ -8,16 +8,16 @@
   "bcReference": "/mdr/bc/packages/2022-10-26/biomedicalconcepts/C16358",
   "bcProperties": [
     {
-      "bcPropertyId": "BiomedicalConceptProperty_428",
+      "bcPropertyId": "BiomedicalConceptProperty_111",
       "bcPropertyName": "Body Mass Index Finding",
       "bcPropertyRequired": true,
       "bcPropertyEnabled": true,
       "bcPropertyDatatype": "decimal",
       "bcPropertyResponseCodes": [],
       "bcPropertyConceptCode": {
-        "aliasCodeId": "AliasCode_566",
+        "aliasCodeId": "AliasCode_153",
         "standardCode": {
-          "codeId": "Code_590",
+          "codeId": "Code_154",
           "code": "C138901",
           "codeSystem": "NCI Thesaurus",
           "codeSystemVersion": "",
@@ -27,17 +27,17 @@
       }
     },
     {
-      "bcPropertyId": "BiomedicalConceptProperty_429",
+      "bcPropertyId": "BiomedicalConceptProperty_112",
       "bcPropertyName": "Unit of Mass Density",
       "bcPropertyRequired": true,
       "bcPropertyEnabled": true,
       "bcPropertyDatatype": "string",
       "bcPropertyResponseCodes": [
         {
-          "responseCodeId": "ResponseCode_25",
+          "responseCodeId": "ResponseCode_2",
           "responseCodeEnabled": true,
           "code": {
-            "codeId": "Code_591",
+            "codeId": "Code_155",
             "code": "C49671",
             "codeSystem": "http://www.cdisc.org",
             "codeSystemVersion": "2022-12-16",
@@ -46,9 +46,9 @@
         }
       ],
       "bcPropertyConceptCode": {
-        "aliasCodeId": "AliasCode_567",
+        "aliasCodeId": "AliasCode_154",
         "standardCode": {
-          "codeId": "Code_592",
+          "codeId": "Code_156",
           "code": "C42575",
           "codeSystem": "NCI Thesaurus",
           "codeSystemVersion": "",
@@ -59,9 +59,9 @@
     }
   ],
   "bcConceptCode": {
-    "aliasCodeId": "AliasCode_565",
+    "aliasCodeId": "AliasCode_152",
     "standardCode": {
-      "codeId": "Code_589",
+      "codeId": "Code_153",
       "code": "C16358",
       "codeSystem": "NCI Thesaurus",
       "codeSystemVersion": "",

@@ -1,5 +1,5 @@
 {
-  "biomedicalConceptId": "BiomedicalConcept_201",
+  "biomedicalConceptId": "BiomedicalConcept_168",
   "bcName": "Electrocardiogram Analysis",
   "bcSynonyms": [
     "ECG Analysis",
@@ -11,16 +11,16 @@
   "bcReference": "/mdr/bc/packages/2023-03-31/biomedicalconcepts/C181655",
   "bcProperties": [
     {
-      "bcPropertyId": "BiomedicalConceptProperty_655",
+      "bcPropertyId": "BiomedicalConceptProperty_569",
       "bcPropertyName": "Electrocardiogram Category",
       "bcPropertyRequired": true,
       "bcPropertyEnabled": true,
       "bcPropertyDatatype": "string",
       "bcPropertyResponseCodes": [],
       "bcPropertyConceptCode": {
-        "aliasCodeId": "AliasCode_856",
+        "aliasCodeId": "AliasCode_737",
         "standardCode": {
-          "codeId": "Code_902",
+          "codeId": "Code_782",
           "code": "C83254",
           "codeSystem": "NCI Thesaurus",
           "codeSystemVersion": "",
@@ -30,16 +30,16 @@
       }
     },
     {
-      "bcPropertyId": "BiomedicalConceptProperty_656",
+      "bcPropertyId": "BiomedicalConceptProperty_570",
       "bcPropertyName": "Electrocardiogram Position",
       "bcPropertyRequired": true,
       "bcPropertyEnabled": true,
       "bcPropertyDatatype": "string",
       "bcPropertyResponseCodes": [],
       "bcPropertyConceptCode": {
-        "aliasCodeId": "AliasCode_857",
+        "aliasCodeId": "AliasCode_738",
         "standardCode": {
-          "codeId": "Code_903",
+          "codeId": "Code_783",
           "code": "C83113",
           "codeSystem": "NCI Thesaurus",
           "codeSystemVersion": "",
@@ -49,16 +49,16 @@
       }
     },
     {
-      "bcPropertyId": "BiomedicalConceptProperty_657",
+      "bcPropertyId": "BiomedicalConceptProperty_571",
       "bcPropertyName": "Clinical Interpretation",
       "bcPropertyRequired": true,
       "bcPropertyEnabled": true,
       "bcPropertyDatatype": "string",
       "bcPropertyResponseCodes": [],
       "bcPropertyConceptCode": {
-        "aliasCodeId": "AliasCode_858",
+        "aliasCodeId": "AliasCode_739",
         "standardCode": {
-          "codeId": "Code_904",
+          "codeId": "Code_784",
           "code": "C125009",
           "codeSystem": "NCI Thesaurus",
           "codeSystemVersion": "",
@@ -68,16 +68,16 @@
       }
     },
     {
-      "bcPropertyId": "BiomedicalConceptProperty_658",
+      "bcPropertyId": "BiomedicalConceptProperty_572",
       "bcPropertyName": "Electrocardiogram Method",
       "bcPropertyRequired": true,
       "bcPropertyEnabled": true,
       "bcPropertyDatatype": "string",
       "bcPropertyResponseCodes": [],
       "bcPropertyConceptCode": {
-        "aliasCodeId": "AliasCode_859",
+        "aliasCodeId": "AliasCode_740",
         "standardCode": {
-          "codeId": "Code_905",
+          "codeId": "Code_785",
           "code": "C83089",
           "codeSystem": "NCI Thesaurus",
           "codeSystemVersion": "",
@@ -87,16 +87,16 @@
       }
     },
     {
-      "bcPropertyId": "BiomedicalConceptProperty_659",
+      "bcPropertyId": "BiomedicalConceptProperty_573",
       "bcPropertyName": "Electrocardiogram Evaluator",
       "bcPropertyRequired": true,
       "bcPropertyEnabled": true,
       "bcPropertyDatatype": "string",
       "bcPropertyResponseCodes": [],
       "bcPropertyConceptCode": {
-        "aliasCodeId": "AliasCode_860",
+        "aliasCodeId": "AliasCode_741",
         "standardCode": {
-          "codeId": "Code_906",
+          "codeId": "Code_786",
           "code": "C83259",
           "codeSystem": "NCI Thesaurus",
           "codeSystemVersion": "",
@@ -106,17 +106,17 @@
       }
     },
     {
-      "bcPropertyId": "BiomedicalConceptProperty_660",
+      "bcPropertyId": "BiomedicalConceptProperty_574",
       "bcPropertyName": "Electrocardiogram Results Clinically Significant Occurrence",
       "bcPropertyRequired": true,
       "bcPropertyEnabled": true,
       "bcPropertyDatatype": "string",
       "bcPropertyResponseCodes": [
         {
-          "responseCodeId": "ResponseCode_47",
+          "responseCodeId": "ResponseCode_46",
           "responseCodeEnabled": true,
           "code": {
-            "codeId": "Code_907",
+            "codeId": "Code_787",
             "code": "C17998",
             "codeSystem": "http://www.cdisc.org",
             "codeSystemVersion": "2022-12-16",
@@ -125,9 +125,9 @@
         }
       ],
       "bcPropertyConceptCode": {
-        "aliasCodeId": "AliasCode_861",
+        "aliasCodeId": "AliasCode_742",
         "standardCode": {
-          "codeId": "Code_908",
+          "codeId": "Code_788",
           "code": "C83019",
           "codeSystem": "NCI Thesaurus",
           "codeSystemVersion": "",
@@ -138,9 +138,9 @@
     }
   ],
   "bcConceptCode": {
-    "aliasCodeId": "AliasCode_855",
+    "aliasCodeId": "AliasCode_736",
     "standardCode": {
-      "codeId": "Code_901",
+      "codeId": "Code_781",
       "code": "C181655",
       "codeSystem": "NCI Thesaurus",
       "codeSystemVersion": "",

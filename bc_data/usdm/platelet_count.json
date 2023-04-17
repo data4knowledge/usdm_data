@@ -1,5 +1,5 @@
 {
-  "biomedicalConceptId": "BiomedicalConcept_152",
+  "biomedicalConceptId": "BiomedicalConcept_70",
   "bcName": "Platelet Count",
   "bcSynonyms": [
     "Thrombocytes",
@@ -9,16 +9,16 @@
   "bcReference": "/mdr/bc/packages/2023-02-13/biomedicalconcepts/C51951",
   "bcProperties": [
     {
-      "bcPropertyId": "BiomedicalConceptProperty_472",
+      "bcPropertyId": "BiomedicalConceptProperty_201",
       "bcPropertyName": "Laboratory Test Result",
       "bcPropertyRequired": true,
       "bcPropertyEnabled": true,
       "bcPropertyDatatype": "decimal",
       "bcPropertyResponseCodes": [],
       "bcPropertyConceptCode": {
-        "aliasCodeId": "AliasCode_624",
+        "aliasCodeId": "AliasCode_271",
         "standardCode": {
-          "codeId": "Code_662",
+          "codeId": "Code_299",
           "code": "C36292",
           "codeSystem": "NCI Thesaurus",
           "codeSystemVersion": "",
@@ -28,16 +28,16 @@
       }
     },
     {
-      "bcPropertyId": "BiomedicalConceptProperty_473",
+      "bcPropertyId": "BiomedicalConceptProperty_202",
       "bcPropertyName": "Laboratory Test Fasting Status",
       "bcPropertyRequired": true,
       "bcPropertyEnabled": true,
       "bcPropertyDatatype": "boolean",
       "bcPropertyResponseCodes": [],
       "bcPropertyConceptCode": {
-        "aliasCodeId": "AliasCode_625",
+        "aliasCodeId": "AliasCode_272",
         "standardCode": {
-          "codeId": "Code_663",
+          "codeId": "Code_300",
           "code": "C83309",
           "codeSystem": "NCI Thesaurus",
           "codeSystemVersion": "",
@@ -47,16 +47,16 @@
       }
     },
     {
-      "bcPropertyId": "BiomedicalConceptProperty_474",
+      "bcPropertyId": "BiomedicalConceptProperty_203",
       "bcPropertyName": "Unit of Number Concentration",
       "bcPropertyRequired": true,
       "bcPropertyEnabled": true,
       "bcPropertyDatatype": "string",
       "bcPropertyResponseCodes": [],
       "bcPropertyConceptCode": {
-        "aliasCodeId": "AliasCode_626",
+        "aliasCodeId": "AliasCode_273",
         "standardCode": {
-          "codeId": "Code_664",
+          "codeId": "Code_301",
           "code": "C67391",
           "codeSystem": "NCI Thesaurus",
           "codeSystemVersion": "",
@@ -66,16 +66,16 @@
       }
     },
     {
-      "bcPropertyId": "BiomedicalConceptProperty_475",
+      "bcPropertyId": "BiomedicalConceptProperty_204",
       "bcPropertyName": "Biospecimen Type",
       "bcPropertyRequired": true,
       "bcPropertyEnabled": true,
       "bcPropertyDatatype": "string",
       "bcPropertyResponseCodes": [],
       "bcPropertyConceptCode": {
-        "aliasCodeId": "AliasCode_627",
+        "aliasCodeId": "AliasCode_274",
         "standardCode": {
-          "codeId": "Code_665",
+          "codeId": "Code_302",
           "code": "C70713",
           "codeSystem": "NCI Thesaurus",
           "codeSystemVersion": "",
@@ -86,9 +86,9 @@
     }
   ],
   "bcConceptCode": {
-    "aliasCodeId": "AliasCode_623",
+    "aliasCodeId": "AliasCode_270",
     "standardCode": {
-      "codeId": "Code_661",
+      "codeId": "Code_298",
       "code": "C51951",
       "codeSystem": "NCI Thesaurus",
       "codeSystemVersion": "",

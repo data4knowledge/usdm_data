@@ -1,5 +1,5 @@
 {
-  "biomedicalConceptId": "BiomedicalConcept_124",
+  "biomedicalConceptId": "BiomedicalConcept_14",
   "bcName": "Leukocyte Count",
   "bcSynonyms": [
     "WBC",
@@ -8,16 +8,16 @@
   "bcReference": "/mdr/bc/packages/2023-02-13/biomedicalconcepts/C51948",
   "bcProperties": [
     {
-      "bcPropertyId": "BiomedicalConceptProperty_379",
+      "bcPropertyId": "BiomedicalConceptProperty_15",
       "bcPropertyName": "Laboratory Test Result",
       "bcPropertyRequired": true,
       "bcPropertyEnabled": true,
       "bcPropertyDatatype": "decimal",
       "bcPropertyResponseCodes": [],
       "bcPropertyConceptCode": {
-        "aliasCodeId": "AliasCode_503",
+        "aliasCodeId": "AliasCode_29",
         "standardCode": {
-          "codeId": "Code_527",
+          "codeId": "Code_29",
           "code": "C36292",
           "codeSystem": "NCI Thesaurus",
           "codeSystemVersion": "",
@@ -27,16 +27,16 @@
       }
     },
     {
-      "bcPropertyId": "BiomedicalConceptProperty_380",
+      "bcPropertyId": "BiomedicalConceptProperty_16",
       "bcPropertyName": "Laboratory Test Fasting Status",
       "bcPropertyRequired": true,
       "bcPropertyEnabled": true,
       "bcPropertyDatatype": "boolean",
       "bcPropertyResponseCodes": [],
       "bcPropertyConceptCode": {
-        "aliasCodeId": "AliasCode_504",
+        "aliasCodeId": "AliasCode_30",
         "standardCode": {
-          "codeId": "Code_528",
+          "codeId": "Code_30",
           "code": "C83309",
           "codeSystem": "NCI Thesaurus",
           "codeSystemVersion": "",
@@ -46,16 +46,16 @@
       }
     },
     {
-      "bcPropertyId": "BiomedicalConceptProperty_381",
+      "bcPropertyId": "BiomedicalConceptProperty_17",
       "bcPropertyName": "Unit of Number Concentration",
       "bcPropertyRequired": true,
       "bcPropertyEnabled": true,
       "bcPropertyDatatype": "string",
       "bcPropertyResponseCodes": [],
       "bcPropertyConceptCode": {
-        "aliasCodeId": "AliasCode_505",
+        "aliasCodeId": "AliasCode_31",
         "standardCode": {
-          "codeId": "Code_529",
+          "codeId": "Code_31",
           "code": "C67391",
           "codeSystem": "NCI Thesaurus",
           "codeSystemVersion": "",
@@ -65,16 +65,16 @@
       }
     },
     {
-      "bcPropertyId": "BiomedicalConceptProperty_382",
+      "bcPropertyId": "BiomedicalConceptProperty_18",
       "bcPropertyName": "Biospecimen Type",
       "bcPropertyRequired": true,
       "bcPropertyEnabled": true,
       "bcPropertyDatatype": "string",
       "bcPropertyResponseCodes": [],
       "bcPropertyConceptCode": {
-        "aliasCodeId": "AliasCode_506",
+        "aliasCodeId": "AliasCode_32",
         "standardCode": {
-          "codeId": "Code_530",
+          "codeId": "Code_32",
           "code": "C70713",
           "codeSystem": "NCI Thesaurus",
           "codeSystemVersion": "",
@@ -85,9 +85,9 @@
     }
   ],
   "bcConceptCode": {
-    "aliasCodeId": "AliasCode_502",
+    "aliasCodeId": "AliasCode_28",
     "standardCode": {
-      "codeId": "Code_526",
+      "codeId": "Code_28",
       "code": "C51948",
       "codeSystem": "NCI Thesaurus",
       "codeSystemVersion": "",

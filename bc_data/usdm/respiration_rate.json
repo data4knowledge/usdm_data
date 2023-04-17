@@ -1,20 +1,20 @@
 {
-  "biomedicalConceptId": "BiomedicalConcept_146",
+  "biomedicalConceptId": "BiomedicalConcept_58",
   "bcName": "Respiration Rate",
   "bcSynonyms": [],
   "bcReference": "/mdr/bc/packages/2022-10-26/biomedicalconcepts/C49678",
   "bcProperties": [
     {
-      "bcPropertyId": "BiomedicalConceptProperty_459",
+      "bcPropertyId": "BiomedicalConceptProperty_173",
       "bcPropertyName": "Vital Signs Result",
       "bcPropertyRequired": true,
       "bcPropertyEnabled": true,
       "bcPropertyDatatype": "integer",
       "bcPropertyResponseCodes": [],
       "bcPropertyConceptCode": {
-        "aliasCodeId": "AliasCode_605",
+        "aliasCodeId": "AliasCode_231",
         "standardCode": {
-          "codeId": "Code_639",
+          "codeId": "Code_252",
           "code": "C173522",
           "codeSystem": "NCI Thesaurus",
           "codeSystemVersion": "",
@@ -24,17 +24,17 @@
       }
     },
     {
-      "bcPropertyId": "BiomedicalConceptProperty_460",
+      "bcPropertyId": "BiomedicalConceptProperty_174",
       "bcPropertyName": "Count per Minute",
       "bcPropertyRequired": true,
       "bcPropertyEnabled": true,
       "bcPropertyDatatype": "string",
       "bcPropertyResponseCodes": [
         {
-          "responseCodeId": "ResponseCode_35",
+          "responseCodeId": "ResponseCode_22",
           "responseCodeEnabled": true,
           "code": {
-            "codeId": "Code_640",
+            "codeId": "Code_253",
             "code": "C49674",
             "codeSystem": "http://www.cdisc.org",
             "codeSystemVersion": "2022-12-16",
@@ -43,9 +43,9 @@
         }
       ],
       "bcPropertyConceptCode": {
-        "aliasCodeId": "AliasCode_606",
+        "aliasCodeId": "AliasCode_232",
         "standardCode": {
-          "codeId": "Code_641",
+          "codeId": "Code_254",
           "code": "C73688",
           "codeSystem": "NCI Thesaurus",
           "codeSystemVersion": "",
@@ -56,9 +56,9 @@
     }
   ],
   "bcConceptCode": {
-    "aliasCodeId": "AliasCode_604",
+    "aliasCodeId": "AliasCode_230",
     "standardCode": {
-      "codeId": "Code_638",
+      "codeId": "Code_251",
       "code": "C49678",
       "codeSystem": "NCI Thesaurus",
       "codeSystemVersion": "",

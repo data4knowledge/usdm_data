@@ -1,5 +1,5 @@
 {
-  "biomedicalConceptId": "BiomedicalConcept_173",
+  "biomedicalConceptId": "BiomedicalConcept_112",
   "bcName": "Carboxyhemoglobin Measurement",
   "bcSynonyms": [
     "Carboxyhemoglobin"
@@ -7,16 +7,16 @@
   "bcReference": "/mdr/bc/packages/2023-02-13/biomedicalconcepts/C96591",
   "bcProperties": [
     {
-      "bcPropertyId": "BiomedicalConceptProperty_539",
+      "bcPropertyId": "BiomedicalConceptProperty_334",
       "bcPropertyName": "Laboratory Test Result",
       "bcPropertyRequired": true,
       "bcPropertyEnabled": true,
       "bcPropertyDatatype": "decimal",
       "bcPropertyResponseCodes": [],
       "bcPropertyConceptCode": {
-        "aliasCodeId": "AliasCode_712",
+        "aliasCodeId": "AliasCode_446",
         "standardCode": {
-          "codeId": "Code_750",
+          "codeId": "Code_474",
           "code": "C36292",
           "codeSystem": "NCI Thesaurus",
           "codeSystemVersion": "",
@@ -26,16 +26,16 @@
       }
     },
     {
-      "bcPropertyId": "BiomedicalConceptProperty_540",
+      "bcPropertyId": "BiomedicalConceptProperty_335",
       "bcPropertyName": "Unit of Mass Concentration",
       "bcPropertyRequired": true,
       "bcPropertyEnabled": true,
       "bcPropertyDatatype": "string",
       "bcPropertyResponseCodes": [],
       "bcPropertyConceptCode": {
-        "aliasCodeId": "AliasCode_713",
+        "aliasCodeId": "AliasCode_447",
         "standardCode": {
-          "codeId": "Code_751",
+          "codeId": "Code_475",
           "code": "C64571",
           "codeSystem": "NCI Thesaurus",
           "codeSystemVersion": "",
@@ -45,16 +45,16 @@
       }
     },
     {
-      "bcPropertyId": "BiomedicalConceptProperty_541",
+      "bcPropertyId": "BiomedicalConceptProperty_336",
       "bcPropertyName": "Biospecimen Type",
       "bcPropertyRequired": true,
       "bcPropertyEnabled": true,
       "bcPropertyDatatype": "string",
       "bcPropertyResponseCodes": [],
       "bcPropertyConceptCode": {
-        "aliasCodeId": "AliasCode_714",
+        "aliasCodeId": "AliasCode_448",
         "standardCode": {
-          "codeId": "Code_752",
+          "codeId": "Code_476",
           "code": "C70713",
           "codeSystem": "NCI Thesaurus",
           "codeSystemVersion": "",
@@ -65,9 +65,9 @@
     }
   ],
   "bcConceptCode": {
-    "aliasCodeId": "AliasCode_711",
+    "aliasCodeId": "AliasCode_445",
     "standardCode": {
-      "codeId": "Code_749",
+      "codeId": "Code_473",
       "code": "C96591",
       "codeSystem": "NCI Thesaurus",
       "codeSystemVersion": "",

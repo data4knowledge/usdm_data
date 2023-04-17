@@ -1,5 +1,5 @@
 {
-  "biomedicalConceptId": "BiomedicalConcept_149",
+  "biomedicalConceptId": "BiomedicalConcept_64",
   "bcName": "Body Weight",
   "bcSynonyms": [
     "Weight"
@@ -7,16 +7,16 @@
   "bcReference": "/mdr/bc/packages/2022-10-26/biomedicalconcepts/C81328",
   "bcProperties": [
     {
-      "bcPropertyId": "BiomedicalConceptProperty_462",
+      "bcPropertyId": "BiomedicalConceptProperty_179",
       "bcPropertyName": "Vital Signs Result",
       "bcPropertyRequired": true,
       "bcPropertyEnabled": true,
       "bcPropertyDatatype": "decimal",
       "bcPropertyResponseCodes": [],
       "bcPropertyConceptCode": {
-        "aliasCodeId": "AliasCode_611",
+        "aliasCodeId": "AliasCode_243",
         "standardCode": {
-          "codeId": "Code_646",
+          "codeId": "Code_268",
           "code": "C173522",
           "codeSystem": "NCI Thesaurus",
           "codeSystemVersion": "",
@@ -26,17 +26,17 @@
       }
     },
     {
-      "bcPropertyId": "BiomedicalConceptProperty_463",
+      "bcPropertyId": "BiomedicalConceptProperty_180",
       "bcPropertyName": "Unit of Weight",
       "bcPropertyRequired": true,
       "bcPropertyEnabled": true,
       "bcPropertyDatatype": "string",
       "bcPropertyResponseCodes": [
         {
-          "responseCodeId": "ResponseCode_36",
+          "responseCodeId": "ResponseCode_26",
           "responseCodeEnabled": true,
           "code": {
-            "codeId": "Code_647",
+            "codeId": "Code_269",
             "code": "C28252",
             "codeSystem": "http://www.cdisc.org",
             "codeSystemVersion": "2022-12-16",
@@ -44,10 +44,10 @@
           }
         },
         {
-          "responseCodeId": "ResponseCode_37",
+          "responseCodeId": "ResponseCode_27",
           "responseCodeEnabled": true,
           "code": {
-            "codeId": "Code_648",
+            "codeId": "Code_270",
             "code": "C48155",
             "codeSystem": "http://www.cdisc.org",
             "codeSystemVersion": "2022-12-16",
@@ -55,10 +55,10 @@
           }
         },
         {
-          "responseCodeId": "ResponseCode_38",
+          "responseCodeId": "ResponseCode_28",
           "responseCodeEnabled": true,
           "code": {
-            "codeId": "Code_649",
+            "codeId": "Code_271",
             "code": "C48531",
             "codeSystem": "http://www.cdisc.org",
             "codeSystemVersion": "2022-12-16",
@@ -67,9 +67,9 @@
         }
       ],
       "bcPropertyConceptCode": {
-        "aliasCodeId": "AliasCode_612",
+        "aliasCodeId": "AliasCode_244",
         "standardCode": {
-          "codeId": "Code_650",
+          "codeId": "Code_272",
           "code": "C48208",
           "codeSystem": "NCI Thesaurus",
           "codeSystemVersion": "",
@@ -80,9 +80,9 @@
     }
   ],
   "bcConceptCode": {
-    "aliasCodeId": "AliasCode_610",
+    "aliasCodeId": "AliasCode_242",
     "standardCode": {
-      "codeId": "Code_645",
+      "codeId": "Code_267",
       "code": "C81328",
       "codeSystem": "NCI Thesaurus",
       "codeSystemVersion": "",

@@ -1,0 +1,100 @@
+{
+  "biomedicalConceptId": "BiomedicalConcept_208",
+  "bcName": "Severe Acute Respiratory Syndrome Coronavirus 2 Antibody Measurement",
+  "bcSynonyms": [
+    "SARS-CoV-2 Antibody Detection",
+    "SARS-CoV-2 Antibody Test",
+    "COVID-19 Antibody Test",
+    "COVID-19 Antibody Detection"
+  ],
+  "bcReference": "/mdr/bc/packages/2023-03-31/biomedicalconcepts/C171439",
+  "bcProperties": [
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_677",
+      "bcPropertyName": "Measurement, Test or Examination Detail",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "string",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_885",
+        "standardCode": {
+          "codeId": "Code_931",
+          "code": "C117062",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Measurement, Test or Examination Detail"
+        },
+        "standardCodeAliases": []
+      }
+    },
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_678",
+      "bcPropertyName": "Laboratory Test Result",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "string",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_886",
+        "standardCode": {
+          "codeId": "Code_932",
+          "code": "C36292",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Laboratory Test Result"
+        },
+        "standardCodeAliases": []
+      }
+    },
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_679",
+      "bcPropertyName": "Laboratory Test Method",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "string",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_887",
+        "standardCode": {
+          "codeId": "Code_933",
+          "code": "C83312",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Laboratory Test Method"
+        },
+        "standardCodeAliases": []
+      }
+    },
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_680",
+      "bcPropertyName": "Biospecimen Type",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "string",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_888",
+        "standardCode": {
+          "codeId": "Code_934",
+          "code": "C70713",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Biospecimen Type"
+        },
+        "standardCodeAliases": []
+      }
+    }
+  ],
+  "bcConceptCode": {
+    "aliasCodeId": "AliasCode_884",
+    "standardCode": {
+      "codeId": "Code_930",
+      "code": "C171439",
+      "codeSystem": "NCI Thesaurus",
+      "codeSystemVersion": "",
+      "decode": "Severe Acute Respiratory Syndrome Coronavirus 2 Antibody Measurement"
+    },
+    "standardCodeAliases": []
+  }
+}

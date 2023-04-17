@@ -1,5 +1,5 @@
 {
-  "biomedicalConceptId": "BiomedicalConcept_160",
+  "biomedicalConceptId": "BiomedicalConcept_86",
   "bcName": "Urate Measurement",
   "bcSynonyms": [
     "Urate",
@@ -8,16 +8,16 @@
   "bcReference": "/mdr/bc/packages/2023-02-13/biomedicalconcepts/C64814",
   "bcProperties": [
     {
-      "bcPropertyId": "BiomedicalConceptProperty_504",
+      "bcPropertyId": "BiomedicalConceptProperty_265",
       "bcPropertyName": "Laboratory Test Result",
       "bcPropertyRequired": true,
       "bcPropertyEnabled": true,
       "bcPropertyDatatype": "decimal",
       "bcPropertyResponseCodes": [],
       "bcPropertyConceptCode": {
-        "aliasCodeId": "AliasCode_664",
+        "aliasCodeId": "AliasCode_351",
         "standardCode": {
-          "codeId": "Code_702",
+          "codeId": "Code_379",
           "code": "C36292",
           "codeSystem": "NCI Thesaurus",
           "codeSystemVersion": "",
@@ -27,16 +27,16 @@
       }
     },
     {
-      "bcPropertyId": "BiomedicalConceptProperty_505",
+      "bcPropertyId": "BiomedicalConceptProperty_266",
       "bcPropertyName": "Laboratory Test Fasting Status",
       "bcPropertyRequired": true,
       "bcPropertyEnabled": true,
       "bcPropertyDatatype": "boolean",
       "bcPropertyResponseCodes": [],
       "bcPropertyConceptCode": {
-        "aliasCodeId": "AliasCode_665",
+        "aliasCodeId": "AliasCode_352",
         "standardCode": {
-          "codeId": "Code_703",
+          "codeId": "Code_380",
           "code": "C83309",
           "codeSystem": "NCI Thesaurus",
           "codeSystemVersion": "",
@@ -46,16 +46,16 @@
       }
     },
     {
-      "bcPropertyId": "BiomedicalConceptProperty_506",
+      "bcPropertyId": "BiomedicalConceptProperty_267",
       "bcPropertyName": "Unit of Mass or Substance Concentration",
       "bcPropertyRequired": true,
       "bcPropertyEnabled": true,
       "bcPropertyDatatype": "string",
       "bcPropertyResponseCodes": [],
       "bcPropertyConceptCode": {
-        "aliasCodeId": "AliasCode_666",
+        "aliasCodeId": "AliasCode_353",
         "standardCode": {
-          "codeId": "Code_704",
+          "codeId": "Code_381",
           "code": "NEW_2",
           "codeSystem": "NCI Thesaurus",
           "codeSystemVersion": "",
@@ -65,16 +65,16 @@
       }
     },
     {
-      "bcPropertyId": "BiomedicalConceptProperty_507",
+      "bcPropertyId": "BiomedicalConceptProperty_268",
       "bcPropertyName": "Biospecimen Type",
       "bcPropertyRequired": true,
       "bcPropertyEnabled": true,
       "bcPropertyDatatype": "string",
       "bcPropertyResponseCodes": [],
       "bcPropertyConceptCode": {
-        "aliasCodeId": "AliasCode_667",
+        "aliasCodeId": "AliasCode_354",
         "standardCode": {
-          "codeId": "Code_705",
+          "codeId": "Code_382",
           "code": "C70713",
           "codeSystem": "NCI Thesaurus",
           "codeSystemVersion": "",
@@ -85,9 +85,9 @@
     }
   ],
   "bcConceptCode": {
-    "aliasCodeId": "AliasCode_663",
+    "aliasCodeId": "AliasCode_350",
     "standardCode": {
-      "codeId": "Code_701",
+      "codeId": "Code_378",
       "code": "C64814",
       "codeSystem": "NCI Thesaurus",
       "codeSystemVersion": "",

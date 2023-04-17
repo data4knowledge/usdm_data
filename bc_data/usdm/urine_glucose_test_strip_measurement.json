@@ -1,5 +1,5 @@
 {
-  "biomedicalConceptId": "BiomedicalConcept_136",
+  "biomedicalConceptId": "BiomedicalConcept_38",
   "bcName": "Urine Glucose Test Strip Measurement",
   "bcSynonyms": [
     "Urine Glucose Dipstick"
@@ -7,16 +7,16 @@
   "bcReference": "/mdr/bc/packages/2022-10-26/biomedicalconcepts/NEW_1",
   "bcProperties": [
     {
-      "bcPropertyId": "BiomedicalConceptProperty_421",
+      "bcPropertyId": "BiomedicalConceptProperty_99",
       "bcPropertyName": "Laboratory Test Result",
       "bcPropertyRequired": true,
       "bcPropertyEnabled": true,
       "bcPropertyDatatype": "string",
       "bcPropertyResponseCodes": [],
       "bcPropertyConceptCode": {
-        "aliasCodeId": "AliasCode_557",
+        "aliasCodeId": "AliasCode_137",
         "standardCode": {
-          "codeId": "Code_581",
+          "codeId": "Code_137",
           "code": "C36292",
           "codeSystem": "NCI Thesaurus",
           "codeSystemVersion": "",
@@ -26,16 +26,16 @@
       }
     },
     {
-      "bcPropertyId": "BiomedicalConceptProperty_422",
+      "bcPropertyId": "BiomedicalConceptProperty_100",
       "bcPropertyName": "Laboratory Test Fasting Status",
       "bcPropertyRequired": true,
       "bcPropertyEnabled": true,
       "bcPropertyDatatype": "boolean",
       "bcPropertyResponseCodes": [],
       "bcPropertyConceptCode": {
-        "aliasCodeId": "AliasCode_558",
+        "aliasCodeId": "AliasCode_138",
         "standardCode": {
-          "codeId": "Code_582",
+          "codeId": "Code_138",
           "code": "C83309",
           "codeSystem": "NCI Thesaurus",
           "codeSystemVersion": "",
@@ -45,16 +45,16 @@
       }
     },
     {
-      "bcPropertyId": "BiomedicalConceptProperty_423",
+      "bcPropertyId": "BiomedicalConceptProperty_101",
       "bcPropertyName": "Biospecimen Type",
       "bcPropertyRequired": true,
       "bcPropertyEnabled": true,
       "bcPropertyDatatype": "string",
       "bcPropertyResponseCodes": [],
       "bcPropertyConceptCode": {
-        "aliasCodeId": "AliasCode_559",
+        "aliasCodeId": "AliasCode_139",
         "standardCode": {
-          "codeId": "Code_583",
+          "codeId": "Code_139",
           "code": "C70713",
           "codeSystem": "NCI Thesaurus",
           "codeSystemVersion": "",
@@ -64,16 +64,16 @@
       }
     },
     {
-      "bcPropertyId": "BiomedicalConceptProperty_424",
+      "bcPropertyId": "BiomedicalConceptProperty_102",
       "bcPropertyName": "Laboratory Test Method",
       "bcPropertyRequired": true,
       "bcPropertyEnabled": true,
       "bcPropertyDatatype": "string",
       "bcPropertyResponseCodes": [],
       "bcPropertyConceptCode": {
-        "aliasCodeId": "AliasCode_560",
+        "aliasCodeId": "AliasCode_140",
         "standardCode": {
-          "codeId": "Code_584",
+          "codeId": "Code_140",
           "code": "C83312",
           "codeSystem": "NCI Thesaurus",
           "codeSystemVersion": "",
@@ -84,9 +84,9 @@
     }
   ],
   "bcConceptCode": {
-    "aliasCodeId": "AliasCode_556",
+    "aliasCodeId": "AliasCode_136",
     "standardCode": {
-      "codeId": "Code_580",
+      "codeId": "Code_136",
       "code": "NEW_1",
       "codeSystem": "NCI Thesaurus",
       "codeSystemVersion": "",

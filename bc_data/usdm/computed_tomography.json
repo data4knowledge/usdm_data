@@ -1,0 +1,82 @@
+{
+  "biomedicalConceptId": "BiomedicalConcept_224",
+  "bcName": "Computed Tomography",
+  "bcSynonyms": [
+    "CAT Scan",
+    "Computed Axial Tomography",
+    "Computed Tomography",
+    "Computerized Tomography",
+    "CT"
+  ],
+  "bcReference": "/mdr/bc/packages/2023-03-31/biomedicalconcepts/C17204",
+  "bcProperties": [
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_722",
+      "bcPropertyName": "Procedure Pre-specified",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "boolean",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_946",
+        "standardCode": {
+          "codeId": "Code_992",
+          "code": "C117515",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Procedure Pre-specified"
+        },
+        "standardCodeAliases": []
+      }
+    },
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_723",
+      "bcPropertyName": "Procedure Occurrence",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "boolean",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_947",
+        "standardCode": {
+          "codeId": "Code_993",
+          "code": "C117516",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Procedure Occurrence"
+        },
+        "standardCodeAliases": []
+      }
+    },
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_724",
+      "bcPropertyName": "Procedure Location",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "string",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_948",
+        "standardCode": {
+          "codeId": "Code_994",
+          "code": "C117525",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Procedure Location"
+        },
+        "standardCodeAliases": []
+      }
+    }
+  ],
+  "bcConceptCode": {
+    "aliasCodeId": "AliasCode_945",
+    "standardCode": {
+      "codeId": "Code_991",
+      "code": "C17204",
+      "codeSystem": "NCI Thesaurus",
+      "codeSystemVersion": "",
+      "decode": "Computed Tomography"
+    },
+    "standardCodeAliases": []
+  }
+}

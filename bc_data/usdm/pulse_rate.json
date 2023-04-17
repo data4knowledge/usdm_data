@@ -1,5 +1,5 @@
 {
-  "biomedicalConceptId": "BiomedicalConcept_144",
+  "biomedicalConceptId": "BiomedicalConcept_54",
   "bcName": "Pulse Rate",
   "bcSynonyms": [
     "Pulse"
@@ -7,16 +7,16 @@
   "bcReference": "/mdr/bc/packages/2022-10-26/biomedicalconcepts/C49676",
   "bcProperties": [
     {
-      "bcPropertyId": "BiomedicalConceptProperty_447",
+      "bcPropertyId": "BiomedicalConceptProperty_153",
       "bcPropertyName": "Vital Signs Result",
       "bcPropertyRequired": true,
       "bcPropertyEnabled": true,
       "bcPropertyDatatype": "integer",
       "bcPropertyResponseCodes": [],
       "bcPropertyConceptCode": {
-        "aliasCodeId": "AliasCode_591",
+        "aliasCodeId": "AliasCode_207",
         "standardCode": {
-          "codeId": "Code_623",
+          "codeId": "Code_224",
           "code": "C173522",
           "codeSystem": "NCI Thesaurus",
           "codeSystemVersion": "",
@@ -26,17 +26,17 @@
       }
     },
     {
-      "bcPropertyId": "BiomedicalConceptProperty_448",
+      "bcPropertyId": "BiomedicalConceptProperty_154",
       "bcPropertyName": "Count per Minute",
       "bcPropertyRequired": true,
       "bcPropertyEnabled": true,
       "bcPropertyDatatype": "string",
       "bcPropertyResponseCodes": [
         {
-          "responseCodeId": "ResponseCode_33",
+          "responseCodeId": "ResponseCode_18",
           "responseCodeEnabled": true,
           "code": {
-            "codeId": "Code_624",
+            "codeId": "Code_225",
             "code": "C49673",
             "codeSystem": "http://www.cdisc.org",
             "codeSystemVersion": "2022-12-16",
@@ -45,9 +45,9 @@
         }
       ],
       "bcPropertyConceptCode": {
-        "aliasCodeId": "AliasCode_592",
+        "aliasCodeId": "AliasCode_208",
         "standardCode": {
-          "codeId": "Code_625",
+          "codeId": "Code_226",
           "code": "C73688",
           "codeSystem": "NCI Thesaurus",
           "codeSystemVersion": "",
@@ -57,16 +57,16 @@
       }
     },
     {
-      "bcPropertyId": "BiomedicalConceptProperty_449",
+      "bcPropertyId": "BiomedicalConceptProperty_155",
       "bcPropertyName": "Vital Signs Location",
       "bcPropertyRequired": true,
       "bcPropertyEnabled": true,
       "bcPropertyDatatype": "string",
       "bcPropertyResponseCodes": [],
       "bcPropertyConceptCode": {
-        "aliasCodeId": "AliasCode_593",
+        "aliasCodeId": "AliasCode_209",
         "standardCode": {
-          "codeId": "Code_626",
+          "codeId": "Code_227",
           "code": "C83088",
           "codeSystem": "NCI Thesaurus",
           "codeSystemVersion": "",
@@ -76,16 +76,16 @@
       }
     },
     {
-      "bcPropertyId": "BiomedicalConceptProperty_450",
+      "bcPropertyId": "BiomedicalConceptProperty_156",
       "bcPropertyName": "Vital Signs Laterality",
       "bcPropertyRequired": true,
       "bcPropertyEnabled": true,
       "bcPropertyDatatype": "string",
       "bcPropertyResponseCodes": [],
       "bcPropertyConceptCode": {
-        "aliasCodeId": "AliasCode_594",
+        "aliasCodeId": "AliasCode_210",
         "standardCode": {
-          "codeId": "Code_627",
+          "codeId": "Code_228",
           "code": "C123975",
           "codeSystem": "NCI Thesaurus",
           "codeSystemVersion": "",
@@ -95,16 +95,16 @@
       }
     },
     {
-      "bcPropertyId": "BiomedicalConceptProperty_451",
+      "bcPropertyId": "BiomedicalConceptProperty_157",
       "bcPropertyName": "Test Method",
       "bcPropertyRequired": true,
       "bcPropertyEnabled": true,
       "bcPropertyDatatype": "string",
       "bcPropertyResponseCodes": [],
       "bcPropertyConceptCode": {
-        "aliasCodeId": "AliasCode_595",
+        "aliasCodeId": "AliasCode_211",
         "standardCode": {
-          "codeId": "Code_628",
+          "codeId": "Code_229",
           "code": "C82535",
           "codeSystem": "NCI Thesaurus",
           "codeSystemVersion": "",
@@ -114,16 +114,16 @@
       }
     },
     {
-      "bcPropertyId": "BiomedicalConceptProperty_452",
+      "bcPropertyId": "BiomedicalConceptProperty_158",
       "bcPropertyName": "Vital Signs Position",
       "bcPropertyRequired": true,
       "bcPropertyEnabled": true,
       "bcPropertyDatatype": "string",
       "bcPropertyResponseCodes": [],
       "bcPropertyConceptCode": {
-        "aliasCodeId": "AliasCode_596",
+        "aliasCodeId": "AliasCode_212",
         "standardCode": {
-          "codeId": "Code_629",
+          "codeId": "Code_230",
           "code": "C83114",
           "codeSystem": "NCI Thesaurus",
           "codeSystemVersion": "",
@@ -134,9 +134,9 @@
     }
   ],
   "bcConceptCode": {
-    "aliasCodeId": "AliasCode_590",
+    "aliasCodeId": "AliasCode_206",
     "standardCode": {
-      "codeId": "Code_622",
+      "codeId": "Code_223",
       "code": "C49676",
       "codeSystem": "NCI Thesaurus",
       "codeSystemVersion": "",

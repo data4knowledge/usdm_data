@@ -1,5 +1,5 @@
 {
-  "biomedicalConceptId": "BiomedicalConcept_168",
+  "biomedicalConceptId": "BiomedicalConcept_102",
   "bcName": "Nornicotine Measurement",
   "bcSynonyms": [
     "Nornicotine"
@@ -7,16 +7,16 @@
   "bcReference": "/mdr/bc/packages/2023-02-13/biomedicalconcepts/C147406",
   "bcProperties": [
     {
-      "bcPropertyId": "BiomedicalConceptProperty_533",
+      "bcPropertyId": "BiomedicalConceptProperty_322",
       "bcPropertyName": "Laboratory Test Result",
       "bcPropertyRequired": true,
       "bcPropertyEnabled": true,
       "bcPropertyDatatype": "decimal",
       "bcPropertyResponseCodes": [],
       "bcPropertyConceptCode": {
-        "aliasCodeId": "AliasCode_701",
+        "aliasCodeId": "AliasCode_424",
         "standardCode": {
-          "codeId": "Code_739",
+          "codeId": "Code_452",
           "code": "C36292",
           "codeSystem": "NCI Thesaurus",
           "codeSystemVersion": "",
@@ -26,16 +26,16 @@
       }
     },
     {
-      "bcPropertyId": "BiomedicalConceptProperty_534",
+      "bcPropertyId": "BiomedicalConceptProperty_323",
       "bcPropertyName": "Unit of Mass Concentration",
       "bcPropertyRequired": true,
       "bcPropertyEnabled": true,
       "bcPropertyDatatype": "string",
       "bcPropertyResponseCodes": [],
       "bcPropertyConceptCode": {
-        "aliasCodeId": "AliasCode_702",
+        "aliasCodeId": "AliasCode_425",
         "standardCode": {
-          "codeId": "Code_740",
+          "codeId": "Code_453",
           "code": "C64571",
           "codeSystem": "NCI Thesaurus",
           "codeSystemVersion": "",
@@ -45,16 +45,16 @@
       }
     },
     {
-      "bcPropertyId": "BiomedicalConceptProperty_535",
+      "bcPropertyId": "BiomedicalConceptProperty_324",
       "bcPropertyName": "Biospecimen Type",
       "bcPropertyRequired": true,
       "bcPropertyEnabled": true,
       "bcPropertyDatatype": "string",
       "bcPropertyResponseCodes": [],
       "bcPropertyConceptCode": {
-        "aliasCodeId": "AliasCode_703",
+        "aliasCodeId": "AliasCode_426",
         "standardCode": {
-          "codeId": "Code_741",
+          "codeId": "Code_454",
           "code": "C70713",
           "codeSystem": "NCI Thesaurus",
           "codeSystemVersion": "",
@@ -65,9 +65,9 @@
     }
   ],
   "bcConceptCode": {
-    "aliasCodeId": "AliasCode_700",
+    "aliasCodeId": "AliasCode_423",
     "standardCode": {
-      "codeId": "Code_738",
+      "codeId": "Code_451",
       "code": "C147406",
       "codeSystem": "NCI Thesaurus",
       "codeSystemVersion": "",

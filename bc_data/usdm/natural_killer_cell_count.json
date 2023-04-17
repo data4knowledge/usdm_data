@@ -1,0 +1,97 @@
+{
+  "biomedicalConceptId": "BiomedicalConcept_204",
+  "bcName": "Natural Killer Cell Count",
+  "bcSynonyms": [
+    "Natural Killer Cells"
+  ],
+  "bcReference": "/mdr/bc/packages/2023-03-31/biomedicalconcepts/C98762",
+  "bcProperties": [
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_663",
+      "bcPropertyName": "Laboratory Test Result",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "decimal",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_867",
+        "standardCode": {
+          "codeId": "Code_913",
+          "code": "C36292",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Laboratory Test Result"
+        },
+        "standardCodeAliases": []
+      }
+    },
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_664",
+      "bcPropertyName": "Laboratory Test Fasting Status",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "boolean",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_868",
+        "standardCode": {
+          "codeId": "Code_914",
+          "code": "C83309",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Laboratory Test Fasting Status"
+        },
+        "standardCodeAliases": []
+      }
+    },
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_665",
+      "bcPropertyName": "Unit of Number Concentration",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "string",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_869",
+        "standardCode": {
+          "codeId": "Code_915",
+          "code": "C67391",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Unit of Number Concentration"
+        },
+        "standardCodeAliases": []
+      }
+    },
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_666",
+      "bcPropertyName": "Biospecimen Type",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "string",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_870",
+        "standardCode": {
+          "codeId": "Code_916",
+          "code": "C70713",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Biospecimen Type"
+        },
+        "standardCodeAliases": []
+      }
+    }
+  ],
+  "bcConceptCode": {
+    "aliasCodeId": "AliasCode_866",
+    "standardCode": {
+      "codeId": "Code_912",
+      "code": "C98762",
+      "codeSystem": "NCI Thesaurus",
+      "codeSystemVersion": "",
+      "decode": "Natural Killer Cell Count"
+    },
+    "standardCodeAliases": []
+  }
+}
