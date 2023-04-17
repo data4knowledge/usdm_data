@@ -1,0 +1,99 @@
+{
+  "biomedicalConceptId": "BiomedicalConcept_152",
+  "bcName": "Platelet Count",
+  "bcSynonyms": [
+    "Thrombocytes",
+    "Platelets",
+    "Anucleated Thrombocytes"
+  ],
+  "bcReference": "/mdr/bc/packages/2023-02-13/biomedicalconcepts/C51951",
+  "bcProperties": [
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_472",
+      "bcPropertyName": "Laboratory Test Result",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "decimal",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_624",
+        "standardCode": {
+          "codeId": "Code_662",
+          "code": "C36292",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Laboratory Test Result"
+        },
+        "standardCodeAliases": []
+      }
+    },
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_473",
+      "bcPropertyName": "Laboratory Test Fasting Status",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "boolean",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_625",
+        "standardCode": {
+          "codeId": "Code_663",
+          "code": "C83309",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Laboratory Test Fasting Status"
+        },
+        "standardCodeAliases": []
+      }
+    },
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_474",
+      "bcPropertyName": "Unit of Number Concentration",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "string",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_626",
+        "standardCode": {
+          "codeId": "Code_664",
+          "code": "C67391",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Unit of Number Concentration"
+        },
+        "standardCodeAliases": []
+      }
+    },
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_475",
+      "bcPropertyName": "Biospecimen Type",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "string",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_627",
+        "standardCode": {
+          "codeId": "Code_665",
+          "code": "C70713",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Biospecimen Type"
+        },
+        "standardCodeAliases": []
+      }
+    }
+  ],
+  "bcConceptCode": {
+    "aliasCodeId": "AliasCode_623",
+    "standardCode": {
+      "codeId": "Code_661",
+      "code": "C51951",
+      "codeSystem": "NCI Thesaurus",
+      "codeSystemVersion": "",
+      "decode": "Platelet Count"
+    },
+    "standardCodeAliases": []
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "biomedicalConceptId": "BiomedicalConcept_149",
+  "bcName": "Body Weight",
+  "bcSynonyms": [
+    "Weight"
+  ],
+  "bcReference": "/mdr/bc/packages/2022-10-26/biomedicalconcepts/C81328",
+  "bcProperties": [
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_462",
+      "bcPropertyName": "Vital Signs Result",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "decimal",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_611",
+        "standardCode": {
+          "codeId": "Code_646",
+          "code": "C173522",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Vital Signs Result"
+        },
+        "standardCodeAliases": []
+      }
+    },
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_463",
+      "bcPropertyName": "Unit of Weight",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "string",
+      "bcPropertyResponseCodes": [
+        {
+          "responseCodeId": "ResponseCode_36",
+          "responseCodeEnabled": true,
+          "code": {
+            "codeId": "Code_647",
+            "code": "C28252",
+            "codeSystem": "http://www.cdisc.org",
+            "codeSystemVersion": "2022-12-16",
+            "decode": "Kilogram"
+          }
+        },
+        {
+          "responseCodeId": "ResponseCode_37",
+          "responseCodeEnabled": true,
+          "code": {
+            "codeId": "Code_648",
+            "code": "C48155",
+            "codeSystem": "http://www.cdisc.org",
+            "codeSystemVersion": "2022-12-16",
+            "decode": "Gram"
+          }
+        },
+        {
+          "responseCodeId": "ResponseCode_38",
+          "responseCodeEnabled": true,
+          "code": {
+            "codeId": "Code_649",
+            "code": "C48531",
+            "codeSystem": "http://www.cdisc.org",
+            "codeSystemVersion": "2022-12-16",
+            "decode": "Pound"
+          }
+        }
+      ],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_612",
+        "standardCode": {
+          "codeId": "Code_650",
+          "code": "C48208",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Unit of Weight"
+        },
+        "standardCodeAliases": []
+      }
+    }
+  ],
+  "bcConceptCode": {
+    "aliasCodeId": "AliasCode_610",
+    "standardCode": {
+      "codeId": "Code_645",
+      "code": "C81328",
+      "codeSystem": "NCI Thesaurus",
+      "codeSystemVersion": "",
+      "decode": "Body Weight"
+    },
+    "standardCodeAliases": []
+  }
+}

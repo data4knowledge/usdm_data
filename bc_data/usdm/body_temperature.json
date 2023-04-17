@@ -1,0 +1,90 @@
+{
+  "biomedicalConceptId": "BiomedicalConcept_140",
+  "bcName": "Body Temperature",
+  "bcSynonyms": [
+    "Temperature"
+  ],
+  "bcReference": "/mdr/bc/packages/2022-10-26/biomedicalconcepts/C174446",
+  "bcProperties": [
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_432",
+      "bcPropertyName": "Vital Signs Result",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "decimal",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_572",
+        "standardCode": {
+          "codeId": "Code_601",
+          "code": "C173522",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Vital Signs Result"
+        },
+        "standardCodeAliases": []
+      }
+    },
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_433",
+      "bcPropertyName": "Unit of Temperature",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "string",
+      "bcPropertyResponseCodes": [
+        {
+          "responseCodeId": "ResponseCode_30",
+          "responseCodeEnabled": true,
+          "code": {
+            "codeId": "Code_602",
+            "code": "C42537",
+            "codeSystem": "http://www.cdisc.org",
+            "codeSystemVersion": "2022-12-16",
+            "decode": "Kelvin"
+          }
+        }
+      ],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_573",
+        "standardCode": {
+          "codeId": "Code_603",
+          "code": "C44276",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Unit of Temperature"
+        },
+        "standardCodeAliases": []
+      }
+    },
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_434",
+      "bcPropertyName": "Vital Signs Location",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "string",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_574",
+        "standardCode": {
+          "codeId": "Code_604",
+          "code": "C83088",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Vital Signs Location"
+        },
+        "standardCodeAliases": []
+      }
+    }
+  ],
+  "bcConceptCode": {
+    "aliasCodeId": "AliasCode_571",
+    "standardCode": {
+      "codeId": "Code_600",
+      "code": "C174446",
+      "codeSystem": "NCI Thesaurus",
+      "codeSystemVersion": "",
+      "decode": "Body Temperature"
+    },
+    "standardCodeAliases": []
+  }
+}

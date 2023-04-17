@@ -1,0 +1,97 @@
+{
+  "biomedicalConceptId": "BiomedicalConcept_125",
+  "bcName": "Albumin Measurement",
+  "bcSynonyms": [
+    "Albumin"
+  ],
+  "bcReference": "/mdr/bc/packages/2023-02-13/biomedicalconcepts/C64431",
+  "bcProperties": [
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_383",
+      "bcPropertyName": "Laboratory Test Result",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "decimal",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_508",
+        "standardCode": {
+          "codeId": "Code_532",
+          "code": "C36292",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Laboratory Test Result"
+        },
+        "standardCodeAliases": []
+      }
+    },
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_384",
+      "bcPropertyName": "Laboratory Test Fasting Status",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "boolean",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_509",
+        "standardCode": {
+          "codeId": "Code_533",
+          "code": "C83309",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Laboratory Test Fasting Status"
+        },
+        "standardCodeAliases": []
+      }
+    },
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_385",
+      "bcPropertyName": "Unit of Mass or Substance Concentration",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "string",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_510",
+        "standardCode": {
+          "codeId": "Code_534",
+          "code": "NEW_2",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Unit of Mass or Substance Concentration"
+        },
+        "standardCodeAliases": []
+      }
+    },
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_386",
+      "bcPropertyName": "Biospecimen Type",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "string",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_511",
+        "standardCode": {
+          "codeId": "Code_535",
+          "code": "C70713",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Biospecimen Type"
+        },
+        "standardCodeAliases": []
+      }
+    }
+  ],
+  "bcConceptCode": {
+    "aliasCodeId": "AliasCode_507",
+    "standardCode": {
+      "codeId": "Code_531",
+      "code": "C64431",
+      "codeSystem": "NCI Thesaurus",
+      "codeSystemVersion": "",
+      "decode": "Albumin Measurement"
+    },
+    "standardCodeAliases": []
+  }
+}

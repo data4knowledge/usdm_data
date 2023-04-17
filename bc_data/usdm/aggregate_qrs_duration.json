@@ -1,0 +1,136 @@
+{
+  "biomedicalConceptId": "BiomedicalConcept_193",
+  "bcName": "Aggregate QRS Duration",
+  "bcSynonyms": [
+    "QRS Aggregate Duration",
+    "QRSAG"
+  ],
+  "bcReference": "/mdr/bc/packages/2023-03-31/biomedicalconcepts/C117779",
+  "bcProperties": [
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_607",
+      "bcPropertyName": "Electrocardiogram Category",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "string",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_800",
+        "standardCode": {
+          "codeId": "Code_845",
+          "code": "C83254",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Electrocardiogram Category"
+        },
+        "standardCodeAliases": []
+      }
+    },
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_608",
+      "bcPropertyName": "Electrocardiogram Position",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "string",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_801",
+        "standardCode": {
+          "codeId": "Code_846",
+          "code": "C83113",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Electrocardiogram Position"
+        },
+        "standardCodeAliases": []
+      }
+    },
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_609",
+      "bcPropertyName": "Actual Duration",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "integer",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_802",
+        "standardCode": {
+          "codeId": "Code_847",
+          "code": "C93499",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Actual Duration"
+        },
+        "standardCodeAliases": []
+      }
+    },
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_610",
+      "bcPropertyName": "Unit of Time",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "string",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_803",
+        "standardCode": {
+          "codeId": "Code_848",
+          "code": "C42574",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Unit of Time"
+        },
+        "standardCodeAliases": []
+      }
+    },
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_611",
+      "bcPropertyName": "Electrocardiogram Method",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "string",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_804",
+        "standardCode": {
+          "codeId": "Code_849",
+          "code": "C83089",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Electrocardiogram Method"
+        },
+        "standardCodeAliases": []
+      }
+    },
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_612",
+      "bcPropertyName": "Electrocardiogram Evaluator",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "string",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_805",
+        "standardCode": {
+          "codeId": "Code_850",
+          "code": "C83259",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Electrocardiogram Evaluator"
+        },
+        "standardCodeAliases": []
+      }
+    }
+  ],
+  "bcConceptCode": {
+    "aliasCodeId": "AliasCode_799",
+    "standardCode": {
+      "codeId": "Code_844",
+      "code": "C117779",
+      "codeSystem": "NCI Thesaurus",
+      "codeSystemVersion": "",
+      "decode": "Aggregate QRS Duration"
+    },
+    "standardCodeAliases": []
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "biomedicalConceptId": "BiomedicalConcept_189",
+  "bcName": "Protocol Deviation",
+  "bcSynonyms": [
+    "Deviation"
+  ],
+  "bcReference": "/mdr/bc/packages/2023-03-31/biomedicalconcepts/C50996",
+  "bcProperties": [
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_597",
+      "bcPropertyName": "Reported Event Term",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "string",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_786",
+        "standardCode": {
+          "codeId": "Code_831",
+          "code": "C82571",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Reported Event Term"
+        },
+        "standardCodeAliases": []
+      }
+    },
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_598",
+      "bcPropertyName": "Disposition Dictionary Derived Term",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "string",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_787",
+        "standardCode": {
+          "codeId": "Code_832",
+          "code": "C83122",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Disposition Dictionary Derived Term"
+        },
+        "standardCodeAliases": []
+      }
+    },
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_599",
+      "bcPropertyName": "Disposition Category",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "string",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_788",
+        "standardCode": {
+          "codeId": "Code_833",
+          "code": "C83245",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Disposition Category"
+        },
+        "standardCodeAliases": []
+      }
+    },
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_600",
+      "bcPropertyName": "Disposition Subcategory",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "string",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_789",
+        "standardCode": {
+          "codeId": "Code_834",
+          "code": "C83248",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Disposition Subcategory"
+        },
+        "standardCodeAliases": []
+      }
+    }
+  ],
+  "bcConceptCode": {
+    "aliasCodeId": "AliasCode_785",
+    "standardCode": {
+      "codeId": "Code_830",
+      "code": "C50996",
+      "codeSystem": "NCI Thesaurus",
+      "codeSystemVersion": "",
+      "decode": "Protocol Deviation"
+    },
+    "standardCodeAliases": []
+  }
+}

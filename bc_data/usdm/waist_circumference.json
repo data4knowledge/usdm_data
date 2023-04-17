@@ -1,0 +1,76 @@
+{
+  "biomedicalConceptId": "BiomedicalConcept_137",
+  "bcName": "Waist Circumference",
+  "bcSynonyms": [],
+  "bcReference": "/mdr/bc/packages/2022-10-26/biomedicalconcepts/C100948",
+  "bcProperties": [
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_425",
+      "bcPropertyName": "Vital Signs Result",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "decimal",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_562",
+        "standardCode": {
+          "codeId": "Code_586",
+          "code": "C173522",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Vital Signs Result"
+        },
+        "standardCodeAliases": []
+      }
+    },
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_426",
+      "bcPropertyName": "Unit of Length",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "string",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_563",
+        "standardCode": {
+          "codeId": "Code_587",
+          "code": "C42578",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Unit of Length"
+        },
+        "standardCodeAliases": []
+      }
+    },
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_427",
+      "bcPropertyName": "Approach Anatomic Site",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "string",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_564",
+        "standardCode": {
+          "codeId": "Code_588",
+          "code": "C93507",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Approach Anatomic Site"
+        },
+        "standardCodeAliases": []
+      }
+    }
+  ],
+  "bcConceptCode": {
+    "aliasCodeId": "AliasCode_561",
+    "standardCode": {
+      "codeId": "Code_585",
+      "code": "C100948",
+      "codeSystem": "NCI Thesaurus",
+      "codeSystemVersion": "",
+      "decode": "Waist Circumference"
+    },
+    "standardCodeAliases": []
+  }
+}

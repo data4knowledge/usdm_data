@@ -1,0 +1,78 @@
+{
+  "biomedicalConceptId": "BiomedicalConcept_172",
+  "bcName": "Cotintine Measurement",
+  "bcSynonyms": [
+    "Cotinine"
+  ],
+  "bcReference": "/mdr/bc/packages/2023-02-13/biomedicalconcepts/C92249",
+  "bcProperties": [
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_536",
+      "bcPropertyName": "Laboratory Test Result",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "decimal",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_708",
+        "standardCode": {
+          "codeId": "Code_746",
+          "code": "C36292",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Laboratory Test Result"
+        },
+        "standardCodeAliases": []
+      }
+    },
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_537",
+      "bcPropertyName": "Unit of Mass or Substance Concentration",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "string",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_709",
+        "standardCode": {
+          "codeId": "Code_747",
+          "code": "NEW_2",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Unit of Mass or Substance Concentration"
+        },
+        "standardCodeAliases": []
+      }
+    },
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_538",
+      "bcPropertyName": "Biospecimen Type",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "string",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_710",
+        "standardCode": {
+          "codeId": "Code_748",
+          "code": "C70713",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Biospecimen Type"
+        },
+        "standardCodeAliases": []
+      }
+    }
+  ],
+  "bcConceptCode": {
+    "aliasCodeId": "AliasCode_707",
+    "standardCode": {
+      "codeId": "Code_745",
+      "code": "C92249",
+      "codeSystem": "NCI Thesaurus",
+      "codeSystemVersion": "",
+      "decode": "Cotintine Measurement"
+    },
+    "standardCodeAliases": []
+  }
+}

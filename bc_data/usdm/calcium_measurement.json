@@ -1,0 +1,98 @@
+{
+  "biomedicalConceptId": "BiomedicalConcept_155",
+  "bcName": "Calcium Measurement",
+  "bcSynonyms": [
+    "Calcium",
+    "CA"
+  ],
+  "bcReference": "/mdr/bc/packages/2023-02-13/biomedicalconcepts/C64488",
+  "bcProperties": [
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_484",
+      "bcPropertyName": "Laboratory Test Result",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "decimal",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_639",
+        "standardCode": {
+          "codeId": "Code_677",
+          "code": "C36292",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Laboratory Test Result"
+        },
+        "standardCodeAliases": []
+      }
+    },
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_485",
+      "bcPropertyName": "Laboratory Test Fasting Status",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "boolean",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_640",
+        "standardCode": {
+          "codeId": "Code_678",
+          "code": "C83309",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Laboratory Test Fasting Status"
+        },
+        "standardCodeAliases": []
+      }
+    },
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_486",
+      "bcPropertyName": "Unit of Mass or Substance Concentration",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "string",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_641",
+        "standardCode": {
+          "codeId": "Code_679",
+          "code": "NEW_2",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Unit of Mass or Substance Concentration"
+        },
+        "standardCodeAliases": []
+      }
+    },
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_487",
+      "bcPropertyName": "Biospecimen Type",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "string",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_642",
+        "standardCode": {
+          "codeId": "Code_680",
+          "code": "C70713",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Biospecimen Type"
+        },
+        "standardCodeAliases": []
+      }
+    }
+  ],
+  "bcConceptCode": {
+    "aliasCodeId": "AliasCode_638",
+    "standardCode": {
+      "codeId": "Code_676",
+      "code": "C64488",
+      "codeSystem": "NCI Thesaurus",
+      "codeSystemVersion": "",
+      "decode": "Calcium Measurement"
+    },
+    "standardCodeAliases": []
+  }
+}

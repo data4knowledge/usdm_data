@@ -1,0 +1,38 @@
+{
+  "biomedicalConceptId": "BiomedicalConcept_147",
+  "bcName": "Body Frame Size",
+  "bcSynonyms": [],
+  "bcReference": "/mdr/bc/packages/2022-10-26/biomedicalconcepts/C49680",
+  "bcProperties": [
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_461",
+      "bcPropertyName": "Vital Signs Result",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "string",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_608",
+        "standardCode": {
+          "codeId": "Code_643",
+          "code": "C173522",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Vital Signs Result"
+        },
+        "standardCodeAliases": []
+      }
+    }
+  ],
+  "bcConceptCode": {
+    "aliasCodeId": "AliasCode_607",
+    "standardCode": {
+      "codeId": "Code_642",
+      "code": "C49680",
+      "codeSystem": "NCI Thesaurus",
+      "codeSystemVersion": "",
+      "decode": "Body Frame Size"
+    },
+    "standardCodeAliases": []
+  }
+}

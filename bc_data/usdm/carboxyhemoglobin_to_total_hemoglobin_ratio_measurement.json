@@ -1,0 +1,76 @@
+{
+  "biomedicalConceptId": "BiomedicalConcept_166",
+  "bcName": "Carboxyhemoglobin to Total Hemoglobin Ratio Measurement",
+  "bcSynonyms": [],
+  "bcReference": "/mdr/bc/packages/2023-02-13/biomedicalconcepts/C147355",
+  "bcProperties": [
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_527",
+      "bcPropertyName": "Laboratory Test Result",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "decimal",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_693",
+        "standardCode": {
+          "codeId": "Code_731",
+          "code": "C36292",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Laboratory Test Result"
+        },
+        "standardCodeAliases": []
+      }
+    },
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_528",
+      "bcPropertyName": "Percent Unit",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "string",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_694",
+        "standardCode": {
+          "codeId": "Code_732",
+          "code": "C48570",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Percent Unit"
+        },
+        "standardCodeAliases": []
+      }
+    },
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_529",
+      "bcPropertyName": "Biospecimen Type",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "string",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_695",
+        "standardCode": {
+          "codeId": "Code_733",
+          "code": "C70713",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Biospecimen Type"
+        },
+        "standardCodeAliases": []
+      }
+    }
+  ],
+  "bcConceptCode": {
+    "aliasCodeId": "AliasCode_692",
+    "standardCode": {
+      "codeId": "Code_730",
+      "code": "C147355",
+      "codeSystem": "NCI Thesaurus",
+      "codeSystemVersion": "",
+      "decode": "Carboxyhemoglobin to Total Hemoglobin Ratio Measurement"
+    },
+    "standardCodeAliases": []
+  }
+}

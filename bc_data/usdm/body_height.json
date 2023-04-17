@@ -1,0 +1,104 @@
+{
+  "biomedicalConceptId": "BiomedicalConcept_139",
+  "bcName": "Body Height",
+  "bcSynonyms": [
+    "Height"
+  ],
+  "bcReference": "/mdr/bc/packages/2022-10-26/biomedicalconcepts/C164634",
+  "bcProperties": [
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_430",
+      "bcPropertyName": "Vital Signs Result",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "decimal",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_569",
+        "standardCode": {
+          "codeId": "Code_594",
+          "code": "C173522",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Vital Signs Result"
+        },
+        "standardCodeAliases": []
+      }
+    },
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_431",
+      "bcPropertyName": "Unit of Height",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "string",
+      "bcPropertyResponseCodes": [
+        {
+          "responseCodeId": "ResponseCode_26",
+          "responseCodeEnabled": true,
+          "code": {
+            "codeId": "Code_595",
+            "code": "C49668",
+            "codeSystem": "http://www.cdisc.org",
+            "codeSystemVersion": "2022-12-16",
+            "decode": "Centimeter"
+          }
+        },
+        {
+          "responseCodeId": "ResponseCode_27",
+          "responseCodeEnabled": true,
+          "code": {
+            "codeId": "Code_596",
+            "code": "C48500",
+            "codeSystem": "http://www.cdisc.org",
+            "codeSystemVersion": "2022-12-16",
+            "decode": "Inch"
+          }
+        },
+        {
+          "responseCodeId": "ResponseCode_28",
+          "responseCodeEnabled": true,
+          "code": {
+            "codeId": "Code_597",
+            "code": "C28251",
+            "codeSystem": "http://www.cdisc.org",
+            "codeSystemVersion": "2022-12-16",
+            "decode": "Millimeter"
+          }
+        },
+        {
+          "responseCodeId": "ResponseCode_29",
+          "responseCodeEnabled": true,
+          "code": {
+            "codeId": "Code_598",
+            "code": "C41139",
+            "codeSystem": "http://www.cdisc.org",
+            "codeSystemVersion": "2022-12-16",
+            "decode": "Meter"
+          }
+        }
+      ],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_570",
+        "standardCode": {
+          "codeId": "Code_599",
+          "code": "C168688",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Unit of Height"
+        },
+        "standardCodeAliases": []
+      }
+    }
+  ],
+  "bcConceptCode": {
+    "aliasCodeId": "AliasCode_568",
+    "standardCode": {
+      "codeId": "Code_593",
+      "code": "C164634",
+      "codeSystem": "NCI Thesaurus",
+      "codeSystemVersion": "",
+      "decode": "Body Height"
+    },
+    "standardCodeAliases": []
+  }
+}

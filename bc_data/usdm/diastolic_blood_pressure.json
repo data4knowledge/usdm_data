@@ -1,0 +1,147 @@
+{
+  "biomedicalConceptId": "BiomedicalConcept_142",
+  "bcName": "Diastolic Blood Pressure",
+  "bcSynonyms": [
+    "DIABP"
+  ],
+  "bcReference": "/mdr/bc/packages/2022-10-26/biomedicalconcepts/C25299",
+  "bcProperties": [
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_441",
+      "bcPropertyName": "Vital Signs Result",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "integer",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_583",
+        "standardCode": {
+          "codeId": "Code_614",
+          "code": "C173522",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Vital Signs Result"
+        },
+        "standardCodeAliases": []
+      }
+    },
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_442",
+      "bcPropertyName": "Unit of Pressure",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "string",
+      "bcPropertyResponseCodes": [
+        {
+          "responseCodeId": "ResponseCode_32",
+          "responseCodeEnabled": true,
+          "code": {
+            "codeId": "Code_615",
+            "code": "C42547",
+            "codeSystem": "http://www.cdisc.org",
+            "codeSystemVersion": "2022-12-16",
+            "decode": "Pascal"
+          }
+        }
+      ],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_584",
+        "standardCode": {
+          "codeId": "Code_616",
+          "code": "C49669",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Unit of Pressure"
+        },
+        "standardCodeAliases": []
+      }
+    },
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_443",
+      "bcPropertyName": "Vital Signs Location",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "string",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_585",
+        "standardCode": {
+          "codeId": "Code_617",
+          "code": "C83088",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Vital Signs Location"
+        },
+        "standardCodeAliases": []
+      }
+    },
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_444",
+      "bcPropertyName": "Vital Signs Laterality",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "string",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_586",
+        "standardCode": {
+          "codeId": "Code_618",
+          "code": "C123975",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Vital Signs Laterality"
+        },
+        "standardCodeAliases": []
+      }
+    },
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_445",
+      "bcPropertyName": "Test Method",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "string",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_587",
+        "standardCode": {
+          "codeId": "Code_619",
+          "code": "C82535",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Test Method"
+        },
+        "standardCodeAliases": []
+      }
+    },
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_446",
+      "bcPropertyName": "Vital Signs Position",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "string",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_588",
+        "standardCode": {
+          "codeId": "Code_620",
+          "code": "C83114",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Vital Signs Position"
+        },
+        "standardCodeAliases": []
+      }
+    }
+  ],
+  "bcConceptCode": {
+    "aliasCodeId": "AliasCode_582",
+    "standardCode": {
+      "codeId": "Code_613",
+      "code": "C25299",
+      "codeSystem": "NCI Thesaurus",
+      "codeSystemVersion": "",
+      "decode": "Diastolic Blood Pressure"
+    },
+    "standardCodeAliases": []
+  }
+}

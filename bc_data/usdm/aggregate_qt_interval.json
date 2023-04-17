@@ -1,0 +1,136 @@
+{
+  "biomedicalConceptId": "BiomedicalConcept_194",
+  "bcName": "Aggregate QT Interval",
+  "bcSynonyms": [
+    "QT Interval Aggregate",
+    "QTAG"
+  ],
+  "bcReference": "/mdr/bc/packages/2023-03-31/biomedicalconcepts/C117783",
+  "bcProperties": [
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_613",
+      "bcPropertyName": "Electrocardiogram Category",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "string",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_807",
+        "standardCode": {
+          "codeId": "Code_852",
+          "code": "C83254",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Electrocardiogram Category"
+        },
+        "standardCodeAliases": []
+      }
+    },
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_614",
+      "bcPropertyName": "Electrocardiogram Position",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "string",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_808",
+        "standardCode": {
+          "codeId": "Code_853",
+          "code": "C83113",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Electrocardiogram Position"
+        },
+        "standardCodeAliases": []
+      }
+    },
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_615",
+      "bcPropertyName": "Actual Duration",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "integer",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_809",
+        "standardCode": {
+          "codeId": "Code_854",
+          "code": "C93499",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Actual Duration"
+        },
+        "standardCodeAliases": []
+      }
+    },
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_616",
+      "bcPropertyName": "Unit of Time",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "string",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_810",
+        "standardCode": {
+          "codeId": "Code_855",
+          "code": "C42574",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Unit of Time"
+        },
+        "standardCodeAliases": []
+      }
+    },
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_617",
+      "bcPropertyName": "Electrocardiogram Method",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "string",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_811",
+        "standardCode": {
+          "codeId": "Code_856",
+          "code": "C83089",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Electrocardiogram Method"
+        },
+        "standardCodeAliases": []
+      }
+    },
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_618",
+      "bcPropertyName": "Electrocardiogram Evaluator",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "string",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_812",
+        "standardCode": {
+          "codeId": "Code_857",
+          "code": "C83259",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Electrocardiogram Evaluator"
+        },
+        "standardCodeAliases": []
+      }
+    }
+  ],
+  "bcConceptCode": {
+    "aliasCodeId": "AliasCode_806",
+    "standardCode": {
+      "codeId": "Code_851",
+      "code": "C117783",
+      "codeSystem": "NCI Thesaurus",
+      "codeSystemVersion": "",
+      "decode": "Aggregate QT Interval"
+    },
+    "standardCodeAliases": []
+  }
+}

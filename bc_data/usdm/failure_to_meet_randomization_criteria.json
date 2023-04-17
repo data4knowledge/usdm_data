@@ -1,0 +1,95 @@
+{
+  "biomedicalConceptId": "BiomedicalConcept_184",
+  "bcName": "Failure to Meet Randomization Criteria",
+  "bcSynonyms": [],
+  "bcReference": "/mdr/bc/packages/2023-03-31/biomedicalconcepts/C105448",
+  "bcProperties": [
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_577",
+      "bcPropertyName": "Reported Event Term",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "string",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_761",
+        "standardCode": {
+          "codeId": "Code_806",
+          "code": "C82571",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Reported Event Term"
+        },
+        "standardCodeAliases": []
+      }
+    },
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_578",
+      "bcPropertyName": "Disposition Dictionary Derived Term",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "string",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_762",
+        "standardCode": {
+          "codeId": "Code_807",
+          "code": "C83122",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Disposition Dictionary Derived Term"
+        },
+        "standardCodeAliases": []
+      }
+    },
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_579",
+      "bcPropertyName": "Disposition Category",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "string",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_763",
+        "standardCode": {
+          "codeId": "Code_808",
+          "code": "C83245",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Disposition Category"
+        },
+        "standardCodeAliases": []
+      }
+    },
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_580",
+      "bcPropertyName": "Disposition Subcategory",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "string",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_764",
+        "standardCode": {
+          "codeId": "Code_809",
+          "code": "C83248",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Disposition Subcategory"
+        },
+        "standardCodeAliases": []
+      }
+    }
+  ],
+  "bcConceptCode": {
+    "aliasCodeId": "AliasCode_760",
+    "standardCode": {
+      "codeId": "Code_805",
+      "code": "C105448",
+      "codeSystem": "NCI Thesaurus",
+      "codeSystemVersion": "",
+      "decode": "Failure to Meet Randomization Criteria"
+    },
+    "standardCodeAliases": []
+  }
+}

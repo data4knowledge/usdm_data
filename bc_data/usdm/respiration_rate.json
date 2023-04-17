@@ -1,0 +1,69 @@
+{
+  "biomedicalConceptId": "BiomedicalConcept_146",
+  "bcName": "Respiration Rate",
+  "bcSynonyms": [],
+  "bcReference": "/mdr/bc/packages/2022-10-26/biomedicalconcepts/C49678",
+  "bcProperties": [
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_459",
+      "bcPropertyName": "Vital Signs Result",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "integer",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_605",
+        "standardCode": {
+          "codeId": "Code_639",
+          "code": "C173522",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Vital Signs Result"
+        },
+        "standardCodeAliases": []
+      }
+    },
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_460",
+      "bcPropertyName": "Count per Minute",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "string",
+      "bcPropertyResponseCodes": [
+        {
+          "responseCodeId": "ResponseCode_35",
+          "responseCodeEnabled": true,
+          "code": {
+            "codeId": "Code_640",
+            "code": "C49674",
+            "codeSystem": "http://www.cdisc.org",
+            "codeSystemVersion": "2022-12-16",
+            "decode": "Breaths per Minute"
+          }
+        }
+      ],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_606",
+        "standardCode": {
+          "codeId": "Code_641",
+          "code": "C73688",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Count per Minute"
+        },
+        "standardCodeAliases": []
+      }
+    }
+  ],
+  "bcConceptCode": {
+    "aliasCodeId": "AliasCode_604",
+    "standardCode": {
+      "codeId": "Code_638",
+      "code": "C49678",
+      "codeSystem": "NCI Thesaurus",
+      "codeSystemVersion": "",
+      "decode": "Respiration Rate"
+    },
+    "standardCodeAliases": []
+  }
+}
