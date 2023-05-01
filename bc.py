@@ -23,7 +23,6 @@ if __name__ == "__main__":
 
     syn = cdisc_bc_library.synonyms(item)
     bc_list.append({ 'name': name, 'synonyms': syn})
-    print("BC:", name)
 
     cdisc_json = cdisc_bc_library.to_cdisc_json(item)
     with open(f"bc_data/cdisc/{filename}.json", 'w', encoding='utf-8') as f:
@@ -34,6 +33,6 @@ if __name__ == "__main__":
       json.dump(json.loads(usdm_json), f, indent=2)
 
     print(f"{index + 1}. BC: {name}")
-    
+
   with open(f"bc_data/catalogue.yaml", 'w', encoding='utf-8') as f:
     yaml.dump(bc_list, f, default_flow_style=False)
