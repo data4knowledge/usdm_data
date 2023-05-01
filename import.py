@@ -28,7 +28,8 @@ studies = [
   'simple_1',
   'simple_2',
   'profile_1',
-  'simple_3'
+  'simple_3',
+  'CDISC Pilot Study'
 ]
 
 print("")
