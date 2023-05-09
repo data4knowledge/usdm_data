@@ -29,7 +29,8 @@ studies = [
   'simple_2',
   'profile_1',
   'simple_3',
-  'CDISC Pilot Study'
+  'CDISC Pilot Study',
+  'cross_over_1'
 ]
 
 print("")
