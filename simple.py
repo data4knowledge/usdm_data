@@ -7,7 +7,7 @@ import json
 if __name__ == "__main__":
   arg_count = len(sys.argv)
   if arg_count == 1:
-    print("You need to provide an inoput file name minus the file extension")
+    print("You need to provide an input file name minus the file extension")
   elif arg_count == 2:
     
     from usdm_excel import USDMExcel
