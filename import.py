@@ -16,15 +16,23 @@ def save_as_yaml_file(data, filepath):
   with open(filepath, 'w') as f:
     yaml.dump(data, f, default_flow_style=False)
 
-def save_as_node_file(nodes, filename):
-  save_as_yaml_file(nodes, 'source_data/%s_nodes.yaml' % (filename))
+def save_as_node_file(nodes, filename, view):
+  suffix = file_suffix(view)
+  save_as_yaml_file(nodes, f'source_data/{filename}_{suffix}nodes.yaml')
 
-def save_as_edges_file(nodes, filename):
-  save_as_yaml_file(nodes, 'source_data/%s_edges.yaml' % (filename))
+def save_as_edges_file(nodes, filename, view):
+  suffix = file_suffix(view)
+  save_as_yaml_file(nodes, f'source_data/{filename}_{suffix}edges.yaml')
+
+def file_suffix(view):
+  if view == USDMExcel.TIMELINE_VIEW:
+    return 'timeline_'
+  return ''
 
 studies = [
   'Roche Phase 3 NCT04320615',
   'cycles_1',
+  'cycles_2',
   'simple_1',
   'simple_2',
   'profile_1',
@@ -42,9 +50,10 @@ for study in studies:
   file_path = "source_data/%s.xlsx" % (study)
   x = USDMExcel(file_path)
   save_as_json_file(x.to_json(), study)
-  nodes, edges = x.to_nodes_and_edges()
-  save_as_node_file(nodes, study)
-  save_as_edges_file(edges, study)
+  for view in [USDMExcel.FULL_VIEW, USDMExcel.TIMELINE_VIEW]:
+    nodes, edges = x.to_nodes_and_edges(view)
+    save_as_node_file(nodes, study, view)
+    save_as_edges_file(edges, study, view)
   print("ERRORS:", x.errors().dump())
   print("")
   print("")
