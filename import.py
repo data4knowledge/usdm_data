@@ -30,15 +30,15 @@ def file_suffix(view):
   return ''
 
 studies = [
-  'Roche Phase 3 NCT04320615',
+  'Roche_NCT04320615_COVID',
   'cycles_1',
   'cycles_2',
   'simple_1',
   'simple_2',
   'profile_1',
   'simple_3',
-  'CDISC Pilot Study',
-  'cross_over_1'
+  'CDISC_Pilot_Study',
+  'EliLilly_NCT03421379_Diabetes'
 ]
 
 print("")
