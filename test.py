@@ -23,9 +23,9 @@ if __name__ == "__main__":
     filename = sys.argv[1].strip()
     excel = USDMExcel(f"test_data/{filename}.xlsx")
     errors = excel.errors()
-    if errors.count() > 0:
+    if len(errors) > 0:
       with open(f"test_data/{filename}_errors.yaml", 'w', encoding='utf-8') as f:
-        yaml.dump(errors.dump(), f, default_flow_style=False)
+        yaml.dump(errors, f, default_flow_style=False)
     with open(f"test_data/{filename}.json", 'w', encoding='utf-8') as f:
       json.dump(json.loads(excel.to_json()), f, indent=2)
   else:

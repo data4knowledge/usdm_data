@@ -59,6 +59,6 @@ for study in studies:
     save_as_edges_file(edges, study, view)
   print("")
   print("")
-  print("ERRORS:", x.errors().dump())
+  print("ERRORS:", x.errors())
   print("")
   print("----- + -----")
