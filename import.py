@@ -38,7 +38,8 @@ studies = [
   'profile_1',
   'simple_3',
   'CDISC_Pilot_Study',
-  'EliLilly_NCT03421379_Diabetes'
+  'EliLilly_NCT03421379_Diabetes',
+  'simple_4'
 ]
 
 print("")
