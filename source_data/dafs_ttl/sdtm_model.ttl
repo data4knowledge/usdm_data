@@ -1,0 +1,102 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix sdtmm: <http://ontologies.gsk.com/cso/cdisc/sdtm-model#> .
+
+<http://id.gsk.com/dataset/cdisc/sdtm-model/model> a sdtmm:model ;
+    sdtmm:hasClass <http://id.gsk.com/dataset/cdisc/sdtm-model/demographics>,
+        <http://id.gsk.com/dataset/cdisc/sdtm-model/events>,
+        <http://id.gsk.com/dataset/cdisc/sdtm-model/exposure>,
+        <http://id.gsk.com/dataset/cdisc/sdtm-model/findings> ;
+    dc:identifier "SDTM Model" .
+
+<http://id.gsk.com/dataset/cdisc/sdtm-model/demographics> a sdtmm:class ;
+    sdtmm:hasVariable <http://id.gsk.com/dataset/cdisc/sdtm-model/demographics/age>,
+        <http://id.gsk.com/dataset/cdisc/sdtm-model/demographics/ageu>,
+        <http://id.gsk.com/dataset/cdisc/sdtm-model/demographics/ethnic>,
+        <http://id.gsk.com/dataset/cdisc/sdtm-model/demographics/race>,
+        <http://id.gsk.com/dataset/cdisc/sdtm-model/demographics/sex> ;
+    dc:identifier "demographics" .
+
+<http://id.gsk.com/dataset/cdisc/sdtm-model/demographics/age> a sdtmm:variable ;
+    sdtmm:bcRestriction "Age" ;
+    sdtmm:isA <http://id.gsk.com/observation/observation_result/result/quantity/value> ;
+    dc:identifier "AGE" .
+
+<http://id.gsk.com/dataset/cdisc/sdtm-model/demographics/ageu> a sdtmm:variable ;
+    sdtmm:bcRestriction "Age" ;
+    sdtmm:isA <http://id.gsk.com/observation/observation_result/result/quantity/unit> ;
+    dc:identifier "AGEU" .
+
+<http://id.gsk.com/dataset/cdisc/sdtm-model/demographics/ethnic> a sdtmm:variable ;
+    sdtmm:bcRestriction "Ethnicity" ;
+    sdtmm:isA <http://id.gsk.com/observation/observation_result/result/quantity/code> ;
+    dc:identifier "ETHNIC" .
+
+<http://id.gsk.com/dataset/cdisc/sdtm-model/demographics/race> a sdtmm:variable ;
+    sdtmm:bcRestriction "Race" ;
+    sdtmm:isA <http://id.gsk.com/observation/observation_result/result/quantity/code> ;
+    dc:identifier "RACE" .
+
+<http://id.gsk.com/dataset/cdisc/sdtm-model/demographics/sex> a sdtmm:variable ;
+    sdtmm:bcRestriction "Sex" ;
+    sdtmm:isA <http://id.gsk.com/observation/observation_result/result/quantity/code> ;
+    dc:identifier "SEX" .
+
+<http://id.gsk.com/dataset/cdisc/sdtm-model/events> a sdtmm:class ;
+    sdtmm:hasVariable <http://id.gsk.com/dataset/cdisc/sdtm-model/events/--endtc>,
+        <http://id.gsk.com/dataset/cdisc/sdtm-model/events/--stdtc>,
+        <http://id.gsk.com/dataset/cdisc/sdtm-model/events/--term> ;
+    dc:identifier "events" .
+
+<http://id.gsk.com/dataset/cdisc/sdtm-model/events/--endtc> a sdtmm:variable ;
+    sdtmm:isA <http://id.gsk.com/dataset/cso/clinical_recording/common/period/period_end/date_time/value> ;
+    dc:identifier "--ENDTC" .
+
+<http://id.gsk.com/dataset/cdisc/sdtm-model/events/--stdtc> a sdtmm:variable ;
+    sdtmm:isA <http://id.gsk.com/dataset/cso/clinical_recording/common/period/period_start/date_time/value> ;
+    dc:identifier "--STDTC" .
+
+<http://id.gsk.com/dataset/cdisc/sdtm-model/events/--term> a sdtmm:variable ;
+    sdtmm:isA <http://id.gsk.com/adverse_event/term/codeable_concept/text> ;
+    dc:identifier "--TERM" .
+
+<http://id.gsk.com/dataset/cdisc/sdtm-model/exposure> a sdtmm:class ;
+    sdtmm:hasVariable <http://id.gsk.com/dataset/cdisc/sdtm-model/exposure/--endtc>,
+        <http://id.gsk.com/dataset/cdisc/sdtm-model/exposure/--stdtc>,
+        <http://id.gsk.com/dataset/cdisc/sdtm-model/exposure/--trt> ;
+    dc:identifier "exposure" .
+
+<http://id.gsk.com/dataset/cdisc/sdtm-model/exposure/--endtc> a sdtmm:variable ;
+    sdtmm:isA <http://id.gsk.com/dataset/cso/clinical_recording/common/period/period_end/date_time/value> ;
+    dc:identifier "--ENDTC" .
+
+<http://id.gsk.com/dataset/cdisc/sdtm-model/exposure/--stdtc> a sdtmm:variable ;
+    sdtmm:isA <http://id.gsk.com/dataset/cso/clinical_recording/common/period/period_start/date_time/value> ;
+    dc:identifier "--STDTC" .
+
+<http://id.gsk.com/dataset/cdisc/sdtm-model/exposure/--trt> a sdtmm:variable ;
+    sdtmm:isA <http://id.gsk.com/therapeutic_intervention/treatment/codeable_concept/text> ;
+    dc:identifier "--TRT" .
+
+<http://id.gsk.com/dataset/cdisc/sdtm-model/findings> a sdtmm:class ;
+    sdtmm:hasVariable <http://id.gsk.com/dataset/cdisc/sdtm-model/findings/--dtc>,
+        <http://id.gsk.com/dataset/cdisc/sdtm-model/findings/--dy>,
+        <http://id.gsk.com/dataset/cdisc/sdtm-model/findings/--orres>,
+        <http://id.gsk.com/dataset/cdisc/sdtm-model/findings/--orresu> ;
+    dc:identifier "findings" .
+
+<http://id.gsk.com/dataset/cdisc/sdtm-model/findings/--dtc> a sdtmm:variable ;
+    sdtmm:isA <http://id.gsk.com/dataset/cso/clinical_recording/common/date_time/date_time/value> ;
+    dc:identifier "--DTC" .
+
+<http://id.gsk.com/dataset/cdisc/sdtm-model/findings/--dy> a sdtmm:variable ;
+    dc:identifier "--DY" .
+
+<http://id.gsk.com/dataset/cdisc/sdtm-model/findings/--orres> a sdtmm:variable ;
+    sdtmm:isA <http://id.gsk.com/observation/observation_result/result/quantity/code>,
+        <http://id.gsk.com/observation/observation_result/result/quantity/value> ;
+    dc:identifier "--ORRES" .
+
+<http://id.gsk.com/dataset/cdisc/sdtm-model/findings/--orresu> a sdtmm:variable ;
+    sdtmm:isA <http://id.gsk.com/observation/observation_result/result/quantity/unit> ;
+    dc:identifier "--ORRESU" .
+

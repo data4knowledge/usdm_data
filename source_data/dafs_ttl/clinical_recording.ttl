@@ -1,0 +1,658 @@
+@base <http://id.gsk.com/dataset/cso/clinical_recording/> .
+@prefix clr: <http://ontologies.gsk.com/cso/clinical_recording#> .
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<model> a clr:Scheme ;
+    rdfs:label "CLINICAL RECORDING MODEL" ;
+    skos:hasTopConcept </adverse_event>,
+        </observation>,
+        </therapeutic_intervention> .
+
+</adverse_event> a clr:Concept ;
+    rdfs:label "ADVERSE EVENT" ;
+    rdfs:comment "" ;
+    skos:narrower </adverse_event/category>,
+        </adverse_event/causality>,
+        </adverse_event/response>,
+        </adverse_event/serious>,
+        </adverse_event/severity>,
+        </adverse_event/term>,
+        </adverse_event/toxicity>,
+        <common/location>,
+        <common/period> .
+
+</adverse_event/causality> a clr:Concept ;
+    rdfs:label "CAUSALITY" ;
+    rdfs:comment "" ;
+    skos:narrower </adverse_event/causality/device>,
+        </adverse_event/causality/non_study_treatment>,
+        </adverse_event/causality/related> .
+
+</adverse_event/causality/non_study_treatment> a clr:Concept ;
+    rdfs:label "NON STUDY TREATMENT" ;
+    rdfs:comment "" .
+
+</adverse_event/causality/related> a clr:Concept ;
+    rdfs:label "RELATED" ;
+    rdfs:comment "" .
+
+</adverse_event/response> a clr:Concept ;
+    rdfs:label "RESPONSE" ;
+    rdfs:comment "" ;
+    skos:narrower </adverse_event/causality/device>,
+        </adverse_event/response/concomitant_treatment>,
+        </adverse_event/response/other>,
+        </adverse_event/response/study_treatment> .
+
+</adverse_event/response/concomitant_treatment> a clr:Concept ;
+    rdfs:label "CONCOMITANT TREATMENT" ;
+    rdfs:comment "" .
+
+</adverse_event/response/other> a clr:Concept ;
+    rdfs:label "OTHER" ;
+    rdfs:comment "" .
+
+</adverse_event/response/study_treatment> a clr:Concept ;
+    rdfs:label "STUDY TREATMENT" ;
+    rdfs:comment "" .
+
+</adverse_event/serious> a clr:Concept ;
+    rdfs:label "SERIOUS" ;
+    rdfs:comment "" .
+
+</adverse_event/term> a clr:Concept ;
+    rdfs:label "TERM" ;
+    clr:hasDataType </adverse_event/term/codeable_concept> ;
+    rdfs:comment "" .
+
+</adverse_event/term/codeable_concept> a fhir:CodeableConcept ;
+    rdfs:label "codeable concept" ;
+    fhir:CodeableConcept.coding </adverse_event/term/codeable_concept/coding> ;
+    fhir:CodeableConcept.text </adverse_event/term/codeable_concept/text> .
+
+</adverse_event/term/codeable_concept/coding> a fhir:Coding ;
+    rdfs:label "coding" ;
+    fhir:Coding.code </adverse_event/term/codeable_concept/coding/code> ;
+    fhir:Coding.display </adverse_event/term/codeable_concept/coding/display> ;
+    fhir:Coding.system </adverse_event/term/codeable_concept/coding/system> ;
+    fhir:Coding.userSelected </adverse_event/term/codeable_concept/coding/userSelected> ;
+    fhir:Coding.version </adverse_event/term/codeable_concept/coding/version> .
+
+</adverse_event/term/codeable_concept/coding/code> a fhir:code ;
+    rdfs:label "code" .
+
+</adverse_event/term/codeable_concept/coding/display> a fhir:string ;
+    rdfs:label "display" .
+
+</adverse_event/term/codeable_concept/coding/system> a fhir:uri ;
+    rdfs:label "system" .
+
+</adverse_event/term/codeable_concept/coding/userSelected> a fhir:boolean ;
+    rdfs:label "user selected" .
+
+</adverse_event/term/codeable_concept/coding/version> a fhir:string ;
+    rdfs:label "version" .
+
+</adverse_event/term/codeable_concept/text> a fhir:string ;
+    rdfs:label "text" .
+
+</adverse_event/toxicity/grade> a clr:Concept ;
+    rdfs:label "GRADE" ;
+    rdfs:comment "" .
+
+</observation> a clr:Concept ;
+    rdfs:label "OBSERVATION" ;
+    rdfs:comment "" ;
+    skos:narrower </adverse_event/severity>,
+        </adverse_event/toxicity>,
+        </observation/body_system>,
+        </observation/conscious>,
+        </observation/epidemic_/_pandemic>,
+        </observation/fasting>,
+        </observation/lab>,
+        </observation/lead>,
+        </observation/loinc_ref>,
+        </observation/method>,
+        </observation/observation_result>,
+        </observation/posiiton>,
+        </observation/range>,
+        </observation/reason_performed>,
+        </observation/reference_result>,
+        </observation/run_id>,
+        </observation/sensitivity>,
+        </observation/specimen>,
+        </observation/test>,
+        <common/date_time>,
+        <common/location> .
+
+</observation/body_system> a clr:Concept ;
+    rdfs:label "BODY SYSTEM" ;
+    clr:hasDataType </observation/body_system/coding> ;
+    clr:ncit <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C164917> ;
+    rdfs:comment "" .
+
+</observation/body_system/coding> a fhir:Coding ;
+    rdfs:label "coding" ;
+    fhir:Coding.code </observation/body_system/coding/code> ;
+    fhir:Coding.display </observation/body_system/coding/display> ;
+    fhir:Coding.system </observation/body_system/coding/system> ;
+    fhir:Coding.userSelected </observation/body_system/coding/userSelected> ;
+    fhir:Coding.version </observation/body_system/coding/version> .
+
+</observation/body_system/coding/code> a fhir:code ;
+    rdfs:label "code" .
+
+</observation/body_system/coding/display> a fhir:string ;
+    rdfs:label "display" .
+
+</observation/body_system/coding/system> a fhir:uri ;
+    rdfs:label "system" .
+
+</observation/body_system/coding/userSelected> a fhir:boolean ;
+    rdfs:label "user selected" .
+
+</observation/body_system/coding/version> a fhir:string ;
+    rdfs:label "version" .
+
+</observation/conscious> a clr:Concept ;
+    rdfs:label "CONSCIOUS" ;
+    rdfs:comment "" .
+
+</observation/fasting> a clr:Concept ;
+    rdfs:label "FASTING" ;
+    rdfs:comment "" .
+
+</observation/lab> a clr:Concept ;
+    rdfs:label "LAB" ;
+    rdfs:comment "" .
+
+</observation/lead> a clr:Concept ;
+    rdfs:label "LEAD" ;
+    rdfs:comment "" .
+
+</observation/loinc_ref> a clr:Concept ;
+    rdfs:label "LOINC REF" ;
+    rdfs:comment "" .
+
+</observation/method/coding> a fhir:Coding ;
+    rdfs:label "coding" ;
+    fhir:Coding.code </observation/method/coding/code> ;
+    fhir:Coding.display </observation/method/coding/display> ;
+    fhir:Coding.system </observation/method/coding/system> ;
+    fhir:Coding.userSelected </observation/method/coding/userSelected> ;
+    fhir:Coding.version </observation/method/coding/version> .
+
+</observation/method/coding/code> a fhir:code ;
+    rdfs:label "code" .
+
+</observation/method/coding/display> a fhir:string ;
+    rdfs:label "display" .
+
+</observation/method/coding/system> a fhir:uri ;
+    rdfs:label "system" .
+
+</observation/method/coding/userSelected> a fhir:boolean ;
+    rdfs:label "user selected" .
+
+</observation/method/coding/version> a fhir:string ;
+    rdfs:label "version" .
+
+</observation/observation_result> a clr:Concept ;
+    rdfs:label "OBSERVATION RESULT" ;
+    rdfs:comment "" ;
+    skos:narrower </observation/observation_result/chronicity>,
+        </observation/observation_result/coded>,
+        </observation/observation_result/distribution>,
+        </observation/observation_result/result>,
+        </observation/observation_result/scale>,
+        </observation/observation_result/type> .
+
+</observation/observation_result/chronicity> a clr:Concept ;
+    rdfs:label "CHRONICITY" ;
+    rdfs:comment "" .
+
+</observation/observation_result/coded> a clr:Concept ;
+    rdfs:label "CODED" ;
+    rdfs:comment "" .
+
+</observation/observation_result/distribution> a clr:Concept ;
+    rdfs:label "DISTRIBUTION" ;
+    rdfs:comment "" .
+
+</observation/observation_result/result> a clr:Concept ;
+    rdfs:label "RESULT" ;
+    clr:hasDataType </observation/observation_result/result/coding>,
+        </observation/observation_result/result/quantity> ;
+    clr:ncit <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C93419> ;
+    rdfs:comment "" .
+
+</observation/observation_result/result/coding> a fhir:Coding ;
+    rdfs:label "coding" ;
+    fhir:Coding.code </observation/observation_result/result/coding/code> ;
+    fhir:Coding.display </observation/observation_result/result/coding/display> ;
+    fhir:Coding.system </observation/observation_result/result/coding/system> ;
+    fhir:Coding.userSelected </observation/observation_result/result/coding/userSelected> ;
+    fhir:Coding.version </observation/observation_result/result/coding/version> .
+
+</observation/observation_result/result/coding/code> a fhir:code ;
+    rdfs:label "code" .
+
+</observation/observation_result/result/coding/display> a fhir:string ;
+    rdfs:label "display" .
+
+</observation/observation_result/result/coding/system> a fhir:uri ;
+    rdfs:label "system" .
+
+</observation/observation_result/result/coding/userSelected> a fhir:boolean ;
+    rdfs:label "user selected" .
+
+</observation/observation_result/result/coding/version> a fhir:string ;
+    rdfs:label "version" .
+
+</observation/observation_result/result/quantity> a fhir:Quantity ;
+    rdfs:label "quantity" ;
+    fhir:Quantity.code </observation/observation_result/result/quantity/code> ;
+    fhir:Quantity.comparator </observation/observation_result/result/quantity/comparator> ;
+    fhir:Quantity.system </observation/observation_result/result/quantity/system> ;
+    fhir:Quantity.unit </observation/observation_result/result/quantity/unit> ;
+    fhir:Quantity.value </observation/observation_result/result/quantity/value> .
+
+</observation/observation_result/result/quantity/code> a fhir:code ;
+    rdfs:label "code" .
+
+</observation/observation_result/result/quantity/comparator> a fhir:code ;
+    rdfs:label "comparator" .
+
+</observation/observation_result/result/quantity/system> a fhir:uri ;
+    rdfs:label "system" .
+
+</observation/observation_result/result/quantity/unit> a fhir:string ;
+    rdfs:label "unit" .
+
+</observation/observation_result/result/quantity/value> a fhir:decimal ;
+    rdfs:label "value" .
+
+</observation/observation_result/scale> a clr:Concept ;
+    rdfs:label "SCALE" ;
+    rdfs:comment "" .
+
+</observation/observation_result/type> a clr:Concept ;
+    rdfs:label "TYPE" ;
+    rdfs:comment "" .
+
+</observation/posiiton> a clr:Concept ;
+    rdfs:label "POSIITON" ;
+    clr:hasDataType </observation/posiiton/coding> ;
+    clr:ncit <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C93775> ;
+    rdfs:comment "" .
+
+</observation/posiiton/coding> a fhir:Coding ;
+    rdfs:label "coding" ;
+    fhir:Coding.code </observation/posiiton/coding/code> ;
+    fhir:Coding.display </observation/posiiton/coding/display> ;
+    fhir:Coding.system </observation/posiiton/coding/system> ;
+    fhir:Coding.userSelected </observation/posiiton/coding/userSelected> ;
+    fhir:Coding.version </observation/posiiton/coding/version> .
+
+</observation/posiiton/coding/code> a fhir:code ;
+    rdfs:label "code" .
+
+</observation/posiiton/coding/display> a fhir:string ;
+    rdfs:label "display" .
+
+</observation/posiiton/coding/system> a fhir:uri ;
+    rdfs:label "system" .
+
+</observation/posiiton/coding/userSelected> a fhir:boolean ;
+    rdfs:label "user selected" .
+
+</observation/posiiton/coding/version> a fhir:string ;
+    rdfs:label "version" .
+
+</observation/range> a clr:Concept ;
+    rdfs:label "RANGE" ;
+    rdfs:comment "" ;
+    skos:narrower </observation/range/hi>,
+        </observation/range/low> .
+
+</observation/range/hi> a clr:Concept ;
+    rdfs:label "HI" ;
+    rdfs:comment "" .
+
+</observation/range/low> a clr:Concept ;
+    rdfs:label "LOW" ;
+    rdfs:comment "" .
+
+</observation/reason_performed> a clr:Concept ;
+    rdfs:label "REASON PERFORMED" ;
+    rdfs:comment "" .
+
+</observation/reference_result> a clr:Concept ;
+    rdfs:label "REFERENCE RESULT" ;
+    rdfs:comment "" .
+
+</observation/run_id> a clr:Concept ;
+    rdfs:label "RUN ID" ;
+    rdfs:comment "" .
+
+</observation/sensitivity> a clr:Concept ;
+    rdfs:label "SENSITIVITY" ;
+    rdfs:comment "" .
+
+</observation/specimen> a clr:Concept ;
+    rdfs:label "SPECIMEN" ;
+    clr:ncit <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C93569> ;
+    rdfs:comment "" ;
+    skos:narrower </observation/specimen/anatomic_region>,
+        </observation/specimen/condition>,
+        </observation/specimen/usable> .
+
+</observation/specimen/anatomic_region> a clr:Concept ;
+    rdfs:label "ANATOMIC REGION" ;
+    rdfs:comment "" .
+
+</observation/specimen/condition> a clr:Concept ;
+    rdfs:label "CONDITION" ;
+    rdfs:comment "" .
+
+</observation/specimen/usable> a clr:Concept ;
+    rdfs:label "USABLE" ;
+    rdfs:comment "" .
+
+</observation/test> a clr:Concept ;
+    rdfs:label "TEST" ;
+    clr:hasDataType </observation/test/coding> ;
+    clr:ncit <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C93753> ;
+    rdfs:comment "" .
+
+</observation/test/coding> a fhir:Coding ;
+    rdfs:label "coding" ;
+    fhir:Coding.code </observation/test/coding/code> ;
+    fhir:Coding.display </observation/test/coding/display> ;
+    fhir:Coding.system </observation/test/coding/system> ;
+    fhir:Coding.userSelected </observation/test/coding/userSelected> ;
+    fhir:Coding.version </observation/test/coding/version> .
+
+</observation/test/coding/code> a fhir:code ;
+    rdfs:label "code" .
+
+</observation/test/coding/display> a fhir:string ;
+    rdfs:label "display" .
+
+</observation/test/coding/system> a fhir:uri ;
+    rdfs:label "system" .
+
+</observation/test/coding/userSelected> a fhir:boolean ;
+    rdfs:label "user selected" .
+
+</observation/test/coding/version> a fhir:string ;
+    rdfs:label "version" .
+
+</therapeutic_intervention> a clr:Concept ;
+    rdfs:label "THERAPEUTIC INTERVENTION" ;
+    rdfs:comment "" ;
+    skos:narrower </adverse_event/category>,
+        </observation/epidemic_/_pandemic>,
+        </observation/method>,
+        </therapeutic_intervention/adjustment>,
+        </therapeutic_intervention/daily_dose>,
+        </therapeutic_intervention/description>,
+        </therapeutic_intervention/form>,
+        </therapeutic_intervention/frequency>,
+        </therapeutic_intervention/route>,
+        </therapeutic_intervention/single_dose>,
+        </therapeutic_intervention/treatment>,
+        </therapeutic_intervention/treatment_vehicle>,
+        <common/date_time>,
+        <common/location>,
+        <common/period> .
+
+</therapeutic_intervention/adjustment> a clr:Concept ;
+    rdfs:label "ADJUSTMENT" ;
+    rdfs:comment "" .
+
+</therapeutic_intervention/daily_dose> a clr:Concept ;
+    rdfs:label "DAILY DOSE" ;
+    rdfs:comment "" .
+
+</therapeutic_intervention/description> a clr:Concept ;
+    rdfs:label "DESCRIPTION" ;
+    rdfs:comment "" .
+
+</therapeutic_intervention/form> a clr:Concept ;
+    rdfs:label "FORM" ;
+    rdfs:comment "" .
+
+</therapeutic_intervention/frequency> a clr:Concept ;
+    rdfs:label "FREQUENCY" ;
+    rdfs:comment "" .
+
+</therapeutic_intervention/route> a clr:Concept ;
+    rdfs:label "ROUTE" ;
+    rdfs:comment "" .
+
+</therapeutic_intervention/single_dose> a clr:Concept ;
+    rdfs:label "SINGLE DOSE" ;
+    rdfs:comment "" .
+
+</therapeutic_intervention/treatment> a clr:Concept ;
+    rdfs:label "TREATMENT" ;
+    clr:hasDataType </therapeutic_intervention/treatment/codeable_concept> ;
+    rdfs:comment "" .
+
+</therapeutic_intervention/treatment/codeable_concept> a fhir:CodeableConcept ;
+    rdfs:label "codeable concept" ;
+    fhir:CodeableConcept.coding </therapeutic_intervention/treatment/codeable_concept/coding> ;
+    fhir:CodeableConcept.text </therapeutic_intervention/treatment/codeable_concept/text> .
+
+</therapeutic_intervention/treatment/codeable_concept/coding> a fhir:Coding ;
+    rdfs:label "coding" ;
+    fhir:Coding.code </therapeutic_intervention/treatment/codeable_concept/coding/code> ;
+    fhir:Coding.display </therapeutic_intervention/treatment/codeable_concept/coding/display> ;
+    fhir:Coding.system </therapeutic_intervention/treatment/codeable_concept/coding/system> ;
+    fhir:Coding.userSelected </therapeutic_intervention/treatment/codeable_concept/coding/userSelected> ;
+    fhir:Coding.version </therapeutic_intervention/treatment/codeable_concept/coding/version> .
+
+</therapeutic_intervention/treatment/codeable_concept/coding/code> a fhir:code ;
+    rdfs:label "code" .
+
+</therapeutic_intervention/treatment/codeable_concept/coding/display> a fhir:string ;
+    rdfs:label "display" .
+
+</therapeutic_intervention/treatment/codeable_concept/coding/system> a fhir:uri ;
+    rdfs:label "system" .
+
+</therapeutic_intervention/treatment/codeable_concept/coding/userSelected> a fhir:boolean ;
+    rdfs:label "user selected" .
+
+</therapeutic_intervention/treatment/codeable_concept/coding/version> a fhir:string ;
+    rdfs:label "version" .
+
+</therapeutic_intervention/treatment/codeable_concept/text> a fhir:string ;
+    rdfs:label "text" .
+
+</therapeutic_intervention/treatment_vehicle> a clr:Concept ;
+    rdfs:label "TREATMENT VEHICLE" ;
+    rdfs:comment "" ;
+    skos:narrower </therapeutic_intervention/treatment_vehicle/amount>,
+        </therapeutic_intervention/treatment_vehicle/carrier> .
+
+</therapeutic_intervention/treatment_vehicle/amount> a clr:Concept ;
+    rdfs:label "AMOUNT" ;
+    rdfs:comment "" .
+
+</therapeutic_intervention/treatment_vehicle/carrier> a clr:Concept ;
+    rdfs:label "CARRIER" ;
+    rdfs:comment "" .
+
+<common/date_time/date_time> a fhir:dateTime ;
+    rdfs:label "date_time" ;
+    fhir:value <common/date_time/date_time/value> .
+
+<common/date_time/date_time/value> a xsd:dateTime ;
+    rdfs:label "value" .
+
+<common/location/directionality> a clr:Concept ;
+    rdfs:label "DIRECTIONALITY" ;
+    clr:hasDataType <common/location/directionality/coding> ;
+    clr:ncit <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C54215> ;
+    rdfs:comment "Check the NCIt mapping" .
+
+<common/location/directionality/coding> a fhir:Coding ;
+    rdfs:label "coding" ;
+    fhir:Coding.code <common/location/directionality/coding/code> ;
+    fhir:Coding.display <common/location/directionality/coding/display> ;
+    fhir:Coding.system <common/location/directionality/coding/system> ;
+    fhir:Coding.userSelected <common/location/directionality/coding/userSelected> ;
+    fhir:Coding.version <common/location/directionality/coding/version> .
+
+<common/location/directionality/coding/code> a fhir:code ;
+    rdfs:label "code" .
+
+<common/location/directionality/coding/display> a fhir:string ;
+    rdfs:label "display" .
+
+<common/location/directionality/coding/system> a fhir:uri ;
+    rdfs:label "system" .
+
+<common/location/directionality/coding/userSelected> a fhir:boolean ;
+    rdfs:label "user selected" .
+
+<common/location/directionality/coding/version> a fhir:string ;
+    rdfs:label "version" .
+
+<common/location/laterality> a clr:Concept ;
+    rdfs:label "LATERALITY" ;
+    clr:hasDataType <common/location/laterality/coding> ;
+    clr:ncit <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C93944> ;
+    rdfs:comment "" .
+
+<common/location/laterality/coding> a fhir:Coding ;
+    rdfs:label "coding" ;
+    fhir:Coding.code <common/location/laterality/coding/code> ;
+    fhir:Coding.display <common/location/laterality/coding/display> ;
+    fhir:Coding.system <common/location/laterality/coding/system> ;
+    fhir:Coding.userSelected <common/location/laterality/coding/userSelected> ;
+    fhir:Coding.version <common/location/laterality/coding/version> .
+
+<common/location/laterality/coding/code> a fhir:code ;
+    rdfs:label "code" .
+
+<common/location/laterality/coding/display> a fhir:string ;
+    rdfs:label "display" .
+
+<common/location/laterality/coding/system> a fhir:uri ;
+    rdfs:label "system" .
+
+<common/location/laterality/coding/userSelected> a fhir:boolean ;
+    rdfs:label "user selected" .
+
+<common/location/laterality/coding/version> a fhir:string ;
+    rdfs:label "version" .
+
+<common/location/portion> a clr:Concept ;
+    rdfs:label "PORTION" ;
+    clr:hasDataType <common/location/portion/coding> ;
+    clr:ncit <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C45313> ;
+    rdfs:comment "" .
+
+<common/location/portion/coding> a fhir:Coding ;
+    rdfs:label "coding" ;
+    fhir:Coding.code <common/location/portion/coding/code> ;
+    fhir:Coding.display <common/location/portion/coding/display> ;
+    fhir:Coding.system <common/location/portion/coding/system> ;
+    fhir:Coding.userSelected <common/location/portion/coding/userSelected> ;
+    fhir:Coding.version <common/location/portion/coding/version> .
+
+<common/location/portion/coding/code> a fhir:code ;
+    rdfs:label "code" .
+
+<common/location/portion/coding/display> a fhir:string ;
+    rdfs:label "display" .
+
+<common/location/portion/coding/system> a fhir:uri ;
+    rdfs:label "system" .
+
+<common/location/portion/coding/userSelected> a fhir:boolean ;
+    rdfs:label "user selected" .
+
+<common/location/portion/coding/version> a fhir:string ;
+    rdfs:label "version" .
+
+<common/period/period_end> a clr:Concept ;
+    rdfs:label "PERIOD END" ;
+    clr:hasDataType <common/period/period_end/date_time> ;
+    clr:ncit <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C82516> ;
+    rdfs:comment "NCIt code needs checking" .
+
+<common/period/period_end/date_time> a fhir:dateTime ;
+    rdfs:label "date_time" ;
+    fhir:value <common/period/period_end/date_time/value> .
+
+<common/period/period_end/date_time/value> a xsd:dateTime ;
+    rdfs:label "value" .
+
+<common/period/period_start> a clr:Concept ;
+    rdfs:label "PERIOD START" ;
+    clr:hasDataType <common/period/period_start/date_time> ;
+    clr:ncit <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C82517> ;
+    rdfs:comment "NCIt code needs checking" .
+
+<common/period/period_start/date_time> a fhir:dateTime ;
+    rdfs:label "date_time" ;
+    fhir:value <common/period/period_start/date_time/value> .
+
+<common/period/period_start/date_time/value> a xsd:dateTime ;
+    rdfs:label "value" .
+
+</adverse_event/category> a clr:Concept ;
+    rdfs:label "CATEGORY" ;
+    rdfs:comment "" .
+
+</adverse_event/causality/device> a clr:Concept ;
+    rdfs:label "DEVICE" ;
+    rdfs:comment "" .
+
+</adverse_event/severity> a clr:Concept ;
+    rdfs:label "SEVERITY" ;
+    rdfs:comment "" .
+
+</adverse_event/toxicity> a clr:Concept ;
+    rdfs:label "TOXICITY" ;
+    rdfs:comment "" ;
+    skos:narrower </adverse_event/toxicity/grade> .
+
+</observation/epidemic_/_pandemic> a clr:Concept ;
+    rdfs:label "EPIDEMIC / PANDEMIC" ;
+    rdfs:comment "" .
+
+</observation/method> a clr:Concept ;
+    rdfs:label "METHOD" ;
+    clr:hasDataType </observation/method/coding> ;
+    clr:ncit <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C93778> ;
+    rdfs:comment "" .
+
+<common/date_time> a clr:Concept ;
+    rdfs:label "DATE TIME" ;
+    clr:hasDataType <common/date_time/date_time> ;
+    clr:ncit <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C82517> ;
+    rdfs:comment "NCIt code needs checking" .
+
+<common/period> a clr:Concept ;
+    rdfs:label "PERIOD" ;
+    clr:ncit <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25616> ;
+    rdfs:comment "NCIt code needs checking" ;
+    skos:narrower <common/period/period_end>,
+        <common/period/period_start> .
+
+<common/location> a clr:Concept ;
+    rdfs:label "LOCATION" ;
+    clr:ncit <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C93943> ;
+    rdfs:comment "" ;
+    skos:narrower <common/location/directionality>,
+        <common/location/laterality>,
+        <common/location/portion> .
+

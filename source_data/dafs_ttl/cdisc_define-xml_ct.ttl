@@ -1,0 +1,789 @@
+@prefix gsk: <http://ontologies.gsk.com/cdisc/ct#> .
+@prefix ns1: <http://purl.org/dc/elements/1.1/> .
+@prefix ns2: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml> a skos:ConceptScheme ;
+    rdfs:label "Define-XML Controlled Terminology Package 52 Effective 2022-12-16" ;
+    ns1:description "CDISC Controlled Terminology for Define-XML is the set of CDISC-developed or CDISC-adopted standard expressions (values) used with data items within CDISC-defined DEFINE-XML datasets." ;
+    ns1:source "Define-XML Controlled Terminology developed by the CDISC Terminology Team in collaboration with the National Cancer Institute\'s Enterprise Vocabulary Services (EVS)" ;
+    ns2:valid "2022-12-16" ;
+    skos:hasTopConcept <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C103329>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C117744>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C117745>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C160924>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C165635>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C170448>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C170449>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C170450>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C170451>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C170452>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C172331>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C172332>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C176227>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C177903>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C66788> .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C103329> a skos:Concept ;
+    rdfs:label "General Observation Class" ;
+    gsk:extensible "false" ;
+    ns1:identifier "C103329" ;
+    skos:altLabel "General Observation Class" ;
+    skos:definition "Terminology related to the classification of a CDISC domain." ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C103329-C103371>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C103329-C103372>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C103329-C103373>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C103329-C103374>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C103329-C103375>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C103329-C103376>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C103329-C103377>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C103329-C103378>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C103329-C103379>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C103329-C123454>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C103329-C135396>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C103329-C147271>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C103329-C177921>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C103329-C177922>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C103329-C177923> ;
+    skos:notation "GNRLOBSC" ;
+    skos:prefLabel "CDISC Define-XML General Observation Class Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C103329-C103371> a skos:Concept ;
+    ns1:identifier "C103371" ;
+    skos:altLabel "BDS",
+        "Basic Data Structure" ;
+    skos:definition "An ADaM BDS dataset contains one or more records per subject, per analysis parameter, per analysis time point. Variables include the value being analyzed (e.g., AVAL) and the description of the value being analyzed (e.g., PARAM). Other variables in the dataset provide more information about the value being analyzed (e.g., the subject identification) or describe and trace the derivation of it (e.g., DTYPE) or support the analysis of it (e.g., treatment variables, covariates)." ;
+    skos:notation "BASIC DATA STRUCTURE" ;
+    skos:prefLabel "CDISC Basic Data Structure Dataset" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C103329-C103372> a skos:Concept ;
+    ns1:identifier "C103372" ;
+    skos:altLabel "Events" ;
+    skos:definition "This SDTM class captures planned protocol milestones such as randomization and study completion, and occurrences, conditions, or incidents independent of planned study evaluations occurring during the trial (e.g., adverse events) or prior to the trial (e.g., medical history)." ;
+    skos:notation "EVENTS" ;
+    skos:prefLabel "CDISC Events Class" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C103329-C103373> a skos:Concept ;
+    ns1:identifier "C103373" ;
+    skos:altLabel "Findings" ;
+    skos:definition "This SDTM class captures the observations resulting from planned evaluations to address specific tests or questions such as laboratory tests, ECG testing, and questions listed on questionnaires." ;
+    skos:notation "FINDINGS" ;
+    skos:prefLabel "CDISC Findings Class" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C103329-C103374> a skos:Concept ;
+    ns1:identifier "C103374" ;
+    skos:altLabel "Interventions" ;
+    skos:definition "This SDTM class captures investigational, therapeutic and other treatments that are administered to the subject (with some actual or expected physiological effect) either as specified by the study protocol (e.g., exposure to study drug), coincident with the study assessment period (e.g., concomitant medications), or self-administered by the subject (such as use of alcohol, tobacco, or caffeine)." ;
+    skos:notation "INTERVENTIONS" ;
+    skos:prefLabel "CDISC Interventions Class" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C103329-C103375> a skos:Concept ;
+    ns1:identifier "C103375" ;
+    skos:altLabel "ADaM Other" ;
+    skos:definition "An analysis dataset that doesn\'t conform to a pre-defined ADaM dataset structure (e.g. ADSL, BDS or OCCDS)." ;
+    skos:notation "ADAM OTHER" ;
+    skos:prefLabel "CDISC Other ADaM Dataset" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C103329-C103376> a skos:Concept ;
+    ns1:identifier "C103376" ;
+    skos:altLabel "Relationships" ;
+    skos:definition "This SDTM class provides a means to link related records between datasets. It includes the RELREC and SUPPQUAL datasets." ;
+    skos:notation "RELATIONSHIP" ;
+    skos:prefLabel "CDISC Relationship Class" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C103329-C103377> a skos:Concept ;
+    ns1:identifier "C103377" ;
+    skos:altLabel "SPECIAL-PURPOSE",
+        "Special Purpose" ;
+    skos:definition "This SDTM class contains a set of domains which do not conform to the Findings, Events or Interventions observation classes. The domains included are DM, CO, SE and SV." ;
+    skos:notation "SPECIAL PURPOSE" ;
+    skos:prefLabel "CDISC Special Purpose Class" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C103329-C103378> a skos:Concept ;
+    ns1:identifier "C103378" ;
+    skos:altLabel "ADSL",
+        "Subject Level Analysis Dataset" ;
+    skos:definition "The Subject-Level Analysis Dataset (ADSL) is a one-record-per-subject dataset which contains variables that describe subject demographic characteristics and group the subjects for analysis. ADSL is the primary source for subject-level variables included in other analysis datasets such as population flags and treatment variables." ;
+    skos:notation "SUBJECT LEVEL ANALYSIS DATASET" ;
+    skos:prefLabel "CDISC Subject Level Analysis Dataset" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C103329-C103379> a skos:Concept ;
+    ns1:identifier "C103379" ;
+    skos:altLabel "Trial Design" ;
+    skos:definition "This SDTM class describes the plan for the procedures to be followed in a clinical trial, including planned and actual timing of events, control group, method of allocating treatments, blinding methods, assignment of epochs that subjects pass through in the course of a trial." ;
+    skos:notation "TRIAL DESIGN" ;
+    skos:prefLabel "CDISC Trial Design Class" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C103329-C123454> a skos:Concept ;
+    ns1:identifier "C123454" ;
+    skos:altLabel "OCCDS",
+        "Occurrence Data Structure" ;
+    skos:definition "The Occurrence Data Structure (OCCDS) is the ADaM data structure for occurrence analysis. Occurrence analysis is the counting of subjects with a record or term, and often includes a structured hierarchy of dictionary coding categories." ;
+    skos:notation "OCCURRENCE DATA STRUCTURE" ;
+    skos:prefLabel "CDISC Occurrence Data Structure" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C103329-C135396> a skos:Concept ;
+    ns1:identifier "C135396" ;
+    skos:altLabel "Findings About" ;
+    skos:definition "This SDTM class is a specialization of the findings general observation class. It is intended, as its name implies, to be used when collected data represent findings about an event or intervention that cannot be represented within an event or intervention record or as a supplemental qualifier to such a record." ;
+    skos:notation "FINDINGS ABOUT" ;
+    skos:prefLabel "CDISC Findings About Class" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C103329-C147271> a skos:Concept ;
+    ns1:identifier "C147271" ;
+    skos:altLabel "Study Reference" ;
+    skos:definition "This special purpose SDTM class contains further descriptions of study-specific identifiers that will be used in subject based domains." ;
+    skos:notation "STUDY REFERENCE" ;
+    skos:prefLabel "CDISC Study Reference Class" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C103329-C177921> a skos:Concept ;
+    ns1:identifier "C177921" ;
+    skos:altLabel "ADDL",
+        "Device Level Analysis Dataset" ;
+    skos:definition "The Device-Level Analysis Dataset (ADDL) is a one-record-per-device or one-record-per-subject-per-device dataset which contains variables that describe device characteristics and timing, and group the devices for analysis. ADDL is the primary source for device-level variables included in other analysis datasets." ;
+    skos:notation "DEVICE LEVEL ANALYSIS DATASET" ;
+    skos:prefLabel "CDISC Device Level Analysis Dataset" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C103329-C177922> a skos:Concept ;
+    ns1:identifier "C177922" ;
+    skos:altLabel "MDBDS",
+        "Medical Device Basic Data Structure" ;
+    skos:definition "The Medical Device Basic Data Structure (MDBDS) supports the analysis needs by adding SPDEVID as a required key variable and USUBJID a conditionally required variable. See the BDS class for further details." ;
+    skos:notation "MEDICAL DEVICE BASIC DATA STRUCTURE" ;
+    skos:prefLabel "CDISC Medical Device Basic Data Structure" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C103329-C177923> a skos:Concept ;
+    ns1:identifier "C177923" ;
+    skos:altLabel "MDOCCDS",
+        "Medical Device Occurrence Data Structure" ;
+    skos:definition "The Medical Device Occurrence Data Structure (MDOCCDS) supports the analysis needs by adding SPDEVID as a required identifier and allowing USUBJID be a conditionally required variable. See the OCCDS class for further details." ;
+    skos:notation "MEDICAL DEVICE OCCURRENCE DATA STRUCTURE" ;
+    skos:prefLabel "CDISC Medical Device Occurrence Data Structure" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C117744> a skos:Concept ;
+    rdfs:label "Analysis Reason" ;
+    gsk:extensible "true" ;
+    ns1:identifier "C117744" ;
+    skos:altLabel "Analysis Reason" ;
+    skos:definition "Reason for reporting a specific analysis result described in Define-XML analysis results metadata." ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C117744-C117750>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C117744-C117751>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C117744-C117752>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C117744-C117753> ;
+    skos:notation "ANLREAS" ;
+    skos:prefLabel "CDISC Define-XML Analysis Reason Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C117744-C117750> a skos:Concept ;
+    ns1:identifier "C117750" ;
+    skos:definition "The analysis was triggered by findings in the data." ;
+    skos:notation "DATA DRIVEN" ;
+    skos:prefLabel "Data Driven Analysis" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C117744-C117751> a skos:Concept ;
+    ns1:identifier "C117751" ;
+    skos:definition "The analysis has been requested by a regulatory agency." ;
+    skos:notation "REQUESTED BY REGULATORY AGENCY" ;
+    skos:prefLabel "Analysis Requested by Regulatory Agency" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C117744-C117752> a skos:Concept ;
+    ns1:identifier "C117752" ;
+    skos:definition "The analysis is specified in a protocol." ;
+    skos:notation "SPECIFIED IN PROTOCOL" ;
+    skos:prefLabel "Analysis Specified in Protocol" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C117744-C117753> a skos:Concept ;
+    ns1:identifier "C117753" ;
+    skos:definition "The analysis is specified in a statistical analysis plan." ;
+    skos:notation "SPECIFIED IN SAP" ;
+    skos:prefLabel "Analysis Specified in Statistical Analysis Plan" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C117745> a skos:Concept ;
+    rdfs:label "Analysis Purpose" ;
+    gsk:extensible "true" ;
+    ns1:identifier "C117745" ;
+    skos:altLabel "Analysis Purpose" ;
+    skos:definition "Purpose of a specific analysis result described in Define-XML analysis results metadata." ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C117745-C98724>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C117745-C98772>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C117745-C98781> ;
+    skos:notation "ANLPURP" ;
+    skos:prefLabel "CDISC Define-XML Analysis Purpose Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C117745-C98724> a skos:Concept ;
+    ns1:identifier "C98724" ;
+    skos:altLabel "Exploratory Outcome Measure" ;
+    skos:definition "The outcome measure(s) that is part of a pre-specified analysis plan used to evaluate the exploratory endpoint(s) associated with exploratory study objective(s) and/or any other measures, excluding post-hoc measures, that are a focus of the study. (After clinicaltrials.gov)" ;
+    skos:notation "EXPLORATORY OUTCOME MEASURE" ;
+    skos:prefLabel "Exploratory Outcome Measure" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C117745-C98772> a skos:Concept ;
+    ns1:identifier "C98772" ;
+    skos:altLabel "Primary Outcome Measure" ;
+    skos:definition "The outcome measure(s) of greatest importance specified in the protocol, usually the one(s) used in the power calculation, to evaluate the primary endpoint(s) associated with the primary study objective(s). (After Clinicaltrials.gov)" ;
+    skos:notation "PRIMARY OUTCOME MEASURE" ;
+    skos:prefLabel "Primary Outcome Measure" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C117745-C98781> a skos:Concept ;
+    ns1:identifier "C98781" ;
+    skos:altLabel "Secondary Outcome Measure" ;
+    skos:definition "The outcome measure(s) that is part of a pre-specified analysis plan used to evaluate the secondary endpoint(s) associated with secondary study objective(s) and/or used to evaluate any measure(s) ancillary to the primary or secondary endpoint(s). (After Clinicaltrials.gov)." ;
+    skos:notation "SECONDARY OUTCOME MEASURE" ;
+    skos:prefLabel "Secondary Outcome Measure" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C160924> a skos:Concept ;
+    rdfs:label "SDTMIG Version Response" ;
+    gsk:extensible "true" ;
+    ns1:identifier "C160924" ;
+    skos:altLabel "SDTMIG Version Response" ;
+    skos:definition "Terminology relevant to the version of the study data tabulation model implementation guide used in the study." ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C160924-C161432>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C160924-C161433>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C160924-C161434>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C160924-C161435>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C160924-C161436>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C160924-C161437>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C160924-C189638> ;
+    skos:notation "SDTMIGRS" ;
+    skos:prefLabel "CDISC SDTM Implementation Guide Version Response Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C160924-C161432> a skos:Concept ;
+    ns1:identifier "C161432" ;
+    skos:altLabel "SDTMIG Version 3.1.1" ;
+    skos:definition "Version 3.1.1 of the CDISC Study Data Tabulation Model (SDTM) Implementation Guide." ;
+    skos:notation "3.1.1" ;
+    skos:prefLabel "CDISC SDTM Implementation Guide Version 3.1.1" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C160924-C161433> a skos:Concept ;
+    ns1:identifier "C161433" ;
+    skos:altLabel "SDTMIG Version 3.1.2" ;
+    skos:definition "Version 3.1.2 of the CDISC Study Data Tabulation Model (SDTM) Implementation Guide." ;
+    skos:notation "3.1.2" ;
+    skos:prefLabel "CDISC SDTM Implementation Guide Version 3.1.2" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C160924-C161434> a skos:Concept ;
+    ns1:identifier "C161434" ;
+    skos:altLabel "SDTMIG Version 3.1.2 Amendment 1" ;
+    skos:definition "Amendment 1 of the 3.1.2 version of the CDISC Study Data Tabulation Model (SDTM) Implementation Guide." ;
+    skos:notation "Version 3.1.2 Amendment 1" ;
+    skos:prefLabel "CDISC SDTM Implementation Guide Version 3.1.2 Amendment 1" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C160924-C161435> a skos:Concept ;
+    ns1:identifier "C161435" ;
+    skos:altLabel "SDTMIG Version 3.1.3" ;
+    skos:definition "Version 3.1.3 of the CDISC Study Data Tabulation Model (SDTM) Implementation Guide." ;
+    skos:notation "3.1.3" ;
+    skos:prefLabel "CDISC SDTM Implementation Guide Version 3.1.3" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C160924-C161436> a skos:Concept ;
+    ns1:identifier "C161436" ;
+    skos:altLabel "SDTMIG Version 3.2" ;
+    skos:definition "Version 3.2 of the CDISC Study Data Tabulation Model (SDTM) Implementation Guide." ;
+    skos:notation "3.2" ;
+    skos:prefLabel "CDISC SDTM Implementation Guide Version 3.2" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C160924-C161437> a skos:Concept ;
+    ns1:identifier "C161437" ;
+    skos:altLabel "SDTMIG Version 3.3" ;
+    skos:definition "Version 3.3 of the CDISC Study Data Tabulation Model (SDTM) Implementation Guide." ;
+    skos:notation "3.3" ;
+    skos:prefLabel "CDISC SDTM Implementation Guide Version 3.3" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C160924-C189638> a skos:Concept ;
+    ns1:identifier "C189638" ;
+    skos:altLabel "SDTMIG Version 3.4" ;
+    skos:definition "Version 3.4 of the CDISC Study Data Tabulation Model (SDTM) Implementation Guide." ;
+    skos:notation "3.4" ;
+    skos:prefLabel "CDISC SDTM Implementation Guide Version 3.4" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C165635> a skos:Concept ;
+    rdfs:label "ADaM Basic Data Structure Subclass" ;
+    gsk:extensible "false" ;
+    ns1:identifier "C165635" ;
+    skos:altLabel "ADaM Basic Data Structure Subclass" ;
+    skos:definition "Terminology relevant to the subclasses of the ADaM basic data structure." ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C165635-C165637>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C165635-C172452>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C165635-C189348> ;
+    skos:notation "BDSSC" ;
+    skos:prefLabel "CDISC Define-XML ADaM Basic Data Structure Subclass Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C165635-C165637> a skos:Concept ;
+    ns1:identifier "C165637" ;
+    skos:altLabel "TTE" ;
+    skos:definition "A dataset containing data that is used for Time-to-Event analyses." ;
+    skos:notation "TIME-TO-EVENT" ;
+    skos:prefLabel "Time-to-Event Dataset" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C165635-C172452> a skos:Concept ;
+    ns1:identifier "C172452" ;
+    skos:altLabel "NCA" ;
+    skos:definition "A dataset containing data that is used for non-compartmental analyses." ;
+    skos:notation "NON-COMPARTMENTAL ANALYSIS" ;
+    skos:prefLabel "Non-Compartmental Analysis Dataset" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C165635-C189348> a skos:Concept ;
+    ns1:identifier "C189348" ;
+    skos:altLabel "PPK" ;
+    skos:definition "A dataset containing data that is used for population pharmacokinetic analyses." ;
+    skos:notation "POPULATION PHARMACOKINETIC ANALYSIS" ;
+    skos:prefLabel "Population Pharmacokinetic Analysis Dataset" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C170448> a skos:Concept ;
+    rdfs:label "ODM Context" ;
+    gsk:extensible "false" ;
+    ns1:identifier "C170448" ;
+    skos:altLabel "ODM Context" ;
+    skos:definition "Terminology relevant to the context in which the Define-XML document is used." ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C170448-C17649>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C170448-C70885> ;
+    skos:notation "ODMCNTX" ;
+    skos:prefLabel "CDISC Define-XML ODM Context Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C170448-C17649> a skos:Concept ;
+    ns1:identifier "C17649" ;
+    skos:altLabel "Other" ;
+    skos:definition "Different than the one(s) previously specified or mentioned. (NCI)" ;
+    skos:notation "Other" ;
+    skos:prefLabel "Other" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C170448-C70885> a skos:Concept ;
+    ns1:identifier "C70885" ;
+    skos:definition "An assembly of one or more regulatory submission units supporting a specific regulatory purpose or decision. In most cases, the compilation of the submission units is utilized in the assessment of a regulated medical product quality, safety and/or effectiveness." ;
+    skos:notation "Submission" ;
+    skos:prefLabel "Regulatory Submission" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C170449> a skos:Concept ;
+    rdfs:label "Origin Type" ;
+    gsk:extensible "false" ;
+    ns1:identifier "C170449" ;
+    skos:altLabel "Origin Type" ;
+    skos:definition "Terminology relevant to the origin type for datasets in the Define-XML document." ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C170449-C126101>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C170449-C170547>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C170449-C170548>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C170449-C170549>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C170449-C170550>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C170449-C170551>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C170449-C17649> ;
+    skos:notation "ORIGINT" ;
+    skos:prefLabel "CDISC Define-XML Origin Type Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C170449-C126101> a skos:Concept ;
+    ns1:identifier "C126101" ;
+    skos:definition "A value that is not discoverable or accessible." ;
+    skos:notation "Not Available" ;
+    skos:prefLabel "Not Available" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C170449-C170547> a skos:Concept ;
+    ns1:identifier "C170547" ;
+    skos:definition "A value that is derived through designation, such as values from a look up table or a label on a CRF." ;
+    skos:notation "Assigned" ;
+    skos:prefLabel "Assigned Value" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C170449-C170548> a skos:Concept ;
+    ns1:identifier "C170548" ;
+    skos:definition "A value that is actually observed and recorded by a person or obtained by an instrument." ;
+    skos:notation "Collected" ;
+    skos:prefLabel "Collected Value" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C170449-C170549> a skos:Concept ;
+    ns1:identifier "C170549" ;
+    skos:definition "A value that is calculated by an algorithm or reproducible rule, and which is dependent upon other data values." ;
+    skos:notation "Derived" ;
+    skos:prefLabel "Derived Value" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C170449-C170550> a skos:Concept ;
+    ns1:identifier "C170550" ;
+    skos:definition "A value that is copied from a variable in another dataset." ;
+    skos:notation "Predecessor" ;
+    skos:prefLabel "Copied Value" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C170449-C170551> a skos:Concept ;
+    ns1:identifier "C170551" ;
+    skos:definition "A value that is included as part of the study protocol." ;
+    skos:notation "Protocol" ;
+    skos:prefLabel "Protocol Value" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C170449-C17649> a skos:Concept ;
+    ns1:identifier "C17649" ;
+    skos:altLabel "Other" ;
+    skos:definition "Different than the one(s) previously specified or mentioned. (NCI)" ;
+    skos:notation "Other" ;
+    skos:prefLabel "Other" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C170450> a skos:Concept ;
+    rdfs:label "Origin Source" ;
+    gsk:extensible "false" ;
+    ns1:identifier "C170450" ;
+    skos:altLabel "Origin Source" ;
+    skos:definition "Terminology relevant to the origin source for datasets in the Define-XML document." ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C170450-C25936>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C170450-C41189>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C170450-C68608>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C170450-C70793> ;
+    skos:notation "ORIGINS" ;
+    skos:prefLabel "CDISC Define-XML Origin Source Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C170450-C25936> a skos:Concept ;
+    ns1:identifier "C25936" ;
+    skos:definition "A person responsible for the conduct of the clinical trial at a trial site. If a trial is conducted by a team of individuals at the trial site, the investigator is the responsible leader of the team and may be called the principal investigator." ;
+    skos:notation "Investigator" ;
+    skos:prefLabel "Investigator" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C170450-C41189> a skos:Concept ;
+    ns1:identifier "C41189" ;
+    skos:definition "An individual who is observed, analyzed, examined, investigated, experimented upon, or/and treated in the course of a particular study." ;
+    skos:notation "Subject" ;
+    skos:prefLabel "Study Subject" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C170450-C68608> a skos:Concept ;
+    ns1:identifier "C68608" ;
+    skos:definition "A person or agency that promotes or exchanges goods or services for money. (NCI)" ;
+    skos:notation "Vendor" ;
+    skos:prefLabel "Vendor" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C170450-C70793> a skos:Concept ;
+    ns1:identifier "C70793" ;
+    skos:altLabel "Clinical Study Sponsor",
+        "Sponsor",
+        "Study Sponsor" ;
+    skos:definition "An individual, company, institution, or organization that takes responsibility for the initiation, management, and/or financing of a clinical study. [After ICH E6, WHO, 21 CFR 50.3 (e), and after IDMP]" ;
+    skos:notation "Sponsor" ;
+    skos:prefLabel "Clinical Study Sponsor" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C170451> a skos:Concept ;
+    rdfs:label "Standard Type" ;
+    gsk:extensible "false" ;
+    ns1:identifier "C170451" ;
+    skos:altLabel "Standard Type" ;
+    skos:definition "Terminology relevant to the classification of the standard described in the Define-XML document." ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C170451-C163415>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C170451-C170454> ;
+    skos:notation "STDTYP" ;
+    skos:prefLabel "CDISC Define-XML Standard Type Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C170451-C163415> a skos:Concept ;
+    ns1:identifier "C163415" ;
+    skos:altLabel "CDISC Controlled Terminology",
+        "Clinical Data Interchange Standards Consortium Controlled Terminology" ;
+    skos:definition "A standard terminology developed and maintained by Clinical Data Interchange Standards Consortium (CDISC) and the National Cancer Institute Enterprise Vocabulary Services (NCI-EVS) to support CDISC models, domains and specifications for data representation in regulated research." ;
+    skos:notation "CT" ;
+    skos:prefLabel "Clinical Data Interchange Standards Consortium Controlled Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C170451-C170454> a skos:Concept ;
+    ns1:identifier "C170454" ;
+    skos:altLabel "CDISC Implementation Guide" ;
+    skos:definition "A standard document developed and maintained by Clinical Data Interchange Standards Consortium (CDISC) that contains instructions and requirements for the organization, structure, and format of standard clinical and non-clinical trial tabulation and analysis datasets." ;
+    skos:notation "IG" ;
+    skos:prefLabel "CDISC Implementation Guide" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C170452> a skos:Concept ;
+    rdfs:label "Standard Name" ;
+    gsk:extensible "false" ;
+    ns1:identifier "C170452" ;
+    skos:altLabel "Standard Name" ;
+    skos:definition "Terminology relevant to the name of the standard described in the Define-XML document." ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C170452-C163415>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C170452-C170455>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C170452-C170456>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C170452-C170552>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C170452-C170553>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C170452-C170554>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C170452-C170556>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C170452-C181230>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C170452-C191213> ;
+    skos:notation "STDNAM" ;
+    skos:prefLabel "CDISC Define-XML Standard Name Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C170452-C163415> a skos:Concept ;
+    ns1:identifier "C163415" ;
+    skos:altLabel "CDISC Controlled Terminology",
+        "Clinical Data Interchange Standards Consortium Controlled Terminology" ;
+    skos:definition "A standard terminology developed and maintained by Clinical Data Interchange Standards Consortium (CDISC) and the National Cancer Institute Enterprise Vocabulary Services (NCI-EVS) to support CDISC models, domains and specifications for data representation in regulated research." ;
+    skos:notation "CDISC/NCI" ;
+    skos:prefLabel "Clinical Data Interchange Standards Consortium Controlled Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C170452-C170455> a skos:Concept ;
+    ns1:identifier "C170455" ;
+    skos:definition "The implementation guide for the Clinical Data Interchange Standards Consortium (CDISC) Study Data Tabulation Model standard." ;
+    skos:notation "SDTMIG" ;
+    skos:prefLabel "SDTM Implementation Guide" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C170452-C170456> a skos:Concept ;
+    ns1:identifier "C170456" ;
+    skos:definition "The implementation guide for the Clinical Data Interchange Standards Consortium (CDISC) Standard for the Exchange of Nonclinical Data standard." ;
+    skos:notation "SENDIG" ;
+    skos:prefLabel "SEND Implementation Guide" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C170452-C170552> a skos:Concept ;
+    ns1:identifier "C170552" ;
+    skos:definition "The implementation guide for the Clinical Data Interchange Standards Consortium (CDISC) Analysis Data Model standard." ;
+    skos:notation "ADaMIG" ;
+    skos:prefLabel "ADaM Implementation Guide" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C170452-C170553> a skos:Concept ;
+    ns1:identifier "C170553" ;
+    skos:definition "The implementation guide for the Clinical Data Interchange Standards Consortium (CDISC) Study Data Tabulation Model Associated Persons standard." ;
+    skos:notation "SDTMIG-AP" ;
+    skos:prefLabel "SDTM Implementation Guide-Associated Persons" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C170452-C170554> a skos:Concept ;
+    ns1:identifier "C170554" ;
+    skos:definition "The implementation guide for the Clinical Data Interchange Standards Consortium (CDISC) Study Data Tabulation Model Medical Devices standard." ;
+    skos:notation "SDTMIG-MD" ;
+    skos:prefLabel "SDTM Implementation Guide-Medical Devices" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C170452-C170556> a skos:Concept ;
+    ns1:identifier "C170556" ;
+    skos:definition "The implementation guide for the Clinical Data Interchange Standards Consortium (CDISC) Standard for the Exchange of Nonclinical Data Developmental and Reproductive Toxicology standard." ;
+    skos:notation "SENDIG-DART" ;
+    skos:prefLabel "SEND Implementation Guide-Developmental and Reproductive Toxicology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C170452-C181230> a skos:Concept ;
+    ns1:identifier "C181230" ;
+    skos:definition "The implementation guide for the Clinical Data Interchange Standards Consortium (CDISC) Standard for the Exchange of Nonclinical Data Animal Rule standard." ;
+    skos:notation "SENDIG-AR" ;
+    skos:prefLabel "SEND Implementation Guide-Animal Rule" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C170452-C191213> a skos:Concept ;
+    ns1:identifier "C191213" ;
+    skos:altLabel "Bioresearch Monitoring Technical Conformance Guide" ;
+    skos:definition "The US Food and Drug Administration\'s (US FDA) dataset specification Bioresearch Monitoring Technical Conformance Guide." ;
+    skos:notation "BIMO" ;
+    skos:prefLabel "Bioresearch Monitoring Technical Conformance Guide" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C172331> a skos:Concept ;
+    rdfs:label "CDISC Controlled Terminology Standard Type" ;
+    gsk:extensible "false" ;
+    ns1:identifier "C172331" ;
+    skos:altLabel "CDISC Controlled Terminology Standard Type" ;
+    skos:definition "Terminology relevant to the classification of the CDISC controlled terminology standard described in the Define-XML document." ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C172331-C180548>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C172331-C180549>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C172331-C180550>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C172331-C180551>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C172331-C180552> ;
+    skos:notation "CTSTDTYP" ;
+    skos:prefLabel "CDISC Define-XML CDISC Controlled Terminology Standard Type Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C172331-C180548> a skos:Concept ;
+    ns1:identifier "C180548" ;
+    skos:definition "The controlled terminology standard subset that includes terms pertaining to the Clinical Data Interchange Standards Consortium (CDISC) Analysis Data Model (ADaM)." ;
+    skos:notation "ADaM" ;
+    skos:prefLabel "CDISC ADaM Standard Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C172331-C180549> a skos:Concept ;
+    ns1:identifier "C180549" ;
+    skos:definition "The controlled terminology standard subset that includes terms relevant to the Clinical Data Interchange Standards Consortium (CDISC) Clinical Data Acquisition Standards Harmonization (CDASH) group." ;
+    skos:notation "CDASH" ;
+    skos:prefLabel "CDISC CDASH Standard Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C172331-C180550> a skos:Concept ;
+    ns1:identifier "C180550" ;
+    skos:definition "The controlled terminology standard subset that includes terms relevant to the Clinical Data Interchange Standards Consortium (CDISC) Define-XML standard." ;
+    skos:notation "DEFINE-XML" ;
+    skos:prefLabel "CDISC Define-XML Standard Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C172331-C180551> a skos:Concept ;
+    ns1:identifier "C180551" ;
+    skos:definition "The controlled terminology standard subset that includes terms pertaining to the Clinical Data Interchange Standards Consortium (CDISC) Study Data Tabulation Model (SDTM)." ;
+    skos:notation "SDTM" ;
+    skos:prefLabel "CDISC SDTM Standard Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C172331-C180552> a skos:Concept ;
+    ns1:identifier "C180552" ;
+    skos:definition "The controlled terminology standard subset that includes terms relevant to the Clinical Data Interchange Standards Consortium (CDISC) Standard for Exchange of Non-clinical Data (SEND) group." ;
+    skos:notation "SEND" ;
+    skos:prefLabel "CDISC SEND Standard Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C172332> a skos:Concept ;
+    rdfs:label "Standard Status" ;
+    gsk:extensible "true" ;
+    ns1:identifier "C172332" ;
+    skos:altLabel "Standard Status" ;
+    skos:definition "Terminology relevant to the development or publication status of the standard." ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C172332-C172453>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C172332-C172454>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C172332-C172455> ;
+    skos:notation "STDSTAT" ;
+    skos:prefLabel "CDISC Define-XML Standard Status Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C172332-C172453> a skos:Concept ;
+    ns1:identifier "C172453" ;
+    skos:definition "A preliminary version of a CDISC standard that has not yet completed the CDISC standards development process. (NCI)" ;
+    skos:notation "DRAFT" ;
+    skos:prefLabel "CDISC Draft Standard" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C172332-C172454> a skos:Concept ;
+    ns1:identifier "C172454" ;
+    skos:definition "A version of a CDISC standard whose conclusiveness is dependent upon the fulfillment of some contingency or final alteration. (NCI)" ;
+    skos:notation "PROVISIONAL" ;
+    skos:prefLabel "CDISC Provisional Standard" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C172332-C172455> a skos:Concept ;
+    ns1:identifier "C172455" ;
+    skos:definition "A final version of a CDISC standard that has completed the CDISC standards development process. (NCI)" ;
+    skos:notation "FINAL" ;
+    skos:prefLabel "CDISC Final Standard" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C176227> a skos:Concept ;
+    rdfs:label "ADaM Occurrence Data Structure Subclass" ;
+    gsk:extensible "false" ;
+    ns1:identifier "C176227" ;
+    skos:altLabel "ADaM Occurrence Data Structure Subclass" ;
+    skos:definition "Terminology relevant to the subclasses of the ADaM occurrence data structure." ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C176227-C176265> ;
+    skos:notation "OCCSC" ;
+    skos:prefLabel "CDISC Define-XML ADaM Occurrence Data Structure Subclass Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C176227-C176265> a skos:Concept ;
+    ns1:identifier "C176265" ;
+    skos:altLabel "AE" ;
+    skos:definition "A dataset containing data that is used for adverse event analyses." ;
+    skos:notation "ADVERSE EVENT" ;
+    skos:prefLabel "Adverse Event Dataset" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C177903> a skos:Concept ;
+    rdfs:label "ADaM Medical Device Basic Data Structure Subclass" ;
+    gsk:extensible "false" ;
+    ns1:identifier "C177903" ;
+    skos:altLabel "ADaM Medical Device Basic Data Structure Subclass" ;
+    skos:definition "Terminology relevant to the subclasses of the ADaM device level basic data structure." ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C177903-C177920> ;
+    skos:notation "MDBDSSC" ;
+    skos:prefLabel "CDISC Define-XML ADaM Medical Device Basic Data Structure Subclass Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C177903-C177920> a skos:Concept ;
+    ns1:identifier "C177920" ;
+    skos:altLabel "MDTTE" ;
+    skos:definition "A dataset containing data that is used for medical device Time-to-Event analyses." ;
+    skos:notation "MEDICAL DEVICE TIME-TO-EVENT" ;
+    skos:prefLabel "Medical Device Time-to-Event Dataset" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C66788> a skos:Concept ;
+    rdfs:label "Dictionary Name" ;
+    gsk:extensible "true" ;
+    ns1:identifier "C66788" ;
+    skos:altLabel "Dictionary Name" ;
+    skos:definition "A name given to a reference source that lists words and gives their meaning. (NCI)" ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C66788-C134003>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C66788-C154331>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C66788-C163415>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C66788-C163416>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C66788-C163417>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C66788-C37978>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C66788-C43820>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C66788-C49468>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C66788-C49471>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C66788-C49474>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C66788-C49475>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C66788-C49476>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C66788-C49704>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C66788-C53489> ;
+    skos:notation "DICTNAM" ;
+    skos:prefLabel "CDISC Dictionary Name Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C66788-C134003> a skos:Concept ;
+    ns1:identifier "C134003" ;
+    skos:altLabel "DUNS Numbers",
+        "Data Universal Number System" ;
+    skos:definition "A proprietary system developed and regulated by Dun & Bradstreet that assigns a unique nine digit numeric identifier to a single business entity location." ;
+    skos:notation "D-U-N-S NUMBER" ;
+    skos:prefLabel "Data Universal Numbering System" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C66788-C154331> a skos:Concept ;
+    ns1:identifier "C154331" ;
+    skos:altLabel "Anatomical Therapeutic Chemical Classification System" ;
+    skos:definition "A World Health Organization (WHO) classification system, developed and maintained by the WHO Collaborating Centre for Drug Statistics Methodology, for medicinal substances where active substances are divided into different groups according to the organ or system on which they act and their therapeutic, pharmacological, and chemical properties." ;
+    skos:notation "WHO ATC CLASSIFICATION SYSTEM" ;
+    skos:prefLabel "Anatomical Therapeutic Chemical Classification System" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C66788-C163415> a skos:Concept ;
+    ns1:identifier "C163415" ;
+    skos:altLabel "CDISC Controlled Terminology",
+        "Clinical Data Interchange Standards Consortium Controlled Terminology" ;
+    skos:definition "A standard terminology developed and maintained by Clinical Data Interchange Standards Consortium (CDISC) and the National Cancer Institute Enterprise Vocabulary Services (NCI-EVS) to support CDISC models, domains and specifications for data representation in regulated research." ;
+    skos:notation "CDISC CT" ;
+    skos:prefLabel "Clinical Data Interchange Standards Consortium Controlled Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C66788-C163416> a skos:Concept ;
+    ns1:identifier "C163416" ;
+    skos:altLabel "Medication Reference Terminology",
+        "NDF-RT" ;
+    skos:definition "A standard terminology developed and maintained by the Veterans Health Administration (VHA) that includes terminology to support the mechanism of action, physiologic effect, and asserted pharmacologic classification relationships of medications. MED-RT incorporates terminology from RxNORM, MeSH, and SNOMED CT." ;
+    skos:notation "MED-RT" ;
+    skos:prefLabel "Medication Reference Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C66788-C163417> a skos:Concept ;
+    ns1:identifier "C163417" ;
+    skos:altLabel "SRS-UNII",
+        "Substance Registration System-Unique Ingredient Identifier" ;
+    skos:definition "A standard terminology developed and maintained by the Department of Veterans Affairs/Veterans Health Administration designated federal collaborative Structured Product Labeling Interagency Expert Panel (SPLIEP). It contains terminology to support the mechanism of action, physiologic effect, and asserted pharmacologic classification relationships of drug ingredients and food allergens." ;
+    skos:notation "UNII" ;
+    skos:prefLabel "Substance Registration System-Unique Ingredient Identifier" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C66788-C37978> a skos:Concept ;
+    ns1:identifier "C37978" ;
+    skos:altLabel "International Classification of Diseases for Oncology" ;
+    skos:definition "A World Health Organization (WHO) multi-axial classification of the site, morphology, behaviour, and grading of neoplasms." ;
+    skos:notation "ICD-O" ;
+    skos:prefLabel "International Classification of Diseases for Oncology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C66788-C43820> a skos:Concept ;
+    ns1:identifier "C43820" ;
+    skos:altLabel "Medical Dictionary for Regulatory Activities" ;
+    skos:definition "MedDRA is an international medical terminology designed to support the classification, retrieval, presentation, and communication of medical information throughout the medical product regulatory cycle. MedDRA was developed under the auspices of the International Conference on Harmonisation of Technical Requirements for Registration of Pharmaceuticals for Human Use (ICH). The MedDRA Maintenance and Support Services Organization (MSSO) holds a contract with the International Federation of Pharmaceutical Manufacturers Associations (IFPMA) to maintain and support the implementation of the terminology. (NCI)" ;
+    skos:notation "MedDRA" ;
+    skos:prefLabel "MedDRA" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C66788-C49468> a skos:Concept ;
+    ns1:identifier "C49468" ;
+    skos:altLabel "World Health Organization Adverse Reaction Terms" ;
+    skos:definition "A terminology implemented by the World Health Organization to describe adverse reactions to a prescribed medication or treatment regimen. (NCI)" ;
+    skos:notation "WHOART" ;
+    skos:prefLabel "World Health Organization Adverse Reaction Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C66788-C49471> a skos:Concept ;
+    ns1:identifier "C49471" ;
+    skos:altLabel "Coding Symbols for a Thesaurus of Adverse Reaction Terms" ;
+    skos:definition "A terminology developed and used by the Food and Drug Administration (FDA) for the coding, filing and retrieving of post marketing adverse reaction reports. (NCI)" ;
+    skos:notation "COSTART" ;
+    skos:prefLabel "Thesaurus of Adverse Reaction Term Coding Symbols" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C66788-C49474> a skos:Concept ;
+    ns1:identifier "C49474" ;
+    skos:altLabel "International Classification of Diseases" ;
+    skos:definition "A system of categories to which morbid entries are assigned according to established criteria. Included is the entire range of conditions in a manageable number of categories, grouped to facilitate mortality reporting. It is produced by the World Health Organization (from ICD-10, p1). The Clinical Modifications, produced by the United States Dept. of Health and Human Services, are larger extensions used for morbidity and general epidemiological purposes, primarily in the U.S. (MSH2005_2004_10_12)" ;
+    skos:notation "ICD" ;
+    skos:prefLabel "International Classification of Diseases" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C66788-C49475> a skos:Concept ;
+    ns1:identifier "C49475" ;
+    skos:altLabel "WHODrug Global",
+        "World Health Organization Drug Dictionary" ;
+    skos:definition "A reference source of drugs and drug associated information maintained by the World Health Organization. (NCI)" ;
+    skos:notation "WHODD" ;
+    skos:prefLabel "World Health Organization Drug Dictionary" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C66788-C49476> a skos:Concept ;
+    ns1:identifier "C49476" ;
+    skos:altLabel "Logical Observation Identifiers Names and Codes" ;
+    skos:definition "Published by The Regenstrief Institute, the Logical Observation Identifiers Names and Codes covers clinical and clinical laboratory terminology. (NCI)" ;
+    skos:notation "LOINC" ;
+    skos:prefLabel "Logical Observation Identifiers Names and Codes" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C66788-C49704> a skos:Concept ;
+    ns1:identifier "C49704" ;
+    skos:altLabel "Common Terminology Criteria for Adverse Events" ;
+    skos:definition "A standard terminology developed and maintained by the National Cancer Institute to report adverse events occurring in cancer clinical trials. The CTCAE contains a grading scale for each adverse event term representing the severity of the event." ;
+    skos:notation "CTCAE" ;
+    skos:prefLabel "Common Terminology Criteria for Adverse Events" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/define-xml/C66788-C53489> a skos:Concept ;
+    ns1:identifier "C53489" ;
+    skos:altLabel "Systematized Nomenclature of Medicine" ;
+    skos:definition "A multiaxial, hierarchical classification system for diseases in man developed by the College of American Pathologists. (NCI)" ;
+    skos:notation "SNOMED" ;
+    skos:prefLabel "Systematized Nomenclature of Medicine" .
+

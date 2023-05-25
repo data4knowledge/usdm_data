@@ -1,0 +1,61 @@
+@base <http://id.gsk.com/dataset/cso/sponsor_ct/> .
+@prefix ns1: <http://purl.org/dc/elements/1.1/> .
+@prefix ns2: <http://ontologies.gsk.com/cdisc/ct#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<local_ct> a skos:ConceptScheme ;
+    rdfs:label "Local CT" ;
+    skos:hasTopConcept <local_ct/d000001> .
+
+<local_ct/d000001> a skos:Concept ;
+    rdfs:label "Extra test codes" ;
+    ns2:extensible true ;
+    ns1:identifier "D000001" ;
+    skos:definition "" ;
+    skos:narrower <local_ct/d000001-d100000>,
+        <local_ct/d000001-d100001>,
+        <local_ct/d000001-d100002>,
+        <local_ct/d000001-d100003>,
+        <local_ct/d000001-d100004>,
+        <local_ct/d000001-d100005> ;
+    skos:notation "TEST CODES" ;
+    skos:prefLabel "Extra test codes" .
+
+<local_ct/d000001-d100000> a skos:Concept ;
+    ns1:identifier "D100000" ;
+    skos:definition "" ;
+    skos:notation "AGE" ;
+    skos:prefLabel "Age" .
+
+<local_ct/d000001-d100001> a skos:Concept ;
+    ns1:identifier "D100001" ;
+    skos:definition "" ;
+    skos:notation "RACE" ;
+    skos:prefLabel "Race" .
+
+<local_ct/d000001-d100002> a skos:Concept ;
+    ns1:identifier "D100002" ;
+    skos:definition "" ;
+    skos:notation "SEX" ;
+    skos:prefLabel "Sex" .
+
+<local_ct/d000001-d100003> a skos:Concept ;
+    ns1:identifier "D100003" ;
+    skos:definition "" ;
+    skos:notation "ETHNIC" ;
+    skos:prefLabel "Ethnicity" .
+
+<local_ct/d000001-d100004> a skos:Concept ;
+    ns1:identifier "D100004" ;
+    skos:definition "" ;
+    skos:notation "ADVERSE EVENT" ;
+    skos:prefLabel "Adverse Event" .
+
+<local_ct/d000001-d100005> a skos:Concept ;
+    ns1:identifier "D100005" ;
+    skos:definition "" ;
+    skos:notation "DRUG EXPOSURE" ;
+    skos:prefLabel "Drug Exposure" .
+

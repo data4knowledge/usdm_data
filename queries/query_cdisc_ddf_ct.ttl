@@ -1,0 +1,1947 @@
+CALL n10s.onto.import.inline('@prefix gsk: <http://ontologies.gsk.com/cdisc/ct#> .
+@prefix ns1: <http://purl.org/dc/elements/1.1/> .
+@prefix ns2: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf> a skos:ConceptScheme ;
+    rdfs:label "DDF Controlled Terminology Package 52 Effective 2022-12-16" ;
+    ns1:description "CDISC Controlled Terminology for DDF is the set of CDISC-developed or CDISC-adopted standard expressions (values) used with data items within CDISC-defined DDF datasets." ;
+    ns1:source "DDF Controlled Terminology developed by the CDISC Terminology Team in collaboration with the National Cancer Institute\'s Enterprise Vocabulary Services (EVS)" ;
+    ns2:valid "2022-12-16" ;
+    skos:hasTopConcept <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C127262>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C171445>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188698>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188699>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188700>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188701>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188702>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188703>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188704>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188705>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188706>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188707>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188708>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188709>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188710>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188711>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188712>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188713>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188714>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188715>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188716>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188717>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188718>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188719>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188720>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188721>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188722>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188723>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188724>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188725>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188726>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188727>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188728>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66736>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66737>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66739>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C99076>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C99077>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C99079> .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C127262> a skos:Concept ;
+    rdfs:label "Environmental Setting" ;
+    gsk:extensible "true" ;
+    ns1:identifier "C127262" ;
+    skos:altLabel "Environmental Setting" ;
+    skos:definition "Terminology relevant to the surroundings or environment." ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C127262-C102647>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C127262-C102650>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C127262-C102679>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C127262-C102712>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C127262-C127785>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C127262-C16281>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C127262-C16696>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C127262-C17118>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C127262-C17556>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C127262-C18002>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C127262-C181529>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C127262-C181530>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C127262-C21541>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C127262-C41206>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C127262-C48953>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C127262-C51282>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C127262-C85862>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C127262-C85863> ;
+    skos:notation "SETTING" ;
+    skos:prefLabel "CDISC SDTM Environmental Setting Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C127262-C102647> a skos:Concept ;
+    ns1:identifier "C102647" ;
+    skos:definition "The area in which an individual lives." ;
+    skos:notation "HOUSEHOLD ENVIRONMENT" ;
+    skos:prefLabel "Household Environment" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C127262-C102650> a skos:Concept ;
+    ns1:identifier "C102650" ;
+    skos:definition "A setting outside the clinic or a comparable health care facility, e.g. a doctor\'s office, the subject\'s home or workplace, a school, a public park, or a restaurant." ;
+    skos:notation "FIELD" ;
+    skos:prefLabel "In the Field" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C127262-C102679> a skos:Concept ;
+    ns1:identifier "C102679" ;
+    skos:definition "An area outside of that in which an individual lives." ;
+    skos:notation "NON-HOUSEHOLD ENVIRONMENT" ;
+    skos:prefLabel "Non-household Environment" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C127262-C102712> a skos:Concept ;
+    ns1:identifier "C102712" ;
+    skos:definition "The surroundings or environment in which social activities occur." ;
+    skos:notation "SOCIAL SETTING" ;
+    skos:prefLabel "Social Setting" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C127262-C127785> a skos:Concept ;
+    ns1:identifier "C127785" ;
+    skos:definition "An establishment that provides care for infants and children." ;
+    skos:notation "CHILD CARE CENTER" ;
+    skos:prefLabel "Childcare Center" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C127262-C16281> a skos:Concept ;
+    ns1:identifier "C16281" ;
+    skos:definition "A medical care center that provides healthcare services on an outpatient basis." ;
+    skos:notation "OUTPATIENT CLINIC" ;
+    skos:prefLabel "Ambulatory Care Facility" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C127262-C16696> a skos:Concept ;
+    ns1:identifier "C16696" ;
+    skos:definition "An institution that provides medical, surgical, or psychiatric care and treatment for the sick or the injured." ;
+    skos:notation "HOSPITAL" ;
+    skos:prefLabel "Hospital" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C127262-C17118> a skos:Concept ;
+    ns1:identifier "C17118" ;
+    skos:definition "An educational institution." ;
+    skos:notation "SCHOOL" ;
+    skos:prefLabel "School" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C127262-C17556> a skos:Concept ;
+    ns1:identifier "C17556" ;
+    skos:definition "Place or physical location of work or employment." ;
+    skos:notation "WORKSITE" ;
+    skos:prefLabel "Worksite" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C127262-C18002> a skos:Concept ;
+    ns1:identifier "C18002" ;
+    skos:definition "A person\'s place of residence." ;
+    skos:notation "HOME" ;
+    skos:prefLabel "Home" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C127262-C181529> a skos:Concept ;
+    ns1:identifier "C181529" ;
+    skos:definition "A motorized conveyance for people and goods." ;
+    skos:notation "MOTOR VEHICLE" ;
+    skos:prefLabel "Motor Vehicle" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C127262-C181530> a skos:Concept ;
+    ns1:identifier "C181530" ;
+    skos:definition "Any environmental setting outside of a clinic." ;
+    skos:notation "NOT IN CLINIC" ;
+    skos:prefLabel "Not In Clinic" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C127262-C21541> a skos:Concept ;
+    ns1:identifier "C21541" ;
+    skos:definition "The buildings and organizations where healthcare services are provided." ;
+    skos:notation "HEALTH FACILITY" ;
+    skos:prefLabel "Healthcare Facility" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C127262-C41206> a skos:Concept ;
+    ns1:identifier "C41206" ;
+    skos:definition "An established society, corporation, foundation or other organization founded and united for a specific purpose, e.g. for health-related research; also used to refer to a building or buildings occupied or used by such organization." ;
+    skos:notation "INSTITUTION" ;
+    skos:prefLabel "Institution" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C127262-C48953> a skos:Concept ;
+    ns1:identifier "C48953" ;
+    skos:definition "A tract of land cultivated for the purpose of agricultural production or devoted to the raising and breeding of domestic animals." ;
+    skos:notation "FARM" ;
+    skos:prefLabel "Farm" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C127262-C51282> a skos:Concept ;
+    ns1:identifier "C51282" ;
+    skos:definition "A health care facility where subjects or patients may receive assessments, procedures, or treatments that are provided by physicians and other healthcare providers." ;
+    skos:notation "CLINIC" ;
+    skos:prefLabel "Clinic" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C127262-C85862> a skos:Concept ;
+    ns1:identifier "C85862" ;
+    skos:definition "An institution where persons are confined for punishment and to protect the public." ;
+    skos:notation "PRISON" ;
+    skos:prefLabel "Correctional Institution" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C127262-C85863> a skos:Concept ;
+    ns1:identifier "C85863" ;
+    skos:definition "Temporary housing for displaced or at-risk persons." ;
+    skos:notation "SHELTER" ;
+    skos:prefLabel "Shelter" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C171445> a skos:Concept ;
+    rdfs:label "Mode of Subject Contact" ;
+    gsk:extensible "true" ;
+    ns1:identifier "C171445" ;
+    skos:altLabel "Mode of Subject Contact" ;
+    skos:definition "Terminology relevant to the means by which interaction occurs between the subject and person or entity." ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C171445-C171524>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C171445-C171525>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C171445-C171533>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C171445-C171537>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C171445-C175574>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C171445-C177933> ;
+    skos:notation "CNTMODE" ;
+    skos:prefLabel "CDISC SDTM Mode of Subject Contact Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C171445-C171524> a skos:Concept ;
+    ns1:identifier "C171524" ;
+    skos:definition "A form of remote communication by audio technology." ;
+    skos:notation "REMOTE AUDIO" ;
+    skos:prefLabel "Audioconferencing" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C171445-C171525> a skos:Concept ;
+    ns1:identifier "C171525" ;
+    skos:definition "A form of remote communication by audio video technology." ;
+    skos:notation "REMOTE AUDIO VIDEO" ;
+    skos:prefLabel "Audio-Videoconferencing" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C171445-C171533> a skos:Concept ;
+    ns1:identifier "C171533" ;
+    skos:definition "Receipt of shipped material was confirmed by signature." ;
+    skos:notation "SHIPMENT CONFIRMED BY SIGNATURE" ;
+    skos:prefLabel "Shipment Confirmed by Signature" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C171445-C171537> a skos:Concept ;
+    ns1:identifier "C171537" ;
+    skos:definition "Communication by way of telephone." ;
+    skos:notation "TELEPHONE CALL" ;
+    skos:prefLabel "Telephone Call" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C171445-C175574> a skos:Concept ;
+    ns1:identifier "C175574" ;
+    skos:altLabel "In-Person" ;
+    skos:definition "An interaction that takes place in the physical presence of someone else." ;
+    skos:notation "IN PERSON" ;
+    skos:prefLabel "In Person" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C171445-C177933> a skos:Concept ;
+    ns1:identifier "C177933" ;
+    skos:altLabel "Interactive Voice Response System" ;
+    skos:definition "A type of automated system in which individuals can access information menus containing pre-recorded or dynamically generated information with voice prompts, without the need for an agent or operator." ;
+    skos:notation "IVRS" ;
+    skos:prefLabel "Interactive Voice Response System" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188698> a skos:Concept ;
+    rdfs:label "DDF Entity Terminology" ;
+    ns1:identifier "C188698" ;
+    skos:altLabel "DDF Entity Terminology" ;
+    skos:definition "A terminology value set relevant to the entities within the CDISC digital data flow (DDF) model." ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188698-C112038>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188698-C142427>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188698-C142450>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188698-C142728>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188698-C142735>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188698-C15206>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188698-C15320>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188698-C174447>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188698-C188810>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188698-C188811>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188698-C188812>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188698-C188813>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188698-C188814>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188698-C188815>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188698-C19711>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188698-C25162>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188698-C25212>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188698-C25218>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188698-C42753>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188698-C71473>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188698-C71738>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188698-C82567>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188698-C83082>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188698-C93490>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188698-C98769> ;
+    skos:notation "DDF Entity Terminology" ;
+    skos:prefLabel "CDISC DDF Entities Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188698-C112038> a skos:Concept ;
+    ns1:identifier "C112038" ;
+    skos:altLabel "Trial Disease/Condition Indication",
+        "Trial Disease/Condition Indication Description" ;
+    skos:definition "The textual representation of the condition, disease or disorder that the clinical trial is intended to investigate or address." ;
+    skos:notation "Trial Disease/Condition Indication Description" ;
+    skos:prefLabel "Trial Indication" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188698-C142427> a skos:Concept ;
+    ns1:identifier "C142427" ;
+    skos:definition "Contact between subject/patient and healthcare practitioner/researcher, during which an assessment or activity is performed. Contact may be physical or virtual." ;
+    skos:notation "Clinical Encounter" ;
+    skos:prefLabel "Clinical Encounter" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188698-C142450> a skos:Concept ;
+    ns1:identifier "C142450" ;
+    skos:definition "The reason for performing a study in terms of the scientific questions to be answered by the analysis of data collected during the study." ;
+    skos:notation "Study Objective" ;
+    skos:prefLabel "Clinical Trial Objective" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188698-C142728> a skos:Concept ;
+    ns1:identifier "C142728" ;
+    skos:altLabel "Target Population" ;
+    skos:definition "The population within the general population for which the study results can be generalized." ;
+    skos:notation "Target Study Population" ;
+    skos:prefLabel "Target Study Population" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188698-C142735> a skos:Concept ;
+    ns1:identifier "C142735" ;
+    skos:definition "A basic building block for time within a clinical study comprising the following characteristics: a description of what happens to the subject during the element; a definition of the start of the element; a rule for ending the element." ;
+    skos:notation "Study Design Element" ;
+    skos:prefLabel "Trial Design Element" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188698-C15206> a skos:Concept ;
+    ns1:identifier "C15206" ;
+    skos:definition "A clinical study involves research using human volunteers (also called participants) that is intended to add to medical knowledge. There are two main types of clinical studies: clinical trials (also called interventional studies) and observational studies. [ClinicalTrials.gov] See also clinical trial. (CDISC Glossary)" ;
+    skos:notation "Clinical Study" ;
+    skos:prefLabel "Clinical Study" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188698-C15320> a skos:Concept ;
+    ns1:identifier "C15320" ;
+    skos:definition "A plan detailing how a study will be performed in order to represent the phenomenon under examination, to answer the research questions that have been asked, and informing the statistical approach." ;
+    skos:notation "Study Design" ;
+    skos:prefLabel "Study Design" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188698-C174447> a skos:Concept ;
+    ns1:identifier "C174447" ;
+    skos:altLabel "Arm" ;
+    skos:definition "A planned pathway assigned to the subject as they progress through the study, usually referred to by a name that reflects one or more treatments, exposures, and/or controls included in the path." ;
+    skos:notation "Study Arm" ;
+    skos:prefLabel "Study Arm" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188698-C188810> a skos:Concept ;
+    ns1:identifier "C188810" ;
+    skos:definition "A partitioning of a study arm into individual pieces, which are associated with an epoch and any number of sequential elements within that epoch." ;
+    skos:notation "Study Design Cell" ;
+    skos:prefLabel "Study Design Cell" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188698-C188811> a skos:Concept ;
+    ns1:identifier "C188811" ;
+    skos:definition "Data collected in the course of a clinical study." ;
+    skos:notation "Clinical Study Data" ;
+    skos:prefLabel "Clinical Study Data" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188698-C188812> a skos:Concept ;
+    ns1:identifier "C188812" ;
+    skos:definition "The textual representation of the workflow item." ;
+    skos:notation "Workflow Item Description" ;
+    skos:prefLabel "Workflow Item Description" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188698-C188813> a skos:Concept ;
+    ns1:identifier "C188813" ;
+    skos:definition "A precise description of the treatment effect reflecting the clinical question posed by a given clinical trial objective. It summarises at a population level what the outcomes would be in the same patients under different treatment conditions being compared. (ICH E9 R1 Addendum)" ;
+    skos:notation "Estimand" ;
+    skos:prefLabel "Estimand" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188698-C188814> a skos:Concept ;
+    ns1:identifier "C188814" ;
+    skos:definition "A target study population on which an analysis is performed. These may be represented by the entire study population, a subgroup defined by a particular characteristic measured at baseline, or a principal stratum defined by the occurrence (or non-occurrence, depending on context) of a specific intercurrent event. (ICH E9 R1 Addendum)" ;
+    skos:notation "Target Study Population for Analysis" ;
+    skos:prefLabel "Target Study Population for Analysis" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188698-C188815> a skos:Concept ;
+    ns1:identifier "C188815" ;
+    skos:definition "An event(s) occurring after treatment initiation that affects either the interpretation or the existence of the measurements associated with the clinical question of interest. (ICH E9 Addendum on Estimands)" ;
+    skos:notation "Intercurrent Event" ;
+    skos:prefLabel "Intercurrent Event" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188698-C19711> a skos:Concept ;
+    ns1:identifier "C19711" ;
+    skos:definition "A formalized group of persons or other organizations collected together for a common purpose (such as administrative, legal, political) and the infrastructure to carry out that purpose. (BRIDG)" ;
+    skos:notation "Organization" ;
+    skos:prefLabel "Professional Organization or Group" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188698-C25162> a skos:Concept ;
+    ns1:identifier "C25162" ;
+    skos:definition "A symbol or combination of symbols which is assigned to the members of a collection." ;
+    skos:notation "Code" ;
+    skos:prefLabel "Code" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188698-C25212> a skos:Concept ;
+    ns1:identifier "C25212" ;
+    skos:definition "A defined variable intended to reflect an outcome of interest that is statistically analyzed to address a particular research question. NOTE: A precise definition of an endpoint typically specifies the type of assessments made, the timing of those assessments, the assessment tools used, and possibly other details, as applicable, such as how multiple assessments within an individual are to be combined. [After BEST Resource] (CDISC Glossary)" ;
+    skos:notation "Study Endpoint" ;
+    skos:prefLabel "End Point" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188698-C25218> a skos:Concept ;
+    ns1:identifier "C25218" ;
+    skos:definition "The drug, device, therapy, or process under investigation in a clinical study that is believed to have an effect on outcomes of interest in a study (e.g., health-related quality of life, efficacy, safety, pharmacoeconomics). [After https://grants.nih.gov/grants/policy/faq_clinical_trial_definition.htm#5224]" ;
+    skos:notation "Intervention" ;
+    skos:prefLabel "Intervention or Procedure" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188698-C42753> a skos:Concept ;
+    ns1:identifier "C42753" ;
+    skos:definition "The operational aspect of a work procedure: how tasks are structured, who performs them, what their relative order is, how they are synchronized, how information flows to support the tasks and how tasks are being tracked." ;
+    skos:notation "Workflow" ;
+    skos:prefLabel "Workflow" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188698-C71473> a skos:Concept ;
+    ns1:identifier "C71473" ;
+    skos:definition "An action, undertaking, or event, which is anticipated to be performed or observed, or was performed or observed, according to the study protocol during the execution of the study." ;
+    skos:notation "Study Activity" ;
+    skos:prefLabel "Study Activity" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188698-C71738> a skos:Concept ;
+    ns1:identifier "C71738" ;
+    skos:definition "A named time period defined in the protocol, wherein a study activity is specified and unchanging throughout the interval, to support a study-specific purpose." ;
+    skos:notation "Study Epoch" ;
+    skos:prefLabel "Clinical Trial Epoch" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188698-C82567> a skos:Concept ;
+    ns1:identifier "C82567" ;
+    skos:definition "A guide that governs the allocation of subjects to operational options at a discrete decision point or branch (e.g., assignment to a particular arm, discontinuation) within a clinical trial plan." ;
+    skos:notation "Transition Rule" ;
+    skos:prefLabel "Transition Rule" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188698-C83082> a skos:Concept ;
+    ns1:identifier "C83082" ;
+    skos:definition "A sequence of characters used to identify, name, or characterize the study." ;
+    skos:notation "Study Identifier" ;
+    skos:prefLabel "Study Identifier" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188698-C93490> a skos:Concept ;
+    ns1:identifier "C93490" ;
+    skos:definition "A plan at a particular point in time for a formal investigation to assess the utility, impact, pharmacological, physiological, and/or psychological effects of a particular treatment, procedure, drug, device, biologic, food product, cosmetic, care plan, or subject characteristic. (BRIDG)" ;
+    skos:notation "Study Protocol Version" ;
+    skos:prefLabel "Study Protocol Version" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188698-C98769> a skos:Concept ;
+    ns1:identifier "C98769" ;
+    skos:altLabel "Medical Procedure" ;
+    skos:definition "Any activity performed by manual and/or instrumental means for the purpose of diagnosis, assessment, therapy, prevention, or palliative care." ;
+    skos:notation "Procedure" ;
+    skos:prefLabel "Physical Medical Procedure" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188699> a skos:Concept ;
+    rdfs:label "DDF Clinical Study Attribute Terminology" ;
+    ns1:identifier "C188699" ;
+    skos:altLabel "DDF Clinical Study Attribute Terminology" ;
+    skos:definition "A terminology value set relevant to the attributes of the clinical study." ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188699-C142175>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188699-C188816>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188699-C48281>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188699-C49802> ;
+    skos:notation "DDF Clinical Study Attribute Terminology" ;
+    skos:prefLabel "CDISC DDF Clinical Study Attribute Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188699-C142175> a skos:Concept ;
+    ns1:identifier "C142175" ;
+    skos:altLabel "Study Type",
+        "Study Type Classification" ;
+    skos:definition "The nature of the investigation for which study information is being collected. (After clinicaltrials.gov)" ;
+    skos:notation "Study Type Classification" ;
+    skos:prefLabel "Study Type" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188699-C188816> a skos:Concept ;
+    ns1:identifier "C188816" ;
+    skos:definition "A plan at a particular point in time for a study." ;
+    skos:notation "Study Version" ;
+    skos:prefLabel "Study Version" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188699-C48281> a skos:Concept ;
+    ns1:identifier "C48281" ;
+    skos:altLabel "Trial Phase",
+        "Trial Phase Classification" ;
+    skos:definition "A step in the clinical research and development of a therapy from initial clinical trials to post-approval studies. NOTE: Clinical trials are generally categorized into four (sometimes five) phases. A therapeutic intervention may be evaluated in two or more phases simultaneously in different trials, and some trials may overlap two different phases. [21 CFR section 312.21; After ICH Topic E8 NOTE FOR GUIDANCE ON GENERAL CONSIDERATIONS FOR CLINICAL TRIALS, CPMP/ICH/291/95 March 1998]" ;
+    skos:notation "Trial Phase" ;
+    skos:prefLabel "Trial Phase" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188699-C49802> a skos:Concept ;
+    ns1:identifier "C49802" ;
+    skos:altLabel "Official Study Title",
+        "Study Title",
+        "Trial Title" ;
+    skos:definition "The sponsor-defined name of the clinical study." ;
+    skos:notation "Study Title" ;
+    skos:prefLabel "Trial Title" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188700> a skos:Concept ;
+    rdfs:label "DDF Study Protocol Version Attribute Terminology" ;
+    ns1:identifier "C188700" ;
+    skos:altLabel "DDF Study Protocol Version Attribute Terminology" ;
+    skos:definition "A terminology value set relevant to the attributes of the study protocol version." ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188700-C132345>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188700-C132346>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188700-C132347>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188700-C132350>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188700-C188817>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188700-C188818>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188700-C93490>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188700-C94105> ;
+    skos:notation "DDF Study Protocol Version Attribute Terminology" ;
+    skos:prefLabel "CDISC DDF Study Protocol Version Attribute Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188700-C132345> a skos:Concept ;
+    ns1:identifier "C132345" ;
+    skos:altLabel "Abbreviated Protocol Title" ;
+    skos:definition "The short descriptive name for the protocol." ;
+    skos:notation "Brief Protocol Title" ;
+    skos:prefLabel "Brief Protocol Title" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188700-C132346> a skos:Concept ;
+    ns1:identifier "C132346" ;
+    skos:definition "The formal descriptive name for the protocol." ;
+    skos:notation "Official Protocol Title" ;
+    skos:prefLabel "Official Protocol Title" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188700-C132347> a skos:Concept ;
+    ns1:identifier "C132347" ;
+    skos:definition "A written description of a change(s) to, or formal clarification of, a protocol. (ICH E6)" ;
+    skos:notation "Study Protocol Amendment" ;
+    skos:prefLabel "Protocol Amendment" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188700-C132350> a skos:Concept ;
+    ns1:identifier "C132350" ;
+    skos:definition "A more extensive descriptive name of the protocol that is intended for medical professionals, written using medical and scientific language." ;
+    skos:notation "Scientific Protocol Title" ;
+    skos:prefLabel "Scientific Protocol Title" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188700-C188817> a skos:Concept ;
+    ns1:identifier "C188817" ;
+    skos:definition "The date and time specifying when the protocol amendment takes effect or becomes operative." ;
+    skos:notation "Study Protocol Amendment Effective Date" ;
+    skos:prefLabel "Study Protocol Amendment Effective Date" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188700-C188818> a skos:Concept ;
+    ns1:identifier "C188818" ;
+    skos:definition "A condition of the protocol at a point in time with respect to its state of readiness for implementation." ;
+    skos:notation "Protocol Status" ;
+    skos:prefLabel "Study Protocol Status" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188700-C93490> a skos:Concept ;
+    ns1:identifier "C93490" ;
+    skos:definition "A plan at a particular point in time for a formal investigation to assess the utility, impact, pharmacological, physiological, and/or psychological effects of a particular treatment, procedure, drug, device, biologic, food product, cosmetic, care plan, or subject characteristic. (BRIDG)" ;
+    skos:notation "Study Protocol Version" ;
+    skos:prefLabel "Study Protocol Version" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188700-C94105> a skos:Concept ;
+    ns1:identifier "C94105" ;
+    skos:definition "The descriptive name of the protocol that is intended for the lay public, written in easily understood language." ;
+    skos:notation "Public Protocol Title" ;
+    skos:prefLabel "Study Protocol Document Version Public Title" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188701> a skos:Concept ;
+    rdfs:label "DDF Study Identifier Attribute Terminology" ;
+    ns1:identifier "C188701" ;
+    skos:altLabel "DDF Study Identifier Attribute Terminology" ;
+    skos:definition "A terminology value set relevant to the attributes of the study identifier." ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188701-C83082> ;
+    skos:notation "DDF Study Identifier Attribute Terminology" ;
+    skos:prefLabel "CDISC DDF Study Identifier Attribute Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188701-C83082> a skos:Concept ;
+    ns1:identifier "C83082" ;
+    skos:definition "A sequence of characters used to identify, name, or characterize the study." ;
+    skos:notation "Study Identifier" ;
+    skos:prefLabel "Study Identifier" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188702> a skos:Concept ;
+    rdfs:label "DDF Organization Attribute Terminology" ;
+    ns1:identifier "C188702" ;
+    skos:altLabel "DDF Organization Attribute Terminology" ;
+    skos:definition "A terminology value set relevant to the attributes of the organization." ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188702-C188819>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188702-C188820>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188702-C93401>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188702-C93874> ;
+    skos:notation "DDF Organization Attribute Terminology" ;
+    skos:prefLabel "CDISC DDF Organization Attribute Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188702-C188819> a skos:Concept ;
+    ns1:identifier "C188819" ;
+    skos:definition "The name of the organization that provides the identifier for the entity." ;
+    skos:notation "Identifier Provider Organization Name" ;
+    skos:prefLabel "Identifier Provider Organization Name" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188702-C188820> a skos:Concept ;
+    ns1:identifier "C188820" ;
+    skos:definition "A characterization or classification of the formalized group of persons or other organizations collected together for a common purpose (such as administrative, legal, political) and the infrastructure to carry out that purpose." ;
+    skos:notation "Organization Type" ;
+    skos:prefLabel "Organization Type" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188702-C93401> a skos:Concept ;
+    ns1:identifier "C93401" ;
+    skos:definition "A unique symbol that establishes identity of the organization. (BRIDG)" ;
+    skos:notation "Organization Identifier" ;
+    skos:prefLabel "Organization Identifier" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188702-C93874> a skos:Concept ;
+    ns1:identifier "C93874" ;
+    skos:definition "A non-unique textual identifier for the organization. (BRIDG)" ;
+    skos:notation "Organization Name" ;
+    skos:prefLabel "Organization Name" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188703> a skos:Concept ;
+    rdfs:label "DDF Study Design Attribute Terminology" ;
+    ns1:identifier "C188703" ;
+    skos:altLabel "DDF Study Design Attribute Terminology" ;
+    skos:definition "A terminology value set relevant to the attributes of the study design." ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188703-C49652>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188703-C49660>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188703-C98746> ;
+    skos:notation "DDF Study Design Attribute Terminology" ;
+    skos:prefLabel "CDISC DDF Study Design Attribute Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188703-C49652> a skos:Concept ;
+    ns1:identifier "C49652" ;
+    skos:altLabel "Trial Intent Type" ;
+    skos:definition "The planned purpose of the therapy, device, or agent under study in the clinical trial." ;
+    skos:notation "Trial Intent Type" ;
+    skos:prefLabel "Clinical Study by Intent" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188703-C49660> a skos:Concept ;
+    ns1:identifier "C49660" ;
+    skos:altLabel "Trial Scope",
+        "Trial Type" ;
+    skos:definition "The nature of the interventional study for which information is being collected." ;
+    skos:notation "Trial Type" ;
+    skos:prefLabel "Trial Type" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188703-C98746> a skos:Concept ;
+    ns1:identifier "C98746" ;
+    skos:altLabel "Intervention Model" ;
+    skos:definition "The general design of the strategy for assigning interventions to participants in a clinical study. (clinicaltrials.gov)" ;
+    skos:notation "Intervention Model Type" ;
+    skos:prefLabel "Intervention Model" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188704> a skos:Concept ;
+    rdfs:label "DDF Investigational Interventions Attribute Terminology" ;
+    ns1:identifier "C188704" ;
+    skos:altLabel "DDF Investigational Interventions Attribute Terminology" ;
+    skos:definition "A terminology value set relevant to the attributes of the investigational interventions." ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188704-C177931>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188704-C188821> ;
+    skos:notation "DDF Investigational Interventions Attribute Terminology" ;
+    skos:prefLabel "CDISC DDF Investigational Interventions Attribute Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188704-C177931> a skos:Concept ;
+    ns1:identifier "C177931" ;
+    skos:definition "The textual representation of the study intervention." ;
+    skos:notation "Intervention Description" ;
+    skos:prefLabel "Intervention Description" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188704-C188821> a skos:Concept ;
+    ns1:identifier "C188821" ;
+    skos:definition "A short sequence of characters that represents the investigational intervention." ;
+    skos:notation "Investigational Intervention Code" ;
+    skos:prefLabel "Investigational Intervention Code" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188705> a skos:Concept ;
+    rdfs:label "DDF Indication Attribute Terminology" ;
+    ns1:identifier "C188705" ;
+    skos:altLabel "DDF Indication Attribute Terminology" ;
+    skos:definition "A terminology value set relevant to the attributes of the disease indication." ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188705-C112038>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188705-C188822> ;
+    skos:notation "DDF Indication Attribute Terminology" ;
+    skos:prefLabel "CDISC DDF Indication Attribute Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188705-C112038> a skos:Concept ;
+    ns1:identifier "C112038" ;
+    skos:altLabel "Trial Disease/Condition Indication",
+        "Trial Disease/Condition Indication Description" ;
+    skos:definition "The textual representation of the condition, disease or disorder that the clinical trial is intended to investigate or address." ;
+    skos:notation "Trial Disease/Condition Indication Description" ;
+    skos:prefLabel "Trial Indication" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188705-C188822> a skos:Concept ;
+    ns1:identifier "C188822" ;
+    skos:definition "A short sequence of characters that represents the disease indication." ;
+    skos:notation "Disease Indication Code" ;
+    skos:prefLabel "Disease Indication Code" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188706> a skos:Concept ;
+    rdfs:label "DDF Study Design Population Attribute Terminology" ;
+    ns1:identifier "C188706" ;
+    skos:altLabel "DDF Study Design Population Attribute Terminology" ;
+    skos:definition "A terminology value set relevant to the attributes of the study design population." ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188706-C70834> ;
+    skos:notation "DDF Study Design Population Attribute Terminology" ;
+    skos:prefLabel "CDISC DDF Study Design Population Attribute Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188706-C70834> a skos:Concept ;
+    ns1:identifier "C70834" ;
+    skos:definition "The textual representation of the study population." ;
+    skos:notation "Target Study Population Description" ;
+    skos:prefLabel "Study Population Description" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188707> a skos:Concept ;
+    rdfs:label "DDF Objective Attribute Terminology" ;
+    ns1:identifier "C188707" ;
+    skos:altLabel "DDF Objective Attribute Terminology" ;
+    skos:definition "A terminology value set relevant to the attributes of the objective." ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188707-C188823>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188707-C94090> ;
+    skos:notation "DDF Objective Attribute Terminology" ;
+    skos:prefLabel "CDISC DDF Objective Attribute Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188707-C188823> a skos:Concept ;
+    ns1:identifier "C188823" ;
+    skos:definition "A characterization or classification of the study endpoint that determines its category of importance relative to other study objectives." ;
+    skos:notation "Study Objective Level" ;
+    skos:prefLabel "Study Objective Level" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188707-C94090> a skos:Concept ;
+    ns1:identifier "C94090" ;
+    skos:definition "The textual representation of the study objective. (BRIDG)" ;
+    skos:notation "Study Objective Description" ;
+    skos:prefLabel "Study Objective Description" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188708> a skos:Concept ;
+    rdfs:label "DDF Endpoint Attribute Terminology" ;
+    ns1:identifier "C188708" ;
+    skos:altLabel "DDF Endpoint Attribute Terminology" ;
+    skos:definition "A terminology value set relevant to the attributes of the endpoint." ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188708-C188824>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188708-C188825>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188708-C188826> ;
+    skos:notation "DDF Endpoint Attribute Terminology" ;
+    skos:prefLabel "CDISC DDF Endpoint Attribute Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188708-C188824> a skos:Concept ;
+    ns1:identifier "C188824" ;
+    skos:definition "The textual representation of the study endpoint." ;
+    skos:notation "Study Endpoint Description" ;
+    skos:prefLabel "Study Endpoint Description" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188708-C188825> a skos:Concept ;
+    ns1:identifier "C188825" ;
+    skos:definition "The textual representation of the study endpoint purpose." ;
+    skos:notation "Study Endpoint Purpose Description" ;
+    skos:prefLabel "Study Endpoint Purpose Description" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188708-C188826> a skos:Concept ;
+    ns1:identifier "C188826" ;
+    skos:definition "A characterization or classification of the study endpoint that determines its category of importance relative to other study endpoints." ;
+    skos:notation "Study Endpoint Level" ;
+    skos:prefLabel "Study Endpoint Level" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188709> a skos:Concept ;
+    rdfs:label "DDF Study Arm Attribute Terminology" ;
+    ns1:identifier "C188709" ;
+    skos:altLabel "DDF Study Arm Attribute Terminology" ;
+    skos:definition "A terminology value set relevant to the attributes of the study Arm." ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188709-C170984>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188709-C188827>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188709-C188828>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188709-C188829>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188709-C93728> ;
+    skos:notation "DDF Study Arm Attribute Terminology" ;
+    skos:prefLabel "CDISC DDF Study Arm Attribute Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188709-C170984> a skos:Concept ;
+    ns1:identifier "C170984" ;
+    skos:definition "The literal identifier (i.e., distinctive designation) of the study arm." ;
+    skos:notation "Study Arm Name" ;
+    skos:prefLabel "Planned Study Arm Name" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188709-C188827> a skos:Concept ;
+    ns1:identifier "C188827" ;
+    skos:definition "The literal identifier (i.e., distinctive designation) of the study arm type." ;
+    skos:notation "Study Arm Type Name" ;
+    skos:prefLabel "Study Arm Type Name" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188709-C188828> a skos:Concept ;
+    ns1:identifier "C188828" ;
+    skos:definition "The textual representation of the study arm data origin." ;
+    skos:notation "Study Arm Data Origin Description" ;
+    skos:prefLabel "Study Arm Data Origin Description" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188709-C188829> a skos:Concept ;
+    ns1:identifier "C188829" ;
+    skos:definition "A characterization or classification of the study arm with respect to where the study arm data originates." ;
+    skos:notation "Study Arm Data Origin Type" ;
+    skos:prefLabel "Study Arm Data Origin Type" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188709-C93728> a skos:Concept ;
+    ns1:identifier "C93728" ;
+    skos:altLabel "Arm Description" ;
+    skos:definition "The textual representation of the arm for the study." ;
+    skos:notation "Study Arm Description" ;
+    skos:prefLabel "Arm Description" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188710> a skos:Concept ;
+    rdfs:label "DDF Study Epoch Attribute Terminology" ;
+    ns1:identifier "C188710" ;
+    skos:altLabel "DDF Study Epoch Attribute Terminology" ;
+    skos:definition "A terminology value set relevant to the attributes of the study epoch." ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188710-C188830>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188710-C188831>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188710-C188832>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188710-C93824>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188710-C93825> ;
+    skos:notation "DDF Study Epoch Attribute Terminology" ;
+    skos:prefLabel "CDISC DDF Study Epoch Attribute Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188710-C188830> a skos:Concept ;
+    ns1:identifier "C188830" ;
+    skos:definition "A characterization or classification of the study epoch, i.e., the named time period defined in the protocol, wherein a study activity is specified and unchanging throughout the interval, to support a study-specific purpose." ;
+    skos:notation "Study Epoch Type" ;
+    skos:prefLabel "Study Epoch Type" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188710-C188831> a skos:Concept ;
+    ns1:identifier "C188831" ;
+    skos:definition "A system identifier assigned to the epoch that occurs immediately prior to the current epoch." ;
+    skos:notation "Previous Epoch Identifier" ;
+    skos:prefLabel "Previous Epoch Identifier" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188710-C188832> a skos:Concept ;
+    ns1:identifier "C188832" ;
+    skos:definition "A system identifier assigned to the epoch that occurs immediately after the current epoch." ;
+    skos:notation "Next Epoch Identifier" ;
+    skos:prefLabel "Next Epoch Identifier" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188710-C93824> a skos:Concept ;
+    ns1:identifier "C93824" ;
+    skos:definition "The textual representation of the study epoch." ;
+    skos:notation "Study Epoch Description" ;
+    skos:prefLabel "Epoch Description" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188710-C93825> a skos:Concept ;
+    ns1:identifier "C93825" ;
+    skos:definition "The literal identifier (i.e., distinctive designation) of the study epoch, i.e., the named time period defined in the protocol, wherein a study activity is specified and unchanging throughout the interval, to support a study-specific purpose." ;
+    skos:notation "Study Epoch Name" ;
+    skos:prefLabel "Epoch Name" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188711> a skos:Concept ;
+    rdfs:label "DDF Study Element Attribute Terminology" ;
+    ns1:identifier "C188711" ;
+    skos:altLabel "DDF Study Element Attribute Terminology" ;
+    skos:definition "A terminology value set relevant to the attributes of the study element." ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188711-C188833>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188711-C188834> ;
+    skos:notation "DDF Study Element Attribute Terminology" ;
+    skos:prefLabel "CDISC DDF Study Element Attribute Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188711-C188833> a skos:Concept ;
+    ns1:identifier "C188833" ;
+    skos:definition "The literal identifier (i.e., distinctive designation) of the study design element." ;
+    skos:notation "Study Design Element Name" ;
+    skos:prefLabel "Study Design Element Name" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188711-C188834> a skos:Concept ;
+    ns1:identifier "C188834" ;
+    skos:definition "The textual representation of the study design element." ;
+    skos:notation "Study Design Element Description" ;
+    skos:prefLabel "Study Design Element Description" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188712> a skos:Concept ;
+    rdfs:label "DDF Transition Rule Attribute Terminology" ;
+    ns1:identifier "C188712" ;
+    skos:altLabel "DDF Transition Rule Attribute Terminology" ;
+    skos:definition "A terminology value set relevant to the attributes of the transition rule." ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188712-C188835> ;
+    skos:notation "DDF Transition Rule Attribute Terminology" ;
+    skos:prefLabel "CDISC DDF Transition Rule Attribute Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188712-C188835> a skos:Concept ;
+    ns1:identifier "C188835" ;
+    skos:definition "The textual representation of the transition rule." ;
+    skos:notation "Transition Rule Description" ;
+    skos:prefLabel "Transition Rule Description" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188713> a skos:Concept ;
+    rdfs:label "DDF Encounter Attribute Terminology" ;
+    ns1:identifier "C188713" ;
+    skos:altLabel "DDF Encounter Attribute Terminology" ;
+    skos:definition "A terminology value set relevant to the attributes of the encounter." ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188713-C171010>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188713-C188836>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188713-C188837>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188713-C188838>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188713-C188839>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188713-C188840>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188713-C188841> ;
+    skos:notation "DDF Encounter Attribute Terminology" ;
+    skos:prefLabel "CDISC DDF Encounter Attribute Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188713-C171010> a skos:Concept ;
+    ns1:identifier "C171010" ;
+    skos:definition "The literal identifier (i.e., distinctive designation) for a protocol-defined clinical encounter." ;
+    skos:notation "Clinical Encounter Name" ;
+    skos:prefLabel "Clinical Encounter Name" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188713-C188836> a skos:Concept ;
+    ns1:identifier "C188836" ;
+    skos:definition "The textual representation of the protocol-defined clinical encounter." ;
+    skos:notation "Clinical Encounter Description" ;
+    skos:prefLabel "Clinical Encounter Description" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188713-C188837> a skos:Concept ;
+    ns1:identifier "C188837" ;
+    skos:definition "A system identifier assigned to a clinical encounter that occurs immediately prior to the current clinical encounter." ;
+    skos:notation "Previous Encounter Identifier" ;
+    skos:prefLabel "Previous Clinical Encounter Identifier" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188713-C188838> a skos:Concept ;
+    ns1:identifier "C188838" ;
+    skos:definition "A system identifier assigned to a clinical encounter that occurs immediately after the current clinical encounter." ;
+    skos:notation "Next Encounter Identifier" ;
+    skos:prefLabel "Next Clinical Encounter Identifier" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188713-C188839> a skos:Concept ;
+    ns1:identifier "C188839" ;
+    skos:definition "A characterization or classification of contact between subject/patient and healthcare practitioner/researcher, during which an assessment or activity is performed." ;
+    skos:notation "Clinical Encounter Type" ;
+    skos:prefLabel "Clinical Encounter Type" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188713-C188840> a skos:Concept ;
+    ns1:identifier "C188840" ;
+    skos:definition "The environment/setting where the event, intervention, or finding occurred." ;
+    skos:notation "Environmental Setting" ;
+    skos:prefLabel "Environmental Setting" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188713-C188841> a skos:Concept ;
+    ns1:identifier "C188841" ;
+    skos:definition "The means by which an interaction occurs between the subject/participant and person or entity (e.g., a device)." ;
+    skos:notation "Contact Mode" ;
+    skos:prefLabel "Contact Mode" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188714> a skos:Concept ;
+    rdfs:label "DDF Activity Attribute Terminology" ;
+    ns1:identifier "C188714" ;
+    skos:altLabel "DDF Activity Attribute Terminology" ;
+    skos:definition "A terminology value set relevant to the attributes of the activity." ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188714-C188842>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188714-C188843>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188714-C188844>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188714-C70960> ;
+    skos:notation "DDF Activity Attribute Terminology" ;
+    skos:prefLabel "CDISC DDF Activity Attribute Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188714-C188842> a skos:Concept ;
+    ns1:identifier "C188842" ;
+    skos:definition "The literal identifier (i.e., distinctive designation) of the clinical study activity." ;
+    skos:notation "Clinical Study Activity Name" ;
+    skos:prefLabel "Clinical Study Activity Name" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188714-C188843> a skos:Concept ;
+    ns1:identifier "C188843" ;
+    skos:definition "A system identifier assigned to a study activity that occurs immediately prior to the current study activity." ;
+    skos:notation "Previous Activity Identifier" ;
+    skos:prefLabel "Previous Activity Identifier" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188714-C188844> a skos:Concept ;
+    ns1:identifier "C188844" ;
+    skos:definition "A system identifier assigned to a study activity that occurs immediately after the current study activity." ;
+    skos:notation "Next Activity Identifier" ;
+    skos:prefLabel "Next Activity Identifier" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188714-C70960> a skos:Concept ;
+    ns1:identifier "C70960" ;
+    skos:definition "The textual representation of the study activity." ;
+    skos:notation "Clinical Study Activity Description" ;
+    skos:prefLabel "Clinical Study Activity Description" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188715> a skos:Concept ;
+    rdfs:label "DDF Study Data Attribute Terminology" ;
+    ns1:identifier "C188715" ;
+    skos:altLabel "DDF Study Data Attribute Terminology" ;
+    skos:definition "A terminology value set relevant to the attributes of the study data." ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188715-C188845>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188715-C188846>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188715-C188847> ;
+    skos:notation "DDF Study Data Attribute Terminology" ;
+    skos:prefLabel "CDISC DDF Study Data Attribute Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188715-C188845> a skos:Concept ;
+    ns1:identifier "C188845" ;
+    skos:definition "The literal identifier (i.e., distinctive designation) for the study data." ;
+    skos:notation "Clinical Study Data Name" ;
+    skos:prefLabel "Clinical Study Data Name" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188715-C188846> a skos:Concept ;
+    ns1:identifier "C188846" ;
+    skos:definition "The textual representation of the study data." ;
+    skos:notation "Clinical Study Data Description" ;
+    skos:prefLabel "Clinical Study Data Description" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188715-C188847> a skos:Concept ;
+    ns1:identifier "C188847" ;
+    skos:definition "The uniform resource locator used to access the digital case report form." ;
+    skos:notation "Electronic Case Report Form Link" ;
+    skos:prefLabel "Electronic Case Report Form Uniform Resource Locator" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188716> a skos:Concept ;
+    rdfs:label "DDF Procedure Attribute Terminology" ;
+    ns1:identifier "C188716" ;
+    skos:altLabel "DDF Procedure Attribute Terminology" ;
+    skos:definition "A terminology value set relevant to the attributes of the procedure." ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188716-C154626>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188716-C188848> ;
+    skos:notation "DDF Procedure Attribute Terminology" ;
+    skos:prefLabel "CDISC DDF Procedure Attribute Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188716-C154626> a skos:Concept ;
+    ns1:identifier "C154626" ;
+    skos:definition "A symbol or combination of symbols which is assigned to medical procedure." ;
+    skos:notation "Procedure Code" ;
+    skos:prefLabel "Procedure Code" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188716-C188848> a skos:Concept ;
+    ns1:identifier "C188848" ;
+    skos:definition "A characterization or classification of the study procedure." ;
+    skos:notation "Procedure Type" ;
+    skos:prefLabel "Study Procedure Type" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188717> a skos:Concept ;
+    rdfs:label "DDF Workflow Attribute Terminology" ;
+    ns1:identifier "C188717" ;
+    skos:altLabel "DDF Workflow Attribute Terminology" ;
+    skos:definition "A terminology value set relevant to the attributes of the workflow." ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188717-C188849> ;
+    skos:notation "DDF Workflow Attribute Terminology" ;
+    skos:prefLabel "CDISC DDF Workflow Attribute Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188717-C188849> a skos:Concept ;
+    ns1:identifier "C188849" ;
+    skos:definition "The textual representation of the workflow." ;
+    skos:notation "Workflow Description" ;
+    skos:prefLabel "Workflow Description" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188718> a skos:Concept ;
+    rdfs:label "DDF Workflow Item Attribute Terminology" ;
+    ns1:identifier "C188718" ;
+    skos:altLabel "DDF Workflow Item Attribute Terminology" ;
+    skos:definition "A terminology value set relevant to the attributes of the workflow item." ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188718-C188812>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188718-C188851>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188718-C188852> ;
+    skos:notation "DDF Workflow Item Attribute Terminology" ;
+    skos:prefLabel "CDISC DDF Workflow Item Attribute Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188718-C188812> a skos:Concept ;
+    ns1:identifier "C188812" ;
+    skos:definition "The textual representation of the workflow item." ;
+    skos:notation "Workflow Item Description" ;
+    skos:prefLabel "Workflow Item Description" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188718-C188851> a skos:Concept ;
+    ns1:identifier "C188851" ;
+    skos:definition "A system identifier assigned to a workflow item that occurs immediately prior to the current workflow item." ;
+    skos:notation "Previous Workflow Item Identifier" ;
+    skos:prefLabel "Previous Workflow Item Identifier" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188718-C188852> a skos:Concept ;
+    ns1:identifier "C188852" ;
+    skos:definition "A system identifier assigned to a workflow item that occurs immediately after the current workflow item." ;
+    skos:notation "Next Workflow Item Identifier" ;
+    skos:prefLabel "Next Workflow Item Identifier" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188719> a skos:Concept ;
+    rdfs:label "DDF Estimand Attribute Terminology" ;
+    ns1:identifier "C188719" ;
+    skos:altLabel "DDF Estimand Attribute Terminology" ;
+    skos:definition "A terminology value set relevant to the attributes of the estimand." ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188719-C188853> ;
+    skos:notation "DDF Estimand Attribute Terminology" ;
+    skos:prefLabel "CDISC DDF Estimand Attribute Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188719-C188853> a skos:Concept ;
+    ns1:identifier "C188853" ;
+    skos:definition "A synopsis of the clinical endpoint of interest within the analysis target study population." ;
+    skos:notation "Population-Level Summary" ;
+    skos:prefLabel "Population-Level Summary" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188720> a skos:Concept ;
+    rdfs:label "DDF Analysis Population Attribute Terminology" ;
+    ns1:identifier "C188720" ;
+    skos:altLabel "DDF Analysis Population Attribute Terminology" ;
+    skos:definition "A terminology value set relevant to the attributes of the analysis population." ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188720-C188854> ;
+    skos:notation "DDF Analysis Population Attribute Terminology" ;
+    skos:prefLabel "CDISC DDF Analysis Population Attribute Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188720-C188854> a skos:Concept ;
+    ns1:identifier "C188854" ;
+    skos:definition "The textual representation of the study population for analysis." ;
+    skos:notation "Target Study Population for Analysis Description" ;
+    skos:prefLabel "Target Study Population for Analysis Description" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188721> a skos:Concept ;
+    rdfs:label "DDF Intercurrent Event Attribute Terminology" ;
+    ns1:identifier "C188721" ;
+    skos:altLabel "DDF Intercurrent Event Attribute Terminology" ;
+    skos:definition "A terminology value set relevant to the attributes of the intercurrent event." ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188721-C188855>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188721-C188856>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188721-C188857> ;
+    skos:notation "DDF Intercurrent Event Attribute Terminology" ;
+    skos:prefLabel "CDISC DDF Intercurrent Event Attribute Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188721-C188855> a skos:Concept ;
+    ns1:identifier "C188855" ;
+    skos:definition "The literal identifier (i.e., distinctive designation) of the intercurrent event." ;
+    skos:notation "Intercurrent Event Name" ;
+    skos:prefLabel "Intercurrent Event Name" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188721-C188856> a skos:Concept ;
+    ns1:identifier "C188856" ;
+    skos:definition "The textual representation of the intercurrent event." ;
+    skos:notation "Intercurrent Event Description" ;
+    skos:prefLabel "Intercurrent Event Description" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188721-C188857> a skos:Concept ;
+    ns1:identifier "C188857" ;
+    skos:definition "A textual description of the planned strategy to manage and/or mitigate intercurrent events." ;
+    skos:notation "Intercurrent Event Strategy" ;
+    skos:prefLabel "Intercurrent Event Strategy" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188722> a skos:Concept ;
+    rdfs:label "DDF Code Attribute Terminology" ;
+    ns1:identifier "C188722" ;
+    skos:altLabel "DDF Code Attribute Terminology" ;
+    skos:definition "A terminology value set relevant to the attributes of the code." ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188722-C188858>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188722-C188859>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188722-C188861>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188722-C188868> ;
+    skos:notation "DDF Code Attribute Terminology" ;
+    skos:prefLabel "CDISC DDF Code Attribute Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188722-C188858> a skos:Concept ;
+    ns1:identifier "C188858" ;
+    skos:definition "The literal value of a code." ;
+    skos:notation "Code Value" ;
+    skos:prefLabel "Code Value" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188722-C188859> a skos:Concept ;
+    ns1:identifier "C188859" ;
+    skos:definition "The literal identifier (i.e., distinctive designation) of the system used to assign and/or manage codes." ;
+    skos:notation "Code System Name" ;
+    skos:prefLabel "Code System Name" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188722-C188861> a skos:Concept ;
+    ns1:identifier "C188861" ;
+    skos:definition "Standardized or dictionary-derived human readable text associated with a code." ;
+    skos:notation "Decode" ;
+    skos:prefLabel "Decode Text" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188722-C188868> a skos:Concept ;
+    ns1:identifier "C188868" ;
+    skos:definition "The version of the code system." ;
+    skos:notation "Code System Version" ;
+    skos:prefLabel "Coding System Version" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188723> a skos:Concept ;
+    rdfs:label "Protocol Status Value Set Terminology" ;
+    ns1:identifier "C188723" ;
+    skos:altLabel "Protocol Status Value Set Terminology" ;
+    skos:definition "The terminology relevant to the protocol status." ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188723-C188862>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188723-C25425>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188723-C25508>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188723-C63553>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188723-C85255> ;
+    skos:notation "Protocol Status Value Set Terminology" ;
+    skos:prefLabel "CDISC DDF Protocol Status Value Set Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188723-C188862> a skos:Concept ;
+    ns1:identifier "C188862" ;
+    skos:altLabel "Draft Pending Review" ;
+    skos:definition "A preliminary version of a written work, design, or picture that is awaiting review." ;
+    skos:notation "Pending Review" ;
+    skos:prefLabel "Pending Review" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188723-C25425> a skos:Concept ;
+    ns1:identifier "C25425" ;
+    skos:definition "Acceptance as satisfactory by an authoritative body; established by authority; given authoritative approval." ;
+    skos:notation "Approved" ;
+    skos:prefLabel "Approval" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188723-C25508> a skos:Concept ;
+    ns1:identifier "C25508" ;
+    skos:definition "Conclusive in a process or progression." ;
+    skos:notation "Final" ;
+    skos:prefLabel "Final" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188723-C63553> a skos:Concept ;
+    ns1:identifier "C63553" ;
+    skos:definition "No longer in use or valid; old." ;
+    skos:notation "Obsolete" ;
+    skos:prefLabel "Obsolete" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188723-C85255> a skos:Concept ;
+    ns1:identifier "C85255" ;
+    skos:definition "A preliminary version of a written work, design, or picture." ;
+    skos:notation "Draft" ;
+    skos:prefLabel "Draft" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188724> a skos:Concept ;
+    rdfs:label "Organization Type Value Set Terminology" ;
+    ns1:identifier "C188724" ;
+    skos:altLabel "Organization Type Value Set Terminology" ;
+    skos:definition "The terminology relevant to the organization type." ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188724-C188863>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188724-C70793>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188724-C93453> ;
+    skos:notation "Organization Type Value Set Terminology" ;
+    skos:prefLabel "CDISC DDF Organization Type Value Set Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188724-C188863> a skos:Concept ;
+    ns1:identifier "C188863" ;
+    skos:altLabel "Regulator",
+        "Regulatory Body" ;
+    skos:definition "An organization (typically a government agency) that is responsible for implementing and enforcing laws, licensing and regulating products and services, promoting the use of standards, and ensuring safety and consumer protections." ;
+    skos:notation "Regulatory Agency" ;
+    skos:prefLabel "Regulatory Agency" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188724-C70793> a skos:Concept ;
+    ns1:identifier "C70793" ;
+    skos:altLabel "Clinical Study Sponsor",
+        "Sponsor",
+        "Study Sponsor" ;
+    skos:definition "An individual, company, institution, or organization that takes responsibility for the initiation, management, and/or financing of a clinical study. [After ICH E6, WHO, 21 CFR 50.3 (e), and after IDMP]" ;
+    skos:notation "Clinical Study Sponsor" ;
+    skos:prefLabel "Clinical Study Sponsor" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188724-C93453> a skos:Concept ;
+    ns1:identifier "C93453" ;
+    skos:definition "An organization (typically a government agency) that administers the registration of studies. (BRIDG)" ;
+    skos:notation "Clinical Study Registry" ;
+    skos:prefLabel "Study Registry" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188725> a skos:Concept ;
+    rdfs:label "Objective Level Value Set Terminology" ;
+    ns1:identifier "C188725" ;
+    skos:altLabel "Objective Level Value Set Terminology" ;
+    skos:definition "The terminology relevant to the objective level." ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188725-C85826>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188725-C85827> ;
+    skos:notation "Objective Level Value Set Terminology" ;
+    skos:prefLabel "CDISC DDF Objective Level Value Set Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188725-C85826> a skos:Concept ;
+    ns1:identifier "C85826" ;
+    skos:altLabel "Study Primary Objective",
+        "Trial Primary Objective" ;
+    skos:definition "A principle objective of the study." ;
+    skos:notation "Study Primary Objective" ;
+    skos:prefLabel "Trial Primary Objective" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188725-C85827> a skos:Concept ;
+    ns1:identifier "C85827" ;
+    skos:altLabel "Study Secondary Objective",
+        "Trial Secondary Objective" ;
+    skos:definition "An auxiliary objective of the study." ;
+    skos:notation "Study Secondary Objective" ;
+    skos:prefLabel "Trial Secondary Objective" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188726> a skos:Concept ;
+    rdfs:label "Endpoint Level Value Set Terminology" ;
+    ns1:identifier "C188726" ;
+    skos:altLabel "Endpoint Level Value Set Terminology" ;
+    skos:definition "The terminology relevant to the endpoint level." ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188726-C139173>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188726-C170559>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188726-C94496> ;
+    skos:notation "Endpoint Level Value Set Terminology" ;
+    skos:prefLabel "CDISC DDF Endpoint Level Value Set Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188726-C139173> a skos:Concept ;
+    ns1:identifier "C139173" ;
+    skos:definition "Endpoint(s) that may provide supportive information about the effect of the study intervention(s) on the primary endpoint or demonstrate additional effects on the disease or condition. (After FDA-NIH Protocol Template)" ;
+    skos:notation "Secondary Endpoint" ;
+    skos:prefLabel "Secondary Endpoint" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188726-C170559> a skos:Concept ;
+    ns1:identifier "C170559" ;
+    skos:definition "Endpoint(s) that may include clinically important events that are expected to occur too infrequently to show a treatment effect or endpoints that for other reasons are thought to be less likely to show an effect but are included to explore new hypotheses. (After FDA-NIH Protocol Template)" ;
+    skos:notation "Exploratory Endpoint" ;
+    skos:prefLabel "Exploratory Endpoint" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188726-C94496> a skos:Concept ;
+    ns1:identifier "C94496" ;
+    skos:definition "Endpoint(s) of greatest importance that is the basis for concluding whether the study met its objective(s) and provides a clinically relevant, valid, and reliable measure of the primary objective(s). (After FDA-NIH Protocol Template)" ;
+    skos:notation "Primary Endpoint" ;
+    skos:prefLabel "Primary Endpoint" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188727> a skos:Concept ;
+    rdfs:label "Study Arm Data Origin Type Value Set Terminology" ;
+    ns1:identifier "C188727" ;
+    skos:altLabel "Study Arm Data Origin Type Value Set Terminology" ;
+    skos:definition "The terminology relevant to the study arm data origin type." ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188727-C165830>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188727-C176263>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188727-C188864>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188727-C188865>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188727-C188866> ;
+    skos:notation "Study Arm Data Origin Type Value Set Terminology" ;
+    skos:prefLabel "CDISC DDF Study Arm Data Origin Type Value Set Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188727-C165830> a skos:Concept ;
+    ns1:identifier "C165830" ;
+    skos:definition "Data relating to patient health status and/or the delivery of health care routinely collected from sources other than traditional clinical trials. NOTE: Examples of sources include data derived from electronic health records (EHRs); medical claims and billing data; data from product and disease registries; patient-generated data, including from in-home-use settings; and data gathered from other sources that can inform on health status, such as mobile devices. [After 21 U.S.C. 355g(b)).5 and Framework for FDA\'s Real-World Evidence Program December 2018] See also Real-World Evidence (RWE)" ;
+    skos:notation "Real World Data" ;
+    skos:prefLabel "Real-world Data" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188727-C176263> a skos:Concept ;
+    ns1:identifier "C176263" ;
+    skos:definition "Data that are artificially created rather than being generated by actual events. NOTE: Data are often created with the help of algorithms and used for a wide range of activities, including as test data for new products and tools, for model validation, and in AI optimization. [After The Ultimate Guide to Synthetic Data in 2020, August 29, 2020]. See also artificial intelligence." ;
+    skos:notation "Synthetic Data" ;
+    skos:prefLabel "Synthetic Data" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188727-C188864> a skos:Concept ;
+    ns1:identifier "C188864" ;
+    skos:definition "Data from studies that have occurred in the past." ;
+    skos:notation "Historical Data" ;
+    skos:prefLabel "Historical Data" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188727-C188865> a skos:Concept ;
+    ns1:identifier "C188865" ;
+    skos:definition "Data that are generated from virtual encounters between investigators and subjects." ;
+    skos:notation "Virtual Data" ;
+    skos:prefLabel "Virtual Data" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188727-C188866> a skos:Concept ;
+    ns1:identifier "C188866" ;
+    skos:definition "Data that are generated from the current study." ;
+    skos:notation "Data Generated Within Study" ;
+    skos:prefLabel "Data Generated Within Study" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188728> a skos:Concept ;
+    rdfs:label "Encounter Type Value Set Terminology" ;
+    ns1:identifier "C188728" ;
+    skos:altLabel "Encounter Type Value Set Terminology" ;
+    skos:definition "The terminology relevant to the encounter type." ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188728-C25716> ;
+    skos:notation "Encounter Type Value Set Terminology" ;
+    skos:prefLabel "CDISC DDF Encounter Type Value Set Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C188728-C25716> a skos:Concept ;
+    ns1:identifier "C25716" ;
+    skos:definition "The act of going to see some person or place or thing; it can cover a short or long period but refers to a non-permanent arrangement." ;
+    skos:notation "Visit" ;
+    skos:prefLabel "Visit" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66736> a skos:Concept ;
+    rdfs:label "Trial Intent Type Response" ;
+    gsk:extensible "true" ;
+    ns1:identifier "C66736" ;
+    skos:altLabel "Trial Intent Type Response" ;
+    skos:definition "A terminology codelist relevant to the responses for the planned purpose of the therapy, device, or agent under study in the clinical trial." ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66736-C139174>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66736-C15245>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66736-C15714>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66736-C170629>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66736-C49653>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66736-C49654>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66736-C49655>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66736-C49656>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66736-C49657>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66736-C71485>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66736-C71486> ;
+    skos:notation "TINDTP" ;
+    skos:prefLabel "CDISC SDTM Trial Indication Type Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66736-C139174> a skos:Concept ;
+    ns1:identifier "C139174" ;
+    skos:definition "An intervention of a device product is being evaluated to determine the feasibility of the product or to test a prototype device and not health outcomes. Such studies are conducted to confirm the design and operating specifications of a device before beginning a full clinical trial. (ClinicalTrials.gov)" ;
+    skos:notation "DEVICE FEASIBILITY" ;
+    skos:prefLabel "Device Feasibility Study" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66736-C15245> a skos:Concept ;
+    ns1:identifier "C15245" ;
+    skos:definition "A type of study designed to evaluate the delivery, processes, management, organization or financing of health care. (ClinicalTrials.gov)" ;
+    skos:notation "HEALTH SERVICES RESEARCH" ;
+    skos:prefLabel "Health Services Research" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66736-C15714> a skos:Concept ;
+    ns1:identifier "C15714" ;
+    skos:altLabel "Basic Research" ;
+    skos:definition "A type of study designed to examine the basic mechanism of action (e.g., physiology, biomechanics) of an intervention. (ClinicalTrials.gov)" ;
+    skos:notation "BASIC SCIENCE" ;
+    skos:prefLabel "Basic Research" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66736-C170629> a skos:Concept ;
+    ns1:identifier "C170629" ;
+    skos:definition "A type of study designed to evaluate the effects of treatment(s) intended to cause a change in disease, syndrome, or condition beyond the point of treatment administration." ;
+    skos:notation "DISEASE MODIFYING" ;
+    skos:prefLabel "Disease Modifying Treatment Study" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66736-C49653> a skos:Concept ;
+    ns1:identifier "C49653" ;
+    skos:definition "A type of study designed to evaluate intervention(s) aimed at identifying a disease or condition." ;
+    skos:notation "DIAGNOSIS" ;
+    skos:prefLabel "Diagnosis Study" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66736-C49654> a skos:Concept ;
+    ns1:identifier "C49654" ;
+    skos:definition "A type of study designed to evaluate intervention(s) aimed to cure a disease or condition." ;
+    skos:notation "CURE" ;
+    skos:prefLabel "Cure Study" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66736-C49655> a skos:Concept ;
+    ns1:identifier "C49655" ;
+    skos:definition "A type of study designed to identify actions necessary to eliminate or reduce the risk to human life or well-being as a result of a particular medication or treatment regimen. (NCI)" ;
+    skos:notation "MITIGATION" ;
+    skos:prefLabel "Adverse Effect Mitigation Study" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66736-C49656> a skos:Concept ;
+    ns1:identifier "C49656" ;
+    skos:altLabel "Therapy Trial" ;
+    skos:definition "A type of study designed to evaluate intervention(s) for treatment of disease, syndrome or condition." ;
+    skos:notation "TREATMENT" ;
+    skos:prefLabel "Treatment Study" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66736-C49657> a skos:Concept ;
+    ns1:identifier "C49657" ;
+    skos:altLabel "Prophylaxis Study" ;
+    skos:definition "A type of study designed to identify actions necessary to permanently eliminate or reduce the long-term risk to human life as a result of a particular medication or treatment regimen." ;
+    skos:notation "PREVENTION" ;
+    skos:prefLabel "Prevention Study" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66736-C71485> a skos:Concept ;
+    ns1:identifier "C71485" ;
+    skos:definition "A type of study designed to assess or examine methods of identifying a condition (or risk factors for a condition) in people who are not yet known to have the condition (or risk factor). (Clinicaltrials.gov)" ;
+    skos:notation "SCREENING" ;
+    skos:prefLabel "Screening Study" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66736-C71486> a skos:Concept ;
+    ns1:identifier "C71486" ;
+    skos:definition "A type of study designed to evaluate one or more interventions where the primary intent is to maximize comfort, minimize side effects or mitigate against a decline in the subject\'s health or function. In general, supportive care interventions are not intended to cure a disease. (ClinicalTrials.gov)" ;
+    skos:notation "SUPPORTIVE CARE" ;
+    skos:prefLabel "Supportive Care Study" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66737> a skos:Concept ;
+    rdfs:label "Trial Phase Response" ;
+    gsk:extensible "true" ;
+    ns1:identifier "C66737" ;
+    skos:altLabel "Trial Phase Response" ;
+    skos:definition "A terminology codelist relevant to the phase, or stage, of the clinical trial." ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66737-C15600>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66737-C15601>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66737-C15602>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66737-C15603>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66737-C15693>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66737-C15694>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66737-C47865>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66737-C48660>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66737-C49686>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66737-C49687>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66737-C49688>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66737-C49689>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66737-C54721> ;
+    skos:notation "TPHASE" ;
+    skos:prefLabel "CDISC SDTM Trial Phase Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66737-C15600> a skos:Concept ;
+    ns1:identifier "C15600" ;
+    skos:altLabel "1",
+        "Trial Phase 1" ;
+    skos:definition "The initial introduction of an investigational new drug into humans. Phase 1 studies are typically closely monitored and may be conducted in patients or normal volunteer subjects. NOTE: These studies are designed to determine the metabolism and pharmacologic actions of the drug in humans, the side effects associated with increasing doses, and, if possible, to gain early evidence on effectiveness. During Phase 1, sufficient information about the drug\'s pharmacokinetics and pharmacological effects should be obtained to permit the design of well-controlled, scientifically valid, Phase 2 studies. The total number of subjects and patients included in Phase I studies varies with the drug, but is generally in the range of 20 to 80. Phase 1 studies also include studies of drug metabolism, structure-activity relationships, and mechanism of action in humans, as well as studies in which investigational drugs are used as research tools to explore biological phenomena or disease processes. [After FDA CDER Handbook, ICH E8] (CDISC glossary)" ;
+    skos:notation "PHASE I TRIAL" ;
+    skos:prefLabel "Phase I Trial" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66737-C15601> a skos:Concept ;
+    ns1:identifier "C15601" ;
+    skos:altLabel "2",
+        "Trial Phase 2" ;
+    skos:definition "Phase 2. Controlled clinical studies conducted to evaluate the effectiveness of the drug for a particular indication or indications in patients with the disease or condition under study and to determine the common short-term side effects and risks associated with the drug. NOTE: Phase 2 studies are typically well controlled, closely monitored, and conducted in a relatively small number of patients, usually involving no more than several hundred subjects. [After FDA CDER Handbook, ICH E8] (CDISC glossary)" ;
+    skos:notation "PHASE II TRIAL" ;
+    skos:prefLabel "Phase II Trial" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66737-C15602> a skos:Concept ;
+    ns1:identifier "C15602" ;
+    skos:altLabel "3",
+        "Trial Phase 3" ;
+    skos:definition "Phase 3. Studies are expanded controlled and uncontrolled trials. They are performed after preliminary evidence suggesting effectiveness of the drug has been obtained, and are intended to gather the additional information about effectiveness and safety that is needed to confirm efficacy and evaluate the overall benefit-risk relationship of the drug and to provide an adequate basis for physician labeling. NOTE: Phase 3 studies usually include from several hundred to several thousand subjects. [After FDA CDER Handbook, ICH E8] (CDISC glossary)" ;
+    skos:notation "PHASE III TRIAL" ;
+    skos:prefLabel "Phase III Trial" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66737-C15603> a skos:Concept ;
+    ns1:identifier "C15603" ;
+    skos:altLabel "4",
+        "Trial Phase 4" ;
+    skos:definition "Phase 4. Postmarketing (Phase 4) studies to delineate additional information about the drug\'s risks, benefits, and optimal use that may be requested by regulatory authorities in conjunction with marketing approval. NOTE: These studies could include, but would not be limited to, studying different doses or schedules of administration than were used in Phase 2 studies, use of the drug in other patient populations or other stages of the disease, or use of the drug over a longer period of time. [After FDA CDER Handbook, ICH E8] (CDISC glossary)" ;
+    skos:notation "PHASE IV TRIAL" ;
+    skos:prefLabel "Phase IV Trial" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66737-C15693> a skos:Concept ;
+    ns1:identifier "C15693" ;
+    skos:altLabel "1-2",
+        "Trial Phase 1-2" ;
+    skos:definition "A class of clinical study that combines elements characteristic of traditional Phase I and Phase II trials. See also Phase I, Phase II." ;
+    skos:notation "PHASE I/II TRIAL" ;
+    skos:prefLabel "Phase I/II Trial" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66737-C15694> a skos:Concept ;
+    ns1:identifier "C15694" ;
+    skos:altLabel "2-3",
+        "Trial Phase 2-3" ;
+    skos:definition "A class of clinical study that combines elements characteristic of traditional Phase II and Phase III trials." ;
+    skos:notation "PHASE II/III TRIAL" ;
+    skos:prefLabel "Phase II/III Trial" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66737-C47865> a skos:Concept ;
+    ns1:identifier "C47865" ;
+    skos:altLabel "5",
+        "Trial Phase 5" ;
+    skos:definition "Postmarketing surveillance is sometimes referred to as Phase V." ;
+    skos:notation "PHASE V TRIAL" ;
+    skos:prefLabel "Phase V Trial" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66737-C48660> a skos:Concept ;
+    ns1:identifier "C48660" ;
+    skos:altLabel "NA",
+        "Not Applicable" ;
+    skos:definition "Determination of a value is not relevant in the current context. (NCI)" ;
+    skos:notation "NOT APPLICABLE" ;
+    skos:prefLabel "Not Applicable" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66737-C49686> a skos:Concept ;
+    ns1:identifier "C49686" ;
+    skos:altLabel "2A",
+        "Trial Phase 2A" ;
+    skos:definition "A clinical research protocol generally referred to as a pilot or feasibility trial that aims to prove the concept of the new intervention in question. (NCI)" ;
+    skos:notation "PHASE IIA TRIAL" ;
+    skos:prefLabel "Phase IIa Trial" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66737-C49687> a skos:Concept ;
+    ns1:identifier "C49687" ;
+    skos:altLabel "3A",
+        "Trial Phase 3A" ;
+    skos:definition "A classification typically assigned retrospectively to a Phase III trial upon determination by regulatory authorities of a need for a Phase III B trial. (NCI)" ;
+    skos:notation "PHASE IIIA TRIAL" ;
+    skos:prefLabel "Phase IIIa Trial" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66737-C49688> a skos:Concept ;
+    ns1:identifier "C49688" ;
+    skos:altLabel "2B",
+        "Trial Phase 2B" ;
+    skos:definition "A clinical research protocol generally referred to as a well-controlled and pivotal trial that aims to prove the mechanism of action of the new intervention in question. A pivotal study will generally be well-controlled, randomized, of adequate size, and whenever possible, double-blind. (NCI)" ;
+    skos:notation "PHASE IIB TRIAL" ;
+    skos:prefLabel "Phase IIb Trial" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66737-C49689> a skos:Concept ;
+    ns1:identifier "C49689" ;
+    skos:altLabel "3B",
+        "Trial Phase 3B" ;
+    skos:definition "A subcategory of Phase III trials done near the time of approval to elicit additional findings. NOTE: Dossier review may continue while associated Phase IIIB trials are conducted. These trials may be required as a condition of regulatory authority approval." ;
+    skos:notation "PHASE IIIB TRIAL" ;
+    skos:prefLabel "Phase IIIb Trial" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66737-C54721> a skos:Concept ;
+    ns1:identifier "C54721" ;
+    skos:altLabel "0",
+        "Pre-clinical Trial",
+        "Trial Phase 0" ;
+    skos:definition "First-in-human trials, in a small number of subjects, that are conducted before Phase 1 trials and are intended to assess new candidate therapeutic and imaging agents. The study agent is administered at a low dose for a limited time, and there is no therapeutic or diagnostic intent. NOTE: FDA Guidance for Industry, Investigators, and Reviewers: Exploratory IND Studies, January 2006 classifies such studies as Phase 1. NOTE: A Phase 0 study might not include any drug delivery but may be an exploration of human material from a study (e.g., tissue samples or biomarker determinations). [Improving the Quality of Cancer Clinical Trials: Workshop summary-Proceedings of the National Cancer Policy Forum Workshop, improving the Quality of Cancer Clinical Trials (Washington, DC, Oct 2007)] (CDISC glossary)" ;
+    skos:notation "PHASE 0 TRIAL" ;
+    skos:prefLabel "Phase 0 Trial" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66739> a skos:Concept ;
+    rdfs:label "Trial Type Response" ;
+    gsk:extensible "true" ;
+    ns1:identifier "C66739" ;
+    skos:altLabel "Trial Type Response" ;
+    skos:definition "A terminology codelist relevant to the type of primary outcome or endpoint that the protocol is designed to evaluate." ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66739-C120842>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66739-C127803>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66739-C129001>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66739-C158283>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66739-C158284>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66739-C158285>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66739-C158286>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66739-C158287>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66739-C158288>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66739-C158289>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66739-C158290>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66739-C161477>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66739-C161478>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66739-C161479>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66739-C161480>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66739-C174366>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66739-C178057>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66739-C39493>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66739-C49653>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66739-C49656>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66739-C49657>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66739-C49661>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66739-C49662>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66739-C49663>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66739-C49664>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66739-C49665>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66739-C49666>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66739-C49667>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66739-C98729>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66739-C98791> ;
+    skos:notation "TTYPE" ;
+    skos:prefLabel "CDISC SDTM Trial Type Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66739-C120842> a skos:Concept ;
+    ns1:identifier "C120842" ;
+    skos:definition "A study that assesses an agent\'s ability to provoke an immune response." ;
+    skos:notation "IMMUNOGENICITY" ;
+    skos:prefLabel "Immunogenicity Study" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66739-C127803> a skos:Concept ;
+    ns1:identifier "C127803" ;
+    skos:definition "A study of the effect of dose changes on the efficacy of a drug in order to determine the dose-response relationship and optimal dose of a therapy." ;
+    skos:notation "DOSE RESPONSE" ;
+    skos:prefLabel "Dose Response Study" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66739-C129001> a skos:Concept ;
+    ns1:identifier "C129001" ;
+    skos:definition "A study that assesses variation in DNA sequence, usually within a single gene, and its effect on drug response." ;
+    skos:notation "PHARMACOGENETIC" ;
+    skos:prefLabel "Pharmacogenetic Study" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66739-C158283> a skos:Concept ;
+    ns1:identifier "C158283" ;
+    skos:definition "A type of study designed to evaluate the strength of the bond between an adhesive and the application surface." ;
+    skos:notation "ADHESION PERFORMANCE" ;
+    skos:prefLabel "Adhesion Performance Study" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66739-C158284> a skos:Concept ;
+    ns1:identifier "C158284" ;
+    skos:definition "A type of study designed to evaluate the effects of alcohol on investigational product safety and/or efficacy." ;
+    skos:notation "ALCOHOL EFFECT" ;
+    skos:prefLabel "Alcohol Effect Study" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66739-C158285> a skos:Concept ;
+    ns1:identifier "C158285" ;
+    skos:definition "A type of study designed to evaluate the interaction between a device and a drug, where the use of one may affect the disposition, function, efficacy, or safety of the other." ;
+    skos:notation "DEVICE-DRUG INTERACTION" ;
+    skos:prefLabel "Device-Drug Interaction Study" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66739-C158286> a skos:Concept ;
+    ns1:identifier "C158286" ;
+    skos:definition "A type of study designed to evaluate the interaction between drugs, where the use of one may affect the disposition, efficacy, or safety of the other." ;
+    skos:notation "DRUG-DRUG INTERACTION" ;
+    skos:prefLabel "Drug-Drug Interaction Study" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66739-C158287> a skos:Concept ;
+    ns1:identifier "C158287" ;
+    skos:altLabel "TQT Study" ;
+    skos:definition "A type of study designed to evaluate the ability of an investigational product and/or approved drug to delay cardiac ventricular repolarization as detected by QT prolongation and other ECG parameters." ;
+    skos:notation "THOROUGH QT" ;
+    skos:prefLabel "Thorough QT Study" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66739-C158288> a skos:Concept ;
+    ns1:identifier "C158288" ;
+    skos:definition "A type of study designed to evaluate whether a biologic test article is highly similar in function and effect to an existing biologic that has already been clinically tested and approved for use." ;
+    skos:notation "BIOSIMILARITY" ;
+    skos:prefLabel "Biosimilarity Study" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66739-C158289> a skos:Concept ;
+    ns1:identifier "C158289" ;
+    skos:definition "An early phase clinical study with the objective of determining the optimal dose of an investigational product." ;
+    skos:notation "DOSE FINDING" ;
+    skos:prefLabel "Dose Finding Study" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66739-C158290> a skos:Concept ;
+    ns1:identifier "C158290" ;
+    skos:definition "A type of study designed to evaluate the relationship between dose and resulting exposure." ;
+    skos:notation "DOSE PROPORTIONALITY" ;
+    skos:prefLabel "Dose Proportionality Study" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66739-C161477> a skos:Concept ;
+    ns1:identifier "C161477" ;
+    skos:definition "A type of study designed to evaluate the effect of body position during and/or after administration of the investigational product." ;
+    skos:notation "POSITION EFFECT" ;
+    skos:prefLabel "Position Effect Trial" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66739-C161478> a skos:Concept ;
+    ns1:identifier "C161478" ;
+    skos:definition "A type of study designed to evaluate the effect of the investigational product on the physiologic act of swallowing." ;
+    skos:notation "SWALLOWING FUNCTION" ;
+    skos:prefLabel "Swallowing Function Trial" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66739-C161479> a skos:Concept ;
+    ns1:identifier "C161479" ;
+    skos:definition "A type of study designed to evaluate the user experience with a product." ;
+    skos:notation "USABILITY TESTING" ;
+    skos:prefLabel "Usability Testing Study" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66739-C161480> a skos:Concept ;
+    ns1:identifier "C161480" ;
+    skos:definition "A type of study designed to evaluate the effects of water on investigational product safety and/or efficacy." ;
+    skos:notation "WATER EFFECT" ;
+    skos:prefLabel "Water Effect Trial" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66739-C174366> a skos:Concept ;
+    ns1:identifier "C174366" ;
+    skos:definition "A type of study designed to evaluate the expected, acute types of immunological responses, sometimes considered excessive, following agent administration." ;
+    skos:notation "REACTOGENICITY" ;
+    skos:prefLabel "Reactogenicity Study" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66739-C178057> a skos:Concept ;
+    ns1:identifier "C178057" ;
+    skos:altLabel "Electrocardiographic Study" ;
+    skos:definition "A study that evaluates the effect of a treatment on cardiac electrical activity, as assessed by electrocardiography." ;
+    skos:notation "ECG" ;
+    skos:prefLabel "Electrocardiographic Study" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66739-C39493> a skos:Concept ;
+    ns1:identifier "C39493" ;
+    skos:definition "A study that assesses the value associated with a given drug in therapeutic and economic terms. This type of study is multidisciplinary in nature and takes into consideration the social and economic costs (resource utilization costs including direct, indirect, and intangible costs) of drug therapy in addition to its direct therapeutic benefits. Analyses relate the difference in therapeutic benefits to the difference in costs between treatment alternatives. (NCI)" ;
+    skos:notation "PHARMACOECONOMIC" ;
+    skos:prefLabel "Pharmacoeconomic Study" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66739-C49653> a skos:Concept ;
+    ns1:identifier "C49653" ;
+    skos:definition "A type of study designed to evaluate intervention(s) aimed at identifying a disease or condition." ;
+    skos:notation "DIAGNOSIS" ;
+    skos:prefLabel "Diagnosis Study" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66739-C49656> a skos:Concept ;
+    ns1:identifier "C49656" ;
+    skos:altLabel "Therapy Trial" ;
+    skos:definition "A type of study designed to evaluate intervention(s) for treatment of disease, syndrome or condition." ;
+    skos:notation "TREATMENT" ;
+    skos:prefLabel "Treatment Study" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66739-C49657> a skos:Concept ;
+    ns1:identifier "C49657" ;
+    skos:altLabel "Prophylaxis Study" ;
+    skos:definition "A type of study designed to identify actions necessary to permanently eliminate or reduce the long-term risk to human life as a result of a particular medication or treatment regimen." ;
+    skos:notation "PREVENTION" ;
+    skos:prefLabel "Prevention Study" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66739-C49661> a skos:Concept ;
+    ns1:identifier "C49661" ;
+    skos:definition "A study that identifies or assesses variations within the entire genome, including DNA, RNA, or transcriptional elements, and its effects on drug response." ;
+    skos:notation "PHARMACOGENOMIC" ;
+    skos:prefLabel "Pharmacogenomic Study" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66739-C49662> a skos:Concept ;
+    ns1:identifier "C49662" ;
+    skos:definition "A study of the biochemical and physiological effect of a drug and the mechanism of drug action and the relationship between drug concentration and effect. (NCI)" ;
+    skos:notation "PHARMACODYNAMIC" ;
+    skos:prefLabel "Pharmacodynamic Study" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66739-C49663> a skos:Concept ;
+    ns1:identifier "C49663" ;
+    skos:definition "A study of the process by which a drug is absorbed, distributed, metabolized, and eliminated by the body. (NCI)" ;
+    skos:notation "PHARMACOKINETIC" ;
+    skos:prefLabel "Pharmacokinetic Study" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66739-C49664> a skos:Concept ;
+    ns1:identifier "C49664" ;
+    skos:definition "A study of the degree to which or rate at which a drug or other substance is absorbed or becomes available at the site of physiological activity after administration. (NCI)" ;
+    skos:notation "BIO-AVAILABILITY" ;
+    skos:prefLabel "Bioavailability Study" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66739-C49665> a skos:Concept ;
+    ns1:identifier "C49665" ;
+    skos:definition "A study most often used to compare the efficacy of different formulations to treat a given disease. It is the testing of an old versus a new formulation in healthy volunteers or subjects with the disease under study and usually in one dose. (NCI)" ;
+    skos:notation "BIO-EQUIVALENCE" ;
+    skos:prefLabel "Therapeutic Equivalency Study" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66739-C49666> a skos:Concept ;
+    ns1:identifier "C49666" ;
+    skos:definition "A study of the relative therapeutic efficacy of treatment of a disease. Usually this is a Phase II or III study. (NCI)" ;
+    skos:notation "EFFICACY" ;
+    skos:prefLabel "Efficacy Study" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66739-C49667> a skos:Concept ;
+    ns1:identifier "C49667" ;
+    skos:definition "A study that assesses the medical risks to a subject. Safety is usually assessed by examining a wide range of clinical parameters, including adverse events, vital signs, physical exam, laboratory tests." ;
+    skos:notation "SAFETY" ;
+    skos:prefLabel "Safety Study" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66739-C98729> a skos:Concept ;
+    ns1:identifier "C98729" ;
+    skos:definition "Studies that are conducted to assess the effect of food on the rate and extent of absorption of a drug, either compared to a fasted state or to a reference drug." ;
+    skos:notation "FOOD EFFECT" ;
+    skos:prefLabel "Food Effect Study" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C66739-C98791> a skos:Concept ;
+    ns1:identifier "C98791" ;
+    skos:definition "A type of safety study that assesses the degree to which overt adverse effects can be tolerated by the subject." ;
+    skos:notation "TOLERABILITY" ;
+    skos:prefLabel "Tolerability Study" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C99076> a skos:Concept ;
+    rdfs:label "Intervention Model Response" ;
+    gsk:extensible "true" ;
+    ns1:identifier "C99076" ;
+    skos:altLabel "Intervention Model Response" ;
+    skos:definition "A terminology codelist relevant to the trial design developed to compare treatment groups." ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C99076-C142568>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C99076-C82637>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C99076-C82638>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C99076-C82639>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C99076-C82640> ;
+    skos:notation "INTMODEL" ;
+    skos:prefLabel "CDISC SDTM Intervention Model Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C99076-C142568> a skos:Concept ;
+    ns1:identifier "C142568" ;
+    skos:definition "Groups of participants are assigned to receive interventions based on prior milestones being reached in the study. (clinicaltrials.gov)" ;
+    skos:notation "SEQUENTIAL" ;
+    skos:prefLabel "Group Sequential Design" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C99076-C82637> a skos:Concept ;
+    ns1:identifier "C82637" ;
+    skos:definition "Participants receive one of two or more alternative intervention(s) during the initial epoch of the study and receive other intervention(s) during the subsequent epoch(s) of the study." ;
+    skos:notation "CROSS-OVER" ;
+    skos:prefLabel "Crossover Study" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C99076-C82638> a skos:Concept ;
+    ns1:identifier "C82638" ;
+    skos:definition "Two or more interventions, each alone or in combination, are evaluated in parallel against a control group. This study design allows for the comparison of active drug to placebo, presence of drug-drug interactions, and comparison of active drugs against each other." ;
+    skos:notation "FACTORIAL" ;
+    skos:prefLabel "Factorial Study" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C99076-C82639> a skos:Concept ;
+    ns1:identifier "C82639" ;
+    skos:definition "Participants are assigned to one of two or more treatment groups in parallel for the duration of the study." ;
+    skos:notation "PARALLEL" ;
+    skos:prefLabel "Parallel Study" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C99076-C82640> a skos:Concept ;
+    ns1:identifier "C82640" ;
+    skos:definition "All trial participants are assigned to a single treatment group for the duration of the study." ;
+    skos:notation "SINGLE GROUP" ;
+    skos:prefLabel "Single Group Study" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C99077> a skos:Concept ;
+    rdfs:label "Study Type Response" ;
+    gsk:extensible "false" ;
+    ns1:identifier "C99077" ;
+    skos:altLabel "Study Type Response" ;
+    skos:definition "A terminology codelist relevant to the role the study plays in determining the interventions a subject receives." ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C99077-C129000>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C99077-C16084>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C99077-C98388>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C99077-C98722> ;
+    skos:notation "STYPE" ;
+    skos:prefLabel "CDISC SDTM Study Type Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C99077-C129000> a skos:Concept ;
+    ns1:identifier "C129000" ;
+    skos:definition "Observational studies which include an organized system that uses observational methods to collect uniform data (clinical and other) prospectively for a population defined by a particular disorder/disease, condition (including susceptibility to a disorder), or exposure (including products, health care services, and/or procedures) and that serves a predetermined scientific, clinical, or policy purpose. Patient registries may be single purpose or on-going data collection programs that address one or more questions. (AHRQ)" ;
+    skos:notation "PATIENT REGISTRY" ;
+    skos:prefLabel "Patient Registry Study" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C99077-C16084> a skos:Concept ;
+    ns1:identifier "C16084" ;
+    skos:definition "Studies in which biomedical and/or health outcomes are assessed in pre-defined groups of individuals. Subjects in the study may receive diagnostic, therapeutic, or other interventions, but the investigator does not assign specific interventions to the subjects of the study." ;
+    skos:notation "OBSERVATIONAL" ;
+    skos:prefLabel "Observational Study" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C99077-C98388> a skos:Concept ;
+    ns1:identifier "C98388" ;
+    skos:definition "Studies in which individuals are assigned by an investigator based on a protocol to receive specific interventions. Subjects may receive diagnostic, therapeutic or other types of interventions. The assignment of the intervention may or may not be random. The individuals are then followed and biomedical and/or health outcomes are assessed." ;
+    skos:notation "INTERVENTIONAL" ;
+    skos:prefLabel "Interventional Study" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C99077-C98722> a skos:Concept ;
+    ns1:identifier "C98722" ;
+    skos:altLabel "Compassionate Use" ;
+    skos:definition "Studies that provide a means for obtaining an experimental drug or device for patients who are not adequately treated by existing therapy, who do not meet the eligibility criteria for enrollment, or who are otherwise unable to participate in another clinical study." ;
+    skos:notation "EXPANDED ACCESS" ;
+    skos:prefLabel "Expanded Access Study" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C99079> a skos:Concept ;
+    rdfs:label "Epoch" ;
+    gsk:extensible "true" ;
+    ns1:identifier "C99079" ;
+    skos:altLabel "Epoch" ;
+    skos:definition "The name of the EPOCH." ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C99079-C101526>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C99079-C102255>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C99079-C102256>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C99079-C123452>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C99079-C123453>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C99079-C125938>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C99079-C16032>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C99079-C165873>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C99079-C42872>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C99079-C48262>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C99079-C98779>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C99079-C99158> ;
+    skos:notation "EPOCH" ;
+    skos:prefLabel "CDISC SDTM Epoch Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C99079-C101526> a skos:Concept ;
+    ns1:identifier "C101526" ;
+    skos:definition "A period in a study during which subjects are receiving investigational therapy or treatment." ;
+    skos:notation "TREATMENT" ;
+    skos:prefLabel "Treatment Epoch" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C99079-C102255> a skos:Concept ;
+    ns1:identifier "C102255" ;
+    skos:definition "A period in a clinical study during which subjects receive blinded therapeutic treatment." ;
+    skos:notation "BLINDED TREATMENT" ;
+    skos:prefLabel "Blinded Treatment Epoch" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C99079-C102256> a skos:Concept ;
+    ns1:identifier "C102256" ;
+    skos:definition "A period in a clinical study during which subjects receive open label therapeutic treatment." ;
+    skos:notation "OPEN LABEL TREATMENT" ;
+    skos:prefLabel "Open Label Treatment Epoch" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C99079-C123452> a skos:Concept ;
+    ns1:identifier "C123452" ;
+    skos:altLabel "Continuation Phase" ;
+    skos:definition "A period in a clinical study during which subjects receive continuation treatment." ;
+    skos:notation "CONTINUATION TREATMENT" ;
+    skos:prefLabel "Continuation Therapy Epoch" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C99079-C123453> a skos:Concept ;
+    ns1:identifier "C123453" ;
+    skos:altLabel "Induction Phase",
+        "Intensive Phase" ;
+    skos:definition "A period in a clinical study during which subjects receive induction treatment." ;
+    skos:notation "INDUCTION TREATMENT" ;
+    skos:prefLabel "Induction Therapy Epoch" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C99079-C125938> a skos:Concept ;
+    ns1:identifier "C125938" ;
+    skos:definition "A period in a clinical study after eligibility has been met and before the start of treatment, at which baseline measurements are collected." ;
+    skos:notation "BASELINE" ;
+    skos:prefLabel "Baseline Epoch" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C99079-C16032> a skos:Concept ;
+    ns1:identifier "C16032" ;
+    skos:definition "A period in a clinical study during which information about the health status of an individual is obtained long after study interventions have concluded." ;
+    skos:notation "LONG-TERM FOLLOW-UP" ;
+    skos:prefLabel "Long-term Follow-up" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C99079-C165873> a skos:Concept ;
+    ns1:identifier "C165873" ;
+    skos:definition "A period in a clinical study during which subjects are observed, without any planned intervention." ;
+    skos:notation "OBSERVATION" ;
+    skos:prefLabel "Observation Study Epoch" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C99079-C42872> a skos:Concept ;
+    ns1:identifier "C42872" ;
+    skos:definition "A period of time during a study when a subject is taken off of the investigational therapy or treatment in order to reduce the amount of investigational product within the body." ;
+    skos:notation "WASHOUT" ;
+    skos:prefLabel "Washout Period" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C99079-C48262> a skos:Concept ;
+    ns1:identifier "C48262" ;
+    skos:definition "A period in a clinical study during which subjects are evaluated for participation in the study." ;
+    skos:notation "SCREENING" ;
+    skos:prefLabel "Trial Screening" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C99079-C98779> a skos:Concept ;
+    ns1:identifier "C98779" ;
+    skos:definition "A period in a clinical study that occurs before the commencement of the primary clinical study investigation, during which subjects may be assessed for suitability in the clinical study, withdrawn from existing therapy, trained in study methodology or evaluated for any other protocol-specified reason." ;
+    skos:notation "RUN-IN" ;
+    skos:prefLabel "Run-in Period" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/ddf/C99079-C99158> a skos:Concept ;
+    ns1:identifier "C99158" ;
+    skos:definition "A period in a clinical study during which information about the health status of an individual is obtained after study interventions have concluded." ;
+    skos:notation "FOLLOW-UP" ;
+    skos:prefLabel "Clinical Study Follow-up" .
+
+','Turtle')

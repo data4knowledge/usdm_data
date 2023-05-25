@@ -1,0 +1,2561 @@
+@prefix gsk: <http://ontologies.gsk.com/cdisc/ct#> .
+@prefix ns1: <http://purl.org/dc/elements/1.1/> .
+@prefix ns2: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash> a skos:ConceptScheme ;
+    rdfs:label "CDASH Controlled Terminology Package 52 Effective 2022-12-16" ;
+    ns1:description "CDISC Controlled Terminology for CDASH is the set of CDISC-developed or CDISC-adopted standard expressions (values) used with data items within CDISC-defined CDASH datasets." ;
+    ns1:source "CDASH Controlled Terminology developed by the CDISC Terminology Team in collaboration with the National Cancer Institute\'s Enterprise Vocabulary Services (EVS)" ;
+    ns2:valid "2022-12-16" ;
+    skos:hasTopConcept <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C177909>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C181163>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C181164>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C181165>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78417>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78418>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78419>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78420>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78421>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78422>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78423>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78425>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78426>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78427>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78428>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78429>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78430>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78431>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78745>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C83004> .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689> a skos:Concept ;
+    rdfs:label "Race As Collected" ;
+    gsk:extensible "true" ;
+    ns1:identifier "C128689" ;
+    skos:altLabel "Race As Collected" ;
+    skos:definition "A terminology codelist relevant to the race of an individual as collected on the case report form." ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C107602>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C126531>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C126533>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C126534>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C128937>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C128938>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C128991>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C128992>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C128993>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C128994>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C153343>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C154874>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C154875>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C156583>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C158274>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C161419>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C16310>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C16352>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C17649>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C17998>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C18237>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C41219>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C41226>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C41259>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C41260>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C41261>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C41262>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C41263>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C42331>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43234>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43391>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43392>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43393>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43394>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43395>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43396>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43397>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43398>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43399>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43400>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43402>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43403>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43404>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43405>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43407>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43409>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43427>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43671>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43672>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43673>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43674>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43675>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43715>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43716>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43717>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43718>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43719>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43720>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43721>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43722>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43823>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43824>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43825>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43826>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43827>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43828>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43829>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43830>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43831>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43832>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43833>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43834>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43835>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43837>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43851>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43853>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43856>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43860>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43864>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43876>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43877>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C44265>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C44268>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C44269>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C44270>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C44950>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C44953>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C67117>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C67271>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C77810>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C77811>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C77813>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C77814>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C77816>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C77817>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C77819>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C77820> ;
+    skos:notation "RACEC" ;
+    skos:prefLabel "CDISC SDTM Collected Race Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C107602> a skos:Concept ;
+    ns1:identifier "C107602" ;
+    skos:definition "A person having origins in the original peoples of the Pacific Islands, but not Guam, Hawaii, the Mariana Islands or Samoa. (NCI)" ;
+    skos:notation "OTHER PACIFIC ISLANDER" ;
+    skos:prefLabel "Other Pacific Islander" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C126531> a skos:Concept ;
+    ns1:identifier "C126531" ;
+    skos:definition "A person of Latin American descent." ;
+    skos:notation "LATIN AMERICAN" ;
+    skos:prefLabel "Latin American" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C126533> a skos:Concept ;
+    ns1:identifier "C126533" ;
+    skos:definition "A person having origins in any of the original peoples of Southeast Asia." ;
+    skos:notation "SOUTHEAST ASIAN" ;
+    skos:prefLabel "Southeast Asian" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C126534> a skos:Concept ;
+    ns1:identifier "C126534" ;
+    skos:definition "A person having origins in any of the original peoples of Central Asia." ;
+    skos:notation "CENTRAL ASIAN" ;
+    skos:prefLabel "Central Asian" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C128937> a skos:Concept ;
+    ns1:identifier "C128937" ;
+    skos:definition "A person having origins in the original peoples of sub-Saharan Africa and the United States." ;
+    skos:notation "AFRICAN AMERICAN" ;
+    skos:prefLabel "African American" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C128938> a skos:Concept ;
+    ns1:identifier "C128938" ;
+    skos:definition "A person having origins in the original peoples of sub-Saharan Africa or the Caribbean." ;
+    skos:notation "BLACK" ;
+    skos:prefLabel "Black" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C128991> a skos:Concept ;
+    ns1:identifier "C128991" ;
+    skos:definition "A person having origins in the original peoples of sub-Saharan Africa and Central America." ;
+    skos:notation "BLACK CENTRAL AMERICAN" ;
+    skos:prefLabel "Black Central American" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C128992> a skos:Concept ;
+    ns1:identifier "C128992" ;
+    skos:definition "A person having origins in the original peoples of sub-Saharan Africa and South America." ;
+    skos:notation "BLACK SOUTH AMERICAN" ;
+    skos:prefLabel "Black South American" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C128993> a skos:Concept ;
+    ns1:identifier "C128993" ;
+    skos:definition "A person having origins in the original peoples of Europe, the Middle East, or North Africa, and Central America." ;
+    skos:notation "WHITE CENTRAL AMERICAN" ;
+    skos:prefLabel "White Central American" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C128994> a skos:Concept ;
+    ns1:identifier "C128994" ;
+    skos:definition "A person having origins in the original peoples of Europe, the Middle East, or North Africa, and South America." ;
+    skos:notation "WHITE SOUTH AMERICAN" ;
+    skos:prefLabel "White South American" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C153343> a skos:Concept ;
+    ns1:identifier "C153343" ;
+    skos:definition "A person having origins in any of the original peoples of Western Asia." ;
+    skos:notation "WEST ASIAN" ;
+    skos:prefLabel "Western Asian" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C154874> a skos:Concept ;
+    ns1:identifier "C154874" ;
+    skos:definition "The native people of the Western Cape in southern Africa." ;
+    skos:notation "KHOISAN" ;
+    skos:prefLabel "Khoisan" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C154875> a skos:Concept ;
+    ns1:identifier "C154875" ;
+    skos:definition "The native people of Australia." ;
+    skos:notation "ABORIGINAL AUSTRALIAN" ;
+    skos:prefLabel "Aboriginal Australian" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C156583> a skos:Concept ;
+    ns1:identifier "C156583" ;
+    skos:definition "A person whose ancestry is from one or more of the indigenous Southern African peoples and one or more of the naturalized racial groups of Southern Africa (typically Western European, South Asian, or Southeastern Asian)." ;
+    skos:notation "SOUTHERN AFRICAN COLOURED" ;
+    skos:prefLabel "Southern African Coloured" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C158274> a skos:Concept ;
+    ns1:identifier "C158274" ;
+    skos:definition "The native people of New Zealand." ;
+    skos:notation "MAORI" ;
+    skos:prefLabel "Maori" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C161419> a skos:Concept ;
+    ns1:identifier "C161419" ;
+    skos:definition "A person having origins in any of the original peoples of East Asia." ;
+    skos:notation "EAST ASIAN" ;
+    skos:prefLabel "East Asian" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C16310> a skos:Concept ;
+    ns1:identifier "C16310" ;
+    skos:definition "A person having origins in the original peoples of Asia and the United States." ;
+    skos:notation "ASIAN AMERICAN" ;
+    skos:prefLabel "Asian American" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C16352> a skos:Concept ;
+    ns1:identifier "C16352" ;
+    skos:definition "A person having origins in any of the black racial groups of Africa. Terms such as \"Haitian\" or \"Negro\" can be used in addition to \"Black or African American.\" (FDA)" ;
+    skos:notation "BLACK OR AFRICAN AMERICAN" ;
+    skos:prefLabel "Black or African American" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C17649> a skos:Concept ;
+    ns1:identifier "C17649" ;
+    skos:altLabel "Other" ;
+    skos:definition "Different than the one(s) previously specified or mentioned. (NCI)" ;
+    skos:notation "OTHER" ;
+    skos:prefLabel "Other" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C17998> a skos:Concept ;
+    ns1:identifier "C17998" ;
+    skos:altLabel "U",
+        "UNK",
+        "Unknown" ;
+    skos:definition "Not known, not observed, not recorded, or refused. (NCI)" ;
+    skos:notation "UNKNOWN" ;
+    skos:prefLabel "Unknown" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C18237> a skos:Concept ;
+    ns1:identifier "C18237" ;
+    skos:definition "The native people of Alaska." ;
+    skos:notation "ALASKA NATIVE" ;
+    skos:prefLabel "Alaska Native" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C41219> a skos:Concept ;
+    ns1:identifier "C41219" ;
+    skos:definition "Denotes a person having origins in any of the original peoples of Hawaii, Guam, Samoa, or other Pacific Islands. The term covers particularly people who identify themselves as part-Hawaiian, Native Hawaiian, Guamanian or Chamorro, Carolinian, Samoan, Chuu. (FDA)" ;
+    skos:notation "NATIVE HAWAIIAN OR OTHER PACIFIC ISLANDER" ;
+    skos:prefLabel "Native Hawaiian or Other Pacific Islander" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C41226> a skos:Concept ;
+    ns1:identifier "C41226" ;
+    skos:definition "A person having origins in the original peoples of sub-Saharan Africa and the Caribbean." ;
+    skos:notation "AFRICAN CARIBBEAN" ;
+    skos:prefLabel "African Caribbean" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C41259> a skos:Concept ;
+    ns1:identifier "C41259" ;
+    skos:definition "A person having origins in any of the original peoples of North and South America (including Central America), and who maintains tribal affiliation or community attachment. (FDA)" ;
+    skos:notation "AMERICAN INDIAN OR ALASKA NATIVE" ;
+    skos:prefLabel "American Indian or Alaska Native" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C41260> a skos:Concept ;
+    ns1:identifier "C41260" ;
+    skos:definition "A person having origins in any of the original peoples of the Far East, Southeast Asia, or the Indian subcontinent including, for example, Cambodia, China, India, Japan, Korea, Malaysia, Pakistan, the Philippine Islands, Thailand, and Vietnam. (FDA)" ;
+    skos:notation "ASIAN" ;
+    skos:prefLabel "Asian" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C41261> a skos:Concept ;
+    ns1:identifier "C41261" ;
+    skos:definition "Denotes a person with European, Middle Eastern, or North African ancestral origin who identifies, or is identified, as White. (FDA)" ;
+    skos:notation "WHITE" ;
+    skos:prefLabel "White" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C41262> a skos:Concept ;
+    ns1:identifier "C41262" ;
+    skos:definition "A person having origins in any of the original peoples of the Indian subcontinent." ;
+    skos:notation "ASIAN INDIAN" ;
+    skos:prefLabel "Asian Indian" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C41263> a skos:Concept ;
+    ns1:identifier "C41263" ;
+    skos:definition "A person having origins in any of the original peoples of the South Asia." ;
+    skos:notation "SOUTH ASIAN" ;
+    skos:prefLabel "South Asian" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C42331> a skos:Concept ;
+    ns1:identifier "C42331" ;
+    skos:definition "A person having origins in any of the original peoples of sub-Saharan Africa." ;
+    skos:notation "AFRICAN" ;
+    skos:prefLabel "African" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43234> a skos:Concept ;
+    ns1:identifier "C43234" ;
+    skos:altLabel "Not reported" ;
+    skos:definition "Not provided or available." ;
+    skos:notation "NOT REPORTED" ;
+    skos:prefLabel "Not Reported" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43391> a skos:Concept ;
+    ns1:identifier "C43391" ;
+    skos:definition "A person having origins in any of the original peoples of China." ;
+    skos:notation "CHINESE" ;
+    skos:prefLabel "Chinese" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43392> a skos:Concept ;
+    ns1:identifier "C43392" ;
+    skos:definition "A person having origins in any of the original peoples of Japan." ;
+    skos:notation "JAPANESE" ;
+    skos:prefLabel "Japanese" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43393> a skos:Concept ;
+    ns1:identifier "C43393" ;
+    skos:definition "A person having origins in any of the original peoples of the Philippines." ;
+    skos:notation "FILIPINO" ;
+    skos:prefLabel "Filipino" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43394> a skos:Concept ;
+    ns1:identifier "C43394" ;
+    skos:definition "A person having origins in any of the original peoples of Hawaii. (NCI)" ;
+    skos:notation "NATIVE HAWAIIAN" ;
+    skos:prefLabel "Native Hawaiian" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43395> a skos:Concept ;
+    ns1:identifier "C43395" ;
+    skos:definition "A person having origins in any of the original peoples of North and South Korea." ;
+    skos:notation "KOREAN" ;
+    skos:prefLabel "Korean" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43396> a skos:Concept ;
+    ns1:identifier "C43396" ;
+    skos:definition "A person having origins in any of the original peoples of Viet Nam." ;
+    skos:notation "VIETNAMESE" ;
+    skos:prefLabel "Vietnamese" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43397> a skos:Concept ;
+    ns1:identifier "C43397" ;
+    skos:definition "A person having origins in any of the original peoples of Laos." ;
+    skos:notation "LAOTIAN" ;
+    skos:prefLabel "Laotian" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43398> a skos:Concept ;
+    ns1:identifier "C43398" ;
+    skos:definition "The native people originating in China around the Yellow River or Hoang Ho." ;
+    skos:notation "HMONG" ;
+    skos:prefLabel "Hmong" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43399> a skos:Concept ;
+    ns1:identifier "C43399" ;
+    skos:definition "A person having origins in any of the original peoples of Cambodia (formerly Kampuchea)." ;
+    skos:notation "CAMBODIAN" ;
+    skos:prefLabel "Cambodian" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43400> a skos:Concept ;
+    ns1:identifier "C43400" ;
+    skos:definition "A person having origins in any of the original peoples of Thailand." ;
+    skos:notation "THAI" ;
+    skos:prefLabel "Thai" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43402> a skos:Concept ;
+    ns1:identifier "C43402" ;
+    skos:definition "A person having origins in any of the original peoples of Micronesia." ;
+    skos:notation "MICRONESIAN" ;
+    skos:prefLabel "Micronesian" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43403> a skos:Concept ;
+    ns1:identifier "C43403" ;
+    skos:definition "The native people of the Mariana Islands, including the United States territories of Guam and the Commonwealth of the Northern Mariana Islands in Micronesia." ;
+    skos:notation "CHAMORRO" ;
+    skos:prefLabel "Chamorran" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43404> a skos:Concept ;
+    ns1:identifier "C43404" ;
+    skos:definition "A person having origins in any of the original peoples of Guam." ;
+    skos:notation "GUAMANIAN" ;
+    skos:prefLabel "Guamanian" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43405> a skos:Concept ;
+    ns1:identifier "C43405" ;
+    skos:definition "A person having origins in any of the original peoples of Polynesia." ;
+    skos:notation "POLYNESIAN" ;
+    skos:prefLabel "Polynesian" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43407> a skos:Concept ;
+    ns1:identifier "C43407" ;
+    skos:definition "A person having origins in any of the original peoples of Samoa. (NCI)" ;
+    skos:notation "SAMOAN" ;
+    skos:prefLabel "Samoan" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43409> a skos:Concept ;
+    ns1:identifier "C43409" ;
+    skos:definition "A person having origins in any of the original peoples of Melanesia." ;
+    skos:notation "MELANESIAN" ;
+    skos:prefLabel "Melanesian" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43427> a skos:Concept ;
+    ns1:identifier "C43427" ;
+    skos:definition "A person having origins in any of the original peoples of Pakistan." ;
+    skos:notation "PAKISTANI" ;
+    skos:prefLabel "Pakistani" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43671> a skos:Concept ;
+    ns1:identifier "C43671" ;
+    skos:definition "A person having origins in any of the original peoples of Bangladesh." ;
+    skos:notation "BANGLADESHI" ;
+    skos:prefLabel "Bangladeshi" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43672> a skos:Concept ;
+    ns1:identifier "C43672" ;
+    skos:definition "A person having origins in any of the original peoples of Sri Lanka." ;
+    skos:notation "SRI LANKAN" ;
+    skos:prefLabel "Sri Lankan" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43673> a skos:Concept ;
+    ns1:identifier "C43673" ;
+    skos:definition "A person having origins in any of the original peoples of Bhutan." ;
+    skos:notation "BHUTANESE" ;
+    skos:prefLabel "Bhutanese" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43674> a skos:Concept ;
+    ns1:identifier "C43674" ;
+    skos:definition "A person having origins in any of the original peoples of Myanmar (formerly Burma)." ;
+    skos:notation "BURMESE" ;
+    skos:prefLabel "Burmese" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43675> a skos:Concept ;
+    ns1:identifier "C43675" ;
+    skos:definition "A person having origins in any of the original peoples of Taiwan." ;
+    skos:notation "TAIWANESE" ;
+    skos:prefLabel "Taiwanese" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43715> a skos:Concept ;
+    ns1:identifier "C43715" ;
+    skos:definition "A person having origins in any of the original peoples of Indonesia." ;
+    skos:notation "INDONESIAN" ;
+    skos:prefLabel "Indonesian" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43716> a skos:Concept ;
+    ns1:identifier "C43716" ;
+    skos:definition "A person having origins in any of the original peoples of Malaysia." ;
+    skos:notation "MALAYSIAN" ;
+    skos:prefLabel "Malaysian" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43717> a skos:Concept ;
+    ns1:identifier "C43717" ;
+    skos:definition "A person having origins in any of the original peoples of Okinawa." ;
+    skos:notation "OKINAWAN" ;
+    skos:prefLabel "Okinawan" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43718> a skos:Concept ;
+    ns1:identifier "C43718" ;
+    skos:definition "A person having origins in any of the original peoples of Iwo Jima." ;
+    skos:notation "IWO JIMAN" ;
+    skos:prefLabel "Iwo Jiman" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43719> a skos:Concept ;
+    ns1:identifier "C43719" ;
+    skos:definition "A person having origins in any of the original peoples of the Maldives." ;
+    skos:notation "MALDIVIAN" ;
+    skos:prefLabel "Maldivian" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43720> a skos:Concept ;
+    ns1:identifier "C43720" ;
+    skos:definition "A person having origins in any of the original peoples of Nepal." ;
+    skos:notation "NEPALESE" ;
+    skos:prefLabel "Nepalese" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43721> a skos:Concept ;
+    ns1:identifier "C43721" ;
+    skos:definition "A person having origins in any of the original peoples of Singapore." ;
+    skos:notation "SINGAPOREAN" ;
+    skos:prefLabel "Singaporean" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43722> a skos:Concept ;
+    ns1:identifier "C43722" ;
+    skos:definition "A person having origins in any of the original peoples of Madagascar." ;
+    skos:notation "MALAGASY" ;
+    skos:prefLabel "Malagasy" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43823> a skos:Concept ;
+    ns1:identifier "C43823" ;
+    skos:definition "A person having origins in any of the original peoples of Barbados." ;
+    skos:notation "BARBADIAN" ;
+    skos:prefLabel "Barbadian" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43824> a skos:Concept ;
+    ns1:identifier "C43824" ;
+    skos:definition "A person having origins in any of the original peoples of Dominica." ;
+    skos:notation "DOMINICA ISLANDER" ;
+    skos:prefLabel "Dominica Islander" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43825> a skos:Concept ;
+    ns1:identifier "C43825" ;
+    skos:definition "A person having origins in any of the original peoples of Haiti." ;
+    skos:notation "HAITIAN" ;
+    skos:prefLabel "Haitian" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43826> a skos:Concept ;
+    ns1:identifier "C43826" ;
+    skos:definition "A person having origins in any of the original peoples of Jamaica." ;
+    skos:notation "JAMAICAN" ;
+    skos:prefLabel "Jamaican" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43827> a skos:Concept ;
+    ns1:identifier "C43827" ;
+    skos:definition "A person having origins in any of the original peoples of Tobago." ;
+    skos:notation "TOBAGOAN" ;
+    skos:prefLabel "Tobagoan" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43828> a skos:Concept ;
+    ns1:identifier "C43828" ;
+    skos:definition "A person having origins in any of the original peoples of Trinidad." ;
+    skos:notation "TRINIDADIAN" ;
+    skos:prefLabel "Trinidadian" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43829> a skos:Concept ;
+    ns1:identifier "C43829" ;
+    skos:definition "A person having origins in any of the original peoples of the West Indies." ;
+    skos:notation "WEST INDIAN" ;
+    skos:prefLabel "West Indian" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43830> a skos:Concept ;
+    ns1:identifier "C43830" ;
+    skos:definition "A person having origins in any of the original peoples of Botswana." ;
+    skos:notation "BOTSWANAN" ;
+    skos:prefLabel "Botswanan" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43831> a skos:Concept ;
+    ns1:identifier "C43831" ;
+    skos:definition "A person having origins in any of the original peoples of Ethiopia." ;
+    skos:notation "ETHIOPIAN" ;
+    skos:prefLabel "Ethiopian" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43832> a skos:Concept ;
+    ns1:identifier "C43832" ;
+    skos:definition "A person having origins in any of the original peoples of Liberia." ;
+    skos:notation "LIBERIAN" ;
+    skos:prefLabel "Liberian" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43833> a skos:Concept ;
+    ns1:identifier "C43833" ;
+    skos:definition "A person having origins in any of the original peoples of Namibia." ;
+    skos:notation "NAMIBIAN" ;
+    skos:prefLabel "Namibian" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43834> a skos:Concept ;
+    ns1:identifier "C43834" ;
+    skos:definition "A person having origins in any of the original peoples of Nigeria." ;
+    skos:notation "NIGERIAN" ;
+    skos:prefLabel "Nigerian" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43835> a skos:Concept ;
+    ns1:identifier "C43835" ;
+    skos:definition "A person having origins in any of the original peoples of Zaire." ;
+    skos:notation "ZAIREAN" ;
+    skos:prefLabel "Zairean" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43837> a skos:Concept ;
+    ns1:identifier "C43837" ;
+    skos:definition "A person having origins in the original peoples of the United States territories of Guam and the Commonwealth of the Northern Mariana Islands in Micronesia." ;
+    skos:notation "GUAMANIAN OR CHAMORRO" ;
+    skos:prefLabel "Guamanian or Chamorro" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43851> a skos:Concept ;
+    ns1:identifier "C43851" ;
+    skos:definition "A person having origins in any of the original peoples of Europe." ;
+    skos:notation "EUROPEAN" ;
+    skos:prefLabel "European" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43853> a skos:Concept ;
+    ns1:identifier "C43853" ;
+    skos:definition "A person having origins in any of the original peoples of England." ;
+    skos:notation "ENGLISH" ;
+    skos:prefLabel "English" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43856> a skos:Concept ;
+    ns1:identifier "C43856" ;
+    skos:definition "A person having origins in any of the original peoples of Ireland." ;
+    skos:notation "IRISH" ;
+    skos:prefLabel "Irish" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43860> a skos:Concept ;
+    ns1:identifier "C43860" ;
+    skos:definition "A person having origins in any of the original peoples of Russia." ;
+    skos:notation "RUSSIAN" ;
+    skos:prefLabel "Russian" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43864> a skos:Concept ;
+    ns1:identifier "C43864" ;
+    skos:definition "A person having origins in any of the original peoples of Mongolia." ;
+    skos:notation "MONGOLIAN" ;
+    skos:prefLabel "Mongolian" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43876> a skos:Concept ;
+    ns1:identifier "C43876" ;
+    skos:definition "A person having origins in any of the original peoples of the Arabian peninsula and surrounding territories in the Middle East and northern Africa." ;
+    skos:notation "ARAB" ;
+    skos:prefLabel "Arab" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C43877> a skos:Concept ;
+    ns1:identifier "C43877" ;
+    skos:definition "The native people of North America." ;
+    skos:notation "AMERICAN INDIAN" ;
+    skos:prefLabel "American Indian" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C44265> a skos:Concept ;
+    ns1:identifier "C44265" ;
+    skos:definition "The native people of Greenland." ;
+    skos:notation "GREENLAND INUIT" ;
+    skos:prefLabel "Greenland Eskimo" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C44268> a skos:Concept ;
+    ns1:identifier "C44268" ;
+    skos:definition "The native people inhabiting the territory spanning the Norton Sound on the Bering Sea to the Canadian border." ;
+    skos:notation "INUPIAT INUIT" ;
+    skos:prefLabel "Inupiat Eskimo" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C44269> a skos:Concept ;
+    ns1:identifier "C44269" ;
+    skos:definition "The native Yupik people inhabiting the coast of the Chukchi Peninsula in the far northeast of the Russian Federation and on St. Lawrence Island in Alaska." ;
+    skos:notation "SIBERIAN ESKIMO" ;
+    skos:prefLabel "Siberian Eskimo" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C44270> a skos:Concept ;
+    ns1:identifier "C44270" ;
+    skos:definition "The native people inhabiting western, southwestern, and southcentral Alaska and the Russian Far East." ;
+    skos:notation "YUPIK ESKIMO" ;
+    skos:prefLabel "Yupik Eskimo" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C44950> a skos:Concept ;
+    ns1:identifier "C44950" ;
+    skos:definition "The native people of Central America." ;
+    skos:notation "CENTRAL AMERICAN INDIAN" ;
+    skos:prefLabel "Central American Indian" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C44953> a skos:Concept ;
+    ns1:identifier "C44953" ;
+    skos:definition "The native people of South America." ;
+    skos:notation "SOUTH AMERICAN INDIAN" ;
+    skos:prefLabel "South American Indian" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C67117> a skos:Concept ;
+    ns1:identifier "C67117" ;
+    skos:definition "A person having origins in any of the original peoples of the Dominican Republic." ;
+    skos:notation "DOMINICAN" ;
+    skos:prefLabel "Dominican" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C67271> a skos:Concept ;
+    ns1:identifier "C67271" ;
+    skos:definition "A person having origins in any of the original peoples of the Bahamas." ;
+    skos:notation "BAHAMIAN" ;
+    skos:prefLabel "Bahamian" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C77810> a skos:Concept ;
+    ns1:identifier "C77810" ;
+    skos:definition "The native people of the Caribbean." ;
+    skos:notation "CARIBBEAN INDIAN" ;
+    skos:prefLabel "Caribbean Indian" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C77811> a skos:Concept ;
+    ns1:identifier "C77811" ;
+    skos:definition "A person having origins in any of the original peoples of the countries surrounding the Mediterranean sea." ;
+    skos:notation "MEDITERRANEAN" ;
+    skos:prefLabel "Mediterranean" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C77813> a skos:Concept ;
+    ns1:identifier "C77813" ;
+    skos:definition "A person having origins in any of the original peoples of North Africa." ;
+    skos:notation "NORTH AFRICAN" ;
+    skos:prefLabel "North Coast of Africa" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C77814> a skos:Concept ;
+    ns1:identifier "C77814" ;
+    skos:definition "A person having origins in any of the original peoples of Northern Europe." ;
+    skos:notation "NORTHERN EUROPEAN" ;
+    skos:prefLabel "Northern European" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C77816> a skos:Concept ;
+    ns1:identifier "C77816" ;
+    skos:definition "A person having origins in the original peoples of Europe, the Middle East, or North Africa, and the Caribbean." ;
+    skos:notation "WHITE CARIBBEAN" ;
+    skos:prefLabel "White Caribbean" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C77817> a skos:Concept ;
+    ns1:identifier "C77817" ;
+    skos:definition "A person having origins in any of the original peoples of Western Europe." ;
+    skos:notation "WESTERN EUROPEAN" ;
+    skos:prefLabel "Western European" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C77819> a skos:Concept ;
+    ns1:identifier "C77819" ;
+    skos:definition "A person having origins in any of the original peoples of Eastern Europe." ;
+    skos:notation "EASTERN EUROPEAN" ;
+    skos:prefLabel "Eastern European" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128689-C77820> a skos:Concept ;
+    ns1:identifier "C77820" ;
+    skos:definition "A person having origins in any of the original peoples of the Middle East." ;
+    skos:notation "MIDDLE EASTERN" ;
+    skos:prefLabel "Middle Eastern" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690> a skos:Concept ;
+    rdfs:label "Ethnicity As Collected" ;
+    gsk:extensible "true" ;
+    ns1:identifier "C128690" ;
+    skos:altLabel "Ethnicity As Collected" ;
+    skos:definition "A terminology codelist relevant to the ethnicity of an individual as collected on the case report form." ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C103283>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C107608>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C126531>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C126532>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158158>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158159>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158160>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158161>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158162>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158163>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158164>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158165>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158166>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158167>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158168>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158169>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158170>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158171>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158172>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158173>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158174>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158175>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158176>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158177>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158178>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158179>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158180>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158181>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158182>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158183>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158184>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158185>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158186>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158187>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158188>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158189>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158190>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158191>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158192>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158193>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158194>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158195>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158196>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158197>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158198>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158199>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158200>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158201>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158202>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158203>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158204>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158205>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158206>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158207>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158208>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158209>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158210>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158211>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158212>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158213>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C17459>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C17950>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C17998>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C41222>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C43234>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C67112>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C67113>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C67114>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C67115>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C67118>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C67120> ;
+    skos:notation "ETHNICC" ;
+    skos:prefLabel "CDISC SDTM Collected Ethnicity Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C103283> a skos:Concept ;
+    ns1:identifier "C103283" ;
+    skos:definition "A person of Sephardic Jewish descent." ;
+    skos:notation "SEPHARDIC JEW" ;
+    skos:prefLabel "Sephardic Jew" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C107608> a skos:Concept ;
+    ns1:identifier "C107608" ;
+    skos:definition "A person of Cuban descent." ;
+    skos:notation "CUBAN" ;
+    skos:prefLabel "Cuban" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C126531> a skos:Concept ;
+    ns1:identifier "C126531" ;
+    skos:definition "A person of Latin American descent." ;
+    skos:notation "LATIN AMERICAN" ;
+    skos:prefLabel "Latin American" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C126532> a skos:Concept ;
+    ns1:identifier "C126532" ;
+    skos:definition "A person of South American descent." ;
+    skos:notation "SOUTH AMERICAN" ;
+    skos:prefLabel "South American" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158158> a skos:Concept ;
+    ns1:identifier "C158158" ;
+    skos:altLabel "HA" ;
+    skos:definition "A Chinese person from the Han ethnic group (including Chuanqing)." ;
+    skos:notation "HAN" ;
+    skos:prefLabel "Han Chinese" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158159> a skos:Concept ;
+    ns1:identifier "C158159" ;
+    skos:altLabel "ZH" ;
+    skos:definition "A Chinese person from the Zhuang ethnic group." ;
+    skos:notation "ZHUANG" ;
+    skos:prefLabel "Zhuang Chinese" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158160> a skos:Concept ;
+    ns1:identifier "C158160" ;
+    skos:altLabel "HU" ;
+    skos:definition "A Chinese person from the Hui (including Utsuls of Hainan, descended from Cham refugees) ethnic group." ;
+    skos:notation "HUI" ;
+    skos:prefLabel "Hui Chinese" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158161> a skos:Concept ;
+    ns1:identifier "C158161" ;
+    skos:altLabel "MA" ;
+    skos:definition "A Chinese person from the Man ethnic group." ;
+    skos:notation "MAN" ;
+    skos:prefLabel "Man Chinese" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158162> a skos:Concept ;
+    ns1:identifier "C158162" ;
+    skos:altLabel "UG" ;
+    skos:definition "A Chinese person from the Uygur ethnic group." ;
+    skos:notation "UYGUR" ;
+    skos:prefLabel "Uygur Chinese" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158163> a skos:Concept ;
+    ns1:identifier "C158163" ;
+    skos:altLabel "MH" ;
+    skos:definition "A Chinese person from the Miao (Including Hmong) ethnic group." ;
+    skos:notation "MIAO" ;
+    skos:prefLabel "Miao Chinese" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158164> a skos:Concept ;
+    ns1:identifier "C158164" ;
+    skos:altLabel "YI" ;
+    skos:definition "A Chinese person from the Yi ethnic group." ;
+    skos:notation "YI" ;
+    skos:prefLabel "Yi Chinese" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158165> a skos:Concept ;
+    ns1:identifier "C158165" ;
+    skos:altLabel "TJ" ;
+    skos:definition "A Chinese person from the Tujia ethnic group." ;
+    skos:notation "TUJIA" ;
+    skos:prefLabel "Tujia Chinese" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158166> a skos:Concept ;
+    ns1:identifier "C158166" ;
+    skos:altLabel "ZA" ;
+    skos:definition "A Chinese person from the Zang (including Amdowa, Khampa and some Pumi speakers) ethnic group." ;
+    skos:notation "ZANG" ;
+    skos:prefLabel "Zang Chinese" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158167> a skos:Concept ;
+    ns1:identifier "C158167" ;
+    skos:altLabel "MG" ;
+    skos:definition "A Chinese person from the Mongol ethnic group." ;
+    skos:notation "MONGOL" ;
+    skos:prefLabel "Mongol Chinese" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158168> a skos:Concept ;
+    ns1:identifier "C158168" ;
+    skos:altLabel "DO" ;
+    skos:definition "A Chinese person from the Dong ethnic group." ;
+    skos:notation "DONG" ;
+    skos:prefLabel "Dong Chinese" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158169> a skos:Concept ;
+    ns1:identifier "C158169" ;
+    skos:altLabel "BY" ;
+    skos:definition "A Chinese person from the Buyei ethnic group." ;
+    skos:notation "BUYEI" ;
+    skos:prefLabel "Buyei Chinese" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158170> a skos:Concept ;
+    ns1:identifier "C158170" ;
+    skos:altLabel "YA" ;
+    skos:definition "A Chinese person from the Yao ethnic group." ;
+    skos:notation "YAO" ;
+    skos:prefLabel "Yao Chinese" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158171> a skos:Concept ;
+    ns1:identifier "C158171" ;
+    skos:altLabel "BA" ;
+    skos:definition "A Chinese person from the Bai ethnic group." ;
+    skos:notation "BAI" ;
+    skos:prefLabel "Bai Chinese" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158172> a skos:Concept ;
+    ns1:identifier "C158172" ;
+    skos:altLabel "CS" ;
+    skos:definition "A Chinese person from the Chosen ethnic group." ;
+    skos:notation "CHOSEN" ;
+    skos:prefLabel "Chosen Chinese" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158173> a skos:Concept ;
+    ns1:identifier "C158173" ;
+    skos:altLabel "HN" ;
+    skos:definition "A Chinese person from the Hani (including Sangkong) ethnic group." ;
+    skos:notation "HANI" ;
+    skos:prefLabel "Hani Chinese" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158174> a skos:Concept ;
+    ns1:identifier "C158174" ;
+    skos:altLabel "LI" ;
+    skos:definition "A Chinese person from the Li ethnic group." ;
+    skos:notation "LI" ;
+    skos:prefLabel "Li Chinese" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158175> a skos:Concept ;
+    ns1:identifier "C158175" ;
+    skos:altLabel "KZ" ;
+    skos:definition "A Chinese person from the Kazak ethnic group." ;
+    skos:notation "KAZAK" ;
+    skos:prefLabel "Kazak Chinese" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158176> a skos:Concept ;
+    ns1:identifier "C158176" ;
+    skos:altLabel "DA" ;
+    skos:definition "A Chinese person from the Dai (including several different Tai-speaking groups historically referred to as Bai-yi) ethnic group." ;
+    skos:notation "DAI" ;
+    skos:prefLabel "Dai Chinese" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158177> a skos:Concept ;
+    ns1:identifier "C158177" ;
+    skos:altLabel "SH" ;
+    skos:definition "A Chinese person from the She ethnic group." ;
+    skos:notation "SHE" ;
+    skos:prefLabel "She Chinese" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158178> a skos:Concept ;
+    ns1:identifier "C158178" ;
+    skos:altLabel "LS" ;
+    skos:definition "A Chinese person from the Lisu ethnic group." ;
+    skos:notation "LISU" ;
+    skos:prefLabel "Lisu Chinese" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158179> a skos:Concept ;
+    ns1:identifier "C158179" ;
+    skos:altLabel "DX" ;
+    skos:definition "A Chinese person from the Dongxiang ethnic group." ;
+    skos:notation "DONGXIANG" ;
+    skos:prefLabel "Dongxiang Chinese" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158180> a skos:Concept ;
+    ns1:identifier "C158180" ;
+    skos:altLabel "GL" ;
+    skos:definition "A Chinese person from the Gelao ethnic group." ;
+    skos:notation "GELAO" ;
+    skos:prefLabel "Gelao Chinese" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158181> a skos:Concept ;
+    ns1:identifier "C158181" ;
+    skos:altLabel "LH" ;
+    skos:definition "A Chinese person from the Lahu ethnic group." ;
+    skos:notation "LAHU" ;
+    skos:prefLabel "Lahu Chinese" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158182> a skos:Concept ;
+    ns1:identifier "C158182" ;
+    skos:altLabel "VA" ;
+    skos:definition "A Chinese person from the Va ethnic group." ;
+    skos:notation "VA" ;
+    skos:prefLabel "Va Chinese" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158183> a skos:Concept ;
+    ns1:identifier "C158183" ;
+    skos:altLabel "SU" ;
+    skos:definition "A Chinese person from the Sui ethnic group." ;
+    skos:notation "SUI" ;
+    skos:prefLabel "Sui Chinese" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158184> a skos:Concept ;
+    ns1:identifier "C158184" ;
+    skos:altLabel "NX" ;
+    skos:definition "A Chinese person from the Naxi (including Mosuo) ethnic group." ;
+    skos:notation "NAXI" ;
+    skos:prefLabel "Naxi Chinese" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158185> a skos:Concept ;
+    ns1:identifier "C158185" ;
+    skos:altLabel "QI" ;
+    skos:definition "A Chinese person from the Qiang ethnic group." ;
+    skos:notation "QIANG" ;
+    skos:prefLabel "Qiang Chinese" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158186> a skos:Concept ;
+    ns1:identifier "C158186" ;
+    skos:altLabel "TU" ;
+    skos:definition "A Chinese person from the Tu ethnic group." ;
+    skos:notation "TU" ;
+    skos:prefLabel "Tu Chinese" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158187> a skos:Concept ;
+    ns1:identifier "C158187" ;
+    skos:altLabel "ML" ;
+    skos:definition "A Chinese person from the Mulao (including the Qago) ethnic group." ;
+    skos:notation "MULAO" ;
+    skos:prefLabel "Mulao Chinese" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158188> a skos:Concept ;
+    ns1:identifier "C158188" ;
+    skos:altLabel "XB" ;
+    skos:definition "A Chinese person from the Xibe ethnic group." ;
+    skos:notation "XIBE" ;
+    skos:prefLabel "Xibe Chinese" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158189> a skos:Concept ;
+    ns1:identifier "C158189" ;
+    skos:altLabel "KG" ;
+    skos:definition "A Chinese person from the Kirgiz ethnic group." ;
+    skos:notation "KIRGIZ" ;
+    skos:prefLabel "Kirgiz Chinese" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158190> a skos:Concept ;
+    ns1:identifier "C158190" ;
+    skos:altLabel "JP" ;
+    skos:definition "A Chinese person from the Jingpo ethnic group." ;
+    skos:notation "JINGPO" ;
+    skos:prefLabel "Jingpo Chinese" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158191> a skos:Concept ;
+    ns1:identifier "C158191" ;
+    skos:altLabel "DU" ;
+    skos:definition "A Chinese person from the Daur ethnic group." ;
+    skos:notation "DAUR" ;
+    skos:prefLabel "Daur Chinese" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158192> a skos:Concept ;
+    ns1:identifier "C158192" ;
+    skos:altLabel "SL" ;
+    skos:definition "A Chinese person from the Salar ethnic group." ;
+    skos:notation "SALAR" ;
+    skos:prefLabel "Salar Chinese" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158193> a skos:Concept ;
+    ns1:identifier "C158193" ;
+    skos:altLabel "BL" ;
+    skos:definition "A Chinese person from the Blang ethnic group." ;
+    skos:notation "BLANG" ;
+    skos:prefLabel "Blang Chinese" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158194> a skos:Concept ;
+    ns1:identifier "C158194" ;
+    skos:altLabel "MN" ;
+    skos:definition "A Chinese person from the Maonan (including the Then) ethnic group." ;
+    skos:notation "MAONAN" ;
+    skos:prefLabel "Maonan Chinese" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158195> a skos:Concept ;
+    ns1:identifier "C158195" ;
+    skos:altLabel "TA" ;
+    skos:definition "A Chinese person from the Tajik ethnic group." ;
+    skos:notation "TAJIK" ;
+    skos:prefLabel "Tajik Chinese" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158196> a skos:Concept ;
+    ns1:identifier "C158196" ;
+    skos:altLabel "PM" ;
+    skos:definition "A Chinese person from the Pumi ethnic group." ;
+    skos:notation "PUMI" ;
+    skos:prefLabel "Pumi Chinese" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158197> a skos:Concept ;
+    ns1:identifier "C158197" ;
+    skos:altLabel "AC" ;
+    skos:definition "A Chinese person from the Achang ethnic group." ;
+    skos:notation "ACHANG" ;
+    skos:prefLabel "Achang Chinese" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158198> a skos:Concept ;
+    ns1:identifier "C158198" ;
+    skos:altLabel "NU" ;
+    skos:definition "A Chinese person from the Nu ethnic group." ;
+    skos:notation "NU" ;
+    skos:prefLabel "Nu Chinese" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158199> a skos:Concept ;
+    ns1:identifier "C158199" ;
+    skos:altLabel "EW" ;
+    skos:definition "A Chinese person from the Ewenki ethnic group." ;
+    skos:notation "EWENKI" ;
+    skos:prefLabel "Ewenki Chinese" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158200> a skos:Concept ;
+    ns1:identifier "C158200" ;
+    skos:altLabel "GI" ;
+    skos:definition "A Chinese person from the Gin ethnic group." ;
+    skos:notation "GIN" ;
+    skos:prefLabel "Gin Chinese" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158201> a skos:Concept ;
+    ns1:identifier "C158201" ;
+    skos:altLabel "JN" ;
+    skos:definition "A Chinese person from the Jino ethnic group." ;
+    skos:notation "JINO" ;
+    skos:prefLabel "Jino Chinese" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158202> a skos:Concept ;
+    ns1:identifier "C158202" ;
+    skos:altLabel "DE" ;
+    skos:definition "A Chinese person from the Deang ethnic group." ;
+    skos:notation "DEANG" ;
+    skos:prefLabel "Deang Chinese" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158203> a skos:Concept ;
+    ns1:identifier "C158203" ;
+    skos:altLabel "BN" ;
+    skos:definition "A Chinese person from the Bonan ethnic group." ;
+    skos:notation "BONAN" ;
+    skos:prefLabel "Bonan Chinese" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158204> a skos:Concept ;
+    ns1:identifier "C158204" ;
+    skos:altLabel "RS" ;
+    skos:definition "A Chinese person from the Russ ethnic group." ;
+    skos:notation "RUSS" ;
+    skos:prefLabel "Russ Chinese" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158205> a skos:Concept ;
+    ns1:identifier "C158205" ;
+    skos:altLabel "YG" ;
+    skos:definition "A Chinese person from the Yugur ethnic group." ;
+    skos:notation "YUGUR" ;
+    skos:prefLabel "Yugur Chinese" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158206> a skos:Concept ;
+    ns1:identifier "C158206" ;
+    skos:altLabel "UZ" ;
+    skos:definition "A Chinese person from the Uzbek ethnic group." ;
+    skos:notation "UZBEK" ;
+    skos:prefLabel "Uzbek Chinese" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158207> a skos:Concept ;
+    ns1:identifier "C158207" ;
+    skos:altLabel "MB" ;
+    skos:definition "A Chinese person from the Monba ethnic group." ;
+    skos:notation "MONBA" ;
+    skos:prefLabel "Monba Chinese" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158208> a skos:Concept ;
+    ns1:identifier "C158208" ;
+    skos:altLabel "OR" ;
+    skos:definition "A Chinese person from the Oroqen ethnic group." ;
+    skos:notation "OROQEN" ;
+    skos:prefLabel "Oroqen Chinese" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158209> a skos:Concept ;
+    ns1:identifier "C158209" ;
+    skos:altLabel "DR" ;
+    skos:definition "A Chinese person from the Derung ethnic group." ;
+    skos:notation "DERUNG" ;
+    skos:prefLabel "Derung Chinese" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158210> a skos:Concept ;
+    ns1:identifier "C158210" ;
+    skos:altLabel "HZ" ;
+    skos:definition "A Chinese person from the Hezhen ethnic group." ;
+    skos:notation "HEZHEN" ;
+    skos:prefLabel "Hezhen Chinese" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158211> a skos:Concept ;
+    ns1:identifier "C158211" ;
+    skos:altLabel "GS" ;
+    skos:definition "A Chinese person from the Gaoshan ethnic group." ;
+    skos:notation "GAOSHAN" ;
+    skos:prefLabel "Gaoshan Chinese" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158212> a skos:Concept ;
+    ns1:identifier "C158212" ;
+    skos:altLabel "LB" ;
+    skos:definition "A Chinese person from the Lhoba ethnic group." ;
+    skos:notation "LHOBA" ;
+    skos:prefLabel "Lhoba Chinese" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C158213> a skos:Concept ;
+    ns1:identifier "C158213" ;
+    skos:altLabel "TT" ;
+    skos:definition "A Chinese person from the Tatar ethnic group." ;
+    skos:notation "TATAR" ;
+    skos:prefLabel "Tatar Chinese" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C17459> a skos:Concept ;
+    ns1:identifier "C17459" ;
+    skos:definition "A person of Mexican, Puerto Rican, Cuban, Central or South American or other Spanish culture or origin, regardless of race. (NCI)" ;
+    skos:notation "HISPANIC OR LATINO" ;
+    skos:prefLabel "Hispanic or Latino" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C17950> a skos:Concept ;
+    ns1:identifier "C17950" ;
+    skos:definition "A person of Ashkenazi Jewish descent." ;
+    skos:notation "ASHKENAZI JEW" ;
+    skos:prefLabel "Ashkenazi Jew" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C17998> a skos:Concept ;
+    ns1:identifier "C17998" ;
+    skos:altLabel "U",
+        "UNK",
+        "Unknown" ;
+    skos:definition "Not known, not observed, not recorded, or refused. (NCI)" ;
+    skos:notation "UNKNOWN" ;
+    skos:prefLabel "Unknown" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C41222> a skos:Concept ;
+    ns1:identifier "C41222" ;
+    skos:definition "A person not of Cuban, Mexican, Puerto Rican, South or Central American, or other Spanish culture or origin, regardless of race. An arbitrary ethnic classification. (NCI)" ;
+    skos:notation "NOT HISPANIC OR LATINO" ;
+    skos:prefLabel "Not Hispanic or Latino" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C43234> a skos:Concept ;
+    ns1:identifier "C43234" ;
+    skos:altLabel "Not reported" ;
+    skos:definition "Not provided or available." ;
+    skos:notation "NOT REPORTED" ;
+    skos:prefLabel "Not Reported" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C67112> a skos:Concept ;
+    ns1:identifier "C67112" ;
+    skos:definition "A person of Puerto Rican descent." ;
+    skos:notation "PUERTO RICAN" ;
+    skos:prefLabel "Puerto Rican" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C67113> a skos:Concept ;
+    ns1:identifier "C67113" ;
+    skos:definition "A person of Mexican descent." ;
+    skos:notation "MEXICAN" ;
+    skos:prefLabel "Mexican" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C67114> a skos:Concept ;
+    ns1:identifier "C67114" ;
+    skos:definition "A person of Mexican and American descent." ;
+    skos:notation "MEXICAN AMERICAN" ;
+    skos:prefLabel "Mexican American" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C67115> a skos:Concept ;
+    ns1:identifier "C67115" ;
+    skos:definition "A person of Cuban and American descent." ;
+    skos:notation "CUBAN AMERICAN" ;
+    skos:prefLabel "Cuban or Cuban American" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C67118> a skos:Concept ;
+    ns1:identifier "C67118" ;
+    skos:definition "A person of Central American descent." ;
+    skos:notation "CENTRAL AMERICAN" ;
+    skos:prefLabel "Central American" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C128690-C67120> a skos:Concept ;
+    ns1:identifier "C67120" ;
+    skos:definition "A person from Spain or of Spanish descent." ;
+    skos:notation "SPANISH" ;
+    skos:prefLabel "Spanish" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C177909> a skos:Concept ;
+    rdfs:label "Serious Adverse Event Report Category" ;
+    gsk:extensible "false" ;
+    ns1:identifier "C177909" ;
+    skos:altLabel "Serious Adverse Event Report Category" ;
+    skos:definition "Terminology relevant to the classification of a serious adverse event report." ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C177909-C178052>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C177909-C25604>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C177909-C41200> ;
+    skos:notation "SAERCAT" ;
+    skos:prefLabel "CDISC CDASH Serious Adverse Event Report Category Response Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C177909-C178052> a skos:Concept ;
+    ns1:identifier "C178052" ;
+    skos:altLabel "Nullified" ;
+    skos:definition "Action(s) undertaken to void, negate, or invalidate." ;
+    skos:notation "NULLIFICATION" ;
+    skos:prefLabel "Nullification" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C177909-C25604> a skos:Concept ;
+    ns1:identifier "C25604" ;
+    skos:definition "Preceding all others in time or being as first made or performed." ;
+    skos:notation "ORIGINAL" ;
+    skos:prefLabel "Original" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C177909-C41200> a skos:Concept ;
+    ns1:identifier "C41200" ;
+    skos:altLabel "Amended" ;
+    skos:definition "Action(s) undertaken to modify by means of correction, addition, subtraction, or replacement." ;
+    skos:notation "AMENDMENT" ;
+    skos:prefLabel "Amendment" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C181163> a skos:Concept ;
+    rdfs:label "Study Agent Rechallenge Reaction Response" ;
+    gsk:extensible "true" ;
+    ns1:identifier "C181163" ;
+    skos:altLabel "Study Agent Rechallenge Reaction Response" ;
+    skos:definition "A terminology codelist relevant to the resultant reaction due to restarting or otherwise returning administration of study treatment to previous level, after a dechallenge event." ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C181163-C181226>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C181163-C181227>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C181163-C181228>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C181163-C181229> ;
+    skos:notation "SARCRR" ;
+    skos:prefLabel "CDISC CDASH Study Agent Rechallenge Reaction Response Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C181163-C181226> a skos:Concept ;
+    ns1:identifier "C181226" ;
+    skos:definition "Failure of the product/drug, when reintroduced, to produce signs or symptoms similar to those observed when the product/drug was previously used." ;
+    skos:notation "NEGATIVE RECHALLENGE" ;
+    skos:prefLabel "Negative Rechallenge Response" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C181163-C181227> a skos:Concept ;
+    ns1:identifier "C181227" ;
+    skos:definition "Recurrence of similar or new signs and symptoms upon reintroduction of the product/drug." ;
+    skos:notation "POSITIVE RECHALLENGE" ;
+    skos:prefLabel "Positive Rechallenge Response" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C181163-C181228> a skos:Concept ;
+    ns1:identifier "C181228" ;
+    skos:definition "The outcome of reintroduction of product/drug is not relevant in the current context." ;
+    skos:notation "NOT APPLICABLE RECHALLENGE" ;
+    skos:prefLabel "Not Applicable Rechallenge Response" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C181163-C181229> a skos:Concept ;
+    ns1:identifier "C181229" ;
+    skos:definition "No information regarding the outcome of reintroduction of product/drug." ;
+    skos:notation "UKNOWN RECHALLENGE" ;
+    skos:prefLabel "Unknown Rechallenge Response" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C181164> a skos:Concept ;
+    rdfs:label "Study Agent Dechallenge Reaction Response" ;
+    gsk:extensible "true" ;
+    ns1:identifier "C181164" ;
+    skos:altLabel "Study Agent Dechallenge Reaction Response" ;
+    skos:definition "A terminology codelist relevant to the resultant reaction due to withdrawing, interrupting, or otherwise altering administration of study treatment." ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C181164-C181222>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C181164-C181223>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C181164-C181224>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C181164-C181225> ;
+    skos:notation "SADCRR" ;
+    skos:prefLabel "CDISC CDASH Study Agent Dechallenge Reaction Response Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C181164-C181222> a skos:Concept ;
+    ns1:identifier "C181222" ;
+    skos:definition "Continued presence of an adverse event after decrease or change in dose, or withdrawal of the product/drug." ;
+    skos:notation "NEGATIVE DECHALLENGE" ;
+    skos:prefLabel "Negative Dechallenge Response" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C181164-C181223> a skos:Concept ;
+    ns1:identifier "C181223" ;
+    skos:definition "Partial or complete abatement of an adverse event after decrease or change in dose, or withdrawal of the product/drug." ;
+    skos:notation "POSITIVE DECHALLENGE" ;
+    skos:prefLabel "Positive Dechallenge Response" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C181164-C181224> a skos:Concept ;
+    ns1:identifier "C181224" ;
+    skos:definition "The outcome of decreasing the dose or discontinuation of the product/drug is not relevant in the current context." ;
+    skos:notation "NOT APPLICABLE DECHALLENGE" ;
+    skos:prefLabel "Not Applicable Dechallenge Response" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C181164-C181225> a skos:Concept ;
+    ns1:identifier "C181225" ;
+    skos:definition "No information regarding the outcome of decreasing the dose or discontinuation of the product/drug." ;
+    skos:notation "UNKNOWN DECHALLENGE" ;
+    skos:prefLabel "Unknown Dechallenge Response" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C181165> a skos:Concept ;
+    rdfs:label "Mode of Delivery" ;
+    gsk:extensible "true" ;
+    ns1:identifier "C181165" ;
+    skos:altLabel "Mode of Delivery" ;
+    skos:definition "A terminology codelist relevant to the mode of delivery of a fetus or neonate." ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C181165-C114136>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C181165-C114143>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C181165-C46088>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C181165-C81301>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C181165-C81302>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C181165-C81303> ;
+    skos:notation "MODDLV" ;
+    skos:prefLabel "CDISC SDTM Mode of Delivery Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C181165-C114136> a skos:Concept ;
+    ns1:identifier "C114136" ;
+    skos:definition "The delivery of a breech-presenting fetus, which is manually pulled through the birth canal." ;
+    skos:notation "BREECH EXTRACTION" ;
+    skos:prefLabel "Breech Extraction" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C181165-C114143> a skos:Concept ;
+    ns1:identifier "C114143" ;
+    skos:definition "Extraction of a fetus through the cervix using destructive surgical techniques." ;
+    skos:notation "DELIVERY BY DESTRUCTIVE OPERATION" ;
+    skos:prefLabel "Delivery by Destructive Operation" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C181165-C46088> a skos:Concept ;
+    ns1:identifier "C46088" ;
+    skos:altLabel "C-Section",
+        "Cesarean Delivery" ;
+    skos:definition "Surgical delivery of one or more intrauterine fetuses though an abdominal incision." ;
+    skos:notation "CESAREAN SECTION" ;
+    skos:prefLabel "Cesarean Section" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C181165-C81301> a skos:Concept ;
+    ns1:identifier "C81301" ;
+    skos:altLabel "Operative Vaginal Delivery" ;
+    skos:definition "Birth of the fetus through the vagina with the application of vacuum or forceps or any other instrument." ;
+    skos:notation "VAGINAL ASSISTED DELIVERY" ;
+    skos:prefLabel "Vaginal Assisted Delivery" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C181165-C81302> a skos:Concept ;
+    ns1:identifier "C81302" ;
+    skos:definition "A vaginal birth in a woman with one or more previous cesarean births. (reVITALize)" ;
+    skos:notation "VAGINAL BIRTH AFTER CESAREAN DELIVERY" ;
+    skos:prefLabel "Vaginal Birth after Cesarean Delivery" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C181165-C81303> a skos:Concept ;
+    ns1:identifier "C81303" ;
+    skos:definition "Birth of the fetus through the vagina." ;
+    skos:notation "VAGINAL DELIVERY" ;
+    skos:prefLabel "Vaginal Delivery" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78417> a skos:Concept ;
+    rdfs:label "Concomitant Medication Dose Units" ;
+    gsk:extensible "true" ;
+    ns1:identifier "C78417" ;
+    skos:altLabel "Concomitant Medication Dose Units" ;
+    skos:definition "A terminology subset of the CDISC SDTM Unit codelist created for CDASH Concomitant Medication Dose Units codelist. (NCI)" ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78417-C28253>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78417-C28254>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78417-C48152>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78417-C48155>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78417-C48480>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78417-C48542>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78417-C48579>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78417-C65060> ;
+    skos:notation "CMDOSU" ;
+    skos:prefLabel "CDISC CDASH Concomitant Medication Dose Units Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78417-C28253> a skos:Concept ;
+    ns1:identifier "C28253" ;
+    skos:altLabel "Milligram" ;
+    skos:definition "A unit of mass equal to one thousandth (1E-3) of a gram." ;
+    skos:notation "mg" ;
+    skos:prefLabel "Milligram" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78417-C28254> a skos:Concept ;
+    ns1:identifier "C28254" ;
+    skos:altLabel "Milliliter",
+        "cm3" ;
+    skos:definition "A unit of volume equal to one thousandth (1E-3) of a liter." ;
+    skos:notation "mL" ;
+    skos:prefLabel "Milliliter" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78417-C48152> a skos:Concept ;
+    ns1:identifier "C48152" ;
+    skos:altLabel "Microgram",
+        "mcg" ;
+    skos:definition "A unit of mass equal to one millionth (1E-6) of a gram." ;
+    skos:notation "ug" ;
+    skos:prefLabel "Microgram" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78417-C48155> a skos:Concept ;
+    ns1:identifier "C48155" ;
+    skos:altLabel "Gram" ;
+    skos:definition "A unit of mass equal to one thousandth (1E-3) of a kilogram, the kilogram being the base unit of mass in the International System of Units (SI)." ;
+    skos:notation "g" ;
+    skos:prefLabel "Gram" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78417-C48480> a skos:Concept ;
+    ns1:identifier "C48480" ;
+    skos:altLabel "Capsule Dosing Unit",
+        "cap" ;
+    skos:definition "A dosing measurement based on the capsule unit.(NCI)" ;
+    skos:notation "CAPSULE" ;
+    skos:prefLabel "Capsule Dosing Unit" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78417-C48542> a skos:Concept ;
+    ns1:identifier "C48542" ;
+    skos:altLabel "Tablet Dosing Unit",
+        "tab" ;
+    skos:definition "A dosing measurement based on the tablet unit.(NCI)" ;
+    skos:notation "TABLET" ;
+    skos:prefLabel "Tablet Dosing Unit" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78417-C48579> a skos:Concept ;
+    ns1:identifier "C48579" ;
+    skos:altLabel "IE",
+        "International Unit" ;
+    skos:definition "The unitage assigned by the WHO (World Health Organization) to International Biological Standards - substances, classed as biological according to the criteria provided by WHO Expert Committee on Biological Standardization, to enable the results of biological and immunological assay procedures to be expressed in the same way throughout the world. The definition of an international unit is generally arbitrary and technical, and has to be officially approved by the International Conference for Unification of Formulae.(NCI)" ;
+    skos:notation "IU" ;
+    skos:prefLabel "International Unit" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78417-C65060> a skos:Concept ;
+    ns1:identifier "C65060" ;
+    skos:altLabel "Puff Dosing Unit" ;
+    skos:definition "A means of delivering a defined dose of a therapeutic aerolized solution into either the upper or lower respiratory tract. Metered-dose inhalers or spray pumps are devices that provide a puff dose for delivery into either the oral or the nasal cavity.(NCI)" ;
+    skos:notation "PUFF" ;
+    skos:prefLabel "Puff Dosing Unit" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78418> a skos:Concept ;
+    rdfs:label "Concomitant Medication Dose Form" ;
+    gsk:extensible "true" ;
+    ns1:identifier "C78418" ;
+    skos:altLabel "Concomitant Medication Dose Form" ;
+    skos:definition "A terminology subset of the CDISC SDTM Pharmaceutical Dosage Form codelist created for CDASH Concomitant Medication Dose Form codelist. (NCI)" ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78418-C25158>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78418-C28944>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78418-C42887>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78418-C42933>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78418-C42934>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78418-C42966>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78418-C42968>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78418-C42972>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78418-C42989>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78418-C42993>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78418-C42994>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78418-C42998> ;
+    skos:notation "CMDOSFRM" ;
+    skos:prefLabel "CDISC CDASH Concomitant Medication Dose Form Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78418-C25158> a skos:Concept ;
+    ns1:identifier "C25158" ;
+    skos:altLabel "cap" ;
+    skos:definition "A solid pharmaceutical dosage form that contains medicinal agent within either a hard or soft soluble container or shell, usually used for the oral administration of medicine. The shells are made of a suitable form of gelatin or other substance. (NCI)" ;
+    skos:notation "CAPSULE" ;
+    skos:prefLabel "Capsule Dosage Form" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78418-C28944> a skos:Concept ;
+    ns1:identifier "C28944" ;
+    skos:definition "A semisolid emulsion of either the oil-in-water or the water-in-oil type, ordinarily intended for topical use. (NCI)" ;
+    skos:notation "CREAM" ;
+    skos:prefLabel "Cream Dosage Form" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78418-C42887> a skos:Concept ;
+    ns1:identifier "C42887" ;
+    skos:altLabel "aer" ;
+    skos:definition "A product that is packaged under pressure and contains therapeutically active ingredients that are released upon activation of an appropriate valve system; it is intended for topical application to the skin as well as local application into the nose (nasal aerosols), mouth (lingual aerosols), or lungs (inhalation aerosols)." ;
+    skos:notation "AEROSOL" ;
+    skos:prefLabel "Aerosol Dosage Form" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78418-C42933> a skos:Concept ;
+    ns1:identifier "C42933" ;
+    skos:definition "Any elastic aeriform fluid in which the molecules are separated from one another and have free paths. (NCI)" ;
+    skos:notation "GAS" ;
+    skos:prefLabel "Gas Dosage Form" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78418-C42934> a skos:Concept ;
+    ns1:identifier "C42934" ;
+    skos:definition "A semisolid (1) dosage form that contains a gelling agent to provide stiffness to a solution or a colloidal dispersion (2). A gel may contain suspended particles. Note 1: A semisolid is not pourable; it does not flow or conform to its container at room temperature. It does not flow at low shear stress and generally exhibits plastic flow behavior. Note 2: A colloidal dispersion is a system in which particles of colloidal dimension (i.e., typically between 1 nm and 1 micrometer) are distributed uniformly throughout a liquid." ;
+    skos:notation "GEL" ;
+    skos:prefLabel "Gel Dosage Form" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78418-C42966> a skos:Concept ;
+    ns1:identifier "C42966" ;
+    skos:altLabel "oint" ;
+    skos:definition "A suspension or emulsion, semisolid (1) dosage form, usually containing less than 20 percent water and volatiles (2) and greater than 50 percent hydrocarbons, waxes, or polyols as the vehicle. This dosage form is generally for external application to the skin or mucous membranes. Note 1: A semisolid is not pourable; it does not flow or conform to its container at room temperature. It does not flow at low shear stress and generally exhibits plastic flow behavior. Note 2: Percent water and volatiles are measured by a loss on drying test in which the sample is heated at 105 degrees C until constant weight is achieved." ;
+    skos:notation "OINTMENT" ;
+    skos:prefLabel "Ointment Dosage Form" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78418-C42968> a skos:Concept ;
+    ns1:identifier "C42968" ;
+    skos:definition "A drug delivery system that often contains an adhesive backing that is usually applied to an external site on the body. Its ingredients either passively diffuse from, or are actively transported from, some portion of the patch. Depending upon the patch, the ingredients are either delivered to the outer surface of the body or into the body. A patch is sometimes synonymous with the terms Extended Release Film and System." ;
+    skos:notation "PATCH" ;
+    skos:prefLabel "Patch Dosage Form" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78418-C42972> a skos:Concept ;
+    ns1:identifier "C42972" ;
+    skos:definition "An intimate mixture of dry, finely divided drugs and/or chemicals that may be intended for internal or external use. (NCI)" ;
+    skos:notation "POWDER" ;
+    skos:prefLabel "Powder Dosage Form" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78418-C42989> a skos:Concept ;
+    ns1:identifier "C42989" ;
+    skos:definition "A liquid minutely divided as by a jet of air or steam. (NCI)" ;
+    skos:notation "SPRAY" ;
+    skos:prefLabel "Spray Dosage Form" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78418-C42993> a skos:Concept ;
+    ns1:identifier "C42993" ;
+    skos:altLabel "supp" ;
+    skos:definition "A solid body of various weights and shapes, adapted for introduction into the rectal, vaginal, or urethral orifice of the human body; they usually melt, soften, or dissolve at body temperature." ;
+    skos:notation "SUPPOSITORY" ;
+    skos:prefLabel "Suppository Dosage Form" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78418-C42994> a skos:Concept ;
+    ns1:identifier "C42994" ;
+    skos:altLabel "Ready to Use Suspension",
+        "susp" ;
+    skos:definition "A liquid dosage form that contains solid particles dispersed in a liquid vehicle. Note: A liquid is pourable; it flows and conforms to its container at room temperature. It displays Newtonian or pseudoplastic flow behavior." ;
+    skos:notation "SUSPENSION" ;
+    skos:prefLabel "Suspension Dosage Form" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78418-C42998> a skos:Concept ;
+    ns1:identifier "C42998" ;
+    skos:altLabel "tab" ;
+    skos:definition "A solid dosage form containing medicinal substances with or without suitable diluents. (NCI)" ;
+    skos:notation "TABLET" ;
+    skos:prefLabel "Tablet Dosage Form" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78419> a skos:Concept ;
+    rdfs:label "Concomitant Medication Dosing Frequency per Interval" ;
+    gsk:extensible "true" ;
+    ns1:identifier "C78419" ;
+    skos:altLabel "Concomitant Medication Dosing Frequency per Interval" ;
+    skos:definition "A terminology subset of the CDISC SDTM Frequency codelist created for CDASH Concomitant Medication Dosing Frequency per Interval codelist. (NCI)" ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78419-C17998>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78419-C25473>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78419-C64496>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78419-C64498>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78419-C64499>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78419-C64525>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78419-C64527>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78419-C64530> ;
+    skos:notation "CMDOSFRQ" ;
+    skos:prefLabel "CDISC CDASH Concomitant Medication Dosing Frequency per Interval Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78419-C17998> a skos:Concept ;
+    ns1:identifier "C17998" ;
+    skos:altLabel "U",
+        "UNK",
+        "Unknown" ;
+    skos:definition "Not known, not observed, not recorded, or refused. (NCI)" ;
+    skos:notation "UNKNOWN" ;
+    skos:prefLabel "Unknown" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78419-C25473> a skos:Concept ;
+    ns1:identifier "C25473" ;
+    skos:altLabel "/day",
+        "Daily",
+        "Per Day" ;
+    skos:definition "A rate of occurrences within a period of time equal to one day." ;
+    skos:notation "QD" ;
+    skos:prefLabel "Daily" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78419-C64496> a skos:Concept ;
+    ns1:identifier "C64496" ;
+    skos:altLabel "BD",
+        "Twice per day" ;
+    skos:definition "Two times per day, at unspecified times. (NCI)" ;
+    skos:notation "BID" ;
+    skos:prefLabel "Twice Daily" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78419-C64498> a skos:Concept ;
+    ns1:identifier "C64498" ;
+    skos:altLabel "Every Month",
+        "Per Month" ;
+    skos:definition "Every month. (NCI)" ;
+    skos:notation "QM" ;
+    skos:prefLabel "Monthly" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78419-C64499> a skos:Concept ;
+    ns1:identifier "C64499" ;
+    skos:altLabel "As needed" ;
+    skos:definition "As needed. (NCI)" ;
+    skos:notation "PRN" ;
+    skos:prefLabel "As Needed" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78419-C64525> a skos:Concept ;
+    ns1:identifier "C64525" ;
+    skos:altLabel "Every Second Day",
+        "Every Two Days",
+        "Every other day",
+        "Q2D" ;
+    skos:definition "Every other day. (NCI)" ;
+    skos:notation "QOD" ;
+    skos:prefLabel "Every Other Day" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78419-C64527> a skos:Concept ;
+    ns1:identifier "C64527" ;
+    skos:altLabel "3 times per day" ;
+    skos:definition "Three times per day. (NCI)" ;
+    skos:notation "TID" ;
+    skos:prefLabel "Three Times Daily" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78419-C64530> a skos:Concept ;
+    ns1:identifier "C64530" ;
+    skos:altLabel "4 times per day" ;
+    skos:definition "Four times per day. (NCI)" ;
+    skos:notation "QID" ;
+    skos:prefLabel "Four Times Daily" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78420> a skos:Concept ;
+    rdfs:label "Concomitant Medication Route of Administration" ;
+    gsk:extensible "true" ;
+    ns1:identifier "C78420" ;
+    skos:altLabel "Concomitant Medication Route of Administration" ;
+    skos:definition "A terminology subset of the CDISC SDTM Route codelist created for CDASH Concomitant Medication Route of Administration codelist. (NCI)" ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78420-C28161>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78420-C38216>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78420-C38250>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78420-C38255>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78420-C38258>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78420-C38284>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78420-C38288>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78420-C38295>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78420-C38299>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78420-C38304>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78420-C38305>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78420-C38313> ;
+    skos:notation "CMROUTE" ;
+    skos:prefLabel "CDISC CDASH Concomitant Medication Route of Administration Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78420-C28161> a skos:Concept ;
+    ns1:identifier "C28161" ;
+    skos:definition "Administration within a muscle. (FDA)" ;
+    skos:notation "INTRAMUSCULAR" ;
+    skos:prefLabel "Intramuscular Route of Administration" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78420-C38216> a skos:Concept ;
+    ns1:identifier "C38216" ;
+    skos:definition "Administration within the respiratory tract by inhaling orally or nasally for local or systemic effect. (FDA)" ;
+    skos:notation "RESPIRATORY (INHALATION)" ;
+    skos:prefLabel "Inhalation Route of Administration" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78420-C38250> a skos:Concept ;
+    ns1:identifier "C38250" ;
+    skos:definition "Administration within or introduced directly into a localized lesion. (FDA)" ;
+    skos:notation "INTRALESIONAL" ;
+    skos:prefLabel "Intralesional Route of Administration" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78420-C38255> a skos:Concept ;
+    ns1:identifier "C38255" ;
+    skos:definition "Administration within the eye. (FDA)" ;
+    skos:notation "INTRAOCULAR" ;
+    skos:prefLabel "Intraocular Route of Administration" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78420-C38258> a skos:Concept ;
+    ns1:identifier "C38258" ;
+    skos:definition "Administration within the peritoneal cavity. (FDA)" ;
+    skos:notation "INTRAPERITONEAL" ;
+    skos:prefLabel "Intraperitoneal Route of Administration" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78420-C38284> a skos:Concept ;
+    ns1:identifier "C38284" ;
+    skos:altLabel "Intranasal Route of Administration" ;
+    skos:definition "Administration to the nose; administered by way of the nose. (FDA)" ;
+    skos:notation "NASAL" ;
+    skos:prefLabel "Nasal Route of Administration" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78420-C38288> a skos:Concept ;
+    ns1:identifier "C38288" ;
+    skos:altLabel "Intraoral Route of Administration",
+        "PO" ;
+    skos:definition "Administration to or by way of the mouth. (FDA)" ;
+    skos:notation "ORAL" ;
+    skos:prefLabel "Oral Route of Administration" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78420-C38295> a skos:Concept ;
+    ns1:identifier "C38295" ;
+    skos:definition "Administration to the rectum. (FDA)" ;
+    skos:notation "RECTAL" ;
+    skos:prefLabel "Rectal Route of Administration" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78420-C38299> a skos:Concept ;
+    ns1:identifier "C38299" ;
+    skos:altLabel "SC",
+        "Subdermal Route of Administration" ;
+    skos:definition "Administration beneath the skin; hypodermic. Synonymous with the term SUBDERMAL. (FDA)" ;
+    skos:notation "SUBCUTANEOUS" ;
+    skos:prefLabel "Subcutaneous Route of Administration" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78420-C38304> a skos:Concept ;
+    ns1:identifier "C38304" ;
+    skos:altLabel "TOP" ;
+    skos:definition "Administration to a particular spot on the outer surface of the body. The E2B term TRANSMAMMARY is a subset of the term TOPICAL. (FDA)" ;
+    skos:notation "TOPICAL" ;
+    skos:prefLabel "Topical Route of Administration" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78420-C38305> a skos:Concept ;
+    ns1:identifier "C38305" ;
+    skos:definition "Administration through the dermal layer of the skin to the systemic circulation by diffusion. (FDA)" ;
+    skos:notation "TRANSDERMAL" ;
+    skos:prefLabel "Transdermal Route of Administration" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78420-C38313> a skos:Concept ;
+    ns1:identifier "C38313" ;
+    skos:definition "Administration into the vagina. (FDA)" ;
+    skos:notation "VAGINAL" ;
+    skos:prefLabel "Vaginal Route of Administration" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78421> a skos:Concept ;
+    rdfs:label "Unit of Drug Dispensed or Returned" ;
+    gsk:extensible "true" ;
+    ns1:identifier "C78421" ;
+    skos:altLabel "Unit of Drug Dispensed or Returned" ;
+    skos:definition "A terminology subset of the CDISC SDTM Unit codelist created for CDASH Unit of Drug Dispensed or Returned codelist. (NCI)" ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78421-C48474>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78421-C48477>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78421-C48478>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78421-C48480>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78421-C48484>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78421-C48490>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78421-C48520>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78421-C48521>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78421-C48524>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78421-C48542>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78421-C48549>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78421-C48551> ;
+    skos:notation "DAORRESU" ;
+    skos:prefLabel "CDISC CDASH Unit of Drug Dispensed or Returned Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78421-C48474> a skos:Concept ;
+    ns1:identifier "C48474" ;
+    skos:altLabel "Bag Dosing Unit" ;
+    skos:definition "A dosing measurement based on the bag unit.(NCI)" ;
+    skos:notation "BAG" ;
+    skos:prefLabel "Bag Dosing Unit" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78421-C48477> a skos:Concept ;
+    ns1:identifier "C48477" ;
+    skos:altLabel "Bottle Dosing Unit" ;
+    skos:definition "A dosing measurement based on the bottle unit.(NCI)" ;
+    skos:notation "BOTTLE" ;
+    skos:prefLabel "Bottle Dosing Unit" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78421-C48478> a skos:Concept ;
+    ns1:identifier "C48478" ;
+    skos:altLabel "Box Dosing Unit" ;
+    skos:definition "A dosing measurement based on the box unit.(NCI)" ;
+    skos:notation "BOX" ;
+    skos:prefLabel "Box Dosing Unit" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78421-C48480> a skos:Concept ;
+    ns1:identifier "C48480" ;
+    skos:altLabel "Capsule Dosing Unit",
+        "cap" ;
+    skos:definition "A dosing measurement based on the capsule unit.(NCI)" ;
+    skos:notation "CAPSULE" ;
+    skos:prefLabel "Capsule Dosing Unit" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78421-C48484> a skos:Concept ;
+    ns1:identifier "C48484" ;
+    skos:altLabel "Container Dosing Unit" ;
+    skos:definition "A dosing measurement based on the container unit.(NCI)" ;
+    skos:notation "CONTAINER" ;
+    skos:prefLabel "Container Dosing Unit" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78421-C48490> a skos:Concept ;
+    ns1:identifier "C48490" ;
+    skos:altLabel "Disk Dosing Unit" ;
+    skos:definition "A dosing measurement based on the disk unit.(NCI)" ;
+    skos:notation "DISK" ;
+    skos:prefLabel "Disk Dosing Unit" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78421-C48520> a skos:Concept ;
+    ns1:identifier "C48520" ;
+    skos:altLabel "Pack Dosing Unit",
+        "Package Dosing Unit" ;
+    skos:definition "A dosing measurement based on the package unit.(NCI)" ;
+    skos:notation "PACKAGE" ;
+    skos:prefLabel "Package Dosing Unit" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78421-C48521> a skos:Concept ;
+    ns1:identifier "C48521" ;
+    skos:altLabel "Packet Dosing Unit" ;
+    skos:definition "A dosing measurement based on the packet unit.(NCI)" ;
+    skos:notation "PACKET" ;
+    skos:prefLabel "Packet Dosing Unit" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78421-C48524> a skos:Concept ;
+    ns1:identifier "C48524" ;
+    skos:altLabel "Patch Dosing Unit" ;
+    skos:definition "A dosing measurement based on the patch unit.(NCI)" ;
+    skos:notation "PATCH" ;
+    skos:prefLabel "Patch Dosing Unit" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78421-C48542> a skos:Concept ;
+    ns1:identifier "C48542" ;
+    skos:altLabel "Tablet Dosing Unit",
+        "tab" ;
+    skos:definition "A dosing measurement based on the tablet unit.(NCI)" ;
+    skos:notation "TABLET" ;
+    skos:prefLabel "Tablet Dosing Unit" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78421-C48549> a skos:Concept ;
+    ns1:identifier "C48549" ;
+    skos:altLabel "Tube Dosing Unit" ;
+    skos:definition "A dosing measurement based on the tube unit.(NCI)" ;
+    skos:notation "TUBE" ;
+    skos:prefLabel "Tube Dosing Unit" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78421-C48551> a skos:Concept ;
+    ns1:identifier "C48551" ;
+    skos:altLabel "Vial Dosing Unit" ;
+    skos:definition "A dosing measurement based on the vial unit.(NCI)" ;
+    skos:notation "VIAL" ;
+    skos:prefLabel "Vial Dosing Unit" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78422> a skos:Concept ;
+    rdfs:label "ECG Original Units" ;
+    gsk:extensible "true" ;
+    ns1:identifier "C78422" ;
+    skos:altLabel "ECG Original Units" ;
+    skos:definition "A terminology subset of the CDISC SDTM Unit codelist created for CDASH ECG Original Units codelist. (NCI)" ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78422-C41140>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78422-C42535>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78422-C49673> ;
+    skos:notation "EGORRESU" ;
+    skos:prefLabel "CDISC CDASH ECG Original Units Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78422-C41140> a skos:Concept ;
+    ns1:identifier "C41140" ;
+    skos:altLabel "Millisecond",
+        "ms",
+        "msec" ;
+    skos:definition "A unit of time, which is equal to one thousandth of a second.(NCI)" ;
+    skos:notation "ms" ;
+    skos:prefLabel "Millisecond" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78422-C42535> a skos:Concept ;
+    ns1:identifier "C42535" ;
+    skos:altLabel "Second",
+        "sec" ;
+    skos:definition "The base unit of time in the International System of Units (SI) equal to the duration of 9,192,631,770 periods of the specified light radiation corresponding to the transition between the two hyperfine levels of the cesium 133 atom in its ground state at 0 K." ;
+    skos:notation "s" ;
+    skos:prefLabel "Second" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78422-C49673> a skos:Concept ;
+    ns1:identifier "C49673" ;
+    skos:altLabel "BPM",
+        "Beats per Minute",
+        "bpm" ;
+    skos:definition "The number of heartbeats measured per minute time. (NCI)" ;
+    skos:notation "beats/min" ;
+    skos:prefLabel "Beats per Minute" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78423> a skos:Concept ;
+    rdfs:label "Units for Exposure" ;
+    gsk:extensible "true" ;
+    ns1:identifier "C78423" ;
+    skos:altLabel "Units for Exposure" ;
+    skos:definition "A terminology subset of the CDISC SDTM Unit codelist created for CDASH Units for Exposure codelist. (NCI)" ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78423-C28253>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78423-C28254>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78423-C48152>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78423-C48155>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78423-C48480>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78423-C48542>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78423-C65060> ;
+    skos:notation "EXDOSU" ;
+    skos:prefLabel "CDISC CDASH Units for Exposure Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78423-C28253> a skos:Concept ;
+    ns1:identifier "C28253" ;
+    skos:altLabel "Milligram" ;
+    skos:definition "A unit of mass equal to one thousandth (1E-3) of a gram." ;
+    skos:notation "mg" ;
+    skos:prefLabel "Milligram" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78423-C28254> a skos:Concept ;
+    ns1:identifier "C28254" ;
+    skos:altLabel "Milliliter",
+        "cm3" ;
+    skos:definition "A unit of volume equal to one thousandth (1E-3) of a liter." ;
+    skos:notation "mL" ;
+    skos:prefLabel "Milliliter" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78423-C48152> a skos:Concept ;
+    ns1:identifier "C48152" ;
+    skos:altLabel "Microgram",
+        "mcg" ;
+    skos:definition "A unit of mass equal to one millionth (1E-6) of a gram." ;
+    skos:notation "ug" ;
+    skos:prefLabel "Microgram" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78423-C48155> a skos:Concept ;
+    ns1:identifier "C48155" ;
+    skos:altLabel "Gram" ;
+    skos:definition "A unit of mass equal to one thousandth (1E-3) of a kilogram, the kilogram being the base unit of mass in the International System of Units (SI)." ;
+    skos:notation "g" ;
+    skos:prefLabel "Gram" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78423-C48480> a skos:Concept ;
+    ns1:identifier "C48480" ;
+    skos:altLabel "Capsule Dosing Unit",
+        "cap" ;
+    skos:definition "A dosing measurement based on the capsule unit.(NCI)" ;
+    skos:notation "CAPSULE" ;
+    skos:prefLabel "Capsule Dosing Unit" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78423-C48542> a skos:Concept ;
+    ns1:identifier "C48542" ;
+    skos:altLabel "Tablet Dosing Unit",
+        "tab" ;
+    skos:definition "A dosing measurement based on the tablet unit.(NCI)" ;
+    skos:notation "TABLET" ;
+    skos:prefLabel "Tablet Dosing Unit" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78423-C65060> a skos:Concept ;
+    ns1:identifier "C65060" ;
+    skos:altLabel "Puff Dosing Unit" ;
+    skos:definition "A means of delivering a defined dose of a therapeutic aerolized solution into either the upper or lower respiratory tract. Metered-dose inhalers or spray pumps are devices that provide a puff dose for delivery into either the oral or the nasal cavity.(NCI)" ;
+    skos:notation "PUFF" ;
+    skos:prefLabel "Puff Dosing Unit" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78425> a skos:Concept ;
+    rdfs:label "Exposure Route of Administration" ;
+    gsk:extensible "true" ;
+    ns1:identifier "C78425" ;
+    skos:altLabel "Exposure Route of Administration" ;
+    skos:definition "A terminology subset of the CDISC SDTM Route codelist created for CDASH Exposure Route of Administration codelist. (NCI)" ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78425-C28161>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78425-C38216>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78425-C38250>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78425-C38255>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78425-C38258>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78425-C38284>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78425-C38288>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78425-C38295>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78425-C38299>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78425-C38304>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78425-C38305>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78425-C38313> ;
+    skos:notation "EXROUTE" ;
+    skos:prefLabel "CDISC CDASH Exposure Route of Administration Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78425-C28161> a skos:Concept ;
+    ns1:identifier "C28161" ;
+    skos:definition "Administration within a muscle. (FDA)" ;
+    skos:notation "INTRAMUSCULAR" ;
+    skos:prefLabel "Intramuscular Route of Administration" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78425-C38216> a skos:Concept ;
+    ns1:identifier "C38216" ;
+    skos:definition "Administration within the respiratory tract by inhaling orally or nasally for local or systemic effect. (FDA)" ;
+    skos:notation "RESPIRATORY (INHALATION)" ;
+    skos:prefLabel "Inhalation Route of Administration" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78425-C38250> a skos:Concept ;
+    ns1:identifier "C38250" ;
+    skos:definition "Administration within or introduced directly into a localized lesion. (FDA)" ;
+    skos:notation "INTRALESIONAL" ;
+    skos:prefLabel "Intralesional Route of Administration" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78425-C38255> a skos:Concept ;
+    ns1:identifier "C38255" ;
+    skos:definition "Administration within the eye. (FDA)" ;
+    skos:notation "INTRAOCULAR" ;
+    skos:prefLabel "Intraocular Route of Administration" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78425-C38258> a skos:Concept ;
+    ns1:identifier "C38258" ;
+    skos:definition "Administration within the peritoneal cavity. (FDA)" ;
+    skos:notation "INTRAPERITONEAL" ;
+    skos:prefLabel "Intraperitoneal Route of Administration" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78425-C38284> a skos:Concept ;
+    ns1:identifier "C38284" ;
+    skos:altLabel "Intranasal Route of Administration" ;
+    skos:definition "Administration to the nose; administered by way of the nose. (FDA)" ;
+    skos:notation "NASAL" ;
+    skos:prefLabel "Nasal Route of Administration" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78425-C38288> a skos:Concept ;
+    ns1:identifier "C38288" ;
+    skos:altLabel "Intraoral Route of Administration",
+        "PO" ;
+    skos:definition "Administration to or by way of the mouth. (FDA)" ;
+    skos:notation "ORAL" ;
+    skos:prefLabel "Oral Route of Administration" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78425-C38295> a skos:Concept ;
+    ns1:identifier "C38295" ;
+    skos:definition "Administration to the rectum. (FDA)" ;
+    skos:notation "RECTAL" ;
+    skos:prefLabel "Rectal Route of Administration" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78425-C38299> a skos:Concept ;
+    ns1:identifier "C38299" ;
+    skos:altLabel "SC",
+        "Subdermal Route of Administration" ;
+    skos:definition "Administration beneath the skin; hypodermic. Synonymous with the term SUBDERMAL. (FDA)" ;
+    skos:notation "SUBCUTANEOUS" ;
+    skos:prefLabel "Subcutaneous Route of Administration" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78425-C38304> a skos:Concept ;
+    ns1:identifier "C38304" ;
+    skos:altLabel "TOP" ;
+    skos:definition "Administration to a particular spot on the outer surface of the body. The E2B term TRANSMAMMARY is a subset of the term TOPICAL. (FDA)" ;
+    skos:notation "TOPICAL" ;
+    skos:prefLabel "Topical Route of Administration" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78425-C38305> a skos:Concept ;
+    ns1:identifier "C38305" ;
+    skos:definition "Administration through the dermal layer of the skin to the systemic circulation by diffusion. (FDA)" ;
+    skos:notation "TRANSDERMAL" ;
+    skos:prefLabel "Transdermal Route of Administration" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78425-C38313> a skos:Concept ;
+    ns1:identifier "C38313" ;
+    skos:definition "Administration into the vagina. (FDA)" ;
+    skos:notation "VAGINAL" ;
+    skos:prefLabel "Vaginal Route of Administration" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78426> a skos:Concept ;
+    rdfs:label "Exposure Dose Form" ;
+    gsk:extensible "true" ;
+    ns1:identifier "C78426" ;
+    skos:altLabel "Exposure Dose Form" ;
+    skos:definition "A terminology subset of the CDISC SDTM Pharmaceutical Dosage Form codelist created for CDASH Exposure Dose Form codelist. (NCI)" ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78426-C25158>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78426-C28944>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78426-C42887>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78426-C42933>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78426-C42934>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78426-C42966>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78426-C42968>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78426-C42972>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78426-C42989>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78426-C42993>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78426-C42994>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78426-C42998> ;
+    skos:notation "EXDOSFRM" ;
+    skos:prefLabel "CDISC CDASH Exposure Dose Form Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78426-C25158> a skos:Concept ;
+    ns1:identifier "C25158" ;
+    skos:altLabel "cap" ;
+    skos:definition "A solid pharmaceutical dosage form that contains medicinal agent within either a hard or soft soluble container or shell, usually used for the oral administration of medicine. The shells are made of a suitable form of gelatin or other substance. (NCI)" ;
+    skos:notation "CAPSULE" ;
+    skos:prefLabel "Capsule Dosage Form" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78426-C28944> a skos:Concept ;
+    ns1:identifier "C28944" ;
+    skos:definition "A semisolid emulsion of either the oil-in-water or the water-in-oil type, ordinarily intended for topical use. (NCI)" ;
+    skos:notation "CREAM" ;
+    skos:prefLabel "Cream Dosage Form" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78426-C42887> a skos:Concept ;
+    ns1:identifier "C42887" ;
+    skos:altLabel "aer" ;
+    skos:definition "A product that is packaged under pressure and contains therapeutically active ingredients that are released upon activation of an appropriate valve system; it is intended for topical application to the skin as well as local application into the nose (nasal aerosols), mouth (lingual aerosols), or lungs (inhalation aerosols)." ;
+    skos:notation "AEROSOL" ;
+    skos:prefLabel "Aerosol Dosage Form" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78426-C42933> a skos:Concept ;
+    ns1:identifier "C42933" ;
+    skos:definition "Any elastic aeriform fluid in which the molecules are separated from one another and have free paths. (NCI)" ;
+    skos:notation "GAS" ;
+    skos:prefLabel "Gas Dosage Form" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78426-C42934> a skos:Concept ;
+    ns1:identifier "C42934" ;
+    skos:definition "A semisolid (1) dosage form that contains a gelling agent to provide stiffness to a solution or a colloidal dispersion (2). A gel may contain suspended particles. Note 1: A semisolid is not pourable; it does not flow or conform to its container at room temperature. It does not flow at low shear stress and generally exhibits plastic flow behavior. Note 2: A colloidal dispersion is a system in which particles of colloidal dimension (i.e., typically between 1 nm and 1 micrometer) are distributed uniformly throughout a liquid." ;
+    skos:notation "GEL" ;
+    skos:prefLabel "Gel Dosage Form" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78426-C42966> a skos:Concept ;
+    ns1:identifier "C42966" ;
+    skos:altLabel "oint" ;
+    skos:definition "A suspension or emulsion, semisolid (1) dosage form, usually containing less than 20 percent water and volatiles (2) and greater than 50 percent hydrocarbons, waxes, or polyols as the vehicle. This dosage form is generally for external application to the skin or mucous membranes. Note 1: A semisolid is not pourable; it does not flow or conform to its container at room temperature. It does not flow at low shear stress and generally exhibits plastic flow behavior. Note 2: Percent water and volatiles are measured by a loss on drying test in which the sample is heated at 105 degrees C until constant weight is achieved." ;
+    skos:notation "OINTMENT" ;
+    skos:prefLabel "Ointment Dosage Form" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78426-C42968> a skos:Concept ;
+    ns1:identifier "C42968" ;
+    skos:definition "A drug delivery system that often contains an adhesive backing that is usually applied to an external site on the body. Its ingredients either passively diffuse from, or are actively transported from, some portion of the patch. Depending upon the patch, the ingredients are either delivered to the outer surface of the body or into the body. A patch is sometimes synonymous with the terms Extended Release Film and System." ;
+    skos:notation "PATCH" ;
+    skos:prefLabel "Patch Dosage Form" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78426-C42972> a skos:Concept ;
+    ns1:identifier "C42972" ;
+    skos:definition "An intimate mixture of dry, finely divided drugs and/or chemicals that may be intended for internal or external use. (NCI)" ;
+    skos:notation "POWDER" ;
+    skos:prefLabel "Powder Dosage Form" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78426-C42989> a skos:Concept ;
+    ns1:identifier "C42989" ;
+    skos:definition "A liquid minutely divided as by a jet of air or steam. (NCI)" ;
+    skos:notation "SPRAY" ;
+    skos:prefLabel "Spray Dosage Form" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78426-C42993> a skos:Concept ;
+    ns1:identifier "C42993" ;
+    skos:altLabel "supp" ;
+    skos:definition "A solid body of various weights and shapes, adapted for introduction into the rectal, vaginal, or urethral orifice of the human body; they usually melt, soften, or dissolve at body temperature." ;
+    skos:notation "SUPPOSITORY" ;
+    skos:prefLabel "Suppository Dosage Form" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78426-C42994> a skos:Concept ;
+    ns1:identifier "C42994" ;
+    skos:altLabel "Ready to Use Suspension",
+        "susp" ;
+    skos:definition "A liquid dosage form that contains solid particles dispersed in a liquid vehicle. Note: A liquid is pourable; it flows and conforms to its container at room temperature. It displays Newtonian or pseudoplastic flow behavior." ;
+    skos:notation "SUSPENSION" ;
+    skos:prefLabel "Suspension Dosage Form" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78426-C42998> a skos:Concept ;
+    ns1:identifier "C42998" ;
+    skos:altLabel "tab" ;
+    skos:definition "A solid dosage form containing medicinal substances with or without suitable diluents. (NCI)" ;
+    skos:notation "TABLET" ;
+    skos:prefLabel "Tablet Dosage Form" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78427> a skos:Concept ;
+    rdfs:label "Unit for the Duration of Treatment Interruption" ;
+    gsk:extensible "true" ;
+    ns1:identifier "C78427" ;
+    skos:altLabel "Unit for the Duration of Treatment Interruption" ;
+    skos:definition "A terminology subset of the CDISC SDTM Unit codelist created for CDASH Unit for Duration of Treatment Interruption codelist. (NCI)" ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78427-C25529>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78427-C42535>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78427-C48154> ;
+    skos:notation "EXINTPU" ;
+    skos:prefLabel "CDISC CDASH Unit for Duration of Treatment Interruption Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78427-C25529> a skos:Concept ;
+    ns1:identifier "C25529" ;
+    skos:altLabel "Hours",
+        "h",
+        "hr" ;
+    skos:definition "A unit of measurement of time equal to 60 minutes." ;
+    skos:notation "HOURS" ;
+    skos:prefLabel "Hour" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78427-C42535> a skos:Concept ;
+    ns1:identifier "C42535" ;
+    skos:altLabel "Second",
+        "sec" ;
+    skos:definition "The base unit of time in the International System of Units (SI) equal to the duration of 9,192,631,770 periods of the specified light radiation corresponding to the transition between the two hyperfine levels of the cesium 133 atom in its ground state at 0 K." ;
+    skos:notation "s" ;
+    skos:prefLabel "Second" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78427-C48154> a skos:Concept ;
+    ns1:identifier "C48154" ;
+    skos:altLabel "Minute" ;
+    skos:definition "A unit of measurement of time equal to 60 seconds." ;
+    skos:notation "min" ;
+    skos:prefLabel "Minute" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78428> a skos:Concept ;
+    rdfs:label "Total Volume Administration Unit" ;
+    gsk:extensible "true" ;
+    ns1:identifier "C78428" ;
+    skos:altLabel "Total Volume Administration Unit" ;
+    skos:definition "A terminology subset of the CDISC SDTM Unit codelist created for CDASH Total Volume Administration Unit codelist. (NCI)" ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78428-C28253>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78428-C28254>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78428-C48152> ;
+    skos:notation "EXVOLTU" ;
+    skos:prefLabel "CDISC CDASH Total Volume Administration Unit Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78428-C28253> a skos:Concept ;
+    ns1:identifier "C28253" ;
+    skos:altLabel "Milligram" ;
+    skos:definition "A unit of mass equal to one thousandth (1E-3) of a gram." ;
+    skos:notation "mg" ;
+    skos:prefLabel "Milligram" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78428-C28254> a skos:Concept ;
+    ns1:identifier "C28254" ;
+    skos:altLabel "Milliliter",
+        "cm3" ;
+    skos:definition "A unit of volume equal to one thousandth (1E-3) of a liter." ;
+    skos:notation "mL" ;
+    skos:prefLabel "Milliliter" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78428-C48152> a skos:Concept ;
+    ns1:identifier "C48152" ;
+    skos:altLabel "Microgram",
+        "mcg" ;
+    skos:definition "A unit of mass equal to one millionth (1E-6) of a gram." ;
+    skos:notation "ug" ;
+    skos:prefLabel "Microgram" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78429> a skos:Concept ;
+    rdfs:label "Unit of Measure for Flow Rate" ;
+    gsk:extensible "true" ;
+    ns1:identifier "C78429" ;
+    skos:altLabel "Unit of Measure for Flow Rate" ;
+    skos:definition "A terminology subset of the CDISC SDTM Unit codelist created for CDASH Unit of Measure for Flow Rate codelist. (NCI)" ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78429-C64777>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78429-C67406>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78429-C67420>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78429-C71205>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78429-C71211> ;
+    skos:notation "EXFLRTU" ;
+    skos:prefLabel "CDISC CDASH Unit of Measure for Flow Rate Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78429-C64777> a skos:Concept ;
+    ns1:identifier "C64777" ;
+    skos:definition "A unit of flow rate equal to one milliliter per minute." ;
+    skos:notation "mL/min" ;
+    skos:prefLabel "Milliliter per Minute" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78429-C67406> a skos:Concept ;
+    ns1:identifier "C67406" ;
+    skos:altLabel "mcmol/day" ;
+    skos:definition "A unit of substance flow rate equal to one micromole per day." ;
+    skos:notation "umol/day" ;
+    skos:prefLabel "Micromole per 24 Hours" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78429-C67420> a skos:Concept ;
+    ns1:identifier "C67420" ;
+    skos:altLabel "mmol/24h" ;
+    skos:definition "A unit of substance flow rate equal to one millimole per day." ;
+    skos:notation "mmol/day" ;
+    skos:prefLabel "Millimole per 24 Hours" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78429-C71205> a skos:Concept ;
+    ns1:identifier "C71205" ;
+    skos:altLabel "mcg/day" ;
+    skos:definition "A unit of mass flow rate equal to one microgram per day." ;
+    skos:notation "ug/day" ;
+    skos:prefLabel "Microgram per Day" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78429-C71211> a skos:Concept ;
+    ns1:identifier "C71211" ;
+    skos:altLabel "mcg/min" ;
+    skos:definition "A unit of mass flow rate equal to one microgram per minute." ;
+    skos:notation "ug/min" ;
+    skos:prefLabel "Microgram per Minute" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78430> a skos:Concept ;
+    rdfs:label "Units for Planned Exposure" ;
+    gsk:extensible "true" ;
+    ns1:identifier "C78430" ;
+    skos:altLabel "Units for Planned Exposure" ;
+    skos:definition "A terminology subset of the CDISC SDTM Unit codelist created for CDASH Units for Planned Exposure codelist. (NCI)" ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78430-C28253>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78430-C28254>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78430-C48152>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78430-C48155>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78430-C48480>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78430-C48542>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78430-C65060> ;
+    skos:notation "EXPDOSEU" ;
+    skos:prefLabel "CDISC CDASH Units for Planned Exposure Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78430-C28253> a skos:Concept ;
+    ns1:identifier "C28253" ;
+    skos:altLabel "Milligram" ;
+    skos:definition "A unit of mass equal to one thousandth (1E-3) of a gram." ;
+    skos:notation "mg" ;
+    skos:prefLabel "Milligram" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78430-C28254> a skos:Concept ;
+    ns1:identifier "C28254" ;
+    skos:altLabel "Milliliter",
+        "cm3" ;
+    skos:definition "A unit of volume equal to one thousandth (1E-3) of a liter." ;
+    skos:notation "mL" ;
+    skos:prefLabel "Milliliter" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78430-C48152> a skos:Concept ;
+    ns1:identifier "C48152" ;
+    skos:altLabel "Microgram",
+        "mcg" ;
+    skos:definition "A unit of mass equal to one millionth (1E-6) of a gram." ;
+    skos:notation "ug" ;
+    skos:prefLabel "Microgram" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78430-C48155> a skos:Concept ;
+    ns1:identifier "C48155" ;
+    skos:altLabel "Gram" ;
+    skos:definition "A unit of mass equal to one thousandth (1E-3) of a kilogram, the kilogram being the base unit of mass in the International System of Units (SI)." ;
+    skos:notation "g" ;
+    skos:prefLabel "Gram" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78430-C48480> a skos:Concept ;
+    ns1:identifier "C48480" ;
+    skos:altLabel "Capsule Dosing Unit",
+        "cap" ;
+    skos:definition "A dosing measurement based on the capsule unit.(NCI)" ;
+    skos:notation "CAPSULE" ;
+    skos:prefLabel "Capsule Dosing Unit" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78430-C48542> a skos:Concept ;
+    ns1:identifier "C48542" ;
+    skos:altLabel "Tablet Dosing Unit",
+        "tab" ;
+    skos:definition "A dosing measurement based on the tablet unit.(NCI)" ;
+    skos:notation "TABLET" ;
+    skos:prefLabel "Tablet Dosing Unit" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78430-C65060> a skos:Concept ;
+    ns1:identifier "C65060" ;
+    skos:altLabel "Puff Dosing Unit" ;
+    skos:definition "A means of delivering a defined dose of a therapeutic aerolized solution into either the upper or lower respiratory tract. Metered-dose inhalers or spray pumps are devices that provide a puff dose for delivery into either the oral or the nasal cavity.(NCI)" ;
+    skos:notation "PUFF" ;
+    skos:prefLabel "Puff Dosing Unit" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78431> a skos:Concept ;
+    rdfs:label "Vital Signs Position of Subject" ;
+    gsk:extensible "true" ;
+    ns1:identifier "C78431" ;
+    skos:altLabel "Vital Signs Position of Subject" ;
+    skos:definition "A terminology subset of the CDISC SDTM Position codelist created for CDASH Vital Signs Position of Subject codelist. (NCI)" ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78431-C62122>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78431-C62166>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78431-C62167> ;
+    skos:notation "VSPOS" ;
+    skos:prefLabel "CDISC CDASH Vital Signs Position of Subject Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78431-C62122> a skos:Concept ;
+    ns1:identifier "C62122" ;
+    skos:altLabel "Sitting" ;
+    skos:definition "The state or act of one who sits; the posture of one who occupies a seat. (NCI)" ;
+    skos:notation "SITTING" ;
+    skos:prefLabel "Sitting" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78431-C62166> a skos:Concept ;
+    ns1:identifier "C62166" ;
+    skos:altLabel "Orthostatic",
+        "Standing" ;
+    skos:definition "The act of assuming or maintaining an erect upright position. (NCI)" ;
+    skos:notation "STANDING" ;
+    skos:prefLabel "Standing" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78431-C62167> a skos:Concept ;
+    ns1:identifier "C62167" ;
+    skos:altLabel "Supine" ;
+    skos:definition "A posterior recumbent body position whereby the person lies on its back and faces upward. (NCI)" ;
+    skos:notation "SUPINE" ;
+    skos:prefLabel "Supine Position" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78745> a skos:Concept ;
+    rdfs:label "Exposure Dosing Frequency per Interval" ;
+    gsk:extensible "true" ;
+    ns1:identifier "C78745" ;
+    skos:altLabel "Exposure Dosing Frequency per Interval" ;
+    skos:definition "A terminology subset of the CDISC SDTM Frequency codelist created for CDASH Exposure Dosing Frequency per Interval codelist. (NCI)" ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78745-C17998>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78745-C25473>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78745-C64496>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78745-C64498>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78745-C64499>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78745-C64525>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78745-C64527>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78745-C64530> ;
+    skos:notation "EXDOSFRQ" ;
+    skos:prefLabel "CDISC CDASH Exposure Dosing Frequency per Interval Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78745-C17998> a skos:Concept ;
+    ns1:identifier "C17998" ;
+    skos:altLabel "U",
+        "UNK",
+        "Unknown" ;
+    skos:definition "Not known, not observed, not recorded, or refused. (NCI)" ;
+    skos:notation "UNKNOWN" ;
+    skos:prefLabel "Unknown" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78745-C25473> a skos:Concept ;
+    ns1:identifier "C25473" ;
+    skos:altLabel "/day",
+        "Daily",
+        "Per Day" ;
+    skos:definition "A rate of occurrences within a period of time equal to one day." ;
+    skos:notation "QD" ;
+    skos:prefLabel "Daily" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78745-C64496> a skos:Concept ;
+    ns1:identifier "C64496" ;
+    skos:altLabel "BD",
+        "Twice per day" ;
+    skos:definition "Two times per day, at unspecified times. (NCI)" ;
+    skos:notation "BID" ;
+    skos:prefLabel "Twice Daily" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78745-C64498> a skos:Concept ;
+    ns1:identifier "C64498" ;
+    skos:altLabel "Every Month",
+        "Per Month" ;
+    skos:definition "Every month. (NCI)" ;
+    skos:notation "QM" ;
+    skos:prefLabel "Monthly" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78745-C64499> a skos:Concept ;
+    ns1:identifier "C64499" ;
+    skos:altLabel "As needed" ;
+    skos:definition "As needed. (NCI)" ;
+    skos:notation "PRN" ;
+    skos:prefLabel "As Needed" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78745-C64525> a skos:Concept ;
+    ns1:identifier "C64525" ;
+    skos:altLabel "Every Second Day",
+        "Every Two Days",
+        "Every other day",
+        "Q2D" ;
+    skos:definition "Every other day. (NCI)" ;
+    skos:notation "QOD" ;
+    skos:prefLabel "Every Other Day" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78745-C64527> a skos:Concept ;
+    ns1:identifier "C64527" ;
+    skos:altLabel "3 times per day" ;
+    skos:definition "Three times per day. (NCI)" ;
+    skos:notation "TID" ;
+    skos:prefLabel "Three Times Daily" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C78745-C64530> a skos:Concept ;
+    ns1:identifier "C64530" ;
+    skos:altLabel "4 times per day" ;
+    skos:definition "Four times per day. (NCI)" ;
+    skos:notation "QID" ;
+    skos:prefLabel "Four Times Daily" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C83004> a skos:Concept ;
+    rdfs:label "Substance Use Never/Current/Former Classification" ;
+    gsk:extensible "true" ;
+    ns1:identifier "C83004" ;
+    skos:altLabel "Substance Use Never/Current/Former Classification" ;
+    skos:definition "A terminology subset of the CDISC SDTM Never/Current/Former Classification codelist created for CDASH Substance Use Never/Current/Former Classification codelist. (NCI)" ;
+    skos:narrower <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C83004-C25471>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C83004-C25627>,
+        <http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C83004-C70543> ;
+    skos:notation "SUNCF" ;
+    skos:prefLabel "CDISC CDASH Substance Use Never/Current/Former Classification Terminology" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C83004-C25471> a skos:Concept ;
+    ns1:identifier "C25471" ;
+    skos:definition "Occurring in or belonging to the present time. (NCI)" ;
+    skos:notation "CURRENT" ;
+    skos:prefLabel "Current" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C83004-C25627> a skos:Concept ;
+    ns1:identifier "C25627" ;
+    skos:altLabel "Previous" ;
+    skos:definition "Occurring prior to something else. (NCI)" ;
+    skos:notation "FORMER" ;
+    skos:prefLabel "Previous" .
+
+<http://id.gsk.com/dataset/cdisc/ct/v48/cdash/C83004-C70543> a skos:Concept ;
+    ns1:identifier "C70543" ;
+    skos:definition "Not ever; at no time in the past." ;
+    skos:notation "NEVER" ;
+    skos:prefLabel "Never" .
+
