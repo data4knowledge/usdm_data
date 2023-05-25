@@ -1,0 +1,120 @@
+{
+  "biomedicalConceptId": "BiomedicalConcept_234",
+  "bcName": "Oxygen Saturation Measurement",
+  "bcSynonyms": [
+    "SpO2",
+    "OXYSAT",
+    "O2 Saturation",
+    "Hemoglobin Saturation",
+    "Oximetry"
+  ],
+  "bcReference": "/mdr/bc/packages/2023-03-31/biomedicalconcepts/C60832",
+  "bcProperties": [
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_742",
+      "bcPropertyName": "Vital Signs Result",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "integer",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_976",
+        "standardCode": {
+          "codeId": "Code_1024",
+          "code": "C173522",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Vital Signs Result"
+        },
+        "standardCodeAliases": []
+      }
+    },
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_743",
+      "bcPropertyName": "Percent Unit",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "string",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_977",
+        "standardCode": {
+          "codeId": "Code_1025",
+          "code": "C48570",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Percent Unit"
+        },
+        "standardCodeAliases": []
+      }
+    },
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_744",
+      "bcPropertyName": "Test Method",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "string",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_978",
+        "standardCode": {
+          "codeId": "Code_1026",
+          "code": "C82535",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Test Method"
+        },
+        "standardCodeAliases": []
+      }
+    },
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_745",
+      "bcPropertyName": "Vital Signs Location",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "string",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_979",
+        "standardCode": {
+          "codeId": "Code_1027",
+          "code": "C83088",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Vital Signs Location"
+        },
+        "standardCodeAliases": []
+      }
+    },
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_746",
+      "bcPropertyName": "Vital Signs Laterality",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "string",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_980",
+        "standardCode": {
+          "codeId": "Code_1028",
+          "code": "C123975",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Vital Signs Laterality"
+        },
+        "standardCodeAliases": []
+      }
+    }
+  ],
+  "bcConceptCode": {
+    "aliasCodeId": "AliasCode_975",
+    "standardCode": {
+      "codeId": "Code_1023",
+      "code": "C60832",
+      "codeSystem": "NCI Thesaurus",
+      "codeSystemVersion": "",
+      "decode": "Oxygen Saturation Measurement"
+    },
+    "standardCodeAliases": []
+  }
+}

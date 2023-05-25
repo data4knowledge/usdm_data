@@ -1,0 +1,97 @@
+{
+  "biomedicalConceptId": "BiomedicalConcept_196",
+  "bcName": "Ferritin Measurement",
+  "bcSynonyms": [
+    "Ferritin"
+  ],
+  "bcReference": "/mdr/bc/packages/2023-03-31/biomedicalconcepts/C74737",
+  "bcProperties": [
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_641",
+      "bcPropertyName": "Laboratory Test Result",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "decimal",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_837",
+        "standardCode": {
+          "codeId": "Code_883",
+          "code": "C36292",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Laboratory Test Result"
+        },
+        "standardCodeAliases": []
+      }
+    },
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_642",
+      "bcPropertyName": "Laboratory Test Fasting Status",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "boolean",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_838",
+        "standardCode": {
+          "codeId": "Code_884",
+          "code": "C83309",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Laboratory Test Fasting Status"
+        },
+        "standardCodeAliases": []
+      }
+    },
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_643",
+      "bcPropertyName": "Unit of Mass or Substance Concentration",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "string",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_839",
+        "standardCode": {
+          "codeId": "Code_885",
+          "code": "NEW_2",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Unit of Mass or Substance Concentration"
+        },
+        "standardCodeAliases": []
+      }
+    },
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_644",
+      "bcPropertyName": "Biospecimen Type",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "string",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_840",
+        "standardCode": {
+          "codeId": "Code_886",
+          "code": "C70713",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Biospecimen Type"
+        },
+        "standardCodeAliases": []
+      }
+    }
+  ],
+  "bcConceptCode": {
+    "aliasCodeId": "AliasCode_836",
+    "standardCode": {
+      "codeId": "Code_882",
+      "code": "C74737",
+      "codeSystem": "NCI Thesaurus",
+      "codeSystemVersion": "",
+      "decode": "Ferritin Measurement"
+    },
+    "standardCodeAliases": []
+  }
+}

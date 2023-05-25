@@ -1,0 +1,90 @@
+{
+  "biomedicalConceptId": "BiomedicalConcept_228",
+  "bcName": "Pneumonia Indicator",
+  "bcSynonyms": [
+    "PNEUMIND"
+  ],
+  "bcReference": "/mdr/bc/packages/2023-03-31/biomedicalconcepts/C171521",
+  "bcProperties": [
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_734",
+      "bcPropertyName": "Respiratory System Findings Original Result",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "string",
+      "bcPropertyResponseCodes": [
+        {
+          "responseCodeId": "ResponseCode_48",
+          "responseCodeEnabled": true,
+          "code": {
+            "codeId": "Code_1009",
+            "code": "C17998",
+            "codeSystem": "http://www.cdisc.org",
+            "codeSystemVersion": "2022-12-16",
+            "decode": "Unknown"
+          }
+        }
+      ],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_962",
+        "standardCode": {
+          "codeId": "Code_1010",
+          "code": "C123984",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Respiratory System Findings Original Result"
+        },
+        "standardCodeAliases": []
+      }
+    },
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_735",
+      "bcPropertyName": "Result Anatomical Location",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "string",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_963",
+        "standardCode": {
+          "codeId": "Code_1011",
+          "code": "C170500",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Result Anatomical Location"
+        },
+        "standardCodeAliases": []
+      }
+    },
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_736",
+      "bcPropertyName": "Respiratory System Findings Method",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "string",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_964",
+        "standardCode": {
+          "codeId": "Code_1012",
+          "code": "C123980",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Respiratory System Findings Method"
+        },
+        "standardCodeAliases": []
+      }
+    }
+  ],
+  "bcConceptCode": {
+    "aliasCodeId": "AliasCode_961",
+    "standardCode": {
+      "codeId": "Code_1008",
+      "code": "C171521",
+      "codeSystem": "NCI Thesaurus",
+      "codeSystemVersion": "",
+      "decode": "Pneumonia Indicator"
+    },
+    "standardCodeAliases": []
+  }
+}

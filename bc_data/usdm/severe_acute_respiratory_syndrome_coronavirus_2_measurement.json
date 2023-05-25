@@ -1,0 +1,137 @@
+{
+  "biomedicalConceptId": "BiomedicalConcept_214",
+  "bcName": "Severe Acute Respiratory Syndrome Coronavirus 2 Measurement",
+  "bcSynonyms": [
+    "SARSCOV2",
+    "SARS-CoV-2 Infection",
+    "COVID-19 Infection"
+  ],
+  "bcReference": "/mdr/bc/packages/2023-03-31/biomedicalconcepts/C171532",
+  "bcProperties": [
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_701",
+      "bcPropertyName": "Measurement, Test or Examination Detail",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "string",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_915",
+        "standardCode": {
+          "codeId": "Code_961",
+          "code": "C117062",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Measurement, Test or Examination Detail"
+        },
+        "standardCodeAliases": []
+      }
+    },
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_702",
+      "bcPropertyName": "Laboratory Test Result",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "string",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_916",
+        "standardCode": {
+          "codeId": "Code_962",
+          "code": "C36292",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Laboratory Test Result"
+        },
+        "standardCodeAliases": []
+      }
+    },
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_703",
+      "bcPropertyName": "Laboratory Test Method",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "string",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_917",
+        "standardCode": {
+          "codeId": "Code_963",
+          "code": "C83312",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Laboratory Test Method"
+        },
+        "standardCodeAliases": []
+      }
+    },
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_704",
+      "bcPropertyName": "Biospecimen Type",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "string",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_918",
+        "standardCode": {
+          "codeId": "Code_964",
+          "code": "C70713",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Biospecimen Type"
+        },
+        "standardCodeAliases": []
+      }
+    },
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_705",
+      "bcPropertyName": "Biospecimen Collection Method",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "string",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_919",
+        "standardCode": {
+          "codeId": "Code_965",
+          "code": "C70700",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Biospecimen Collection Method"
+        },
+        "standardCodeAliases": []
+      }
+    },
+    {
+      "bcPropertyId": "BiomedicalConceptProperty_706",
+      "bcPropertyName": "Sample Anatomic Site",
+      "bcPropertyRequired": true,
+      "bcPropertyEnabled": true,
+      "bcPropertyDatatype": "string",
+      "bcPropertyResponseCodes": [],
+      "bcPropertyConceptCode": {
+        "aliasCodeId": "AliasCode_920",
+        "standardCode": {
+          "codeId": "Code_966",
+          "code": "C171435",
+          "codeSystem": "NCI Thesaurus",
+          "codeSystemVersion": "",
+          "decode": "Sample Anatomic Site"
+        },
+        "standardCodeAliases": []
+      }
+    }
+  ],
+  "bcConceptCode": {
+    "aliasCodeId": "AliasCode_914",
+    "standardCode": {
+      "codeId": "Code_960",
+      "code": "C171532",
+      "codeSystem": "NCI Thesaurus",
+      "codeSystemVersion": "",
+      "decode": "Severe Acute Respiratory Syndrome Coronavirus 2 Measurement"
+    },
+    "standardCodeAliases": []
+  }
+}
