@@ -68,87 +68,87 @@
   properties:
     label: studyDesigns
   start: 1
-- end: 16
+- end: 12
   id: 15
   properties:
-    label: scheduleSequenceNumber
-    type: Order
-  start: 12
-- end: 26
+    label: relativeFromScheduledInstanceId
+    type: Other
+  start: 13
+- end: 12
   id: 16
   properties:
-    label: scheduledInstanceEncounterId
+    label: relativeToScheduledInstanceId
     type: Other
-  start: 12
-- end: 12
+  start: 13
+- end: 16
   id: 17
   properties:
-    label: relativeFromScheduledInstanceId
+    label: defaultConditionId
     type: Other
-  start: 13
-- end: 12
-  id: 18
-  properties:
-    label: relativeToScheduledInstanceId
-    type: Other
-  start: 13
+  start: 12
 - end: 39
-  id: 19
+  id: 18
   properties:
     label: activityIds
     type: List
   start: 12
-- end: 20
-  id: 20
+- end: 26
+  id: 19
   properties:
-    label: scheduleSequenceNumber
-    type: Order
-  start: 16
-- end: 30
-  id: 21
-  properties:
-    label: scheduledInstanceEncounterId
+    label: scheduledActivityInstanceEncounterId
     type: Other
-  start: 16
+  start: 12
 - end: 16
-  id: 22
+  id: 20
   properties:
     label: relativeFromScheduledInstanceId
     type: Other
   start: 17
 - end: 12
-  id: 23
+  id: 21
   properties:
     label: relativeToScheduledInstanceId
     type: Other
   start: 17
+- end: 20
+  id: 22
+  properties:
+    label: defaultConditionId
+    type: Other
+  start: 16
 - end: 39
-  id: 24
+  id: 23
   properties:
     label: activityIds
     type: List
   start: 16
-- end: 34
-  id: 25
+- end: 30
+  id: 24
   properties:
-    label: scheduledInstanceEncounterId
+    label: scheduledActivityInstanceEncounterId
     type: Other
-  start: 20
+  start: 16
 - end: 20
-  id: 26
+  id: 25
   properties:
     label: relativeFromScheduledInstanceId
     type: Other
   start: 21
 - end: 16
-  id: 27
+  id: 26
   properties:
     label: relativeToScheduledInstanceId
     type: Other
   start: 21
 - end: 39
-  id: 28
+  id: 27
   properties:
     label: activityIds
     type: List
+  start: 20
+- end: 34
+  id: 28
+  properties:
+    label: scheduledActivityInstanceEncounterId
+    type: Other
   start: 20

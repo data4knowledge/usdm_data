@@ -98,153 +98,153 @@
   properties:
     label: studyDesigns
   start: 1
-- end: 16
-  id: 21
-  properties:
-    label: scheduleSequenceNumber
-    type: Order
-  start: 12
-- end: 34
-  id: 22
-  properties:
-    label: scheduledInstanceEncounterId
-    type: Other
-  start: 12
 - end: 12
-  id: 23
+  id: 21
   properties:
     label: relativeFromScheduledInstanceId
     type: Other
   start: 13
 - end: 16
-  id: 24
+  id: 22
   properties:
     label: relativeToScheduledInstanceId
     type: Other
   start: 13
+- end: 16
+  id: 23
+  properties:
+    label: defaultConditionId
+    type: Other
+  start: 12
 - end: 54
+  id: 24
+  properties:
+    label: activityIds
+    type: List
+  start: 12
+- end: 55
   id: 25
   properties:
     label: activityIds
     type: List
   start: 12
-- end: 55
+- end: 34
   id: 26
   properties:
-    label: activityIds
-    type: List
+    label: scheduledActivityInstanceEncounterId
+    type: Other
   start: 12
-- end: 20
+- end: 16
   id: 27
   properties:
-    label: scheduleSequenceNumber
-    type: Order
-  start: 16
-- end: 38
+    label: relativeFromScheduledInstanceId
+    type: Other
+  start: 17
+- end: 20
   id: 28
   properties:
-    label: scheduledInstanceEncounterId
+    label: relativeToScheduledInstanceId
     type: Other
-  start: 16
-- end: 16
+  start: 17
+- end: 20
   id: 29
   properties:
-    label: relativeFromScheduledInstanceId
+    label: defaultConditionId
     type: Other
-  start: 17
-- end: 20
-  id: 30
-  properties:
-    label: relativeToScheduledInstanceId
-    type: Other
-  start: 17
+  start: 16
 - end: 55
-  id: 31
+  id: 30
   properties:
     label: activityIds
     type: List
   start: 16
-- end: 24
+- end: 38
+  id: 31
+  properties:
+    label: scheduledActivityInstanceEncounterId
+    type: Other
+  start: 16
+- end: 20
   id: 32
   properties:
-    label: scheduleSequenceNumber
-    type: Order
-  start: 20
-- end: 42
+    label: relativeFromScheduledInstanceId
+    type: Other
+  start: 21
+- end: 20
   id: 33
   properties:
-    label: scheduledInstanceEncounterId
+    label: relativeToScheduledInstanceId
     type: Other
-  start: 20
-- end: 20
+  start: 21
+- end: 24
   id: 34
   properties:
-    label: relativeFromScheduledInstanceId
+    label: defaultConditionId
     type: Other
-  start: 21
-- end: 20
-  id: 35
-  properties:
-    label: relativeToScheduledInstanceId
-    type: Other
-  start: 21
+  start: 20
 - end: 55
-  id: 36
+  id: 35
   properties:
     label: activityIds
     type: List
   start: 20
-- end: 28
-  id: 37
+- end: 42
+  id: 36
   properties:
-    label: scheduleSequenceNumber
-    type: Order
-  start: 24
-- end: 46
-  id: 38
-  properties:
-    label: scheduledInstanceEncounterId
+    label: scheduledActivityInstanceEncounterId
     type: Other
-  start: 24
+  start: 20
 - end: 24
-  id: 39
+  id: 37
   properties:
     label: relativeFromScheduledInstanceId
     type: Other
   start: 25
 - end: 20
-  id: 40
+  id: 38
   properties:
     label: relativeToScheduledInstanceId
     type: Other
   start: 25
+- end: 28
+  id: 39
+  properties:
+    label: defaultConditionId
+    type: Other
+  start: 24
 - end: 55
-  id: 41
+  id: 40
   properties:
     label: activityIds
     type: List
   start: 24
-- end: 50
-  id: 42
+- end: 46
+  id: 41
   properties:
-    label: scheduledInstanceEncounterId
+    label: scheduledActivityInstanceEncounterId
     type: Other
-  start: 28
+  start: 24
 - end: 28
-  id: 43
+  id: 42
   properties:
     label: relativeFromScheduledInstanceId
     type: Other
   start: 29
 - end: 24
-  id: 44
+  id: 43
   properties:
     label: relativeToScheduledInstanceId
     type: Other
   start: 29
 - end: 55
-  id: 45
+  id: 44
   properties:
     label: activityIds
     type: List
+  start: 28
+- end: 50
+  id: 45
+  properties:
+    label: scheduledActivityInstanceEncounterId
+    type: Other
   start: 28

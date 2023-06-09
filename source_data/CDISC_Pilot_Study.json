@@ -115,839 +115,122 @@
       "studyCells": [
         {
           "studyCellId": "StudyCell_1",
-          "studyArm": {
-            "studyArmId": "StudyArm_1",
-            "studyArmName": "Placebo",
-            "studyArmDescription": "Placebo",
-            "studyArmType": {
-              "codeId": "Code_61",
-              "code": "C174268",
-              "codeSystem": "http://www.cdisc.org",
-              "codeSystemVersion": "2022-12-16",
-              "decode": "Placebo Comparator Arm"
-            },
-            "studyArmDataOriginDescription": "Data collected from subjects",
-            "studyArmDataOriginType": {
-              "codeId": "Code_62",
-              "code": "C188866",
-              "codeSystem": "http://www.cdisc.org",
-              "codeSystemVersion": "2022-12-16",
-              "decode": "Data Generated Within Study"
-            }
-          },
-          "studyEpoch": {
-            "studyEpochId": "StudyEpoch_1",
-            "studyEpochName": "Screening",
-            "studyEpochDescription": "Screening Epoch",
-            "studyEpochType": {
-              "codeId": "Code_67",
-              "code": "C48262",
-              "codeSystem": "http://www.cdisc.org",
-              "codeSystemVersion": "2022-12-16",
-              "decode": "Trial Screening"
-            },
-            "previousStudyEpochId": null,
-            "nextStudyEpochId": "StudyEpoch_2",
-            "encounterIds": [
-              "Encounter_1",
-              "Encounter_2"
-            ]
-          },
-          "studyElements": [
-            {
-              "studyElementId": "StudyElement_1",
-              "studyElementName": "Screening",
-              "studyElementDescription": "Screening Element",
-              "transitionStartRule": {
-                "transitionRuleId": "TransitionRule_7",
-                "transitionRuleDescription": "Informed consent"
-              },
-              "transitionEndRule": {
-                "transitionRuleId": "TransitionRule_8",
-                "transitionRuleDescription": "Completion of all screening activities and no more than 2 weeks from informed consent"
-              }
-            }
+          "studyArmId": "StudyArm_1",
+          "studyEpochId": "StudyEpoch_1",
+          "studyElementIds": [
+            "StudyElement_1"
           ]
         },
         {
           "studyCellId": "StudyCell_2",
-          "studyArm": {
-            "studyArmId": "StudyArm_1",
-            "studyArmName": "Placebo",
-            "studyArmDescription": "Placebo",
-            "studyArmType": {
-              "codeId": "Code_61",
-              "code": "C174268",
-              "codeSystem": "http://www.cdisc.org",
-              "codeSystemVersion": "2022-12-16",
-              "decode": "Placebo Comparator Arm"
-            },
-            "studyArmDataOriginDescription": "Data collected from subjects",
-            "studyArmDataOriginType": {
-              "codeId": "Code_62",
-              "code": "C188866",
-              "codeSystem": "http://www.cdisc.org",
-              "codeSystemVersion": "2022-12-16",
-              "decode": "Data Generated Within Study"
-            }
-          },
-          "studyEpoch": {
-            "studyEpochId": "StudyEpoch_2",
-            "studyEpochName": "Treatment 1",
-            "studyEpochDescription": "Treatment Epoch",
-            "studyEpochType": {
-              "codeId": "Code_68",
-              "code": "C101526",
-              "codeSystem": "http://www.cdisc.org",
-              "codeSystemVersion": "2022-12-16",
-              "decode": "Treatment Epoch"
-            },
-            "previousStudyEpochId": "StudyEpoch_1",
-            "nextStudyEpochId": "StudyEpoch_3",
-            "encounterIds": [
-              "Encounter_3",
-              "Encounter_4",
-              "Encounter_5"
-            ]
-          },
-          "studyElements": [
-            {
-              "studyElementId": "StudyElement_2",
-              "studyElementName": "Placebo",
-              "studyElementDescription": "Placebo TTS (adhesive patches)",
-              "transitionStartRule": {
-                "transitionRuleId": "TransitionRule_9",
-                "transitionRuleDescription": "Administration\u00a0of\u00a0first\u00a0dose"
-              },
-              "transitionEndRule": null
-            }
+          "studyArmId": "StudyArm_1",
+          "studyEpochId": "StudyEpoch_2",
+          "studyElementIds": [
+            "StudyElement_2"
           ]
         },
         {
           "studyCellId": "StudyCell_3",
-          "studyArm": {
-            "studyArmId": "StudyArm_1",
-            "studyArmName": "Placebo",
-            "studyArmDescription": "Placebo",
-            "studyArmType": {
-              "codeId": "Code_61",
-              "code": "C174268",
-              "codeSystem": "http://www.cdisc.org",
-              "codeSystemVersion": "2022-12-16",
-              "decode": "Placebo Comparator Arm"
-            },
-            "studyArmDataOriginDescription": "Data collected from subjects",
-            "studyArmDataOriginType": {
-              "codeId": "Code_62",
-              "code": "C188866",
-              "codeSystem": "http://www.cdisc.org",
-              "codeSystemVersion": "2022-12-16",
-              "decode": "Data Generated Within Study"
-            }
-          },
-          "studyEpoch": {
-            "studyEpochId": "StudyEpoch_3",
-            "studyEpochName": "Treatment 2",
-            "studyEpochDescription": "Treatment Epoch",
-            "studyEpochType": {
-              "codeId": "Code_69",
-              "code": "C101526",
-              "codeSystem": "http://www.cdisc.org",
-              "codeSystemVersion": "2022-12-16",
-              "decode": "Treatment Epoch"
-            },
-            "previousStudyEpochId": "StudyEpoch_2",
-            "nextStudyEpochId": "StudyEpoch_4",
-            "encounterIds": [
-              "Encounter_6",
-              "Encounter_7",
-              "Encounter_8",
-              "Encounter_9",
-              "Encounter_10",
-              "Encounter_11",
-              "Encounter_12",
-              "Encounter_13",
-              "Encounter_14",
-              "Encounter_15",
-              "Encounter_16"
-            ]
-          },
-          "studyElements": [
-            {
-              "studyElementId": "StudyElement_2",
-              "studyElementName": "Placebo",
-              "studyElementDescription": "Placebo TTS (adhesive patches)",
-              "transitionStartRule": {
-                "transitionRuleId": "TransitionRule_9",
-                "transitionRuleDescription": "Administration\u00a0of\u00a0first\u00a0dose"
-              },
-              "transitionEndRule": null
-            }
+          "studyArmId": "StudyArm_1",
+          "studyEpochId": "StudyEpoch_3",
+          "studyElementIds": [
+            "StudyElement_2"
           ]
         },
         {
           "studyCellId": "StudyCell_4",
-          "studyArm": {
-            "studyArmId": "StudyArm_1",
-            "studyArmName": "Placebo",
-            "studyArmDescription": "Placebo",
-            "studyArmType": {
-              "codeId": "Code_61",
-              "code": "C174268",
-              "codeSystem": "http://www.cdisc.org",
-              "codeSystemVersion": "2022-12-16",
-              "decode": "Placebo Comparator Arm"
-            },
-            "studyArmDataOriginDescription": "Data collected from subjects",
-            "studyArmDataOriginType": {
-              "codeId": "Code_62",
-              "code": "C188866",
-              "codeSystem": "http://www.cdisc.org",
-              "codeSystemVersion": "2022-12-16",
-              "decode": "Data Generated Within Study"
-            }
-          },
-          "studyEpoch": {
-            "studyEpochId": "StudyEpoch_4",
-            "studyEpochName": "Treatment 3",
-            "studyEpochDescription": "Treatment Epoch",
-            "studyEpochType": {
-              "codeId": "Code_70",
-              "code": "C101526",
-              "codeSystem": "http://www.cdisc.org",
-              "codeSystemVersion": "2022-12-16",
-              "decode": "Treatment Epoch"
-            },
-            "previousStudyEpochId": "StudyEpoch_3",
-            "nextStudyEpochId": "StudyEpoch_5",
-            "encounterIds": [
-              "Encounter_17"
-            ]
-          },
-          "studyElements": [
-            {
-              "studyElementId": "StudyElement_2",
-              "studyElementName": "Placebo",
-              "studyElementDescription": "Placebo TTS (adhesive patches)",
-              "transitionStartRule": {
-                "transitionRuleId": "TransitionRule_9",
-                "transitionRuleDescription": "Administration\u00a0of\u00a0first\u00a0dose"
-              },
-              "transitionEndRule": null
-            }
+          "studyArmId": "StudyArm_1",
+          "studyEpochId": "StudyEpoch_4",
+          "studyElementIds": [
+            "StudyElement_2"
           ]
         },
         {
           "studyCellId": "StudyCell_5",
-          "studyArm": {
-            "studyArmId": "StudyArm_1",
-            "studyArmName": "Placebo",
-            "studyArmDescription": "Placebo",
-            "studyArmType": {
-              "codeId": "Code_61",
-              "code": "C174268",
-              "codeSystem": "http://www.cdisc.org",
-              "codeSystemVersion": "2022-12-16",
-              "decode": "Placebo Comparator Arm"
-            },
-            "studyArmDataOriginDescription": "Data collected from subjects",
-            "studyArmDataOriginType": {
-              "codeId": "Code_62",
-              "code": "C188866",
-              "codeSystem": "http://www.cdisc.org",
-              "codeSystemVersion": "2022-12-16",
-              "decode": "Data Generated Within Study"
-            }
-          },
-          "studyEpoch": {
-            "studyEpochId": "StudyEpoch_5",
-            "studyEpochName": "Follow-Up",
-            "studyEpochDescription": "Follow-up Epoch",
-            "studyEpochType": {
-              "codeId": "Code_71",
-              "code": "C99158",
-              "codeSystem": "http://www.cdisc.org",
-              "codeSystemVersion": "2022-12-16",
-              "decode": "Clinical Study Follow-up"
-            },
-            "previousStudyEpochId": "StudyEpoch_4",
-            "nextStudyEpochId": null,
-            "encounterIds": [
-              "Encounter_18"
-            ]
-          },
-          "studyElements": [
-            {
-              "studyElementId": "StudyElement_7",
-              "studyElementName": "Follow_up",
-              "studyElementDescription": "Follow Up Element",
-              "transitionStartRule": {
-                "transitionRuleId": "TransitionRule_14",
-                "transitionRuleDescription": "End\u00a0of\u00a0last\u00a0scheduled\u00a0visit\u00a0on\u00a0study\u00a0(including\u00a0early\u00a0termination)"
-              },
-              "transitionEndRule": {
-                "transitionRuleId": "TransitionRule_15",
-                "transitionRuleDescription": "Completion\u00a0of\u00a0all\u00a0specified\u00a0followup\u00a0activities\u00a0(which\u00a0vary\u00a0on\u00a0a\u00a0patient-by-patient\u00a0basis)"
-              }
-            }
+          "studyArmId": "StudyArm_1",
+          "studyEpochId": "StudyEpoch_5",
+          "studyElementIds": [
+            "StudyElement_7"
           ]
         },
         {
           "studyCellId": "StudyCell_6",
-          "studyArm": {
-            "studyArmId": "StudyArm_2",
-            "studyArmName": "Xanomeline Low Dose",
-            "studyArmDescription": "Active Substance",
-            "studyArmType": {
-              "codeId": "Code_63",
-              "code": "C174267",
-              "codeSystem": "http://www.cdisc.org",
-              "codeSystemVersion": "2022-12-16",
-              "decode": "Active Comparator Arm"
-            },
-            "studyArmDataOriginDescription": "Data collected from subjects",
-            "studyArmDataOriginType": {
-              "codeId": "Code_64",
-              "code": "C188866",
-              "codeSystem": "http://www.cdisc.org",
-              "codeSystemVersion": "2022-12-16",
-              "decode": "Data Generated Within Study"
-            }
-          },
-          "studyEpoch": {
-            "studyEpochId": "StudyEpoch_1",
-            "studyEpochName": "Screening",
-            "studyEpochDescription": "Screening Epoch",
-            "studyEpochType": {
-              "codeId": "Code_67",
-              "code": "C48262",
-              "codeSystem": "http://www.cdisc.org",
-              "codeSystemVersion": "2022-12-16",
-              "decode": "Trial Screening"
-            },
-            "previousStudyEpochId": null,
-            "nextStudyEpochId": "StudyEpoch_2",
-            "encounterIds": [
-              "Encounter_1",
-              "Encounter_2"
-            ]
-          },
-          "studyElements": [
-            {
-              "studyElementId": "StudyElement_1",
-              "studyElementName": "Screening",
-              "studyElementDescription": "Screening Element",
-              "transitionStartRule": {
-                "transitionRuleId": "TransitionRule_7",
-                "transitionRuleDescription": "Informed consent"
-              },
-              "transitionEndRule": {
-                "transitionRuleId": "TransitionRule_8",
-                "transitionRuleDescription": "Completion of all screening activities and no more than 2 weeks from informed consent"
-              }
-            }
+          "studyArmId": "StudyArm_2",
+          "studyEpochId": "StudyEpoch_1",
+          "studyElementIds": [
+            "StudyElement_1"
           ]
         },
         {
           "studyCellId": "StudyCell_7",
-          "studyArm": {
-            "studyArmId": "StudyArm_2",
-            "studyArmName": "Xanomeline Low Dose",
-            "studyArmDescription": "Active Substance",
-            "studyArmType": {
-              "codeId": "Code_63",
-              "code": "C174267",
-              "codeSystem": "http://www.cdisc.org",
-              "codeSystemVersion": "2022-12-16",
-              "decode": "Active Comparator Arm"
-            },
-            "studyArmDataOriginDescription": "Data collected from subjects",
-            "studyArmDataOriginType": {
-              "codeId": "Code_64",
-              "code": "C188866",
-              "codeSystem": "http://www.cdisc.org",
-              "codeSystemVersion": "2022-12-16",
-              "decode": "Data Generated Within Study"
-            }
-          },
-          "studyEpoch": {
-            "studyEpochId": "StudyEpoch_2",
-            "studyEpochName": "Treatment 1",
-            "studyEpochDescription": "Treatment Epoch",
-            "studyEpochType": {
-              "codeId": "Code_68",
-              "code": "C101526",
-              "codeSystem": "http://www.cdisc.org",
-              "codeSystemVersion": "2022-12-16",
-              "decode": "Treatment Epoch"
-            },
-            "previousStudyEpochId": "StudyEpoch_1",
-            "nextStudyEpochId": "StudyEpoch_3",
-            "encounterIds": [
-              "Encounter_3",
-              "Encounter_4",
-              "Encounter_5"
-            ]
-          },
-          "studyElements": [
-            {
-              "studyElementId": "StudyElement_3",
-              "studyElementName": "Low",
-              "studyElementDescription": "Xanomeline TTS (adhesive patches) 50 cm2, 54 mg",
-              "transitionStartRule": {
-                "transitionRuleId": "TransitionRule_10",
-                "transitionRuleDescription": "Administration\u00a0of\u00a0first\u00a0dose"
-              },
-              "transitionEndRule": null
-            }
+          "studyArmId": "StudyArm_2",
+          "studyEpochId": "StudyEpoch_2",
+          "studyElementIds": [
+            "StudyElement_3"
           ]
         },
         {
           "studyCellId": "StudyCell_8",
-          "studyArm": {
-            "studyArmId": "StudyArm_2",
-            "studyArmName": "Xanomeline Low Dose",
-            "studyArmDescription": "Active Substance",
-            "studyArmType": {
-              "codeId": "Code_63",
-              "code": "C174267",
-              "codeSystem": "http://www.cdisc.org",
-              "codeSystemVersion": "2022-12-16",
-              "decode": "Active Comparator Arm"
-            },
-            "studyArmDataOriginDescription": "Data collected from subjects",
-            "studyArmDataOriginType": {
-              "codeId": "Code_64",
-              "code": "C188866",
-              "codeSystem": "http://www.cdisc.org",
-              "codeSystemVersion": "2022-12-16",
-              "decode": "Data Generated Within Study"
-            }
-          },
-          "studyEpoch": {
-            "studyEpochId": "StudyEpoch_3",
-            "studyEpochName": "Treatment 2",
-            "studyEpochDescription": "Treatment Epoch",
-            "studyEpochType": {
-              "codeId": "Code_69",
-              "code": "C101526",
-              "codeSystem": "http://www.cdisc.org",
-              "codeSystemVersion": "2022-12-16",
-              "decode": "Treatment Epoch"
-            },
-            "previousStudyEpochId": "StudyEpoch_2",
-            "nextStudyEpochId": "StudyEpoch_4",
-            "encounterIds": [
-              "Encounter_6",
-              "Encounter_7",
-              "Encounter_8",
-              "Encounter_9",
-              "Encounter_10",
-              "Encounter_11",
-              "Encounter_12",
-              "Encounter_13",
-              "Encounter_14",
-              "Encounter_15",
-              "Encounter_16"
-            ]
-          },
-          "studyElements": [
-            {
-              "studyElementId": "StudyElement_3",
-              "studyElementName": "Low",
-              "studyElementDescription": "Xanomeline TTS (adhesive patches) 50 cm2, 54 mg",
-              "transitionStartRule": {
-                "transitionRuleId": "TransitionRule_10",
-                "transitionRuleDescription": "Administration\u00a0of\u00a0first\u00a0dose"
-              },
-              "transitionEndRule": null
-            }
+          "studyArmId": "StudyArm_2",
+          "studyEpochId": "StudyEpoch_3",
+          "studyElementIds": [
+            "StudyElement_3"
           ]
         },
         {
           "studyCellId": "StudyCell_9",
-          "studyArm": {
-            "studyArmId": "StudyArm_2",
-            "studyArmName": "Xanomeline Low Dose",
-            "studyArmDescription": "Active Substance",
-            "studyArmType": {
-              "codeId": "Code_63",
-              "code": "C174267",
-              "codeSystem": "http://www.cdisc.org",
-              "codeSystemVersion": "2022-12-16",
-              "decode": "Active Comparator Arm"
-            },
-            "studyArmDataOriginDescription": "Data collected from subjects",
-            "studyArmDataOriginType": {
-              "codeId": "Code_64",
-              "code": "C188866",
-              "codeSystem": "http://www.cdisc.org",
-              "codeSystemVersion": "2022-12-16",
-              "decode": "Data Generated Within Study"
-            }
-          },
-          "studyEpoch": {
-            "studyEpochId": "StudyEpoch_4",
-            "studyEpochName": "Treatment 3",
-            "studyEpochDescription": "Treatment Epoch",
-            "studyEpochType": {
-              "codeId": "Code_70",
-              "code": "C101526",
-              "codeSystem": "http://www.cdisc.org",
-              "codeSystemVersion": "2022-12-16",
-              "decode": "Treatment Epoch"
-            },
-            "previousStudyEpochId": "StudyEpoch_3",
-            "nextStudyEpochId": "StudyEpoch_5",
-            "encounterIds": [
-              "Encounter_17"
-            ]
-          },
-          "studyElements": [
-            {
-              "studyElementId": "StudyElement_3",
-              "studyElementName": "Low",
-              "studyElementDescription": "Xanomeline TTS (adhesive patches) 50 cm2, 54 mg",
-              "transitionStartRule": {
-                "transitionRuleId": "TransitionRule_10",
-                "transitionRuleDescription": "Administration\u00a0of\u00a0first\u00a0dose"
-              },
-              "transitionEndRule": null
-            }
+          "studyArmId": "StudyArm_2",
+          "studyEpochId": "StudyEpoch_4",
+          "studyElementIds": [
+            "StudyElement_3"
           ]
         },
         {
           "studyCellId": "StudyCell_10",
-          "studyArm": {
-            "studyArmId": "StudyArm_2",
-            "studyArmName": "Xanomeline Low Dose",
-            "studyArmDescription": "Active Substance",
-            "studyArmType": {
-              "codeId": "Code_63",
-              "code": "C174267",
-              "codeSystem": "http://www.cdisc.org",
-              "codeSystemVersion": "2022-12-16",
-              "decode": "Active Comparator Arm"
-            },
-            "studyArmDataOriginDescription": "Data collected from subjects",
-            "studyArmDataOriginType": {
-              "codeId": "Code_64",
-              "code": "C188866",
-              "codeSystem": "http://www.cdisc.org",
-              "codeSystemVersion": "2022-12-16",
-              "decode": "Data Generated Within Study"
-            }
-          },
-          "studyEpoch": {
-            "studyEpochId": "StudyEpoch_5",
-            "studyEpochName": "Follow-Up",
-            "studyEpochDescription": "Follow-up Epoch",
-            "studyEpochType": {
-              "codeId": "Code_71",
-              "code": "C99158",
-              "codeSystem": "http://www.cdisc.org",
-              "codeSystemVersion": "2022-12-16",
-              "decode": "Clinical Study Follow-up"
-            },
-            "previousStudyEpochId": "StudyEpoch_4",
-            "nextStudyEpochId": null,
-            "encounterIds": [
-              "Encounter_18"
-            ]
-          },
-          "studyElements": [
-            {
-              "studyElementId": "StudyElement_7",
-              "studyElementName": "Follow_up",
-              "studyElementDescription": "Follow Up Element",
-              "transitionStartRule": {
-                "transitionRuleId": "TransitionRule_14",
-                "transitionRuleDescription": "End\u00a0of\u00a0last\u00a0scheduled\u00a0visit\u00a0on\u00a0study\u00a0(including\u00a0early\u00a0termination)"
-              },
-              "transitionEndRule": {
-                "transitionRuleId": "TransitionRule_15",
-                "transitionRuleDescription": "Completion\u00a0of\u00a0all\u00a0specified\u00a0followup\u00a0activities\u00a0(which\u00a0vary\u00a0on\u00a0a\u00a0patient-by-patient\u00a0basis)"
-              }
-            }
+          "studyArmId": "StudyArm_2",
+          "studyEpochId": "StudyEpoch_5",
+          "studyElementIds": [
+            "StudyElement_7"
           ]
         },
         {
           "studyCellId": "StudyCell_11",
-          "studyArm": {
-            "studyArmId": "StudyArm_3",
-            "studyArmName": "Xanomeline High Dose",
-            "studyArmDescription": "Active Substance",
-            "studyArmType": {
-              "codeId": "Code_65",
-              "code": "C174267",
-              "codeSystem": "http://www.cdisc.org",
-              "codeSystemVersion": "2022-12-16",
-              "decode": "Active Comparator Arm"
-            },
-            "studyArmDataOriginDescription": "Data collected from subjects",
-            "studyArmDataOriginType": {
-              "codeId": "Code_66",
-              "code": "C188866",
-              "codeSystem": "http://www.cdisc.org",
-              "codeSystemVersion": "2022-12-16",
-              "decode": "Data Generated Within Study"
-            }
-          },
-          "studyEpoch": {
-            "studyEpochId": "StudyEpoch_1",
-            "studyEpochName": "Screening",
-            "studyEpochDescription": "Screening Epoch",
-            "studyEpochType": {
-              "codeId": "Code_67",
-              "code": "C48262",
-              "codeSystem": "http://www.cdisc.org",
-              "codeSystemVersion": "2022-12-16",
-              "decode": "Trial Screening"
-            },
-            "previousStudyEpochId": null,
-            "nextStudyEpochId": "StudyEpoch_2",
-            "encounterIds": [
-              "Encounter_1",
-              "Encounter_2"
-            ]
-          },
-          "studyElements": [
-            {
-              "studyElementId": "StudyElement_1",
-              "studyElementName": "Screening",
-              "studyElementDescription": "Screening Element",
-              "transitionStartRule": {
-                "transitionRuleId": "TransitionRule_7",
-                "transitionRuleDescription": "Informed consent"
-              },
-              "transitionEndRule": {
-                "transitionRuleId": "TransitionRule_8",
-                "transitionRuleDescription": "Completion of all screening activities and no more than 2 weeks from informed consent"
-              }
-            }
+          "studyArmId": "StudyArm_3",
+          "studyEpochId": "StudyEpoch_1",
+          "studyElementIds": [
+            "StudyElement_1"
           ]
         },
         {
           "studyCellId": "StudyCell_12",
-          "studyArm": {
-            "studyArmId": "StudyArm_3",
-            "studyArmName": "Xanomeline High Dose",
-            "studyArmDescription": "Active Substance",
-            "studyArmType": {
-              "codeId": "Code_65",
-              "code": "C174267",
-              "codeSystem": "http://www.cdisc.org",
-              "codeSystemVersion": "2022-12-16",
-              "decode": "Active Comparator Arm"
-            },
-            "studyArmDataOriginDescription": "Data collected from subjects",
-            "studyArmDataOriginType": {
-              "codeId": "Code_66",
-              "code": "C188866",
-              "codeSystem": "http://www.cdisc.org",
-              "codeSystemVersion": "2022-12-16",
-              "decode": "Data Generated Within Study"
-            }
-          },
-          "studyEpoch": {
-            "studyEpochId": "StudyEpoch_2",
-            "studyEpochName": "Treatment 1",
-            "studyEpochDescription": "Treatment Epoch",
-            "studyEpochType": {
-              "codeId": "Code_68",
-              "code": "C101526",
-              "codeSystem": "http://www.cdisc.org",
-              "codeSystemVersion": "2022-12-16",
-              "decode": "Treatment Epoch"
-            },
-            "previousStudyEpochId": "StudyEpoch_1",
-            "nextStudyEpochId": "StudyEpoch_3",
-            "encounterIds": [
-              "Encounter_3",
-              "Encounter_4",
-              "Encounter_5"
-            ]
-          },
-          "studyElements": [
-            {
-              "studyElementId": "StudyElement_4",
-              "studyElementName": "High_Start",
-              "studyElementDescription": "Xanomeline TTS (adhesive patches) 50 cm2, 54 mg",
-              "transitionStartRule": {
-                "transitionRuleId": "TransitionRule_11",
-                "transitionRuleDescription": "Randomized"
-              },
-              "transitionEndRule": null
-            }
+          "studyArmId": "StudyArm_3",
+          "studyEpochId": "StudyEpoch_2",
+          "studyElementIds": [
+            "StudyElement_4"
           ]
         },
         {
           "studyCellId": "StudyCell_13",
-          "studyArm": {
-            "studyArmId": "StudyArm_3",
-            "studyArmName": "Xanomeline High Dose",
-            "studyArmDescription": "Active Substance",
-            "studyArmType": {
-              "codeId": "Code_65",
-              "code": "C174267",
-              "codeSystem": "http://www.cdisc.org",
-              "codeSystemVersion": "2022-12-16",
-              "decode": "Active Comparator Arm"
-            },
-            "studyArmDataOriginDescription": "Data collected from subjects",
-            "studyArmDataOriginType": {
-              "codeId": "Code_66",
-              "code": "C188866",
-              "codeSystem": "http://www.cdisc.org",
-              "codeSystemVersion": "2022-12-16",
-              "decode": "Data Generated Within Study"
-            }
-          },
-          "studyEpoch": {
-            "studyEpochId": "StudyEpoch_3",
-            "studyEpochName": "Treatment 2",
-            "studyEpochDescription": "Treatment Epoch",
-            "studyEpochType": {
-              "codeId": "Code_69",
-              "code": "C101526",
-              "codeSystem": "http://www.cdisc.org",
-              "codeSystemVersion": "2022-12-16",
-              "decode": "Treatment Epoch"
-            },
-            "previousStudyEpochId": "StudyEpoch_2",
-            "nextStudyEpochId": "StudyEpoch_4",
-            "encounterIds": [
-              "Encounter_6",
-              "Encounter_7",
-              "Encounter_8",
-              "Encounter_9",
-              "Encounter_10",
-              "Encounter_11",
-              "Encounter_12",
-              "Encounter_13",
-              "Encounter_14",
-              "Encounter_15",
-              "Encounter_16"
-            ]
-          },
-          "studyElements": [
-            {
-              "studyElementId": "StudyElement_5",
-              "studyElementName": "High_Middle",
-              "studyElementDescription": "Xanomeline TTS (adhesive patches) 50 cm2, 54 mg + 25 cm2, 27 mg",
-              "transitionStartRule": {
-                "transitionRuleId": "TransitionRule_12",
-                "transitionRuleDescription": "Administration\u00a0of\u00a0first\u00a0dose\u00a0(from\u00a0patches\u00a0supplied\u00a0at\u00a0Visit\u00a04)"
-              },
-              "transitionEndRule": null
-            }
+          "studyArmId": "StudyArm_3",
+          "studyEpochId": "StudyEpoch_3",
+          "studyElementIds": [
+            "StudyElement_5"
           ]
         },
         {
           "studyCellId": "StudyCell_14",
-          "studyArm": {
-            "studyArmId": "StudyArm_3",
-            "studyArmName": "Xanomeline High Dose",
-            "studyArmDescription": "Active Substance",
-            "studyArmType": {
-              "codeId": "Code_65",
-              "code": "C174267",
-              "codeSystem": "http://www.cdisc.org",
-              "codeSystemVersion": "2022-12-16",
-              "decode": "Active Comparator Arm"
-            },
-            "studyArmDataOriginDescription": "Data collected from subjects",
-            "studyArmDataOriginType": {
-              "codeId": "Code_66",
-              "code": "C188866",
-              "codeSystem": "http://www.cdisc.org",
-              "codeSystemVersion": "2022-12-16",
-              "decode": "Data Generated Within Study"
-            }
-          },
-          "studyEpoch": {
-            "studyEpochId": "StudyEpoch_4",
-            "studyEpochName": "Treatment 3",
-            "studyEpochDescription": "Treatment Epoch",
-            "studyEpochType": {
-              "codeId": "Code_70",
-              "code": "C101526",
-              "codeSystem": "http://www.cdisc.org",
-              "codeSystemVersion": "2022-12-16",
-              "decode": "Treatment Epoch"
-            },
-            "previousStudyEpochId": "StudyEpoch_3",
-            "nextStudyEpochId": "StudyEpoch_5",
-            "encounterIds": [
-              "Encounter_17"
-            ]
-          },
-          "studyElements": [
-            {
-              "studyElementId": "StudyElement_6",
-              "studyElementName": "High_End",
-              "studyElementDescription": "Xanomeline TTS (adhesive patches) 50 cm2, 54 mg",
-              "transitionStartRule": {
-                "transitionRuleId": "TransitionRule_13",
-                "transitionRuleDescription": "Administration\u00a0of\u00a0first\u00a0dose\u00a0(from\u00a0patches\u00a0supplied\u00a0at\u00a0Visit\u00a012)"
-              },
-              "transitionEndRule": null
-            }
+          "studyArmId": "StudyArm_3",
+          "studyEpochId": "StudyEpoch_4",
+          "studyElementIds": [
+            "StudyElement_6"
           ]
         },
         {
           "studyCellId": "StudyCell_15",
-          "studyArm": {
-            "studyArmId": "StudyArm_3",
-            "studyArmName": "Xanomeline High Dose",
-            "studyArmDescription": "Active Substance",
-            "studyArmType": {
-              "codeId": "Code_65",
-              "code": "C174267",
-              "codeSystem": "http://www.cdisc.org",
-              "codeSystemVersion": "2022-12-16",
-              "decode": "Active Comparator Arm"
-            },
-            "studyArmDataOriginDescription": "Data collected from subjects",
-            "studyArmDataOriginType": {
-              "codeId": "Code_66",
-              "code": "C188866",
-              "codeSystem": "http://www.cdisc.org",
-              "codeSystemVersion": "2022-12-16",
-              "decode": "Data Generated Within Study"
-            }
-          },
-          "studyEpoch": {
-            "studyEpochId": "StudyEpoch_5",
-            "studyEpochName": "Follow-Up",
-            "studyEpochDescription": "Follow-up Epoch",
-            "studyEpochType": {
-              "codeId": "Code_71",
-              "code": "C99158",
-              "codeSystem": "http://www.cdisc.org",
-              "codeSystemVersion": "2022-12-16",
-              "decode": "Clinical Study Follow-up"
-            },
-            "previousStudyEpochId": "StudyEpoch_4",
-            "nextStudyEpochId": null,
-            "encounterIds": [
-              "Encounter_18"
-            ]
-          },
-          "studyElements": [
-            {
-              "studyElementId": "StudyElement_7",
-              "studyElementName": "Follow_up",
-              "studyElementDescription": "Follow Up Element",
-              "transitionStartRule": {
-                "transitionRuleId": "TransitionRule_14",
-                "transitionRuleDescription": "End\u00a0of\u00a0last\u00a0scheduled\u00a0visit\u00a0on\u00a0study\u00a0(including\u00a0early\u00a0termination)"
-              },
-              "transitionEndRule": {
-                "transitionRuleId": "TransitionRule_15",
-                "transitionRuleDescription": "Completion\u00a0of\u00a0all\u00a0specified\u00a0followup\u00a0activities\u00a0(which\u00a0vary\u00a0on\u00a0a\u00a0patient-by-patient\u00a0basis)"
-              }
-            }
+          "studyArmId": "StudyArm_3",
+          "studyEpochId": "StudyEpoch_5",
+          "studyElementIds": [
+            "StudyElement_7"
           ]
         }
       ],
@@ -1129,6 +412,7 @@
       ],
       "studyScheduleTimelines": [
         {
+          "mainTimeline": true,
           "scheduleTimelineId": "ScheduleTimeline_1",
           "scheduleTimelineName": "Main Timeline",
           "scheduleTimelineDescription": "This is the main timeline for the study design.",
@@ -1143,20 +427,19 @@
             {
               "scheduledInstanceId": "ScheduledActivityInstance_1",
               "scheduledInstanceType": "ACTIVITY",
-              "scheduleSequenceNumber": 1,
-              "scheduleTimelineExitId": "",
-              "scheduledInstanceEncounterId": "Encounter_1",
+              "scheduleTimelineExitId": null,
               "scheduledInstanceTimings": [
                 {
                   "timingId": "Timing_1",
                   "timingType": {
-                    "codeId": "Code_81",
-                    "code": "C99901x1",
+                    "codeId": "Code_82",
+                    "code": "C99901x2",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2022-12-16",
-                    "decode": "After"
+                    "decode": "Before"
                   },
-                  "timingValue": "0..14 Days",
+                  "timingValue": "PT0M",
+                  "timingDescription": null,
                   "timingRelativeToFrom": {
                     "codeId": "Code_84",
                     "code": "C99900x1",
@@ -1164,12 +447,16 @@
                     "codeSystemVersion": "2022-12-16",
                     "decode": "Start to Start"
                   },
-                  "timingWindow": "",
                   "relativeFromScheduledInstanceId": "ScheduledActivityInstance_1",
-                  "relativeToScheduledInstanceId": "ScheduledActivityInstance_2"
+                  "relativeToScheduledInstanceId": "ScheduledActivityInstance_2",
+                  "timingWindowLower": null,
+                  "timingWindowUpper": null,
+                  "timingWindow": null
                 }
               ],
-              "scheduledInstanceTimelineId": "",
+              "scheduledInstanceTimelineId": null,
+              "defaultConditionId": "ScheduledActivityInstance_2",
+              "epochId": "StudyEpoch_1",
               "activityIds": [
                 "Activity_1",
                 "Activity_2",
@@ -1194,25 +481,25 @@
                 "Activity_29",
                 "Activity_30",
                 "Activity_31"
-              ]
+              ],
+              "scheduledActivityInstanceEncounterId": "Encounter_1"
             },
             {
               "scheduledInstanceId": "ScheduledActivityInstance_2",
               "scheduledInstanceType": "ACTIVITY",
-              "scheduleSequenceNumber": 2,
-              "scheduleTimelineExitId": "",
-              "scheduledInstanceEncounterId": "Encounter_2",
+              "scheduleTimelineExitId": null,
               "scheduledInstanceTimings": [
                 {
                   "timingId": "Timing_2",
                   "timingType": {
-                    "codeId": "Code_86",
-                    "code": "C99901x1",
+                    "codeId": "Code_87",
+                    "code": "C99901x2",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2022-12-16",
-                    "decode": "After"
+                    "decode": "Before"
                   },
-                  "timingValue": "24 Hours",
+                  "timingValue": "PT24H",
+                  "timingDescription": "24 Hours",
                   "timingRelativeToFrom": {
                     "codeId": "Code_89",
                     "code": "C99900x1",
@@ -1220,24 +507,27 @@
                     "codeSystemVersion": "2022-12-16",
                     "decode": "Start to Start"
                   },
-                  "timingWindow": "",
                   "relativeFromScheduledInstanceId": "ScheduledActivityInstance_2",
-                  "relativeToScheduledInstanceId": "ScheduledActivityInstance_3"
+                  "relativeToScheduledInstanceId": "ScheduledActivityInstance_3",
+                  "timingWindowLower": null,
+                  "timingWindowUpper": null,
+                  "timingWindow": null
                 }
               ],
-              "scheduledInstanceTimelineId": "",
+              "scheduledInstanceTimelineId": null,
+              "defaultConditionId": "ScheduledActivityInstance_3",
+              "epochId": "StudyEpoch_1",
               "activityIds": [
                 "Activity_13",
                 "Activity_14",
                 "Activity_31"
-              ]
+              ],
+              "scheduledActivityInstanceEncounterId": "Encounter_2"
             },
             {
               "scheduledInstanceId": "ScheduledActivityInstance_3",
               "scheduledInstanceType": "ACTIVITY",
-              "scheduleSequenceNumber": 3,
-              "scheduleTimelineExitId": "",
-              "scheduledInstanceEncounterId": "Encounter_3",
+              "scheduleTimelineExitId": null,
               "scheduledInstanceTimings": [
                 {
                   "timingId": "Timing_3",
@@ -1248,7 +538,8 @@
                     "codeSystemVersion": "2022-12-16",
                     "decode": "Fixed Reference"
                   },
-                  "timingValue": "",
+                  "timingValue": "PT0M",
+                  "timingDescription": null,
                   "timingRelativeToFrom": {
                     "codeId": "Code_94",
                     "code": "C99900x1",
@@ -1256,12 +547,16 @@
                     "codeSystemVersion": "2022-12-16",
                     "decode": "Start to Start"
                   },
-                  "timingWindow": "",
                   "relativeFromScheduledInstanceId": "ScheduledActivityInstance_3",
-                  "relativeToScheduledInstanceId": "ScheduledActivityInstance_3"
+                  "relativeToScheduledInstanceId": "ScheduledActivityInstance_3",
+                  "timingWindowLower": null,
+                  "timingWindowUpper": null,
+                  "timingWindow": null
                 }
               ],
-              "scheduledInstanceTimelineId": "",
+              "scheduledInstanceTimelineId": null,
+              "defaultConditionId": "ScheduledActivityInstance_4",
+              "epochId": "StudyEpoch_2",
               "activityIds": [
                 "Activity_12",
                 "Activity_13",
@@ -1274,25 +569,25 @@
                 "Activity_29",
                 "Activity_30",
                 "Activity_31"
-              ]
+              ],
+              "scheduledActivityInstanceEncounterId": "Encounter_3"
             },
             {
               "scheduledInstanceId": "ScheduledActivityInstance_4",
               "scheduledInstanceType": "ACTIVITY",
-              "scheduleSequenceNumber": 4,
-              "scheduleTimelineExitId": "",
-              "scheduledInstanceEncounterId": "Encounter_4",
+              "scheduleTimelineExitId": null,
               "scheduledInstanceTimings": [
                 {
                   "timingId": "Timing_4",
                   "timingType": {
-                    "codeId": "Code_97",
-                    "code": "C99901x2",
+                    "codeId": "Code_96",
+                    "code": "C99901x1",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2022-12-16",
-                    "decode": "Before"
+                    "decode": "After"
                   },
-                  "timingValue": "+13 Days",
+                  "timingValue": "P13D",
+                  "timingDescription": "+13 Days",
                   "timingRelativeToFrom": {
                     "codeId": "Code_99",
                     "code": "C99900x1",
@@ -1300,35 +595,39 @@
                     "codeSystemVersion": "2022-12-16",
                     "decode": "Start to Start"
                   },
-                  "timingWindow": "",
                   "relativeFromScheduledInstanceId": "ScheduledActivityInstance_4",
-                  "relativeToScheduledInstanceId": "ScheduledActivityInstance_3"
+                  "relativeToScheduledInstanceId": "ScheduledActivityInstance_3",
+                  "timingWindowLower": null,
+                  "timingWindowUpper": null,
+                  "timingWindow": null
                 }
               ],
-              "scheduledInstanceTimelineId": "",
+              "scheduledInstanceTimelineId": null,
+              "defaultConditionId": "ScheduledActivityInstance_5",
+              "epochId": "StudyEpoch_2",
               "activityIds": [
                 "Activity_11",
                 "Activity_13",
                 "Activity_14"
-              ]
+              ],
+              "scheduledActivityInstanceEncounterId": "Encounter_4"
             },
             {
               "scheduledInstanceId": "ScheduledActivityInstance_5",
               "scheduledInstanceType": "ACTIVITY",
-              "scheduleSequenceNumber": 5,
-              "scheduleTimelineExitId": "",
-              "scheduledInstanceEncounterId": "Encounter_5",
+              "scheduleTimelineExitId": null,
               "scheduledInstanceTimings": [
                 {
                   "timingId": "Timing_5",
                   "timingType": {
-                    "codeId": "Code_102",
-                    "code": "C99901x2",
+                    "codeId": "Code_101",
+                    "code": "C99901x1",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2022-12-16",
-                    "decode": "Before"
+                    "decode": "After"
                   },
-                  "timingValue": "+1 Days",
+                  "timingValue": "P1D",
+                  "timingDescription": "+1 Days",
                   "timingRelativeToFrom": {
                     "codeId": "Code_104",
                     "code": "C99900x1",
@@ -1336,12 +635,16 @@
                     "codeSystemVersion": "2022-12-16",
                     "decode": "Start to Start"
                   },
-                  "timingWindow": "",
                   "relativeFromScheduledInstanceId": "ScheduledActivityInstance_5",
-                  "relativeToScheduledInstanceId": "ScheduledActivityInstance_4"
+                  "relativeToScheduledInstanceId": "ScheduledActivityInstance_4",
+                  "timingWindowLower": null,
+                  "timingWindowUpper": null,
+                  "timingWindow": null
                 }
               ],
-              "scheduledInstanceTimelineId": "",
+              "scheduledInstanceTimelineId": null,
+              "defaultConditionId": "ScheduledActivityInstance_6",
+              "epochId": "StudyEpoch_2",
               "activityIds": [
                 "Activity_13",
                 "Activity_16",
@@ -1353,25 +656,25 @@
                 "Activity_25",
                 "Activity_30",
                 "Activity_31"
-              ]
+              ],
+              "scheduledActivityInstanceEncounterId": "Encounter_5"
             },
             {
               "scheduledInstanceId": "ScheduledActivityInstance_6",
               "scheduledInstanceType": "ACTIVITY",
-              "scheduleSequenceNumber": 6,
-              "scheduleTimelineExitId": "",
-              "scheduledInstanceEncounterId": "Encounter_6",
+              "scheduleTimelineExitId": null,
               "scheduledInstanceTimings": [
                 {
                   "timingId": "Timing_6",
                   "timingType": {
-                    "codeId": "Code_107",
-                    "code": "C99901x2",
+                    "codeId": "Code_106",
+                    "code": "C99901x1",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2022-12-16",
-                    "decode": "Before"
+                    "decode": "After"
                   },
-                  "timingValue": "+14 Days",
+                  "timingValue": "P14D",
+                  "timingDescription": "+14 Days",
                   "timingRelativeToFrom": {
                     "codeId": "Code_109",
                     "code": "C99900x1",
@@ -1379,12 +682,16 @@
                     "codeSystemVersion": "2022-12-16",
                     "decode": "Start to Start"
                   },
-                  "timingWindow": "",
                   "relativeFromScheduledInstanceId": "ScheduledActivityInstance_6",
-                  "relativeToScheduledInstanceId": "ScheduledActivityInstance_5"
+                  "relativeToScheduledInstanceId": "ScheduledActivityInstance_5",
+                  "timingWindowLower": null,
+                  "timingWindowUpper": null,
+                  "timingWindow": null
                 }
               ],
-              "scheduledInstanceTimelineId": "",
+              "scheduledInstanceTimelineId": null,
+              "defaultConditionId": "ScheduledActivityInstance_7",
+              "epochId": "StudyEpoch_3",
               "activityIds": [
                 "Activity_13",
                 "Activity_16",
@@ -1395,25 +702,25 @@
                 "Activity_25",
                 "Activity_30",
                 "Activity_31"
-              ]
+              ],
+              "scheduledActivityInstanceEncounterId": "Encounter_6"
             },
             {
               "scheduledInstanceId": "ScheduledActivityInstance_7",
               "scheduledInstanceType": "ACTIVITY",
-              "scheduleSequenceNumber": 7,
-              "scheduleTimelineExitId": "",
-              "scheduledInstanceEncounterId": "Encounter_7",
+              "scheduleTimelineExitId": null,
               "scheduledInstanceTimings": [
                 {
                   "timingId": "Timing_7",
                   "timingType": {
-                    "codeId": "Code_112",
-                    "code": "C99901x2",
+                    "codeId": "Code_111",
+                    "code": "C99901x1",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2022-12-16",
-                    "decode": "Before"
+                    "decode": "After"
                   },
-                  "timingValue": "+1 Days",
+                  "timingValue": "P1D",
+                  "timingDescription": "+1 Days",
                   "timingRelativeToFrom": {
                     "codeId": "Code_114",
                     "code": "C99900x1",
@@ -1421,33 +728,37 @@
                     "codeSystemVersion": "2022-12-16",
                     "decode": "Start to Start"
                   },
-                  "timingWindow": "",
                   "relativeFromScheduledInstanceId": "ScheduledActivityInstance_7",
-                  "relativeToScheduledInstanceId": "ScheduledActivityInstance_6"
+                  "relativeToScheduledInstanceId": "ScheduledActivityInstance_6",
+                  "timingWindowLower": null,
+                  "timingWindowUpper": null,
+                  "timingWindow": null
                 }
               ],
-              "scheduledInstanceTimelineId": "",
+              "scheduledInstanceTimelineId": null,
+              "defaultConditionId": "ScheduledActivityInstance_8",
+              "epochId": "StudyEpoch_3",
               "activityIds": [
                 "Activity_15"
-              ]
+              ],
+              "scheduledActivityInstanceEncounterId": "Encounter_7"
             },
             {
               "scheduledInstanceId": "ScheduledActivityInstance_8",
               "scheduledInstanceType": "ACTIVITY",
-              "scheduleSequenceNumber": 8,
-              "scheduleTimelineExitId": "",
-              "scheduledInstanceEncounterId": "Encounter_8",
+              "scheduleTimelineExitId": null,
               "scheduledInstanceTimings": [
                 {
                   "timingId": "Timing_8",
                   "timingType": {
-                    "codeId": "Code_117",
-                    "code": "C99901x2",
+                    "codeId": "Code_116",
+                    "code": "C99901x1",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2022-12-16",
-                    "decode": "Before"
+                    "decode": "After"
                   },
-                  "timingValue": "+13 Days",
+                  "timingValue": "P13D",
+                  "timingDescription": "+13 Days",
                   "timingRelativeToFrom": {
                     "codeId": "Code_119",
                     "code": "C99900x1",
@@ -1455,12 +766,16 @@
                     "codeSystemVersion": "2022-12-16",
                     "decode": "Start to Start"
                   },
-                  "timingWindow": "",
                   "relativeFromScheduledInstanceId": "ScheduledActivityInstance_8",
-                  "relativeToScheduledInstanceId": "ScheduledActivityInstance_7"
+                  "relativeToScheduledInstanceId": "ScheduledActivityInstance_7",
+                  "timingWindowLower": null,
+                  "timingWindowUpper": null,
+                  "timingWindow": null
                 }
               ],
-              "scheduledInstanceTimelineId": "",
+              "scheduledInstanceTimelineId": null,
+              "defaultConditionId": "ScheduledActivityInstance_9",
+              "epochId": "StudyEpoch_3",
               "activityIds": [
                 "Activity_13",
                 "Activity_16",
@@ -1471,25 +786,25 @@
                 "Activity_25",
                 "Activity_30",
                 "Activity_31"
-              ]
+              ],
+              "scheduledActivityInstanceEncounterId": "Encounter_8"
             },
             {
               "scheduledInstanceId": "ScheduledActivityInstance_9",
               "scheduledInstanceType": "ACTIVITY",
-              "scheduleSequenceNumber": 9,
-              "scheduleTimelineExitId": "",
-              "scheduledInstanceEncounterId": "Encounter_9",
+              "scheduleTimelineExitId": null,
               "scheduledInstanceTimings": [
                 {
                   "timingId": "Timing_9",
                   "timingType": {
-                    "codeId": "Code_122",
-                    "code": "C99901x2",
+                    "codeId": "Code_121",
+                    "code": "C99901x1",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2022-12-16",
-                    "decode": "Before"
+                    "decode": "After"
                   },
-                  "timingValue": "+14 Days",
+                  "timingValue": "P14D",
+                  "timingDescription": "+14 Days",
                   "timingRelativeToFrom": {
                     "codeId": "Code_124",
                     "code": "C99900x1",
@@ -1497,12 +812,16 @@
                     "codeSystemVersion": "2022-12-16",
                     "decode": "Start to Start"
                   },
-                  "timingWindow": "",
                   "relativeFromScheduledInstanceId": "ScheduledActivityInstance_9",
-                  "relativeToScheduledInstanceId": "ScheduledActivityInstance_8"
+                  "relativeToScheduledInstanceId": "ScheduledActivityInstance_8",
+                  "timingWindowLower": null,
+                  "timingWindowUpper": null,
+                  "timingWindow": null
                 }
               ],
-              "scheduledInstanceTimelineId": "",
+              "scheduledInstanceTimelineId": null,
+              "defaultConditionId": "ScheduledActivityInstance_10",
+              "epochId": "StudyEpoch_3",
               "activityIds": [
                 "Activity_13",
                 "Activity_16",
@@ -1515,25 +834,25 @@
                 "Activity_29",
                 "Activity_30",
                 "Activity_31"
-              ]
+              ],
+              "scheduledActivityInstanceEncounterId": "Encounter_9"
             },
             {
               "scheduledInstanceId": "ScheduledActivityInstance_10",
               "scheduledInstanceType": "ACTIVITY",
-              "scheduleSequenceNumber": 10,
-              "scheduleTimelineExitId": "",
-              "scheduledInstanceEncounterId": "Encounter_10",
+              "scheduleTimelineExitId": null,
               "scheduledInstanceTimings": [
                 {
                   "timingId": "Timing_10",
                   "timingType": {
-                    "codeId": "Code_127",
-                    "code": "C99901x2",
+                    "codeId": "Code_126",
+                    "code": "C99901x1",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2022-12-16",
-                    "decode": "Before"
+                    "decode": "After"
                   },
-                  "timingValue": "+1 Days",
+                  "timingValue": "P1D",
+                  "timingDescription": "+1 Days",
                   "timingRelativeToFrom": {
                     "codeId": "Code_129",
                     "code": "C99900x1",
@@ -1541,33 +860,37 @@
                     "codeSystemVersion": "2022-12-16",
                     "decode": "Start to Start"
                   },
-                  "timingWindow": "",
                   "relativeFromScheduledInstanceId": "ScheduledActivityInstance_10",
-                  "relativeToScheduledInstanceId": "ScheduledActivityInstance_9"
+                  "relativeToScheduledInstanceId": "ScheduledActivityInstance_9",
+                  "timingWindowLower": null,
+                  "timingWindowUpper": null,
+                  "timingWindow": null
                 }
               ],
-              "scheduledInstanceTimelineId": "",
+              "scheduledInstanceTimelineId": null,
+              "defaultConditionId": "ScheduledActivityInstance_11",
+              "epochId": "StudyEpoch_3",
               "activityIds": [
                 "Activity_30"
-              ]
+              ],
+              "scheduledActivityInstanceEncounterId": "Encounter_10"
             },
             {
               "scheduledInstanceId": "ScheduledActivityInstance_11",
               "scheduledInstanceType": "ACTIVITY",
-              "scheduleSequenceNumber": 11,
-              "scheduleTimelineExitId": "",
-              "scheduledInstanceEncounterId": "Encounter_11",
+              "scheduleTimelineExitId": null,
               "scheduledInstanceTimings": [
                 {
                   "timingId": "Timing_11",
                   "timingType": {
-                    "codeId": "Code_132",
-                    "code": "C99901x2",
+                    "codeId": "Code_131",
+                    "code": "C99901x1",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2022-12-16",
-                    "decode": "Before"
+                    "decode": "After"
                   },
-                  "timingValue": "+27 Days",
+                  "timingValue": "P27D",
+                  "timingDescription": "+27 Days",
                   "timingRelativeToFrom": {
                     "codeId": "Code_134",
                     "code": "C99900x1",
@@ -1575,12 +898,16 @@
                     "codeSystemVersion": "2022-12-16",
                     "decode": "Start to Start"
                   },
-                  "timingWindow": "",
                   "relativeFromScheduledInstanceId": "ScheduledActivityInstance_11",
-                  "relativeToScheduledInstanceId": "ScheduledActivityInstance_10"
+                  "relativeToScheduledInstanceId": "ScheduledActivityInstance_10",
+                  "timingWindowLower": null,
+                  "timingWindowUpper": null,
+                  "timingWindow": null
                 }
               ],
-              "scheduledInstanceTimelineId": "",
+              "scheduledInstanceTimelineId": null,
+              "defaultConditionId": "ScheduledActivityInstance_12",
+              "epochId": "StudyEpoch_3",
               "activityIds": [
                 "Activity_13",
                 "Activity_16",
@@ -1592,25 +919,25 @@
                 "Activity_25",
                 "Activity_30",
                 "Activity_31"
-              ]
+              ],
+              "scheduledActivityInstanceEncounterId": "Encounter_11"
             },
             {
               "scheduledInstanceId": "ScheduledActivityInstance_12",
               "scheduledInstanceType": "ACTIVITY",
-              "scheduleSequenceNumber": 12,
-              "scheduleTimelineExitId": "",
-              "scheduledInstanceEncounterId": "Encounter_12",
+              "scheduleTimelineExitId": null,
               "scheduledInstanceTimings": [
                 {
                   "timingId": "Timing_12",
                   "timingType": {
-                    "codeId": "Code_137",
-                    "code": "C99901x2",
+                    "codeId": "Code_136",
+                    "code": "C99901x1",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2022-12-16",
-                    "decode": "Before"
+                    "decode": "After"
                   },
-                  "timingValue": "+1 Days",
+                  "timingValue": "P1D",
+                  "timingDescription": "+1 Days",
                   "timingRelativeToFrom": {
                     "codeId": "Code_139",
                     "code": "C99900x1",
@@ -1618,33 +945,37 @@
                     "codeSystemVersion": "2022-12-16",
                     "decode": "Start to Start"
                   },
-                  "timingWindow": "",
                   "relativeFromScheduledInstanceId": "ScheduledActivityInstance_12",
-                  "relativeToScheduledInstanceId": "ScheduledActivityInstance_11"
+                  "relativeToScheduledInstanceId": "ScheduledActivityInstance_11",
+                  "timingWindowLower": null,
+                  "timingWindowUpper": null,
+                  "timingWindow": null
                 }
               ],
-              "scheduledInstanceTimelineId": "",
+              "scheduledInstanceTimelineId": null,
+              "defaultConditionId": "ScheduledActivityInstance_13",
+              "epochId": "StudyEpoch_3",
               "activityIds": [
                 "Activity_30"
-              ]
+              ],
+              "scheduledActivityInstanceEncounterId": "Encounter_12"
             },
             {
               "scheduledInstanceId": "ScheduledActivityInstance_13",
               "scheduledInstanceType": "ACTIVITY",
-              "scheduleSequenceNumber": 13,
-              "scheduleTimelineExitId": "",
-              "scheduledInstanceEncounterId": "Encounter_13",
+              "scheduleTimelineExitId": null,
               "scheduledInstanceTimings": [
                 {
                   "timingId": "Timing_13",
                   "timingType": {
-                    "codeId": "Code_142",
-                    "code": "C99901x2",
+                    "codeId": "Code_141",
+                    "code": "C99901x1",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2022-12-16",
-                    "decode": "Before"
+                    "decode": "After"
                   },
-                  "timingValue": "+27 Days",
+                  "timingValue": "P27D",
+                  "timingDescription": "+27 Days",
                   "timingRelativeToFrom": {
                     "codeId": "Code_144",
                     "code": "C99900x1",
@@ -1652,12 +983,16 @@
                     "codeSystemVersion": "2022-12-16",
                     "decode": "Start to Start"
                   },
-                  "timingWindow": "",
                   "relativeFromScheduledInstanceId": "ScheduledActivityInstance_13",
-                  "relativeToScheduledInstanceId": "ScheduledActivityInstance_12"
+                  "relativeToScheduledInstanceId": "ScheduledActivityInstance_12",
+                  "timingWindowLower": null,
+                  "timingWindowUpper": null,
+                  "timingWindow": null
                 }
               ],
-              "scheduledInstanceTimelineId": "",
+              "scheduledInstanceTimelineId": null,
+              "defaultConditionId": "ScheduledActivityInstance_14",
+              "epochId": "StudyEpoch_3",
               "activityIds": [
                 "Activity_13",
                 "Activity_16",
@@ -1670,25 +1005,25 @@
                 "Activity_29",
                 "Activity_30",
                 "Activity_31"
-              ]
+              ],
+              "scheduledActivityInstanceEncounterId": "Encounter_13"
             },
             {
               "scheduledInstanceId": "ScheduledActivityInstance_14",
               "scheduledInstanceType": "ACTIVITY",
-              "scheduleSequenceNumber": 14,
-              "scheduleTimelineExitId": "",
-              "scheduledInstanceEncounterId": "Encounter_14",
+              "scheduleTimelineExitId": null,
               "scheduledInstanceTimings": [
                 {
                   "timingId": "Timing_14",
                   "timingType": {
-                    "codeId": "Code_147",
-                    "code": "C99901x2",
+                    "codeId": "Code_146",
+                    "code": "C99901x1",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2022-12-16",
-                    "decode": "Before"
+                    "decode": "After"
                   },
-                  "timingValue": "+1 Days",
+                  "timingValue": "P1D",
+                  "timingDescription": "+1 Days",
                   "timingRelativeToFrom": {
                     "codeId": "Code_149",
                     "code": "C99900x1",
@@ -1696,33 +1031,37 @@
                     "codeSystemVersion": "2022-12-16",
                     "decode": "Start to Start"
                   },
-                  "timingWindow": "",
                   "relativeFromScheduledInstanceId": "ScheduledActivityInstance_14",
-                  "relativeToScheduledInstanceId": "ScheduledActivityInstance_13"
+                  "relativeToScheduledInstanceId": "ScheduledActivityInstance_13",
+                  "timingWindowLower": null,
+                  "timingWindowUpper": null,
+                  "timingWindow": null
                 }
               ],
-              "scheduledInstanceTimelineId": "",
+              "scheduledInstanceTimelineId": null,
+              "defaultConditionId": "ScheduledActivityInstance_15",
+              "epochId": "StudyEpoch_3",
               "activityIds": [
                 "Activity_30"
-              ]
+              ],
+              "scheduledActivityInstanceEncounterId": "Encounter_14"
             },
             {
               "scheduledInstanceId": "ScheduledActivityInstance_15",
               "scheduledInstanceType": "ACTIVITY",
-              "scheduleSequenceNumber": 15,
-              "scheduleTimelineExitId": "",
-              "scheduledInstanceEncounterId": "Encounter_15",
+              "scheduleTimelineExitId": null,
               "scheduledInstanceTimings": [
                 {
                   "timingId": "Timing_15",
                   "timingType": {
-                    "codeId": "Code_152",
-                    "code": "C99901x2",
+                    "codeId": "Code_151",
+                    "code": "C99901x1",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2022-12-16",
-                    "decode": "Before"
+                    "decode": "After"
                   },
-                  "timingValue": "+27 Days",
+                  "timingValue": "P27D",
+                  "timingDescription": "+27 Days",
                   "timingRelativeToFrom": {
                     "codeId": "Code_154",
                     "code": "C99900x1",
@@ -1730,12 +1069,16 @@
                     "codeSystemVersion": "2022-12-16",
                     "decode": "Start to Start"
                   },
-                  "timingWindow": "",
                   "relativeFromScheduledInstanceId": "ScheduledActivityInstance_15",
-                  "relativeToScheduledInstanceId": "ScheduledActivityInstance_14"
+                  "relativeToScheduledInstanceId": "ScheduledActivityInstance_14",
+                  "timingWindowLower": null,
+                  "timingWindowUpper": null,
+                  "timingWindow": null
                 }
               ],
-              "scheduledInstanceTimelineId": "",
+              "scheduledInstanceTimelineId": null,
+              "defaultConditionId": "ScheduledActivityInstance_16",
+              "epochId": "StudyEpoch_3",
               "activityIds": [
                 "Activity_13",
                 "Activity_16",
@@ -1746,25 +1089,25 @@
                 "Activity_25",
                 "Activity_30",
                 "Activity_31"
-              ]
+              ],
+              "scheduledActivityInstanceEncounterId": "Encounter_15"
             },
             {
               "scheduledInstanceId": "ScheduledActivityInstance_16",
               "scheduledInstanceType": "ACTIVITY",
-              "scheduleSequenceNumber": 16,
-              "scheduleTimelineExitId": "",
-              "scheduledInstanceEncounterId": "Encounter_16",
+              "scheduleTimelineExitId": null,
               "scheduledInstanceTimings": [
                 {
                   "timingId": "Timing_16",
                   "timingType": {
-                    "codeId": "Code_157",
-                    "code": "C99901x2",
+                    "codeId": "Code_156",
+                    "code": "C99901x1",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2022-12-16",
-                    "decode": "Before"
+                    "decode": "After"
                   },
-                  "timingValue": "+1 Days",
+                  "timingValue": "P1D",
+                  "timingDescription": "+1 Days",
                   "timingRelativeToFrom": {
                     "codeId": "Code_159",
                     "code": "C99900x1",
@@ -1772,33 +1115,37 @@
                     "codeSystemVersion": "2022-12-16",
                     "decode": "Start to Start"
                   },
-                  "timingWindow": "",
                   "relativeFromScheduledInstanceId": "ScheduledActivityInstance_16",
-                  "relativeToScheduledInstanceId": "ScheduledActivityInstance_15"
+                  "relativeToScheduledInstanceId": "ScheduledActivityInstance_15",
+                  "timingWindowLower": null,
+                  "timingWindowUpper": null,
+                  "timingWindow": null
                 }
               ],
-              "scheduledInstanceTimelineId": "",
+              "scheduledInstanceTimelineId": null,
+              "defaultConditionId": "ScheduledActivityInstance_17",
+              "epochId": "StudyEpoch_3",
               "activityIds": [
                 "Activity_30"
-              ]
+              ],
+              "scheduledActivityInstanceEncounterId": "Encounter_16"
             },
             {
               "scheduledInstanceId": "ScheduledActivityInstance_17",
               "scheduledInstanceType": "ACTIVITY",
-              "scheduleSequenceNumber": 17,
-              "scheduleTimelineExitId": "",
-              "scheduledInstanceEncounterId": "Encounter_17",
+              "scheduleTimelineExitId": null,
               "scheduledInstanceTimings": [
                 {
                   "timingId": "Timing_17",
                   "timingType": {
-                    "codeId": "Code_162",
-                    "code": "C99901x2",
+                    "codeId": "Code_161",
+                    "code": "C99901x1",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2022-12-16",
-                    "decode": "Before"
+                    "decode": "After"
                   },
-                  "timingValue": "+27 Days",
+                  "timingValue": "P27D",
+                  "timingDescription": "+27 Days",
                   "timingRelativeToFrom": {
                     "codeId": "Code_164",
                     "code": "C99900x1",
@@ -1806,12 +1153,16 @@
                     "codeSystemVersion": "2022-12-16",
                     "decode": "Start to Start"
                   },
-                  "timingWindow": "",
                   "relativeFromScheduledInstanceId": "ScheduledActivityInstance_17",
-                  "relativeToScheduledInstanceId": "ScheduledActivityInstance_16"
+                  "relativeToScheduledInstanceId": "ScheduledActivityInstance_16",
+                  "timingWindowLower": null,
+                  "timingWindowUpper": null,
+                  "timingWindow": null
                 }
               ],
-              "scheduledInstanceTimelineId": "",
+              "scheduledInstanceTimelineId": null,
+              "defaultConditionId": "ScheduledActivityInstance_18",
+              "epochId": "StudyEpoch_4",
               "activityIds": [
                 "Activity_13",
                 "Activity_16",
@@ -1825,25 +1176,25 @@
                 "Activity_29",
                 "Activity_30",
                 "Activity_31"
-              ]
+              ],
+              "scheduledActivityInstanceEncounterId": "Encounter_17"
             },
             {
               "scheduledInstanceId": "ScheduledActivityInstance_18",
               "scheduledInstanceType": "ACTIVITY",
-              "scheduleSequenceNumber": 18,
-              "scheduleTimelineExitId": "",
-              "scheduledInstanceEncounterId": "Encounter_18",
+              "scheduleTimelineExitId": null,
               "scheduledInstanceTimings": [
                 {
                   "timingId": "Timing_18",
                   "timingType": {
-                    "codeId": "Code_167",
-                    "code": "C99901x2",
+                    "codeId": "Code_166",
+                    "code": "C99901x1",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2022-12-16",
-                    "decode": "Before"
+                    "decode": "After"
                   },
-                  "timingValue": "+14 Days",
+                  "timingValue": "P14D",
+                  "timingDescription": "+14 Days",
                   "timingRelativeToFrom": {
                     "codeId": "Code_169",
                     "code": "C99900x1",
@@ -1851,12 +1202,16 @@
                     "codeSystemVersion": "2022-12-16",
                     "decode": "Start to Start"
                   },
-                  "timingWindow": "",
                   "relativeFromScheduledInstanceId": "ScheduledActivityInstance_18",
-                  "relativeToScheduledInstanceId": "ScheduledActivityInstance_17"
+                  "relativeToScheduledInstanceId": "ScheduledActivityInstance_17",
+                  "timingWindowLower": null,
+                  "timingWindowUpper": null,
+                  "timingWindow": null
                 }
               ],
-              "scheduledInstanceTimelineId": "",
+              "scheduledInstanceTimelineId": null,
+              "defaultConditionId": null,
+              "epochId": "StudyEpoch_5",
               "activityIds": [
                 "Activity_7",
                 "Activity_13",
@@ -1868,7 +1223,8 @@
                 "Activity_26",
                 "Activity_30",
                 "Activity_31"
-              ]
+              ],
+              "scheduledActivityInstanceEncounterId": "Encounter_18"
             }
           ]
         }
@@ -4652,6 +4008,218 @@
           "bcSurrogateName": "HbA1c",
           "bcSurrogateDescription": "HbA1c",
           "bcSurrogateReference": ""
+        }
+      ],
+      "studyArms": [
+        {
+          "studyArmId": "StudyArm_1",
+          "studyArmName": "Placebo",
+          "studyArmDescription": "Placebo",
+          "studyArmType": {
+            "codeId": "Code_61",
+            "code": "C174268",
+            "codeSystem": "http://www.cdisc.org",
+            "codeSystemVersion": "2022-12-16",
+            "decode": "Placebo Comparator Arm"
+          },
+          "studyArmDataOriginDescription": "Data collected from subjects",
+          "studyArmDataOriginType": {
+            "codeId": "Code_62",
+            "code": "C188866",
+            "codeSystem": "http://www.cdisc.org",
+            "codeSystemVersion": "2022-12-16",
+            "decode": "Data Generated Within Study"
+          }
+        },
+        {
+          "studyArmId": "StudyArm_2",
+          "studyArmName": "Xanomeline Low Dose",
+          "studyArmDescription": "Active Substance",
+          "studyArmType": {
+            "codeId": "Code_63",
+            "code": "C174267",
+            "codeSystem": "http://www.cdisc.org",
+            "codeSystemVersion": "2022-12-16",
+            "decode": "Active Comparator Arm"
+          },
+          "studyArmDataOriginDescription": "Data collected from subjects",
+          "studyArmDataOriginType": {
+            "codeId": "Code_64",
+            "code": "C188866",
+            "codeSystem": "http://www.cdisc.org",
+            "codeSystemVersion": "2022-12-16",
+            "decode": "Data Generated Within Study"
+          }
+        },
+        {
+          "studyArmId": "StudyArm_3",
+          "studyArmName": "Xanomeline High Dose",
+          "studyArmDescription": "Active Substance",
+          "studyArmType": {
+            "codeId": "Code_65",
+            "code": "C174267",
+            "codeSystem": "http://www.cdisc.org",
+            "codeSystemVersion": "2022-12-16",
+            "decode": "Active Comparator Arm"
+          },
+          "studyArmDataOriginDescription": "Data collected from subjects",
+          "studyArmDataOriginType": {
+            "codeId": "Code_66",
+            "code": "C188866",
+            "codeSystem": "http://www.cdisc.org",
+            "codeSystemVersion": "2022-12-16",
+            "decode": "Data Generated Within Study"
+          }
+        }
+      ],
+      "studyEpochs": [
+        {
+          "studyEpochId": "StudyEpoch_1",
+          "studyEpochName": "Screening",
+          "studyEpochDescription": "Screening Epoch",
+          "studyEpochType": {
+            "codeId": "Code_67",
+            "code": "C48262",
+            "codeSystem": "http://www.cdisc.org",
+            "codeSystemVersion": "2022-12-16",
+            "decode": "Trial Screening"
+          },
+          "previousStudyEpochId": null,
+          "nextStudyEpochId": "StudyEpoch_2"
+        },
+        {
+          "studyEpochId": "StudyEpoch_2",
+          "studyEpochName": "Treatment 1",
+          "studyEpochDescription": "Treatment Epoch",
+          "studyEpochType": {
+            "codeId": "Code_68",
+            "code": "C101526",
+            "codeSystem": "http://www.cdisc.org",
+            "codeSystemVersion": "2022-12-16",
+            "decode": "Treatment Epoch"
+          },
+          "previousStudyEpochId": "StudyEpoch_1",
+          "nextStudyEpochId": "StudyEpoch_3"
+        },
+        {
+          "studyEpochId": "StudyEpoch_3",
+          "studyEpochName": "Treatment 2",
+          "studyEpochDescription": "Treatment Epoch",
+          "studyEpochType": {
+            "codeId": "Code_69",
+            "code": "C101526",
+            "codeSystem": "http://www.cdisc.org",
+            "codeSystemVersion": "2022-12-16",
+            "decode": "Treatment Epoch"
+          },
+          "previousStudyEpochId": "StudyEpoch_2",
+          "nextStudyEpochId": "StudyEpoch_4"
+        },
+        {
+          "studyEpochId": "StudyEpoch_4",
+          "studyEpochName": "Treatment 3",
+          "studyEpochDescription": "Treatment Epoch",
+          "studyEpochType": {
+            "codeId": "Code_70",
+            "code": "C101526",
+            "codeSystem": "http://www.cdisc.org",
+            "codeSystemVersion": "2022-12-16",
+            "decode": "Treatment Epoch"
+          },
+          "previousStudyEpochId": "StudyEpoch_3",
+          "nextStudyEpochId": "StudyEpoch_5"
+        },
+        {
+          "studyEpochId": "StudyEpoch_5",
+          "studyEpochName": "Follow-Up",
+          "studyEpochDescription": "Follow-up Epoch",
+          "studyEpochType": {
+            "codeId": "Code_71",
+            "code": "C99158",
+            "codeSystem": "http://www.cdisc.org",
+            "codeSystemVersion": "2022-12-16",
+            "decode": "Clinical Study Follow-up"
+          },
+          "previousStudyEpochId": "StudyEpoch_4",
+          "nextStudyEpochId": null
+        }
+      ],
+      "studyElements": [
+        {
+          "studyElementId": "StudyElement_1",
+          "studyElementName": "Screening",
+          "studyElementDescription": "Screening Element",
+          "transitionStartRule": {
+            "transitionRuleId": "TransitionRule_7",
+            "transitionRuleDescription": "Informed consent"
+          },
+          "transitionEndRule": {
+            "transitionRuleId": "TransitionRule_8",
+            "transitionRuleDescription": "Completion of all screening activities and no more than 2 weeks from informed consent"
+          }
+        },
+        {
+          "studyElementId": "StudyElement_2",
+          "studyElementName": "Placebo",
+          "studyElementDescription": "Placebo TTS (adhesive patches)",
+          "transitionStartRule": {
+            "transitionRuleId": "TransitionRule_9",
+            "transitionRuleDescription": "Administration\u00a0of\u00a0first\u00a0dose"
+          },
+          "transitionEndRule": null
+        },
+        {
+          "studyElementId": "StudyElement_7",
+          "studyElementName": "Follow_up",
+          "studyElementDescription": "Follow Up Element",
+          "transitionStartRule": {
+            "transitionRuleId": "TransitionRule_14",
+            "transitionRuleDescription": "End\u00a0of\u00a0last\u00a0scheduled\u00a0visit\u00a0on\u00a0study\u00a0(including\u00a0early\u00a0termination)"
+          },
+          "transitionEndRule": {
+            "transitionRuleId": "TransitionRule_15",
+            "transitionRuleDescription": "Completion\u00a0of\u00a0all\u00a0specified\u00a0followup\u00a0activities\u00a0(which\u00a0vary\u00a0on\u00a0a\u00a0patient-by-patient\u00a0basis)"
+          }
+        },
+        {
+          "studyElementId": "StudyElement_3",
+          "studyElementName": "Low",
+          "studyElementDescription": "Xanomeline TTS (adhesive patches) 50 cm2, 54 mg",
+          "transitionStartRule": {
+            "transitionRuleId": "TransitionRule_10",
+            "transitionRuleDescription": "Administration\u00a0of\u00a0first\u00a0dose"
+          },
+          "transitionEndRule": null
+        },
+        {
+          "studyElementId": "StudyElement_4",
+          "studyElementName": "High_Start",
+          "studyElementDescription": "Xanomeline TTS (adhesive patches) 50 cm2, 54 mg",
+          "transitionStartRule": {
+            "transitionRuleId": "TransitionRule_11",
+            "transitionRuleDescription": "Randomized"
+          },
+          "transitionEndRule": null
+        },
+        {
+          "studyElementId": "StudyElement_5",
+          "studyElementName": "High_Middle",
+          "studyElementDescription": "Xanomeline TTS (adhesive patches) 50 cm2, 54 mg + 25 cm2, 27 mg",
+          "transitionStartRule": {
+            "transitionRuleId": "TransitionRule_12",
+            "transitionRuleDescription": "Administration\u00a0of\u00a0first\u00a0dose\u00a0(from\u00a0patches\u00a0supplied\u00a0at\u00a0Visit\u00a04)"
+          },
+          "transitionEndRule": null
+        },
+        {
+          "studyElementId": "StudyElement_6",
+          "studyElementName": "High_End",
+          "studyElementDescription": "Xanomeline TTS (adhesive patches) 50 cm2, 54 mg",
+          "transitionStartRule": {
+            "transitionRuleId": "TransitionRule_13",
+            "transitionRuleDescription": "Administration\u00a0of\u00a0first\u00a0dose\u00a0(from\u00a0patches\u00a0supplied\u00a0at\u00a0Visit\u00a012)"
+          },
+          "transitionEndRule": null
         }
       ]
     }

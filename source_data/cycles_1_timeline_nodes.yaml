@@ -1,668 +1,4 @@
-- id: 10
-  properties:
-    _type: ScheduleTimelineExit
-    label: ScheduleTimelineExit_1
-    scheduleTimelineExitId: ScheduleTimelineExit_1
-- id: 12
-  properties:
-    _type: Timing
-    label: Timing_1
-    timingId: Timing_1
-    timingRelativeToFrom:
-      _type: Code
-      code: C99900x1
-      codeId: Code_61
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Start to Start
-    timingType:
-      _type: Code
-      code: C99901x1
-      codeId: Code_58
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: After
-    timingValue: 0..30 Days
-    timingWindow: ''
 - id: 11
-  properties:
-    _type: ScheduledActivityInstance
-    label: ScheduledActivityInstance_1
-    scheduleSequenceNumber: 1
-    scheduleTimelineExitId: ''
-    scheduledInstanceId: ScheduledActivityInstance_1
-    scheduledInstanceTimelineId: ''
-    scheduledInstanceType: ACTIVITY
-- id: 16
-  properties:
-    _type: Timing
-    label: Timing_12
-    timingId: Timing_12
-    timingRelativeToFrom:
-      _type: Code
-      code: C99900x1
-      codeId: Code_116
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Start to Start
-    timingType:
-      _type: Code
-      code: C99901x3
-      codeId: Code_112
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Fixed Reference
-    timingValue: Day 1
-    timingWindow: ''
-- id: 15
-  properties:
-    _type: ScheduledActivityInstance
-    label: ScheduledActivityInstance_12
-    scheduleSequenceNumber: 2
-    scheduleTimelineExitId: ''
-    scheduledInstanceId: ScheduledActivityInstance_12
-    scheduledInstanceTimelineId: ''
-    scheduledInstanceType: ACTIVITY
-- id: 20
-  properties:
-    _type: Timing
-    label: Timing_2
-    timingId: Timing_2
-    timingRelativeToFrom:
-      _type: Code
-      code: C99900x1
-      codeId: Code_66
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Start to Start
-    timingType:
-      _type: Code
-      code: C99901x3
-      codeId: Code_65
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Fixed Reference
-    timingValue: ''
-    timingWindow: ''
-- id: 19
-  properties:
-    _type: ScheduledActivityInstance
-    label: ScheduledActivityInstance_2
-    scheduleSequenceNumber: 3
-    scheduleTimelineExitId: ''
-    scheduledInstanceId: ScheduledActivityInstance_2
-    scheduledInstanceTimelineId: ''
-    scheduledInstanceType: ACTIVITY
-- id: 24
-  properties:
-    _type: Timing
-    label: Timing_13
-    timingId: Timing_13
-    timingRelativeToFrom:
-      _type: Code
-      code: C99900x1
-      codeId: Code_121
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Start to Start
-    timingType:
-      _type: Code
-      code: C99901x2
-      codeId: Code_119
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Before
-    timingValue: 15 Days
-    timingWindow: ''
-- id: 23
-  properties:
-    _type: ScheduledActivityInstance
-    label: ScheduledActivityInstance_13
-    scheduleSequenceNumber: 4
-    scheduleTimelineExitId: ''
-    scheduledInstanceId: ScheduledActivityInstance_13
-    scheduledInstanceTimelineId: ''
-    scheduledInstanceType: ACTIVITY
-- id: 28
-  properties:
-    _type: Timing
-    label: Timing_3
-    timingId: Timing_3
-    timingRelativeToFrom:
-      _type: Code
-      code: C99900x1
-      codeId: Code_71
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Start to Start
-    timingType:
-      _type: Code
-      code: C99901x2
-      codeId: Code_69
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Before
-    timingValue: +14 Days
-    timingWindow: ''
-- id: 27
-  properties:
-    _type: ScheduledActivityInstance
-    label: ScheduledActivityInstance_3
-    scheduleSequenceNumber: 5
-    scheduleTimelineExitId: ''
-    scheduledInstanceId: ScheduledActivityInstance_3
-    scheduledInstanceTimelineId: ''
-    scheduledInstanceType: ACTIVITY
-- id: 32
-  properties:
-    _type: Timing
-    label: Timing_14
-    timingId: Timing_14
-    timingRelativeToFrom:
-      _type: Code
-      code: C99900x1
-      codeId: Code_126
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Start to Start
-    timingType:
-      _type: Code
-      code: C99901x3
-      codeId: Code_122
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Fixed Reference
-    timingValue: Day 16
-    timingWindow: ''
-- id: 31
-  properties:
-    _type: ScheduledActivityInstance
-    label: ScheduledActivityInstance_14
-    scheduleSequenceNumber: 6
-    scheduleTimelineExitId: ''
-    scheduledInstanceId: ScheduledActivityInstance_14
-    scheduledInstanceTimelineId: ''
-    scheduledInstanceType: ACTIVITY
-- id: 36
-  properties:
-    _type: Timing
-    label: Timing_4
-    timingId: Timing_4
-    timingRelativeToFrom:
-      _type: Code
-      code: C99900x1
-      codeId: Code_76
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Start to Start
-    timingType:
-      _type: Code
-      code: C99901x3
-      codeId: Code_75
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Fixed Reference
-    timingValue: ''
-    timingWindow: ''
-- id: 35
-  properties:
-    _type: ScheduledActivityInstance
-    label: ScheduledActivityInstance_4
-    scheduleSequenceNumber: 7
-    scheduleTimelineExitId: ''
-    scheduledInstanceId: ScheduledActivityInstance_4
-    scheduledInstanceTimelineId: ''
-    scheduledInstanceType: ACTIVITY
-- id: 40
-  properties:
-    _type: Timing
-    label: Timing_15
-    timingId: Timing_15
-    timingRelativeToFrom:
-      _type: Code
-      code: C99900x1
-      codeId: Code_131
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Start to Start
-    timingType:
-      _type: Code
-      code: C99901x2
-      codeId: Code_129
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Before
-    timingValue: 15 Days
-    timingWindow: ''
-- id: 39
-  properties:
-    _type: ScheduledActivityInstance
-    label: ScheduledActivityInstance_15
-    scheduleSequenceNumber: 8
-    scheduleTimelineExitId: ''
-    scheduledInstanceId: ScheduledActivityInstance_15
-    scheduledInstanceTimelineId: ''
-    scheduledInstanceType: ACTIVITY
-- id: 44
-  properties:
-    _type: Timing
-    label: Timing_5
-    timingId: Timing_5
-    timingRelativeToFrom:
-      _type: Code
-      code: C99900x1
-      codeId: Code_81
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Start to Start
-    timingType:
-      _type: Code
-      code: C99901x2
-      codeId: Code_79
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Before
-    timingValue: +14 Days
-    timingWindow: ''
-- id: 43
-  properties:
-    _type: ScheduledActivityInstance
-    label: ScheduledActivityInstance_5
-    scheduleSequenceNumber: 9
-    scheduleTimelineExitId: ''
-    scheduledInstanceId: ScheduledActivityInstance_5
-    scheduledInstanceTimelineId: ''
-    scheduledInstanceType: ACTIVITY
-- id: 48
-  properties:
-    _type: Timing
-    label: Timing_16
-    timingId: Timing_16
-    timingRelativeToFrom:
-      _type: Code
-      code: C99900x1
-      codeId: Code_136
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Start to Start
-    timingType:
-      _type: Code
-      code: C99901x3
-      codeId: Code_132
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Fixed Reference
-    timingValue: Day 31
-    timingWindow: ''
-- id: 47
-  properties:
-    _type: ScheduledActivityInstance
-    label: ScheduledActivityInstance_16
-    scheduleSequenceNumber: 10
-    scheduleTimelineExitId: ''
-    scheduledInstanceId: ScheduledActivityInstance_16
-    scheduledInstanceTimelineId: ''
-    scheduledInstanceType: ACTIVITY
-- id: 52
-  properties:
-    _type: Timing
-    label: Timing_6
-    timingId: Timing_6
-    timingRelativeToFrom:
-      _type: Code
-      code: C99900x1
-      codeId: Code_86
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Start to Start
-    timingType:
-      _type: Code
-      code: C99901x3
-      codeId: Code_85
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Fixed Reference
-    timingValue: ''
-    timingWindow: ''
-- id: 51
-  properties:
-    _type: ScheduledActivityInstance
-    label: ScheduledActivityInstance_6
-    scheduleSequenceNumber: 11
-    scheduleTimelineExitId: ''
-    scheduledInstanceId: ScheduledActivityInstance_6
-    scheduledInstanceTimelineId: ''
-    scheduledInstanceType: ACTIVITY
-- id: 56
-  properties:
-    _type: Timing
-    label: Timing_17
-    timingId: Timing_17
-    timingRelativeToFrom:
-      _type: Code
-      code: C99900x1
-      codeId: Code_141
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Start to Start
-    timingType:
-      _type: Code
-      code: C99901x2
-      codeId: Code_139
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Before
-    timingValue: 15 Days
-    timingWindow: ''
-- id: 55
-  properties:
-    _type: ScheduledActivityInstance
-    label: ScheduledActivityInstance_17
-    scheduleSequenceNumber: 12
-    scheduleTimelineExitId: ''
-    scheduledInstanceId: ScheduledActivityInstance_17
-    scheduledInstanceTimelineId: ''
-    scheduledInstanceType: ACTIVITY
-- id: 60
-  properties:
-    _type: Timing
-    label: Timing_7
-    timingId: Timing_7
-    timingRelativeToFrom:
-      _type: Code
-      code: C99900x1
-      codeId: Code_91
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Start to Start
-    timingType:
-      _type: Code
-      code: C99901x2
-      codeId: Code_89
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Before
-    timingValue: +14 Days
-    timingWindow: ''
-- id: 59
-  properties:
-    _type: ScheduledActivityInstance
-    label: ScheduledActivityInstance_7
-    scheduleSequenceNumber: 13
-    scheduleTimelineExitId: ''
-    scheduledInstanceId: ScheduledActivityInstance_7
-    scheduledInstanceTimelineId: ''
-    scheduledInstanceType: ACTIVITY
-- id: 64
-  properties:
-    _type: Timing
-    label: Timing_18
-    timingId: Timing_18
-    timingRelativeToFrom:
-      _type: Code
-      code: C99900x1
-      codeId: Code_146
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Start to Start
-    timingType:
-      _type: Code
-      code: C99901x3
-      codeId: Code_142
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Fixed Reference
-    timingValue: Day 46
-    timingWindow: ''
-- id: 63
-  properties:
-    _type: ScheduledActivityInstance
-    label: ScheduledActivityInstance_18
-    scheduleSequenceNumber: 14
-    scheduleTimelineExitId: ''
-    scheduledInstanceId: ScheduledActivityInstance_18
-    scheduledInstanceTimelineId: ''
-    scheduledInstanceType: ACTIVITY
-- id: 68
-  properties:
-    _type: Timing
-    label: Timing_8
-    timingId: Timing_8
-    timingRelativeToFrom:
-      _type: Code
-      code: C99900x1
-      codeId: Code_96
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Start to Start
-    timingType:
-      _type: Code
-      code: C99901x3
-      codeId: Code_95
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Fixed Reference
-    timingValue: ''
-    timingWindow: ''
-- id: 67
-  properties:
-    _type: ScheduledActivityInstance
-    label: ScheduledActivityInstance_8
-    scheduleSequenceNumber: 15
-    scheduleTimelineExitId: ''
-    scheduledInstanceId: ScheduledActivityInstance_8
-    scheduledInstanceTimelineId: ''
-    scheduledInstanceType: ACTIVITY
-- id: 72
-  properties:
-    _type: Timing
-    label: Timing_19
-    timingId: Timing_19
-    timingRelativeToFrom:
-      _type: Code
-      code: C99900x1
-      codeId: Code_151
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Start to Start
-    timingType:
-      _type: Code
-      code: C99901x2
-      codeId: Code_149
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Before
-    timingValue: 15 Days
-    timingWindow: ''
-- id: 71
-  properties:
-    _type: ScheduledActivityInstance
-    label: ScheduledActivityInstance_19
-    scheduleSequenceNumber: 16
-    scheduleTimelineExitId: ''
-    scheduledInstanceId: ScheduledActivityInstance_19
-    scheduledInstanceTimelineId: ''
-    scheduledInstanceType: ACTIVITY
-- id: 75
-  properties:
-    _type: ScheduledDecisionInstance
-    label: ScheduledActivityInstance_20
-    scheduleSequenceNumber: 17
-    scheduleTimelineExitId: ''
-    scheduledInstanceId: ScheduledActivityInstance_20
-    scheduledInstanceTimelineId: ''
-    scheduledInstanceTimings: []
-    scheduledInstanceType: DECISION
-- id: 77
-  properties:
-    _type: Timing
-    label: Timing_20
-    timingId: Timing_20
-    timingRelativeToFrom:
-      _type: Code
-      code: C99900x1
-      codeId: Code_156
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Start to Start
-    timingType:
-      _type: Code
-      code: C99901x3
-      codeId: Code_152
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Fixed Reference
-    timingValue: Day 211
-    timingWindow: ''
-- id: 76
-  properties:
-    _type: ScheduledActivityInstance
-    label: ScheduledActivityInstance_21
-    scheduleSequenceNumber: 18
-    scheduleTimelineExitId: ''
-    scheduledInstanceId: ScheduledActivityInstance_21
-    scheduledInstanceTimelineId: ''
-    scheduledInstanceType: ACTIVITY
-- id: 81
-  properties:
-    _type: Timing
-    label: Timing_9
-    timingId: Timing_9
-    timingRelativeToFrom:
-      _type: Code
-      code: C99900x1
-      codeId: Code_101
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Start to Start
-    timingType:
-      _type: Code
-      code: C99901x3
-      codeId: Code_100
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Fixed Reference
-    timingValue: ''
-    timingWindow: ''
-- id: 80
-  properties:
-    _type: ScheduledActivityInstance
-    label: ScheduledActivityInstance_9
-    scheduleSequenceNumber: 19
-    scheduleTimelineExitId: ''
-    scheduledInstanceId: ScheduledActivityInstance_9
-    scheduledInstanceTimelineId: ''
-    scheduledInstanceType: ACTIVITY
-- id: 85
-  properties:
-    _type: Timing
-    label: Timing_21
-    timingId: Timing_21
-    timingRelativeToFrom:
-      _type: Code
-      code: C99900x1
-      codeId: Code_161
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Start to Start
-    timingType:
-      _type: Code
-      code: C99901x2
-      codeId: Code_159
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Before
-    timingValue: 15 Days
-    timingWindow: ''
-- id: 84
-  properties:
-    _type: ScheduledActivityInstance
-    label: ScheduledActivityInstance_22
-    scheduleSequenceNumber: 20
-    scheduleTimelineExitId: ''
-    scheduledInstanceId: ScheduledActivityInstance_22
-    scheduledInstanceTimelineId: ''
-    scheduledInstanceType: ACTIVITY
-- id: 88
-  properties:
-    _type: ScheduledDecisionInstance
-    label: ScheduledActivityInstance_23
-    scheduleSequenceNumber: 21
-    scheduleTimelineExitId: ''
-    scheduledInstanceId: ScheduledActivityInstance_23
-    scheduledInstanceTimelineId: ''
-    scheduledInstanceTimings: []
-    scheduledInstanceType: DECISION
-- id: 90
-  properties:
-    _type: Timing
-    label: Timing_10
-    timingId: Timing_10
-    timingRelativeToFrom:
-      _type: Code
-      code: C99900x1
-      codeId: Code_106
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Start to Start
-    timingType:
-      _type: Code
-      code: C99901x2
-      codeId: Code_104
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Before
-    timingValue: Within 30 days of last dose
-    timingWindow: ''
-- id: 89
-  properties:
-    _type: ScheduledActivityInstance
-    label: ScheduledActivityInstance_10
-    scheduleSequenceNumber: 22
-    scheduleTimelineExitId: ''
-    scheduledInstanceId: ScheduledActivityInstance_10
-    scheduledInstanceTimelineId: ''
-    scheduledInstanceType: ACTIVITY
-- id: 94
-  properties:
-    _type: Timing
-    label: Timing_11
-    timingId: Timing_11
-    timingRelativeToFrom:
-      _type: Code
-      code: C99900x1
-      codeId: Code_111
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Start to Start
-    timingType:
-      _type: Code
-      code: C99901x2
-      codeId: Code_109
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Before
-    timingValue: +12 weeks
-    timingWindow: ''
-- id: 93
-  properties:
-    _type: ScheduledActivityInstance
-    label: ScheduledActivityInstance_11
-    scheduleSequenceNumber: 23
-    scheduleTimelineExitId: ''
-    scheduledInstanceId: ScheduledActivityInstance_11
-    scheduledInstanceTimelineId: ''
-    scheduledInstanceType: ACTIVITY
-- id: 9
-  properties:
-    _type: ScheduleTimeline
-    entryCondition: Potential subject identified
-    label: ScheduleTimeline_1
-    scheduleTimelineDescription: This is the main timeline for the study design.
-    scheduleTimelineEntryId: ScheduledActivityInstance_1
-    scheduleTimelineId: ScheduleTimeline_1
-    scheduleTimelineName: Main Timeline
-- id: 99
   properties:
     _type: Encounter
     encounterContactModes:
@@ -695,7 +31,7 @@
     previousEncounterId: null
     transitionEndRule: {}
     transitionStartRule: {}
-- id: 103
+- id: 15
   properties:
     _type: Encounter
     encounterContactModes:
@@ -728,7 +64,7 @@
     previousEncounterId: Encounter_1
     transitionEndRule: null
     transitionStartRule: {}
-- id: 107
+- id: 19
   properties:
     _type: Encounter
     encounterContactModes:
@@ -761,7 +97,7 @@
     previousEncounterId: Encounter_2
     transitionEndRule: null
     transitionStartRule: null
-- id: 111
+- id: 23
   properties:
     _type: Encounter
     encounterContactModes:
@@ -794,7 +130,7 @@
     previousEncounterId: Encounter_3
     transitionEndRule: null
     transitionStartRule: null
-- id: 115
+- id: 27
   properties:
     _type: Encounter
     encounterContactModes:
@@ -827,7 +163,7 @@
     previousEncounterId: Encounter_4
     transitionEndRule: null
     transitionStartRule: null
-- id: 119
+- id: 31
   properties:
     _type: Encounter
     encounterContactModes:
@@ -860,7 +196,7 @@
     previousEncounterId: Encounter_5
     transitionEndRule: null
     transitionStartRule: null
-- id: 123
+- id: 35
   properties:
     _type: Encounter
     encounterContactModes:
@@ -893,7 +229,7 @@
     previousEncounterId: Encounter_6
     transitionEndRule: null
     transitionStartRule: null
-- id: 127
+- id: 39
   properties:
     _type: Encounter
     encounterContactModes:
@@ -926,7 +262,7 @@
     previousEncounterId: Encounter_7
     transitionEndRule: null
     transitionStartRule: null
-- id: 131
+- id: 43
   properties:
     _type: Encounter
     encounterContactModes:
@@ -959,7 +295,7 @@
     previousEncounterId: Encounter_8
     transitionEndRule: null
     transitionStartRule: null
-- id: 135
+- id: 47
   properties:
     _type: Encounter
     encounterContactModes:
@@ -992,7 +328,7 @@
     previousEncounterId: Encounter_9
     transitionEndRule: {}
     transitionStartRule: null
-- id: 139
+- id: 51
   properties:
     _type: Encounter
     encounterContactModes:
@@ -1025,47 +361,12 @@
     previousEncounterId: Encounter_10
     transitionEndRule: null
     transitionStartRule: null
-- id: 143
-  properties:
-    _type: Activity
-    activityDescription: Informed Consent
-    activityId: Activity_1
-    activityIsConditional: false
-    activityIsConditionalReason: ''
-    activityName: Informed Consent
-    definedProcedures: []
-    label: Activity_1
-    nextActivityId: Activity_2
-    previousActivityId: null
-- id: 144
-  properties:
-    _type: Activity
-    activityDescription: Inclusion / Exclusion Criteria
-    activityId: Activity_2
-    activityIsConditional: false
-    activityIsConditionalReason: ''
-    activityName: Inclusion / Exclusion Criteria
-    definedProcedures: []
-    label: Activity_2
-    nextActivityId: Activity_3
-    previousActivityId: Activity_1
-- id: 145
-  properties:
-    _type: Activity
-    activityDescription: Physical Examination
-    activityId: Activity_3
-    activityIsConditional: false
-    activityIsConditionalReason: ''
-    activityName: Physical Examination
-    definedProcedures: []
-    label: Activity_3
-    nextActivityId: null
-    previousActivityId: Activity_2
 - id: 4
   properties:
     _type: StudyDesign
+    activities: []
     bcCategories: []
-    bcSurrogates: {}
+    bcSurrogates: []
     biomedicalConcepts: []
     interventionModel:
       _type: Code
@@ -1075,17 +376,22 @@
       codeSystemVersion: '2022-12-16'
       decode: Parallel Study
     label: StudyDesign_1
+    studyArms: {}
     studyCells: {}
     studyDesignBlindingScheme: {}
     studyDesignDescription: The main design for the study
     studyDesignId: StudyDesign_1
     studyDesignName: Study Design 1
     studyDesignRationale: Multiple cycles test
+    studyElements: {}
+    studyEpochs: {}
     studyEstimands: {}
     studyIndications: {}
     studyInvestigationalInterventions: {}
     studyObjectives: {}
     studyPopulations: {}
+    studyScheduleTimelines:
+    - null
     therapeuticAreas:
     - _type: Code
       code: T2_DIABETES

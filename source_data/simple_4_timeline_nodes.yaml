@@ -7,6 +7,7 @@
   properties:
     _type: Timing
     label: Timing_1
+    timingDescription: null
     timingId: Timing_1
     timingRelativeToFrom:
       _type: Code
@@ -22,21 +23,23 @@
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Fixed Reference
-    timingValue: ''
-    timingWindow: ''
+    timingValue: PT0M
+    timingWindow: 0..1 Hours
+    timingWindowLower: PT0H
+    timingWindowUpper: PT1H
 - id: 12
   properties:
     _type: ScheduledActivityInstance
     label: ScheduledActivityInstance_1
-    scheduleSequenceNumber: 1
-    scheduleTimelineExitId: ''
+    scheduleTimelineExitId: null
     scheduledInstanceId: ScheduledActivityInstance_1
-    scheduledInstanceTimelineId: ''
+    scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
 - id: 17
   properties:
     _type: Timing
     label: Timing_2
+    timingDescription: +24 Hours
     timingId: Timing_2
     timingRelativeToFrom:
       _type: Code
@@ -47,26 +50,28 @@
       decode: Start to Start
     timingType:
       _type: Code
-      code: C99901x2
-      codeId: Code_42
+      code: C99901x1
+      codeId: Code_41
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
-      decode: Before
-    timingValue: +24 Hours
-    timingWindow: ''
+      decode: After
+    timingValue: PT24H
+    timingWindow: null
+    timingWindowLower: null
+    timingWindowUpper: null
 - id: 16
   properties:
     _type: ScheduledActivityInstance
     label: ScheduledActivityInstance_2
-    scheduleSequenceNumber: 2
-    scheduleTimelineExitId: ''
+    scheduleTimelineExitId: null
     scheduledInstanceId: ScheduledActivityInstance_2
-    scheduledInstanceTimelineId: ''
+    scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
 - id: 21
   properties:
     _type: Timing
     label: Timing_3
+    timingDescription: +7 Days
     timingId: Timing_3
     timingRelativeToFrom:
       _type: Code
@@ -77,27 +82,29 @@
       decode: Start to Start
     timingType:
       _type: Code
-      code: C99901x2
-      codeId: Code_47
+      code: C99901x1
+      codeId: Code_46
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
-      decode: Before
-    timingValue: +7 Days
-    timingWindow: ''
+      decode: After
+    timingValue: P7D
+    timingWindow: -3..3 Days
+    timingWindowLower: P3D
+    timingWindowUpper: P3D
 - id: 20
   properties:
     _type: ScheduledActivityInstance
     label: ScheduledActivityInstance_3
-    scheduleSequenceNumber: 3
-    scheduleTimelineExitId: ''
+    scheduleTimelineExitId: null
     scheduledInstanceId: ScheduledActivityInstance_3
-    scheduledInstanceTimelineId: ''
+    scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
 - id: 10
   properties:
     _type: ScheduleTimeline
     entryCondition: Potential subject identified
     label: ScheduleTimeline_1
+    mainTimeline: true
     scheduleTimelineDescription: This is the main timeline for the study design.
     scheduleTimelineEntryId: ScheduledActivityInstance_1
     scheduleTimelineId: ScheduleTimeline_1
@@ -209,6 +216,7 @@
     activityIsConditional: false
     activityIsConditionalReason: ''
     activityName: Demographics
+    activityTimelineId: ''
     definedProcedures: []
     label: Activity_1
     nextActivityId: Activity_2
@@ -221,6 +229,7 @@
     activityIsConditional: false
     activityIsConditionalReason: ''
     activityName: Something Else
+    activityTimelineId: ''
     definedProcedures: []
     label: Activity_2
     nextActivityId: null
@@ -239,12 +248,15 @@
       codeSystemVersion: '2022-12-16'
       decode: Parallel Study
     label: StudyDesign_1
+    studyArms: {}
     studyCells: {}
     studyDesignBlindingScheme: {}
     studyDesignDescription: The main design for the study
     studyDesignId: StudyDesign_1
     studyDesignName: Study Design 1
     studyDesignRationale: Basic study
+    studyElements: {}
+    studyEpochs: {}
     studyEstimands: {}
     studyIndications: {}
     studyInvestigationalInterventions: {}
