@@ -39,7 +39,8 @@ studies = [
   'simple_3',
   'CDISC_Pilot_Study',
   'EliLilly_NCT03421379_Diabetes',
-  'simple_4'
+  'simple_4',
+  'arms_epochs'
 ]
 
 print("")
