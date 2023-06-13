@@ -173,277 +173,595 @@
   properties:
     label: studyObjectives
   start: 12
-- end: 38
+- end: 39
   id: 36
   properties:
-    label: therapeuticAreas
-  start: 12
-- end: 39
+    label: scheduleTimelineExits
+  start: 38
+- end: 42
   id: 37
   properties:
-    label: therapeuticAreas
-  start: 12
-- end: 41
+    label: timingType
+  start: 41
+- end: 43
   id: 38
   properties:
-    label: analysisPopulation
-  start: 40
-- end: 42
+    label: timingRelativeToFrom
+  start: 41
+- end: 41
   id: 39
   properties:
-    label: intercurrentEvents
+    label: scheduledInstanceTimings
   start: 40
-- end: 40
+- end: 46
   id: 40
   properties:
-    label: studyEstimands
-  start: 12
-- end: 44
+    label: timingType
+  start: 45
+- end: 47
   id: 41
   properties:
-    label: encounterType
-  start: 43
+    label: timingRelativeToFrom
+  start: 45
 - end: 45
   id: 42
   properties:
-    label: encounterEnvironmentalSetting
-  start: 43
-- end: 46
+    label: scheduledInstanceTimings
+  start: 44
+- end: 50
   id: 43
   properties:
-    label: encounterContactModes
-  start: 43
-- end: 47
-  id: 44
-  properties:
-    label: transitionStartRule
-  start: 43
-- end: 48
-  id: 45
-  properties:
-    label: transitionEndRule
-  start: 43
-- end: 50
-  id: 46
-  properties:
-    label: encounterType
+    label: timingType
   start: 49
 - end: 51
+  id: 44
+  properties:
+    label: timingRelativeToFrom
+  start: 49
+- end: 49
+  id: 45
+  properties:
+    label: scheduledInstanceTimings
+  start: 48
+- end: 55
+  id: 46
+  properties:
+    label: timingType
+  start: 54
+- end: 56
   id: 47
   properties:
-    label: encounterEnvironmentalSetting
-  start: 49
-- end: 52
+    label: timingRelativeToFrom
+  start: 54
+- end: 54
   id: 48
   properties:
-    label: encounterContactModes
-  start: 49
-- end: 54
+    label: scheduledInstanceTimings
+  start: 53
+- end: 59
   id: 49
   properties:
-    label: encounterType
-  start: 53
-- end: 55
+    label: timingType
+  start: 58
+- end: 60
   id: 50
   properties:
-    label: encounterEnvironmentalSetting
-  start: 53
-- end: 56
+    label: timingRelativeToFrom
+  start: 58
+- end: 58
   id: 51
   properties:
-    label: encounterContactModes
-  start: 53
-- end: 43
+    label: scheduledInstanceTimings
+  start: 57
+- end: 40
   id: 52
   properties:
-    label: encounters
-  start: 12
-- end: 49
+    label: scheduleTimelineInstances
+  start: 38
+- end: 44
   id: 53
   properties:
-    label: encounters
-  start: 12
-- end: 53
+    label: scheduleTimelineInstances
+  start: 38
+- end: 48
   id: 54
   properties:
-    label: encounters
-  start: 12
-- end: 58
+    label: scheduleTimelineInstances
+  start: 38
+- end: 52
   id: 55
   properties:
-    label: standardCode
-  start: 57
-- end: 57
+    label: scheduleTimelineInstances
+  start: 38
+- end: 53
   id: 56
   properties:
-    label: studyDesignBlindingScheme
-  start: 12
-- end: 60
+    label: scheduleTimelineInstances
+  start: 38
+- end: 57
   id: 57
   properties:
-    label: studyArmType
-  start: 59
-- end: 61
+    label: scheduleTimelineInstances
+  start: 38
+- end: 38
   id: 58
   properties:
-    label: studyArmDataOriginType
-  start: 59
-- end: 63
+    label: studyScheduleTimelines
+  start: 12
+- end: 61
   id: 59
   properties:
-    label: studyArmType
-  start: 62
-- end: 64
-  id: 60
-  properties:
-    label: studyArmDataOriginType
-  start: 62
-- end: 59
-  id: 61
-  properties:
-    label: studyArms
+    label: therapeuticAreas
   start: 12
 - end: 62
+  id: 60
+  properties:
+    label: therapeuticAreas
+  start: 12
+- end: 64
+  id: 61
+  properties:
+    label: analysisPopulation
+  start: 63
+- end: 65
   id: 62
   properties:
-    label: studyArms
-  start: 12
-- end: 66
+    label: intercurrentEvents
+  start: 63
+- end: 63
   id: 63
   properties:
-    label: studyEpochType
-  start: 65
-- end: 68
-  id: 64
-  properties:
-    label: studyEpochType
-  start: 67
-- end: 65
-  id: 65
-  properties:
-    label: studyEpochs
+    label: studyEstimands
   start: 12
 - end: 67
+  id: 64
+  properties:
+    label: encounterType
+  start: 66
+- end: 68
+  id: 65
+  properties:
+    label: encounterEnvironmentalSetting
+  start: 66
+- end: 69
   id: 66
   properties:
-    label: studyEpochs
-  start: 12
+    label: encounterContactModes
+  start: 66
 - end: 70
   id: 67
   properties:
     label: transitionStartRule
-  start: 69
+  start: 66
 - end: 71
   id: 68
   properties:
     label: transitionEndRule
-  start: 69
+  start: 66
 - end: 73
   id: 69
   properties:
-    label: transitionStartRule
+    label: encounterType
   start: 72
 - end: 74
   id: 70
   properties:
-    label: transitionEndRule
+    label: encounterEnvironmentalSetting
   start: 72
-- end: 69
+- end: 75
   id: 71
+  properties:
+    label: encounterContactModes
+  start: 72
+- end: 77
+  id: 72
+  properties:
+    label: encounterType
+  start: 76
+- end: 78
+  id: 73
+  properties:
+    label: encounterEnvironmentalSetting
+  start: 76
+- end: 79
+  id: 74
+  properties:
+    label: encounterContactModes
+  start: 76
+- end: 66
+  id: 75
+  properties:
+    label: encounters
+  start: 12
+- end: 72
+  id: 76
+  properties:
+    label: encounters
+  start: 12
+- end: 76
+  id: 77
+  properties:
+    label: encounters
+  start: 12
+- end: 82
+  id: 78
+  properties:
+    label: procedureCode
+  start: 81
+- end: 81
+  id: 79
+  properties:
+    label: definedProcedures
+  start: 80
+- end: 80
+  id: 80
+  properties:
+    label: activities
+  start: 12
+- end: 84
+  id: 81
+  properties:
+    label: standardCode
+  start: 83
+- end: 83
+  id: 82
+  properties:
+    label: studyDesignBlindingScheme
+  start: 12
+- end: 85
+  id: 83
+  properties:
+    label: bcSurrogates
+  start: 12
+- end: 86
+  id: 84
+  properties:
+    label: bcSurrogates
+  start: 12
+- end: 87
+  id: 85
+  properties:
+    label: bcSurrogates
+  start: 12
+- end: 88
+  id: 86
+  properties:
+    label: bcSurrogates
+  start: 12
+- end: 90
+  id: 87
+  properties:
+    label: studyArmType
+  start: 89
+- end: 91
+  id: 88
+  properties:
+    label: studyArmDataOriginType
+  start: 89
+- end: 93
+  id: 89
+  properties:
+    label: studyArmType
+  start: 92
+- end: 94
+  id: 90
+  properties:
+    label: studyArmDataOriginType
+  start: 92
+- end: 89
+  id: 91
+  properties:
+    label: studyArms
+  start: 12
+- end: 92
+  id: 92
+  properties:
+    label: studyArms
+  start: 12
+- end: 96
+  id: 93
+  properties:
+    label: studyEpochType
+  start: 95
+- end: 98
+  id: 94
+  properties:
+    label: studyEpochType
+  start: 97
+- end: 95
+  id: 95
+  properties:
+    label: studyEpochs
+  start: 12
+- end: 97
+  id: 96
+  properties:
+    label: studyEpochs
+  start: 12
+- end: 100
+  id: 97
+  properties:
+    label: transitionStartRule
+  start: 99
+- end: 101
+  id: 98
+  properties:
+    label: transitionEndRule
+  start: 99
+- end: 103
+  id: 99
+  properties:
+    label: transitionStartRule
+  start: 102
+- end: 104
+  id: 100
+  properties:
+    label: transitionEndRule
+  start: 102
+- end: 99
+  id: 101
   properties:
     label: studyElements
   start: 12
-- end: 72
-  id: 72
+- end: 102
+  id: 102
   properties:
     label: studyElements
   start: 12
 - end: 12
-  id: 73
+  id: 103
   properties:
     label: studyDesigns
   start: 1
-- end: 59
-  id: 74
+- end: 89
+  id: 104
   properties:
     label: studyArmId
     type: Other
   start: 17
-- end: 65
-  id: 75
+- end: 95
+  id: 105
   properties:
     label: studyEpochId
     type: Other
   start: 17
-- end: 69
-  id: 76
+- end: 99
+  id: 106
   properties:
     label: studyElementIds
     type: List
   start: 17
-- end: 59
-  id: 77
+- end: 89
+  id: 107
   properties:
     label: studyArmId
     type: Other
   start: 18
-- end: 67
-  id: 78
+- end: 97
+  id: 108
   properties:
     label: studyEpochId
     type: Other
   start: 18
+- end: 102
+  id: 109
+  properties:
+    label: studyElementIds
+    type: List
+  start: 18
+- end: 92
+  id: 110
+  properties:
+    label: studyArmId
+    type: Other
+  start: 19
+- end: 95
+  id: 111
+  properties:
+    label: studyEpochId
+    type: Other
+  start: 19
+- end: 99
+  id: 112
+  properties:
+    label: studyElementIds
+    type: List
+  start: 19
+- end: 92
+  id: 113
+  properties:
+    label: studyArmId
+    type: Other
+  start: 20
+- end: 97
+  id: 114
+  properties:
+    label: studyEpochId
+    type: Other
+  start: 20
+- end: 102
+  id: 115
+  properties:
+    label: studyElementIds
+    type: List
+  start: 20
+- end: 40
+  id: 116
+  properties:
+    label: relativeFromScheduledInstanceId
+    type: Other
+  start: 41
+- end: 44
+  id: 117
+  properties:
+    label: defaultConditionId
+    type: Other
+  start: 40
+- end: 44
+  id: 118
+  properties:
+    label: relativeFromScheduledInstanceId
+    type: Other
+  start: 45
+- end: 53
+  id: 119
+  properties:
+    label: relativeToScheduledInstanceId
+    type: Other
+  start: 45
+- end: 48
+  id: 120
+  properties:
+    label: defaultConditionId
+    type: Other
+  start: 44
+- end: 95
+  id: 121
+  properties:
+    label: epochId
+    type: Other
+  start: 44
+- end: 80
+  id: 122
+  properties:
+    label: activityIds
+    type: List
+  start: 44
+- end: 66
+  id: 123
+  properties:
+    label: scheduledActivityInstanceEncounterId
+    type: Other
+  start: 44
+- end: 48
+  id: 124
+  properties:
+    label: relativeFromScheduledInstanceId
+    type: Other
+  start: 49
+- end: 52
+  id: 125
+  properties:
+    label: defaultConditionId
+    type: Other
+  start: 48
+- end: 53
+  id: 126
+  properties:
+    label: defaultConditionId
+    type: Other
+  start: 52
+- end: 40
+  id: 127
+  properties:
+    label: conditionAssignments
+    type: Condition
+  start: 52
+- end: 53
+  id: 128
+  properties:
+    label: conditionAssignments
+    type: Condition
+  start: 52
+- end: 53
+  id: 129
+  properties:
+    label: relativeFromScheduledInstanceId
+    type: Other
+  start: 54
+- end: 44
+  id: 130
+  properties:
+    label: relativeToScheduledInstanceId
+    type: Other
+  start: 54
+- end: 57
+  id: 131
+  properties:
+    label: defaultConditionId
+    type: Other
+  start: 53
+- end: 95
+  id: 132
+  properties:
+    label: epochId
+    type: Other
+  start: 53
+- end: 80
+  id: 133
+  properties:
+    label: activityIds
+    type: List
+  start: 53
 - end: 72
-  id: 79
+  id: 134
   properties:
-    label: studyElementIds
+    label: scheduledActivityInstanceEncounterId
+    type: Other
+  start: 53
+- end: 57
+  id: 135
+  properties:
+    label: relativeFromScheduledInstanceId
+    type: Other
+  start: 58
+- end: 53
+  id: 136
+  properties:
+    label: relativeToScheduledInstanceId
+    type: Other
+  start: 58
+- end: 97
+  id: 137
+  properties:
+    label: epochId
+    type: Other
+  start: 57
+- end: 80
+  id: 138
+  properties:
+    label: activityIds
     type: List
-  start: 18
-- end: 62
-  id: 80
+  start: 57
+- end: 76
+  id: 139
   properties:
-    label: studyArmId
+    label: scheduledActivityInstanceEncounterId
     type: Other
-  start: 19
-- end: 65
-  id: 81
-  properties:
-    label: studyEpochId
-    type: Other
-  start: 19
-- end: 69
-  id: 82
-  properties:
-    label: studyElementIds
-    type: List
-  start: 19
-- end: 62
-  id: 83
-  properties:
-    label: studyArmId
-    type: Other
-  start: 20
-- end: 67
-  id: 84
-  properties:
-    label: studyEpochId
-    type: Other
-  start: 20
-- end: 72
-  id: 85
-  properties:
-    label: studyElementIds
-    type: List
-  start: 20
+  start: 57
 - end: 25
-  id: 86
+  id: 140
   properties:
     label: treatment
     type: Other
-  start: 40
+  start: 63
 - end: 36
-  id: 87
+  id: 141
   properties:
     label: variableOfInterest
     type: Other
-  start: 40
+  start: 63
+- end: 85
+  id: 142
+  properties:
+    label: bcSurrogateIds
+    type: List
+  start: 80
+- end: 86
+  id: 143
+  properties:
+    label: bcSurrogateIds
+    type: List
+  start: 80
+- end: 87
+  id: 144
+  properties:
+    label: bcSurrogateIds
+    type: List
+  start: 80
+- end: 88
+  id: 145
+  properties:
+    label: bcSurrogateIds
+    type: List
+  start: 80

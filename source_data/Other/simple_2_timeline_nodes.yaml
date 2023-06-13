@@ -1,4 +1,188 @@
+- id: 9
+  properties:
+    _type: ScheduleTimelineExit
+    label: ScheduleTimelineExit_1
+    scheduleTimelineExitId: ScheduleTimelineExit_1
+- id: 11
+  properties:
+    _type: Timing
+    label: Timing_4
+    timingDescription: null
+    timingId: Timing_4
+    timingRelativeToFrom:
+      _type: Code
+      code: C99900x1
+      codeId: Code_49
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2022-12-16'
+      decode: Start to Start
+    timingType:
+      _type: Code
+      code: C99901x3
+      codeId: Code_45
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2022-12-16'
+      decode: Fixed Reference
+    timingValue: PT0M
+    timingWindow: null
+    timingWindowLower: null
+    timingWindowUpper: null
 - id: 10
+  properties:
+    _type: ScheduledActivityInstance
+    label: ScheduledActivityInstance_4
+    scheduleTimelineExitId: null
+    scheduledInstanceId: ScheduledActivityInstance_4
+    scheduledInstanceTimelineId: null
+    scheduledInstanceType: ACTIVITY
+- id: 15
+  properties:
+    _type: Timing
+    label: Timing_1
+    timingDescription: null
+    timingId: Timing_1
+    timingRelativeToFrom:
+      _type: Code
+      code: C99900x1
+      codeId: Code_34
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2022-12-16'
+      decode: Start to Start
+    timingType:
+      _type: Code
+      code: C99901x3
+      codeId: Code_33
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2022-12-16'
+      decode: Fixed Reference
+    timingValue: PT0M
+    timingWindow: '-'
+    timingWindowLower: null
+    timingWindowUpper: null
+- id: 14
+  properties:
+    _type: ScheduledActivityInstance
+    label: ScheduledActivityInstance_1
+    scheduleTimelineExitId: null
+    scheduledInstanceId: ScheduledActivityInstance_1
+    scheduledInstanceTimelineId: null
+    scheduledInstanceType: ACTIVITY
+- id: 19
+  properties:
+    _type: Timing
+    label: Timing_5
+    timingDescription: null
+    timingId: Timing_5
+    timingRelativeToFrom:
+      _type: Code
+      code: C99900x1
+      codeId: Code_54
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2022-12-16'
+      decode: Start to Start
+    timingType:
+      _type: Code
+      code: C99901x1
+      codeId: Code_51
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2022-12-16'
+      decode: After
+    timingValue: PT0M
+    timingWindow: null
+    timingWindowLower: null
+    timingWindowUpper: null
+- id: 18
+  properties:
+    _type: ScheduledActivityInstance
+    label: ScheduledActivityInstance_5
+    scheduleTimelineExitId: null
+    scheduledInstanceId: ScheduledActivityInstance_5
+    scheduledInstanceTimelineId: null
+    scheduledInstanceType: ACTIVITY
+- id: 22
+  properties:
+    _type: ScheduledDecisionInstance
+    label: ScheduledActivityInstance_6
+    scheduleTimelineExitId: null
+    scheduledInstanceId: ScheduledActivityInstance_6
+    scheduledInstanceTimelineId: null
+    scheduledInstanceTimings: []
+    scheduledInstanceType: DECISION
+- id: 24
+  properties:
+    _type: Timing
+    label: Timing_2
+    timingDescription: +14 Days
+    timingId: Timing_2
+    timingRelativeToFrom:
+      _type: Code
+      code: C99900x1
+      codeId: Code_39
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2022-12-16'
+      decode: Start to Start
+    timingType:
+      _type: Code
+      code: C99901x1
+      codeId: Code_36
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2022-12-16'
+      decode: After
+    timingValue: P14D
+    timingWindow: -2..2 Days
+    timingWindowLower: P2D
+    timingWindowUpper: P2D
+- id: 23
+  properties:
+    _type: ScheduledActivityInstance
+    label: ScheduledActivityInstance_2
+    scheduleTimelineExitId: null
+    scheduledInstanceId: ScheduledActivityInstance_2
+    scheduledInstanceTimelineId: null
+    scheduledInstanceType: ACTIVITY
+- id: 28
+  properties:
+    _type: Timing
+    label: Timing_3
+    timingDescription: +14 Days
+    timingId: Timing_3
+    timingRelativeToFrom:
+      _type: Code
+      code: C99900x1
+      codeId: Code_44
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2022-12-16'
+      decode: Start to Start
+    timingType:
+      _type: Code
+      code: C99901x1
+      codeId: Code_41
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2022-12-16'
+      decode: After
+    timingValue: P14D
+    timingWindow: '-'
+    timingWindowLower: null
+    timingWindowUpper: null
+- id: 27
+  properties:
+    _type: ScheduledActivityInstance
+    label: ScheduledActivityInstance_3
+    scheduleTimelineExitId: null
+    scheduledInstanceId: ScheduledActivityInstance_3
+    scheduledInstanceTimelineId: null
+    scheduledInstanceType: ACTIVITY
+- id: 8
+  properties:
+    _type: ScheduleTimeline
+    entryCondition: Potential subject identified
+    label: ScheduleTimeline_1
+    mainTimeline: true
+    scheduleTimelineDescription: This is the main timeline for the study design.
+    scheduleTimelineEntryId: ScheduledActivityInstance_4
+    scheduleTimelineId: ScheduleTimeline_1
+    scheduleTimelineName: Main Timeline
+- id: 33
   properties:
     _type: Encounter
     encounterContactModes:
@@ -31,7 +215,7 @@
     previousEncounterId: null
     transitionEndRule: {}
     transitionStartRule: {}
-- id: 14
+- id: 37
   properties:
     _type: Encounter
     encounterContactModes:
@@ -64,7 +248,7 @@
     previousEncounterId: Encounter_1
     transitionEndRule: null
     transitionStartRule: null
-- id: 18
+- id: 41
   properties:
     _type: Encounter
     encounterContactModes:
@@ -97,12 +281,24 @@
     previousEncounterId: Encounter_2
     transitionEndRule: null
     transitionStartRule: null
+- id: 45
+  properties:
+    _type: Activity
+    activityDescription: Physical Examination
+    activityId: Activity_1
+    activityIsConditional: false
+    activityIsConditionalReason: ''
+    activityName: Physical Examination
+    activityTimelineId: ''
+    definedProcedures: {}
+    label: Activity_1
+    nextActivityId: null
+    previousActivityId: null
 - id: 3
   properties:
     _type: StudyDesign
-    activities: []
     bcCategories: []
-    bcSurrogates: []
+    bcSurrogates: {}
     biomedicalConcepts: []
     interventionModel:
       _type: Code
@@ -126,8 +322,6 @@
     studyInvestigationalInterventions: {}
     studyObjectives: {}
     studyPopulations: {}
-    studyScheduleTimelines:
-    - null
     therapeuticAreas:
     - _type: Code
       code: T2_DIABETES
