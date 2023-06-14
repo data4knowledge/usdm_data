@@ -3,6 +3,7 @@ log = logging.basicConfig(level=logging.INFO)
 
 import json
 import yaml
+import csv
 from usdm_excel import USDMExcel
 from usdm_info import __package_version__ as code_version
 from usdm_info import __model_version__ as model_version
@@ -11,6 +12,12 @@ def save_as_json_file(raw_json, details):
   with open(f"source_data/{details['path']}/{details['filename']}.json", 'w', encoding='utf-8') as f:
     json_object = json.loads(raw_json)
     json.dump(json_object, f, indent=2)
+
+def save_as_csv_file(errors, details):
+  with open(f"source_data/{details['path']}/{details['filename']}.csv", 'w', encoding='utf-8') as f:
+    writer = csv.DictWriter(f, fieldnames=['sheet','row','column','message','level'])
+    writer.writeheader()
+    writer.writerows(errors)
 
 def save_as_yaml_file(data, filepath):
   with open(filepath, 'w') as f:
@@ -53,6 +60,7 @@ for study in studies:
   file_path = "source_data/%s/%s.xlsx" % (study['path'], study['filename'])
   x = USDMExcel(file_path)
   save_as_json_file(x.to_json(), study)
+  save_as_csv_file(x.errors(), study)
   for view in [USDMExcel.FULL_VIEW, USDMExcel.TIMELINE_VIEW]:
     print("")
     print("VIEW:", str(view))
