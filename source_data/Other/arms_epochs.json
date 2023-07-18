@@ -214,7 +214,15 @@
           "plannedNumberOfParticipants": 100,
           "plannedMaximumAgeOfParticipants": "40 years",
           "plannedMinimumAgeOfParticipants": "18 years",
-          "plannedSexOfParticipants": []
+          "plannedSexOfParticipants": [
+            {
+              "id": "Code_62",
+              "code": "C49636",
+              "codeSystem": "http://www.cdisc.org",
+              "codeSystemVersion": "2022-12-16",
+              "decode": "Both"
+            }
+          ]
         }
       ],
       "studyObjectives": [

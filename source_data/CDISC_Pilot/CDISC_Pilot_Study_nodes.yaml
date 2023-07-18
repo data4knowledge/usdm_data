@@ -231,6 +231,15 @@
     id: Indication_2
     indicationDescription: Alzheimer's disease
     label: Indication_2
+- id: 37
+  properties:
+    _type: Code
+    code: C49636
+    codeSystem: http://www.cdisc.org
+    codeSystemVersion: '2022-12-16'
+    decode: Both
+    id: Code_250
+    label: Code_250
 - id: 36
   properties:
     _type: StudyDesignPopulation
@@ -239,9 +248,8 @@
     plannedMaximumAgeOfParticipants: 100 years
     plannedMinimumAgeOfParticipants: 50 years
     plannedNumberOfParticipants: 300
-    plannedSexOfParticipants: []
     populationDescription: Patients with Probable Mild to Moderate Alzheimer\'s Disease
-- id: 38
+- id: 39
   properties:
     _type: Code
     code: C85826
@@ -250,7 +258,7 @@
     decode: Trial Primary Objective
     id: Code_252
     label: Code_252
-- id: 40
+- id: 41
   properties:
     _type: Code
     code: C94496
@@ -259,7 +267,7 @@
     decode: Primary Endpoint
     id: Code_251
     label: Code_251
-- id: 39
+- id: 40
   properties:
     _type: Endpoint
     endpointDescription: 'Alzheimer\''s Disease Assessment Scale - Cognitive Subscale,
@@ -269,7 +277,7 @@
     endpointPurposeDescription: None provided
     id: Endpoint_1
     label: Endpoint_1
-- id: 42
+- id: 43
   properties:
     _type: Code
     code: C94496
@@ -278,7 +286,7 @@
     decode: Primary Endpoint
     id: Code_253
     label: Code_253
-- id: 41
+- id: 42
   properties:
     _type: Endpoint
     endpointDescription: "Video-referenced Clinician\u2019s Interview-based Impression\
@@ -286,7 +294,7 @@
     endpointPurposeDescription: None provided
     id: Endpoint_2
     label: Endpoint_2
-- id: 37
+- id: 38
   properties:
     _type: Objective
     id: Objective_1
@@ -297,7 +305,7 @@
       rate, alpha=0.05) between the change in both the ADAS-Cog (11) and CIBIC+
 
       scores, and drug dose (0, 50 cm2 [54 mg], and 75 cm2 [81 mg]).'
-- id: 44
+- id: 45
   properties:
     _type: Code
     code: C85826
@@ -306,7 +314,7 @@
     decode: Trial Primary Objective
     id: Code_255
     label: Code_255
-- id: 46
+- id: 47
   properties:
     _type: Code
     code: C94496
@@ -315,14 +323,14 @@
     decode: Primary Endpoint
     id: Code_254
     label: Code_254
-- id: 45
+- id: 46
   properties:
     _type: Endpoint
     endpointDescription: Adverse events
     endpointPurposeDescription: None provided
     id: Endpoint_3
     label: Endpoint_3
-- id: 48
+- id: 49
   properties:
     _type: Code
     code: C94496
@@ -331,7 +339,7 @@
     decode: Primary Endpoint
     id: Code_256
     label: Code_256
-- id: 47
+- id: 48
   properties:
     _type: Endpoint
     endpointDescription: Vital signs (weight, standing and supine blood pressure,
@@ -339,7 +347,7 @@
     endpointPurposeDescription: None provided
     id: Endpoint_4
     label: Endpoint_4
-- id: 50
+- id: 51
   properties:
     _type: Code
     code: C94496
@@ -348,7 +356,7 @@
     decode: Primary Endpoint
     id: Code_257
     label: Code_257
-- id: 49
+- id: 50
   properties:
     _type: Endpoint
     endpointDescription: Laboratory evaluations (Change from Baseline)
@@ -357,13 +365,13 @@
       \ value (i.e.,\nthe value at the specified visit) or the end of treatment observation"
     id: Endpoint_5
     label: Endpoint_5
-- id: 43
+- id: 44
   properties:
     _type: Objective
     id: Objective_2
     label: Objective_2
     objectiveDescription: To document the safety profile of the xanomeline TTS.
-- id: 52
+- id: 53
   properties:
     _type: Code
     code: C85827
@@ -372,7 +380,7 @@
     decode: Trial Secondary Objective
     id: Code_259
     label: Code_259
-- id: 54
+- id: 55
   properties:
     _type: Code
     code: C139173
@@ -381,7 +389,7 @@
     decode: Secondary Endpoint
     id: Code_258
     label: Code_258
-- id: 53
+- id: 54
   properties:
     _type: Endpoint
     endpointDescription: 'Alzheimer\''s Disease Assessment Scale - Cognitive Subscale,
@@ -391,7 +399,7 @@
     endpointPurposeDescription: None provided
     id: Endpoint_6
     label: Endpoint_6
-- id: 56
+- id: 57
   properties:
     _type: Code
     code: C139173
@@ -400,7 +408,7 @@
     decode: Secondary Endpoint
     id: Code_260
     label: Code_260
-- id: 55
+- id: 56
   properties:
     _type: Endpoint
     endpointDescription: "Video-referenced Clinician\\\u2019s Interview-based Impression\
@@ -408,7 +416,7 @@
     endpointPurposeDescription: None provided
     id: Endpoint_7
     label: Endpoint_7
-- id: 58
+- id: 59
   properties:
     _type: Code
     code: C139173
@@ -417,7 +425,7 @@
     decode: Secondary Endpoint
     id: Code_261
     label: Code_261
-- id: 57
+- id: 58
   properties:
     _type: Endpoint
     endpointDescription: Mean Revised Neuropsychiatric Inventory (NPI-X) from Week
@@ -425,7 +433,7 @@
     endpointPurposeDescription: None provided
     id: Endpoint_8
     label: Endpoint_8
-- id: 51
+- id: 52
   properties:
     _type: Objective
     id: Objective_3
@@ -436,12 +444,12 @@
       Revised Neuropsychiatric Inventory (NPI-X) will indicate improvement in these
 
       areas.'
-- id: 60
+- id: 61
   properties:
     _type: ScheduleTimelineExit
     id: ScheduleTimelineExit_1
     label: ScheduleTimelineExit_1
-- id: 63
+- id: 64
   properties:
     _type: Code
     code: C99901x2
@@ -450,7 +458,7 @@
     decode: Before
     id: Code_82
     label: Code_82
-- id: 64
+- id: 65
   properties:
     _type: Code
     code: C99900x1
@@ -459,7 +467,7 @@
     decode: Start to Start
     id: Code_84
     label: Code_84
-- id: 62
+- id: 63
   properties:
     _type: Timing
     id: Timing_1
@@ -469,7 +477,7 @@
     timingWindow: null
     timingWindowLower: null
     timingWindowUpper: null
-- id: 61
+- id: 62
   properties:
     _type: ScheduledActivityInstance
     id: ScheduledActivityInstance_1
@@ -477,7 +485,7 @@
     scheduleTimelineExitId: null
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
-- id: 67
+- id: 68
   properties:
     _type: Code
     code: C99901x2
@@ -486,7 +494,7 @@
     decode: Before
     id: Code_87
     label: Code_87
-- id: 68
+- id: 69
   properties:
     _type: Code
     code: C99900x1
@@ -495,7 +503,7 @@
     decode: Start to Start
     id: Code_89
     label: Code_89
-- id: 66
+- id: 67
   properties:
     _type: Timing
     id: Timing_2
@@ -505,7 +513,7 @@
     timingWindow: null
     timingWindowLower: null
     timingWindowUpper: null
-- id: 65
+- id: 66
   properties:
     _type: ScheduledActivityInstance
     id: ScheduledActivityInstance_2
@@ -513,7 +521,7 @@
     scheduleTimelineExitId: null
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
-- id: 71
+- id: 72
   properties:
     _type: Code
     code: C99901x3
@@ -522,7 +530,7 @@
     decode: Fixed Reference
     id: Code_90
     label: Code_90
-- id: 72
+- id: 73
   properties:
     _type: Code
     code: C99900x1
@@ -531,7 +539,7 @@
     decode: Start to Start
     id: Code_94
     label: Code_94
-- id: 70
+- id: 71
   properties:
     _type: Timing
     id: Timing_3
@@ -541,7 +549,7 @@
     timingWindow: null
     timingWindowLower: null
     timingWindowUpper: null
-- id: 69
+- id: 70
   properties:
     _type: ScheduledActivityInstance
     id: ScheduledActivityInstance_3
@@ -549,7 +557,7 @@
     scheduleTimelineExitId: null
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
-- id: 75
+- id: 76
   properties:
     _type: Code
     code: C99901x1
@@ -558,7 +566,7 @@
     decode: After
     id: Code_96
     label: Code_96
-- id: 76
+- id: 77
   properties:
     _type: Code
     code: C99900x1
@@ -567,7 +575,7 @@
     decode: Start to Start
     id: Code_99
     label: Code_99
-- id: 74
+- id: 75
   properties:
     _type: Timing
     id: Timing_4
@@ -577,7 +585,7 @@
     timingWindow: null
     timingWindowLower: null
     timingWindowUpper: null
-- id: 73
+- id: 74
   properties:
     _type: ScheduledActivityInstance
     id: ScheduledActivityInstance_4
@@ -585,7 +593,7 @@
     scheduleTimelineExitId: null
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
-- id: 79
+- id: 80
   properties:
     _type: Code
     code: C99901x1
@@ -594,7 +602,7 @@
     decode: After
     id: Code_101
     label: Code_101
-- id: 80
+- id: 81
   properties:
     _type: Code
     code: C99900x1
@@ -603,7 +611,7 @@
     decode: Start to Start
     id: Code_104
     label: Code_104
-- id: 78
+- id: 79
   properties:
     _type: Timing
     id: Timing_5
@@ -613,7 +621,7 @@
     timingWindow: null
     timingWindowLower: null
     timingWindowUpper: null
-- id: 77
+- id: 78
   properties:
     _type: ScheduledActivityInstance
     id: ScheduledActivityInstance_5
@@ -621,7 +629,7 @@
     scheduleTimelineExitId: null
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
-- id: 83
+- id: 84
   properties:
     _type: Code
     code: C99901x1
@@ -630,7 +638,7 @@
     decode: After
     id: Code_106
     label: Code_106
-- id: 84
+- id: 85
   properties:
     _type: Code
     code: C99900x1
@@ -639,7 +647,7 @@
     decode: Start to Start
     id: Code_109
     label: Code_109
-- id: 82
+- id: 83
   properties:
     _type: Timing
     id: Timing_6
@@ -649,7 +657,7 @@
     timingWindow: null
     timingWindowLower: null
     timingWindowUpper: null
-- id: 81
+- id: 82
   properties:
     _type: ScheduledActivityInstance
     id: ScheduledActivityInstance_6
@@ -657,7 +665,7 @@
     scheduleTimelineExitId: null
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
-- id: 87
+- id: 88
   properties:
     _type: Code
     code: C99901x1
@@ -666,7 +674,7 @@
     decode: After
     id: Code_111
     label: Code_111
-- id: 88
+- id: 89
   properties:
     _type: Code
     code: C99900x1
@@ -675,7 +683,7 @@
     decode: Start to Start
     id: Code_114
     label: Code_114
-- id: 86
+- id: 87
   properties:
     _type: Timing
     id: Timing_7
@@ -685,7 +693,7 @@
     timingWindow: null
     timingWindowLower: null
     timingWindowUpper: null
-- id: 85
+- id: 86
   properties:
     _type: ScheduledActivityInstance
     id: ScheduledActivityInstance_7
@@ -693,7 +701,7 @@
     scheduleTimelineExitId: null
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
-- id: 91
+- id: 92
   properties:
     _type: Code
     code: C99901x1
@@ -702,7 +710,7 @@
     decode: After
     id: Code_116
     label: Code_116
-- id: 92
+- id: 93
   properties:
     _type: Code
     code: C99900x1
@@ -711,7 +719,7 @@
     decode: Start to Start
     id: Code_119
     label: Code_119
-- id: 90
+- id: 91
   properties:
     _type: Timing
     id: Timing_8
@@ -721,7 +729,7 @@
     timingWindow: null
     timingWindowLower: null
     timingWindowUpper: null
-- id: 89
+- id: 90
   properties:
     _type: ScheduledActivityInstance
     id: ScheduledActivityInstance_8
@@ -729,7 +737,7 @@
     scheduleTimelineExitId: null
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
-- id: 95
+- id: 96
   properties:
     _type: Code
     code: C99901x1
@@ -738,7 +746,7 @@
     decode: After
     id: Code_121
     label: Code_121
-- id: 96
+- id: 97
   properties:
     _type: Code
     code: C99900x1
@@ -747,7 +755,7 @@
     decode: Start to Start
     id: Code_124
     label: Code_124
-- id: 94
+- id: 95
   properties:
     _type: Timing
     id: Timing_9
@@ -757,7 +765,7 @@
     timingWindow: null
     timingWindowLower: null
     timingWindowUpper: null
-- id: 93
+- id: 94
   properties:
     _type: ScheduledActivityInstance
     id: ScheduledActivityInstance_9
@@ -765,7 +773,7 @@
     scheduleTimelineExitId: null
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
-- id: 99
+- id: 100
   properties:
     _type: Code
     code: C99901x1
@@ -774,7 +782,7 @@
     decode: After
     id: Code_126
     label: Code_126
-- id: 100
+- id: 101
   properties:
     _type: Code
     code: C99900x1
@@ -783,7 +791,7 @@
     decode: Start to Start
     id: Code_129
     label: Code_129
-- id: 98
+- id: 99
   properties:
     _type: Timing
     id: Timing_10
@@ -793,7 +801,7 @@
     timingWindow: null
     timingWindowLower: null
     timingWindowUpper: null
-- id: 97
+- id: 98
   properties:
     _type: ScheduledActivityInstance
     id: ScheduledActivityInstance_10
@@ -801,7 +809,7 @@
     scheduleTimelineExitId: null
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
-- id: 103
+- id: 104
   properties:
     _type: Code
     code: C99901x1
@@ -810,7 +818,7 @@
     decode: After
     id: Code_131
     label: Code_131
-- id: 104
+- id: 105
   properties:
     _type: Code
     code: C99900x1
@@ -819,7 +827,7 @@
     decode: Start to Start
     id: Code_134
     label: Code_134
-- id: 102
+- id: 103
   properties:
     _type: Timing
     id: Timing_11
@@ -829,7 +837,7 @@
     timingWindow: null
     timingWindowLower: null
     timingWindowUpper: null
-- id: 101
+- id: 102
   properties:
     _type: ScheduledActivityInstance
     id: ScheduledActivityInstance_11
@@ -837,7 +845,7 @@
     scheduleTimelineExitId: null
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
-- id: 107
+- id: 108
   properties:
     _type: Code
     code: C99901x1
@@ -846,7 +854,7 @@
     decode: After
     id: Code_136
     label: Code_136
-- id: 108
+- id: 109
   properties:
     _type: Code
     code: C99900x1
@@ -855,7 +863,7 @@
     decode: Start to Start
     id: Code_139
     label: Code_139
-- id: 106
+- id: 107
   properties:
     _type: Timing
     id: Timing_12
@@ -865,7 +873,7 @@
     timingWindow: null
     timingWindowLower: null
     timingWindowUpper: null
-- id: 105
+- id: 106
   properties:
     _type: ScheduledActivityInstance
     id: ScheduledActivityInstance_12
@@ -873,7 +881,7 @@
     scheduleTimelineExitId: null
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
-- id: 111
+- id: 112
   properties:
     _type: Code
     code: C99901x1
@@ -882,7 +890,7 @@
     decode: After
     id: Code_141
     label: Code_141
-- id: 112
+- id: 113
   properties:
     _type: Code
     code: C99900x1
@@ -891,7 +899,7 @@
     decode: Start to Start
     id: Code_144
     label: Code_144
-- id: 110
+- id: 111
   properties:
     _type: Timing
     id: Timing_13
@@ -901,7 +909,7 @@
     timingWindow: null
     timingWindowLower: null
     timingWindowUpper: null
-- id: 109
+- id: 110
   properties:
     _type: ScheduledActivityInstance
     id: ScheduledActivityInstance_13
@@ -909,7 +917,7 @@
     scheduleTimelineExitId: null
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
-- id: 115
+- id: 116
   properties:
     _type: Code
     code: C99901x1
@@ -918,7 +926,7 @@
     decode: After
     id: Code_146
     label: Code_146
-- id: 116
+- id: 117
   properties:
     _type: Code
     code: C99900x1
@@ -927,7 +935,7 @@
     decode: Start to Start
     id: Code_149
     label: Code_149
-- id: 114
+- id: 115
   properties:
     _type: Timing
     id: Timing_14
@@ -937,7 +945,7 @@
     timingWindow: null
     timingWindowLower: null
     timingWindowUpper: null
-- id: 113
+- id: 114
   properties:
     _type: ScheduledActivityInstance
     id: ScheduledActivityInstance_14
@@ -945,7 +953,7 @@
     scheduleTimelineExitId: null
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
-- id: 119
+- id: 120
   properties:
     _type: Code
     code: C99901x1
@@ -954,7 +962,7 @@
     decode: After
     id: Code_151
     label: Code_151
-- id: 120
+- id: 121
   properties:
     _type: Code
     code: C99900x1
@@ -963,7 +971,7 @@
     decode: Start to Start
     id: Code_154
     label: Code_154
-- id: 118
+- id: 119
   properties:
     _type: Timing
     id: Timing_15
@@ -973,7 +981,7 @@
     timingWindow: null
     timingWindowLower: null
     timingWindowUpper: null
-- id: 117
+- id: 118
   properties:
     _type: ScheduledActivityInstance
     id: ScheduledActivityInstance_15
@@ -981,7 +989,7 @@
     scheduleTimelineExitId: null
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
-- id: 123
+- id: 124
   properties:
     _type: Code
     code: C99901x1
@@ -990,7 +998,7 @@
     decode: After
     id: Code_156
     label: Code_156
-- id: 124
+- id: 125
   properties:
     _type: Code
     code: C99900x1
@@ -999,7 +1007,7 @@
     decode: Start to Start
     id: Code_159
     label: Code_159
-- id: 122
+- id: 123
   properties:
     _type: Timing
     id: Timing_16
@@ -1009,7 +1017,7 @@
     timingWindow: null
     timingWindowLower: null
     timingWindowUpper: null
-- id: 121
+- id: 122
   properties:
     _type: ScheduledActivityInstance
     id: ScheduledActivityInstance_16
@@ -1017,7 +1025,7 @@
     scheduleTimelineExitId: null
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
-- id: 127
+- id: 128
   properties:
     _type: Code
     code: C99901x1
@@ -1026,7 +1034,7 @@
     decode: After
     id: Code_161
     label: Code_161
-- id: 128
+- id: 129
   properties:
     _type: Code
     code: C99900x1
@@ -1035,7 +1043,7 @@
     decode: Start to Start
     id: Code_164
     label: Code_164
-- id: 126
+- id: 127
   properties:
     _type: Timing
     id: Timing_17
@@ -1045,7 +1053,7 @@
     timingWindow: null
     timingWindowLower: null
     timingWindowUpper: null
-- id: 125
+- id: 126
   properties:
     _type: ScheduledActivityInstance
     id: ScheduledActivityInstance_17
@@ -1053,7 +1061,7 @@
     scheduleTimelineExitId: null
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
-- id: 131
+- id: 132
   properties:
     _type: Code
     code: C99901x1
@@ -1062,7 +1070,7 @@
     decode: After
     id: Code_166
     label: Code_166
-- id: 132
+- id: 133
   properties:
     _type: Code
     code: C99900x1
@@ -1071,7 +1079,7 @@
     decode: Start to Start
     id: Code_169
     label: Code_169
-- id: 130
+- id: 131
   properties:
     _type: Timing
     id: Timing_18
@@ -1081,7 +1089,7 @@
     timingWindow: null
     timingWindowLower: null
     timingWindowUpper: null
-- id: 129
+- id: 130
   properties:
     _type: ScheduledActivityInstance
     id: ScheduledActivityInstance_18
@@ -1089,7 +1097,7 @@
     scheduleTimelineExitId: null
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
-- id: 59
+- id: 60
   properties:
     _type: ScheduleTimeline
     description: This is the main timeline for the study design.
@@ -1099,7 +1107,7 @@
     mainTimeline: true
     name: Main Timeline
     scheduleTimelineEntryId: ScheduledActivityInstance_1
-- id: 133
+- id: 134
   properties:
     _type: Code
     code: MILD_MOD_ALZ
@@ -1108,7 +1116,7 @@
     decode: Mild to Moderate Alzheimer\'s Disease
     id: Code_72
     label: Code_72
-- id: 134
+- id: 135
   properties:
     _type: Code
     code: '26929004'
@@ -1117,7 +1125,7 @@
     decode: Alzheimer\'s disease
     id: Code_73
     label: Code_73
-- id: 136
+- id: 137
   properties:
     _type: Code
     code: C25716
@@ -1126,7 +1134,7 @@
     decode: Visit
     id: Code_7
     label: Code_7
-- id: 137
+- id: 138
   properties:
     _type: Code
     code: C51282
@@ -1135,7 +1143,7 @@
     decode: Clinic
     id: Code_8
     label: Code_8
-- id: 138
+- id: 139
   properties:
     _type: Code
     code: C175574
@@ -1144,19 +1152,19 @@
     decode: In Person
     id: Code_9
     label: Code_9
-- id: 139
+- id: 140
   properties:
     _type: TransitionRule
     id: TransitionRule_1
     label: TransitionRule_1
     transitionRuleDescription: Subject identifier
-- id: 140
+- id: 141
   properties:
     _type: TransitionRule
     id: TransitionRule_2
     label: TransitionRule_2
     transitionRuleDescription: completion of screening activities
-- id: 135
+- id: 136
   properties:
     _type: Encounter
     description: Screening encounter
@@ -1166,7 +1174,7 @@
     name: Screening 1
     nextEncounterId: Encounter_2
     previousEncounterId: null
-- id: 142
+- id: 143
   properties:
     _type: Code
     code: C25716
@@ -1175,7 +1183,7 @@
     decode: Visit
     id: Code_10
     label: Code_10
-- id: 143
+- id: 144
   properties:
     _type: Code
     code: C51282
@@ -1184,7 +1192,7 @@
     decode: Clinic
     id: Code_11
     label: Code_11
-- id: 144
+- id: 145
   properties:
     _type: Code
     code: C175574
@@ -1193,14 +1201,14 @@
     decode: In Person
     id: Code_12
     label: Code_12
-- id: 145
+- id: 146
   properties:
     _type: TransitionRule
     id: TransitionRule_3
     label: TransitionRule_3
     transitionRuleDescription: subject leaves clinic after connection of ambulatory
       ECG machine
-- id: 141
+- id: 142
   properties:
     _type: Encounter
     description: Screening encounter - Ambulatory ECG Placement
@@ -1211,7 +1219,7 @@
     nextEncounterId: Encounter_3
     previousEncounterId: Encounter_1
     transitionStartRule: null
-- id: 147
+- id: 148
   properties:
     _type: Code
     code: C25716
@@ -1220,7 +1228,7 @@
     decode: Visit
     id: Code_13
     label: Code_13
-- id: 148
+- id: 149
   properties:
     _type: Code
     code: C51282
@@ -1229,7 +1237,7 @@
     decode: Clinic
     id: Code_14
     label: Code_14
-- id: 149
+- id: 150
   properties:
     _type: Code
     code: C175574
@@ -1238,19 +1246,19 @@
     decode: In Person
     id: Code_15
     label: Code_15
-- id: 150
+- id: 151
   properties:
     _type: TransitionRule
     id: TransitionRule_4
     label: TransitionRule_4
     transitionRuleDescription: subject has connection of ambulatory ECG machine removed
-- id: 151
+- id: 152
   properties:
     _type: TransitionRule
     id: TransitionRule_5
     label: TransitionRule_5
     transitionRuleDescription: Radomized
-- id: 146
+- id: 147
   properties:
     _type: Encounter
     description: Baseline encounter - Ambulatory ECG Removal
@@ -1260,7 +1268,7 @@
     name: Baseline
     nextEncounterId: Encounter_4
     previousEncounterId: Encounter_2
-- id: 153
+- id: 154
   properties:
     _type: Code
     code: C25716
@@ -1269,7 +1277,7 @@
     decode: Visit
     id: Code_16
     label: Code_16
-- id: 154
+- id: 155
   properties:
     _type: Code
     code: C51282
@@ -1278,7 +1286,7 @@
     decode: Clinic
     id: Code_17
     label: Code_17
-- id: 155
+- id: 156
   properties:
     _type: Code
     code: C175574
@@ -1287,7 +1295,7 @@
     decode: In Person
     id: Code_18
     label: Code_18
-- id: 152
+- id: 153
   properties:
     _type: Encounter
     description: Day 13 - Ambulatory ECG Placement
@@ -1299,7 +1307,7 @@
     previousEncounterId: Encounter_3
     transitionEndRule: null
     transitionStartRule: null
-- id: 157
+- id: 158
   properties:
     _type: Code
     code: C25716
@@ -1308,7 +1316,7 @@
     decode: Visit
     id: Code_19
     label: Code_19
-- id: 158
+- id: 159
   properties:
     _type: Code
     code: C51282
@@ -1317,7 +1325,7 @@
     decode: Clinic
     id: Code_20
     label: Code_20
-- id: 159
+- id: 160
   properties:
     _type: Code
     code: C175574
@@ -1326,7 +1334,7 @@
     decode: In Person
     id: Code_21
     label: Code_21
-- id: 156
+- id: 157
   properties:
     _type: Encounter
     description: Day 14
@@ -1338,7 +1346,7 @@
     previousEncounterId: Encounter_4
     transitionEndRule: null
     transitionStartRule: null
-- id: 161
+- id: 162
   properties:
     _type: Code
     code: C25716
@@ -1347,7 +1355,7 @@
     decode: Visit
     id: Code_22
     label: Code_22
-- id: 162
+- id: 163
   properties:
     _type: Code
     code: C51282
@@ -1356,7 +1364,7 @@
     decode: Clinic
     id: Code_23
     label: Code_23
-- id: 163
+- id: 164
   properties:
     _type: Code
     code: C175574
@@ -1365,7 +1373,7 @@
     decode: In Person
     id: Code_24
     label: Code_24
-- id: 160
+- id: 161
   properties:
     _type: Encounter
     description: Day 28
@@ -1377,7 +1385,7 @@
     previousEncounterId: Encounter_5
     transitionEndRule: null
     transitionStartRule: null
-- id: 165
+- id: 166
   properties:
     _type: Code
     code: C25716
@@ -1386,7 +1394,7 @@
     decode: Visit
     id: Code_25
     label: Code_25
-- id: 166
+- id: 167
   properties:
     _type: Code
     code: C51282
@@ -1395,7 +1403,7 @@
     decode: Clinic
     id: Code_26
     label: Code_26
-- id: 167
+- id: 168
   properties:
     _type: Code
     code: C175574
@@ -1404,7 +1412,7 @@
     decode: In Person
     id: Code_27
     label: Code_27
-- id: 164
+- id: 165
   properties:
     _type: Encounter
     description: "Day 30 - Ambulatory ECG \_Removal"
@@ -1416,7 +1424,7 @@
     previousEncounterId: Encounter_6
     transitionEndRule: null
     transitionStartRule: null
-- id: 169
+- id: 170
   properties:
     _type: Code
     code: C25716
@@ -1425,7 +1433,7 @@
     decode: Visit
     id: Code_28
     label: Code_28
-- id: 170
+- id: 171
   properties:
     _type: Code
     code: C51282
@@ -1434,7 +1442,7 @@
     decode: Clinic
     id: Code_29
     label: Code_29
-- id: 171
+- id: 172
   properties:
     _type: Code
     code: C175574
@@ -1443,7 +1451,7 @@
     decode: In Person
     id: Code_30
     label: Code_30
-- id: 168
+- id: 169
   properties:
     _type: Encounter
     description: Day 42
@@ -1455,7 +1463,7 @@
     previousEncounterId: Encounter_7
     transitionEndRule: null
     transitionStartRule: null
-- id: 173
+- id: 174
   properties:
     _type: Code
     code: C25716
@@ -1464,7 +1472,7 @@
     decode: Visit
     id: Code_31
     label: Code_31
-- id: 174
+- id: 175
   properties:
     _type: Code
     code: C51282
@@ -1473,7 +1481,7 @@
     decode: Clinic
     id: Code_32
     label: Code_32
-- id: 175
+- id: 176
   properties:
     _type: Code
     code: C175574
@@ -1482,7 +1490,7 @@
     decode: In Person
     id: Code_33
     label: Code_33
-- id: 172
+- id: 173
   properties:
     _type: Encounter
     description: Day 56
@@ -1494,7 +1502,7 @@
     previousEncounterId: Encounter_8
     transitionEndRule: null
     transitionStartRule: null
-- id: 177
+- id: 178
   properties:
     _type: Code
     code: C25716
@@ -1503,7 +1511,7 @@
     decode: Visit
     id: Code_34
     label: Code_34
-- id: 178
+- id: 179
   properties:
     _type: Code
     code: C18002
@@ -1512,7 +1520,7 @@
     decode: Home
     id: Code_35
     label: Code_35
-- id: 179
+- id: 180
   properties:
     _type: Code
     code: C171537
@@ -1521,7 +1529,7 @@
     decode: Telephone Call
     id: Code_36
     label: Code_36
-- id: 176
+- id: 177
   properties:
     _type: Encounter
     description: Day 70
@@ -1533,7 +1541,7 @@
     previousEncounterId: Encounter_9
     transitionEndRule: null
     transitionStartRule: null
-- id: 181
+- id: 182
   properties:
     _type: Code
     code: C25716
@@ -1542,7 +1550,7 @@
     decode: Visit
     id: Code_37
     label: Code_37
-- id: 182
+- id: 183
   properties:
     _type: Code
     code: C51282
@@ -1551,7 +1559,7 @@
     decode: Clinic
     id: Code_38
     label: Code_38
-- id: 183
+- id: 184
   properties:
     _type: Code
     code: C175574
@@ -1560,7 +1568,7 @@
     decode: In Person
     id: Code_39
     label: Code_39
-- id: 180
+- id: 181
   properties:
     _type: Encounter
     description: Day 84
@@ -1572,7 +1580,7 @@
     previousEncounterId: Encounter_10
     transitionEndRule: null
     transitionStartRule: null
-- id: 185
+- id: 186
   properties:
     _type: Code
     code: C25716
@@ -1581,7 +1589,7 @@
     decode: Visit
     id: Code_40
     label: Code_40
-- id: 186
+- id: 187
   properties:
     _type: Code
     code: C18002
@@ -1590,7 +1598,7 @@
     decode: Home
     id: Code_41
     label: Code_41
-- id: 187
+- id: 188
   properties:
     _type: Code
     code: C171537
@@ -1599,7 +1607,7 @@
     decode: Telephone Call
     id: Code_42
     label: Code_42
-- id: 184
+- id: 185
   properties:
     _type: Encounter
     description: Day 98
@@ -1611,7 +1619,7 @@
     previousEncounterId: Encounter_11
     transitionEndRule: null
     transitionStartRule: null
-- id: 189
+- id: 190
   properties:
     _type: Code
     code: C25716
@@ -1620,7 +1628,7 @@
     decode: Visit
     id: Code_43
     label: Code_43
-- id: 190
+- id: 191
   properties:
     _type: Code
     code: C51282
@@ -1629,7 +1637,7 @@
     decode: Clinic
     id: Code_44
     label: Code_44
-- id: 191
+- id: 192
   properties:
     _type: Code
     code: C175574
@@ -1638,7 +1646,7 @@
     decode: In Person
     id: Code_45
     label: Code_45
-- id: 188
+- id: 189
   properties:
     _type: Encounter
     description: Day 112
@@ -1650,7 +1658,7 @@
     previousEncounterId: Encounter_12
     transitionEndRule: null
     transitionStartRule: null
-- id: 193
+- id: 194
   properties:
     _type: Code
     code: C25716
@@ -1659,7 +1667,7 @@
     decode: Visit
     id: Code_46
     label: Code_46
-- id: 194
+- id: 195
   properties:
     _type: Code
     code: C18002
@@ -1668,7 +1676,7 @@
     decode: Home
     id: Code_47
     label: Code_47
-- id: 195
+- id: 196
   properties:
     _type: Code
     code: C171537
@@ -1677,7 +1685,7 @@
     decode: Telephone Call
     id: Code_48
     label: Code_48
-- id: 192
+- id: 193
   properties:
     _type: Encounter
     description: Day 126
@@ -1689,7 +1697,7 @@
     previousEncounterId: Encounter_13
     transitionEndRule: null
     transitionStartRule: null
-- id: 197
+- id: 198
   properties:
     _type: Code
     code: C25716
@@ -1698,7 +1706,7 @@
     decode: Visit
     id: Code_49
     label: Code_49
-- id: 198
+- id: 199
   properties:
     _type: Code
     code: C51282
@@ -1707,7 +1715,7 @@
     decode: Clinic
     id: Code_50
     label: Code_50
-- id: 199
+- id: 200
   properties:
     _type: Code
     code: C175574
@@ -1716,7 +1724,7 @@
     decode: In Person
     id: Code_51
     label: Code_51
-- id: 196
+- id: 197
   properties:
     _type: Encounter
     description: Day 140
@@ -1728,7 +1736,7 @@
     previousEncounterId: Encounter_14
     transitionEndRule: null
     transitionStartRule: null
-- id: 201
+- id: 202
   properties:
     _type: Code
     code: C25716
@@ -1737,7 +1745,7 @@
     decode: Visit
     id: Code_52
     label: Code_52
-- id: 202
+- id: 203
   properties:
     _type: Code
     code: C18002
@@ -1746,7 +1754,7 @@
     decode: Home
     id: Code_53
     label: Code_53
-- id: 203
+- id: 204
   properties:
     _type: Code
     code: C171537
@@ -1755,7 +1763,7 @@
     decode: Telephone Call
     id: Code_54
     label: Code_54
-- id: 200
+- id: 201
   properties:
     _type: Encounter
     description: Day 154
@@ -1767,7 +1775,7 @@
     previousEncounterId: Encounter_15
     transitionEndRule: null
     transitionStartRule: null
-- id: 205
+- id: 206
   properties:
     _type: Code
     code: C25716
@@ -1776,7 +1784,7 @@
     decode: Visit
     id: Code_55
     label: Code_55
-- id: 206
+- id: 207
   properties:
     _type: Code
     code: C51282
@@ -1785,7 +1793,7 @@
     decode: Clinic
     id: Code_56
     label: Code_56
-- id: 207
+- id: 208
   properties:
     _type: Code
     code: C175574
@@ -1794,7 +1802,7 @@
     decode: In Person
     id: Code_57
     label: Code_57
-- id: 204
+- id: 205
   properties:
     _type: Encounter
     description: Day 168
@@ -1806,7 +1814,7 @@
     previousEncounterId: Encounter_16
     transitionEndRule: null
     transitionStartRule: null
-- id: 209
+- id: 210
   properties:
     _type: Code
     code: C25716
@@ -1815,7 +1823,7 @@
     decode: Visit
     id: Code_58
     label: Code_58
-- id: 210
+- id: 211
   properties:
     _type: Code
     code: C51282
@@ -1824,7 +1832,7 @@
     decode: Clinic
     id: Code_59
     label: Code_59
-- id: 211
+- id: 212
   properties:
     _type: Code
     code: C175574
@@ -1833,13 +1841,13 @@
     decode: In Person
     id: Code_60
     label: Code_60
-- id: 212
+- id: 213
   properties:
     _type: TransitionRule
     id: TransitionRule_6
     label: TransitionRule_6
     transitionRuleDescription: End of treatment
-- id: 208
+- id: 209
   properties:
     _type: Encounter
     description: Day 182
@@ -1850,7 +1858,7 @@
     nextEncounterId: null
     previousEncounterId: Encounter_17
     transitionStartRule: null
-- id: 213
+- id: 214
   properties:
     _type: Activity
     activityIsConditional: false
@@ -1863,7 +1871,7 @@
     name: Informed consent
     nextActivityId: Activity_2
     previousActivityId: null
-- id: 214
+- id: 215
   properties:
     _type: Activity
     activityIsConditional: false
@@ -1876,7 +1884,7 @@
     name: Inclusion/exclusion criteria
     nextActivityId: Activity_3
     previousActivityId: Activity_1
-- id: 215
+- id: 216
   properties:
     _type: Activity
     activityIsConditional: false
@@ -1889,7 +1897,7 @@
     name: Patient number assigned
     nextActivityId: Activity_4
     previousActivityId: Activity_2
-- id: 216
+- id: 217
   properties:
     _type: Activity
     activityIsConditional: false
@@ -1902,7 +1910,7 @@
     name: Demographics
     nextActivityId: Activity_5
     previousActivityId: Activity_3
-- id: 217
+- id: 218
   properties:
     _type: Activity
     activityIsConditional: false
@@ -1915,7 +1923,7 @@
     name: Hachinski <= 4
     nextActivityId: Activity_6
     previousActivityId: Activity_4
-- id: 218
+- id: 219
   properties:
     _type: Activity
     activityIsConditional: false
@@ -1928,7 +1936,7 @@
     name: MMSE 10-23
     nextActivityId: Activity_7
     previousActivityId: Activity_5
-- id: 219
+- id: 220
   properties:
     _type: Activity
     activityIsConditional: false
@@ -1941,7 +1949,7 @@
     name: Physical examination
     nextActivityId: Activity_8
     previousActivityId: Activity_6
-- id: 220
+- id: 221
   properties:
     _type: Activity
     activityIsConditional: false
@@ -1954,7 +1962,7 @@
     name: Medical history
     nextActivityId: Activity_9
     previousActivityId: Activity_7
-- id: 221
+- id: 222
   properties:
     _type: Activity
     activityIsConditional: false
@@ -1967,7 +1975,7 @@
     name: Habits
     nextActivityId: Activity_10
     previousActivityId: Activity_8
-- id: 222
+- id: 223
   properties:
     _type: Activity
     activityIsConditional: false
@@ -1980,7 +1988,7 @@
     name: Chest X-ray
     nextActivityId: Activity_11
     previousActivityId: Activity_9
-- id: 223
+- id: 224
   properties:
     _type: Activity
     activityIsConditional: false
@@ -1993,7 +2001,7 @@
     name: Apo E genotyping
     nextActivityId: Activity_12
     previousActivityId: Activity_10
-- id: 224
+- id: 225
   properties:
     _type: Activity
     activityIsConditional: false
@@ -2006,7 +2014,7 @@
     name: Patient randomised
     nextActivityId: Activity_13
     previousActivityId: Activity_11
-- id: 225
+- id: 226
   properties:
     _type: Activity
     activityIsConditional: false
@@ -2019,7 +2027,7 @@
     name: Vital signs /Temperature
     nextActivityId: Activity_14
     previousActivityId: Activity_12
-- id: 226
+- id: 227
   properties:
     _type: Activity
     activityIsConditional: false
@@ -2032,7 +2040,7 @@
     name: Ambulatory ECG placed
     nextActivityId: Activity_15
     previousActivityId: Activity_13
-- id: 227
+- id: 228
   properties:
     _type: Activity
     activityIsConditional: false
@@ -2045,7 +2053,7 @@
     name: Ambulatory ECG removed
     nextActivityId: Activity_16
     previousActivityId: Activity_14
-- id: 228
+- id: 229
   properties:
     _type: Activity
     activityIsConditional: false
@@ -2058,7 +2066,7 @@
     name: ECG
     nextActivityId: Activity_17
     previousActivityId: Activity_15
-- id: 229
+- id: 230
   properties:
     _type: Activity
     activityIsConditional: false
@@ -2071,7 +2079,7 @@
     name: Placebo TTS test
     nextActivityId: Activity_18
     previousActivityId: Activity_16
-- id: 230
+- id: 231
   properties:
     _type: Activity
     activityIsConditional: false
@@ -2084,7 +2092,7 @@
     name: CT scan
     nextActivityId: Activity_19
     previousActivityId: Activity_17
-- id: 231
+- id: 232
   properties:
     _type: Activity
     activityIsConditional: false
@@ -2097,7 +2105,7 @@
     name: Concomitant medications
     nextActivityId: Activity_20
     previousActivityId: Activity_18
-- id: 232
+- id: 233
   properties:
     _type: Activity
     activityIsConditional: false
@@ -2110,7 +2118,7 @@
     name: Hematology
     nextActivityId: Activity_21
     previousActivityId: Activity_19
-- id: 233
+- id: 234
   properties:
     _type: Activity
     activityIsConditional: false
@@ -2123,7 +2131,7 @@
     name: Chemistry
     nextActivityId: Activity_22
     previousActivityId: Activity_20
-- id: 234
+- id: 235
   properties:
     _type: Activity
     activityIsConditional: false
@@ -2136,7 +2144,7 @@
     name: Uninalysis
     nextActivityId: Activity_23
     previousActivityId: Activity_21
-- id: 235
+- id: 236
   properties:
     _type: Activity
     activityIsConditional: false
@@ -2153,7 +2161,7 @@
       (Xanomeline)'
     nextActivityId: Activity_24
     previousActivityId: Activity_22
-- id: 236
+- id: 237
   properties:
     _type: Activity
     activityIsConditional: false
@@ -2166,7 +2174,7 @@
     name: Hemoglobin A1C
     nextActivityId: Activity_25
     previousActivityId: Activity_23
-- id: 237
+- id: 238
   properties:
     _type: Activity
     activityIsConditional: false
@@ -2187,7 +2195,7 @@
       Medications returned'
     nextActivityId: Activity_26
     previousActivityId: Activity_24
-- id: 238
+- id: 239
   properties:
     _type: Activity
     activityIsConditional: false
@@ -2200,7 +2208,7 @@
     name: TTS Acceptability Survey
     nextActivityId: Activity_27
     previousActivityId: Activity_25
-- id: 239
+- id: 240
   properties:
     _type: Activity
     activityIsConditional: false
@@ -2213,7 +2221,7 @@
     name: ADAS-Cog
     nextActivityId: Activity_28
     previousActivityId: Activity_26
-- id: 240
+- id: 241
   properties:
     _type: Activity
     activityIsConditional: false
@@ -2226,7 +2234,7 @@
     name: CIBIC+
     nextActivityId: Activity_29
     previousActivityId: Activity_27
-- id: 241
+- id: 242
   properties:
     _type: Activity
     activityIsConditional: false
@@ -2239,7 +2247,7 @@
     name: DAD
     nextActivityId: Activity_30
     previousActivityId: Activity_28
-- id: 242
+- id: 243
   properties:
     _type: Activity
     activityIsConditional: false
@@ -2252,7 +2260,7 @@
     name: NPI-X
     nextActivityId: Activity_31
     previousActivityId: Activity_29
-- id: 243
+- id: 244
   properties:
     _type: Activity
     activityIsConditional: false
@@ -2265,7 +2273,7 @@
     name: Adverse events
     nextActivityId: null
     previousActivityId: Activity_30
-- id: 245
+- id: 246
   properties:
     _type: Code
     code: C15228
@@ -2274,13 +2282,13 @@
     decode: Double Blind Study
     id: Code_74
     label: Code_74
-- id: 244
+- id: 245
   properties:
     _type: AliasCode
     id: AliasCode_2
     label: AliasCode_2
     standardCodeAliases: []
-- id: 249
+- id: 250
   properties:
     _type: Code
     code: C20197
@@ -2289,13 +2297,13 @@
     decode: Male
     id: Code_171
     label: Code_171
-- id: 248
+- id: 249
   properties:
     _type: ResponseCode
     id: ResponseCode_1
     label: ResponseCode_1
     responseCodeEnabled: true
-- id: 251
+- id: 252
   properties:
     _type: Code
     code: C16576
@@ -2304,13 +2312,13 @@
     decode: Female
     id: Code_172
     label: Code_172
-- id: 250
+- id: 251
   properties:
     _type: ResponseCode
     id: ResponseCode_2
     label: ResponseCode_2
     responseCodeEnabled: true
-- id: 253
+- id: 254
   properties:
     _type: Code
     code: C17998
@@ -2319,13 +2327,13 @@
     decode: Unknown
     id: Code_173
     label: Code_173
-- id: 252
+- id: 253
   properties:
     _type: ResponseCode
     id: ResponseCode_3
     label: ResponseCode_3
     responseCodeEnabled: true
-- id: 255
+- id: 256
   properties:
     _type: Code
     code: C28421
@@ -2334,13 +2342,13 @@
     decode: Sex
     id: Code_174
     label: Code_174
-- id: 254
+- id: 255
   properties:
     _type: AliasCode
     id: AliasCode_4
     label: AliasCode_4
     standardCodeAliases: []
-- id: 247
+- id: 248
   properties:
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
@@ -2349,7 +2357,7 @@
     bcPropertyRequired: true
     id: BiomedicalConceptProperty_1
     label: BiomedicalConceptProperty_1
-- id: 257
+- id: 258
   properties:
     _type: Code
     code: C28421
@@ -2358,13 +2366,13 @@
     decode: Sex
     id: Code_170
     label: Code_170
-- id: 256
+- id: 257
   properties:
     _type: AliasCode
     id: AliasCode_3
     label: AliasCode_3
     standardCodeAliases: []
-- id: 246
+- id: 247
   properties:
     _type: BiomedicalConcept
     bcName: Sex
@@ -2372,7 +2380,7 @@
     bcSynonyms: []
     id: BiomedicalConcept_1
     label: BiomedicalConcept_1
-- id: 261
+- id: 262
   properties:
     _type: Code
     code: C17998
@@ -2381,13 +2389,13 @@
     decode: Unknown
     id: Code_176
     label: Code_176
-- id: 260
+- id: 261
   properties:
     _type: ResponseCode
     id: ResponseCode_4
     label: ResponseCode_4
     responseCodeEnabled: true
-- id: 263
+- id: 264
   properties:
     _type: Code
     code: C17049
@@ -2396,13 +2404,13 @@
     decode: Race
     id: Code_177
     label: Code_177
-- id: 262
+- id: 263
   properties:
     _type: AliasCode
     id: AliasCode_6
     label: AliasCode_6
     standardCodeAliases: []
-- id: 259
+- id: 260
   properties:
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
@@ -2411,7 +2419,7 @@
     bcPropertyRequired: true
     id: BiomedicalConceptProperty_2
     label: BiomedicalConceptProperty_2
-- id: 265
+- id: 266
   properties:
     _type: Code
     code: C17049
@@ -2420,13 +2428,13 @@
     decode: Race
     id: Code_175
     label: Code_175
-- id: 264
+- id: 265
   properties:
     _type: AliasCode
     id: AliasCode_5
     label: AliasCode_5
     standardCodeAliases: []
-- id: 258
+- id: 259
   properties:
     _type: BiomedicalConcept
     bcName: Race
@@ -2435,7 +2443,7 @@
     - Racial Group
     id: BiomedicalConcept_2
     label: BiomedicalConcept_2
-- id: 269
+- id: 270
   properties:
     _type: Code
     code: C173522
@@ -2444,13 +2452,13 @@
     decode: Vital Signs Result
     id: Code_179
     label: Code_179
-- id: 268
+- id: 269
   properties:
     _type: AliasCode
     id: AliasCode_8
     label: AliasCode_8
     standardCodeAliases: []
-- id: 267
+- id: 268
   properties:
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: decimal
@@ -2460,7 +2468,7 @@
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_3
     label: BiomedicalConceptProperty_3
-- id: 272
+- id: 273
   properties:
     _type: Code
     code: C42547
@@ -2469,13 +2477,13 @@
     decode: Pascal
     id: Code_180
     label: Code_180
-- id: 271
+- id: 272
   properties:
     _type: ResponseCode
     id: ResponseCode_5
     label: ResponseCode_5
     responseCodeEnabled: true
-- id: 274
+- id: 275
   properties:
     _type: Code
     code: C49669
@@ -2484,13 +2492,13 @@
     decode: Unit of Pressure
     id: Code_181
     label: Code_181
-- id: 273
+- id: 274
   properties:
     _type: AliasCode
     id: AliasCode_9
     label: AliasCode_9
     standardCodeAliases: []
-- id: 270
+- id: 271
   properties:
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
@@ -2499,7 +2507,7 @@
     bcPropertyRequired: true
     id: BiomedicalConceptProperty_4
     label: BiomedicalConceptProperty_4
-- id: 277
+- id: 278
   properties:
     _type: Code
     code: C83088
@@ -2508,13 +2516,13 @@
     decode: Vital Signs Location
     id: Code_182
     label: Code_182
-- id: 276
+- id: 277
   properties:
     _type: AliasCode
     id: AliasCode_10
     label: AliasCode_10
     standardCodeAliases: []
-- id: 275
+- id: 276
   properties:
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
@@ -2524,7 +2532,7 @@
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_5
     label: BiomedicalConceptProperty_5
-- id: 280
+- id: 281
   properties:
     _type: Code
     code: C123975
@@ -2533,13 +2541,13 @@
     decode: Vital Signs Laterality
     id: Code_183
     label: Code_183
-- id: 279
+- id: 280
   properties:
     _type: AliasCode
     id: AliasCode_11
     label: AliasCode_11
     standardCodeAliases: []
-- id: 278
+- id: 279
   properties:
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
@@ -2549,7 +2557,7 @@
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_6
     label: BiomedicalConceptProperty_6
-- id: 283
+- id: 284
   properties:
     _type: Code
     code: C82535
@@ -2558,13 +2566,13 @@
     decode: Test Method
     id: Code_184
     label: Code_184
-- id: 282
+- id: 283
   properties:
     _type: AliasCode
     id: AliasCode_12
     label: AliasCode_12
     standardCodeAliases: []
-- id: 281
+- id: 282
   properties:
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
@@ -2574,7 +2582,7 @@
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_7
     label: BiomedicalConceptProperty_7
-- id: 286
+- id: 287
   properties:
     _type: Code
     code: C83114
@@ -2583,13 +2591,13 @@
     decode: Vital Signs Position
     id: Code_185
     label: Code_185
-- id: 285
+- id: 286
   properties:
     _type: AliasCode
     id: AliasCode_13
     label: AliasCode_13
     standardCodeAliases: []
-- id: 284
+- id: 285
   properties:
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
@@ -2599,7 +2607,7 @@
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_8
     label: BiomedicalConceptProperty_8
-- id: 288
+- id: 289
   properties:
     _type: Code
     code: C25298
@@ -2608,13 +2616,13 @@
     decode: Systolic Blood Pressure
     id: Code_178
     label: Code_178
-- id: 287
+- id: 288
   properties:
     _type: AliasCode
     id: AliasCode_7
     label: AliasCode_7
     standardCodeAliases: []
-- id: 266
+- id: 267
   properties:
     _type: BiomedicalConcept
     bcName: Systolic Blood Pressure
@@ -2623,7 +2631,7 @@
     - SYSBP
     id: BiomedicalConcept_3
     label: BiomedicalConcept_3
-- id: 292
+- id: 293
   properties:
     _type: Code
     code: C173522
@@ -2632,13 +2640,13 @@
     decode: Vital Signs Result
     id: Code_187
     label: Code_187
-- id: 291
+- id: 292
   properties:
     _type: AliasCode
     id: AliasCode_15
     label: AliasCode_15
     standardCodeAliases: []
-- id: 290
+- id: 291
   properties:
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: decimal
@@ -2648,7 +2656,7 @@
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_9
     label: BiomedicalConceptProperty_9
-- id: 295
+- id: 296
   properties:
     _type: Code
     code: C42547
@@ -2657,13 +2665,13 @@
     decode: Pascal
     id: Code_188
     label: Code_188
-- id: 294
+- id: 295
   properties:
     _type: ResponseCode
     id: ResponseCode_6
     label: ResponseCode_6
     responseCodeEnabled: true
-- id: 297
+- id: 298
   properties:
     _type: Code
     code: C49669
@@ -2672,13 +2680,13 @@
     decode: Unit of Pressure
     id: Code_189
     label: Code_189
-- id: 296
+- id: 297
   properties:
     _type: AliasCode
     id: AliasCode_16
     label: AliasCode_16
     standardCodeAliases: []
-- id: 293
+- id: 294
   properties:
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
@@ -2687,7 +2695,7 @@
     bcPropertyRequired: true
     id: BiomedicalConceptProperty_10
     label: BiomedicalConceptProperty_10
-- id: 300
+- id: 301
   properties:
     _type: Code
     code: C83088
@@ -2696,13 +2704,13 @@
     decode: Vital Signs Location
     id: Code_190
     label: Code_190
-- id: 299
+- id: 300
   properties:
     _type: AliasCode
     id: AliasCode_17
     label: AliasCode_17
     standardCodeAliases: []
-- id: 298
+- id: 299
   properties:
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
@@ -2712,7 +2720,7 @@
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_11
     label: BiomedicalConceptProperty_11
-- id: 303
+- id: 304
   properties:
     _type: Code
     code: C123975
@@ -2721,13 +2729,13 @@
     decode: Vital Signs Laterality
     id: Code_191
     label: Code_191
-- id: 302
+- id: 303
   properties:
     _type: AliasCode
     id: AliasCode_18
     label: AliasCode_18
     standardCodeAliases: []
-- id: 301
+- id: 302
   properties:
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
@@ -2737,7 +2745,7 @@
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_12
     label: BiomedicalConceptProperty_12
-- id: 306
+- id: 307
   properties:
     _type: Code
     code: C82535
@@ -2746,13 +2754,13 @@
     decode: Test Method
     id: Code_192
     label: Code_192
-- id: 305
+- id: 306
   properties:
     _type: AliasCode
     id: AliasCode_19
     label: AliasCode_19
     standardCodeAliases: []
-- id: 304
+- id: 305
   properties:
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
@@ -2762,7 +2770,7 @@
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_13
     label: BiomedicalConceptProperty_13
-- id: 309
+- id: 310
   properties:
     _type: Code
     code: C83114
@@ -2771,13 +2779,13 @@
     decode: Vital Signs Position
     id: Code_193
     label: Code_193
-- id: 308
+- id: 309
   properties:
     _type: AliasCode
     id: AliasCode_20
     label: AliasCode_20
     standardCodeAliases: []
-- id: 307
+- id: 308
   properties:
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
@@ -2787,7 +2795,7 @@
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_14
     label: BiomedicalConceptProperty_14
-- id: 311
+- id: 312
   properties:
     _type: Code
     code: C25299
@@ -2796,13 +2804,13 @@
     decode: Diastolic Blood Pressure
     id: Code_186
     label: Code_186
-- id: 310
+- id: 311
   properties:
     _type: AliasCode
     id: AliasCode_14
     label: AliasCode_14
     standardCodeAliases: []
-- id: 289
+- id: 290
   properties:
     _type: BiomedicalConcept
     bcName: Diastolic Blood Pressure
@@ -2811,7 +2819,7 @@
     - DIABP
     id: BiomedicalConcept_4
     label: BiomedicalConcept_4
-- id: 315
+- id: 316
   properties:
     _type: Code
     code: C173522
@@ -2820,13 +2828,13 @@
     decode: Vital Signs Result
     id: Code_195
     label: Code_195
-- id: 314
+- id: 315
   properties:
     _type: AliasCode
     id: AliasCode_22
     label: AliasCode_22
     standardCodeAliases: []
-- id: 313
+- id: 314
   properties:
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: decimal
@@ -2836,7 +2844,7 @@
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_15
     label: BiomedicalConceptProperty_15
-- id: 318
+- id: 319
   properties:
     _type: Code
     code: C42537
@@ -2845,13 +2853,13 @@
     decode: Kelvin
     id: Code_196
     label: Code_196
-- id: 317
+- id: 318
   properties:
     _type: ResponseCode
     id: ResponseCode_7
     label: ResponseCode_7
     responseCodeEnabled: true
-- id: 320
+- id: 321
   properties:
     _type: Code
     code: C44276
@@ -2860,13 +2868,13 @@
     decode: Unit of Temperature
     id: Code_197
     label: Code_197
-- id: 319
+- id: 320
   properties:
     _type: AliasCode
     id: AliasCode_23
     label: AliasCode_23
     standardCodeAliases: []
-- id: 316
+- id: 317
   properties:
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
@@ -2875,7 +2883,7 @@
     bcPropertyRequired: true
     id: BiomedicalConceptProperty_16
     label: BiomedicalConceptProperty_16
-- id: 323
+- id: 324
   properties:
     _type: Code
     code: C83088
@@ -2884,13 +2892,13 @@
     decode: Vital Signs Location
     id: Code_198
     label: Code_198
-- id: 322
+- id: 323
   properties:
     _type: AliasCode
     id: AliasCode_24
     label: AliasCode_24
     standardCodeAliases: []
-- id: 321
+- id: 322
   properties:
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
@@ -2900,7 +2908,7 @@
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_17
     label: BiomedicalConceptProperty_17
-- id: 325
+- id: 326
   properties:
     _type: Code
     code: C174446
@@ -2909,13 +2917,13 @@
     decode: Body Temperature
     id: Code_194
     label: Code_194
-- id: 324
+- id: 325
   properties:
     _type: AliasCode
     id: AliasCode_21
     label: AliasCode_21
     standardCodeAliases: []
-- id: 312
+- id: 313
   properties:
     _type: BiomedicalConcept
     bcName: Body Temperature
@@ -2924,7 +2932,7 @@
     - Temperature
     id: BiomedicalConcept_5
     label: BiomedicalConcept_5
-- id: 329
+- id: 330
   properties:
     _type: Code
     code: C173522
@@ -2933,13 +2941,13 @@
     decode: Vital Signs Result
     id: Code_200
     label: Code_200
-- id: 328
+- id: 329
   properties:
     _type: AliasCode
     id: AliasCode_26
     label: AliasCode_26
     standardCodeAliases: []
-- id: 327
+- id: 328
   properties:
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: decimal
@@ -2949,7 +2957,7 @@
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_18
     label: BiomedicalConceptProperty_18
-- id: 332
+- id: 333
   properties:
     _type: Code
     code: C28252
@@ -2958,13 +2966,13 @@
     decode: Kilogram
     id: Code_201
     label: Code_201
-- id: 331
+- id: 332
   properties:
     _type: ResponseCode
     id: ResponseCode_8
     label: ResponseCode_8
     responseCodeEnabled: true
-- id: 334
+- id: 335
   properties:
     _type: Code
     code: C48155
@@ -2973,13 +2981,13 @@
     decode: Gram
     id: Code_202
     label: Code_202
-- id: 333
+- id: 334
   properties:
     _type: ResponseCode
     id: ResponseCode_9
     label: ResponseCode_9
     responseCodeEnabled: true
-- id: 336
+- id: 337
   properties:
     _type: Code
     code: C48531
@@ -2988,13 +2996,13 @@
     decode: Pound
     id: Code_203
     label: Code_203
-- id: 335
+- id: 336
   properties:
     _type: ResponseCode
     id: ResponseCode_10
     label: ResponseCode_10
     responseCodeEnabled: true
-- id: 338
+- id: 339
   properties:
     _type: Code
     code: C48208
@@ -3003,13 +3011,13 @@
     decode: Unit of Weight
     id: Code_204
     label: Code_204
-- id: 337
+- id: 338
   properties:
     _type: AliasCode
     id: AliasCode_27
     label: AliasCode_27
     standardCodeAliases: []
-- id: 330
+- id: 331
   properties:
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
@@ -3018,7 +3026,7 @@
     bcPropertyRequired: true
     id: BiomedicalConceptProperty_19
     label: BiomedicalConceptProperty_19
-- id: 340
+- id: 341
   properties:
     _type: Code
     code: C81328
@@ -3027,13 +3035,13 @@
     decode: Body Weight
     id: Code_199
     label: Code_199
-- id: 339
+- id: 340
   properties:
     _type: AliasCode
     id: AliasCode_25
     label: AliasCode_25
     standardCodeAliases: []
-- id: 326
+- id: 327
   properties:
     _type: BiomedicalConcept
     bcName: Body Weight
@@ -3042,7 +3050,7 @@
     - Weight
     id: BiomedicalConcept_6
     label: BiomedicalConcept_6
-- id: 344
+- id: 345
   properties:
     _type: Code
     code: C173522
@@ -3051,13 +3059,13 @@
     decode: Vital Signs Result
     id: Code_206
     label: Code_206
-- id: 343
+- id: 344
   properties:
     _type: AliasCode
     id: AliasCode_29
     label: AliasCode_29
     standardCodeAliases: []
-- id: 342
+- id: 343
   properties:
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: decimal
@@ -3067,7 +3075,7 @@
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_20
     label: BiomedicalConceptProperty_20
-- id: 347
+- id: 348
   properties:
     _type: Code
     code: C49668
@@ -3076,13 +3084,13 @@
     decode: Centimeter
     id: Code_207
     label: Code_207
-- id: 346
+- id: 347
   properties:
     _type: ResponseCode
     id: ResponseCode_11
     label: ResponseCode_11
     responseCodeEnabled: true
-- id: 349
+- id: 350
   properties:
     _type: Code
     code: C48500
@@ -3091,13 +3099,13 @@
     decode: Inch
     id: Code_208
     label: Code_208
-- id: 348
+- id: 349
   properties:
     _type: ResponseCode
     id: ResponseCode_12
     label: ResponseCode_12
     responseCodeEnabled: true
-- id: 351
+- id: 352
   properties:
     _type: Code
     code: C28251
@@ -3106,13 +3114,13 @@
     decode: Millimeter
     id: Code_209
     label: Code_209
-- id: 350
+- id: 351
   properties:
     _type: ResponseCode
     id: ResponseCode_13
     label: ResponseCode_13
     responseCodeEnabled: true
-- id: 353
+- id: 354
   properties:
     _type: Code
     code: C41139
@@ -3121,13 +3129,13 @@
     decode: Meter
     id: Code_210
     label: Code_210
-- id: 352
+- id: 353
   properties:
     _type: ResponseCode
     id: ResponseCode_14
     label: ResponseCode_14
     responseCodeEnabled: true
-- id: 355
+- id: 356
   properties:
     _type: Code
     code: C168688
@@ -3136,13 +3144,13 @@
     decode: Unit of Height
     id: Code_211
     label: Code_211
-- id: 354
+- id: 355
   properties:
     _type: AliasCode
     id: AliasCode_30
     label: AliasCode_30
     standardCodeAliases: []
-- id: 345
+- id: 346
   properties:
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
@@ -3151,7 +3159,7 @@
     bcPropertyRequired: true
     id: BiomedicalConceptProperty_21
     label: BiomedicalConceptProperty_21
-- id: 357
+- id: 358
   properties:
     _type: Code
     code: C164634
@@ -3160,13 +3168,13 @@
     decode: Body Height
     id: Code_205
     label: Code_205
-- id: 356
+- id: 357
   properties:
     _type: AliasCode
     id: AliasCode_28
     label: AliasCode_28
     standardCodeAliases: []
-- id: 341
+- id: 342
   properties:
     _type: BiomedicalConcept
     bcName: Body Height
@@ -3175,7 +3183,7 @@
     - Height
     id: BiomedicalConcept_7
     label: BiomedicalConcept_7
-- id: 361
+- id: 362
   properties:
     _type: Code
     code: C36292
@@ -3184,13 +3192,13 @@
     decode: Laboratory Test Result
     id: Code_213
     label: Code_213
-- id: 360
+- id: 361
   properties:
     _type: AliasCode
     id: AliasCode_32
     label: AliasCode_32
     standardCodeAliases: []
-- id: 359
+- id: 360
   properties:
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: decimal
@@ -3200,7 +3208,7 @@
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_22
     label: BiomedicalConceptProperty_22
-- id: 364
+- id: 365
   properties:
     _type: Code
     code: C83309
@@ -3209,13 +3217,13 @@
     decode: Laboratory Test Fasting Status
     id: Code_214
     label: Code_214
-- id: 363
+- id: 364
   properties:
     _type: AliasCode
     id: AliasCode_33
     label: AliasCode_33
     standardCodeAliases: []
-- id: 362
+- id: 363
   properties:
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: boolean
@@ -3225,7 +3233,7 @@
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_23
     label: BiomedicalConceptProperty_23
-- id: 367
+- id: 368
   properties:
     _type: Code
     code: C67365
@@ -3234,13 +3242,13 @@
     decode: Unit of Catalytic Activity Concentration
     id: Code_215
     label: Code_215
-- id: 366
+- id: 367
   properties:
     _type: AliasCode
     id: AliasCode_34
     label: AliasCode_34
     standardCodeAliases: []
-- id: 365
+- id: 366
   properties:
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
@@ -3250,7 +3258,7 @@
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_24
     label: BiomedicalConceptProperty_24
-- id: 370
+- id: 371
   properties:
     _type: Code
     code: C70713
@@ -3259,13 +3267,13 @@
     decode: Biospecimen Type
     id: Code_216
     label: Code_216
-- id: 369
+- id: 370
   properties:
     _type: AliasCode
     id: AliasCode_35
     label: AliasCode_35
     standardCodeAliases: []
-- id: 368
+- id: 369
   properties:
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
@@ -3275,7 +3283,7 @@
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_25
     label: BiomedicalConceptProperty_25
-- id: 372
+- id: 373
   properties:
     _type: Code
     code: C64433
@@ -3284,13 +3292,13 @@
     decode: Alanine Aminotransferase Measurement
     id: Code_212
     label: Code_212
-- id: 371
+- id: 372
   properties:
     _type: AliasCode
     id: AliasCode_31
     label: AliasCode_31
     standardCodeAliases: []
-- id: 358
+- id: 359
   properties:
     _type: BiomedicalConcept
     bcName: Alanine Aminotransferase Measurement
@@ -3300,7 +3308,7 @@
     - SGPT
     id: BiomedicalConcept_8
     label: BiomedicalConcept_8
-- id: 376
+- id: 377
   properties:
     _type: Code
     code: C36292
@@ -3309,13 +3317,13 @@
     decode: Laboratory Test Result
     id: Code_218
     label: Code_218
-- id: 375
+- id: 376
   properties:
     _type: AliasCode
     id: AliasCode_37
     label: AliasCode_37
     standardCodeAliases: []
-- id: 374
+- id: 375
   properties:
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: decimal
@@ -3325,7 +3333,7 @@
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_26
     label: BiomedicalConceptProperty_26
-- id: 379
+- id: 380
   properties:
     _type: Code
     code: C83309
@@ -3334,13 +3342,13 @@
     decode: Laboratory Test Fasting Status
     id: Code_219
     label: Code_219
-- id: 378
+- id: 379
   properties:
     _type: AliasCode
     id: AliasCode_38
     label: AliasCode_38
     standardCodeAliases: []
-- id: 377
+- id: 378
   properties:
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: boolean
@@ -3350,7 +3358,7 @@
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_27
     label: BiomedicalConceptProperty_27
-- id: 382
+- id: 383
   properties:
     _type: Code
     code: NEW_2
@@ -3359,13 +3367,13 @@
     decode: Unit of Mass or Substance Concentration
     id: Code_220
     label: Code_220
-- id: 381
+- id: 382
   properties:
     _type: AliasCode
     id: AliasCode_39
     label: AliasCode_39
     standardCodeAliases: []
-- id: 380
+- id: 381
   properties:
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
@@ -3375,7 +3383,7 @@
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_28
     label: BiomedicalConceptProperty_28
-- id: 385
+- id: 386
   properties:
     _type: Code
     code: C70713
@@ -3384,13 +3392,13 @@
     decode: Biospecimen Type
     id: Code_221
     label: Code_221
-- id: 384
+- id: 385
   properties:
     _type: AliasCode
     id: AliasCode_40
     label: AliasCode_40
     standardCodeAliases: []
-- id: 383
+- id: 384
   properties:
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
@@ -3400,7 +3408,7 @@
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_29
     label: BiomedicalConceptProperty_29
-- id: 387
+- id: 388
   properties:
     _type: Code
     code: C64431
@@ -3409,13 +3417,13 @@
     decode: Albumin Measurement
     id: Code_217
     label: Code_217
-- id: 386
+- id: 387
   properties:
     _type: AliasCode
     id: AliasCode_36
     label: AliasCode_36
     standardCodeAliases: []
-- id: 373
+- id: 374
   properties:
     _type: BiomedicalConcept
     bcName: Albumin Measurement
@@ -3424,7 +3432,7 @@
     - Albumin
     id: BiomedicalConcept_9
     label: BiomedicalConcept_9
-- id: 391
+- id: 392
   properties:
     _type: Code
     code: C36292
@@ -3433,13 +3441,13 @@
     decode: Laboratory Test Result
     id: Code_223
     label: Code_223
-- id: 390
+- id: 391
   properties:
     _type: AliasCode
     id: AliasCode_42
     label: AliasCode_42
     standardCodeAliases: []
-- id: 389
+- id: 390
   properties:
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: decimal
@@ -3449,7 +3457,7 @@
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_30
     label: BiomedicalConceptProperty_30
-- id: 394
+- id: 395
   properties:
     _type: Code
     code: C83309
@@ -3458,13 +3466,13 @@
     decode: Laboratory Test Fasting Status
     id: Code_224
     label: Code_224
-- id: 393
+- id: 394
   properties:
     _type: AliasCode
     id: AliasCode_43
     label: AliasCode_43
     standardCodeAliases: []
-- id: 392
+- id: 393
   properties:
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: boolean
@@ -3474,7 +3482,7 @@
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_31
     label: BiomedicalConceptProperty_31
-- id: 397
+- id: 398
   properties:
     _type: Code
     code: C67365
@@ -3483,13 +3491,13 @@
     decode: Unit of Catalytic Activity Concentration
     id: Code_225
     label: Code_225
-- id: 396
+- id: 397
   properties:
     _type: AliasCode
     id: AliasCode_44
     label: AliasCode_44
     standardCodeAliases: []
-- id: 395
+- id: 396
   properties:
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
@@ -3499,7 +3507,7 @@
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_32
     label: BiomedicalConceptProperty_32
-- id: 400
+- id: 401
   properties:
     _type: Code
     code: C70713
@@ -3508,13 +3516,13 @@
     decode: Biospecimen Type
     id: Code_226
     label: Code_226
-- id: 399
+- id: 400
   properties:
     _type: AliasCode
     id: AliasCode_45
     label: AliasCode_45
     standardCodeAliases: []
-- id: 398
+- id: 399
   properties:
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
@@ -3524,7 +3532,7 @@
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_33
     label: BiomedicalConceptProperty_33
-- id: 402
+- id: 403
   properties:
     _type: Code
     code: C64432
@@ -3533,13 +3541,13 @@
     decode: Alkaline Phosphatase Measurement
     id: Code_222
     label: Code_222
-- id: 401
+- id: 402
   properties:
     _type: AliasCode
     id: AliasCode_41
     label: AliasCode_41
     standardCodeAliases: []
-- id: 388
+- id: 389
   properties:
     _type: BiomedicalConcept
     bcName: Alkaline Phosphatase Measurement
@@ -3548,7 +3556,7 @@
     - Alkaline Phosphatase
     id: BiomedicalConcept_10
     label: BiomedicalConcept_10
-- id: 406
+- id: 407
   properties:
     _type: Code
     code: C36292
@@ -3557,13 +3565,13 @@
     decode: Laboratory Test Result
     id: Code_228
     label: Code_228
-- id: 405
+- id: 406
   properties:
     _type: AliasCode
     id: AliasCode_47
     label: AliasCode_47
     standardCodeAliases: []
-- id: 404
+- id: 405
   properties:
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: decimal
@@ -3573,7 +3581,7 @@
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_34
     label: BiomedicalConceptProperty_34
-- id: 409
+- id: 410
   properties:
     _type: Code
     code: C83309
@@ -3582,13 +3590,13 @@
     decode: Laboratory Test Fasting Status
     id: Code_229
     label: Code_229
-- id: 408
+- id: 409
   properties:
     _type: AliasCode
     id: AliasCode_48
     label: AliasCode_48
     standardCodeAliases: []
-- id: 407
+- id: 408
   properties:
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: boolean
@@ -3598,7 +3606,7 @@
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_35
     label: BiomedicalConceptProperty_35
-- id: 412
+- id: 413
   properties:
     _type: Code
     code: C67365
@@ -3607,13 +3615,13 @@
     decode: Unit of Catalytic Activity Concentration
     id: Code_230
     label: Code_230
-- id: 411
+- id: 412
   properties:
     _type: AliasCode
     id: AliasCode_49
     label: AliasCode_49
     standardCodeAliases: []
-- id: 410
+- id: 411
   properties:
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
@@ -3623,7 +3631,7 @@
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_36
     label: BiomedicalConceptProperty_36
-- id: 415
+- id: 416
   properties:
     _type: Code
     code: C70713
@@ -3632,13 +3640,13 @@
     decode: Biospecimen Type
     id: Code_231
     label: Code_231
-- id: 414
+- id: 415
   properties:
     _type: AliasCode
     id: AliasCode_50
     label: AliasCode_50
     standardCodeAliases: []
-- id: 413
+- id: 414
   properties:
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
@@ -3648,7 +3656,7 @@
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_37
     label: BiomedicalConceptProperty_37
-- id: 417
+- id: 418
   properties:
     _type: Code
     code: C64467
@@ -3657,13 +3665,13 @@
     decode: Aspartate Aminotransferase Measurement
     id: Code_227
     label: Code_227
-- id: 416
+- id: 417
   properties:
     _type: AliasCode
     id: AliasCode_46
     label: AliasCode_46
     standardCodeAliases: []
-- id: 403
+- id: 404
   properties:
     _type: BiomedicalConcept
     bcName: Aspartate Aminotransferase Measurement
@@ -3673,7 +3681,7 @@
     - SGOT
     id: BiomedicalConcept_11
     label: BiomedicalConcept_11
-- id: 421
+- id: 422
   properties:
     _type: Code
     code: C36292
@@ -3682,13 +3690,13 @@
     decode: Laboratory Test Result
     id: Code_233
     label: Code_233
-- id: 420
+- id: 421
   properties:
     _type: AliasCode
     id: AliasCode_52
     label: AliasCode_52
     standardCodeAliases: []
-- id: 419
+- id: 420
   properties:
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: decimal
@@ -3698,7 +3706,7 @@
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_38
     label: BiomedicalConceptProperty_38
-- id: 424
+- id: 425
   properties:
     _type: Code
     code: C83309
@@ -3707,13 +3715,13 @@
     decode: Laboratory Test Fasting Status
     id: Code_234
     label: Code_234
-- id: 423
+- id: 424
   properties:
     _type: AliasCode
     id: AliasCode_53
     label: AliasCode_53
     standardCodeAliases: []
-- id: 422
+- id: 423
   properties:
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: boolean
@@ -3723,7 +3731,7 @@
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_39
     label: BiomedicalConceptProperty_39
-- id: 427
+- id: 428
   properties:
     _type: Code
     code: NEW_2
@@ -3732,13 +3740,13 @@
     decode: Unit of Mass or Substance Concentration
     id: Code_235
     label: Code_235
-- id: 426
+- id: 427
   properties:
     _type: AliasCode
     id: AliasCode_54
     label: AliasCode_54
     standardCodeAliases: []
-- id: 425
+- id: 426
   properties:
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
@@ -3748,7 +3756,7 @@
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_40
     label: BiomedicalConceptProperty_40
-- id: 430
+- id: 431
   properties:
     _type: Code
     code: C70713
@@ -3757,13 +3765,13 @@
     decode: Biospecimen Type
     id: Code_236
     label: Code_236
-- id: 429
+- id: 430
   properties:
     _type: AliasCode
     id: AliasCode_55
     label: AliasCode_55
     standardCodeAliases: []
-- id: 428
+- id: 429
   properties:
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
@@ -3773,7 +3781,7 @@
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_41
     label: BiomedicalConceptProperty_41
-- id: 432
+- id: 433
   properties:
     _type: Code
     code: C64547
@@ -3782,13 +3790,13 @@
     decode: Creatinine Measurement
     id: Code_232
     label: Code_232
-- id: 431
+- id: 432
   properties:
     _type: AliasCode
     id: AliasCode_51
     label: AliasCode_51
     standardCodeAliases: []
-- id: 418
+- id: 419
   properties:
     _type: BiomedicalConcept
     bcName: Creatinine Measurement
@@ -3797,7 +3805,7 @@
     - Creatinine
     id: BiomedicalConcept_12
     label: BiomedicalConcept_12
-- id: 436
+- id: 437
   properties:
     _type: Code
     code: C36292
@@ -3806,13 +3814,13 @@
     decode: Laboratory Test Result
     id: Code_238
     label: Code_238
-- id: 435
+- id: 436
   properties:
     _type: AliasCode
     id: AliasCode_57
     label: AliasCode_57
     standardCodeAliases: []
-- id: 434
+- id: 435
   properties:
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: decimal
@@ -3822,7 +3830,7 @@
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_42
     label: BiomedicalConceptProperty_42
-- id: 439
+- id: 440
   properties:
     _type: Code
     code: C83309
@@ -3831,13 +3839,13 @@
     decode: Laboratory Test Fasting Status
     id: Code_239
     label: Code_239
-- id: 438
+- id: 439
   properties:
     _type: AliasCode
     id: AliasCode_58
     label: AliasCode_58
     standardCodeAliases: []
-- id: 437
+- id: 438
   properties:
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: boolean
@@ -3847,7 +3855,7 @@
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_43
     label: BiomedicalConceptProperty_43
-- id: 442
+- id: 443
   properties:
     _type: Code
     code: C64567
@@ -3856,13 +3864,13 @@
     decode: Molarity Unit
     id: Code_240
     label: Code_240
-- id: 441
+- id: 442
   properties:
     _type: AliasCode
     id: AliasCode_59
     label: AliasCode_59
     standardCodeAliases: []
-- id: 440
+- id: 441
   properties:
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
@@ -3872,7 +3880,7 @@
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_44
     label: BiomedicalConceptProperty_44
-- id: 445
+- id: 446
   properties:
     _type: Code
     code: C70713
@@ -3881,13 +3889,13 @@
     decode: Biospecimen Type
     id: Code_241
     label: Code_241
-- id: 444
+- id: 445
   properties:
     _type: AliasCode
     id: AliasCode_60
     label: AliasCode_60
     standardCodeAliases: []
-- id: 443
+- id: 444
   properties:
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
@@ -3897,7 +3905,7 @@
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_45
     label: BiomedicalConceptProperty_45
-- id: 447
+- id: 448
   properties:
     _type: Code
     code: C64853
@@ -3906,13 +3914,13 @@
     decode: Potassium Measurement
     id: Code_237
     label: Code_237
-- id: 446
+- id: 447
   properties:
     _type: AliasCode
     id: AliasCode_56
     label: AliasCode_56
     standardCodeAliases: []
-- id: 433
+- id: 434
   properties:
     _type: BiomedicalConcept
     bcName: Potassium Measurement
@@ -3922,7 +3930,7 @@
     - K
     id: BiomedicalConcept_13
     label: BiomedicalConcept_13
-- id: 451
+- id: 452
   properties:
     _type: Code
     code: C36292
@@ -3931,13 +3939,13 @@
     decode: Laboratory Test Result
     id: Code_243
     label: Code_243
-- id: 450
+- id: 451
   properties:
     _type: AliasCode
     id: AliasCode_62
     label: AliasCode_62
     standardCodeAliases: []
-- id: 449
+- id: 450
   properties:
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: decimal
@@ -3947,7 +3955,7 @@
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_46
     label: BiomedicalConceptProperty_46
-- id: 454
+- id: 455
   properties:
     _type: Code
     code: C83309
@@ -3956,13 +3964,13 @@
     decode: Laboratory Test Fasting Status
     id: Code_244
     label: Code_244
-- id: 453
+- id: 454
   properties:
     _type: AliasCode
     id: AliasCode_63
     label: AliasCode_63
     standardCodeAliases: []
-- id: 452
+- id: 453
   properties:
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: boolean
@@ -3972,7 +3980,7 @@
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_47
     label: BiomedicalConceptProperty_47
-- id: 457
+- id: 458
   properties:
     _type: Code
     code: C64567
@@ -3981,13 +3989,13 @@
     decode: Molarity Unit
     id: Code_245
     label: Code_245
-- id: 456
+- id: 457
   properties:
     _type: AliasCode
     id: AliasCode_64
     label: AliasCode_64
     standardCodeAliases: []
-- id: 455
+- id: 456
   properties:
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
@@ -3997,7 +4005,7 @@
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_48
     label: BiomedicalConceptProperty_48
-- id: 460
+- id: 461
   properties:
     _type: Code
     code: C70713
@@ -4006,13 +4014,13 @@
     decode: Biospecimen Type
     id: Code_246
     label: Code_246
-- id: 459
+- id: 460
   properties:
     _type: AliasCode
     id: AliasCode_65
     label: AliasCode_65
     standardCodeAliases: []
-- id: 458
+- id: 459
   properties:
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
@@ -4022,7 +4030,7 @@
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_49
     label: BiomedicalConceptProperty_49
-- id: 462
+- id: 463
   properties:
     _type: Code
     code: C64809
@@ -4031,13 +4039,13 @@
     decode: Sodium Measurement
     id: Code_242
     label: Code_242
-- id: 461
+- id: 462
   properties:
     _type: AliasCode
     id: AliasCode_61
     label: AliasCode_61
     standardCodeAliases: []
-- id: 448
+- id: 449
   properties:
     _type: BiomedicalConcept
     bcName: Sodium Measurement
@@ -4047,7 +4055,7 @@
     - NA
     id: BiomedicalConcept_14
     label: BiomedicalConcept_14
-- id: 465
+- id: 466
   properties:
     _type: Code
     code: C41331
@@ -4056,13 +4064,13 @@
     decode: Adverse Event
     id: Code_247
     label: Code_247
-- id: 464
+- id: 465
   properties:
     _type: AliasCode
     id: AliasCode_66
     label: AliasCode_66
     standardCodeAliases: []
-- id: 463
+- id: 464
   properties:
     _type: BiomedicalConcept
     bcName: Adverse Event
@@ -4071,7 +4079,7 @@
     bcSynonyms: []
     id: BiomedicalConcept_15
     label: BiomedicalConcept_15
-- id: 466
+- id: 467
   properties:
     _type: BiomedicalConceptSurrogate
     bcSurrogateReference: None set
@@ -4079,7 +4087,7 @@
     id: BiomedicalConceptSurrogate_1
     label: BiomedicalConceptSurrogate_1
     name: Date of Birth
-- id: 467
+- id: 468
   properties:
     _type: BiomedicalConceptSurrogate
     bcSurrogateReference: None set
@@ -4087,7 +4095,7 @@
     id: BiomedicalConceptSurrogate_2
     label: BiomedicalConceptSurrogate_2
     name: HbA1c
-- id: 469
+- id: 470
   properties:
     _type: Code
     code: C174268
@@ -4096,7 +4104,7 @@
     decode: Placebo Comparator Arm
     id: Code_61
     label: Code_61
-- id: 470
+- id: 471
   properties:
     _type: Code
     code: C188866
@@ -4105,7 +4113,7 @@
     decode: Data Generated Within Study
     id: Code_62
     label: Code_62
-- id: 468
+- id: 469
   properties:
     _type: StudyArm
     description: Placebo
@@ -4113,7 +4121,7 @@
     label: StudyArm_1
     name: Placebo
     studyArmDataOriginDescription: Data collected from subjects
-- id: 472
+- id: 473
   properties:
     _type: Code
     code: C174267
@@ -4122,7 +4130,7 @@
     decode: Active Comparator Arm
     id: Code_63
     label: Code_63
-- id: 473
+- id: 474
   properties:
     _type: Code
     code: C188866
@@ -4131,7 +4139,7 @@
     decode: Data Generated Within Study
     id: Code_64
     label: Code_64
-- id: 471
+- id: 472
   properties:
     _type: StudyArm
     description: Active Substance
@@ -4139,7 +4147,7 @@
     label: StudyArm_2
     name: Xanomeline Low Dose
     studyArmDataOriginDescription: Data collected from subjects
-- id: 475
+- id: 476
   properties:
     _type: Code
     code: C174267
@@ -4148,7 +4156,7 @@
     decode: Active Comparator Arm
     id: Code_65
     label: Code_65
-- id: 476
+- id: 477
   properties:
     _type: Code
     code: C188866
@@ -4157,7 +4165,7 @@
     decode: Data Generated Within Study
     id: Code_66
     label: Code_66
-- id: 474
+- id: 475
   properties:
     _type: StudyArm
     description: Active Substance
@@ -4165,7 +4173,7 @@
     label: StudyArm_3
     name: Xanomeline High Dose
     studyArmDataOriginDescription: Data collected from subjects
-- id: 478
+- id: 479
   properties:
     _type: Code
     code: C48262
@@ -4174,7 +4182,7 @@
     decode: Trial Screening
     id: Code_67
     label: Code_67
-- id: 477
+- id: 478
   properties:
     _type: StudyEpoch
     description: Screening Epoch
@@ -4183,7 +4191,7 @@
     name: Screening
     nextStudyEpochId: StudyEpoch_2
     previousStudyEpochId: null
-- id: 480
+- id: 481
   properties:
     _type: Code
     code: C101526
@@ -4192,7 +4200,7 @@
     decode: Treatment Epoch
     id: Code_68
     label: Code_68
-- id: 479
+- id: 480
   properties:
     _type: StudyEpoch
     description: Treatment Epoch
@@ -4201,7 +4209,7 @@
     name: Treatment 1
     nextStudyEpochId: StudyEpoch_3
     previousStudyEpochId: StudyEpoch_1
-- id: 482
+- id: 483
   properties:
     _type: Code
     code: C101526
@@ -4210,7 +4218,7 @@
     decode: Treatment Epoch
     id: Code_69
     label: Code_69
-- id: 481
+- id: 482
   properties:
     _type: StudyEpoch
     description: Treatment Epoch
@@ -4219,7 +4227,7 @@
     name: Treatment 2
     nextStudyEpochId: StudyEpoch_4
     previousStudyEpochId: StudyEpoch_2
-- id: 484
+- id: 485
   properties:
     _type: Code
     code: C101526
@@ -4228,7 +4236,7 @@
     decode: Treatment Epoch
     id: Code_70
     label: Code_70
-- id: 483
+- id: 484
   properties:
     _type: StudyEpoch
     description: Treatment Epoch
@@ -4237,7 +4245,7 @@
     name: Treatment 3
     nextStudyEpochId: StudyEpoch_5
     previousStudyEpochId: StudyEpoch_3
-- id: 486
+- id: 487
   properties:
     _type: Code
     code: C99158
@@ -4246,7 +4254,7 @@
     decode: Clinical Study Follow-up
     id: Code_71
     label: Code_71
-- id: 485
+- id: 486
   properties:
     _type: StudyEpoch
     description: Follow-up Epoch
@@ -4255,33 +4263,33 @@
     name: Follow-Up
     nextStudyEpochId: null
     previousStudyEpochId: StudyEpoch_4
-- id: 488
+- id: 489
   properties:
     _type: TransitionRule
     id: TransitionRule_7
     label: TransitionRule_7
     transitionRuleDescription: Informed consent
-- id: 489
+- id: 490
   properties:
     _type: TransitionRule
     id: TransitionRule_8
     label: TransitionRule_8
     transitionRuleDescription: Completion of all screening activities and no more
       than 2 weeks from informed consent
-- id: 487
+- id: 488
   properties:
     _type: StudyElement
     description: Screening Element
     id: StudyElement_1
     label: StudyElement_1
     name: Screening
-- id: 491
+- id: 492
   properties:
     _type: TransitionRule
     id: TransitionRule_9
     label: TransitionRule_9
     transitionRuleDescription: "Administration\_of\_first\_dose"
-- id: 490
+- id: 491
   properties:
     _type: StudyElement
     description: Placebo TTS (adhesive patches)
@@ -4289,34 +4297,34 @@
     label: StudyElement_2
     name: Placebo
     transitionEndRule: null
-- id: 493
+- id: 494
   properties:
     _type: TransitionRule
     id: TransitionRule_14
     label: TransitionRule_14
     transitionRuleDescription: "End\_of\_last\_scheduled\_visit\_on\_study\_(including\_\
       early\_termination)"
-- id: 494
+- id: 495
   properties:
     _type: TransitionRule
     id: TransitionRule_15
     label: TransitionRule_15
     transitionRuleDescription: "Completion\_of\_all\_specified\_followup\_activities\_\
       (which\_vary\_on\_a\_patient-by-patient\_basis)"
-- id: 492
+- id: 493
   properties:
     _type: StudyElement
     description: Follow Up Element
     id: StudyElement_7
     label: StudyElement_7
     name: Follow_up
-- id: 496
+- id: 497
   properties:
     _type: TransitionRule
     id: TransitionRule_10
     label: TransitionRule_10
     transitionRuleDescription: "Administration\_of\_first\_dose"
-- id: 495
+- id: 496
   properties:
     _type: StudyElement
     description: Xanomeline TTS (adhesive patches) 50 cm2, 54 mg
@@ -4324,13 +4332,13 @@
     label: StudyElement_3
     name: Low
     transitionEndRule: null
-- id: 498
+- id: 499
   properties:
     _type: TransitionRule
     id: TransitionRule_11
     label: TransitionRule_11
     transitionRuleDescription: Randomized
-- id: 497
+- id: 498
   properties:
     _type: StudyElement
     description: Xanomeline TTS (adhesive patches) 50 cm2, 54 mg
@@ -4338,14 +4346,14 @@
     label: StudyElement_4
     name: High_Start
     transitionEndRule: null
-- id: 500
+- id: 501
   properties:
     _type: TransitionRule
     id: TransitionRule_12
     label: TransitionRule_12
     transitionRuleDescription: "Administration\_of\_first\_dose\_(from\_patches\_\
       supplied\_at\_Visit\_4)"
-- id: 499
+- id: 500
   properties:
     _type: StudyElement
     description: Xanomeline TTS (adhesive patches) 50 cm2, 54 mg + 25 cm2, 27 mg
@@ -4353,14 +4361,14 @@
     label: StudyElement_5
     name: High_Middle
     transitionEndRule: null
-- id: 502
+- id: 503
   properties:
     _type: TransitionRule
     id: TransitionRule_13
     label: TransitionRule_13
     transitionRuleDescription: "Administration\_of\_first\_dose\_(from\_patches\_\
       supplied\_at\_Visit\_12)"
-- id: 501
+- id: 502
   properties:
     _type: StudyElement
     description: Xanomeline TTS (adhesive patches) 50 cm2, 54 mg

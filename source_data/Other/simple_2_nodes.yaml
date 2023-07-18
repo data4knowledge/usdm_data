@@ -222,6 +222,15 @@
     id: InvestigationalIntervention_2
     interventionDescription: An intervention
     label: InvestigationalIntervention_2
+- id: 32
+  properties:
+    _type: Code
+    code: C49636
+    codeSystem: http://www.cdisc.org
+    codeSystemVersion: '2022-12-16'
+    decode: Both
+    id: Code_61
+    label: Code_61
 - id: 31
   properties:
     _type: StudyDesignPopulation
@@ -230,9 +239,17 @@
     plannedMaximumAgeOfParticipants: 40 years
     plannedMinimumAgeOfParticipants: 18 years
     plannedNumberOfParticipants: 100
-    plannedSexOfParticipants: []
     populationDescription: Pop 1
-- id: 32
+- id: 34
+  properties:
+    _type: Code
+    code: C20197
+    codeSystem: http://www.cdisc.org
+    codeSystemVersion: '2022-12-16'
+    decode: Male
+    id: Code_62
+    label: Code_62
+- id: 33
   properties:
     _type: StudyDesignPopulation
     id: StudyDesignPopulation_2
@@ -240,9 +257,17 @@
     plannedMaximumAgeOfParticipants: 60 years
     plannedMinimumAgeOfParticipants: 18 years
     plannedNumberOfParticipants: 20
-    plannedSexOfParticipants: []
     populationDescription: Pop 2
-- id: 33
+- id: 36
+  properties:
+    _type: Code
+    code: C16576
+    codeSystem: http://www.cdisc.org
+    codeSystemVersion: '2022-12-16'
+    decode: Female
+    id: Code_63
+    label: Code_63
+- id: 35
   properties:
     _type: StudyDesignPopulation
     id: StudyDesignPopulation_3
@@ -250,9 +275,8 @@
     plannedMaximumAgeOfParticipants: 70 years
     plannedMinimumAgeOfParticipants: 18 years
     plannedNumberOfParticipants: 20
-    plannedSexOfParticipants: []
     populationDescription: Pop 3
-- id: 35
+- id: 38
   properties:
     _type: Code
     code: C85826
@@ -261,7 +285,7 @@
     decode: Trial Primary Objective
     id: Code_65
     label: Code_65
-- id: 37
+- id: 40
   properties:
     _type: Code
     code: C94496
@@ -270,25 +294,25 @@
     decode: Primary Endpoint
     id: Code_64
     label: Code_64
-- id: 36
+- id: 39
   properties:
     _type: Endpoint
     endpointDescription: End Desc
     endpointPurposeDescription: None provided
     id: Endpoint_1
     label: Endpoint_1
-- id: 34
+- id: 37
   properties:
     _type: Objective
     id: Objective_1
     label: Objective_1
     objectiveDescription: Obj Desc
-- id: 39
+- id: 42
   properties:
     _type: ScheduleTimelineExit
     id: ScheduleTimelineExit_1
     label: ScheduleTimelineExit_1
-- id: 42
+- id: 45
   properties:
     _type: Code
     code: C99901x3
@@ -297,7 +321,7 @@
     decode: Fixed Reference
     id: Code_45
     label: Code_45
-- id: 43
+- id: 46
   properties:
     _type: Code
     code: C99900x1
@@ -306,7 +330,7 @@
     decode: Start to Start
     id: Code_49
     label: Code_49
-- id: 41
+- id: 44
   properties:
     _type: Timing
     id: Timing_4
@@ -316,7 +340,7 @@
     timingWindow: null
     timingWindowLower: null
     timingWindowUpper: null
-- id: 40
+- id: 43
   properties:
     _type: ScheduledActivityInstance
     id: ScheduledActivityInstance_4
@@ -324,7 +348,7 @@
     scheduleTimelineExitId: null
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
-- id: 46
+- id: 49
   properties:
     _type: Code
     code: C99901x3
@@ -333,7 +357,7 @@
     decode: Fixed Reference
     id: Code_33
     label: Code_33
-- id: 47
+- id: 50
   properties:
     _type: Code
     code: C99900x1
@@ -342,7 +366,7 @@
     decode: Start to Start
     id: Code_34
     label: Code_34
-- id: 45
+- id: 48
   properties:
     _type: Timing
     id: Timing_1
@@ -352,7 +376,7 @@
     timingWindow: '-'
     timingWindowLower: null
     timingWindowUpper: null
-- id: 44
+- id: 47
   properties:
     _type: ScheduledActivityInstance
     id: ScheduledActivityInstance_1
@@ -360,7 +384,7 @@
     scheduleTimelineExitId: null
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
-- id: 50
+- id: 53
   properties:
     _type: Code
     code: C99901x1
@@ -369,7 +393,7 @@
     decode: After
     id: Code_51
     label: Code_51
-- id: 51
+- id: 54
   properties:
     _type: Code
     code: C99900x1
@@ -378,7 +402,7 @@
     decode: Start to Start
     id: Code_54
     label: Code_54
-- id: 49
+- id: 52
   properties:
     _type: Timing
     id: Timing_5
@@ -388,7 +412,7 @@
     timingWindow: null
     timingWindowLower: null
     timingWindowUpper: null
-- id: 48
+- id: 51
   properties:
     _type: ScheduledActivityInstance
     id: ScheduledActivityInstance_5
@@ -396,7 +420,7 @@
     scheduleTimelineExitId: null
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
-- id: 52
+- id: 55
   properties:
     _type: ScheduledDecisionInstance
     id: ScheduledActivityInstance_6
@@ -405,7 +429,7 @@
     scheduledInstanceTimelineId: null
     scheduledInstanceTimings: []
     scheduledInstanceType: DECISION
-- id: 55
+- id: 58
   properties:
     _type: Code
     code: C99901x1
@@ -414,7 +438,7 @@
     decode: After
     id: Code_36
     label: Code_36
-- id: 56
+- id: 59
   properties:
     _type: Code
     code: C99900x1
@@ -423,7 +447,7 @@
     decode: Start to Start
     id: Code_39
     label: Code_39
-- id: 54
+- id: 57
   properties:
     _type: Timing
     id: Timing_2
@@ -433,7 +457,7 @@
     timingWindow: -2..2 Days
     timingWindowLower: P2D
     timingWindowUpper: P2D
-- id: 53
+- id: 56
   properties:
     _type: ScheduledActivityInstance
     id: ScheduledActivityInstance_2
@@ -441,7 +465,7 @@
     scheduleTimelineExitId: null
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
-- id: 59
+- id: 62
   properties:
     _type: Code
     code: C99901x1
@@ -450,7 +474,7 @@
     decode: After
     id: Code_41
     label: Code_41
-- id: 60
+- id: 63
   properties:
     _type: Code
     code: C99900x1
@@ -459,7 +483,7 @@
     decode: Start to Start
     id: Code_44
     label: Code_44
-- id: 58
+- id: 61
   properties:
     _type: Timing
     id: Timing_3
@@ -469,7 +493,7 @@
     timingWindow: '-'
     timingWindowLower: null
     timingWindowUpper: null
-- id: 57
+- id: 60
   properties:
     _type: ScheduledActivityInstance
     id: ScheduledActivityInstance_3
@@ -477,7 +501,7 @@
     scheduleTimelineExitId: null
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
-- id: 38
+- id: 41
   properties:
     _type: ScheduleTimeline
     description: This is the main timeline for the study design.
@@ -487,7 +511,7 @@
     mainTimeline: true
     name: Main Timeline
     scheduleTimelineEntryId: ScheduledActivityInstance_4
-- id: 61
+- id: 64
   properties:
     _type: Code
     code: T2_DIABETES
@@ -496,7 +520,7 @@
     decode: Type 2 diabetes
     id: Code_23
     label: Code_23
-- id: 62
+- id: 65
   properties:
     _type: Code
     code: '73211009'
@@ -505,13 +529,13 @@
     decode: Diabetes mellitus (disorder)
     id: Code_24
     label: Code_24
-- id: 64
+- id: 67
   properties:
     _type: AnalysisPopulation
     id: AnalysisPopulation_1
     label: AnalysisPopulation_1
     populationDescription: ITT
-- id: 65
+- id: 68
   properties:
     _type: IntercurrentEvent
     id: IntercurrentEvent_1
@@ -520,13 +544,13 @@
     intercurrentEventStrategy: Patients with out of range lab values before dosing
       will be excluded
     label: IntercurrentEvent_1
-- id: 63
+- id: 66
   properties:
     _type: Estimand
     id: Estimand_1
     label: Estimand_1
     summaryMeasure: Survival of all patients
-- id: 67
+- id: 70
   properties:
     _type: Code
     code: C25716
@@ -535,7 +559,7 @@
     decode: Visit
     id: Code_8
     label: Code_8
-- id: 68
+- id: 71
   properties:
     _type: Code
     code: C51282
@@ -544,7 +568,7 @@
     decode: Clinic
     id: Code_9
     label: Code_9
-- id: 69
+- id: 72
   properties:
     _type: Code
     code: C175574
@@ -553,19 +577,19 @@
     decode: In Person
     id: Code_10
     label: Code_10
-- id: 70
+- id: 73
   properties:
     _type: TransitionRule
     id: TransitionRule_1
     label: TransitionRule_1
     transitionRuleDescription: Subject identified
-- id: 71
+- id: 74
   properties:
     _type: TransitionRule
     id: TransitionRule_2
     label: TransitionRule_2
     transitionRuleDescription: IEs passed
-- id: 66
+- id: 69
   properties:
     _type: Encounter
     description: Day 1
@@ -575,7 +599,7 @@
     name: Day 1
     nextEncounterId: Encounter_2
     previousEncounterId: null
-- id: 73
+- id: 76
   properties:
     _type: Code
     code: C25716
@@ -584,7 +608,7 @@
     decode: Visit
     id: Code_11
     label: Code_11
-- id: 74
+- id: 77
   properties:
     _type: Code
     code: C51282
@@ -593,7 +617,7 @@
     decode: Clinic
     id: Code_12
     label: Code_12
-- id: 75
+- id: 78
   properties:
     _type: Code
     code: C175574
@@ -602,7 +626,7 @@
     decode: In Person
     id: Code_13
     label: Code_13
-- id: 72
+- id: 75
   properties:
     _type: Encounter
     description: Day 15
@@ -614,7 +638,7 @@
     previousEncounterId: Encounter_1
     transitionEndRule: null
     transitionStartRule: null
-- id: 77
+- id: 80
   properties:
     _type: Code
     code: C25716
@@ -623,7 +647,7 @@
     decode: Visit
     id: Code_14
     label: Code_14
-- id: 78
+- id: 81
   properties:
     _type: Code
     code: C51282
@@ -632,7 +656,7 @@
     decode: Clinic
     id: Code_15
     label: Code_15
-- id: 79
+- id: 82
   properties:
     _type: Code
     code: C175574
@@ -641,7 +665,7 @@
     decode: In Person
     id: Code_16
     label: Code_16
-- id: 76
+- id: 79
   properties:
     _type: Encounter
     description: Follow up
@@ -653,7 +677,7 @@
     previousEncounterId: Encounter_2
     transitionEndRule: null
     transitionStartRule: null
-- id: 82
+- id: 85
   properties:
     _type: Code
     code: '12345679'
@@ -662,7 +686,7 @@
     decode: Test
     id: Code_7
     label: Code_7
-- id: 81
+- id: 84
   properties:
     _type: Procedure
     description: Test Nine
@@ -672,7 +696,7 @@
     procedureIsConditional: true
     procedureIsConditionalReason: Only do it they have man flu
     procedureType: XXX
-- id: 80
+- id: 83
   properties:
     _type: Activity
     activityIsConditional: false
@@ -684,7 +708,7 @@
     name: Physical Examination
     nextActivityId: null
     previousActivityId: null
-- id: 84
+- id: 87
   properties:
     _type: Code
     code: C49659
@@ -693,13 +717,13 @@
     decode: Open Label Study
     id: Code_25
     label: Code_25
-- id: 83
+- id: 86
   properties:
     _type: AliasCode
     id: AliasCode_2
     label: AliasCode_2
     standardCodeAliases: []
-- id: 85
+- id: 88
   properties:
     _type: BiomedicalConceptSurrogate
     bcSurrogateReference: None set
@@ -707,7 +731,7 @@
     id: BiomedicalConceptSurrogate_1
     label: BiomedicalConceptSurrogate_1
     name: PE 1
-- id: 86
+- id: 89
   properties:
     _type: BiomedicalConceptSurrogate
     bcSurrogateReference: None set
@@ -715,7 +739,7 @@
     id: BiomedicalConceptSurrogate_2
     label: BiomedicalConceptSurrogate_2
     name: PE 2
-- id: 87
+- id: 90
   properties:
     _type: BiomedicalConceptSurrogate
     bcSurrogateReference: None set
@@ -723,7 +747,7 @@
     id: BiomedicalConceptSurrogate_3
     label: BiomedicalConceptSurrogate_3
     name: Weight
-- id: 88
+- id: 91
   properties:
     _type: BiomedicalConceptSurrogate
     bcSurrogateReference: None set
@@ -731,7 +755,7 @@
     id: BiomedicalConceptSurrogate_4
     label: BiomedicalConceptSurrogate_4
     name: Height
-- id: 90
+- id: 93
   properties:
     _type: Code
     code: C174267
@@ -740,7 +764,7 @@
     decode: Active Comparator Arm
     id: Code_17
     label: Code_17
-- id: 91
+- id: 94
   properties:
     _type: Code
     code: C188866
@@ -749,7 +773,7 @@
     decode: Data Generated Within Study
     id: Code_18
     label: Code_18
-- id: 89
+- id: 92
   properties:
     _type: StudyArm
     description: Active Substance
@@ -757,7 +781,7 @@
     label: StudyArm_1
     name: Active
     studyArmDataOriginDescription: Data collected from subjects
-- id: 93
+- id: 96
   properties:
     _type: Code
     code: C174268
@@ -766,7 +790,7 @@
     decode: Placebo Comparator Arm
     id: Code_19
     label: Code_19
-- id: 94
+- id: 97
   properties:
     _type: Code
     code: C188866
@@ -775,7 +799,7 @@
     decode: Data Generated Within Study
     id: Code_20
     label: Code_20
-- id: 92
+- id: 95
   properties:
     _type: StudyArm
     description: Placebo
@@ -783,7 +807,7 @@
     label: StudyArm_2
     name: Placebo
     studyArmDataOriginDescription: Data collected from subjects
-- id: 96
+- id: 99
   properties:
     _type: Code
     code: C101526
@@ -792,7 +816,7 @@
     decode: Treatment Epoch
     id: Code_21
     label: Code_21
-- id: 95
+- id: 98
   properties:
     _type: StudyEpoch
     description: Treatment Epoch
@@ -801,7 +825,7 @@
     name: Treatment
     nextStudyEpochId: StudyEpoch_2
     previousStudyEpochId: null
-- id: 98
+- id: 101
   properties:
     _type: Code
     code: C99158
@@ -810,7 +834,7 @@
     decode: Clinical Study Follow-up
     id: Code_22
     label: Code_22
-- id: 97
+- id: 100
   properties:
     _type: StudyEpoch
     description: Follow-up Epoch
@@ -819,38 +843,38 @@
     name: Follow-Up
     nextStudyEpochId: null
     previousStudyEpochId: StudyEpoch_1
-- id: 100
+- id: 103
   properties:
     _type: TransitionRule
     id: TransitionRule_3
     label: TransitionRule_3
     transitionRuleDescription: Radomized
-- id: 101
+- id: 104
   properties:
     _type: TransitionRule
     id: TransitionRule_4
     label: TransitionRule_4
     transitionRuleDescription: Completed treatment
-- id: 99
+- id: 102
   properties:
     _type: StudyElement
     description: Treatment Element
     id: StudyElement_1
     label: StudyElement_1
     name: Treatment
-- id: 103
+- id: 106
   properties:
     _type: TransitionRule
     id: TransitionRule_5
     label: TransitionRule_5
     transitionRuleDescription: Treated
-- id: 104
+- id: 107
   properties:
     _type: TransitionRule
     id: TransitionRule_6
     label: TransitionRule_6
     transitionRuleDescription: Leave Study
-- id: 102
+- id: 105
   properties:
     _type: StudyElement
     description: Follow Up Element
