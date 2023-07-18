@@ -1,28 +1,28 @@
 - id: 11
   properties:
     _type: ScheduleTimelineExit
+    id: ScheduleTimelineExit_1
     label: ScheduleTimelineExit_1
-    scheduleTimelineExitId: ScheduleTimelineExit_1
 - id: 13
   properties:
     _type: Timing
+    id: Timing_1
     label: Timing_1
     timingDescription: null
-    timingId: Timing_1
     timingRelativeToFrom:
       _type: Code
       code: C99900x1
-      codeId: Code_39
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Start to Start
+      id: Code_39
     timingType:
       _type: Code
       code: C99901x3
-      codeId: Code_35
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Fixed Reference
+      id: Code_35
     timingValue: PT0M
     timingWindow: 0..1 Hours
     timingWindowLower: PT0H
@@ -30,31 +30,31 @@
 - id: 12
   properties:
     _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_1
     label: ScheduledActivityInstance_1
     scheduleTimelineExitId: null
-    scheduledInstanceId: ScheduledActivityInstance_1
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
 - id: 17
   properties:
     _type: Timing
+    id: Timing_2
     label: Timing_2
     timingDescription: +24 Hours
-    timingId: Timing_2
     timingRelativeToFrom:
       _type: Code
       code: C99900x1
-      codeId: Code_44
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Start to Start
+      id: Code_44
     timingType:
       _type: Code
       code: C99901x1
-      codeId: Code_41
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: After
+      id: Code_41
     timingValue: PT24H
     timingWindow: null
     timingWindowLower: null
@@ -62,31 +62,31 @@
 - id: 16
   properties:
     _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_2
     label: ScheduledActivityInstance_2
     scheduleTimelineExitId: null
-    scheduledInstanceId: ScheduledActivityInstance_2
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
 - id: 21
   properties:
     _type: Timing
+    id: Timing_3
     label: Timing_3
     timingDescription: +7 Days
-    timingId: Timing_3
     timingRelativeToFrom:
       _type: Code
       code: C99900x1
-      codeId: Code_49
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Start to Start
+      id: Code_49
     timingType:
       _type: Code
       code: C99901x1
-      codeId: Code_46
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: After
+      id: Code_46
     timingValue: P7D
     timingWindow: -3..3 Days
     timingWindowLower: P3D
@@ -94,50 +94,50 @@
 - id: 20
   properties:
     _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_3
     label: ScheduledActivityInstance_3
     scheduleTimelineExitId: null
-    scheduledInstanceId: ScheduledActivityInstance_3
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
 - id: 10
   properties:
     _type: ScheduleTimeline
+    description: This is the main timeline for the study design.
     entryCondition: Potential subject identified
+    id: ScheduleTimeline_1
     label: ScheduleTimeline_1
     mainTimeline: true
-    scheduleTimelineDescription: This is the main timeline for the study design.
+    name: Main Timeline
     scheduleTimelineEntryId: ScheduledActivityInstance_1
-    scheduleTimelineId: ScheduleTimeline_1
-    scheduleTimelineName: Main Timeline
 - id: 26
   properties:
     _type: Encounter
+    description: First dose
     encounterContactModes:
     - _type: Code
       code: C175574
-      codeId: Code_15
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: In Person
-    encounterDescription: First dose
+      id: Code_15
     encounterEnvironmentalSetting:
       _type: Code
       code: C51282
-      codeId: Code_14
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Clinic
-    encounterId: Encounter_1
-    encounterName: 15 min
+      id: Code_14
     encounterScheduledAtTimingId: null
     encounterType:
       _type: Code
       code: C25716
-      codeId: Code_13
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Visit
+      id: Code_13
+    id: Encounter_1
     label: Encounter_1
+    name: 15 min
     nextEncounterId: Encounter_2
     previousEncounterId: null
     transitionEndRule: null
@@ -145,32 +145,32 @@
 - id: 30
   properties:
     _type: Encounter
+    description: 2 week visit
     encounterContactModes:
     - _type: Code
       code: C175574
-      codeId: Code_18
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: In Person
-    encounterDescription: 2 week visit
+      id: Code_18
     encounterEnvironmentalSetting:
       _type: Code
       code: C51282
-      codeId: Code_17
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Clinic
-    encounterId: Encounter_2
-    encounterName: Day 24
+      id: Code_17
     encounterScheduledAtTimingId: null
     encounterType:
       _type: Code
       code: C25716
-      codeId: Code_16
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Visit
+      id: Code_16
+    id: Encounter_2
     label: Encounter_2
+    name: Day 24
     nextEncounterId: Encounter_3
     previousEncounterId: Encounter_1
     transitionEndRule: null
@@ -178,32 +178,32 @@
 - id: 34
   properties:
     _type: Encounter
+    description: 5 week visit
     encounterContactModes:
     - _type: Code
       code: C171537
-      codeId: Code_21
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Telephone Call
-    encounterDescription: 5 week visit
+      id: Code_21
     encounterEnvironmentalSetting:
       _type: Code
       code: C18002
-      codeId: Code_20
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Home
-    encounterId: Encounter_3
-    encounterName: Day 35
+      id: Code_20
     encounterScheduledAtTimingId: null
     encounterType:
       _type: Code
       code: C25716
-      codeId: Code_19
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Visit
+      id: Code_19
+    id: Encounter_3
     label: Encounter_3
+    name: Day 35
     nextEncounterId: null
     previousEncounterId: Encounter_2
     transitionEndRule: null
@@ -211,27 +211,27 @@
 - id: 38
   properties:
     _type: Activity
-    activityDescription: Demographics
-    activityId: Activity_1
     activityIsConditional: false
     activityIsConditionalReason: ''
-    activityName: Demographics
     activityTimelineId: ''
     definedProcedures: []
+    description: Demographics
+    id: Activity_1
     label: Activity_1
+    name: Demographics
     nextActivityId: Activity_2
     previousActivityId: null
 - id: 39
   properties:
     _type: Activity
-    activityDescription: Something Else
-    activityId: Activity_2
     activityIsConditional: false
     activityIsConditionalReason: ''
-    activityName: Something Else
     activityTimelineId: ''
     definedProcedures: []
+    description: Something Else
+    id: Activity_2
     label: Activity_2
+    name: Something Else
     nextActivityId: null
     previousActivityId: Activity_1
 - id: 5
@@ -240,20 +240,20 @@
     bcCategories: []
     bcSurrogates: {}
     biomedicalConcepts: {}
+    description: The main design for the study
+    id: StudyDesign_1
     interventionModel:
       _type: Code
       code: C82639
-      codeId: Code_34
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Parallel Study
+      id: Code_34
     label: StudyDesign_1
+    name: Study Design 1
     studyArms: {}
     studyCells: {}
     studyDesignBlindingScheme: {}
-    studyDesignDescription: The main design for the study
-    studyDesignId: StudyDesign_1
-    studyDesignName: Study Design 1
     studyDesignRationale: Basic study
     studyElements: {}
     studyEpochs: {}
@@ -265,55 +265,55 @@
     therapeuticAreas:
     - _type: Code
       code: T2_DIABETES
-      codeId: Code_28
       codeSystem: SPONSOR
       codeSystemVersion: '12'
       decode: Type 2 diabetes
+      id: Code_28
     - _type: Code
       code: '73211009'
-      codeId: Code_29
       codeSystem: SNOMED
       codeSystemVersion: January 31, 2018
       decode: Diabetes mellitus (disorder)
+      id: Code_29
     trialIntentTypes:
     - _type: Code
       code: C15714
-      codeId: Code_31
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Basic Research
+      id: Code_31
     - _type: Code
       code: C139174
-      codeId: Code_32
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Device Feasibility Study
+      id: Code_32
     trialType:
     - _type: Code
       code: C49666
-      codeId: Code_33
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Efficacy Study
+      id: Code_33
 - id: 1
   properties:
     _type: Study
     businessTherapeuticAreas:
     - _type: Code
       code: VAC
-      codeId: Code_3
       codeSystem: SPONSOR
       codeSystemVersion: '12'
       decode: Vacines Group
+      id: Code_3
     - _type: Code
       code: REG
-      codeId: Code_4
       codeSystem: SPONSOR
       codeSystemVersion: '12'
       decode: Regulatory
+      id: Code_4
+    id: null
     label: Study
     studyAcronym: SIMPLE
-    studyId: null
     studyIdentifiers: {}
     studyPhase: {}
     studyProtocolVersions: {}
@@ -322,8 +322,8 @@
     studyType:
       _type: Code
       code: C98388
-      codeId: Code_1
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Interventional Study
+      id: Code_1
     studyVersion: '1'

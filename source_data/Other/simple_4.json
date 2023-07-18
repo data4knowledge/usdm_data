@@ -1,18 +1,18 @@
 {
-  "studyId": null,
+  "id": null,
   "studyTitle": "Simple Test 1",
   "studyVersion": "1",
   "studyType": {
-    "codeId": "Code_1",
+    "id": "Code_1",
     "code": "C98388",
     "codeSystem": "http://www.cdisc.org",
     "codeSystemVersion": "2022-12-16",
     "decode": "Interventional Study"
   },
   "studyPhase": {
-    "aliasCodeId": "AliasCode_1",
+    "id": "AliasCode_1",
     "standardCode": {
-      "codeId": "Code_2",
+      "id": "Code_2",
       "code": "C15602",
       "codeSystem": "http://www.cdisc.org",
       "codeSystemVersion": "2022-12-16",
@@ -22,14 +22,14 @@
   },
   "businessTherapeuticAreas": [
     {
-      "codeId": "Code_3",
+      "id": "Code_3",
       "code": "VAC",
       "codeSystem": "SPONSOR",
       "codeSystemVersion": "12",
       "decode": "Vacines Group"
     },
     {
-      "codeId": "Code_4",
+      "id": "Code_4",
       "code": "REG",
       "codeSystem": "SPONSOR",
       "codeSystemVersion": "12",
@@ -38,22 +38,22 @@
   ],
   "studyIdentifiers": [
     {
-      "studyIdentifierId": "StudyIdentifier_1",
+      "id": "StudyIdentifier_1",
       "studyIdentifier": "NCT12345678",
       "studyIdentifierScope": {
-        "organisationId": "Organisation_1",
+        "id": "Organisation_1",
         "organisationIdentifierScheme": "USGOV",
         "organisationIdentifier": "CT-GOV",
         "organisationName": "ClinicalTrials.gov",
         "organisationType": {
-          "codeId": "Code_7",
+          "id": "Code_7",
           "code": "C93453",
           "codeSystem": "http://www.cdisc.org",
           "codeSystemVersion": "2022-12-16",
           "decode": "Study Registry"
         },
         "organizationLegalAddress": {
-          "addressId": "Address_1",
+          "id": "Address_1",
           "text": "line, city, district, state, postal_code, United Kingdom of Great Britain and Northern Ireland",
           "line": "line",
           "city": "city",
@@ -61,7 +61,7 @@
           "state": "state",
           "postalCode": "postal_code",
           "country": {
-            "codeId": "Code_8",
+            "id": "Code_8",
             "code": "GBR",
             "codeSystem": "ISO 3166 1 alpha3",
             "codeSystemVersion": "2020-08",
@@ -71,22 +71,22 @@
       }
     },
     {
-      "studyIdentifierId": "StudyIdentifier_2",
+      "id": "StudyIdentifier_2",
       "studyIdentifier": "AP1234",
       "studyIdentifierScope": {
-        "organisationId": "Organisation_2",
+        "id": "Organisation_2",
         "organisationIdentifierScheme": "DUNS",
         "organisationIdentifier": "123456789",
         "organisationName": "ACME Pharma",
         "organisationType": {
-          "codeId": "Code_9",
+          "id": "Code_9",
           "code": "C70793",
           "codeSystem": "http://www.cdisc.org",
           "codeSystemVersion": "2022-12-16",
           "decode": "Clinical Study Sponsor"
         },
         "organizationLegalAddress": {
-          "addressId": "Address_2",
+          "id": "Address_2",
           "text": "Somewhere, In a City, In a District, In a big state, 12345, France",
           "line": "Somewhere",
           "city": "In a City",
@@ -94,7 +94,7 @@
           "state": "In a big state",
           "postalCode": "12345",
           "country": {
-            "codeId": "Code_10",
+            "id": "Code_10",
             "code": "FRA",
             "codeSystem": "ISO 3166 1 alpha3",
             "codeSystemVersion": "2020-08",
@@ -106,7 +106,7 @@
   ],
   "studyProtocolVersions": [
     {
-      "studyProtocolVersionId": "StudyProtocolVersion_1",
+      "id": "StudyProtocolVersion_1",
       "briefTitle": "Something Brief",
       "officialTitle": "Something Very Official",
       "publicTitle": "Something Public",
@@ -115,7 +115,7 @@
       "protocolAmendment": "",
       "protocolEffectiveDate": "2010-01-01",
       "protocolStatus": {
-        "codeId": "Code_5",
+        "id": "Code_5",
         "code": "C85255",
         "codeSystem": "http://www.cdisc.org",
         "codeSystemVersion": "2022-12-16",
@@ -123,7 +123,7 @@
       }
     },
     {
-      "studyProtocolVersionId": "StudyProtocolVersion_2",
+      "id": "StudyProtocolVersion_2",
       "briefTitle": "Something Brief",
       "officialTitle": "Something Very Official",
       "publicTitle": "Something Public",
@@ -132,7 +132,7 @@
       "protocolAmendment": "A",
       "protocolEffectiveDate": "2011-01-01",
       "protocolStatus": {
-        "codeId": "Code_6",
+        "id": "Code_6",
         "code": "C85255",
         "codeSystem": "http://www.cdisc.org",
         "codeSystemVersion": "2022-12-16",
@@ -142,19 +142,19 @@
   ],
   "studyDesigns": [
     {
-      "studyDesignId": "StudyDesign_1",
-      "studyDesignName": "Study Design 1",
-      "studyDesignDescription": "The main design for the study",
+      "id": "StudyDesign_1",
+      "name": "Study Design 1",
+      "description": "The main design for the study",
       "trialIntentTypes": [
         {
-          "codeId": "Code_31",
+          "id": "Code_31",
           "code": "C15714",
           "codeSystem": "http://www.cdisc.org",
           "codeSystemVersion": "2022-12-16",
           "decode": "Basic Research"
         },
         {
-          "codeId": "Code_32",
+          "id": "Code_32",
           "code": "C139174",
           "codeSystem": "http://www.cdisc.org",
           "codeSystemVersion": "2022-12-16",
@@ -163,7 +163,7 @@
       ],
       "trialType": [
         {
-          "codeId": "Code_33",
+          "id": "Code_33",
           "code": "C49666",
           "codeSystem": "http://www.cdisc.org",
           "codeSystemVersion": "2022-12-16",
@@ -171,7 +171,7 @@
         }
       ],
       "interventionModel": {
-        "codeId": "Code_34",
+        "id": "Code_34",
         "code": "C82639",
         "codeSystem": "http://www.cdisc.org",
         "codeSystemVersion": "2022-12-16",
@@ -179,7 +179,7 @@
       },
       "studyCells": [
         {
-          "studyCellId": "StudyCell_1",
+          "id": "StudyCell_1",
           "studyArmId": "StudyArm_1",
           "studyEpochId": "StudyEpoch_1",
           "studyElementIds": [
@@ -187,7 +187,7 @@
           ]
         },
         {
-          "studyCellId": "StudyCell_2",
+          "id": "StudyCell_2",
           "studyArmId": "StudyArm_1",
           "studyEpochId": "StudyEpoch_2",
           "studyElementIds": [
@@ -195,7 +195,7 @@
           ]
         },
         {
-          "studyCellId": "StudyCell_3",
+          "id": "StudyCell_3",
           "studyArmId": "StudyArm_2",
           "studyEpochId": "StudyEpoch_1",
           "studyElementIds": [
@@ -203,7 +203,7 @@
           ]
         },
         {
-          "studyCellId": "StudyCell_4",
+          "id": "StudyCell_4",
           "studyArmId": "StudyArm_2",
           "studyEpochId": "StudyEpoch_2",
           "studyElementIds": [
@@ -213,11 +213,11 @@
       ],
       "studyIndications": [
         {
-          "indicationId": "Indication_1",
+          "id": "Indication_1",
           "indicationDescription": "An indication",
           "codes": [
             {
-              "codeId": "Code_64",
+              "id": "Code_64",
               "code": "12345",
               "codeSystem": "SNOMED",
               "codeSystemVersion": "January 31, 2018",
@@ -226,11 +226,11 @@
           ]
         },
         {
-          "indicationId": "Indication_2",
+          "id": "Indication_2",
           "indicationDescription": "An indication",
           "codes": [
             {
-              "codeId": "Code_67",
+              "id": "Code_67",
               "code": "345678",
               "codeSystem": "SNOMED",
               "codeSystemVersion": "January 31, 2018",
@@ -241,18 +241,18 @@
       ],
       "studyInvestigationalInterventions": [
         {
-          "investigationalInterventionId": "InvestigationalIntervention_1",
+          "id": "InvestigationalIntervention_1",
           "interventionDescription": "An intervention",
           "codes": [
             {
-              "codeId": "Code_65",
+              "id": "Code_65",
               "code": "X",
               "codeSystem": "ICD-10",
-              "codeSystemVersion": "",
+              "codeSystemVersion": "None set",
               "decode": "Y"
             },
             {
-              "codeId": "Code_66",
+              "id": "Code_66",
               "code": "A",
               "codeSystem": "SNOMED",
               "codeSystemVersion": "January 31, 2018",
@@ -261,18 +261,18 @@
           ]
         },
         {
-          "investigationalInterventionId": "InvestigationalIntervention_2",
+          "id": "InvestigationalIntervention_2",
           "interventionDescription": "An intervention",
           "codes": [
             {
-              "codeId": "Code_68",
+              "id": "Code_68",
               "code": "DD",
               "codeSystem": "ICD-10",
-              "codeSystemVersion": "",
+              "codeSystemVersion": "None set",
               "decode": "CC"
             },
             {
-              "codeId": "Code_69",
+              "id": "Code_69",
               "code": "A",
               "codeSystem": "SNOMED",
               "codeSystemVersion": "January 31, 2018",
@@ -283,7 +283,7 @@
       ],
       "studyPopulations": [
         {
-          "studyDesignPopulationId": "StudyDesignPopulation_1",
+          "id": "StudyDesignPopulation_1",
           "populationDescription": "Pop 1",
           "plannedNumberOfParticipants": 100,
           "plannedMaximumAgeOfParticipants": "40 years",
@@ -291,7 +291,7 @@
           "plannedSexOfParticipants": []
         },
         {
-          "studyDesignPopulationId": "StudyDesignPopulation_2",
+          "id": "StudyDesignPopulation_2",
           "populationDescription": "Pop 2",
           "plannedNumberOfParticipants": 20,
           "plannedMaximumAgeOfParticipants": "60 years",
@@ -299,7 +299,7 @@
           "plannedSexOfParticipants": []
         },
         {
-          "studyDesignPopulationId": "StudyDesignPopulation_3",
+          "id": "StudyDesignPopulation_3",
           "populationDescription": "Pop 3",
           "plannedNumberOfParticipants": 20,
           "plannedMaximumAgeOfParticipants": "70 years",
@@ -309,10 +309,10 @@
       ],
       "studyObjectives": [
         {
-          "objectiveId": "Objective_1",
+          "id": "Objective_1",
           "objectiveDescription": "The primary efficacy objective for this study is to evaluate the efficacy of TCZ compared with placebo in combination with SOC for the treatment of severe COVID-19 pneumonia",
           "objectiveLevel": {
-            "codeId": "Code_74",
+            "id": "Code_74",
             "code": "C85826",
             "codeSystem": "http://www.cdisc.org",
             "codeSystemVersion": "2022-12-16",
@@ -320,11 +320,11 @@
           },
           "objectiveEndpoints": [
             {
-              "endpointId": "Endpoint_1",
+              "id": "Endpoint_1",
               "endpointDescription": "Clinical status assessed using a 7-category ordinal scale at Day 28",
-              "endpointPurposeDescription": "",
+              "endpointPurposeDescription": "-",
               "endpointLevel": {
-                "codeId": "Code_73",
+                "id": "Code_73",
                 "code": "C94496",
                 "codeSystem": "http://www.cdisc.org",
                 "codeSystemVersion": "2022-12-16",
@@ -334,10 +334,10 @@
           ]
         },
         {
-          "objectiveId": "Objective_2",
+          "id": "Objective_2",
           "objectiveDescription": "The secondary efficacy objective for this study is to evaluate the efficacy of TCZ compared with placebo in combination with SOC for the treatment of severe COVID-19 pneumonia",
           "objectiveLevel": {
-            "codeId": "Code_76",
+            "id": "Code_76",
             "code": "C85827",
             "codeSystem": "http://www.cdisc.org",
             "codeSystemVersion": "2022-12-16",
@@ -345,11 +345,11 @@
           },
           "objectiveEndpoints": [
             {
-              "endpointId": "Endpoint_2",
+              "id": "Endpoint_2",
               "endpointDescription": "Time to clinical improvement (TTCI) defined as a National Early Warning Score 2 (NEWS2) of <=2 maintained for 24 hours",
-              "endpointPurposeDescription": "",
+              "endpointPurposeDescription": "-",
               "endpointLevel": {
-                "codeId": "Code_75",
+                "id": "Code_75",
                 "code": "C139173",
                 "codeSystem": "http://www.cdisc.org",
                 "codeSystemVersion": "2022-12-16",
@@ -357,11 +357,11 @@
               }
             },
             {
-              "endpointId": "Endpoint_3",
+              "id": "Endpoint_3",
               "endpointDescription": "Time to improvement of at least 2 categories relative to baseline on a 7-category ordinal scale of clinical status",
-              "endpointPurposeDescription": "",
+              "endpointPurposeDescription": "-",
               "endpointLevel": {
-                "codeId": "Code_77",
+                "id": "Code_77",
                 "code": "C139173",
                 "codeSystem": "http://www.cdisc.org",
                 "codeSystemVersion": "2022-12-16",
@@ -369,11 +369,11 @@
               }
             },
             {
-              "endpointId": "Endpoint_4",
+              "id": "Endpoint_4",
               "endpointDescription": "Incidence of mechanical ventilation",
-              "endpointPurposeDescription": "",
+              "endpointPurposeDescription": "-",
               "endpointLevel": {
-                "codeId": "Code_78",
+                "id": "Code_78",
                 "code": "C139173",
                 "codeSystem": "http://www.cdisc.org",
                 "codeSystemVersion": "2022-12-16",
@@ -381,11 +381,11 @@
               }
             },
             {
-              "endpointId": "Endpoint_5",
+              "id": "Endpoint_5",
               "endpointDescription": "Ventilator-free days to Day 28",
-              "endpointPurposeDescription": "",
+              "endpointPurposeDescription": "-",
               "endpointLevel": {
-                "codeId": "Code_79",
+                "id": "Code_79",
                 "code": "C139173",
                 "codeSystem": "http://www.cdisc.org",
                 "codeSystemVersion": "2022-12-16",
@@ -393,11 +393,11 @@
               }
             },
             {
-              "endpointId": "Endpoint_6",
+              "id": "Endpoint_6",
               "endpointDescription": "Incidence of intensive care unit (ICU) stay",
-              "endpointPurposeDescription": "",
+              "endpointPurposeDescription": "-",
               "endpointLevel": {
-                "codeId": "Code_80",
+                "id": "Code_80",
                 "code": "C139173",
                 "codeSystem": "http://www.cdisc.org",
                 "codeSystemVersion": "2022-12-16",
@@ -405,11 +405,11 @@
               }
             },
             {
-              "endpointId": "Endpoint_7",
+              "id": "Endpoint_7",
               "endpointDescription": "Duration of ICU stay",
-              "endpointPurposeDescription": "",
+              "endpointPurposeDescription": "-",
               "endpointLevel": {
-                "codeId": "Code_81",
+                "id": "Code_81",
                 "code": "C139173",
                 "codeSystem": "http://www.cdisc.org",
                 "codeSystemVersion": "2022-12-16",
@@ -417,11 +417,11 @@
               }
             },
             {
-              "endpointId": "Endpoint_8",
+              "id": "Endpoint_8",
               "endpointDescription": "Time to clinical failure, defined as the time to death, mechanical ventilation, ICU admission, or withdrawal (whichever occurs first). For patients entering the study already in ICU or on mechanical ventilation, clinical failure is defined as a one-category worsening on the ordinal scale, withdrawal or death.",
-              "endpointPurposeDescription": "",
+              "endpointPurposeDescription": "-",
               "endpointLevel": {
-                "codeId": "Code_82",
+                "id": "Code_82",
                 "code": "C139173",
                 "codeSystem": "http://www.cdisc.org",
                 "codeSystemVersion": "2022-12-16",
@@ -429,11 +429,11 @@
               }
             },
             {
-              "endpointId": "Endpoint_9",
+              "id": "Endpoint_9",
               "endpointDescription": "Mortality rate at Days 7, 14, 21, 28, and 60",
-              "endpointPurposeDescription": "",
+              "endpointPurposeDescription": "-",
               "endpointLevel": {
-                "codeId": "Code_83",
+                "id": "Code_83",
                 "code": "C139173",
                 "codeSystem": "http://www.cdisc.org",
                 "codeSystemVersion": "2022-12-16",
@@ -441,11 +441,11 @@
               }
             },
             {
-              "endpointId": "Endpoint_10",
+              "id": "Endpoint_10",
               "endpointDescription": "Time to hospital discharge or \u201cready for discharge\u201d (as evidenced by normal body temperature and respiratory rate, and stable oxygen saturation on ambient air or <= 2L supplemental oxygen)",
-              "endpointPurposeDescription": "",
+              "endpointPurposeDescription": "-",
               "endpointLevel": {
-                "codeId": "Code_84",
+                "id": "Code_84",
                 "code": "C139173",
                 "codeSystem": "http://www.cdisc.org",
                 "codeSystemVersion": "2022-12-16",
@@ -453,11 +453,11 @@
               }
             },
             {
-              "endpointId": "Endpoint_11",
+              "id": "Endpoint_11",
               "endpointDescription": "Time to recovery, defined as discharged or \u201cready for discharge\u201d (as evidenced by normal body temperature and respiratory rate, and stable oxygen saturation on ambient air or <= 2L supplemental oxygen); OR, in a non-ICU hospital ward (or \u201cready for hospital ward\u201d) not requiring supplemental oxygen",
-              "endpointPurposeDescription": "",
+              "endpointPurposeDescription": "-",
               "endpointLevel": {
-                "codeId": "Code_85",
+                "id": "Code_85",
                 "code": "C139173",
                 "codeSystem": "http://www.cdisc.org",
                 "codeSystemVersion": "2022-12-16",
@@ -465,11 +465,11 @@
               }
             },
             {
-              "endpointId": "Endpoint_12",
+              "id": "Endpoint_12",
               "endpointDescription": "Duration of supplemental oxygen",
-              "endpointPurposeDescription": "",
+              "endpointPurposeDescription": "-",
               "endpointLevel": {
-                "codeId": "Code_86",
+                "id": "Code_86",
                 "code": "C139173",
                 "codeSystem": "http://www.cdisc.org",
                 "codeSystemVersion": "2022-12-16",
@@ -481,27 +481,27 @@
       ],
       "studyScheduleTimelines": [
         {
+          "id": "ScheduleTimeline_1",
+          "name": "Main Timeline",
+          "description": "This is the main timeline for the study design.",
           "mainTimeline": true,
-          "scheduleTimelineId": "ScheduleTimeline_1",
-          "scheduleTimelineName": "Main Timeline",
-          "scheduleTimelineDescription": "This is the main timeline for the study design.",
           "entryCondition": "Potential subject identified",
           "scheduleTimelineEntryId": "ScheduledActivityInstance_1",
           "scheduleTimelineExits": [
             {
-              "scheduleTimelineExitId": "ScheduleTimelineExit_1"
+              "id": "ScheduleTimelineExit_1"
             }
           ],
           "scheduleTimelineInstances": [
             {
-              "scheduledInstanceId": "ScheduledActivityInstance_1",
+              "id": "ScheduledActivityInstance_1",
               "scheduledInstanceType": "ACTIVITY",
               "scheduleTimelineExitId": null,
               "scheduledInstanceTimings": [
                 {
-                  "timingId": "Timing_1",
+                  "id": "Timing_1",
                   "timingType": {
-                    "codeId": "Code_35",
+                    "id": "Code_35",
                     "code": "C99901x3",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2022-12-16",
@@ -510,7 +510,7 @@
                   "timingValue": "PT0M",
                   "timingDescription": null,
                   "timingRelativeToFrom": {
-                    "codeId": "Code_39",
+                    "id": "Code_39",
                     "code": "C99900x1",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2022-12-16",
@@ -532,14 +532,14 @@
               "scheduledActivityInstanceEncounterId": "Encounter_1"
             },
             {
-              "scheduledInstanceId": "ScheduledActivityInstance_2",
+              "id": "ScheduledActivityInstance_2",
               "scheduledInstanceType": "ACTIVITY",
               "scheduleTimelineExitId": null,
               "scheduledInstanceTimings": [
                 {
-                  "timingId": "Timing_2",
+                  "id": "Timing_2",
                   "timingType": {
-                    "codeId": "Code_41",
+                    "id": "Code_41",
                     "code": "C99901x1",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2022-12-16",
@@ -548,7 +548,7 @@
                   "timingValue": "PT24H",
                   "timingDescription": "+24 Hours",
                   "timingRelativeToFrom": {
-                    "codeId": "Code_44",
+                    "id": "Code_44",
                     "code": "C99900x1",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2022-12-16",
@@ -570,14 +570,14 @@
               "scheduledActivityInstanceEncounterId": "Encounter_2"
             },
             {
-              "scheduledInstanceId": "ScheduledActivityInstance_3",
+              "id": "ScheduledActivityInstance_3",
               "scheduledInstanceType": "ACTIVITY",
               "scheduleTimelineExitId": null,
               "scheduledInstanceTimings": [
                 {
-                  "timingId": "Timing_3",
+                  "id": "Timing_3",
                   "timingType": {
-                    "codeId": "Code_46",
+                    "id": "Code_46",
                     "code": "C99901x1",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2022-12-16",
@@ -586,7 +586,7 @@
                   "timingValue": "P7D",
                   "timingDescription": "+7 Days",
                   "timingRelativeToFrom": {
-                    "codeId": "Code_49",
+                    "id": "Code_49",
                     "code": "C99900x1",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2022-12-16",
@@ -612,14 +612,14 @@
       ],
       "therapeuticAreas": [
         {
-          "codeId": "Code_28",
+          "id": "Code_28",
           "code": "T2_DIABETES",
           "codeSystem": "SPONSOR",
           "codeSystemVersion": "12",
           "decode": "Type 2 diabetes"
         },
         {
-          "codeId": "Code_29",
+          "id": "Code_29",
           "code": "73211009",
           "codeSystem": "SNOMED",
           "codeSystemVersion": "January 31, 2018",
@@ -628,70 +628,70 @@
       ],
       "studyEstimands": [
         {
-          "estimandId": "Estimand_1",
+          "id": "Estimand_1",
           "summaryMeasure": "Survival of all patients",
           "analysisPopulation": {
-            "analysisPopulationId": "AnalysisPopulation_1",
+            "id": "AnalysisPopulation_1",
             "populationDescription": "ITT"
           },
           "treatment": "InvestigationalIntervention_1",
           "variableOfInterest": "Endpoint_1",
           "intercurrentEvents": [
             {
-              "intercurrentEventId": "IntercurrentEvent_1",
+              "id": "IntercurrentEvent_1",
+              "intercurrentEventStrategy": "Patients with out of range lab values before dosing will be excluded",
               "intercurrentEventName": "termination",
-              "intercurrentEventDescription": "IC Event Description",
-              "intercurrentEventStrategy": "Patients with out of range lab values before dosing will be excluded"
+              "intercurrentEventDescription": "IC Event Description"
             },
             {
-              "intercurrentEventId": "IntercurrentEvent_2",
+              "id": "IntercurrentEvent_2",
+              "intercurrentEventStrategy": "A second bad event",
               "intercurrentEventName": "",
-              "intercurrentEventDescription": "",
-              "intercurrentEventStrategy": "A second bad event"
+              "intercurrentEventDescription": ""
             },
             {
-              "intercurrentEventId": "IntercurrentEvent_3",
+              "id": "IntercurrentEvent_3",
+              "intercurrentEventStrategy": "A third bad thing",
               "intercurrentEventName": "",
-              "intercurrentEventDescription": "",
-              "intercurrentEventStrategy": "A third bad thing"
+              "intercurrentEventDescription": ""
             }
           ]
         },
         {
-          "estimandId": "Estimand_2",
+          "id": "Estimand_2",
           "summaryMeasure": "Something else",
           "analysisPopulation": {
-            "analysisPopulationId": "AnalysisPopulation_2",
+            "id": "AnalysisPopulation_2",
             "populationDescription": "ITT"
           },
           "treatment": "InvestigationalIntervention_2",
           "variableOfInterest": "Endpoint_2",
           "intercurrentEvents": [
             {
-              "intercurrentEventId": "IntercurrentEvent_4",
+              "id": "IntercurrentEvent_4",
+              "intercurrentEventStrategy": "Really really bad shit",
               "intercurrentEventName": "Bad stuff",
-              "intercurrentEventDescription": "IC Event Description Number 2",
-              "intercurrentEventStrategy": "Really really bad shit"
+              "intercurrentEventDescription": "IC Event Description Number 2"
             }
           ]
         }
       ],
       "encounters": [
         {
-          "encounterId": "Encounter_1",
-          "encounterName": "15 min",
-          "encounterDescription": "First dose",
+          "id": "Encounter_1",
+          "name": "15 min",
+          "description": "First dose",
           "previousEncounterId": null,
           "nextEncounterId": "Encounter_2",
           "encounterType": {
-            "codeId": "Code_13",
+            "id": "Code_13",
             "code": "C25716",
             "codeSystem": "http://www.cdisc.org",
             "codeSystemVersion": "2022-12-16",
             "decode": "Visit"
           },
           "encounterEnvironmentalSetting": {
-            "codeId": "Code_14",
+            "id": "Code_14",
             "code": "C51282",
             "codeSystem": "http://www.cdisc.org",
             "codeSystemVersion": "2022-12-16",
@@ -699,7 +699,7 @@
           },
           "encounterContactModes": [
             {
-              "codeId": "Code_15",
+              "id": "Code_15",
               "code": "C175574",
               "codeSystem": "http://www.cdisc.org",
               "codeSystemVersion": "2022-12-16",
@@ -707,27 +707,27 @@
             }
           ],
           "transitionStartRule": {
-            "transitionRuleId": "TransitionRule_1",
+            "id": "TransitionRule_1",
             "transitionRuleDescription": "Radomized"
           },
           "transitionEndRule": null,
           "encounterScheduledAtTimingId": null
         },
         {
-          "encounterId": "Encounter_2",
-          "encounterName": "Day 24",
-          "encounterDescription": "2 week visit",
+          "id": "Encounter_2",
+          "name": "Day 24",
+          "description": "2 week visit",
           "previousEncounterId": "Encounter_1",
           "nextEncounterId": "Encounter_3",
           "encounterType": {
-            "codeId": "Code_16",
+            "id": "Code_16",
             "code": "C25716",
             "codeSystem": "http://www.cdisc.org",
             "codeSystemVersion": "2022-12-16",
             "decode": "Visit"
           },
           "encounterEnvironmentalSetting": {
-            "codeId": "Code_17",
+            "id": "Code_17",
             "code": "C51282",
             "codeSystem": "http://www.cdisc.org",
             "codeSystemVersion": "2022-12-16",
@@ -735,7 +735,7 @@
           },
           "encounterContactModes": [
             {
-              "codeId": "Code_18",
+              "id": "Code_18",
               "code": "C175574",
               "codeSystem": "http://www.cdisc.org",
               "codeSystemVersion": "2022-12-16",
@@ -747,20 +747,20 @@
           "encounterScheduledAtTimingId": null
         },
         {
-          "encounterId": "Encounter_3",
-          "encounterName": "Day 35",
-          "encounterDescription": "5 week visit",
+          "id": "Encounter_3",
+          "name": "Day 35",
+          "description": "5 week visit",
           "previousEncounterId": "Encounter_2",
           "nextEncounterId": null,
           "encounterType": {
-            "codeId": "Code_19",
+            "id": "Code_19",
             "code": "C25716",
             "codeSystem": "http://www.cdisc.org",
             "codeSystemVersion": "2022-12-16",
             "decode": "Visit"
           },
           "encounterEnvironmentalSetting": {
-            "codeId": "Code_20",
+            "id": "Code_20",
             "code": "C18002",
             "codeSystem": "http://www.cdisc.org",
             "codeSystemVersion": "2022-12-16",
@@ -768,7 +768,7 @@
           },
           "encounterContactModes": [
             {
-              "codeId": "Code_21",
+              "id": "Code_21",
               "code": "C171537",
               "codeSystem": "http://www.cdisc.org",
               "codeSystemVersion": "2022-12-16",
@@ -782,9 +782,9 @@
       ],
       "activities": [
         {
-          "activityId": "Activity_1",
-          "activityName": "Demographics",
-          "activityDescription": "Demographics",
+          "id": "Activity_1",
+          "name": "Demographics",
+          "description": "Demographics",
           "previousActivityId": null,
           "nextActivityId": "Activity_2",
           "definedProcedures": [],
@@ -802,9 +802,9 @@
           "activityTimelineId": ""
         },
         {
-          "activityId": "Activity_2",
-          "activityName": "Something Else",
-          "activityDescription": "Something Else",
+          "id": "Activity_2",
+          "name": "Something Else",
+          "description": "Something Else",
           "previousActivityId": "Activity_1",
           "nextActivityId": null,
           "definedProcedures": [],
@@ -818,9 +818,9 @@
       ],
       "studyDesignRationale": "Basic study",
       "studyDesignBlindingScheme": {
-        "aliasCodeId": "AliasCode_2",
+        "id": "AliasCode_2",
         "standardCode": {
-          "codeId": "Code_30",
+          "id": "Code_30",
           "code": "C49659",
           "codeSystem": "http://www.cdisc.org",
           "codeSystemVersion": "2022-12-16",
@@ -830,23 +830,23 @@
       },
       "biomedicalConcepts": [
         {
-          "biomedicalConceptId": "BiomedicalConcept_1",
+          "id": "BiomedicalConcept_1",
           "bcName": "Sex",
           "bcSynonyms": [],
           "bcReference": "/mdr/bc/packages/2023-03-31/biomedicalconcepts/C28421",
           "bcProperties": [
             {
-              "bcPropertyId": "BiomedicalConceptProperty_1",
+              "id": "BiomedicalConceptProperty_1",
               "bcPropertyName": "Sex",
               "bcPropertyRequired": true,
               "bcPropertyEnabled": true,
               "bcPropertyDatatype": "string",
               "bcPropertyResponseCodes": [
                 {
-                  "responseCodeId": "ResponseCode_1",
+                  "id": "ResponseCode_1",
                   "responseCodeEnabled": true,
                   "code": {
-                    "codeId": "Code_51",
+                    "id": "Code_51",
                     "code": "C20197",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2022-12-16",
@@ -854,10 +854,10 @@
                   }
                 },
                 {
-                  "responseCodeId": "ResponseCode_2",
+                  "id": "ResponseCode_2",
                   "responseCodeEnabled": true,
                   "code": {
-                    "codeId": "Code_52",
+                    "id": "Code_52",
                     "code": "C16576",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2022-12-16",
@@ -865,10 +865,10 @@
                   }
                 },
                 {
-                  "responseCodeId": "ResponseCode_3",
+                  "id": "ResponseCode_3",
                   "responseCodeEnabled": true,
                   "code": {
-                    "codeId": "Code_53",
+                    "id": "Code_53",
                     "code": "C17998",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2022-12-16",
@@ -877,9 +877,9 @@
                 }
               ],
               "bcPropertyConceptCode": {
-                "aliasCodeId": "AliasCode_4",
+                "id": "AliasCode_4",
                 "standardCode": {
-                  "codeId": "Code_54",
+                  "id": "Code_54",
                   "code": "C28421",
                   "codeSystem": "NCI Thesaurus",
                   "codeSystemVersion": "",
@@ -890,9 +890,9 @@
             }
           ],
           "bcConceptCode": {
-            "aliasCodeId": "AliasCode_3",
+            "id": "AliasCode_3",
             "standardCode": {
-              "codeId": "Code_50",
+              "id": "Code_50",
               "code": "C28421",
               "codeSystem": "NCI Thesaurus",
               "codeSystemVersion": "",
@@ -902,7 +902,7 @@
           }
         },
         {
-          "biomedicalConceptId": "BiomedicalConcept_2",
+          "id": "BiomedicalConcept_2",
           "bcName": "Race",
           "bcSynonyms": [
             "Racial Group"
@@ -910,17 +910,17 @@
           "bcReference": "/mdr/bc/packages/2023-03-31/biomedicalconcepts/C17049",
           "bcProperties": [
             {
-              "bcPropertyId": "BiomedicalConceptProperty_2",
+              "id": "BiomedicalConceptProperty_2",
               "bcPropertyName": "Race",
               "bcPropertyRequired": true,
               "bcPropertyEnabled": true,
               "bcPropertyDatatype": "string",
               "bcPropertyResponseCodes": [
                 {
-                  "responseCodeId": "ResponseCode_4",
+                  "id": "ResponseCode_4",
                   "responseCodeEnabled": true,
                   "code": {
-                    "codeId": "Code_56",
+                    "id": "Code_56",
                     "code": "C17998",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2022-12-16",
@@ -929,9 +929,9 @@
                 }
               ],
               "bcPropertyConceptCode": {
-                "aliasCodeId": "AliasCode_6",
+                "id": "AliasCode_6",
                 "standardCode": {
-                  "codeId": "Code_57",
+                  "id": "Code_57",
                   "code": "C17049",
                   "codeSystem": "NCI Thesaurus",
                   "codeSystemVersion": "",
@@ -942,9 +942,9 @@
             }
           ],
           "bcConceptCode": {
-            "aliasCodeId": "AliasCode_5",
+            "id": "AliasCode_5",
             "standardCode": {
-              "codeId": "Code_55",
+              "id": "Code_55",
               "code": "C17049",
               "codeSystem": "NCI Thesaurus",
               "codeSystemVersion": "",
@@ -954,7 +954,7 @@
           }
         },
         {
-          "biomedicalConceptId": "BiomedicalConcept_3",
+          "id": "BiomedicalConcept_3",
           "bcName": "Body Weight",
           "bcSynonyms": [
             "Weight"
@@ -962,16 +962,16 @@
           "bcReference": "/mdr/bc/packages/2022-10-26/biomedicalconcepts/C81328",
           "bcProperties": [
             {
-              "bcPropertyId": "BiomedicalConceptProperty_3",
+              "id": "BiomedicalConceptProperty_3",
               "bcPropertyName": "Vital Signs Result",
               "bcPropertyRequired": true,
               "bcPropertyEnabled": true,
               "bcPropertyDatatype": "decimal",
               "bcPropertyResponseCodes": [],
               "bcPropertyConceptCode": {
-                "aliasCodeId": "AliasCode_8",
+                "id": "AliasCode_8",
                 "standardCode": {
-                  "codeId": "Code_59",
+                  "id": "Code_59",
                   "code": "C173522",
                   "codeSystem": "NCI Thesaurus",
                   "codeSystemVersion": "",
@@ -981,17 +981,17 @@
               }
             },
             {
-              "bcPropertyId": "BiomedicalConceptProperty_4",
+              "id": "BiomedicalConceptProperty_4",
               "bcPropertyName": "Unit of Weight",
               "bcPropertyRequired": true,
               "bcPropertyEnabled": true,
               "bcPropertyDatatype": "string",
               "bcPropertyResponseCodes": [
                 {
-                  "responseCodeId": "ResponseCode_5",
+                  "id": "ResponseCode_5",
                   "responseCodeEnabled": true,
                   "code": {
-                    "codeId": "Code_60",
+                    "id": "Code_60",
                     "code": "C28252",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2022-12-16",
@@ -999,10 +999,10 @@
                   }
                 },
                 {
-                  "responseCodeId": "ResponseCode_6",
+                  "id": "ResponseCode_6",
                   "responseCodeEnabled": true,
                   "code": {
-                    "codeId": "Code_61",
+                    "id": "Code_61",
                     "code": "C48155",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2022-12-16",
@@ -1010,10 +1010,10 @@
                   }
                 },
                 {
-                  "responseCodeId": "ResponseCode_7",
+                  "id": "ResponseCode_7",
                   "responseCodeEnabled": true,
                   "code": {
-                    "codeId": "Code_62",
+                    "id": "Code_62",
                     "code": "C48531",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2022-12-16",
@@ -1022,9 +1022,9 @@
                 }
               ],
               "bcPropertyConceptCode": {
-                "aliasCodeId": "AliasCode_9",
+                "id": "AliasCode_9",
                 "standardCode": {
-                  "codeId": "Code_63",
+                  "id": "Code_63",
                   "code": "C48208",
                   "codeSystem": "NCI Thesaurus",
                   "codeSystemVersion": "",
@@ -1035,9 +1035,9 @@
             }
           ],
           "bcConceptCode": {
-            "aliasCodeId": "AliasCode_7",
+            "id": "AliasCode_7",
             "standardCode": {
-              "codeId": "Code_58",
+              "id": "Code_58",
               "code": "C81328",
               "codeSystem": "NCI Thesaurus",
               "codeSystemVersion": "",
@@ -1050,19 +1050,19 @@
       "bcCategories": [],
       "bcSurrogates": [
         {
-          "bcSurrogateId": "BiomedicalConceptSurrogate_1",
-          "bcSurrogateName": "Age",
-          "bcSurrogateDescription": "Age",
-          "bcSurrogateReference": ""
+          "id": "BiomedicalConceptSurrogate_1",
+          "name": "Age",
+          "description": "Age",
+          "bcSurrogateReference": "None set"
         }
       ],
       "studyArms": [
         {
-          "studyArmId": "StudyArm_1",
-          "studyArmName": "Active",
-          "studyArmDescription": "Active Substance",
+          "id": "StudyArm_1",
+          "name": "Active",
+          "description": "Active Substance",
           "studyArmType": {
-            "codeId": "Code_22",
+            "id": "Code_22",
             "code": "C174267",
             "codeSystem": "http://www.cdisc.org",
             "codeSystemVersion": "2022-12-16",
@@ -1070,7 +1070,7 @@
           },
           "studyArmDataOriginDescription": "Data collected from subjects",
           "studyArmDataOriginType": {
-            "codeId": "Code_23",
+            "id": "Code_23",
             "code": "C188866",
             "codeSystem": "http://www.cdisc.org",
             "codeSystemVersion": "2022-12-16",
@@ -1078,11 +1078,11 @@
           }
         },
         {
-          "studyArmId": "StudyArm_2",
-          "studyArmName": "Placebo",
-          "studyArmDescription": "Placebo",
+          "id": "StudyArm_2",
+          "name": "Placebo",
+          "description": "Placebo",
           "studyArmType": {
-            "codeId": "Code_24",
+            "id": "Code_24",
             "code": "C174268",
             "codeSystem": "http://www.cdisc.org",
             "codeSystemVersion": "2022-12-16",
@@ -1090,7 +1090,7 @@
           },
           "studyArmDataOriginDescription": "Data collected from subjects",
           "studyArmDataOriginType": {
-            "codeId": "Code_25",
+            "id": "Code_25",
             "code": "C188866",
             "codeSystem": "http://www.cdisc.org",
             "codeSystemVersion": "2022-12-16",
@@ -1100,11 +1100,11 @@
       ],
       "studyEpochs": [
         {
-          "studyEpochId": "StudyEpoch_1",
-          "studyEpochName": "Treatment",
-          "studyEpochDescription": "Treatment Epoch",
+          "id": "StudyEpoch_1",
+          "name": "Treatment",
+          "description": "Treatment Epoch",
           "studyEpochType": {
-            "codeId": "Code_26",
+            "id": "Code_26",
             "code": "C101526",
             "codeSystem": "http://www.cdisc.org",
             "codeSystemVersion": "2022-12-16",
@@ -1114,11 +1114,11 @@
           "nextStudyEpochId": "StudyEpoch_2"
         },
         {
-          "studyEpochId": "StudyEpoch_2",
-          "studyEpochName": "Follow-Up",
-          "studyEpochDescription": "Follow-up Epoch",
+          "id": "StudyEpoch_2",
+          "name": "Follow-Up",
+          "description": "Follow-up Epoch",
           "studyEpochType": {
-            "codeId": "Code_27",
+            "id": "Code_27",
             "code": "C99158",
             "codeSystem": "http://www.cdisc.org",
             "codeSystemVersion": "2022-12-16",
@@ -1130,28 +1130,28 @@
       ],
       "studyElements": [
         {
-          "studyElementId": "StudyElement_1",
-          "studyElementName": "Treatment",
-          "studyElementDescription": "Treatment Element 1",
+          "id": "StudyElement_1",
+          "name": "Treatment",
+          "description": "Treatment Element 1",
           "transitionStartRule": {
-            "transitionRuleId": "TransitionRule_2",
+            "id": "TransitionRule_2",
             "transitionRuleDescription": "Radomized"
           },
           "transitionEndRule": {
-            "transitionRuleId": "TransitionRule_3",
+            "id": "TransitionRule_3",
             "transitionRuleDescription": "Completed treatment 1"
           }
         },
         {
-          "studyElementId": "StudyElement_2",
-          "studyElementName": "Follow Up",
-          "studyElementDescription": "Follow Up Element",
+          "id": "StudyElement_2",
+          "name": "Follow Up",
+          "description": "Follow Up Element",
           "transitionStartRule": {
-            "transitionRuleId": "TransitionRule_4",
+            "id": "TransitionRule_4",
             "transitionRuleDescription": "Treated"
           },
           "transitionEndRule": {
-            "transitionRuleId": "TransitionRule_5",
+            "id": "TransitionRule_5",
             "transitionRuleDescription": "Leave Study"
           }
         }

@@ -1,28 +1,28 @@
 - id: 10
   properties:
     _type: ScheduleTimelineExit
+    id: ScheduleTimelineExit_1
     label: ScheduleTimelineExit_1
-    scheduleTimelineExitId: ScheduleTimelineExit_1
 - id: 12
   properties:
     _type: Timing
+    id: Timing_1
     label: Timing_1
     timingDescription: null
-    timingId: Timing_1
     timingRelativeToFrom:
       _type: Code
       code: C99900x1
-      codeId: Code_138
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Start to Start
+      id: Code_138
     timingType:
       _type: Code
       code: C99901x2
-      codeId: Code_136
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Before
+      id: Code_136
     timingValue: PT0M
     timingWindow: null
     timingWindowLower: null
@@ -30,31 +30,31 @@
 - id: 11
   properties:
     _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_1
     label: ScheduledActivityInstance_1
     scheduleTimelineExitId: null
-    scheduledInstanceId: ScheduledActivityInstance_1
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
 - id: 16
   properties:
     _type: Timing
+    id: Timing_2
     label: Timing_2
     timingDescription: Pre Dose
-    timingId: Timing_2
     timingRelativeToFrom:
       _type: Code
       code: C99900x1
-      codeId: Code_143
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Start to Start
+      id: Code_143
     timingType:
       _type: Code
       code: C99901x2
-      codeId: Code_141
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Before
+      id: Code_141
     timingValue: PT0M
     timingWindow: 0..4 Hours
     timingWindowLower: PT0H
@@ -62,31 +62,31 @@
 - id: 15
   properties:
     _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_2
     label: ScheduledActivityInstance_2
     scheduleTimelineExitId: null
-    scheduledInstanceId: ScheduledActivityInstance_2
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
 - id: 20
   properties:
     _type: Timing
+    id: Timing_3
     label: Timing_3
     timingDescription: null
-    timingId: Timing_3
     timingRelativeToFrom:
       _type: Code
       code: C99900x1
-      codeId: Code_148
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Start to Start
+      id: Code_148
     timingType:
       _type: Code
       code: C99901x3
-      codeId: Code_144
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Fixed Reference
+      id: Code_144
     timingValue: PT0M
     timingWindow: 0..1 Hours
     timingWindowLower: PT0H
@@ -94,31 +94,31 @@
 - id: 19
   properties:
     _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_3
     label: ScheduledActivityInstance_3
     scheduleTimelineExitId: null
-    scheduledInstanceId: ScheduledActivityInstance_3
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
 - id: 24
   properties:
     _type: Timing
+    id: Timing_4
     label: Timing_4
     timingDescription: +24 Hours
-    timingId: Timing_4
     timingRelativeToFrom:
       _type: Code
       code: C99900x1
-      codeId: Code_153
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Start to Start
+      id: Code_153
     timingType:
       _type: Code
       code: C99901x1
-      codeId: Code_150
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: After
+      id: Code_150
     timingValue: PT24H
     timingWindow: 0..4 Hours
     timingWindowLower: PT0H
@@ -126,31 +126,31 @@
 - id: 23
   properties:
     _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_4
     label: ScheduledActivityInstance_4
     scheduleTimelineExitId: null
-    scheduledInstanceId: ScheduledActivityInstance_4
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
 - id: 28
   properties:
     _type: Timing
+    id: Timing_5
     label: Timing_5
     timingDescription: +36 Hours
-    timingId: Timing_5
     timingRelativeToFrom:
       _type: Code
       code: C99900x1
-      codeId: Code_158
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Start to Start
+      id: Code_158
     timingType:
       _type: Code
       code: C99901x1
-      codeId: Code_155
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: After
+      id: Code_155
     timingValue: PT36H
     timingWindow: 0..4 Hours
     timingWindowLower: PT0H
@@ -158,31 +158,31 @@
 - id: 27
   properties:
     _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_5
     label: ScheduledActivityInstance_5
     scheduleTimelineExitId: null
-    scheduledInstanceId: ScheduledActivityInstance_5
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
 - id: 32
   properties:
     _type: Timing
+    id: Timing_6
     label: Timing_6
     timingDescription: +24 Hours
-    timingId: Timing_6
     timingRelativeToFrom:
       _type: Code
       code: C99900x1
-      codeId: Code_163
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Start to Start
+      id: Code_163
     timingType:
       _type: Code
       code: C99901x1
-      codeId: Code_160
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: After
+      id: Code_160
     timingValue: PT24H
     timingWindow: null
     timingWindowLower: null
@@ -190,31 +190,31 @@
 - id: 31
   properties:
     _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_6
     label: ScheduledActivityInstance_6
     scheduleTimelineExitId: null
-    scheduledInstanceId: ScheduledActivityInstance_6
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
 - id: 36
   properties:
     _type: Timing
+    id: Timing_7
     label: Timing_7
     timingDescription: +24 Hours
-    timingId: Timing_7
     timingRelativeToFrom:
       _type: Code
       code: C99900x1
-      codeId: Code_168
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Start to Start
+      id: Code_168
     timingType:
       _type: Code
       code: C99901x1
-      codeId: Code_165
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: After
+      id: Code_165
     timingValue: PT24H
     timingWindow: null
     timingWindowLower: null
@@ -222,31 +222,31 @@
 - id: 35
   properties:
     _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_7
     label: ScheduledActivityInstance_7
     scheduleTimelineExitId: null
-    scheduledInstanceId: ScheduledActivityInstance_7
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
 - id: 40
   properties:
     _type: Timing
+    id: Timing_8
     label: Timing_8
     timingDescription: +24 Hours
-    timingId: Timing_8
     timingRelativeToFrom:
       _type: Code
       code: C99900x1
-      codeId: Code_173
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Start to Start
+      id: Code_173
     timingType:
       _type: Code
       code: C99901x1
-      codeId: Code_170
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: After
+      id: Code_170
     timingValue: PT24H
     timingWindow: null
     timingWindowLower: null
@@ -254,31 +254,31 @@
 - id: 39
   properties:
     _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_8
     label: ScheduledActivityInstance_8
     scheduleTimelineExitId: null
-    scheduledInstanceId: ScheduledActivityInstance_8
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
 - id: 44
   properties:
     _type: Timing
+    id: Timing_9
     label: Timing_9
     timingDescription: +24 Hours
-    timingId: Timing_9
     timingRelativeToFrom:
       _type: Code
       code: C99900x1
-      codeId: Code_178
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Start to Start
+      id: Code_178
     timingType:
       _type: Code
       code: C99901x1
-      codeId: Code_175
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: After
+      id: Code_175
     timingValue: PT24H
     timingWindow: null
     timingWindowLower: null
@@ -286,31 +286,31 @@
 - id: 43
   properties:
     _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_9
     label: ScheduledActivityInstance_9
     scheduleTimelineExitId: null
-    scheduledInstanceId: ScheduledActivityInstance_9
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
 - id: 48
   properties:
     _type: Timing
+    id: Timing_10
     label: Timing_10
     timingDescription: +24 Hours
-    timingId: Timing_10
     timingRelativeToFrom:
       _type: Code
       code: C99900x1
-      codeId: Code_183
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Start to Start
+      id: Code_183
     timingType:
       _type: Code
       code: C99901x1
-      codeId: Code_180
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: After
+      id: Code_180
     timingValue: PT24H
     timingWindow: null
     timingWindowLower: null
@@ -318,31 +318,31 @@
 - id: 47
   properties:
     _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_10
     label: ScheduledActivityInstance_10
     scheduleTimelineExitId: null
-    scheduledInstanceId: ScheduledActivityInstance_10
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
 - id: 52
   properties:
     _type: Timing
+    id: Timing_11
     label: Timing_11
     timingDescription: +24 Hours
-    timingId: Timing_11
     timingRelativeToFrom:
       _type: Code
       code: C99900x1
-      codeId: Code_188
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Start to Start
+      id: Code_188
     timingType:
       _type: Code
       code: C99901x1
-      codeId: Code_185
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: After
+      id: Code_185
     timingValue: PT24H
     timingWindow: null
     timingWindowLower: null
@@ -350,31 +350,31 @@
 - id: 51
   properties:
     _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_11
     label: ScheduledActivityInstance_11
     scheduleTimelineExitId: null
-    scheduledInstanceId: ScheduledActivityInstance_11
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
 - id: 56
   properties:
     _type: Timing
+    id: Timing_12
     label: Timing_12
     timingDescription: +24 Hours
-    timingId: Timing_12
     timingRelativeToFrom:
       _type: Code
       code: C99900x1
-      codeId: Code_193
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Start to Start
+      id: Code_193
     timingType:
       _type: Code
       code: C99901x1
-      codeId: Code_190
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: After
+      id: Code_190
     timingValue: PT24H
     timingWindow: null
     timingWindowLower: null
@@ -382,31 +382,31 @@
 - id: 55
   properties:
     _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_12
     label: ScheduledActivityInstance_12
     scheduleTimelineExitId: null
-    scheduledInstanceId: ScheduledActivityInstance_12
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
 - id: 60
   properties:
     _type: Timing
+    id: Timing_13
     label: Timing_13
     timingDescription: +24 Hours
-    timingId: Timing_13
     timingRelativeToFrom:
       _type: Code
       code: C99900x1
-      codeId: Code_198
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Start to Start
+      id: Code_198
     timingType:
       _type: Code
       code: C99901x1
-      codeId: Code_195
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: After
+      id: Code_195
     timingValue: PT24H
     timingWindow: null
     timingWindowLower: null
@@ -414,31 +414,31 @@
 - id: 59
   properties:
     _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_13
     label: ScheduledActivityInstance_13
     scheduleTimelineExitId: null
-    scheduledInstanceId: ScheduledActivityInstance_13
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
 - id: 64
   properties:
     _type: Timing
+    id: Timing_14
     label: Timing_14
     timingDescription: +24 Hours
-    timingId: Timing_14
     timingRelativeToFrom:
       _type: Code
       code: C99900x1
-      codeId: Code_203
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Start to Start
+      id: Code_203
     timingType:
       _type: Code
       code: C99901x1
-      codeId: Code_200
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: After
+      id: Code_200
     timingValue: PT24H
     timingWindow: null
     timingWindowLower: null
@@ -446,31 +446,31 @@
 - id: 63
   properties:
     _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_14
     label: ScheduledActivityInstance_14
     scheduleTimelineExitId: null
-    scheduledInstanceId: ScheduledActivityInstance_14
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
 - id: 68
   properties:
     _type: Timing
+    id: Timing_15
     label: Timing_15
     timingDescription: +24 Hours
-    timingId: Timing_15
     timingRelativeToFrom:
       _type: Code
       code: C99900x1
-      codeId: Code_208
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Start to Start
+      id: Code_208
     timingType:
       _type: Code
       code: C99901x1
-      codeId: Code_205
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: After
+      id: Code_205
     timingValue: PT24H
     timingWindow: null
     timingWindowLower: null
@@ -478,31 +478,31 @@
 - id: 67
   properties:
     _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_15
     label: ScheduledActivityInstance_15
     scheduleTimelineExitId: null
-    scheduledInstanceId: ScheduledActivityInstance_15
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
 - id: 72
   properties:
     _type: Timing
+    id: Timing_16
     label: Timing_16
     timingDescription: +24 Hours
-    timingId: Timing_16
     timingRelativeToFrom:
       _type: Code
       code: C99900x1
-      codeId: Code_213
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Start to Start
+      id: Code_213
     timingType:
       _type: Code
       code: C99901x1
-      codeId: Code_210
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: After
+      id: Code_210
     timingValue: PT24H
     timingWindow: null
     timingWindowLower: null
@@ -510,31 +510,31 @@
 - id: 71
   properties:
     _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_16
     label: ScheduledActivityInstance_16
     scheduleTimelineExitId: null
-    scheduledInstanceId: ScheduledActivityInstance_16
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
 - id: 76
   properties:
     _type: Timing
+    id: Timing_17
     label: Timing_17
     timingDescription: +24 Hours
-    timingId: Timing_17
     timingRelativeToFrom:
       _type: Code
       code: C99900x1
-      codeId: Code_218
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Start to Start
+      id: Code_218
     timingType:
       _type: Code
       code: C99901x1
-      codeId: Code_215
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: After
+      id: Code_215
     timingValue: PT24H
     timingWindow: null
     timingWindowLower: null
@@ -542,31 +542,31 @@
 - id: 75
   properties:
     _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_17
     label: ScheduledActivityInstance_17
     scheduleTimelineExitId: null
-    scheduledInstanceId: ScheduledActivityInstance_17
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
 - id: 80
   properties:
     _type: Timing
+    id: Timing_18
     label: Timing_18
     timingDescription: +24 Hours
-    timingId: Timing_18
     timingRelativeToFrom:
       _type: Code
       code: C99900x1
-      codeId: Code_223
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Start to Start
+      id: Code_223
     timingType:
       _type: Code
       code: C99901x1
-      codeId: Code_220
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: After
+      id: Code_220
     timingValue: PT24H
     timingWindow: null
     timingWindowLower: null
@@ -574,31 +574,31 @@
 - id: 79
   properties:
     _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_18
     label: ScheduledActivityInstance_18
     scheduleTimelineExitId: null
-    scheduledInstanceId: ScheduledActivityInstance_18
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
 - id: 84
   properties:
     _type: Timing
+    id: Timing_19
     label: Timing_19
     timingDescription: +24 Hours
-    timingId: Timing_19
     timingRelativeToFrom:
       _type: Code
       code: C99900x1
-      codeId: Code_228
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Start to Start
+      id: Code_228
     timingType:
       _type: Code
       code: C99901x1
-      codeId: Code_225
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: After
+      id: Code_225
     timingValue: PT24H
     timingWindow: null
     timingWindowLower: null
@@ -606,31 +606,31 @@
 - id: 83
   properties:
     _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_19
     label: ScheduledActivityInstance_19
     scheduleTimelineExitId: null
-    scheduledInstanceId: ScheduledActivityInstance_19
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
 - id: 88
   properties:
     _type: Timing
+    id: Timing_20
     label: Timing_20
     timingDescription: +24 Hours
-    timingId: Timing_20
     timingRelativeToFrom:
       _type: Code
       code: C99900x1
-      codeId: Code_233
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Start to Start
+      id: Code_233
     timingType:
       _type: Code
       code: C99901x1
-      codeId: Code_230
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: After
+      id: Code_230
     timingValue: PT24H
     timingWindow: null
     timingWindowLower: null
@@ -638,31 +638,31 @@
 - id: 87
   properties:
     _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_20
     label: ScheduledActivityInstance_20
     scheduleTimelineExitId: null
-    scheduledInstanceId: ScheduledActivityInstance_20
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
 - id: 92
   properties:
     _type: Timing
+    id: Timing_21
     label: Timing_21
     timingDescription: +24 Hours
-    timingId: Timing_21
     timingRelativeToFrom:
       _type: Code
       code: C99900x1
-      codeId: Code_238
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Start to Start
+      id: Code_238
     timingType:
       _type: Code
       code: C99901x1
-      codeId: Code_235
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: After
+      id: Code_235
     timingValue: PT24H
     timingWindow: null
     timingWindowLower: null
@@ -670,31 +670,31 @@
 - id: 91
   properties:
     _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_21
     label: ScheduledActivityInstance_21
     scheduleTimelineExitId: null
-    scheduledInstanceId: ScheduledActivityInstance_21
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
 - id: 96
   properties:
     _type: Timing
+    id: Timing_22
     label: Timing_22
     timingDescription: +24 Hours
-    timingId: Timing_22
     timingRelativeToFrom:
       _type: Code
       code: C99900x1
-      codeId: Code_243
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Start to Start
+      id: Code_243
     timingType:
       _type: Code
       code: C99901x1
-      codeId: Code_240
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: After
+      id: Code_240
     timingValue: PT24H
     timingWindow: null
     timingWindowLower: null
@@ -702,31 +702,31 @@
 - id: 95
   properties:
     _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_22
     label: ScheduledActivityInstance_22
     scheduleTimelineExitId: null
-    scheduledInstanceId: ScheduledActivityInstance_22
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
 - id: 100
   properties:
     _type: Timing
+    id: Timing_23
     label: Timing_23
     timingDescription: +24 Hours
-    timingId: Timing_23
     timingRelativeToFrom:
       _type: Code
       code: C99900x1
-      codeId: Code_248
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Start to Start
+      id: Code_248
     timingType:
       _type: Code
       code: C99901x1
-      codeId: Code_245
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: After
+      id: Code_245
     timingValue: PT24H
     timingWindow: null
     timingWindowLower: null
@@ -734,31 +734,31 @@
 - id: 99
   properties:
     _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_23
     label: ScheduledActivityInstance_23
     scheduleTimelineExitId: null
-    scheduledInstanceId: ScheduledActivityInstance_23
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
 - id: 104
   properties:
     _type: Timing
+    id: Timing_24
     label: Timing_24
     timingDescription: +24 Hours
-    timingId: Timing_24
     timingRelativeToFrom:
       _type: Code
       code: C99900x1
-      codeId: Code_253
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Start to Start
+      id: Code_253
     timingType:
       _type: Code
       code: C99901x1
-      codeId: Code_250
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: After
+      id: Code_250
     timingValue: PT24H
     timingWindow: null
     timingWindowLower: null
@@ -766,31 +766,31 @@
 - id: 103
   properties:
     _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_24
     label: ScheduledActivityInstance_24
     scheduleTimelineExitId: null
-    scheduledInstanceId: ScheduledActivityInstance_24
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
 - id: 108
   properties:
     _type: Timing
+    id: Timing_25
     label: Timing_25
     timingDescription: +24 Hours
-    timingId: Timing_25
     timingRelativeToFrom:
       _type: Code
       code: C99900x1
-      codeId: Code_258
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Start to Start
+      id: Code_258
     timingType:
       _type: Code
       code: C99901x1
-      codeId: Code_255
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: After
+      id: Code_255
     timingValue: PT24H
     timingWindow: null
     timingWindowLower: null
@@ -798,31 +798,31 @@
 - id: 107
   properties:
     _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_25
     label: ScheduledActivityInstance_25
     scheduleTimelineExitId: null
-    scheduledInstanceId: ScheduledActivityInstance_25
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
 - id: 112
   properties:
     _type: Timing
+    id: Timing_26
     label: Timing_26
     timingDescription: +24 Hours
-    timingId: Timing_26
     timingRelativeToFrom:
       _type: Code
       code: C99900x1
-      codeId: Code_263
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Start to Start
+      id: Code_263
     timingType:
       _type: Code
       code: C99901x1
-      codeId: Code_260
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: After
+      id: Code_260
     timingValue: PT24H
     timingWindow: null
     timingWindowLower: null
@@ -830,31 +830,31 @@
 - id: 111
   properties:
     _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_26
     label: ScheduledActivityInstance_26
     scheduleTimelineExitId: null
-    scheduledInstanceId: ScheduledActivityInstance_26
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
 - id: 116
   properties:
     _type: Timing
+    id: Timing_27
     label: Timing_27
     timingDescription: +24 Hours
-    timingId: Timing_27
     timingRelativeToFrom:
       _type: Code
       code: C99900x1
-      codeId: Code_268
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Start to Start
+      id: Code_268
     timingType:
       _type: Code
       code: C99901x1
-      codeId: Code_265
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: After
+      id: Code_265
     timingValue: PT24H
     timingWindow: null
     timingWindowLower: null
@@ -862,31 +862,31 @@
 - id: 115
   properties:
     _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_27
     label: ScheduledActivityInstance_27
     scheduleTimelineExitId: null
-    scheduledInstanceId: ScheduledActivityInstance_27
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
 - id: 120
   properties:
     _type: Timing
+    id: Timing_28
     label: Timing_28
     timingDescription: +24 Hours
-    timingId: Timing_28
     timingRelativeToFrom:
       _type: Code
       code: C99900x1
-      codeId: Code_273
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Start to Start
+      id: Code_273
     timingType:
       _type: Code
       code: C99901x1
-      codeId: Code_270
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: After
+      id: Code_270
     timingValue: PT24H
     timingWindow: null
     timingWindowLower: null
@@ -894,31 +894,31 @@
 - id: 119
   properties:
     _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_28
     label: ScheduledActivityInstance_28
     scheduleTimelineExitId: null
-    scheduledInstanceId: ScheduledActivityInstance_28
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
 - id: 124
   properties:
     _type: Timing
+    id: Timing_29
     label: Timing_29
     timingDescription: +24 Hours
-    timingId: Timing_29
     timingRelativeToFrom:
       _type: Code
       code: C99900x1
-      codeId: Code_278
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Start to Start
+      id: Code_278
     timingType:
       _type: Code
       code: C99901x1
-      codeId: Code_275
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: After
+      id: Code_275
     timingValue: PT24H
     timingWindow: null
     timingWindowLower: null
@@ -926,31 +926,31 @@
 - id: 123
   properties:
     _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_29
     label: ScheduledActivityInstance_29
     scheduleTimelineExitId: null
-    scheduledInstanceId: ScheduledActivityInstance_29
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
 - id: 128
   properties:
     _type: Timing
+    id: Timing_30
     label: Timing_30
     timingDescription: +24 Hours
-    timingId: Timing_30
     timingRelativeToFrom:
       _type: Code
       code: C99900x1
-      codeId: Code_283
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Start to Start
+      id: Code_283
     timingType:
       _type: Code
       code: C99901x1
-      codeId: Code_280
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: After
+      id: Code_280
     timingValue: PT24H
     timingWindow: null
     timingWindowLower: null
@@ -958,31 +958,31 @@
 - id: 127
   properties:
     _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_30
     label: ScheduledActivityInstance_30
     scheduleTimelineExitId: null
-    scheduledInstanceId: ScheduledActivityInstance_30
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
 - id: 132
   properties:
     _type: Timing
+    id: Timing_31
     label: Timing_31
     timingDescription: +24 Hours
-    timingId: Timing_31
     timingRelativeToFrom:
       _type: Code
       code: C99900x1
-      codeId: Code_288
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Start to Start
+      id: Code_288
     timingType:
       _type: Code
       code: C99901x1
-      codeId: Code_285
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: After
+      id: Code_285
     timingValue: PT24H
     timingWindow: null
     timingWindowLower: null
@@ -990,31 +990,31 @@
 - id: 131
   properties:
     _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_31
     label: ScheduledActivityInstance_31
     scheduleTimelineExitId: null
-    scheduledInstanceId: ScheduledActivityInstance_31
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
 - id: 136
   properties:
     _type: Timing
+    id: Timing_32
     label: Timing_32
     timingDescription: +7 Days
-    timingId: Timing_32
     timingRelativeToFrom:
       _type: Code
       code: C99900x1
-      codeId: Code_293
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Start to Start
+      id: Code_293
     timingType:
       _type: Code
       code: C99901x1
-      codeId: Code_290
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: After
+      id: Code_290
     timingValue: P7D
     timingWindow: -3..3 Days
     timingWindowLower: P3D
@@ -1022,31 +1022,31 @@
 - id: 135
   properties:
     _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_32
     label: ScheduledActivityInstance_32
     scheduleTimelineExitId: null
-    scheduledInstanceId: ScheduledActivityInstance_32
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
 - id: 140
   properties:
     _type: Timing
+    id: Timing_33
     label: Timing_33
     timingDescription: +10 Days
-    timingId: Timing_33
     timingRelativeToFrom:
       _type: Code
       code: C99900x1
-      codeId: Code_298
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Start to Start
+      id: Code_298
     timingType:
       _type: Code
       code: C99901x1
-      codeId: Code_295
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: After
+      id: Code_295
     timingValue: P10D
     timingWindow: -3..3 Days
     timingWindowLower: P3D
@@ -1054,31 +1054,31 @@
 - id: 139
   properties:
     _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_33
     label: ScheduledActivityInstance_33
     scheduleTimelineExitId: null
-    scheduledInstanceId: ScheduledActivityInstance_33
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
 - id: 144
   properties:
     _type: Timing
+    id: Timing_34
     label: Timing_34
     timingDescription: +15 Days
-    timingId: Timing_34
     timingRelativeToFrom:
       _type: Code
       code: C99900x1
-      codeId: Code_303
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Start to Start
+      id: Code_303
     timingType:
       _type: Code
       code: C99901x1
-      codeId: Code_300
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: After
+      id: Code_300
     timingValue: P15D
     timingWindow: -3..3 Days
     timingWindowLower: P3D
@@ -1086,31 +1086,31 @@
 - id: 143
   properties:
     _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_34
     label: ScheduledActivityInstance_34
     scheduleTimelineExitId: null
-    scheduledInstanceId: ScheduledActivityInstance_34
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
 - id: 148
   properties:
     _type: Timing
+    id: Timing_35
     label: Timing_35
     timingDescription: +30 Days
-    timingId: Timing_35
     timingRelativeToFrom:
       _type: Code
       code: C99900x1
-      codeId: Code_308
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Start to Start
+      id: Code_308
     timingType:
       _type: Code
       code: C99901x1
-      codeId: Code_305
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: After
+      id: Code_305
     timingValue: P30D
     timingWindow: null
     timingWindowLower: null
@@ -1118,50 +1118,50 @@
 - id: 147
   properties:
     _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_35
     label: ScheduledActivityInstance_35
     scheduleTimelineExitId: null
-    scheduledInstanceId: ScheduledActivityInstance_35
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
 - id: 9
   properties:
     _type: ScheduleTimeline
+    description: This is the main timeline for the study design.
     entryCondition: Potential subject identified
+    id: ScheduleTimeline_1
     label: ScheduleTimeline_1
     mainTimeline: true
-    scheduleTimelineDescription: This is the main timeline for the study design.
+    name: Main Timeline
     scheduleTimelineEntryId: ScheduledActivityInstance_1
-    scheduleTimelineId: ScheduleTimeline_1
-    scheduleTimelineName: Main Timeline
 - id: 153
   properties:
     _type: Encounter
+    description: Screening encounter
     encounterContactModes:
     - _type: Code
       code: C175574
-      codeId: Code_15
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: In Person
-    encounterDescription: Screening encounter
+      id: Code_15
     encounterEnvironmentalSetting:
       _type: Code
       code: C16696
-      codeId: Code_14
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Hospital
-    encounterId: Encounter_1
-    encounterName: Screening
+      id: Code_14
     encounterScheduledAtTimingId: null
     encounterType:
       _type: Code
       code: C25716
-      codeId: Code_13
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Visit
+      id: Code_13
+    id: Encounter_1
     label: Encounter_1
+    name: Screening
     nextEncounterId: Encounter_2
     previousEncounterId: null
     transitionEndRule: {}
@@ -1169,32 +1169,32 @@
 - id: 157
   properties:
     _type: Encounter
+    description: Baseline
     encounterContactModes:
     - _type: Code
       code: C175574
-      codeId: Code_18
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: In Person
-    encounterDescription: Baseline
+      id: Code_18
     encounterEnvironmentalSetting:
       _type: Code
       code: C16696
-      codeId: Code_17
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Hospital
-    encounterId: Encounter_2
-    encounterName: Baseline
+      id: Code_17
     encounterScheduledAtTimingId: null
     encounterType:
       _type: Code
       code: C25716
-      codeId: Code_16
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Visit
+      id: Code_16
+    id: Encounter_2
     label: Encounter_2
+    name: Baseline
     nextEncounterId: Encounter_3
     previousEncounterId: Encounter_1
     transitionEndRule: null
@@ -1202,32 +1202,32 @@
 - id: 161
   properties:
     _type: Encounter
+    description: Day 1, 15 minutes after dosing
     encounterContactModes:
     - _type: Code
       code: C175574
-      codeId: Code_21
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: In Person
-    encounterDescription: Day 1, 15 minutes after dosing
+      id: Code_21
     encounterEnvironmentalSetting:
       _type: Code
       code: C16696
-      codeId: Code_20
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Hospital
-    encounterId: Encounter_3
-    encounterName: 15 min
+      id: Code_20
     encounterScheduledAtTimingId: null
     encounterType:
       _type: Code
       code: C25716
-      codeId: Code_19
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Visit
+      id: Code_19
+    id: Encounter_3
     label: Encounter_3
+    name: 15 min
     nextEncounterId: Encounter_4
     previousEncounterId: Encounter_2
     transitionEndRule: null
@@ -1235,32 +1235,32 @@
 - id: 165
   properties:
     _type: Encounter
+    description: Day 1, 24 hours after dosing
     encounterContactModes:
     - _type: Code
       code: C175574
-      codeId: Code_24
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: In Person
-    encounterDescription: Day 1, 24 hours after dosing
+      id: Code_24
     encounterEnvironmentalSetting:
       _type: Code
       code: C16696
-      codeId: Code_23
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Hospital
-    encounterId: Encounter_4
-    encounterName: 24 Hours
+      id: Code_23
     encounterScheduledAtTimingId: null
     encounterType:
       _type: Code
       code: C25716
-      codeId: Code_22
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Visit
+      id: Code_22
+    id: Encounter_4
     label: Encounter_4
+    name: 24 Hours
     nextEncounterId: Encounter_5
     previousEncounterId: Encounter_3
     transitionEndRule: null
@@ -1268,32 +1268,32 @@
 - id: 169
   properties:
     _type: Encounter
+    description: Day 2, 36 hours after dosing
     encounterContactModes:
     - _type: Code
       code: C175574
-      codeId: Code_27
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: In Person
-    encounterDescription: Day 2, 36 hours after dosing
+      id: Code_27
     encounterEnvironmentalSetting:
       _type: Code
       code: C16696
-      codeId: Code_26
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Hospital
-    encounterId: Encounter_5
-    encounterName: 36 Hours
+      id: Code_26
     encounterScheduledAtTimingId: null
     encounterType:
       _type: Code
       code: C25716
-      codeId: Code_25
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Visit
+      id: Code_25
+    id: Encounter_5
     label: Encounter_5
+    name: 36 Hours
     nextEncounterId: Encounter_6
     previousEncounterId: Encounter_4
     transitionEndRule: null
@@ -1301,32 +1301,32 @@
 - id: 173
   properties:
     _type: Encounter
+    description: Day 3
     encounterContactModes:
     - _type: Code
       code: C175574
-      codeId: Code_30
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: In Person
-    encounterDescription: Day 3
+      id: Code_30
     encounterEnvironmentalSetting:
       _type: Code
       code: C16696
-      codeId: Code_29
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Hospital
-    encounterId: Encounter_6
-    encounterName: Day 3
+      id: Code_29
     encounterScheduledAtTimingId: null
     encounterType:
       _type: Code
       code: C25716
-      codeId: Code_28
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Visit
+      id: Code_28
+    id: Encounter_6
     label: Encounter_6
+    name: Day 3
     nextEncounterId: Encounter_7
     previousEncounterId: Encounter_5
     transitionEndRule: null
@@ -1334,32 +1334,32 @@
 - id: 177
   properties:
     _type: Encounter
+    description: Day 4
     encounterContactModes:
     - _type: Code
       code: C175574
-      codeId: Code_33
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: In Person
-    encounterDescription: Day 4
+      id: Code_33
     encounterEnvironmentalSetting:
       _type: Code
       code: C16696
-      codeId: Code_32
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Hospital
-    encounterId: Encounter_7
-    encounterName: Day 4
+      id: Code_32
     encounterScheduledAtTimingId: null
     encounterType:
       _type: Code
       code: C25716
-      codeId: Code_31
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Visit
+      id: Code_31
+    id: Encounter_7
     label: Encounter_7
+    name: Day 4
     nextEncounterId: Encounter_8
     previousEncounterId: Encounter_6
     transitionEndRule: null
@@ -1367,32 +1367,32 @@
 - id: 181
   properties:
     _type: Encounter
+    description: Day 5
     encounterContactModes:
     - _type: Code
       code: C175574
-      codeId: Code_36
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: In Person
-    encounterDescription: Day 5
+      id: Code_36
     encounterEnvironmentalSetting:
       _type: Code
       code: C16696
-      codeId: Code_35
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Hospital
-    encounterId: Encounter_8
-    encounterName: Day 5
+      id: Code_35
     encounterScheduledAtTimingId: null
     encounterType:
       _type: Code
       code: C25716
-      codeId: Code_34
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Visit
+      id: Code_34
+    id: Encounter_8
     label: Encounter_8
+    name: Day 5
     nextEncounterId: Encounter_9
     previousEncounterId: Encounter_7
     transitionEndRule: null
@@ -1400,32 +1400,32 @@
 - id: 185
   properties:
     _type: Encounter
+    description: Day 6
     encounterContactModes:
     - _type: Code
       code: C175574
-      codeId: Code_39
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: In Person
-    encounterDescription: Day 6
+      id: Code_39
     encounterEnvironmentalSetting:
       _type: Code
       code: C16696
-      codeId: Code_38
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Hospital
-    encounterId: Encounter_9
-    encounterName: Day 6
+      id: Code_38
     encounterScheduledAtTimingId: null
     encounterType:
       _type: Code
       code: C25716
-      codeId: Code_37
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Visit
+      id: Code_37
+    id: Encounter_9
     label: Encounter_9
+    name: Day 6
     nextEncounterId: Encounter_10
     previousEncounterId: Encounter_8
     transitionEndRule: null
@@ -1433,32 +1433,32 @@
 - id: 189
   properties:
     _type: Encounter
+    description: Day 7
     encounterContactModes:
     - _type: Code
       code: C175574
-      codeId: Code_42
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: In Person
-    encounterDescription: Day 7
+      id: Code_42
     encounterEnvironmentalSetting:
       _type: Code
       code: C16696
-      codeId: Code_41
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Hospital
-    encounterId: Encounter_10
-    encounterName: Day 7
+      id: Code_41
     encounterScheduledAtTimingId: null
     encounterType:
       _type: Code
       code: C25716
-      codeId: Code_40
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Visit
+      id: Code_40
+    id: Encounter_10
     label: Encounter_10
+    name: Day 7
     nextEncounterId: Encounter_11
     previousEncounterId: Encounter_9
     transitionEndRule: {}
@@ -1466,32 +1466,32 @@
 - id: 193
   properties:
     _type: Encounter
+    description: Day 8
     encounterContactModes:
     - _type: Code
       code: C175574
-      codeId: Code_45
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: In Person
-    encounterDescription: Day 8
+      id: Code_45
     encounterEnvironmentalSetting:
       _type: Code
       code: C16696
-      codeId: Code_44
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Hospital
-    encounterId: Encounter_11
-    encounterName: Day 8
+      id: Code_44
     encounterScheduledAtTimingId: null
     encounterType:
       _type: Code
       code: C25716
-      codeId: Code_43
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Visit
+      id: Code_43
+    id: Encounter_11
     label: Encounter_11
+    name: Day 8
     nextEncounterId: Encounter_12
     previousEncounterId: Encounter_10
     transitionEndRule: null
@@ -1499,32 +1499,32 @@
 - id: 197
   properties:
     _type: Encounter
+    description: Day 9
     encounterContactModes:
     - _type: Code
       code: C175574
-      codeId: Code_48
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: In Person
-    encounterDescription: Day 9
+      id: Code_48
     encounterEnvironmentalSetting:
       _type: Code
       code: C16696
-      codeId: Code_47
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Hospital
-    encounterId: Encounter_12
-    encounterName: Day 9
+      id: Code_47
     encounterScheduledAtTimingId: null
     encounterType:
       _type: Code
       code: C25716
-      codeId: Code_46
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Visit
+      id: Code_46
+    id: Encounter_12
     label: Encounter_12
+    name: Day 9
     nextEncounterId: Encounter_13
     previousEncounterId: Encounter_11
     transitionEndRule: null
@@ -1532,32 +1532,32 @@
 - id: 201
   properties:
     _type: Encounter
+    description: Day 10
     encounterContactModes:
     - _type: Code
       code: C175574
-      codeId: Code_51
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: In Person
-    encounterDescription: Day 10
+      id: Code_51
     encounterEnvironmentalSetting:
       _type: Code
       code: C16696
-      codeId: Code_50
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Hospital
-    encounterId: Encounter_13
-    encounterName: Day 10
+      id: Code_50
     encounterScheduledAtTimingId: null
     encounterType:
       _type: Code
       code: C25716
-      codeId: Code_49
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Visit
+      id: Code_49
+    id: Encounter_13
     label: Encounter_13
+    name: Day 10
     nextEncounterId: Encounter_14
     previousEncounterId: Encounter_12
     transitionEndRule: null
@@ -1565,32 +1565,32 @@
 - id: 205
   properties:
     _type: Encounter
+    description: Day 11
     encounterContactModes:
     - _type: Code
       code: C175574
-      codeId: Code_54
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: In Person
-    encounterDescription: Day 11
+      id: Code_54
     encounterEnvironmentalSetting:
       _type: Code
       code: C16696
-      codeId: Code_53
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Hospital
-    encounterId: Encounter_14
-    encounterName: Day 11
+      id: Code_53
     encounterScheduledAtTimingId: null
     encounterType:
       _type: Code
       code: C25716
-      codeId: Code_52
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Visit
+      id: Code_52
+    id: Encounter_14
     label: Encounter_14
+    name: Day 11
     nextEncounterId: Encounter_15
     previousEncounterId: Encounter_13
     transitionEndRule: null
@@ -1598,32 +1598,32 @@
 - id: 209
   properties:
     _type: Encounter
+    description: Day 12
     encounterContactModes:
     - _type: Code
       code: C175574
-      codeId: Code_57
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: In Person
-    encounterDescription: Day 12
+      id: Code_57
     encounterEnvironmentalSetting:
       _type: Code
       code: C16696
-      codeId: Code_56
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Hospital
-    encounterId: Encounter_15
-    encounterName: Day 12
+      id: Code_56
     encounterScheduledAtTimingId: null
     encounterType:
       _type: Code
       code: C25716
-      codeId: Code_55
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Visit
+      id: Code_55
+    id: Encounter_15
     label: Encounter_15
+    name: Day 12
     nextEncounterId: Encounter_16
     previousEncounterId: Encounter_14
     transitionEndRule: null
@@ -1631,32 +1631,32 @@
 - id: 213
   properties:
     _type: Encounter
+    description: Day 13
     encounterContactModes:
     - _type: Code
       code: C175574
-      codeId: Code_60
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: In Person
-    encounterDescription: Day 13
+      id: Code_60
     encounterEnvironmentalSetting:
       _type: Code
       code: C16696
-      codeId: Code_59
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Hospital
-    encounterId: Encounter_16
-    encounterName: Day 13
+      id: Code_59
     encounterScheduledAtTimingId: null
     encounterType:
       _type: Code
       code: C25716
-      codeId: Code_58
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Visit
+      id: Code_58
+    id: Encounter_16
     label: Encounter_16
+    name: Day 13
     nextEncounterId: Encounter_17
     previousEncounterId: Encounter_15
     transitionEndRule: null
@@ -1664,32 +1664,32 @@
 - id: 217
   properties:
     _type: Encounter
+    description: Day 14
     encounterContactModes:
     - _type: Code
       code: C175574
-      codeId: Code_63
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: In Person
-    encounterDescription: Day 14
+      id: Code_63
     encounterEnvironmentalSetting:
       _type: Code
       code: C16696
-      codeId: Code_62
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Hospital
-    encounterId: Encounter_17
-    encounterName: Day 14
+      id: Code_62
     encounterScheduledAtTimingId: null
     encounterType:
       _type: Code
       code: C25716
-      codeId: Code_61
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Visit
+      id: Code_61
+    id: Encounter_17
     label: Encounter_17
+    name: Day 14
     nextEncounterId: Encounter_18
     previousEncounterId: Encounter_16
     transitionEndRule: null
@@ -1697,32 +1697,32 @@
 - id: 221
   properties:
     _type: Encounter
+    description: Day 15
     encounterContactModes:
     - _type: Code
       code: C175574
-      codeId: Code_66
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: In Person
-    encounterDescription: Day 15
+      id: Code_66
     encounterEnvironmentalSetting:
       _type: Code
       code: C16696
-      codeId: Code_65
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Hospital
-    encounterId: Encounter_18
-    encounterName: Day 15
+      id: Code_65
     encounterScheduledAtTimingId: null
     encounterType:
       _type: Code
       code: C25716
-      codeId: Code_64
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Visit
+      id: Code_64
+    id: Encounter_18
     label: Encounter_18
+    name: Day 15
     nextEncounterId: Encounter_19
     previousEncounterId: Encounter_17
     transitionEndRule: null
@@ -1730,32 +1730,32 @@
 - id: 225
   properties:
     _type: Encounter
+    description: Day 16
     encounterContactModes:
     - _type: Code
       code: C175574
-      codeId: Code_69
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: In Person
-    encounterDescription: Day 16
+      id: Code_69
     encounterEnvironmentalSetting:
       _type: Code
       code: C16696
-      codeId: Code_68
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Hospital
-    encounterId: Encounter_19
-    encounterName: Day 16
+      id: Code_68
     encounterScheduledAtTimingId: null
     encounterType:
       _type: Code
       code: C25716
-      codeId: Code_67
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Visit
+      id: Code_67
+    id: Encounter_19
     label: Encounter_19
+    name: Day 16
     nextEncounterId: Encounter_20
     previousEncounterId: Encounter_18
     transitionEndRule: null
@@ -1763,32 +1763,32 @@
 - id: 229
   properties:
     _type: Encounter
+    description: Day 17
     encounterContactModes:
     - _type: Code
       code: C175574
-      codeId: Code_72
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: In Person
-    encounterDescription: Day 17
+      id: Code_72
     encounterEnvironmentalSetting:
       _type: Code
       code: C16696
-      codeId: Code_71
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Hospital
-    encounterId: Encounter_20
-    encounterName: Day 17
+      id: Code_71
     encounterScheduledAtTimingId: null
     encounterType:
       _type: Code
       code: C25716
-      codeId: Code_70
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Visit
+      id: Code_70
+    id: Encounter_20
     label: Encounter_20
+    name: Day 17
     nextEncounterId: Encounter_21
     previousEncounterId: Encounter_19
     transitionEndRule: null
@@ -1796,32 +1796,32 @@
 - id: 233
   properties:
     _type: Encounter
+    description: Day 18
     encounterContactModes:
     - _type: Code
       code: C175574
-      codeId: Code_75
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: In Person
-    encounterDescription: Day 18
+      id: Code_75
     encounterEnvironmentalSetting:
       _type: Code
       code: C16696
-      codeId: Code_74
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Hospital
-    encounterId: Encounter_21
-    encounterName: Day 18
+      id: Code_74
     encounterScheduledAtTimingId: null
     encounterType:
       _type: Code
       code: C25716
-      codeId: Code_73
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Visit
+      id: Code_73
+    id: Encounter_21
     label: Encounter_21
+    name: Day 18
     nextEncounterId: Encounter_22
     previousEncounterId: Encounter_20
     transitionEndRule: null
@@ -1829,32 +1829,32 @@
 - id: 237
   properties:
     _type: Encounter
+    description: Day 19
     encounterContactModes:
     - _type: Code
       code: C175574
-      codeId: Code_78
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: In Person
-    encounterDescription: Day 19
+      id: Code_78
     encounterEnvironmentalSetting:
       _type: Code
       code: C16696
-      codeId: Code_77
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Hospital
-    encounterId: Encounter_22
-    encounterName: Day 19
+      id: Code_77
     encounterScheduledAtTimingId: null
     encounterType:
       _type: Code
       code: C25716
-      codeId: Code_76
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Visit
+      id: Code_76
+    id: Encounter_22
     label: Encounter_22
+    name: Day 19
     nextEncounterId: Encounter_23
     previousEncounterId: Encounter_21
     transitionEndRule: null
@@ -1862,32 +1862,32 @@
 - id: 241
   properties:
     _type: Encounter
+    description: Day 20
     encounterContactModes:
     - _type: Code
       code: C175574
-      codeId: Code_81
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: In Person
-    encounterDescription: Day 20
+      id: Code_81
     encounterEnvironmentalSetting:
       _type: Code
       code: C16696
-      codeId: Code_80
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Hospital
-    encounterId: Encounter_23
-    encounterName: Day 20
+      id: Code_80
     encounterScheduledAtTimingId: null
     encounterType:
       _type: Code
       code: C25716
-      codeId: Code_79
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Visit
+      id: Code_79
+    id: Encounter_23
     label: Encounter_23
+    name: Day 20
     nextEncounterId: Encounter_24
     previousEncounterId: Encounter_22
     transitionEndRule: null
@@ -1895,32 +1895,32 @@
 - id: 245
   properties:
     _type: Encounter
+    description: Day 21
     encounterContactModes:
     - _type: Code
       code: C175574
-      codeId: Code_84
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: In Person
-    encounterDescription: Day 21
+      id: Code_84
     encounterEnvironmentalSetting:
       _type: Code
       code: C16696
-      codeId: Code_83
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Hospital
-    encounterId: Encounter_24
-    encounterName: Day 21
+      id: Code_83
     encounterScheduledAtTimingId: null
     encounterType:
       _type: Code
       code: C25716
-      codeId: Code_82
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Visit
+      id: Code_82
+    id: Encounter_24
     label: Encounter_24
+    name: Day 21
     nextEncounterId: Encounter_25
     previousEncounterId: Encounter_23
     transitionEndRule: null
@@ -1928,32 +1928,32 @@
 - id: 249
   properties:
     _type: Encounter
+    description: Day 22
     encounterContactModes:
     - _type: Code
       code: C175574
-      codeId: Code_87
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: In Person
-    encounterDescription: Day 22
+      id: Code_87
     encounterEnvironmentalSetting:
       _type: Code
       code: C16696
-      codeId: Code_86
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Hospital
-    encounterId: Encounter_25
-    encounterName: Day 22
+      id: Code_86
     encounterScheduledAtTimingId: null
     encounterType:
       _type: Code
       code: C25716
-      codeId: Code_85
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Visit
+      id: Code_85
+    id: Encounter_25
     label: Encounter_25
+    name: Day 22
     nextEncounterId: Encounter_26
     previousEncounterId: Encounter_24
     transitionEndRule: null
@@ -1961,32 +1961,32 @@
 - id: 253
   properties:
     _type: Encounter
+    description: Day 23
     encounterContactModes:
     - _type: Code
       code: C175574
-      codeId: Code_90
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: In Person
-    encounterDescription: Day 23
+      id: Code_90
     encounterEnvironmentalSetting:
       _type: Code
       code: C16696
-      codeId: Code_89
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Hospital
-    encounterId: Encounter_26
-    encounterName: Day 23
+      id: Code_89
     encounterScheduledAtTimingId: null
     encounterType:
       _type: Code
       code: C25716
-      codeId: Code_88
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Visit
+      id: Code_88
+    id: Encounter_26
     label: Encounter_26
+    name: Day 23
     nextEncounterId: Encounter_27
     previousEncounterId: Encounter_25
     transitionEndRule: null
@@ -1994,32 +1994,32 @@
 - id: 257
   properties:
     _type: Encounter
+    description: Day 24
     encounterContactModes:
     - _type: Code
       code: C175574
-      codeId: Code_93
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: In Person
-    encounterDescription: Day 24
+      id: Code_93
     encounterEnvironmentalSetting:
       _type: Code
       code: C16696
-      codeId: Code_92
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Hospital
-    encounterId: Encounter_27
-    encounterName: Day 24
+      id: Code_92
     encounterScheduledAtTimingId: null
     encounterType:
       _type: Code
       code: C25716
-      codeId: Code_91
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Visit
+      id: Code_91
+    id: Encounter_27
     label: Encounter_27
+    name: Day 24
     nextEncounterId: Encounter_28
     previousEncounterId: Encounter_26
     transitionEndRule: null
@@ -2027,32 +2027,32 @@
 - id: 261
   properties:
     _type: Encounter
+    description: Day 25
     encounterContactModes:
     - _type: Code
       code: C175574
-      codeId: Code_96
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: In Person
-    encounterDescription: Day 25
+      id: Code_96
     encounterEnvironmentalSetting:
       _type: Code
       code: C16696
-      codeId: Code_95
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Hospital
-    encounterId: Encounter_28
-    encounterName: Day 25
+      id: Code_95
     encounterScheduledAtTimingId: null
     encounterType:
       _type: Code
       code: C25716
-      codeId: Code_94
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Visit
+      id: Code_94
+    id: Encounter_28
     label: Encounter_28
+    name: Day 25
     nextEncounterId: Encounter_29
     previousEncounterId: Encounter_27
     transitionEndRule: null
@@ -2060,32 +2060,32 @@
 - id: 265
   properties:
     _type: Encounter
+    description: Day 26
     encounterContactModes:
     - _type: Code
       code: C175574
-      codeId: Code_99
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: In Person
-    encounterDescription: Day 26
+      id: Code_99
     encounterEnvironmentalSetting:
       _type: Code
       code: C16696
-      codeId: Code_98
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Hospital
-    encounterId: Encounter_29
-    encounterName: Day 26
+      id: Code_98
     encounterScheduledAtTimingId: null
     encounterType:
       _type: Code
       code: C25716
-      codeId: Code_97
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Visit
+      id: Code_97
+    id: Encounter_29
     label: Encounter_29
+    name: Day 26
     nextEncounterId: Encounter_30
     previousEncounterId: Encounter_28
     transitionEndRule: null
@@ -2093,32 +2093,32 @@
 - id: 269
   properties:
     _type: Encounter
+    description: Day 27
     encounterContactModes:
     - _type: Code
       code: C175574
-      codeId: Code_102
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: In Person
-    encounterDescription: Day 27
+      id: Code_102
     encounterEnvironmentalSetting:
       _type: Code
       code: C16696
-      codeId: Code_101
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Hospital
-    encounterId: Encounter_30
-    encounterName: Day 27
+      id: Code_101
     encounterScheduledAtTimingId: null
     encounterType:
       _type: Code
       code: C25716
-      codeId: Code_100
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Visit
+      id: Code_100
+    id: Encounter_30
     label: Encounter_30
+    name: Day 27
     nextEncounterId: Encounter_31
     previousEncounterId: Encounter_29
     transitionEndRule: null
@@ -2126,32 +2126,32 @@
 - id: 273
   properties:
     _type: Encounter
+    description: Day 28
     encounterContactModes:
     - _type: Code
       code: C175574
-      codeId: Code_105
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: In Person
-    encounterDescription: Day 28
+      id: Code_105
     encounterEnvironmentalSetting:
       _type: Code
       code: C16696
-      codeId: Code_104
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Hospital
-    encounterId: Encounter_31
-    encounterName: Day 28
+      id: Code_104
     encounterScheduledAtTimingId: null
     encounterType:
       _type: Code
       code: C25716
-      codeId: Code_103
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Visit
+      id: Code_103
+    id: Encounter_31
     label: Encounter_31
+    name: Day 28
     nextEncounterId: Encounter_32
     previousEncounterId: Encounter_30
     transitionEndRule: null
@@ -2159,32 +2159,32 @@
 - id: 277
   properties:
     _type: Encounter
+    description: Day 35
     encounterContactModes:
     - _type: Code
       code: C175574
-      codeId: Code_108
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: In Person
-    encounterDescription: Day 35
+      id: Code_108
     encounterEnvironmentalSetting:
       _type: Code
       code: C16696
-      codeId: Code_107
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Hospital
-    encounterId: Encounter_32
-    encounterName: Day 35
+      id: Code_107
     encounterScheduledAtTimingId: null
     encounterType:
       _type: Code
       code: C25716
-      codeId: Code_106
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Visit
+      id: Code_106
+    id: Encounter_32
     label: Encounter_32
+    name: Day 35
     nextEncounterId: Encounter_33
     previousEncounterId: Encounter_31
     transitionEndRule: null
@@ -2192,32 +2192,32 @@
 - id: 281
   properties:
     _type: Encounter
+    description: Day 45
     encounterContactModes:
     - _type: Code
       code: C175574
-      codeId: Code_111
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: In Person
-    encounterDescription: Day 45
+      id: Code_111
     encounterEnvironmentalSetting:
       _type: Code
       code: C16696
-      codeId: Code_110
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Hospital
-    encounterId: Encounter_33
-    encounterName: Day 45
+      id: Code_110
     encounterScheduledAtTimingId: null
     encounterType:
       _type: Code
       code: C25716
-      codeId: Code_109
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Visit
+      id: Code_109
+    id: Encounter_33
     label: Encounter_33
+    name: Day 45
     nextEncounterId: Encounter_34
     previousEncounterId: Encounter_32
     transitionEndRule: null
@@ -2225,32 +2225,32 @@
 - id: 285
   properties:
     _type: Encounter
+    description: Day 60
     encounterContactModes:
     - _type: Code
       code: C175574
-      codeId: Code_114
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: In Person
-    encounterDescription: Day 60
+      id: Code_114
     encounterEnvironmentalSetting:
       _type: Code
       code: C16696
-      codeId: Code_113
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Hospital
-    encounterId: Encounter_34
-    encounterName: Day 60
+      id: Code_113
     encounterScheduledAtTimingId: null
     encounterType:
       _type: Code
       code: C25716
-      codeId: Code_112
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Visit
+      id: Code_112
+    id: Encounter_34
     label: Encounter_34
+    name: Day 60
     nextEncounterId: Encounter_35
     previousEncounterId: Encounter_33
     transitionEndRule: null
@@ -2258,32 +2258,32 @@
 - id: 289
   properties:
     _type: Encounter
+    description: Study Completion / Discontinuation
     encounterContactModes:
     - _type: Code
       code: C175574
-      codeId: Code_117
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: In Person
-    encounterDescription: Study Completion / Discontinuation
+      id: Code_117
     encounterEnvironmentalSetting:
       _type: Code
       code: C16696
-      codeId: Code_116
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Hospital
-    encounterId: Encounter_35
-    encounterName: Completion
+      id: Code_116
     encounterScheduledAtTimingId: null
     encounterType:
       _type: Code
       code: C25716
-      codeId: Code_115
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Visit
+      id: Code_115
+    id: Encounter_35
     label: Encounter_35
+    name: Completion
     nextEncounterId: null
     previousEncounterId: Encounter_34
     transitionEndRule: null
@@ -2291,352 +2291,352 @@
 - id: 293
   properties:
     _type: Activity
-    activityDescription: Informed consent
-    activityId: Activity_1
     activityIsConditional: false
     activityIsConditionalReason: ''
-    activityName: Informed consent
     activityTimelineId: ''
     definedProcedures: []
+    description: Informed consent
+    id: Activity_1
     label: Activity_1
+    name: Informed consent
     nextActivityId: Activity_2
     previousActivityId: null
 - id: 294
   properties:
     _type: Activity
-    activityDescription: Inclusion/exclusion criteria
-    activityId: Activity_2
     activityIsConditional: false
     activityIsConditionalReason: ''
-    activityName: Inclusion/exclusion criteria
     activityTimelineId: ''
     definedProcedures: []
+    description: Inclusion/exclusion criteria
+    id: Activity_2
     label: Activity_2
+    name: Inclusion/exclusion criteria
     nextActivityId: Activity_3
     previousActivityId: Activity_1
 - id: 295
   properties:
     _type: Activity
-    activityDescription: Demographics
-    activityId: Activity_3
     activityIsConditional: false
     activityIsConditionalReason: ''
-    activityName: Demographics
     activityTimelineId: ''
     definedProcedures: []
+    description: Demographics
+    id: Activity_3
     label: Activity_3
+    name: Demographics
     nextActivityId: Activity_4
     previousActivityId: Activity_2
 - id: 296
   properties:
     _type: Activity
-    activityDescription: Randomization
-    activityId: Activity_4
     activityIsConditional: false
     activityIsConditionalReason: ''
-    activityName: Randomization
     activityTimelineId: ''
     definedProcedures: []
+    description: Randomization
+    id: Activity_4
     label: Activity_4
+    name: Randomization
     nextActivityId: Activity_5
     previousActivityId: Activity_3
 - id: 297
   properties:
     _type: Activity
-    activityDescription: Medical history
-    activityId: Activity_5
     activityIsConditional: false
     activityIsConditionalReason: ''
-    activityName: Medical history
     activityTimelineId: ''
     definedProcedures: []
+    description: Medical history
+    id: Activity_5
     label: Activity_5
+    name: Medical history
     nextActivityId: Activity_6
     previousActivityId: Activity_4
 - id: 298
   properties:
     _type: Activity
-    activityDescription: Physical examination
-    activityId: Activity_6
     activityIsConditional: false
     activityIsConditionalReason: ''
-    activityName: Physical examination
     activityTimelineId: ''
     definedProcedures: []
+    description: Physical examination
+    id: Activity_6
     label: Activity_6
+    name: Physical examination
     nextActivityId: Activity_7
     previousActivityId: Activity_5
 - id: 299
   properties:
     _type: Activity
-    activityDescription: Weight
-    activityId: Activity_7
     activityIsConditional: false
     activityIsConditionalReason: ''
-    activityName: Weight
     activityTimelineId: ''
     definedProcedures: []
+    description: Weight
+    id: Activity_7
     label: Activity_7
+    name: Weight
     nextActivityId: Activity_8
     previousActivityId: Activity_6
 - id: 300
   properties:
     _type: Activity
-    activityDescription: COVID-19 Diagnosis
-    activityId: Activity_8
     activityIsConditional: false
     activityIsConditionalReason: ''
-    activityName: COVID-19 Diagnosis
     activityTimelineId: ''
     definedProcedures: []
+    description: COVID-19 Diagnosis
+    id: Activity_8
     label: Activity_8
+    name: COVID-19 Diagnosis
     nextActivityId: Activity_9
     previousActivityId: Activity_7
 - id: 301
   properties:
     _type: Activity
-    activityDescription: Chest X-ray/CT scan
-    activityId: Activity_9
     activityIsConditional: false
     activityIsConditionalReason: ''
-    activityName: Chest X-ray/CT scan
     activityTimelineId: ''
     definedProcedures: []
+    description: Chest X-ray/CT scan
+    id: Activity_9
     label: Activity_9
+    name: Chest X-ray/CT scan
     nextActivityId: Activity_10
     previousActivityId: Activity_8
 - id: 302
   properties:
     _type: Activity
-    activityDescription: ECG
-    activityId: Activity_10
     activityIsConditional: false
     activityIsConditionalReason: ''
-    activityName: ECG
     activityTimelineId: ''
     definedProcedures: []
+    description: ECG
+    id: Activity_10
     label: Activity_10
+    name: ECG
     nextActivityId: Activity_11
     previousActivityId: Activity_9
 - id: 303
   properties:
     _type: Activity
-    activityDescription: Pregnancy test
-    activityId: Activity_11
     activityIsConditional: false
     activityIsConditionalReason: ''
-    activityName: Pregnancy test
     activityTimelineId: ''
     definedProcedures: []
+    description: Pregnancy test
+    id: Activity_11
     label: Activity_11
+    name: Pregnancy test
     nextActivityId: Activity_12
     previousActivityId: Activity_10
 - id: 304
   properties:
     _type: Activity
-    activityDescription: PaO2/FiO2
-    activityId: Activity_12
     activityIsConditional: false
     activityIsConditionalReason: ''
-    activityName: PaO2/FiO2
     activityTimelineId: ''
     definedProcedures: []
+    description: PaO2/FiO2
+    id: Activity_12
     label: Activity_12
+    name: PaO2/FiO2
     nextActivityId: Activity_13
     previousActivityId: Activity_11
 - id: 305
   properties:
     _type: Activity
-    activityDescription: SpO2
-    activityId: Activity_13
     activityIsConditional: false
     activityIsConditionalReason: ''
-    activityName: SpO2
     activityTimelineId: ''
     definedProcedures: []
+    description: SpO2
+    id: Activity_13
     label: Activity_13
+    name: SpO2
     nextActivityId: Activity_14
     previousActivityId: Activity_12
 - id: 306
   properties:
     _type: Activity
-    activityDescription: Vital signs
-    activityId: Activity_14
     activityIsConditional: false
     activityIsConditionalReason: ''
-    activityName: Vital signs
     activityTimelineId: ''
     definedProcedures: []
+    description: Vital signs
+    id: Activity_14
     label: Activity_14
+    name: Vital signs
     nextActivityId: Activity_15
     previousActivityId: Activity_13
 - id: 307
   properties:
     _type: Activity
-    activityDescription: Ordinal scoring
-    activityId: Activity_15
     activityIsConditional: false
     activityIsConditionalReason: ''
-    activityName: Ordinal scoring
     activityTimelineId: ''
     definedProcedures: []
+    description: Ordinal scoring
+    id: Activity_15
     label: Activity_15
+    name: Ordinal scoring
     nextActivityId: Activity_16
     previousActivityId: Activity_14
 - id: 308
   properties:
     _type: Activity
-    activityDescription: Adverse events
-    activityId: Activity_16
     activityIsConditional: false
     activityIsConditionalReason: ''
-    activityName: Adverse events
     activityTimelineId: ''
     definedProcedures: []
+    description: Adverse events
+    id: Activity_16
     label: Activity_16
+    name: Adverse events
     nextActivityId: Activity_17
     previousActivityId: Activity_15
 - id: 309
   properties:
     _type: Activity
-    activityDescription: Concomitant medications
-    activityId: Activity_17
     activityIsConditional: false
     activityIsConditionalReason: ''
-    activityName: Concomitant medications
     activityTimelineId: ''
     definedProcedures: []
+    description: Concomitant medications
+    id: Activity_17
     label: Activity_17
+    name: Concomitant medications
     nextActivityId: Activity_18
     previousActivityId: Activity_16
 - id: 310
   properties:
     _type: Activity
-    activityDescription: Hematology
-    activityId: Activity_18
     activityIsConditional: false
     activityIsConditionalReason: ''
-    activityName: Hematology
     activityTimelineId: ''
     definedProcedures: []
+    description: Hematology
+    id: Activity_18
     label: Activity_18
+    name: Hematology
     nextActivityId: Activity_19
     previousActivityId: Activity_17
 - id: 311
   properties:
     _type: Activity
-    activityDescription: Chemistry
-    activityId: Activity_19
     activityIsConditional: false
     activityIsConditionalReason: ''
-    activityName: Chemistry
     activityTimelineId: ''
     definedProcedures: []
+    description: Chemistry
+    id: Activity_19
     label: Activity_19
+    name: Chemistry
     nextActivityId: Activity_20
     previousActivityId: Activity_18
 - id: 312
   properties:
     _type: Activity
-    activityDescription: Study drug administration
-    activityId: Activity_20
     activityIsConditional: false
     activityIsConditionalReason: ''
-    activityName: Study drug administration
     activityTimelineId: ''
     definedProcedures: []
+    description: Study drug administration
+    id: Activity_20
     label: Activity_20
+    name: Study drug administration
     nextActivityId: Activity_21
     previousActivityId: Activity_19
 - id: 313
   properties:
     _type: Activity
-    activityDescription: Serum PD (CRP, IL-6, sIL-6R)
-    activityId: Activity_21
     activityIsConditional: false
     activityIsConditionalReason: ''
-    activityName: Serum PD (CRP, IL-6, sIL-6R)
     activityTimelineId: ''
     definedProcedures: []
+    description: Serum PD (CRP, IL-6, sIL-6R)
+    id: Activity_21
     label: Activity_21
+    name: Serum PD (CRP, IL-6, sIL-6R)
     nextActivityId: Activity_22
     previousActivityId: Activity_20
 - id: 314
   properties:
     _type: Activity
-    activityDescription: Serum PK
-    activityId: Activity_22
     activityIsConditional: false
     activityIsConditionalReason: ''
-    activityName: Serum PK
     activityTimelineId: ''
     definedProcedures: []
+    description: Serum PK
+    id: Activity_22
     label: Activity_22
+    name: Serum PK
     nextActivityId: Activity_23
     previousActivityId: Activity_21
 - id: 315
   properties:
     _type: Activity
-    activityDescription: Serum sample for exploratory biomarkers
-    activityId: Activity_23
     activityIsConditional: false
     activityIsConditionalReason: ''
-    activityName: Serum sample for exploratory biomarkers
     activityTimelineId: ''
     definedProcedures: []
+    description: Serum sample for exploratory biomarkers
+    id: Activity_23
     label: Activity_23
+    name: Serum sample for exploratory biomarkers
     nextActivityId: Activity_24
     previousActivityId: Activity_22
 - id: 316
   properties:
     _type: Activity
-    activityDescription: SARS-CoV-2 viral load
-    activityId: Activity_24
     activityIsConditional: false
     activityIsConditionalReason: ''
-    activityName: SARS-CoV-2 viral load
     activityTimelineId: ''
     definedProcedures: []
+    description: SARS-CoV-2 viral load
+    id: Activity_24
     label: Activity_24
+    name: SARS-CoV-2 viral load
     nextActivityId: Activity_25
     previousActivityId: Activity_23
 - id: 317
   properties:
     _type: Activity
-    activityDescription: Serum SARS-CoV-2 antibody titer
-    activityId: Activity_25
     activityIsConditional: false
     activityIsConditionalReason: ''
-    activityName: Serum SARS-CoV-2 antibody titer
     activityTimelineId: ''
     definedProcedures: []
+    description: Serum SARS-CoV-2 antibody titer
+    id: Activity_25
     label: Activity_25
+    name: Serum SARS-CoV-2 antibody titer
     nextActivityId: Activity_26
     previousActivityId: Activity_24
 - id: 318
   properties:
     _type: Activity
-    activityDescription: Cryopreserved PBMCs
-    activityId: Activity_26
     activityIsConditional: false
     activityIsConditionalReason: ''
-    activityName: Cryopreserved PBMCs
     activityTimelineId: ''
     definedProcedures: []
+    description: Cryopreserved PBMCs
+    id: Activity_26
     label: Activity_26
+    name: Cryopreserved PBMCs
     nextActivityId: Activity_27
     previousActivityId: Activity_25
 - id: 319
   properties:
     _type: Activity
-    activityDescription: Whole blood in PAXgene tubes for RNA analyses
-    activityId: Activity_27
     activityIsConditional: false
     activityIsConditionalReason: ''
-    activityName: Whole blood in PAXgene tubes for RNA analyses
     activityTimelineId: ''
     definedProcedures: []
+    description: Whole blood in PAXgene tubes for RNA analyses
+    id: Activity_27
     label: Activity_27
+    name: Whole blood in PAXgene tubes for RNA analyses
     nextActivityId: null
     previousActivityId: Activity_26
 - id: 4
@@ -2645,20 +2645,20 @@
     bcCategories: []
     bcSurrogates: {}
     biomedicalConcepts: {}
+    description: The main design for the study
+    id: StudyDesign_1
     interventionModel:
       _type: Code
       code: C82639
-      codeId: Code_133
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Parallel Study
+      id: Code_133
     label: StudyDesign_1
+    name: Study Design 1
     studyArms: {}
     studyCells: {}
     studyDesignBlindingScheme: {}
-    studyDesignDescription: The main design for the study
-    studyDesignId: StudyDesign_1
-    studyDesignName: Study Design 1
     studyDesignRationale: There are currently no drugs licensed for the treatment
       of patients with COVID-19. Given the results of studies outlined above, TCZ,
       along with standard of care (SOC) treatment, could provide efficacy, offering
@@ -2678,49 +2678,49 @@
     therapeuticAreas:
     - _type: Code
       code: '840539006'
-      codeId: Code_127
       codeSystem: SNOMED
       codeSystemVersion: January 31, 2018
       decode: Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)
+      id: Code_127
     - _type: Code
       code: U07.1
-      codeId: Code_128
       codeSystem: ICD-10
-      codeSystemVersion: ''
+      codeSystemVersion: None set
       decode: COVID-19 virus identified
+      id: Code_128
     trialIntentTypes:
     - _type: Code
       code: C15714
-      codeId: Code_130
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Basic Research
+      id: Code_130
     - _type: Code
       code: C139174
-      codeId: Code_131
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Device Feasibility Study
+      id: Code_131
     trialType:
     - _type: Code
       code: C49666
-      codeId: Code_132
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Efficacy Study
+      id: Code_132
 - id: 1
   properties:
     _type: Study
     businessTherapeuticAreas:
     - _type: Code
       code: PHARMA
-      codeId: Code_3
       codeSystem: SPONSOR
       codeSystemVersion: '12'
       decode: Pharma Division
+      id: Code_3
+    id: null
     label: Study
     studyAcronym: COVACTA
-    studyId: null
     studyIdentifiers: {}
     studyPhase: {}
     studyProtocolVersions: {}
@@ -2737,8 +2737,8 @@
     studyType:
       _type: Code
       code: C98388
-      codeId: Code_1
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2022-12-16'
       decode: Interventional Study
+      id: Code_1
     studyVersion: '1'

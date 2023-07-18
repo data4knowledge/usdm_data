@@ -2,49 +2,49 @@
   properties:
     _type: Code
     code: C98388
-    codeId: Code_1
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Interventional Study
+    id: Code_1
     label: Code_1
 - id: 4
   properties:
     _type: Code
     code: C15601
-    codeId: Code_2
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Phase II Trial
+    id: Code_2
     label: Code_2
 - id: 3
   properties:
     _type: AliasCode
-    aliasCodeId: AliasCode_1
+    id: AliasCode_1
     label: AliasCode_1
     standardCodeAliases: []
 - id: 5
   properties:
     _type: Code
     code: PHARMA
-    codeId: Code_3
     codeSystem: SPONSOR
     codeSystemVersion: '12'
     decode: Eli Lilly
+    id: Code_3
     label: Code_3
 - id: 8
   properties:
     _type: Code
     code: C70793
-    codeId: Code_5
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Clinical Study Sponsor
+    id: Code_5
     label: Code_5
 - id: 7
   properties:
     _type: Organisation
+    id: Organisation_1
     label: Organisation_1
-    organisationId: Organisation_1
     organisationIdentifier: 00-642-1325
     organisationIdentifierScheme: DUNS
     organisationName: Eli Lilly
@@ -52,22 +52,23 @@
 - id: 6
   properties:
     _type: StudyIdentifier
+    id: StudyIdentifier_1
     label: StudyIdentifier_1
     studyIdentifier: H2Q-MC-LZZT
-    studyIdentifierId: StudyIdentifier_1
 - id: 10
   properties:
     _type: Code
     code: C25508
-    codeId: Code_4
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Final
+    id: Code_4
     label: Code_4
 - id: 9
   properties:
     _type: StudyProtocolVersion
     briefTitle: Xanomeline (LY246708)
+    id: StudyProtocolVersion_1
     label: StudyProtocolVersion_1
     officialTitle: "Safety and Efficacy of the Xanomeline\nTransdermal Therapeutic\
       \ System (TTS) in Patients\nwith Mild to Moderate Alzheimer\\\u2019s Disease"
@@ -80,185 +81,184 @@
 
       Moderate Alzheimer\''s Disease'
     scientificTitle: ''
-    studyProtocolVersionId: StudyProtocolVersion_1
 - id: 12
   properties:
     _type: Code
     code: C49656
-    codeId: Code_75
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Treatment Study
+    id: Code_75
     label: Code_75
 - id: 13
   properties:
     _type: Code
     code: C49666
-    codeId: Code_76
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Efficacy Study
+    id: Code_76
     label: Code_76
 - id: 14
   properties:
     _type: Code
     code: C49667
-    codeId: Code_77
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Safety Study
+    id: Code_77
     label: Code_77
 - id: 15
   properties:
     _type: Code
     code: C49663
-    codeId: Code_78
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Pharmacokinetic Study
+    id: Code_78
     label: Code_78
 - id: 16
   properties:
     _type: Code
     code: C82639
-    codeId: Code_79
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Parallel Study
+    id: Code_79
     label: Code_79
 - id: 17
   properties:
     _type: StudyCell
+    id: StudyCell_1
     label: StudyCell_1
-    studyCellId: StudyCell_1
 - id: 18
   properties:
     _type: StudyCell
+    id: StudyCell_2
     label: StudyCell_2
-    studyCellId: StudyCell_2
 - id: 19
   properties:
     _type: StudyCell
+    id: StudyCell_3
     label: StudyCell_3
-    studyCellId: StudyCell_3
 - id: 20
   properties:
     _type: StudyCell
+    id: StudyCell_4
     label: StudyCell_4
-    studyCellId: StudyCell_4
 - id: 21
   properties:
     _type: StudyCell
+    id: StudyCell_5
     label: StudyCell_5
-    studyCellId: StudyCell_5
 - id: 22
   properties:
     _type: StudyCell
+    id: StudyCell_6
     label: StudyCell_6
-    studyCellId: StudyCell_6
 - id: 23
   properties:
     _type: StudyCell
+    id: StudyCell_7
     label: StudyCell_7
-    studyCellId: StudyCell_7
 - id: 24
   properties:
     _type: StudyCell
+    id: StudyCell_8
     label: StudyCell_8
-    studyCellId: StudyCell_8
 - id: 25
   properties:
     _type: StudyCell
+    id: StudyCell_9
     label: StudyCell_9
-    studyCellId: StudyCell_9
 - id: 26
   properties:
     _type: StudyCell
+    id: StudyCell_10
     label: StudyCell_10
-    studyCellId: StudyCell_10
 - id: 27
   properties:
     _type: StudyCell
+    id: StudyCell_11
     label: StudyCell_11
-    studyCellId: StudyCell_11
 - id: 28
   properties:
     _type: StudyCell
+    id: StudyCell_12
     label: StudyCell_12
-    studyCellId: StudyCell_12
 - id: 29
   properties:
     _type: StudyCell
+    id: StudyCell_13
     label: StudyCell_13
-    studyCellId: StudyCell_13
 - id: 30
   properties:
     _type: StudyCell
+    id: StudyCell_14
     label: StudyCell_14
-    studyCellId: StudyCell_14
 - id: 31
   properties:
     _type: StudyCell
+    id: StudyCell_15
     label: StudyCell_15
-    studyCellId: StudyCell_15
 - id: 33
   properties:
     _type: Code
     code: G30.9
-    codeId: Code_262
     codeSystem: ICD-10-CM
-    codeSystemVersion: ''
+    codeSystemVersion: None set
     decode: Alzheimer's disease; unspecified
-    label: Code_262
+    id: Code_248
+    label: Code_248
 - id: 32
   properties:
     _type: Indication
+    id: Indication_1
     indicationDescription: Alzheimer's disease
-    indicationId: Indication_1
     label: Indication_1
 - id: 35
   properties:
     _type: Code
     code: '26929004'
-    codeId: Code_263
     codeSystem: SNOMED
     codeSystemVersion: January 31, 2018
     decode: Alzheimer's disease
-    label: Code_263
+    id: Code_249
+    label: Code_249
 - id: 34
   properties:
     _type: Indication
+    id: Indication_2
     indicationDescription: Alzheimer's disease
-    indicationId: Indication_2
     label: Indication_2
 - id: 36
   properties:
     _type: StudyDesignPopulation
+    id: StudyDesignPopulation_1
     label: StudyDesignPopulation_1
     plannedMaximumAgeOfParticipants: 100 years
     plannedMinimumAgeOfParticipants: 50 years
     plannedNumberOfParticipants: 300
     plannedSexOfParticipants: []
     populationDescription: Patients with Probable Mild to Moderate Alzheimer\'s Disease
-    studyDesignPopulationId: StudyDesignPopulation_1
 - id: 38
   properties:
     _type: Code
     code: C85826
-    codeId: Code_266
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Trial Primary Objective
-    label: Code_266
+    id: Code_252
+    label: Code_252
 - id: 40
   properties:
     _type: Code
     code: C94496
-    codeId: Code_265
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Primary Endpoint
-    label: Code_265
+    id: Code_251
+    label: Code_251
 - id: 39
   properties:
     _type: Endpoint
@@ -266,29 +266,30 @@
       total of 11 items
 
       [ADAS-Cog (11)] at Week 24'
-    endpointId: Endpoint_1
-    endpointPurposeDescription: ''
+    endpointPurposeDescription: '-'
+    id: Endpoint_1
     label: Endpoint_1
 - id: 42
   properties:
     _type: Code
     code: C94496
-    codeId: Code_267
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Primary Endpoint
-    label: Code_267
+    id: Code_253
+    label: Code_253
 - id: 41
   properties:
     _type: Endpoint
     endpointDescription: "Video-referenced Clinician\u2019s Interview-based Impression\
       \ of Change (CIBIC+) at\nWeek 24"
-    endpointId: Endpoint_2
-    endpointPurposeDescription: ''
+    endpointPurposeDescription: '-'
+    id: Endpoint_2
     label: Endpoint_2
 - id: 37
   properties:
     _type: Objective
+    id: Objective_1
     label: Objective_1
     objectiveDescription: 'To determine if there is a statistically significant relationship
       (overall Type 1 error
@@ -296,138 +297,136 @@
       rate, alpha=0.05) between the change in both the ADAS-Cog (11) and CIBIC+
 
       scores, and drug dose (0, 50 cm2 [54 mg], and 75 cm2 [81 mg]).'
-    objectiveId: Objective_1
 - id: 44
   properties:
     _type: Code
     code: C85826
-    codeId: Code_269
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Trial Primary Objective
-    label: Code_269
+    id: Code_255
+    label: Code_255
 - id: 46
   properties:
     _type: Code
     code: C94496
-    codeId: Code_268
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Primary Endpoint
-    label: Code_268
+    id: Code_254
+    label: Code_254
 - id: 45
   properties:
     _type: Endpoint
     endpointDescription: Adverse events
-    endpointId: Endpoint_3
-    endpointPurposeDescription: ''
+    endpointPurposeDescription: '-'
+    id: Endpoint_3
     label: Endpoint_3
 - id: 48
   properties:
     _type: Code
     code: C94496
-    codeId: Code_270
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Primary Endpoint
-    label: Code_270
+    id: Code_256
+    label: Code_256
 - id: 47
   properties:
     _type: Endpoint
     endpointDescription: Vital signs (weight, standing and supine blood pressure,
       heart rate)
-    endpointId: Endpoint_4
-    endpointPurposeDescription: ''
+    endpointPurposeDescription: '-'
+    id: Endpoint_4
     label: Endpoint_4
 - id: 50
   properties:
     _type: Code
     code: C94496
-    codeId: Code_271
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Primary Endpoint
-    label: Code_271
+    id: Code_257
+    label: Code_257
 - id: 49
   properties:
     _type: Endpoint
     endpointDescription: Laboratory evaluations (Change from Baseline)
-    endpointId: Endpoint_5
     endpointPurposeDescription: "The change from baseline laboratory value will be\
       \ \ncalculated as the difference between the baseline lab value and the endpoint\
       \ value (i.e.,\nthe value at the specified visit) or the end of treatment observation"
+    id: Endpoint_5
     label: Endpoint_5
 - id: 43
   properties:
     _type: Objective
+    id: Objective_2
     label: Objective_2
     objectiveDescription: To document the safety profile of the xanomeline TTS.
-    objectiveId: Objective_2
 - id: 52
   properties:
     _type: Code
     code: C85827
-    codeId: Code_273
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Trial Secondary Objective
-    label: Code_273
+    id: Code_259
+    label: Code_259
 - id: 54
   properties:
     _type: Code
     code: C139173
-    codeId: Code_272
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Secondary Endpoint
-    label: Code_272
+    id: Code_258
+    label: Code_258
 - id: 53
   properties:
     _type: Endpoint
-    endpointDescription: 'Alzheimer\''s Disease Assessment Scale - Cognitive Subscale,
-      total of 11 items
-
-      [ADAS-Cog (11)] at Weeks 8 and 16'
-    endpointId: Endpoint_6
-    endpointPurposeDescription: ''
+    endpointDescription: Alzheimer\'s Disease Assessment Scale - Cognitive Subscale,
+      total of 11 items [ADAS-Cog (11)] at Weeks 8 and 16
+    endpointPurposeDescription: '-'
+    id: Endpoint_6
     label: Endpoint_6
 - id: 56
   properties:
     _type: Code
     code: C139173
-    codeId: Code_274
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Secondary Endpoint
-    label: Code_274
+    id: Code_260
+    label: Code_260
 - id: 55
   properties:
     _type: Endpoint
     endpointDescription: "Video-referenced Clinician\\\u2019s Interview-based Impression\
-      \ of Change (CIBIC+) at\nWeeks 8 and 16"
-    endpointId: Endpoint_7
-    endpointPurposeDescription: ''
+      \ of Change (CIBIC+) at Weeks 8 and 16"
+    endpointPurposeDescription: '-'
+    id: Endpoint_7
     label: Endpoint_7
 - id: 58
   properties:
     _type: Code
     code: C139173
-    codeId: Code_275
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Secondary Endpoint
-    label: Code_275
+    id: Code_261
+    label: Code_261
 - id: 57
   properties:
     _type: Endpoint
     endpointDescription: Mean Revised Neuropsychiatric Inventory (NPI-X) from Week
       4 to Week 24
-    endpointId: Endpoint_8
-    endpointPurposeDescription: ''
+    endpointPurposeDescription: '-'
+    id: Endpoint_8
     label: Endpoint_8
 - id: 51
   properties:
     _type: Objective
+    id: Objective_3
     label: Objective_3
     objectiveDescription: 'To assess the dose-dependent improvement in behavior. Improved
       scores on the
@@ -435,36 +434,35 @@
       Revised Neuropsychiatric Inventory (NPI-X) will indicate improvement in these
 
       areas.'
-    objectiveId: Objective_3
 - id: 60
   properties:
     _type: ScheduleTimelineExit
+    id: ScheduleTimelineExit_1
     label: ScheduleTimelineExit_1
-    scheduleTimelineExitId: ScheduleTimelineExit_1
 - id: 63
   properties:
     _type: Code
     code: C99901x2
-    codeId: Code_82
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Before
+    id: Code_82
     label: Code_82
 - id: 64
   properties:
     _type: Code
     code: C99900x1
-    codeId: Code_84
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Start to Start
+    id: Code_84
     label: Code_84
 - id: 62
   properties:
     _type: Timing
+    id: Timing_1
     label: Timing_1
     timingDescription: null
-    timingId: Timing_1
     timingValue: PT0M
     timingWindow: null
     timingWindowLower: null
@@ -472,35 +470,35 @@
 - id: 61
   properties:
     _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_1
     label: ScheduledActivityInstance_1
     scheduleTimelineExitId: null
-    scheduledInstanceId: ScheduledActivityInstance_1
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
 - id: 67
   properties:
     _type: Code
     code: C99901x2
-    codeId: Code_87
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Before
+    id: Code_87
     label: Code_87
 - id: 68
   properties:
     _type: Code
     code: C99900x1
-    codeId: Code_89
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Start to Start
+    id: Code_89
     label: Code_89
 - id: 66
   properties:
     _type: Timing
+    id: Timing_2
     label: Timing_2
     timingDescription: 24 Hours
-    timingId: Timing_2
     timingValue: PT24H
     timingWindow: null
     timingWindowLower: null
@@ -508,35 +506,35 @@
 - id: 65
   properties:
     _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_2
     label: ScheduledActivityInstance_2
     scheduleTimelineExitId: null
-    scheduledInstanceId: ScheduledActivityInstance_2
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
 - id: 71
   properties:
     _type: Code
     code: C99901x3
-    codeId: Code_90
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Fixed Reference
+    id: Code_90
     label: Code_90
 - id: 72
   properties:
     _type: Code
     code: C99900x1
-    codeId: Code_94
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Start to Start
+    id: Code_94
     label: Code_94
 - id: 70
   properties:
     _type: Timing
+    id: Timing_3
     label: Timing_3
     timingDescription: null
-    timingId: Timing_3
     timingValue: PT0M
     timingWindow: null
     timingWindowLower: null
@@ -544,35 +542,35 @@
 - id: 69
   properties:
     _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_3
     label: ScheduledActivityInstance_3
     scheduleTimelineExitId: null
-    scheduledInstanceId: ScheduledActivityInstance_3
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
 - id: 75
   properties:
     _type: Code
     code: C99901x1
-    codeId: Code_96
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: After
+    id: Code_96
     label: Code_96
 - id: 76
   properties:
     _type: Code
     code: C99900x1
-    codeId: Code_99
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Start to Start
+    id: Code_99
     label: Code_99
 - id: 74
   properties:
     _type: Timing
+    id: Timing_4
     label: Timing_4
     timingDescription: +13 Days
-    timingId: Timing_4
     timingValue: P13D
     timingWindow: null
     timingWindowLower: null
@@ -580,35 +578,35 @@
 - id: 73
   properties:
     _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_4
     label: ScheduledActivityInstance_4
     scheduleTimelineExitId: null
-    scheduledInstanceId: ScheduledActivityInstance_4
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
 - id: 79
   properties:
     _type: Code
     code: C99901x1
-    codeId: Code_101
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: After
+    id: Code_101
     label: Code_101
 - id: 80
   properties:
     _type: Code
     code: C99900x1
-    codeId: Code_104
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Start to Start
+    id: Code_104
     label: Code_104
 - id: 78
   properties:
     _type: Timing
+    id: Timing_5
     label: Timing_5
     timingDescription: +1 Days
-    timingId: Timing_5
     timingValue: P1D
     timingWindow: null
     timingWindowLower: null
@@ -616,35 +614,35 @@
 - id: 77
   properties:
     _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_5
     label: ScheduledActivityInstance_5
     scheduleTimelineExitId: null
-    scheduledInstanceId: ScheduledActivityInstance_5
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
 - id: 83
   properties:
     _type: Code
     code: C99901x1
-    codeId: Code_106
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: After
+    id: Code_106
     label: Code_106
 - id: 84
   properties:
     _type: Code
     code: C99900x1
-    codeId: Code_109
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Start to Start
+    id: Code_109
     label: Code_109
 - id: 82
   properties:
     _type: Timing
+    id: Timing_6
     label: Timing_6
     timingDescription: +14 Days
-    timingId: Timing_6
     timingValue: P14D
     timingWindow: null
     timingWindowLower: null
@@ -652,35 +650,35 @@
 - id: 81
   properties:
     _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_6
     label: ScheduledActivityInstance_6
     scheduleTimelineExitId: null
-    scheduledInstanceId: ScheduledActivityInstance_6
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
 - id: 87
   properties:
     _type: Code
     code: C99901x1
-    codeId: Code_111
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: After
+    id: Code_111
     label: Code_111
 - id: 88
   properties:
     _type: Code
     code: C99900x1
-    codeId: Code_114
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Start to Start
+    id: Code_114
     label: Code_114
 - id: 86
   properties:
     _type: Timing
+    id: Timing_7
     label: Timing_7
     timingDescription: +1 Days
-    timingId: Timing_7
     timingValue: P1D
     timingWindow: null
     timingWindowLower: null
@@ -688,35 +686,35 @@
 - id: 85
   properties:
     _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_7
     label: ScheduledActivityInstance_7
     scheduleTimelineExitId: null
-    scheduledInstanceId: ScheduledActivityInstance_7
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
 - id: 91
   properties:
     _type: Code
     code: C99901x1
-    codeId: Code_116
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: After
+    id: Code_116
     label: Code_116
 - id: 92
   properties:
     _type: Code
     code: C99900x1
-    codeId: Code_119
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Start to Start
+    id: Code_119
     label: Code_119
 - id: 90
   properties:
     _type: Timing
+    id: Timing_8
     label: Timing_8
     timingDescription: +13 Days
-    timingId: Timing_8
     timingValue: P13D
     timingWindow: null
     timingWindowLower: null
@@ -724,35 +722,35 @@
 - id: 89
   properties:
     _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_8
     label: ScheduledActivityInstance_8
     scheduleTimelineExitId: null
-    scheduledInstanceId: ScheduledActivityInstance_8
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
 - id: 95
   properties:
     _type: Code
     code: C99901x1
-    codeId: Code_121
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: After
+    id: Code_121
     label: Code_121
 - id: 96
   properties:
     _type: Code
     code: C99900x1
-    codeId: Code_124
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Start to Start
+    id: Code_124
     label: Code_124
 - id: 94
   properties:
     _type: Timing
+    id: Timing_9
     label: Timing_9
     timingDescription: +14 Days
-    timingId: Timing_9
     timingValue: P14D
     timingWindow: null
     timingWindowLower: null
@@ -760,35 +758,35 @@
 - id: 93
   properties:
     _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_9
     label: ScheduledActivityInstance_9
     scheduleTimelineExitId: null
-    scheduledInstanceId: ScheduledActivityInstance_9
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
 - id: 99
   properties:
     _type: Code
     code: C99901x1
-    codeId: Code_126
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: After
+    id: Code_126
     label: Code_126
 - id: 100
   properties:
     _type: Code
     code: C99900x1
-    codeId: Code_129
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Start to Start
+    id: Code_129
     label: Code_129
 - id: 98
   properties:
     _type: Timing
+    id: Timing_10
     label: Timing_10
     timingDescription: +1 Days
-    timingId: Timing_10
     timingValue: P1D
     timingWindow: null
     timingWindowLower: null
@@ -796,35 +794,35 @@
 - id: 97
   properties:
     _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_10
     label: ScheduledActivityInstance_10
     scheduleTimelineExitId: null
-    scheduledInstanceId: ScheduledActivityInstance_10
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
 - id: 103
   properties:
     _type: Code
     code: C99901x1
-    codeId: Code_131
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: After
+    id: Code_131
     label: Code_131
 - id: 104
   properties:
     _type: Code
     code: C99900x1
-    codeId: Code_134
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Start to Start
+    id: Code_134
     label: Code_134
 - id: 102
   properties:
     _type: Timing
+    id: Timing_11
     label: Timing_11
     timingDescription: +27 Days
-    timingId: Timing_11
     timingValue: P27D
     timingWindow: null
     timingWindowLower: null
@@ -832,35 +830,35 @@
 - id: 101
   properties:
     _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_11
     label: ScheduledActivityInstance_11
     scheduleTimelineExitId: null
-    scheduledInstanceId: ScheduledActivityInstance_11
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
 - id: 107
   properties:
     _type: Code
     code: C99901x1
-    codeId: Code_136
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: After
+    id: Code_136
     label: Code_136
 - id: 108
   properties:
     _type: Code
     code: C99900x1
-    codeId: Code_139
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Start to Start
+    id: Code_139
     label: Code_139
 - id: 106
   properties:
     _type: Timing
+    id: Timing_12
     label: Timing_12
     timingDescription: +1 Days
-    timingId: Timing_12
     timingValue: P1D
     timingWindow: null
     timingWindowLower: null
@@ -868,35 +866,35 @@
 - id: 105
   properties:
     _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_12
     label: ScheduledActivityInstance_12
     scheduleTimelineExitId: null
-    scheduledInstanceId: ScheduledActivityInstance_12
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
 - id: 111
   properties:
     _type: Code
     code: C99901x1
-    codeId: Code_141
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: After
+    id: Code_141
     label: Code_141
 - id: 112
   properties:
     _type: Code
     code: C99900x1
-    codeId: Code_144
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Start to Start
+    id: Code_144
     label: Code_144
 - id: 110
   properties:
     _type: Timing
+    id: Timing_13
     label: Timing_13
     timingDescription: +27 Days
-    timingId: Timing_13
     timingValue: P27D
     timingWindow: null
     timingWindowLower: null
@@ -904,35 +902,35 @@
 - id: 109
   properties:
     _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_13
     label: ScheduledActivityInstance_13
     scheduleTimelineExitId: null
-    scheduledInstanceId: ScheduledActivityInstance_13
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
 - id: 115
   properties:
     _type: Code
     code: C99901x1
-    codeId: Code_146
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: After
+    id: Code_146
     label: Code_146
 - id: 116
   properties:
     _type: Code
     code: C99900x1
-    codeId: Code_149
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Start to Start
+    id: Code_149
     label: Code_149
 - id: 114
   properties:
     _type: Timing
+    id: Timing_14
     label: Timing_14
     timingDescription: +1 Days
-    timingId: Timing_14
     timingValue: P1D
     timingWindow: null
     timingWindowLower: null
@@ -940,35 +938,35 @@
 - id: 113
   properties:
     _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_14
     label: ScheduledActivityInstance_14
     scheduleTimelineExitId: null
-    scheduledInstanceId: ScheduledActivityInstance_14
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
 - id: 119
   properties:
     _type: Code
     code: C99901x1
-    codeId: Code_151
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: After
+    id: Code_151
     label: Code_151
 - id: 120
   properties:
     _type: Code
     code: C99900x1
-    codeId: Code_154
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Start to Start
+    id: Code_154
     label: Code_154
 - id: 118
   properties:
     _type: Timing
+    id: Timing_15
     label: Timing_15
     timingDescription: +27 Days
-    timingId: Timing_15
     timingValue: P27D
     timingWindow: null
     timingWindowLower: null
@@ -976,35 +974,35 @@
 - id: 117
   properties:
     _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_15
     label: ScheduledActivityInstance_15
     scheduleTimelineExitId: null
-    scheduledInstanceId: ScheduledActivityInstance_15
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
 - id: 123
   properties:
     _type: Code
     code: C99901x1
-    codeId: Code_156
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: After
+    id: Code_156
     label: Code_156
 - id: 124
   properties:
     _type: Code
     code: C99900x1
-    codeId: Code_159
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Start to Start
+    id: Code_159
     label: Code_159
 - id: 122
   properties:
     _type: Timing
+    id: Timing_16
     label: Timing_16
     timingDescription: +1 Days
-    timingId: Timing_16
     timingValue: P1D
     timingWindow: null
     timingWindowLower: null
@@ -1012,35 +1010,35 @@
 - id: 121
   properties:
     _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_16
     label: ScheduledActivityInstance_16
     scheduleTimelineExitId: null
-    scheduledInstanceId: ScheduledActivityInstance_16
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
 - id: 127
   properties:
     _type: Code
     code: C99901x1
-    codeId: Code_161
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: After
+    id: Code_161
     label: Code_161
 - id: 128
   properties:
     _type: Code
     code: C99900x1
-    codeId: Code_164
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Start to Start
+    id: Code_164
     label: Code_164
 - id: 126
   properties:
     _type: Timing
+    id: Timing_17
     label: Timing_17
     timingDescription: +27 Days
-    timingId: Timing_17
     timingValue: P27D
     timingWindow: null
     timingWindowLower: null
@@ -1048,35 +1046,35 @@
 - id: 125
   properties:
     _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_17
     label: ScheduledActivityInstance_17
     scheduleTimelineExitId: null
-    scheduledInstanceId: ScheduledActivityInstance_17
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
 - id: 131
   properties:
     _type: Code
     code: C99901x1
-    codeId: Code_166
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: After
+    id: Code_166
     label: Code_166
 - id: 132
   properties:
     _type: Code
     code: C99900x1
-    codeId: Code_169
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Start to Start
+    id: Code_169
     label: Code_169
 - id: 130
   properties:
     _type: Timing
+    id: Timing_18
     label: Timing_18
     timingDescription: +14 Days
-    timingId: Timing_18
     timingValue: P14D
     timingWindow: null
     timingWindowLower: null
@@ -1084,130 +1082,130 @@
 - id: 129
   properties:
     _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_18
     label: ScheduledActivityInstance_18
     scheduleTimelineExitId: null
-    scheduledInstanceId: ScheduledActivityInstance_18
     scheduledInstanceTimelineId: null
     scheduledInstanceType: ACTIVITY
 - id: 59
   properties:
     _type: ScheduleTimeline
+    description: This is the main timeline for the study design.
     entryCondition: Potential subject identified
+    id: ScheduleTimeline_1
     label: ScheduleTimeline_1
     mainTimeline: true
-    scheduleTimelineDescription: This is the main timeline for the study design.
+    name: Main Timeline
     scheduleTimelineEntryId: ScheduledActivityInstance_1
-    scheduleTimelineId: ScheduleTimeline_1
-    scheduleTimelineName: Main Timeline
 - id: 133
   properties:
     _type: Code
     code: MILD_MOD_ALZ
-    codeId: Code_72
     codeSystem: SPONSOR
     codeSystemVersion: '12'
     decode: Mild to Moderate Alzheimer\'s Disease
+    id: Code_72
     label: Code_72
 - id: 134
   properties:
     _type: Code
     code: '26929004'
-    codeId: Code_73
     codeSystem: SNOMED
     codeSystemVersion: January 31, 2018
     decode: Alzheimer\'s disease
+    id: Code_73
     label: Code_73
 - id: 136
   properties:
     _type: Code
     code: C25716
-    codeId: Code_7
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Visit
+    id: Code_7
     label: Code_7
 - id: 137
   properties:
     _type: Code
     code: C51282
-    codeId: Code_8
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Clinic
+    id: Code_8
     label: Code_8
 - id: 138
   properties:
     _type: Code
     code: C175574
-    codeId: Code_9
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: In Person
+    id: Code_9
     label: Code_9
 - id: 139
   properties:
     _type: TransitionRule
+    id: TransitionRule_1
     label: TransitionRule_1
     transitionRuleDescription: Subject identifier
-    transitionRuleId: TransitionRule_1
 - id: 140
   properties:
     _type: TransitionRule
+    id: TransitionRule_2
     label: TransitionRule_2
     transitionRuleDescription: completion of screening activities
-    transitionRuleId: TransitionRule_2
 - id: 135
   properties:
     _type: Encounter
-    encounterDescription: Screening encounter
-    encounterId: Encounter_1
-    encounterName: Screening 1
+    description: Screening encounter
     encounterScheduledAtTimingId: null
+    id: Encounter_1
     label: Encounter_1
+    name: Screening 1
     nextEncounterId: Encounter_2
     previousEncounterId: null
 - id: 142
   properties:
     _type: Code
     code: C25716
-    codeId: Code_10
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Visit
+    id: Code_10
     label: Code_10
 - id: 143
   properties:
     _type: Code
     code: C51282
-    codeId: Code_11
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Clinic
+    id: Code_11
     label: Code_11
 - id: 144
   properties:
     _type: Code
     code: C175574
-    codeId: Code_12
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: In Person
+    id: Code_12
     label: Code_12
 - id: 145
   properties:
     _type: TransitionRule
+    id: TransitionRule_3
     label: TransitionRule_3
     transitionRuleDescription: subject leaves clinic after connection of ambulatory
       ECG machine
-    transitionRuleId: TransitionRule_3
 - id: 141
   properties:
     _type: Encounter
-    encounterDescription: Screening encounter - Ambulatory ECG Placement
-    encounterId: Encounter_2
-    encounterName: Screening 2
+    description: Screening encounter - Ambulatory ECG Placement
     encounterScheduledAtTimingId: null
+    id: Encounter_2
     label: Encounter_2
+    name: Screening 2
     nextEncounterId: Encounter_3
     previousEncounterId: Encounter_1
     transitionStartRule: null
@@ -1215,86 +1213,86 @@
   properties:
     _type: Code
     code: C25716
-    codeId: Code_13
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Visit
+    id: Code_13
     label: Code_13
 - id: 148
   properties:
     _type: Code
     code: C51282
-    codeId: Code_14
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Clinic
+    id: Code_14
     label: Code_14
 - id: 149
   properties:
     _type: Code
     code: C175574
-    codeId: Code_15
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: In Person
+    id: Code_15
     label: Code_15
 - id: 150
   properties:
     _type: TransitionRule
+    id: TransitionRule_4
     label: TransitionRule_4
     transitionRuleDescription: subject has connection of ambulatory ECG machine removed
-    transitionRuleId: TransitionRule_4
 - id: 151
   properties:
     _type: TransitionRule
+    id: TransitionRule_5
     label: TransitionRule_5
     transitionRuleDescription: Radomized
-    transitionRuleId: TransitionRule_5
 - id: 146
   properties:
     _type: Encounter
-    encounterDescription: Baseline encounter - Ambulatory ECG Removal
-    encounterId: Encounter_3
-    encounterName: Baseline
+    description: Baseline encounter - Ambulatory ECG Removal
     encounterScheduledAtTimingId: null
+    id: Encounter_3
     label: Encounter_3
+    name: Baseline
     nextEncounterId: Encounter_4
     previousEncounterId: Encounter_2
 - id: 153
   properties:
     _type: Code
     code: C25716
-    codeId: Code_16
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Visit
+    id: Code_16
     label: Code_16
 - id: 154
   properties:
     _type: Code
     code: C51282
-    codeId: Code_17
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Clinic
+    id: Code_17
     label: Code_17
 - id: 155
   properties:
     _type: Code
     code: C175574
-    codeId: Code_18
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: In Person
+    id: Code_18
     label: Code_18
 - id: 152
   properties:
     _type: Encounter
-    encounterDescription: Day 13 - Ambulatory ECG Placement
-    encounterId: Encounter_4
-    encounterName: Week 1
+    description: Day 13 - Ambulatory ECG Placement
     encounterScheduledAtTimingId: null
+    id: Encounter_4
     label: Encounter_4
+    name: Week 1
     nextEncounterId: Encounter_5
     previousEncounterId: Encounter_3
     transitionEndRule: null
@@ -1303,37 +1301,37 @@
   properties:
     _type: Code
     code: C25716
-    codeId: Code_19
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Visit
+    id: Code_19
     label: Code_19
 - id: 158
   properties:
     _type: Code
     code: C51282
-    codeId: Code_20
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Clinic
+    id: Code_20
     label: Code_20
 - id: 159
   properties:
     _type: Code
     code: C175574
-    codeId: Code_21
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: In Person
+    id: Code_21
     label: Code_21
 - id: 156
   properties:
     _type: Encounter
-    encounterDescription: Day 14
-    encounterId: Encounter_5
-    encounterName: Week 2
+    description: Day 14
     encounterScheduledAtTimingId: null
+    id: Encounter_5
     label: Encounter_5
+    name: Week 2
     nextEncounterId: Encounter_6
     previousEncounterId: Encounter_4
     transitionEndRule: null
@@ -1342,37 +1340,37 @@
   properties:
     _type: Code
     code: C25716
-    codeId: Code_22
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Visit
+    id: Code_22
     label: Code_22
 - id: 162
   properties:
     _type: Code
     code: C51282
-    codeId: Code_23
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Clinic
+    id: Code_23
     label: Code_23
 - id: 163
   properties:
     _type: Code
     code: C175574
-    codeId: Code_24
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: In Person
+    id: Code_24
     label: Code_24
 - id: 160
   properties:
     _type: Encounter
-    encounterDescription: Day 28
-    encounterId: Encounter_6
-    encounterName: Week 4
+    description: Day 28
     encounterScheduledAtTimingId: null
+    id: Encounter_6
     label: Encounter_6
+    name: Week 4
     nextEncounterId: Encounter_7
     previousEncounterId: Encounter_5
     transitionEndRule: null
@@ -1381,37 +1379,37 @@
   properties:
     _type: Code
     code: C25716
-    codeId: Code_25
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Visit
+    id: Code_25
     label: Code_25
 - id: 166
   properties:
     _type: Code
     code: C51282
-    codeId: Code_26
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Clinic
+    id: Code_26
     label: Code_26
 - id: 167
   properties:
     _type: Code
     code: C175574
-    codeId: Code_27
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: In Person
+    id: Code_27
     label: Code_27
 - id: 164
   properties:
     _type: Encounter
-    encounterDescription: "Day 30 - Ambulatory ECG \_Removal"
-    encounterId: Encounter_7
-    encounterName: Week 5
+    description: "Day 30 - Ambulatory ECG \_Removal"
     encounterScheduledAtTimingId: null
+    id: Encounter_7
     label: Encounter_7
+    name: Week 5
     nextEncounterId: Encounter_8
     previousEncounterId: Encounter_6
     transitionEndRule: null
@@ -1420,37 +1418,37 @@
   properties:
     _type: Code
     code: C25716
-    codeId: Code_28
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Visit
+    id: Code_28
     label: Code_28
 - id: 170
   properties:
     _type: Code
     code: C51282
-    codeId: Code_29
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Clinic
+    id: Code_29
     label: Code_29
 - id: 171
   properties:
     _type: Code
     code: C175574
-    codeId: Code_30
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: In Person
+    id: Code_30
     label: Code_30
 - id: 168
   properties:
     _type: Encounter
-    encounterDescription: Day 42
-    encounterId: Encounter_8
-    encounterName: Week 6
+    description: Day 42
     encounterScheduledAtTimingId: null
+    id: Encounter_8
     label: Encounter_8
+    name: Week 6
     nextEncounterId: Encounter_9
     previousEncounterId: Encounter_7
     transitionEndRule: null
@@ -1459,37 +1457,37 @@
   properties:
     _type: Code
     code: C25716
-    codeId: Code_31
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Visit
+    id: Code_31
     label: Code_31
 - id: 174
   properties:
     _type: Code
     code: C51282
-    codeId: Code_32
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Clinic
+    id: Code_32
     label: Code_32
 - id: 175
   properties:
     _type: Code
     code: C175574
-    codeId: Code_33
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: In Person
+    id: Code_33
     label: Code_33
 - id: 172
   properties:
     _type: Encounter
-    encounterDescription: Day 56
-    encounterId: Encounter_9
-    encounterName: Week 8
+    description: Day 56
     encounterScheduledAtTimingId: null
+    id: Encounter_9
     label: Encounter_9
+    name: Week 8
     nextEncounterId: Encounter_10
     previousEncounterId: Encounter_8
     transitionEndRule: null
@@ -1498,37 +1496,37 @@
   properties:
     _type: Code
     code: C25716
-    codeId: Code_34
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Visit
+    id: Code_34
     label: Code_34
 - id: 178
   properties:
     _type: Code
     code: C18002
-    codeId: Code_35
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Home
+    id: Code_35
     label: Code_35
 - id: 179
   properties:
     _type: Code
     code: C171537
-    codeId: Code_36
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Telephone Call
+    id: Code_36
     label: Code_36
 - id: 176
   properties:
     _type: Encounter
-    encounterDescription: Day 70
-    encounterId: Encounter_10
-    encounterName: "Week\_10\_(T)"
+    description: Day 70
     encounterScheduledAtTimingId: null
+    id: Encounter_10
     label: Encounter_10
+    name: "Week\_10\_(T)"
     nextEncounterId: Encounter_11
     previousEncounterId: Encounter_9
     transitionEndRule: null
@@ -1537,37 +1535,37 @@
   properties:
     _type: Code
     code: C25716
-    codeId: Code_37
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Visit
+    id: Code_37
     label: Code_37
 - id: 182
   properties:
     _type: Code
     code: C51282
-    codeId: Code_38
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Clinic
+    id: Code_38
     label: Code_38
 - id: 183
   properties:
     _type: Code
     code: C175574
-    codeId: Code_39
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: In Person
+    id: Code_39
     label: Code_39
 - id: 180
   properties:
     _type: Encounter
-    encounterDescription: Day 84
-    encounterId: Encounter_11
-    encounterName: Week 12
+    description: Day 84
     encounterScheduledAtTimingId: null
+    id: Encounter_11
     label: Encounter_11
+    name: Week 12
     nextEncounterId: Encounter_12
     previousEncounterId: Encounter_10
     transitionEndRule: null
@@ -1576,37 +1574,37 @@
   properties:
     _type: Code
     code: C25716
-    codeId: Code_40
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Visit
+    id: Code_40
     label: Code_40
 - id: 186
   properties:
     _type: Code
     code: C18002
-    codeId: Code_41
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Home
+    id: Code_41
     label: Code_41
 - id: 187
   properties:
     _type: Code
     code: C171537
-    codeId: Code_42
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Telephone Call
+    id: Code_42
     label: Code_42
 - id: 184
   properties:
     _type: Encounter
-    encounterDescription: Day 98
-    encounterId: Encounter_12
-    encounterName: Week 14 (T)
+    description: Day 98
     encounterScheduledAtTimingId: null
+    id: Encounter_12
     label: Encounter_12
+    name: Week 14 (T)
     nextEncounterId: Encounter_13
     previousEncounterId: Encounter_11
     transitionEndRule: null
@@ -1615,37 +1613,37 @@
   properties:
     _type: Code
     code: C25716
-    codeId: Code_43
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Visit
+    id: Code_43
     label: Code_43
 - id: 190
   properties:
     _type: Code
     code: C51282
-    codeId: Code_44
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Clinic
+    id: Code_44
     label: Code_44
 - id: 191
   properties:
     _type: Code
     code: C175574
-    codeId: Code_45
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: In Person
+    id: Code_45
     label: Code_45
 - id: 188
   properties:
     _type: Encounter
-    encounterDescription: Day 112
-    encounterId: Encounter_13
-    encounterName: Week 16
+    description: Day 112
     encounterScheduledAtTimingId: null
+    id: Encounter_13
     label: Encounter_13
+    name: Week 16
     nextEncounterId: Encounter_14
     previousEncounterId: Encounter_12
     transitionEndRule: null
@@ -1654,37 +1652,37 @@
   properties:
     _type: Code
     code: C25716
-    codeId: Code_46
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Visit
+    id: Code_46
     label: Code_46
 - id: 194
   properties:
     _type: Code
     code: C18002
-    codeId: Code_47
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Home
+    id: Code_47
     label: Code_47
 - id: 195
   properties:
     _type: Code
     code: C171537
-    codeId: Code_48
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Telephone Call
+    id: Code_48
     label: Code_48
 - id: 192
   properties:
     _type: Encounter
-    encounterDescription: Day 126
-    encounterId: Encounter_14
-    encounterName: Week 18 (T)
+    description: Day 126
     encounterScheduledAtTimingId: null
+    id: Encounter_14
     label: Encounter_14
+    name: Week 18 (T)
     nextEncounterId: Encounter_15
     previousEncounterId: Encounter_13
     transitionEndRule: null
@@ -1693,37 +1691,37 @@
   properties:
     _type: Code
     code: C25716
-    codeId: Code_49
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Visit
+    id: Code_49
     label: Code_49
 - id: 198
   properties:
     _type: Code
     code: C51282
-    codeId: Code_50
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Clinic
+    id: Code_50
     label: Code_50
 - id: 199
   properties:
     _type: Code
     code: C175574
-    codeId: Code_51
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: In Person
+    id: Code_51
     label: Code_51
 - id: 196
   properties:
     _type: Encounter
-    encounterDescription: Day 140
-    encounterId: Encounter_15
-    encounterName: Week 20
+    description: Day 140
     encounterScheduledAtTimingId: null
+    id: Encounter_15
     label: Encounter_15
+    name: Week 20
     nextEncounterId: Encounter_16
     previousEncounterId: Encounter_14
     transitionEndRule: null
@@ -1732,37 +1730,37 @@
   properties:
     _type: Code
     code: C25716
-    codeId: Code_52
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Visit
+    id: Code_52
     label: Code_52
 - id: 202
   properties:
     _type: Code
     code: C18002
-    codeId: Code_53
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Home
+    id: Code_53
     label: Code_53
 - id: 203
   properties:
     _type: Code
     code: C171537
-    codeId: Code_54
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Telephone Call
+    id: Code_54
     label: Code_54
 - id: 200
   properties:
     _type: Encounter
-    encounterDescription: Day 154
-    encounterId: Encounter_16
-    encounterName: Week 22 (T)
+    description: Day 154
     encounterScheduledAtTimingId: null
+    id: Encounter_16
     label: Encounter_16
+    name: Week 22 (T)
     nextEncounterId: Encounter_17
     previousEncounterId: Encounter_15
     transitionEndRule: null
@@ -1771,37 +1769,37 @@
   properties:
     _type: Code
     code: C25716
-    codeId: Code_55
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Visit
+    id: Code_55
     label: Code_55
 - id: 206
   properties:
     _type: Code
     code: C51282
-    codeId: Code_56
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Clinic
+    id: Code_56
     label: Code_56
 - id: 207
   properties:
     _type: Code
     code: C175574
-    codeId: Code_57
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: In Person
+    id: Code_57
     label: Code_57
 - id: 204
   properties:
     _type: Encounter
-    encounterDescription: Day 168
-    encounterId: Encounter_17
-    encounterName: Week 24
+    description: Day 168
     encounterScheduledAtTimingId: null
+    id: Encounter_17
     label: Encounter_17
+    name: Week 24
     nextEncounterId: Encounter_18
     previousEncounterId: Encounter_16
     transitionEndRule: null
@@ -1810,534 +1808,534 @@
   properties:
     _type: Code
     code: C25716
-    codeId: Code_58
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Visit
+    id: Code_58
     label: Code_58
 - id: 210
   properties:
     _type: Code
     code: C51282
-    codeId: Code_59
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Clinic
+    id: Code_59
     label: Code_59
 - id: 211
   properties:
     _type: Code
     code: C175574
-    codeId: Code_60
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: In Person
+    id: Code_60
     label: Code_60
 - id: 212
   properties:
     _type: TransitionRule
+    id: TransitionRule_6
     label: TransitionRule_6
     transitionRuleDescription: End of treatment
-    transitionRuleId: TransitionRule_6
 - id: 208
   properties:
     _type: Encounter
-    encounterDescription: Day 182
-    encounterId: Encounter_18
-    encounterName: Week 26
+    description: Day 182
     encounterScheduledAtTimingId: null
+    id: Encounter_18
     label: Encounter_18
+    name: Week 26
     nextEncounterId: null
     previousEncounterId: Encounter_17
     transitionStartRule: null
 - id: 213
   properties:
     _type: Activity
-    activityDescription: Informed consent
-    activityId: Activity_1
     activityIsConditional: false
     activityIsConditionalReason: ''
-    activityName: Informed consent
     activityTimelineId: ''
     definedProcedures: []
+    description: Informed consent
+    id: Activity_1
     label: Activity_1
+    name: Informed consent
     nextActivityId: Activity_2
     previousActivityId: null
 - id: 214
   properties:
     _type: Activity
-    activityDescription: Inclusion/exclusion criteria
-    activityId: Activity_2
     activityIsConditional: false
     activityIsConditionalReason: ''
-    activityName: Inclusion/exclusion criteria
     activityTimelineId: ''
     definedProcedures: []
+    description: Inclusion/exclusion criteria
+    id: Activity_2
     label: Activity_2
+    name: Inclusion/exclusion criteria
     nextActivityId: Activity_3
     previousActivityId: Activity_1
 - id: 215
   properties:
     _type: Activity
-    activityDescription: Patient number assigned
-    activityId: Activity_3
     activityIsConditional: false
     activityIsConditionalReason: ''
-    activityName: Patient number assigned
     activityTimelineId: ''
     definedProcedures: []
+    description: Patient number assigned
+    id: Activity_3
     label: Activity_3
+    name: Patient number assigned
     nextActivityId: Activity_4
     previousActivityId: Activity_2
 - id: 216
   properties:
     _type: Activity
-    activityDescription: Demographics
-    activityId: Activity_4
     activityIsConditional: false
     activityIsConditionalReason: ''
-    activityName: Demographics
     activityTimelineId: ''
     definedProcedures: []
+    description: Demographics
+    id: Activity_4
     label: Activity_4
+    name: Demographics
     nextActivityId: Activity_5
     previousActivityId: Activity_3
 - id: 217
   properties:
     _type: Activity
-    activityDescription: Hachinski <= 4
-    activityId: Activity_5
     activityIsConditional: false
     activityIsConditionalReason: ''
-    activityName: Hachinski <= 4
     activityTimelineId: ''
     definedProcedures: []
+    description: Hachinski <= 4
+    id: Activity_5
     label: Activity_5
+    name: Hachinski <= 4
     nextActivityId: Activity_6
     previousActivityId: Activity_4
 - id: 218
   properties:
     _type: Activity
-    activityDescription: MMSE 10-23
-    activityId: Activity_6
     activityIsConditional: false
     activityIsConditionalReason: ''
-    activityName: MMSE 10-23
     activityTimelineId: ''
     definedProcedures: []
+    description: MMSE 10-23
+    id: Activity_6
     label: Activity_6
+    name: MMSE 10-23
     nextActivityId: Activity_7
     previousActivityId: Activity_5
 - id: 219
   properties:
     _type: Activity
-    activityDescription: Physical examination
-    activityId: Activity_7
     activityIsConditional: false
     activityIsConditionalReason: ''
-    activityName: Physical examination
     activityTimelineId: ''
     definedProcedures: []
+    description: Physical examination
+    id: Activity_7
     label: Activity_7
+    name: Physical examination
     nextActivityId: Activity_8
     previousActivityId: Activity_6
 - id: 220
   properties:
     _type: Activity
-    activityDescription: Medical history
-    activityId: Activity_8
     activityIsConditional: false
     activityIsConditionalReason: ''
-    activityName: Medical history
     activityTimelineId: ''
     definedProcedures: []
+    description: Medical history
+    id: Activity_8
     label: Activity_8
+    name: Medical history
     nextActivityId: Activity_9
     previousActivityId: Activity_7
 - id: 221
   properties:
     _type: Activity
-    activityDescription: Habits
-    activityId: Activity_9
     activityIsConditional: false
     activityIsConditionalReason: ''
-    activityName: Habits
     activityTimelineId: ''
     definedProcedures: []
+    description: Habits
+    id: Activity_9
     label: Activity_9
+    name: Habits
     nextActivityId: Activity_10
     previousActivityId: Activity_8
 - id: 222
   properties:
     _type: Activity
-    activityDescription: Chest X-ray
-    activityId: Activity_10
     activityIsConditional: false
     activityIsConditionalReason: ''
-    activityName: Chest X-ray
     activityTimelineId: ''
     definedProcedures: []
+    description: Chest X-ray
+    id: Activity_10
     label: Activity_10
+    name: Chest X-ray
     nextActivityId: Activity_11
     previousActivityId: Activity_9
 - id: 223
   properties:
     _type: Activity
-    activityDescription: Apo E genotyping
-    activityId: Activity_11
     activityIsConditional: false
     activityIsConditionalReason: ''
-    activityName: Apo E genotyping
     activityTimelineId: ''
     definedProcedures: []
+    description: Apo E genotyping
+    id: Activity_11
     label: Activity_11
+    name: Apo E genotyping
     nextActivityId: Activity_12
     previousActivityId: Activity_10
 - id: 224
   properties:
     _type: Activity
-    activityDescription: Patient randomised
-    activityId: Activity_12
     activityIsConditional: false
     activityIsConditionalReason: ''
-    activityName: Patient randomised
     activityTimelineId: ''
     definedProcedures: []
+    description: Patient randomised
+    id: Activity_12
     label: Activity_12
+    name: Patient randomised
     nextActivityId: Activity_13
     previousActivityId: Activity_11
 - id: 225
   properties:
     _type: Activity
-    activityDescription: Vital signs /Temperature
-    activityId: Activity_13
     activityIsConditional: false
     activityIsConditionalReason: ''
-    activityName: Vital signs /Temperature
     activityTimelineId: ''
     definedProcedures: []
+    description: Vital signs /Temperature
+    id: Activity_13
     label: Activity_13
+    name: Vital signs /Temperature
     nextActivityId: Activity_14
     previousActivityId: Activity_12
 - id: 226
   properties:
     _type: Activity
-    activityDescription: Ambulatory ECG placed
-    activityId: Activity_14
     activityIsConditional: false
     activityIsConditionalReason: ''
-    activityName: Ambulatory ECG placed
     activityTimelineId: ''
     definedProcedures: []
+    description: Ambulatory ECG placed
+    id: Activity_14
     label: Activity_14
+    name: Ambulatory ECG placed
     nextActivityId: Activity_15
     previousActivityId: Activity_13
 - id: 227
   properties:
     _type: Activity
-    activityDescription: Ambulatory ECG removed
-    activityId: Activity_15
     activityIsConditional: false
     activityIsConditionalReason: ''
-    activityName: Ambulatory ECG removed
     activityTimelineId: ''
     definedProcedures: []
+    description: Ambulatory ECG removed
+    id: Activity_15
     label: Activity_15
+    name: Ambulatory ECG removed
     nextActivityId: Activity_16
     previousActivityId: Activity_14
 - id: 228
   properties:
     _type: Activity
-    activityDescription: ECG
-    activityId: Activity_16
     activityIsConditional: false
     activityIsConditionalReason: ''
-    activityName: ECG
     activityTimelineId: ''
     definedProcedures: []
+    description: ECG
+    id: Activity_16
     label: Activity_16
+    name: ECG
     nextActivityId: Activity_17
     previousActivityId: Activity_15
 - id: 229
   properties:
     _type: Activity
-    activityDescription: Placebo TTS test
-    activityId: Activity_17
     activityIsConditional: false
     activityIsConditionalReason: ''
-    activityName: Placebo TTS test
     activityTimelineId: ''
     definedProcedures: []
+    description: Placebo TTS test
+    id: Activity_17
     label: Activity_17
+    name: Placebo TTS test
     nextActivityId: Activity_18
     previousActivityId: Activity_16
 - id: 230
   properties:
     _type: Activity
-    activityDescription: CT scan
-    activityId: Activity_18
     activityIsConditional: false
     activityIsConditionalReason: ''
-    activityName: CT scan
     activityTimelineId: ''
     definedProcedures: []
+    description: CT scan
+    id: Activity_18
     label: Activity_18
+    name: CT scan
     nextActivityId: Activity_19
     previousActivityId: Activity_17
 - id: 231
   properties:
     _type: Activity
-    activityDescription: Concomitant medications
-    activityId: Activity_19
     activityIsConditional: false
     activityIsConditionalReason: ''
-    activityName: Concomitant medications
     activityTimelineId: ''
     definedProcedures: []
+    description: Concomitant medications
+    id: Activity_19
     label: Activity_19
+    name: Concomitant medications
     nextActivityId: Activity_20
     previousActivityId: Activity_18
 - id: 232
   properties:
     _type: Activity
-    activityDescription: Hematology
-    activityId: Activity_20
     activityIsConditional: false
     activityIsConditionalReason: ''
-    activityName: Hematology
     activityTimelineId: ''
     definedProcedures: []
+    description: Hematology
+    id: Activity_20
     label: Activity_20
+    name: Hematology
     nextActivityId: Activity_21
     previousActivityId: Activity_19
 - id: 233
   properties:
     _type: Activity
-    activityDescription: Chemistry
-    activityId: Activity_21
     activityIsConditional: false
     activityIsConditionalReason: ''
-    activityName: Chemistry
     activityTimelineId: ''
     definedProcedures: []
+    description: Chemistry
+    id: Activity_21
     label: Activity_21
+    name: Chemistry
     nextActivityId: Activity_22
     previousActivityId: Activity_20
 - id: 234
   properties:
     _type: Activity
-    activityDescription: Uninalysis
-    activityId: Activity_22
     activityIsConditional: false
     activityIsConditionalReason: ''
-    activityName: Uninalysis
     activityTimelineId: ''
     definedProcedures: []
+    description: Uninalysis
+    id: Activity_22
     label: Activity_22
+    name: Uninalysis
     nextActivityId: Activity_23
     previousActivityId: Activity_21
 - id: 235
   properties:
     _type: Activity
-    activityDescription: 'Plasma Specimen
-
-      (Xanomeline)'
-    activityId: Activity_23
     activityIsConditional: false
     activityIsConditionalReason: ''
-    activityName: 'Plasma Specimen
-
-      (Xanomeline)'
     activityTimelineId: ''
     definedProcedures: []
+    description: 'Plasma Specimen
+
+      (Xanomeline)'
+    id: Activity_23
     label: Activity_23
+    name: 'Plasma Specimen
+
+      (Xanomeline)'
     nextActivityId: Activity_24
     previousActivityId: Activity_22
 - id: 236
   properties:
     _type: Activity
-    activityDescription: Hemoglobin A1C
-    activityId: Activity_24
     activityIsConditional: false
     activityIsConditionalReason: ''
-    activityName: Hemoglobin A1C
     activityTimelineId: ''
     definedProcedures: []
+    description: Hemoglobin A1C
+    id: Activity_24
     label: Activity_24
+    name: Hemoglobin A1C
     nextActivityId: Activity_25
     previousActivityId: Activity_23
 - id: 237
   properties:
     _type: Activity
-    activityDescription: 'Study drug record
-
-      Medications dispensed
-
-      Medications returned'
-    activityId: Activity_25
     activityIsConditional: false
     activityIsConditionalReason: ''
-    activityName: 'Study drug record
+    activityTimelineId: ''
+    definedProcedures: []
+    description: 'Study drug record
 
       Medications dispensed
 
       Medications returned'
-    activityTimelineId: ''
-    definedProcedures: []
+    id: Activity_25
     label: Activity_25
+    name: 'Study drug record
+
+      Medications dispensed
+
+      Medications returned'
     nextActivityId: Activity_26
     previousActivityId: Activity_24
 - id: 238
   properties:
     _type: Activity
-    activityDescription: TTS Acceptability Survey
-    activityId: Activity_26
     activityIsConditional: false
     activityIsConditionalReason: ''
-    activityName: TTS Acceptability Survey
     activityTimelineId: ''
     definedProcedures: []
+    description: TTS Acceptability Survey
+    id: Activity_26
     label: Activity_26
+    name: TTS Acceptability Survey
     nextActivityId: Activity_27
     previousActivityId: Activity_25
 - id: 239
   properties:
     _type: Activity
-    activityDescription: ADAS-Cog
-    activityId: Activity_27
     activityIsConditional: false
     activityIsConditionalReason: ''
-    activityName: ADAS-Cog
     activityTimelineId: ''
     definedProcedures: []
+    description: ADAS-Cog
+    id: Activity_27
     label: Activity_27
+    name: ADAS-Cog
     nextActivityId: Activity_28
     previousActivityId: Activity_26
 - id: 240
   properties:
     _type: Activity
-    activityDescription: CIBIC+
-    activityId: Activity_28
     activityIsConditional: false
     activityIsConditionalReason: ''
-    activityName: CIBIC+
     activityTimelineId: ''
     definedProcedures: []
+    description: CIBIC+
+    id: Activity_28
     label: Activity_28
+    name: CIBIC+
     nextActivityId: Activity_29
     previousActivityId: Activity_27
 - id: 241
   properties:
     _type: Activity
-    activityDescription: DAD
-    activityId: Activity_29
     activityIsConditional: false
     activityIsConditionalReason: ''
-    activityName: DAD
     activityTimelineId: ''
     definedProcedures: []
+    description: DAD
+    id: Activity_29
     label: Activity_29
+    name: DAD
     nextActivityId: Activity_30
     previousActivityId: Activity_28
 - id: 242
   properties:
     _type: Activity
-    activityDescription: NPI-X
-    activityId: Activity_30
     activityIsConditional: false
     activityIsConditionalReason: ''
-    activityName: NPI-X
     activityTimelineId: ''
     definedProcedures: []
+    description: NPI-X
+    id: Activity_30
     label: Activity_30
+    name: NPI-X
     nextActivityId: Activity_31
     previousActivityId: Activity_29
 - id: 243
   properties:
     _type: Activity
-    activityDescription: Adverse events
-    activityId: Activity_31
     activityIsConditional: false
     activityIsConditionalReason: ''
-    activityName: Adverse events
     activityTimelineId: ''
     definedProcedures: []
+    description: Adverse events
+    id: Activity_31
     label: Activity_31
+    name: Adverse events
     nextActivityId: null
     previousActivityId: Activity_30
 - id: 245
   properties:
     _type: Code
     code: C15228
-    codeId: Code_74
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Double Blind Study
+    id: Code_74
     label: Code_74
 - id: 244
   properties:
     _type: AliasCode
-    aliasCodeId: AliasCode_2
+    id: AliasCode_2
     label: AliasCode_2
     standardCodeAliases: []
 - id: 249
   properties:
     _type: Code
     code: C20197
-    codeId: Code_171
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Male
+    id: Code_171
     label: Code_171
 - id: 248
   properties:
     _type: ResponseCode
+    id: ResponseCode_1
     label: ResponseCode_1
     responseCodeEnabled: true
-    responseCodeId: ResponseCode_1
 - id: 251
   properties:
     _type: Code
     code: C16576
-    codeId: Code_172
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Female
+    id: Code_172
     label: Code_172
 - id: 250
   properties:
     _type: ResponseCode
+    id: ResponseCode_2
     label: ResponseCode_2
     responseCodeEnabled: true
-    responseCodeId: ResponseCode_2
 - id: 253
   properties:
     _type: Code
     code: C17998
-    codeId: Code_173
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Unknown
+    id: Code_173
     label: Code_173
 - id: 252
   properties:
     _type: ResponseCode
+    id: ResponseCode_3
     label: ResponseCode_3
     responseCodeEnabled: true
-    responseCodeId: ResponseCode_3
 - id: 255
   properties:
     _type: Code
     code: C28421
-    codeId: Code_174
     codeSystem: NCI Thesaurus
     codeSystemVersion: ''
     decode: Sex
+    id: Code_174
     label: Code_174
 - id: 254
   properties:
     _type: AliasCode
-    aliasCodeId: AliasCode_4
+    id: AliasCode_4
     label: AliasCode_4
     standardCodeAliases: []
 - id: 247
@@ -2345,23 +2343,23 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
     bcPropertyEnabled: true
-    bcPropertyId: BiomedicalConceptProperty_1
     bcPropertyName: Sex
     bcPropertyRequired: true
+    id: BiomedicalConceptProperty_1
     label: BiomedicalConceptProperty_1
 - id: 257
   properties:
     _type: Code
     code: C28421
-    codeId: Code_170
     codeSystem: NCI Thesaurus
     codeSystemVersion: ''
     decode: Sex
+    id: Code_170
     label: Code_170
 - id: 256
   properties:
     _type: AliasCode
-    aliasCodeId: AliasCode_3
+    id: AliasCode_3
     label: AliasCode_3
     standardCodeAliases: []
 - id: 246
@@ -2370,36 +2368,36 @@
     bcName: Sex
     bcReference: /mdr/bc/packages/2023-03-31/biomedicalconcepts/C28421
     bcSynonyms: []
-    biomedicalConceptId: BiomedicalConcept_1
+    id: BiomedicalConcept_1
     label: BiomedicalConcept_1
 - id: 261
   properties:
     _type: Code
     code: C17998
-    codeId: Code_176
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Unknown
+    id: Code_176
     label: Code_176
 - id: 260
   properties:
     _type: ResponseCode
+    id: ResponseCode_4
     label: ResponseCode_4
     responseCodeEnabled: true
-    responseCodeId: ResponseCode_4
 - id: 263
   properties:
     _type: Code
     code: C17049
-    codeId: Code_177
     codeSystem: NCI Thesaurus
     codeSystemVersion: ''
     decode: Race
+    id: Code_177
     label: Code_177
 - id: 262
   properties:
     _type: AliasCode
-    aliasCodeId: AliasCode_6
+    id: AliasCode_6
     label: AliasCode_6
     standardCodeAliases: []
 - id: 259
@@ -2407,23 +2405,23 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
     bcPropertyEnabled: true
-    bcPropertyId: BiomedicalConceptProperty_2
     bcPropertyName: Race
     bcPropertyRequired: true
+    id: BiomedicalConceptProperty_2
     label: BiomedicalConceptProperty_2
 - id: 265
   properties:
     _type: Code
     code: C17049
-    codeId: Code_175
     codeSystem: NCI Thesaurus
     codeSystemVersion: ''
     decode: Race
+    id: Code_175
     label: Code_175
 - id: 264
   properties:
     _type: AliasCode
-    aliasCodeId: AliasCode_5
+    id: AliasCode_5
     label: AliasCode_5
     standardCodeAliases: []
 - id: 258
@@ -2433,61 +2431,61 @@
     bcReference: /mdr/bc/packages/2023-03-31/biomedicalconcepts/C17049
     bcSynonyms:
     - Racial Group
-    biomedicalConceptId: BiomedicalConcept_2
+    id: BiomedicalConcept_2
     label: BiomedicalConcept_2
 - id: 269
   properties:
     _type: Code
     code: C173522
-    codeId: Code_179
     codeSystem: NCI Thesaurus
     codeSystemVersion: ''
     decode: Vital Signs Result
+    id: Code_179
     label: Code_179
 - id: 268
   properties:
     _type: AliasCode
-    aliasCodeId: AliasCode_8
+    id: AliasCode_8
     label: AliasCode_8
     standardCodeAliases: []
 - id: 267
   properties:
     _type: BiomedicalConceptProperty
-    bcPropertyDatatype: integer
+    bcPropertyDatatype: decimal
     bcPropertyEnabled: true
-    bcPropertyId: BiomedicalConceptProperty_3
     bcPropertyName: Vital Signs Result
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
+    id: BiomedicalConceptProperty_3
     label: BiomedicalConceptProperty_3
 - id: 272
   properties:
     _type: Code
     code: C42547
-    codeId: Code_180
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Pascal
+    id: Code_180
     label: Code_180
 - id: 271
   properties:
     _type: ResponseCode
+    id: ResponseCode_5
     label: ResponseCode_5
     responseCodeEnabled: true
-    responseCodeId: ResponseCode_5
 - id: 274
   properties:
     _type: Code
     code: C49669
-    codeId: Code_181
     codeSystem: NCI Thesaurus
     codeSystemVersion: ''
     decode: Unit of Pressure
+    id: Code_181
     label: Code_181
 - id: 273
   properties:
     _type: AliasCode
-    aliasCodeId: AliasCode_9
+    id: AliasCode_9
     label: AliasCode_9
     standardCodeAliases: []
 - id: 270
@@ -2495,23 +2493,23 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
     bcPropertyEnabled: true
-    bcPropertyId: BiomedicalConceptProperty_4
     bcPropertyName: Unit of Pressure
     bcPropertyRequired: true
+    id: BiomedicalConceptProperty_4
     label: BiomedicalConceptProperty_4
 - id: 277
   properties:
     _type: Code
     code: C83088
-    codeId: Code_182
     codeSystem: NCI Thesaurus
     codeSystemVersion: ''
     decode: Vital Signs Location
+    id: Code_182
     label: Code_182
 - id: 276
   properties:
     _type: AliasCode
-    aliasCodeId: AliasCode_10
+    id: AliasCode_10
     label: AliasCode_10
     standardCodeAliases: []
 - id: 275
@@ -2519,24 +2517,24 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
     bcPropertyEnabled: true
-    bcPropertyId: BiomedicalConceptProperty_5
     bcPropertyName: Vital Signs Location
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
+    id: BiomedicalConceptProperty_5
     label: BiomedicalConceptProperty_5
 - id: 280
   properties:
     _type: Code
     code: C123975
-    codeId: Code_183
     codeSystem: NCI Thesaurus
     codeSystemVersion: ''
     decode: Vital Signs Laterality
+    id: Code_183
     label: Code_183
 - id: 279
   properties:
     _type: AliasCode
-    aliasCodeId: AliasCode_11
+    id: AliasCode_11
     label: AliasCode_11
     standardCodeAliases: []
 - id: 278
@@ -2544,24 +2542,24 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
     bcPropertyEnabled: true
-    bcPropertyId: BiomedicalConceptProperty_6
     bcPropertyName: Vital Signs Laterality
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
+    id: BiomedicalConceptProperty_6
     label: BiomedicalConceptProperty_6
 - id: 283
   properties:
     _type: Code
     code: C82535
-    codeId: Code_184
     codeSystem: NCI Thesaurus
     codeSystemVersion: ''
     decode: Test Method
+    id: Code_184
     label: Code_184
 - id: 282
   properties:
     _type: AliasCode
-    aliasCodeId: AliasCode_12
+    id: AliasCode_12
     label: AliasCode_12
     standardCodeAliases: []
 - id: 281
@@ -2569,24 +2567,24 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
     bcPropertyEnabled: true
-    bcPropertyId: BiomedicalConceptProperty_7
     bcPropertyName: Test Method
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
+    id: BiomedicalConceptProperty_7
     label: BiomedicalConceptProperty_7
 - id: 286
   properties:
     _type: Code
     code: C83114
-    codeId: Code_185
     codeSystem: NCI Thesaurus
     codeSystemVersion: ''
     decode: Vital Signs Position
+    id: Code_185
     label: Code_185
 - id: 285
   properties:
     _type: AliasCode
-    aliasCodeId: AliasCode_13
+    id: AliasCode_13
     label: AliasCode_13
     standardCodeAliases: []
 - id: 284
@@ -2594,88 +2592,88 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
     bcPropertyEnabled: true
-    bcPropertyId: BiomedicalConceptProperty_8
     bcPropertyName: Vital Signs Position
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
+    id: BiomedicalConceptProperty_8
     label: BiomedicalConceptProperty_8
 - id: 288
   properties:
     _type: Code
     code: C25298
-    codeId: Code_178
     codeSystem: NCI Thesaurus
     codeSystemVersion: ''
     decode: Systolic Blood Pressure
+    id: Code_178
     label: Code_178
 - id: 287
   properties:
     _type: AliasCode
-    aliasCodeId: AliasCode_7
+    id: AliasCode_7
     label: AliasCode_7
     standardCodeAliases: []
 - id: 266
   properties:
     _type: BiomedicalConcept
     bcName: Systolic Blood Pressure
-    bcReference: /mdr/bc/packages/2022-10-26/biomedicalconcepts/C25298
+    bcReference: /mdr/bc/packages/2023-07-06/biomedicalconcepts/C25298
     bcSynonyms:
     - SYSBP
-    biomedicalConceptId: BiomedicalConcept_3
+    id: BiomedicalConcept_3
     label: BiomedicalConcept_3
 - id: 292
   properties:
     _type: Code
     code: C173522
-    codeId: Code_187
     codeSystem: NCI Thesaurus
     codeSystemVersion: ''
     decode: Vital Signs Result
+    id: Code_187
     label: Code_187
 - id: 291
   properties:
     _type: AliasCode
-    aliasCodeId: AliasCode_15
+    id: AliasCode_15
     label: AliasCode_15
     standardCodeAliases: []
 - id: 290
   properties:
     _type: BiomedicalConceptProperty
-    bcPropertyDatatype: integer
+    bcPropertyDatatype: decimal
     bcPropertyEnabled: true
-    bcPropertyId: BiomedicalConceptProperty_9
     bcPropertyName: Vital Signs Result
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
+    id: BiomedicalConceptProperty_9
     label: BiomedicalConceptProperty_9
 - id: 295
   properties:
     _type: Code
     code: C42547
-    codeId: Code_188
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Pascal
+    id: Code_188
     label: Code_188
 - id: 294
   properties:
     _type: ResponseCode
+    id: ResponseCode_6
     label: ResponseCode_6
     responseCodeEnabled: true
-    responseCodeId: ResponseCode_6
 - id: 297
   properties:
     _type: Code
     code: C49669
-    codeId: Code_189
     codeSystem: NCI Thesaurus
     codeSystemVersion: ''
     decode: Unit of Pressure
+    id: Code_189
     label: Code_189
 - id: 296
   properties:
     _type: AliasCode
-    aliasCodeId: AliasCode_16
+    id: AliasCode_16
     label: AliasCode_16
     standardCodeAliases: []
 - id: 293
@@ -2683,23 +2681,23 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
     bcPropertyEnabled: true
-    bcPropertyId: BiomedicalConceptProperty_10
     bcPropertyName: Unit of Pressure
     bcPropertyRequired: true
+    id: BiomedicalConceptProperty_10
     label: BiomedicalConceptProperty_10
 - id: 300
   properties:
     _type: Code
     code: C83088
-    codeId: Code_190
     codeSystem: NCI Thesaurus
     codeSystemVersion: ''
     decode: Vital Signs Location
+    id: Code_190
     label: Code_190
 - id: 299
   properties:
     _type: AliasCode
-    aliasCodeId: AliasCode_17
+    id: AliasCode_17
     label: AliasCode_17
     standardCodeAliases: []
 - id: 298
@@ -2707,24 +2705,24 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
     bcPropertyEnabled: true
-    bcPropertyId: BiomedicalConceptProperty_11
     bcPropertyName: Vital Signs Location
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
+    id: BiomedicalConceptProperty_11
     label: BiomedicalConceptProperty_11
 - id: 303
   properties:
     _type: Code
     code: C123975
-    codeId: Code_191
     codeSystem: NCI Thesaurus
     codeSystemVersion: ''
     decode: Vital Signs Laterality
+    id: Code_191
     label: Code_191
 - id: 302
   properties:
     _type: AliasCode
-    aliasCodeId: AliasCode_18
+    id: AliasCode_18
     label: AliasCode_18
     standardCodeAliases: []
 - id: 301
@@ -2732,24 +2730,24 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
     bcPropertyEnabled: true
-    bcPropertyId: BiomedicalConceptProperty_12
     bcPropertyName: Vital Signs Laterality
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
+    id: BiomedicalConceptProperty_12
     label: BiomedicalConceptProperty_12
 - id: 306
   properties:
     _type: Code
     code: C82535
-    codeId: Code_192
     codeSystem: NCI Thesaurus
     codeSystemVersion: ''
     decode: Test Method
+    id: Code_192
     label: Code_192
 - id: 305
   properties:
     _type: AliasCode
-    aliasCodeId: AliasCode_19
+    id: AliasCode_19
     label: AliasCode_19
     standardCodeAliases: []
 - id: 304
@@ -2757,24 +2755,24 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
     bcPropertyEnabled: true
-    bcPropertyId: BiomedicalConceptProperty_13
     bcPropertyName: Test Method
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
+    id: BiomedicalConceptProperty_13
     label: BiomedicalConceptProperty_13
 - id: 309
   properties:
     _type: Code
     code: C83114
-    codeId: Code_193
     codeSystem: NCI Thesaurus
     codeSystemVersion: ''
     decode: Vital Signs Position
+    id: Code_193
     label: Code_193
 - id: 308
   properties:
     _type: AliasCode
-    aliasCodeId: AliasCode_20
+    id: AliasCode_20
     label: AliasCode_20
     standardCodeAliases: []
 - id: 307
@@ -2782,48 +2780,48 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
     bcPropertyEnabled: true
-    bcPropertyId: BiomedicalConceptProperty_14
     bcPropertyName: Vital Signs Position
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
+    id: BiomedicalConceptProperty_14
     label: BiomedicalConceptProperty_14
 - id: 311
   properties:
     _type: Code
     code: C25299
-    codeId: Code_186
     codeSystem: NCI Thesaurus
     codeSystemVersion: ''
     decode: Diastolic Blood Pressure
+    id: Code_186
     label: Code_186
 - id: 310
   properties:
     _type: AliasCode
-    aliasCodeId: AliasCode_14
+    id: AliasCode_14
     label: AliasCode_14
     standardCodeAliases: []
 - id: 289
   properties:
     _type: BiomedicalConcept
     bcName: Diastolic Blood Pressure
-    bcReference: /mdr/bc/packages/2022-10-26/biomedicalconcepts/C25299
+    bcReference: /mdr/bc/packages/2023-07-06/biomedicalconcepts/C25299
     bcSynonyms:
     - DIABP
-    biomedicalConceptId: BiomedicalConcept_4
+    id: BiomedicalConcept_4
     label: BiomedicalConcept_4
 - id: 315
   properties:
     _type: Code
     code: C173522
-    codeId: Code_195
     codeSystem: NCI Thesaurus
     codeSystemVersion: ''
     decode: Vital Signs Result
+    id: Code_195
     label: Code_195
 - id: 314
   properties:
     _type: AliasCode
-    aliasCodeId: AliasCode_22
+    id: AliasCode_22
     label: AliasCode_22
     standardCodeAliases: []
 - id: 313
@@ -2831,39 +2829,39 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: decimal
     bcPropertyEnabled: true
-    bcPropertyId: BiomedicalConceptProperty_15
     bcPropertyName: Vital Signs Result
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
+    id: BiomedicalConceptProperty_15
     label: BiomedicalConceptProperty_15
 - id: 318
   properties:
     _type: Code
     code: C42537
-    codeId: Code_196
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Kelvin
+    id: Code_196
     label: Code_196
 - id: 317
   properties:
     _type: ResponseCode
+    id: ResponseCode_7
     label: ResponseCode_7
     responseCodeEnabled: true
-    responseCodeId: ResponseCode_7
 - id: 320
   properties:
     _type: Code
     code: C44276
-    codeId: Code_197
     codeSystem: NCI Thesaurus
     codeSystemVersion: ''
     decode: Unit of Temperature
+    id: Code_197
     label: Code_197
 - id: 319
   properties:
     _type: AliasCode
-    aliasCodeId: AliasCode_23
+    id: AliasCode_23
     label: AliasCode_23
     standardCodeAliases: []
 - id: 316
@@ -2871,23 +2869,23 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
     bcPropertyEnabled: true
-    bcPropertyId: BiomedicalConceptProperty_16
     bcPropertyName: Unit of Temperature
     bcPropertyRequired: true
+    id: BiomedicalConceptProperty_16
     label: BiomedicalConceptProperty_16
 - id: 323
   properties:
     _type: Code
     code: C83088
-    codeId: Code_198
     codeSystem: NCI Thesaurus
     codeSystemVersion: ''
     decode: Vital Signs Location
+    id: Code_198
     label: Code_198
 - id: 322
   properties:
     _type: AliasCode
-    aliasCodeId: AliasCode_24
+    id: AliasCode_24
     label: AliasCode_24
     standardCodeAliases: []
 - id: 321
@@ -2895,24 +2893,24 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
     bcPropertyEnabled: true
-    bcPropertyId: BiomedicalConceptProperty_17
     bcPropertyName: Vital Signs Location
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
+    id: BiomedicalConceptProperty_17
     label: BiomedicalConceptProperty_17
 - id: 325
   properties:
     _type: Code
     code: C174446
-    codeId: Code_194
     codeSystem: NCI Thesaurus
     codeSystemVersion: ''
     decode: Body Temperature
+    id: Code_194
     label: Code_194
 - id: 324
   properties:
     _type: AliasCode
-    aliasCodeId: AliasCode_21
+    id: AliasCode_21
     label: AliasCode_21
     standardCodeAliases: []
 - id: 312
@@ -2922,21 +2920,21 @@
     bcReference: /mdr/bc/packages/2022-10-26/biomedicalconcepts/C174446
     bcSynonyms:
     - Temperature
-    biomedicalConceptId: BiomedicalConcept_5
+    id: BiomedicalConcept_5
     label: BiomedicalConcept_5
 - id: 329
   properties:
     _type: Code
     code: C173522
-    codeId: Code_200
     codeSystem: NCI Thesaurus
     codeSystemVersion: ''
     decode: Vital Signs Result
+    id: Code_200
     label: Code_200
 - id: 328
   properties:
     _type: AliasCode
-    aliasCodeId: AliasCode_26
+    id: AliasCode_26
     label: AliasCode_26
     standardCodeAliases: []
 - id: 327
@@ -2944,69 +2942,69 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: decimal
     bcPropertyEnabled: true
-    bcPropertyId: BiomedicalConceptProperty_18
     bcPropertyName: Vital Signs Result
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
+    id: BiomedicalConceptProperty_18
     label: BiomedicalConceptProperty_18
 - id: 332
   properties:
     _type: Code
     code: C28252
-    codeId: Code_201
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Kilogram
+    id: Code_201
     label: Code_201
 - id: 331
   properties:
     _type: ResponseCode
+    id: ResponseCode_8
     label: ResponseCode_8
     responseCodeEnabled: true
-    responseCodeId: ResponseCode_8
 - id: 334
   properties:
     _type: Code
     code: C48155
-    codeId: Code_202
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Gram
+    id: Code_202
     label: Code_202
 - id: 333
   properties:
     _type: ResponseCode
+    id: ResponseCode_9
     label: ResponseCode_9
     responseCodeEnabled: true
-    responseCodeId: ResponseCode_9
 - id: 336
   properties:
     _type: Code
     code: C48531
-    codeId: Code_203
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Pound
+    id: Code_203
     label: Code_203
 - id: 335
   properties:
     _type: ResponseCode
+    id: ResponseCode_10
     label: ResponseCode_10
     responseCodeEnabled: true
-    responseCodeId: ResponseCode_10
 - id: 338
   properties:
     _type: Code
     code: C48208
-    codeId: Code_204
     codeSystem: NCI Thesaurus
     codeSystemVersion: ''
     decode: Unit of Weight
+    id: Code_204
     label: Code_204
 - id: 337
   properties:
     _type: AliasCode
-    aliasCodeId: AliasCode_27
+    id: AliasCode_27
     label: AliasCode_27
     standardCodeAliases: []
 - id: 330
@@ -3014,23 +3012,23 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
     bcPropertyEnabled: true
-    bcPropertyId: BiomedicalConceptProperty_19
     bcPropertyName: Unit of Weight
     bcPropertyRequired: true
+    id: BiomedicalConceptProperty_19
     label: BiomedicalConceptProperty_19
 - id: 340
   properties:
     _type: Code
     code: C81328
-    codeId: Code_199
     codeSystem: NCI Thesaurus
     codeSystemVersion: ''
     decode: Body Weight
+    id: Code_199
     label: Code_199
 - id: 339
   properties:
     _type: AliasCode
-    aliasCodeId: AliasCode_25
+    id: AliasCode_25
     label: AliasCode_25
     standardCodeAliases: []
 - id: 326
@@ -3040,21 +3038,21 @@
     bcReference: /mdr/bc/packages/2022-10-26/biomedicalconcepts/C81328
     bcSynonyms:
     - Weight
-    biomedicalConceptId: BiomedicalConcept_6
+    id: BiomedicalConcept_6
     label: BiomedicalConcept_6
 - id: 344
   properties:
     _type: Code
     code: C173522
-    codeId: Code_206
     codeSystem: NCI Thesaurus
     codeSystemVersion: ''
     decode: Vital Signs Result
+    id: Code_206
     label: Code_206
 - id: 343
   properties:
     _type: AliasCode
-    aliasCodeId: AliasCode_29
+    id: AliasCode_29
     label: AliasCode_29
     standardCodeAliases: []
 - id: 342
@@ -3062,84 +3060,84 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: decimal
     bcPropertyEnabled: true
-    bcPropertyId: BiomedicalConceptProperty_20
     bcPropertyName: Vital Signs Result
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
+    id: BiomedicalConceptProperty_20
     label: BiomedicalConceptProperty_20
 - id: 347
   properties:
     _type: Code
     code: C49668
-    codeId: Code_207
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Centimeter
+    id: Code_207
     label: Code_207
 - id: 346
   properties:
     _type: ResponseCode
+    id: ResponseCode_11
     label: ResponseCode_11
     responseCodeEnabled: true
-    responseCodeId: ResponseCode_11
 - id: 349
   properties:
     _type: Code
     code: C48500
-    codeId: Code_208
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Inch
+    id: Code_208
     label: Code_208
 - id: 348
   properties:
     _type: ResponseCode
+    id: ResponseCode_12
     label: ResponseCode_12
     responseCodeEnabled: true
-    responseCodeId: ResponseCode_12
 - id: 351
   properties:
     _type: Code
     code: C28251
-    codeId: Code_209
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Millimeter
+    id: Code_209
     label: Code_209
 - id: 350
   properties:
     _type: ResponseCode
+    id: ResponseCode_13
     label: ResponseCode_13
     responseCodeEnabled: true
-    responseCodeId: ResponseCode_13
 - id: 353
   properties:
     _type: Code
     code: C41139
-    codeId: Code_210
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Meter
+    id: Code_210
     label: Code_210
 - id: 352
   properties:
     _type: ResponseCode
+    id: ResponseCode_14
     label: ResponseCode_14
     responseCodeEnabled: true
-    responseCodeId: ResponseCode_14
 - id: 355
   properties:
     _type: Code
     code: C168688
-    codeId: Code_211
     codeSystem: NCI Thesaurus
     codeSystemVersion: ''
     decode: Unit of Height
+    id: Code_211
     label: Code_211
 - id: 354
   properties:
     _type: AliasCode
-    aliasCodeId: AliasCode_30
+    id: AliasCode_30
     label: AliasCode_30
     standardCodeAliases: []
 - id: 345
@@ -3147,23 +3145,23 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
     bcPropertyEnabled: true
-    bcPropertyId: BiomedicalConceptProperty_21
     bcPropertyName: Unit of Height
     bcPropertyRequired: true
+    id: BiomedicalConceptProperty_21
     label: BiomedicalConceptProperty_21
 - id: 357
   properties:
     _type: Code
     code: C164634
-    codeId: Code_205
     codeSystem: NCI Thesaurus
     codeSystemVersion: ''
     decode: Body Height
+    id: Code_205
     label: Code_205
 - id: 356
   properties:
     _type: AliasCode
-    aliasCodeId: AliasCode_28
+    id: AliasCode_28
     label: AliasCode_28
     standardCodeAliases: []
 - id: 341
@@ -3173,21 +3171,21 @@
     bcReference: /mdr/bc/packages/2022-10-26/biomedicalconcepts/C164634
     bcSynonyms:
     - Height
-    biomedicalConceptId: BiomedicalConcept_7
+    id: BiomedicalConcept_7
     label: BiomedicalConcept_7
 - id: 361
   properties:
     _type: Code
     code: C36292
-    codeId: Code_213
     codeSystem: NCI Thesaurus
     codeSystemVersion: ''
     decode: Laboratory Test Result
+    id: Code_213
     label: Code_213
 - id: 360
   properties:
     _type: AliasCode
-    aliasCodeId: AliasCode_32
+    id: AliasCode_32
     label: AliasCode_32
     standardCodeAliases: []
 - id: 359
@@ -3195,24 +3193,24 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: decimal
     bcPropertyEnabled: true
-    bcPropertyId: BiomedicalConceptProperty_22
     bcPropertyName: Laboratory Test Result
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
+    id: BiomedicalConceptProperty_22
     label: BiomedicalConceptProperty_22
 - id: 364
   properties:
     _type: Code
     code: C83309
-    codeId: Code_214
     codeSystem: NCI Thesaurus
     codeSystemVersion: ''
     decode: Laboratory Test Fasting Status
+    id: Code_214
     label: Code_214
 - id: 363
   properties:
     _type: AliasCode
-    aliasCodeId: AliasCode_33
+    id: AliasCode_33
     label: AliasCode_33
     standardCodeAliases: []
 - id: 362
@@ -3220,24 +3218,24 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: boolean
     bcPropertyEnabled: true
-    bcPropertyId: BiomedicalConceptProperty_23
     bcPropertyName: Laboratory Test Fasting Status
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
+    id: BiomedicalConceptProperty_23
     label: BiomedicalConceptProperty_23
 - id: 367
   properties:
     _type: Code
     code: C67365
-    codeId: Code_215
     codeSystem: NCI Thesaurus
     codeSystemVersion: ''
     decode: Unit of Catalytic Activity Concentration
+    id: Code_215
     label: Code_215
 - id: 366
   properties:
     _type: AliasCode
-    aliasCodeId: AliasCode_34
+    id: AliasCode_34
     label: AliasCode_34
     standardCodeAliases: []
 - id: 365
@@ -3245,24 +3243,24 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
     bcPropertyEnabled: true
-    bcPropertyId: BiomedicalConceptProperty_24
     bcPropertyName: Unit of Catalytic Activity Concentration
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
+    id: BiomedicalConceptProperty_24
     label: BiomedicalConceptProperty_24
 - id: 370
   properties:
     _type: Code
     code: C70713
-    codeId: Code_216
     codeSystem: NCI Thesaurus
     codeSystemVersion: ''
     decode: Biospecimen Type
+    id: Code_216
     label: Code_216
 - id: 369
   properties:
     _type: AliasCode
-    aliasCodeId: AliasCode_35
+    id: AliasCode_35
     label: AliasCode_35
     standardCodeAliases: []
 - id: 368
@@ -3270,24 +3268,24 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
     bcPropertyEnabled: true
-    bcPropertyId: BiomedicalConceptProperty_25
     bcPropertyName: Biospecimen Type
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
+    id: BiomedicalConceptProperty_25
     label: BiomedicalConceptProperty_25
 - id: 372
   properties:
     _type: Code
     code: C64433
-    codeId: Code_212
     codeSystem: NCI Thesaurus
     codeSystemVersion: ''
     decode: Alanine Aminotransferase Measurement
+    id: Code_212
     label: Code_212
 - id: 371
   properties:
     _type: AliasCode
-    aliasCodeId: AliasCode_31
+    id: AliasCode_31
     label: AliasCode_31
     standardCodeAliases: []
 - id: 358
@@ -3298,21 +3296,21 @@
     bcSynonyms:
     - ALT
     - SGPT
-    biomedicalConceptId: BiomedicalConcept_8
+    id: BiomedicalConcept_8
     label: BiomedicalConcept_8
 - id: 376
   properties:
     _type: Code
     code: C36292
-    codeId: Code_218
     codeSystem: NCI Thesaurus
     codeSystemVersion: ''
     decode: Laboratory Test Result
+    id: Code_218
     label: Code_218
 - id: 375
   properties:
     _type: AliasCode
-    aliasCodeId: AliasCode_37
+    id: AliasCode_37
     label: AliasCode_37
     standardCodeAliases: []
 - id: 374
@@ -3320,24 +3318,24 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: decimal
     bcPropertyEnabled: true
-    bcPropertyId: BiomedicalConceptProperty_26
     bcPropertyName: Laboratory Test Result
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
+    id: BiomedicalConceptProperty_26
     label: BiomedicalConceptProperty_26
 - id: 379
   properties:
     _type: Code
     code: C83309
-    codeId: Code_219
     codeSystem: NCI Thesaurus
     codeSystemVersion: ''
     decode: Laboratory Test Fasting Status
+    id: Code_219
     label: Code_219
 - id: 378
   properties:
     _type: AliasCode
-    aliasCodeId: AliasCode_38
+    id: AliasCode_38
     label: AliasCode_38
     standardCodeAliases: []
 - id: 377
@@ -3345,24 +3343,24 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: boolean
     bcPropertyEnabled: true
-    bcPropertyId: BiomedicalConceptProperty_27
     bcPropertyName: Laboratory Test Fasting Status
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
+    id: BiomedicalConceptProperty_27
     label: BiomedicalConceptProperty_27
 - id: 382
   properties:
     _type: Code
     code: NEW_2
-    codeId: Code_220
     codeSystem: NCI Thesaurus
     codeSystemVersion: ''
     decode: Unit of Mass or Substance Concentration
+    id: Code_220
     label: Code_220
 - id: 381
   properties:
     _type: AliasCode
-    aliasCodeId: AliasCode_39
+    id: AliasCode_39
     label: AliasCode_39
     standardCodeAliases: []
 - id: 380
@@ -3370,24 +3368,24 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
     bcPropertyEnabled: true
-    bcPropertyId: BiomedicalConceptProperty_28
     bcPropertyName: Unit of Mass or Substance Concentration
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
+    id: BiomedicalConceptProperty_28
     label: BiomedicalConceptProperty_28
 - id: 385
   properties:
     _type: Code
     code: C70713
-    codeId: Code_221
     codeSystem: NCI Thesaurus
     codeSystemVersion: ''
     decode: Biospecimen Type
+    id: Code_221
     label: Code_221
 - id: 384
   properties:
     _type: AliasCode
-    aliasCodeId: AliasCode_40
+    id: AliasCode_40
     label: AliasCode_40
     standardCodeAliases: []
 - id: 383
@@ -3395,24 +3393,24 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
     bcPropertyEnabled: true
-    bcPropertyId: BiomedicalConceptProperty_29
     bcPropertyName: Biospecimen Type
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
+    id: BiomedicalConceptProperty_29
     label: BiomedicalConceptProperty_29
 - id: 387
   properties:
     _type: Code
     code: C64431
-    codeId: Code_217
     codeSystem: NCI Thesaurus
     codeSystemVersion: ''
     decode: Albumin Measurement
+    id: Code_217
     label: Code_217
 - id: 386
   properties:
     _type: AliasCode
-    aliasCodeId: AliasCode_36
+    id: AliasCode_36
     label: AliasCode_36
     standardCodeAliases: []
 - id: 373
@@ -3422,21 +3420,21 @@
     bcReference: /mdr/bc/packages/2023-02-13/biomedicalconcepts/C64431
     bcSynonyms:
     - Albumin
-    biomedicalConceptId: BiomedicalConcept_9
+    id: BiomedicalConcept_9
     label: BiomedicalConcept_9
 - id: 391
   properties:
     _type: Code
     code: C36292
-    codeId: Code_223
     codeSystem: NCI Thesaurus
     codeSystemVersion: ''
     decode: Laboratory Test Result
+    id: Code_223
     label: Code_223
 - id: 390
   properties:
     _type: AliasCode
-    aliasCodeId: AliasCode_42
+    id: AliasCode_42
     label: AliasCode_42
     standardCodeAliases: []
 - id: 389
@@ -3444,24 +3442,24 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: decimal
     bcPropertyEnabled: true
-    bcPropertyId: BiomedicalConceptProperty_30
     bcPropertyName: Laboratory Test Result
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
+    id: BiomedicalConceptProperty_30
     label: BiomedicalConceptProperty_30
 - id: 394
   properties:
     _type: Code
     code: C83309
-    codeId: Code_224
     codeSystem: NCI Thesaurus
     codeSystemVersion: ''
     decode: Laboratory Test Fasting Status
+    id: Code_224
     label: Code_224
 - id: 393
   properties:
     _type: AliasCode
-    aliasCodeId: AliasCode_43
+    id: AliasCode_43
     label: AliasCode_43
     standardCodeAliases: []
 - id: 392
@@ -3469,24 +3467,24 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: boolean
     bcPropertyEnabled: true
-    bcPropertyId: BiomedicalConceptProperty_31
     bcPropertyName: Laboratory Test Fasting Status
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
+    id: BiomedicalConceptProperty_31
     label: BiomedicalConceptProperty_31
 - id: 397
   properties:
     _type: Code
     code: C67365
-    codeId: Code_225
     codeSystem: NCI Thesaurus
     codeSystemVersion: ''
     decode: Unit of Catalytic Activity Concentration
+    id: Code_225
     label: Code_225
 - id: 396
   properties:
     _type: AliasCode
-    aliasCodeId: AliasCode_44
+    id: AliasCode_44
     label: AliasCode_44
     standardCodeAliases: []
 - id: 395
@@ -3494,24 +3492,24 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
     bcPropertyEnabled: true
-    bcPropertyId: BiomedicalConceptProperty_32
     bcPropertyName: Unit of Catalytic Activity Concentration
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
+    id: BiomedicalConceptProperty_32
     label: BiomedicalConceptProperty_32
 - id: 400
   properties:
     _type: Code
     code: C70713
-    codeId: Code_226
     codeSystem: NCI Thesaurus
     codeSystemVersion: ''
     decode: Biospecimen Type
+    id: Code_226
     label: Code_226
 - id: 399
   properties:
     _type: AliasCode
-    aliasCodeId: AliasCode_45
+    id: AliasCode_45
     label: AliasCode_45
     standardCodeAliases: []
 - id: 398
@@ -3519,24 +3517,24 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
     bcPropertyEnabled: true
-    bcPropertyId: BiomedicalConceptProperty_33
     bcPropertyName: Biospecimen Type
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
+    id: BiomedicalConceptProperty_33
     label: BiomedicalConceptProperty_33
 - id: 402
   properties:
     _type: Code
     code: C64432
-    codeId: Code_222
     codeSystem: NCI Thesaurus
     codeSystemVersion: ''
     decode: Alkaline Phosphatase Measurement
+    id: Code_222
     label: Code_222
 - id: 401
   properties:
     _type: AliasCode
-    aliasCodeId: AliasCode_41
+    id: AliasCode_41
     label: AliasCode_41
     standardCodeAliases: []
 - id: 388
@@ -3546,21 +3544,21 @@
     bcReference: /mdr/bc/packages/2023-02-13/biomedicalconcepts/C64432
     bcSynonyms:
     - Alkaline Phosphatase
-    biomedicalConceptId: BiomedicalConcept_10
+    id: BiomedicalConcept_10
     label: BiomedicalConcept_10
 - id: 406
   properties:
     _type: Code
     code: C36292
-    codeId: Code_228
     codeSystem: NCI Thesaurus
     codeSystemVersion: ''
     decode: Laboratory Test Result
+    id: Code_228
     label: Code_228
 - id: 405
   properties:
     _type: AliasCode
-    aliasCodeId: AliasCode_47
+    id: AliasCode_47
     label: AliasCode_47
     standardCodeAliases: []
 - id: 404
@@ -3568,24 +3566,24 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: decimal
     bcPropertyEnabled: true
-    bcPropertyId: BiomedicalConceptProperty_34
     bcPropertyName: Laboratory Test Result
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
+    id: BiomedicalConceptProperty_34
     label: BiomedicalConceptProperty_34
 - id: 409
   properties:
     _type: Code
     code: C83309
-    codeId: Code_229
     codeSystem: NCI Thesaurus
     codeSystemVersion: ''
     decode: Laboratory Test Fasting Status
+    id: Code_229
     label: Code_229
 - id: 408
   properties:
     _type: AliasCode
-    aliasCodeId: AliasCode_48
+    id: AliasCode_48
     label: AliasCode_48
     standardCodeAliases: []
 - id: 407
@@ -3593,24 +3591,24 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: boolean
     bcPropertyEnabled: true
-    bcPropertyId: BiomedicalConceptProperty_35
     bcPropertyName: Laboratory Test Fasting Status
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
+    id: BiomedicalConceptProperty_35
     label: BiomedicalConceptProperty_35
 - id: 412
   properties:
     _type: Code
     code: C67365
-    codeId: Code_230
     codeSystem: NCI Thesaurus
     codeSystemVersion: ''
     decode: Unit of Catalytic Activity Concentration
+    id: Code_230
     label: Code_230
 - id: 411
   properties:
     _type: AliasCode
-    aliasCodeId: AliasCode_49
+    id: AliasCode_49
     label: AliasCode_49
     standardCodeAliases: []
 - id: 410
@@ -3618,24 +3616,24 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
     bcPropertyEnabled: true
-    bcPropertyId: BiomedicalConceptProperty_36
     bcPropertyName: Unit of Catalytic Activity Concentration
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
+    id: BiomedicalConceptProperty_36
     label: BiomedicalConceptProperty_36
 - id: 415
   properties:
     _type: Code
     code: C70713
-    codeId: Code_231
     codeSystem: NCI Thesaurus
     codeSystemVersion: ''
     decode: Biospecimen Type
+    id: Code_231
     label: Code_231
 - id: 414
   properties:
     _type: AliasCode
-    aliasCodeId: AliasCode_50
+    id: AliasCode_50
     label: AliasCode_50
     standardCodeAliases: []
 - id: 413
@@ -3643,24 +3641,24 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
     bcPropertyEnabled: true
-    bcPropertyId: BiomedicalConceptProperty_37
     bcPropertyName: Biospecimen Type
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
+    id: BiomedicalConceptProperty_37
     label: BiomedicalConceptProperty_37
 - id: 417
   properties:
     _type: Code
     code: C64467
-    codeId: Code_227
     codeSystem: NCI Thesaurus
     codeSystemVersion: ''
     decode: Aspartate Aminotransferase Measurement
+    id: Code_227
     label: Code_227
 - id: 416
   properties:
     _type: AliasCode
-    aliasCodeId: AliasCode_46
+    id: AliasCode_46
     label: AliasCode_46
     standardCodeAliases: []
 - id: 403
@@ -3671,21 +3669,21 @@
     bcSynonyms:
     - AST
     - SGOT
-    biomedicalConceptId: BiomedicalConcept_11
+    id: BiomedicalConcept_11
     label: BiomedicalConcept_11
 - id: 421
   properties:
     _type: Code
     code: C36292
-    codeId: Code_233
     codeSystem: NCI Thesaurus
     codeSystemVersion: ''
     decode: Laboratory Test Result
+    id: Code_233
     label: Code_233
 - id: 420
   properties:
     _type: AliasCode
-    aliasCodeId: AliasCode_52
+    id: AliasCode_52
     label: AliasCode_52
     standardCodeAliases: []
 - id: 419
@@ -3693,24 +3691,24 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: decimal
     bcPropertyEnabled: true
-    bcPropertyId: BiomedicalConceptProperty_38
     bcPropertyName: Laboratory Test Result
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
+    id: BiomedicalConceptProperty_38
     label: BiomedicalConceptProperty_38
 - id: 424
   properties:
     _type: Code
     code: C83309
-    codeId: Code_234
     codeSystem: NCI Thesaurus
     codeSystemVersion: ''
     decode: Laboratory Test Fasting Status
+    id: Code_234
     label: Code_234
 - id: 423
   properties:
     _type: AliasCode
-    aliasCodeId: AliasCode_53
+    id: AliasCode_53
     label: AliasCode_53
     standardCodeAliases: []
 - id: 422
@@ -3718,24 +3716,24 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: boolean
     bcPropertyEnabled: true
-    bcPropertyId: BiomedicalConceptProperty_39
     bcPropertyName: Laboratory Test Fasting Status
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
+    id: BiomedicalConceptProperty_39
     label: BiomedicalConceptProperty_39
 - id: 427
   properties:
     _type: Code
     code: NEW_2
-    codeId: Code_235
     codeSystem: NCI Thesaurus
     codeSystemVersion: ''
     decode: Unit of Mass or Substance Concentration
+    id: Code_235
     label: Code_235
 - id: 426
   properties:
     _type: AliasCode
-    aliasCodeId: AliasCode_54
+    id: AliasCode_54
     label: AliasCode_54
     standardCodeAliases: []
 - id: 425
@@ -3743,24 +3741,24 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
     bcPropertyEnabled: true
-    bcPropertyId: BiomedicalConceptProperty_40
     bcPropertyName: Unit of Mass or Substance Concentration
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
+    id: BiomedicalConceptProperty_40
     label: BiomedicalConceptProperty_40
 - id: 430
   properties:
     _type: Code
     code: C70713
-    codeId: Code_236
     codeSystem: NCI Thesaurus
     codeSystemVersion: ''
     decode: Biospecimen Type
+    id: Code_236
     label: Code_236
 - id: 429
   properties:
     _type: AliasCode
-    aliasCodeId: AliasCode_55
+    id: AliasCode_55
     label: AliasCode_55
     standardCodeAliases: []
 - id: 428
@@ -3768,24 +3766,24 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
     bcPropertyEnabled: true
-    bcPropertyId: BiomedicalConceptProperty_41
     bcPropertyName: Biospecimen Type
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
+    id: BiomedicalConceptProperty_41
     label: BiomedicalConceptProperty_41
 - id: 432
   properties:
     _type: Code
     code: C64547
-    codeId: Code_232
     codeSystem: NCI Thesaurus
     codeSystemVersion: ''
     decode: Creatinine Measurement
+    id: Code_232
     label: Code_232
 - id: 431
   properties:
     _type: AliasCode
-    aliasCodeId: AliasCode_51
+    id: AliasCode_51
     label: AliasCode_51
     standardCodeAliases: []
 - id: 418
@@ -3795,21 +3793,21 @@
     bcReference: /mdr/bc/packages/2023-02-13/biomedicalconcepts/C64547
     bcSynonyms:
     - Creatinine
-    biomedicalConceptId: BiomedicalConcept_12
+    id: BiomedicalConcept_12
     label: BiomedicalConcept_12
 - id: 436
   properties:
     _type: Code
     code: C36292
-    codeId: Code_238
     codeSystem: NCI Thesaurus
     codeSystemVersion: ''
     decode: Laboratory Test Result
+    id: Code_238
     label: Code_238
 - id: 435
   properties:
     _type: AliasCode
-    aliasCodeId: AliasCode_57
+    id: AliasCode_57
     label: AliasCode_57
     standardCodeAliases: []
 - id: 434
@@ -3817,24 +3815,24 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: decimal
     bcPropertyEnabled: true
-    bcPropertyId: BiomedicalConceptProperty_42
     bcPropertyName: Laboratory Test Result
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
+    id: BiomedicalConceptProperty_42
     label: BiomedicalConceptProperty_42
 - id: 439
   properties:
     _type: Code
     code: C83309
-    codeId: Code_239
     codeSystem: NCI Thesaurus
     codeSystemVersion: ''
     decode: Laboratory Test Fasting Status
+    id: Code_239
     label: Code_239
 - id: 438
   properties:
     _type: AliasCode
-    aliasCodeId: AliasCode_58
+    id: AliasCode_58
     label: AliasCode_58
     standardCodeAliases: []
 - id: 437
@@ -3842,24 +3840,24 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: boolean
     bcPropertyEnabled: true
-    bcPropertyId: BiomedicalConceptProperty_43
     bcPropertyName: Laboratory Test Fasting Status
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
+    id: BiomedicalConceptProperty_43
     label: BiomedicalConceptProperty_43
 - id: 442
   properties:
     _type: Code
     code: C64567
-    codeId: Code_240
     codeSystem: NCI Thesaurus
     codeSystemVersion: ''
     decode: Molarity Unit
+    id: Code_240
     label: Code_240
 - id: 441
   properties:
     _type: AliasCode
-    aliasCodeId: AliasCode_59
+    id: AliasCode_59
     label: AliasCode_59
     standardCodeAliases: []
 - id: 440
@@ -3867,24 +3865,24 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
     bcPropertyEnabled: true
-    bcPropertyId: BiomedicalConceptProperty_44
     bcPropertyName: Molarity Unit
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
+    id: BiomedicalConceptProperty_44
     label: BiomedicalConceptProperty_44
 - id: 445
   properties:
     _type: Code
     code: C70713
-    codeId: Code_241
     codeSystem: NCI Thesaurus
     codeSystemVersion: ''
     decode: Biospecimen Type
+    id: Code_241
     label: Code_241
 - id: 444
   properties:
     _type: AliasCode
-    aliasCodeId: AliasCode_60
+    id: AliasCode_60
     label: AliasCode_60
     standardCodeAliases: []
 - id: 443
@@ -3892,24 +3890,24 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
     bcPropertyEnabled: true
-    bcPropertyId: BiomedicalConceptProperty_45
     bcPropertyName: Biospecimen Type
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
+    id: BiomedicalConceptProperty_45
     label: BiomedicalConceptProperty_45
 - id: 447
   properties:
     _type: Code
     code: C64853
-    codeId: Code_237
     codeSystem: NCI Thesaurus
     codeSystemVersion: ''
     decode: Potassium Measurement
+    id: Code_237
     label: Code_237
 - id: 446
   properties:
     _type: AliasCode
-    aliasCodeId: AliasCode_56
+    id: AliasCode_56
     label: AliasCode_56
     standardCodeAliases: []
 - id: 433
@@ -3920,21 +3918,21 @@
     bcSynonyms:
     - Potassium
     - K
-    biomedicalConceptId: BiomedicalConcept_13
+    id: BiomedicalConcept_13
     label: BiomedicalConcept_13
 - id: 451
   properties:
     _type: Code
     code: C36292
-    codeId: Code_243
     codeSystem: NCI Thesaurus
     codeSystemVersion: ''
     decode: Laboratory Test Result
+    id: Code_243
     label: Code_243
 - id: 450
   properties:
     _type: AliasCode
-    aliasCodeId: AliasCode_62
+    id: AliasCode_62
     label: AliasCode_62
     standardCodeAliases: []
 - id: 449
@@ -3942,24 +3940,24 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: decimal
     bcPropertyEnabled: true
-    bcPropertyId: BiomedicalConceptProperty_46
     bcPropertyName: Laboratory Test Result
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
+    id: BiomedicalConceptProperty_46
     label: BiomedicalConceptProperty_46
 - id: 454
   properties:
     _type: Code
     code: C83309
-    codeId: Code_244
     codeSystem: NCI Thesaurus
     codeSystemVersion: ''
     decode: Laboratory Test Fasting Status
+    id: Code_244
     label: Code_244
 - id: 453
   properties:
     _type: AliasCode
-    aliasCodeId: AliasCode_63
+    id: AliasCode_63
     label: AliasCode_63
     standardCodeAliases: []
 - id: 452
@@ -3967,24 +3965,24 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: boolean
     bcPropertyEnabled: true
-    bcPropertyId: BiomedicalConceptProperty_47
     bcPropertyName: Laboratory Test Fasting Status
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
+    id: BiomedicalConceptProperty_47
     label: BiomedicalConceptProperty_47
 - id: 457
   properties:
     _type: Code
     code: C64567
-    codeId: Code_245
     codeSystem: NCI Thesaurus
     codeSystemVersion: ''
     decode: Molarity Unit
+    id: Code_245
     label: Code_245
 - id: 456
   properties:
     _type: AliasCode
-    aliasCodeId: AliasCode_64
+    id: AliasCode_64
     label: AliasCode_64
     standardCodeAliases: []
 - id: 455
@@ -3992,24 +3990,24 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
     bcPropertyEnabled: true
-    bcPropertyId: BiomedicalConceptProperty_48
     bcPropertyName: Molarity Unit
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
+    id: BiomedicalConceptProperty_48
     label: BiomedicalConceptProperty_48
 - id: 460
   properties:
     _type: Code
     code: C70713
-    codeId: Code_246
     codeSystem: NCI Thesaurus
     codeSystemVersion: ''
     decode: Biospecimen Type
+    id: Code_246
     label: Code_246
 - id: 459
   properties:
     _type: AliasCode
-    aliasCodeId: AliasCode_65
+    id: AliasCode_65
     label: AliasCode_65
     standardCodeAliases: []
 - id: 458
@@ -4017,24 +4015,24 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
     bcPropertyEnabled: true
-    bcPropertyId: BiomedicalConceptProperty_49
     bcPropertyName: Biospecimen Type
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
+    id: BiomedicalConceptProperty_49
     label: BiomedicalConceptProperty_49
 - id: 462
   properties:
     _type: Code
     code: C64809
-    codeId: Code_242
     codeSystem: NCI Thesaurus
     codeSystemVersion: ''
     decode: Sodium Measurement
+    id: Code_242
     label: Code_242
 - id: 461
   properties:
     _type: AliasCode
-    aliasCodeId: AliasCode_61
+    id: AliasCode_61
     label: AliasCode_61
     standardCodeAliases: []
 - id: 448
@@ -4045,667 +4043,337 @@
     bcSynonyms:
     - Sodium
     - NA
-    biomedicalConceptId: BiomedicalConcept_14
+    id: BiomedicalConcept_14
     label: BiomedicalConcept_14
-- id: 466
-  properties:
-    _type: Code
-    code: C78541
-    codeId: Code_248
-    codeSystem: NCI Thesaurus
-    codeSystemVersion: ''
-    decode: Adverse Event Verbatim Description
-    label: Code_248
 - id: 465
-  properties:
-    _type: AliasCode
-    aliasCodeId: AliasCode_67
-    label: AliasCode_67
-    standardCodeAliases: []
-- id: 464
-  properties:
-    _type: BiomedicalConceptProperty
-    bcPropertyDatatype: string
-    bcPropertyEnabled: true
-    bcPropertyId: BiomedicalConceptProperty_50
-    bcPropertyName: Adverse Event Verbatim Description
-    bcPropertyRequired: true
-    bcPropertyResponseCodes: []
-    label: BiomedicalConceptProperty_50
-- id: 469
-  properties:
-    _type: Code
-    code: C83344
-    codeId: Code_249
-    codeSystem: NCI Thesaurus
-    codeSystemVersion: ''
-    decode: Adverse Event Dictionary Derived Term
-    label: Code_249
-- id: 468
-  properties:
-    _type: AliasCode
-    aliasCodeId: AliasCode_68
-    label: AliasCode_68
-    standardCodeAliases: []
-- id: 467
-  properties:
-    _type: BiomedicalConceptProperty
-    bcPropertyDatatype: string
-    bcPropertyEnabled: true
-    bcPropertyId: BiomedicalConceptProperty_51
-    bcPropertyName: Adverse Event Dictionary Derived Term
-    bcPropertyRequired: true
-    bcPropertyResponseCodes: []
-    label: BiomedicalConceptProperty_51
-- id: 472
-  properties:
-    _type: Code
-    code: C83198
-    codeId: Code_250
-    codeSystem: NCI Thesaurus
-    codeSystemVersion: ''
-    decode: Adverse Event Category
-    label: Code_250
-- id: 471
-  properties:
-    _type: AliasCode
-    aliasCodeId: AliasCode_69
-    label: AliasCode_69
-    standardCodeAliases: []
-- id: 470
-  properties:
-    _type: BiomedicalConceptProperty
-    bcPropertyDatatype: string
-    bcPropertyEnabled: true
-    bcPropertyId: BiomedicalConceptProperty_52
-    bcPropertyName: Adverse Event Category
-    bcPropertyRequired: true
-    bcPropertyResponseCodes: []
-    label: BiomedicalConceptProperty_52
-- id: 475
-  properties:
-    _type: Code
-    code: C83212
-    codeId: Code_251
-    codeSystem: NCI Thesaurus
-    codeSystemVersion: ''
-    decode: Adverse Event Subcategory
-    label: Code_251
-- id: 474
-  properties:
-    _type: AliasCode
-    aliasCodeId: AliasCode_70
-    label: AliasCode_70
-    standardCodeAliases: []
-- id: 473
-  properties:
-    _type: BiomedicalConceptProperty
-    bcPropertyDatatype: string
-    bcPropertyEnabled: true
-    bcPropertyId: BiomedicalConceptProperty_53
-    bcPropertyName: Adverse Event Subcategory
-    bcPropertyRequired: true
-    bcPropertyResponseCodes: []
-    label: BiomedicalConceptProperty_53
-- id: 478
-  properties:
-    _type: Code
-    code: C87840
-    codeId: Code_252
-    codeSystem: NCI Thesaurus
-    codeSystemVersion: ''
-    decode: Adverse Event Pre-specified
-    label: Code_252
-- id: 477
-  properties:
-    _type: AliasCode
-    aliasCodeId: AliasCode_71
-    label: AliasCode_71
-    standardCodeAliases: []
-- id: 476
-  properties:
-    _type: BiomedicalConceptProperty
-    bcPropertyDatatype: boolean
-    bcPropertyEnabled: true
-    bcPropertyId: BiomedicalConceptProperty_54
-    bcPropertyName: Adverse Event Pre-specified
-    bcPropertyRequired: true
-    bcPropertyResponseCodes: []
-    label: BiomedicalConceptProperty_54
-- id: 481
-  properties:
-    _type: Code
-    code: C53253
-    codeId: Code_253
-    codeSystem: NCI Thesaurus
-    codeSystemVersion: ''
-    decode: Severity of Adverse Event
-    label: Code_253
-- id: 480
-  properties:
-    _type: AliasCode
-    aliasCodeId: AliasCode_72
-    label: AliasCode_72
-    standardCodeAliases: []
-- id: 479
-  properties:
-    _type: BiomedicalConceptProperty
-    bcPropertyDatatype: string
-    bcPropertyEnabled: true
-    bcPropertyId: BiomedicalConceptProperty_55
-    bcPropertyName: Severity of Adverse Event
-    bcPropertyRequired: true
-    bcPropertyResponseCodes: []
-    label: BiomedicalConceptProperty_55
-- id: 484
-  properties:
-    _type: Code
-    code: C78605
-    codeId: Code_254
-    codeSystem: NCI Thesaurus
-    codeSystemVersion: ''
-    decode: Adverse Event Toxicity Grade
-    label: Code_254
-- id: 483
-  properties:
-    _type: AliasCode
-    aliasCodeId: AliasCode_73
-    label: AliasCode_73
-    standardCodeAliases: []
-- id: 482
-  properties:
-    _type: BiomedicalConceptProperty
-    bcPropertyDatatype: string
-    bcPropertyEnabled: true
-    bcPropertyId: BiomedicalConceptProperty_56
-    bcPropertyName: Adverse Event Toxicity Grade
-    bcPropertyRequired: true
-    bcPropertyResponseCodes: []
-    label: BiomedicalConceptProperty_56
-- id: 487
-  properties:
-    _type: Code
-    code: C53252
-    codeId: Code_255
-    codeSystem: NCI Thesaurus
-    codeSystemVersion: ''
-    decode: Seriousness of Adverse Event
-    label: Code_255
-- id: 486
-  properties:
-    _type: AliasCode
-    aliasCodeId: AliasCode_74
-    label: AliasCode_74
-    standardCodeAliases: []
-- id: 485
-  properties:
-    _type: BiomedicalConceptProperty
-    bcPropertyDatatype: boolean
-    bcPropertyEnabled: true
-    bcPropertyId: BiomedicalConceptProperty_57
-    bcPropertyName: Seriousness of Adverse Event
-    bcPropertyRequired: true
-    bcPropertyResponseCodes: []
-    label: BiomedicalConceptProperty_57
-- id: 490
-  properties:
-    _type: Code
-    code: C17998
-    codeId: Code_256
-    codeSystem: http://www.cdisc.org
-    codeSystemVersion: '2022-12-16'
-    decode: Unknown
-    label: Code_256
-- id: 489
-  properties:
-    _type: ResponseCode
-    label: ResponseCode_15
-    responseCodeEnabled: true
-    responseCodeId: ResponseCode_15
-- id: 492
-  properties:
-    _type: Code
-    code: C83013
-    codeId: Code_257
-    codeSystem: NCI Thesaurus
-    codeSystemVersion: ''
-    decode: Adverse Event Action Taken with Study Treatment
-    label: Code_257
-- id: 491
-  properties:
-    _type: AliasCode
-    aliasCodeId: AliasCode_75
-    label: AliasCode_75
-    standardCodeAliases: []
-- id: 488
-  properties:
-    _type: BiomedicalConceptProperty
-    bcPropertyDatatype: string
-    bcPropertyEnabled: true
-    bcPropertyId: BiomedicalConceptProperty_58
-    bcPropertyName: Adverse Event Action Taken with Study Treatment
-    bcPropertyRequired: true
-    label: BiomedicalConceptProperty_58
-- id: 495
-  properties:
-    _type: Code
-    code: C41358
-    codeId: Code_258
-    codeSystem: NCI Thesaurus
-    codeSystemVersion: ''
-    decode: Adverse Event Attribution to Product or Procedure
-    label: Code_258
-- id: 494
-  properties:
-    _type: AliasCode
-    aliasCodeId: AliasCode_76
-    label: AliasCode_76
-    standardCodeAliases: []
-- id: 493
-  properties:
-    _type: BiomedicalConceptProperty
-    bcPropertyDatatype: string
-    bcPropertyEnabled: true
-    bcPropertyId: BiomedicalConceptProperty_59
-    bcPropertyName: Adverse Event Attribution to Product or Procedure
-    bcPropertyRequired: true
-    bcPropertyResponseCodes: []
-    label: BiomedicalConceptProperty_59
-- id: 498
-  properties:
-    _type: Code
-    code: C83208
-    codeId: Code_259
-    codeSystem: NCI Thesaurus
-    codeSystemVersion: ''
-    decode: Adverse Event Pattern
-    label: Code_259
-- id: 497
-  properties:
-    _type: AliasCode
-    aliasCodeId: AliasCode_77
-    label: AliasCode_77
-    standardCodeAliases: []
-- id: 496
-  properties:
-    _type: BiomedicalConceptProperty
-    bcPropertyDatatype: string
-    bcPropertyEnabled: true
-    bcPropertyId: BiomedicalConceptProperty_60
-    bcPropertyName: Adverse Event Pattern
-    bcPropertyRequired: true
-    bcPropertyResponseCodes: []
-    label: BiomedicalConceptProperty_60
-- id: 501
-  properties:
-    _type: Code
-    code: C17998
-    codeId: Code_260
-    codeSystem: http://www.cdisc.org
-    codeSystemVersion: '2022-12-16'
-    decode: Unknown
-    label: Code_260
-- id: 500
-  properties:
-    _type: ResponseCode
-    label: ResponseCode_16
-    responseCodeEnabled: true
-    responseCodeId: ResponseCode_16
-- id: 503
-  properties:
-    _type: Code
-    code: C49489
-    codeId: Code_261
-    codeSystem: NCI Thesaurus
-    codeSystemVersion: ''
-    decode: Adverse Event Outcome
-    label: Code_261
-- id: 502
-  properties:
-    _type: AliasCode
-    aliasCodeId: AliasCode_78
-    label: AliasCode_78
-    standardCodeAliases: []
-- id: 499
-  properties:
-    _type: BiomedicalConceptProperty
-    bcPropertyDatatype: string
-    bcPropertyEnabled: true
-    bcPropertyId: BiomedicalConceptProperty_61
-    bcPropertyName: Adverse Event Outcome
-    bcPropertyRequired: true
-    label: BiomedicalConceptProperty_61
-- id: 505
   properties:
     _type: Code
     code: C41331
-    codeId: Code_247
     codeSystem: NCI Thesaurus
     codeSystemVersion: ''
     decode: Adverse Event
+    id: Code_247
     label: Code_247
-- id: 504
+- id: 464
   properties:
     _type: AliasCode
-    aliasCodeId: AliasCode_66
+    id: AliasCode_66
     label: AliasCode_66
     standardCodeAliases: []
 - id: 463
   properties:
     _type: BiomedicalConcept
     bcName: Adverse Event
-    bcReference: /mdr/bc/packages/2023-03-31/biomedicalconcepts/C41331
-    bcSynonyms:
-    - Adverse Event Reported Term
-    - AETERM
-    biomedicalConceptId: BiomedicalConcept_15
+    bcProperties: []
+    bcReference: /mdr/bc/packages/2023-07-06/biomedicalconcepts/C41331
+    bcSynonyms: []
+    id: BiomedicalConcept_15
     label: BiomedicalConcept_15
-- id: 506
+- id: 466
   properties:
     _type: BiomedicalConceptSurrogate
-    bcSurrogateDescription: Date of Birth
-    bcSurrogateId: BiomedicalConceptSurrogate_1
-    bcSurrogateName: Date of Birth
-    bcSurrogateReference: ''
+    bcSurrogateReference: None set
+    description: Date of Birth
+    id: BiomedicalConceptSurrogate_1
     label: BiomedicalConceptSurrogate_1
-- id: 507
+    name: Date of Birth
+- id: 467
   properties:
     _type: BiomedicalConceptSurrogate
-    bcSurrogateDescription: HbA1c
-    bcSurrogateId: BiomedicalConceptSurrogate_2
-    bcSurrogateName: HbA1c
-    bcSurrogateReference: ''
+    bcSurrogateReference: None set
+    description: HbA1c
+    id: BiomedicalConceptSurrogate_2
     label: BiomedicalConceptSurrogate_2
-- id: 509
+    name: HbA1c
+- id: 469
   properties:
     _type: Code
     code: C174268
-    codeId: Code_61
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Placebo Comparator Arm
+    id: Code_61
     label: Code_61
-- id: 510
+- id: 470
   properties:
     _type: Code
     code: C188866
-    codeId: Code_62
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Data Generated Within Study
+    id: Code_62
     label: Code_62
-- id: 508
+- id: 468
   properties:
     _type: StudyArm
+    description: Placebo
+    id: StudyArm_1
     label: StudyArm_1
+    name: Placebo
     studyArmDataOriginDescription: Data collected from subjects
-    studyArmDescription: Placebo
-    studyArmId: StudyArm_1
-    studyArmName: Placebo
-- id: 512
+- id: 472
   properties:
     _type: Code
     code: C174267
-    codeId: Code_63
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Active Comparator Arm
+    id: Code_63
     label: Code_63
-- id: 513
+- id: 473
   properties:
     _type: Code
     code: C188866
-    codeId: Code_64
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Data Generated Within Study
+    id: Code_64
     label: Code_64
-- id: 511
+- id: 471
   properties:
     _type: StudyArm
+    description: Active Substance
+    id: StudyArm_2
     label: StudyArm_2
+    name: Xanomeline Low Dose
     studyArmDataOriginDescription: Data collected from subjects
-    studyArmDescription: Active Substance
-    studyArmId: StudyArm_2
-    studyArmName: Xanomeline Low Dose
-- id: 515
+- id: 475
   properties:
     _type: Code
     code: C174267
-    codeId: Code_65
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Active Comparator Arm
+    id: Code_65
     label: Code_65
-- id: 516
+- id: 476
   properties:
     _type: Code
     code: C188866
-    codeId: Code_66
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Data Generated Within Study
+    id: Code_66
     label: Code_66
-- id: 514
+- id: 474
   properties:
     _type: StudyArm
+    description: Active Substance
+    id: StudyArm_3
     label: StudyArm_3
+    name: Xanomeline High Dose
     studyArmDataOriginDescription: Data collected from subjects
-    studyArmDescription: Active Substance
-    studyArmId: StudyArm_3
-    studyArmName: Xanomeline High Dose
-- id: 518
+- id: 478
   properties:
     _type: Code
     code: C48262
-    codeId: Code_67
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Trial Screening
+    id: Code_67
     label: Code_67
-- id: 517
+- id: 477
   properties:
     _type: StudyEpoch
+    description: Screening Epoch
+    id: StudyEpoch_1
     label: StudyEpoch_1
+    name: Screening
     nextStudyEpochId: StudyEpoch_2
     previousStudyEpochId: null
-    studyEpochDescription: Screening Epoch
-    studyEpochId: StudyEpoch_1
-    studyEpochName: Screening
-- id: 520
+- id: 480
   properties:
     _type: Code
     code: C101526
-    codeId: Code_68
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Treatment Epoch
+    id: Code_68
     label: Code_68
-- id: 519
+- id: 479
   properties:
     _type: StudyEpoch
+    description: Treatment Epoch
+    id: StudyEpoch_2
     label: StudyEpoch_2
+    name: Treatment 1
     nextStudyEpochId: StudyEpoch_3
     previousStudyEpochId: StudyEpoch_1
-    studyEpochDescription: Treatment Epoch
-    studyEpochId: StudyEpoch_2
-    studyEpochName: Treatment 1
-- id: 522
+- id: 482
   properties:
     _type: Code
     code: C101526
-    codeId: Code_69
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Treatment Epoch
+    id: Code_69
     label: Code_69
-- id: 521
+- id: 481
   properties:
     _type: StudyEpoch
+    description: Treatment Epoch
+    id: StudyEpoch_3
     label: StudyEpoch_3
+    name: Treatment 2
     nextStudyEpochId: StudyEpoch_4
     previousStudyEpochId: StudyEpoch_2
-    studyEpochDescription: Treatment Epoch
-    studyEpochId: StudyEpoch_3
-    studyEpochName: Treatment 2
-- id: 524
+- id: 484
   properties:
     _type: Code
     code: C101526
-    codeId: Code_70
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Treatment Epoch
+    id: Code_70
     label: Code_70
-- id: 523
+- id: 483
   properties:
     _type: StudyEpoch
+    description: Treatment Epoch
+    id: StudyEpoch_4
     label: StudyEpoch_4
+    name: Treatment 3
     nextStudyEpochId: StudyEpoch_5
     previousStudyEpochId: StudyEpoch_3
-    studyEpochDescription: Treatment Epoch
-    studyEpochId: StudyEpoch_4
-    studyEpochName: Treatment 3
-- id: 526
+- id: 486
   properties:
     _type: Code
     code: C99158
-    codeId: Code_71
     codeSystem: http://www.cdisc.org
     codeSystemVersion: '2022-12-16'
     decode: Clinical Study Follow-up
+    id: Code_71
     label: Code_71
-- id: 525
+- id: 485
   properties:
     _type: StudyEpoch
+    description: Follow-up Epoch
+    id: StudyEpoch_5
     label: StudyEpoch_5
+    name: Follow-Up
     nextStudyEpochId: null
     previousStudyEpochId: StudyEpoch_4
-    studyEpochDescription: Follow-up Epoch
-    studyEpochId: StudyEpoch_5
-    studyEpochName: Follow-Up
-- id: 528
+- id: 488
   properties:
     _type: TransitionRule
+    id: TransitionRule_7
     label: TransitionRule_7
     transitionRuleDescription: Informed consent
-    transitionRuleId: TransitionRule_7
-- id: 529
+- id: 489
   properties:
     _type: TransitionRule
+    id: TransitionRule_8
     label: TransitionRule_8
     transitionRuleDescription: Completion of all screening activities and no more
       than 2 weeks from informed consent
-    transitionRuleId: TransitionRule_8
-- id: 527
+- id: 487
   properties:
     _type: StudyElement
+    description: Screening Element
+    id: StudyElement_1
     label: StudyElement_1
-    studyElementDescription: Screening Element
-    studyElementId: StudyElement_1
-    studyElementName: Screening
-- id: 531
+    name: Screening
+- id: 491
   properties:
     _type: TransitionRule
+    id: TransitionRule_9
     label: TransitionRule_9
     transitionRuleDescription: "Administration\_of\_first\_dose"
-    transitionRuleId: TransitionRule_9
-- id: 530
+- id: 490
   properties:
     _type: StudyElement
+    description: Placebo TTS (adhesive patches)
+    id: StudyElement_2
     label: StudyElement_2
-    studyElementDescription: Placebo TTS (adhesive patches)
-    studyElementId: StudyElement_2
-    studyElementName: Placebo
+    name: Placebo
     transitionEndRule: null
-- id: 533
+- id: 493
   properties:
     _type: TransitionRule
+    id: TransitionRule_14
     label: TransitionRule_14
     transitionRuleDescription: "End\_of\_last\_scheduled\_visit\_on\_study\_(including\_\
       early\_termination)"
-    transitionRuleId: TransitionRule_14
-- id: 534
+- id: 494
   properties:
     _type: TransitionRule
+    id: TransitionRule_15
     label: TransitionRule_15
     transitionRuleDescription: "Completion\_of\_all\_specified\_followup\_activities\_\
       (which\_vary\_on\_a\_patient-by-patient\_basis)"
-    transitionRuleId: TransitionRule_15
-- id: 532
+- id: 492
   properties:
     _type: StudyElement
+    description: Follow Up Element
+    id: StudyElement_7
     label: StudyElement_7
-    studyElementDescription: Follow Up Element
-    studyElementId: StudyElement_7
-    studyElementName: Follow_up
-- id: 536
+    name: Follow_up
+- id: 496
   properties:
     _type: TransitionRule
+    id: TransitionRule_10
     label: TransitionRule_10
     transitionRuleDescription: "Administration\_of\_first\_dose"
-    transitionRuleId: TransitionRule_10
-- id: 535
+- id: 495
   properties:
     _type: StudyElement
+    description: Xanomeline TTS (adhesive patches) 50 cm2, 54 mg
+    id: StudyElement_3
     label: StudyElement_3
-    studyElementDescription: Xanomeline TTS (adhesive patches) 50 cm2, 54 mg
-    studyElementId: StudyElement_3
-    studyElementName: Low
+    name: Low
     transitionEndRule: null
-- id: 538
+- id: 498
   properties:
     _type: TransitionRule
+    id: TransitionRule_11
     label: TransitionRule_11
     transitionRuleDescription: Randomized
-    transitionRuleId: TransitionRule_11
-- id: 537
+- id: 497
   properties:
     _type: StudyElement
+    description: Xanomeline TTS (adhesive patches) 50 cm2, 54 mg
+    id: StudyElement_4
     label: StudyElement_4
-    studyElementDescription: Xanomeline TTS (adhesive patches) 50 cm2, 54 mg
-    studyElementId: StudyElement_4
-    studyElementName: High_Start
+    name: High_Start
     transitionEndRule: null
-- id: 540
+- id: 500
   properties:
     _type: TransitionRule
+    id: TransitionRule_12
     label: TransitionRule_12
     transitionRuleDescription: "Administration\_of\_first\_dose\_(from\_patches\_\
       supplied\_at\_Visit\_4)"
-    transitionRuleId: TransitionRule_12
-- id: 539
+- id: 499
   properties:
     _type: StudyElement
+    description: Xanomeline TTS (adhesive patches) 50 cm2, 54 mg + 25 cm2, 27 mg
+    id: StudyElement_5
     label: StudyElement_5
-    studyElementDescription: Xanomeline TTS (adhesive patches) 50 cm2, 54 mg + 25
-      cm2, 27 mg
-    studyElementId: StudyElement_5
-    studyElementName: High_Middle
+    name: High_Middle
     transitionEndRule: null
-- id: 542
+- id: 502
   properties:
     _type: TransitionRule
+    id: TransitionRule_13
     label: TransitionRule_13
     transitionRuleDescription: "Administration\_of\_first\_dose\_(from\_patches\_\
       supplied\_at\_Visit\_12)"
-    transitionRuleId: TransitionRule_13
-- id: 541
+- id: 501
   properties:
     _type: StudyElement
+    description: Xanomeline TTS (adhesive patches) 50 cm2, 54 mg
+    id: StudyElement_6
     label: StudyElement_6
-    studyElementDescription: Xanomeline TTS (adhesive patches) 50 cm2, 54 mg
-    studyElementId: StudyElement_6
-    studyElementName: High_End
+    name: High_End
     transitionEndRule: null
 - id: 11
   properties:
     _type: StudyDesign
     bcCategories: []
+    description: The main design for the study
+    id: StudyDesign_1
     label: StudyDesign_1
-    studyDesignDescription: The main design for the study
-    studyDesignId: StudyDesign_1
-    studyDesignName: Study Design 1
+    name: Study Design 1
     studyDesignRationale: The discontinuation rate associated with this oral dosing
       regimen was 58.6% in previous studies, and alternative clinical strategies have
       been sought to improve tolerance for the compound. To that end, development
@@ -4715,9 +4383,9 @@
 - id: 1
   properties:
     _type: Study
+    id: null
     label: Study
     studyAcronym: H2Q-MC-LZZT
-    studyId: null
     studyRationale: The discontinuation rate associated with this oral dosing regimen
       was 58.6% in previous studies, and alternative clinical strategies have been
       sought to improve tolerance for the compound. To that end, development of a
