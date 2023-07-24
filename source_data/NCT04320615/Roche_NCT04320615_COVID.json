@@ -275,7 +275,7 @@
       "studyIndications": [
         {
           "id": "Indication_1",
-          "indicationDescription": "Diabetes Type 2",
+          "description": "Diabetes Type 2",
           "codes": [
             {
               "id": "Code_346",
@@ -288,7 +288,7 @@
         },
         {
           "id": "Indication_2",
-          "indicationDescription": "Diabetes Type 2",
+          "description": "Diabetes Type 2",
           "codes": [
             {
               "id": "Code_347",
@@ -301,7 +301,7 @@
         },
         {
           "id": "Indication_3",
-          "indicationDescription": "Diabetes Type 1",
+          "description": "Diabetes Type 1",
           "codes": [
             {
               "id": "Code_348",
@@ -314,7 +314,7 @@
         },
         {
           "id": "Indication_4",
-          "indicationDescription": "Diabetes Type 1",
+          "description": "Diabetes Type 1",
           "codes": [
             {
               "id": "Code_349",
@@ -330,7 +330,7 @@
       "studyPopulations": [
         {
           "id": "StudyDesignPopulation_1",
-          "populationDescription": "A metastatic cancer population",
+          "description": "A metastatic cancer population",
           "plannedNumberOfParticipants": 450,
           "plannedMaximumAgeOfParticipants": "80 years",
           "plannedMinimumAgeOfParticipants": "18 years",
@@ -348,7 +348,7 @@
       "studyObjectives": [
         {
           "id": "Objective_1",
-          "objectiveDescription": "The primary efficacy objective for this study is to evaluate the efficacy of TCZ compared with placebo in combination with SOC for the treatment of severe COVID-19 pneumonia",
+          "description": "The primary efficacy objective for this study is to evaluate the efficacy of TCZ compared with placebo in combination with SOC for the treatment of severe COVID-19 pneumonia",
           "objectiveLevel": {
             "id": "Code_352",
             "code": "C85826",
@@ -359,7 +359,7 @@
           "objectiveEndpoints": [
             {
               "id": "Endpoint_1",
-              "endpointDescription": "Clinical status assessed using a 7-category ordinal scale at Day 28",
+              "description": "Clinical status assessed using a 7-category ordinal scale at Day 28",
               "endpointPurposeDescription": "None provided",
               "endpointLevel": {
                 "id": "Code_351",
@@ -373,7 +373,7 @@
         },
         {
           "id": "Objective_2",
-          "objectiveDescription": "The secondary efficacy objective for this study is to evaluate the efficacy of TCZ compared with placebo in combination with SOC for the treatment of severe COVID-19 pneumonia",
+          "description": "The secondary efficacy objective for this study is to evaluate the efficacy of TCZ compared with placebo in combination with SOC for the treatment of severe COVID-19 pneumonia",
           "objectiveLevel": {
             "id": "Code_354",
             "code": "C85827",
@@ -384,7 +384,7 @@
           "objectiveEndpoints": [
             {
               "id": "Endpoint_2",
-              "endpointDescription": "Time to clinical improvement (TTCI) defined as a National Early Warning Score 2 (NEWS2) of <=2 maintained for 24 hours",
+              "description": "Time to clinical improvement (TTCI) defined as a National Early Warning Score 2 (NEWS2) of <=2 maintained for 24 hours",
               "endpointPurposeDescription": "None provided",
               "endpointLevel": {
                 "id": "Code_353",
@@ -396,7 +396,7 @@
             },
             {
               "id": "Endpoint_3",
-              "endpointDescription": "Time to improvement of at least 2 categories relative to baseline on a 7-category ordinal scale of clinical status",
+              "description": "Time to improvement of at least 2 categories relative to baseline on a 7-category ordinal scale of clinical status",
               "endpointPurposeDescription": "None provided",
               "endpointLevel": {
                 "id": "Code_355",
@@ -408,7 +408,7 @@
             },
             {
               "id": "Endpoint_4",
-              "endpointDescription": "Incidence of mechanical ventilation",
+              "description": "Incidence of mechanical ventilation",
               "endpointPurposeDescription": "None provided",
               "endpointLevel": {
                 "id": "Code_356",
@@ -420,7 +420,7 @@
             },
             {
               "id": "Endpoint_5",
-              "endpointDescription": "Ventilator-free days to Day 28",
+              "description": "Ventilator-free days to Day 28",
               "endpointPurposeDescription": "None provided",
               "endpointLevel": {
                 "id": "Code_357",
@@ -432,7 +432,7 @@
             },
             {
               "id": "Endpoint_6",
-              "endpointDescription": "Incidence of intensive care unit (ICU) stay",
+              "description": "Incidence of intensive care unit (ICU) stay",
               "endpointPurposeDescription": "None provided",
               "endpointLevel": {
                 "id": "Code_358",
@@ -444,7 +444,7 @@
             },
             {
               "id": "Endpoint_7",
-              "endpointDescription": "Duration of ICU stay",
+              "description": "Duration of ICU stay",
               "endpointPurposeDescription": "None provided",
               "endpointLevel": {
                 "id": "Code_359",
@@ -456,7 +456,7 @@
             },
             {
               "id": "Endpoint_8",
-              "endpointDescription": "Time to clinical failure, defined as the time to death, mechanical ventilation, ICU admission, or withdrawal (whichever occurs first). For patients entering the study already in ICU or on mechanical ventilation, clinical failure is defined as a one-category worsening on the ordinal scale, withdrawal or death.",
+              "description": "Time to clinical failure, defined as the time to death, mechanical ventilation, ICU admission, or withdrawal (whichever occurs first). For patients entering the study already in ICU or on mechanical ventilation, clinical failure is defined as a one-category worsening on the ordinal scale, withdrawal or death.",
               "endpointPurposeDescription": "None provided",
               "endpointLevel": {
                 "id": "Code_360",
@@ -468,7 +468,7 @@
             },
             {
               "id": "Endpoint_9",
-              "endpointDescription": "Mortality rate at Days 7, 14, 21, 28, and 60",
+              "description": "Mortality rate at Days 7, 14, 21, 28, and 60",
               "endpointPurposeDescription": "None provided",
               "endpointLevel": {
                 "id": "Code_361",
@@ -480,7 +480,7 @@
             },
             {
               "id": "Endpoint_10",
-              "endpointDescription": "Time to hospital discharge or \u201cready for discharge\u201d (as evidenced by normal body temperature and respiratory rate, and stable oxygen saturation on ambient air or <= 2L supplemental oxygen)",
+              "description": "Time to hospital discharge or \u201cready for discharge\u201d (as evidenced by normal body temperature and respiratory rate, and stable oxygen saturation on ambient air or <= 2L supplemental oxygen)",
               "endpointPurposeDescription": "None provided",
               "endpointLevel": {
                 "id": "Code_362",
@@ -492,7 +492,7 @@
             },
             {
               "id": "Endpoint_11",
-              "endpointDescription": "Time to recovery, defined as discharged or \u201cready for discharge\u201d (as evidenced by normal body temperature and respiratory rate, and stable oxygen saturation on ambient air or <= 2L supplemental oxygen); OR, in a non-ICU hospital ward (or \u201cready for hospital ward\u201d) not requiring supplemental oxygen",
+              "description": "Time to recovery, defined as discharged or \u201cready for discharge\u201d (as evidenced by normal body temperature and respiratory rate, and stable oxygen saturation on ambient air or <= 2L supplemental oxygen); OR, in a non-ICU hospital ward (or \u201cready for hospital ward\u201d) not requiring supplemental oxygen",
               "endpointPurposeDescription": "None provided",
               "endpointLevel": {
                 "id": "Code_363",
@@ -504,7 +504,7 @@
             },
             {
               "id": "Endpoint_12",
-              "endpointDescription": "Duration of supplemental oxygen",
+              "description": "Duration of supplemental oxygen",
               "endpointPurposeDescription": "None provided",
               "endpointLevel": {
                 "id": "Code_364",
@@ -2097,16 +2097,16 @@
           "summaryMeasure": "Survival of all patients",
           "analysisPopulation": {
             "id": "AnalysisPopulation_1",
-            "populationDescription": "ITT"
+            "description": "ITT"
           },
-          "treatment": "Indication_2",
-          "variableOfInterest": "Endpoint_1",
+          "treatmentId": "Indication_2",
+          "variableOfInterestId": "Endpoint_1",
           "intercurrentEvents": [
             {
               "id": "IntercurrentEvent_1",
-              "intercurrentEventStrategy": "Patients with out of range lab values before dosing will be excluded",
-              "intercurrentEventName": "termination",
-              "intercurrentEventDescription": "IC Event Description"
+              "name": "termination",
+              "description": "IC Event Description",
+              "intercurrentEventStrategy": "Patients with out of range lab values before dosing will be excluded"
             }
           ]
         }
@@ -2143,11 +2143,11 @@
           ],
           "transitionStartRule": {
             "id": "TransitionRule_1",
-            "transitionRuleDescription": "Subject identifier"
+            "description": "Subject identifier"
           },
           "transitionEndRule": {
             "id": "TransitionRule_2",
-            "transitionRuleDescription": "IEs passed"
+            "description": "IEs passed"
           },
           "encounterScheduledAtTimingId": null
         },
@@ -2182,7 +2182,7 @@
           ],
           "transitionStartRule": {
             "id": "TransitionRule_3",
-            "transitionRuleDescription": "Radomized"
+            "description": "Radomized"
           },
           "transitionEndRule": null,
           "encounterScheduledAtTimingId": null
@@ -2450,7 +2450,7 @@
           "transitionStartRule": null,
           "transitionEndRule": {
             "id": "TransitionRule_4",
-            "transitionRuleDescription": "End of treatment"
+            "description": "End of treatment"
           },
           "encounterScheduledAtTimingId": null
         },
@@ -4491,11 +4491,11 @@
           "description": "Screening Element",
           "transitionStartRule": {
             "id": "TransitionRule_5",
-            "transitionRuleDescription": "Study Start"
+            "description": "Study Start"
           },
           "transitionEndRule": {
             "id": "TransitionRule_6",
-            "transitionRuleDescription": "Screened"
+            "description": "Screened"
           }
         },
         {
@@ -4504,11 +4504,11 @@
           "description": "Baseline Element",
           "transitionStartRule": {
             "id": "TransitionRule_7",
-            "transitionRuleDescription": "Screened"
+            "description": "Screened"
           },
           "transitionEndRule": {
             "id": "TransitionRule_8",
-            "transitionRuleDescription": "Radomized"
+            "description": "Radomized"
           }
         },
         {
@@ -4517,11 +4517,11 @@
           "description": "Treatment Element",
           "transitionStartRule": {
             "id": "TransitionRule_9",
-            "transitionRuleDescription": "Radomized"
+            "description": "Radomized"
           },
           "transitionEndRule": {
             "id": "TransitionRule_10",
-            "transitionRuleDescription": "Completed treatment"
+            "description": "Completed treatment"
           }
         },
         {
@@ -4530,11 +4530,11 @@
           "description": "Follow Up Element",
           "transitionStartRule": {
             "id": "TransitionRule_11",
-            "transitionRuleDescription": "Treated"
+            "description": "Treated"
           },
           "transitionEndRule": {
             "id": "TransitionRule_12",
-            "transitionRuleDescription": "Followed Up"
+            "description": "Followed Up"
           }
         },
         {
@@ -4543,11 +4543,11 @@
           "description": "Completion Element",
           "transitionStartRule": {
             "id": "TransitionRule_13",
-            "transitionRuleDescription": "Followed Up"
+            "description": "Followed Up"
           },
           "transitionEndRule": {
             "id": "TransitionRule_14",
-            "transitionRuleDescription": "Completed"
+            "description": "Completed"
           }
         }
       ]

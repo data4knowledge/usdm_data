@@ -237,7 +237,7 @@
       "studyIndications": [
         {
           "id": "Indication_1",
-          "indicationDescription": "Alzheimer's disease",
+          "description": "Alzheimer's disease",
           "codes": [
             {
               "id": "Code_248",
@@ -250,7 +250,7 @@
         },
         {
           "id": "Indication_2",
-          "indicationDescription": "Alzheimer's disease",
+          "description": "Alzheimer's disease",
           "codes": [
             {
               "id": "Code_249",
@@ -266,7 +266,7 @@
       "studyPopulations": [
         {
           "id": "StudyDesignPopulation_1",
-          "populationDescription": "Patients with Probable Mild to Moderate Alzheimer\\'s Disease",
+          "description": "Patients with Probable Mild to Moderate Alzheimer\\'s Disease",
           "plannedNumberOfParticipants": 300,
           "plannedMaximumAgeOfParticipants": "100 years",
           "plannedMinimumAgeOfParticipants": "50 years",
@@ -284,7 +284,7 @@
       "studyObjectives": [
         {
           "id": "Objective_1",
-          "objectiveDescription": "To determine if there is a statistically significant relationship (overall Type 1 error\nrate, alpha=0.05) between the change in both the ADAS-Cog (11) and CIBIC+\nscores, and drug dose (0, 50 cm2 [54 mg], and 75 cm2 [81 mg]).",
+          "description": "To determine if there is a statistically significant relationship (overall Type 1 error\nrate, alpha=0.05) between the change in both the ADAS-Cog (11) and CIBIC+\nscores, and drug dose (0, 50 cm2 [54 mg], and 75 cm2 [81 mg]).",
           "objectiveLevel": {
             "id": "Code_252",
             "code": "C85826",
@@ -295,7 +295,7 @@
           "objectiveEndpoints": [
             {
               "id": "Endpoint_1",
-              "endpointDescription": "Alzheimer\\'s Disease Assessment Scale - Cognitive Subscale, total of 11 items\n[ADAS-Cog (11)] at Week 24",
+              "description": "Alzheimer\\'s Disease Assessment Scale - Cognitive Subscale, total of 11 items\n[ADAS-Cog (11)] at Week 24",
               "endpointPurposeDescription": "None provided",
               "endpointLevel": {
                 "id": "Code_251",
@@ -307,7 +307,7 @@
             },
             {
               "id": "Endpoint_2",
-              "endpointDescription": "Video-referenced Clinician\u2019s Interview-based Impression of Change (CIBIC+) at\nWeek 24",
+              "description": "Video-referenced Clinician\u2019s Interview-based Impression of Change (CIBIC+) at\nWeek 24",
               "endpointPurposeDescription": "None provided",
               "endpointLevel": {
                 "id": "Code_253",
@@ -321,7 +321,7 @@
         },
         {
           "id": "Objective_2",
-          "objectiveDescription": "To document the safety profile of the xanomeline TTS.",
+          "description": "To document the safety profile of the xanomeline TTS.",
           "objectiveLevel": {
             "id": "Code_255",
             "code": "C85826",
@@ -332,7 +332,7 @@
           "objectiveEndpoints": [
             {
               "id": "Endpoint_3",
-              "endpointDescription": "Adverse events",
+              "description": "Adverse events",
               "endpointPurposeDescription": "None provided",
               "endpointLevel": {
                 "id": "Code_254",
@@ -344,7 +344,7 @@
             },
             {
               "id": "Endpoint_4",
-              "endpointDescription": "Vital signs (weight, standing and supine blood pressure, heart rate)",
+              "description": "Vital signs (weight, standing and supine blood pressure, heart rate)",
               "endpointPurposeDescription": "None provided",
               "endpointLevel": {
                 "id": "Code_256",
@@ -356,7 +356,7 @@
             },
             {
               "id": "Endpoint_5",
-              "endpointDescription": "Laboratory evaluations (Change from Baseline)",
+              "description": "Laboratory evaluations (Change from Baseline)",
               "endpointPurposeDescription": "The change from baseline laboratory value will be \ncalculated as the difference between the baseline lab value and the endpoint value (i.e.,\nthe value at the specified visit) or the end of treatment observation",
               "endpointLevel": {
                 "id": "Code_257",
@@ -370,7 +370,7 @@
         },
         {
           "id": "Objective_3",
-          "objectiveDescription": "To assess the dose-dependent improvement in behavior. Improved scores on the\nRevised Neuropsychiatric Inventory (NPI-X) will indicate improvement in these\nareas.",
+          "description": "To assess the dose-dependent improvement in behavior. Improved scores on the\nRevised Neuropsychiatric Inventory (NPI-X) will indicate improvement in these\nareas.",
           "objectiveLevel": {
             "id": "Code_259",
             "code": "C85827",
@@ -381,7 +381,7 @@
           "objectiveEndpoints": [
             {
               "id": "Endpoint_6",
-              "endpointDescription": "Alzheimer\\'s Disease Assessment Scale - Cognitive Subscale, total of 11 items\n[ADAS-Cog (11)] at Weeks 8 and 16",
+              "description": "Alzheimer\\'s Disease Assessment Scale - Cognitive Subscale, total of 11 items\n[ADAS-Cog (11)] at Weeks 8 and 16",
               "endpointPurposeDescription": "None provided",
               "endpointLevel": {
                 "id": "Code_258",
@@ -393,7 +393,7 @@
             },
             {
               "id": "Endpoint_7",
-              "endpointDescription": "Video-referenced Clinician\\\u2019s Interview-based Impression of Change (CIBIC+) at\nWeeks 8 and 16",
+              "description": "Video-referenced Clinician\\\u2019s Interview-based Impression of Change (CIBIC+) at\nWeeks 8 and 16",
               "endpointPurposeDescription": "None provided",
               "endpointLevel": {
                 "id": "Code_260",
@@ -405,7 +405,7 @@
             },
             {
               "id": "Endpoint_8",
-              "endpointDescription": "Mean Revised Neuropsychiatric Inventory (NPI-X) from Week 4 to Week 24",
+              "description": "Mean Revised Neuropsychiatric Inventory (NPI-X) from Week 4 to Week 24",
               "endpointPurposeDescription": "None provided",
               "endpointLevel": {
                 "id": "Code_261",
@@ -1286,11 +1286,11 @@
           ],
           "transitionStartRule": {
             "id": "TransitionRule_1",
-            "transitionRuleDescription": "Subject identifier"
+            "description": "Subject identifier"
           },
           "transitionEndRule": {
             "id": "TransitionRule_2",
-            "transitionRuleDescription": "completion of screening activities"
+            "description": "completion of screening activities"
           },
           "encounterScheduledAtTimingId": null
         },
@@ -1326,7 +1326,7 @@
           "transitionStartRule": null,
           "transitionEndRule": {
             "id": "TransitionRule_3",
-            "transitionRuleDescription": "subject leaves clinic after connection of ambulatory ECG machine"
+            "description": "subject leaves clinic after connection of ambulatory ECG machine"
           },
           "encounterScheduledAtTimingId": null
         },
@@ -1361,11 +1361,11 @@
           ],
           "transitionStartRule": {
             "id": "TransitionRule_4",
-            "transitionRuleDescription": "subject has connection of ambulatory ECG machine removed"
+            "description": "subject has connection of ambulatory ECG machine removed"
           },
           "transitionEndRule": {
             "id": "TransitionRule_5",
-            "transitionRuleDescription": "Radomized"
+            "description": "Radomized"
           },
           "encounterScheduledAtTimingId": null
         },
@@ -1863,7 +1863,7 @@
           "transitionStartRule": null,
           "transitionEndRule": {
             "id": "TransitionRule_6",
-            "transitionRuleDescription": "End of treatment"
+            "description": "End of treatment"
           },
           "encounterScheduledAtTimingId": null
         }
@@ -3903,11 +3903,11 @@
           "description": "Screening Element",
           "transitionStartRule": {
             "id": "TransitionRule_7",
-            "transitionRuleDescription": "Informed consent"
+            "description": "Informed consent"
           },
           "transitionEndRule": {
             "id": "TransitionRule_8",
-            "transitionRuleDescription": "Completion of all screening activities and no more than 2 weeks from informed consent"
+            "description": "Completion of all screening activities and no more than 2 weeks from informed consent"
           }
         },
         {
@@ -3916,7 +3916,7 @@
           "description": "Placebo TTS (adhesive patches)",
           "transitionStartRule": {
             "id": "TransitionRule_9",
-            "transitionRuleDescription": "Administration\u00a0of\u00a0first\u00a0dose"
+            "description": "Administration\u00a0of\u00a0first\u00a0dose"
           },
           "transitionEndRule": null
         },
@@ -3926,11 +3926,11 @@
           "description": "Follow Up Element",
           "transitionStartRule": {
             "id": "TransitionRule_14",
-            "transitionRuleDescription": "End\u00a0of\u00a0last\u00a0scheduled\u00a0visit\u00a0on\u00a0study\u00a0(including\u00a0early\u00a0termination)"
+            "description": "End\u00a0of\u00a0last\u00a0scheduled\u00a0visit\u00a0on\u00a0study\u00a0(including\u00a0early\u00a0termination)"
           },
           "transitionEndRule": {
             "id": "TransitionRule_15",
-            "transitionRuleDescription": "Completion\u00a0of\u00a0all\u00a0specified\u00a0followup\u00a0activities\u00a0(which\u00a0vary\u00a0on\u00a0a\u00a0patient-by-patient\u00a0basis)"
+            "description": "Completion\u00a0of\u00a0all\u00a0specified\u00a0followup\u00a0activities\u00a0(which\u00a0vary\u00a0on\u00a0a\u00a0patient-by-patient\u00a0basis)"
           }
         },
         {
@@ -3939,7 +3939,7 @@
           "description": "Xanomeline TTS (adhesive patches) 50 cm2, 54 mg",
           "transitionStartRule": {
             "id": "TransitionRule_10",
-            "transitionRuleDescription": "Administration\u00a0of\u00a0first\u00a0dose"
+            "description": "Administration\u00a0of\u00a0first\u00a0dose"
           },
           "transitionEndRule": null
         },
@@ -3949,7 +3949,7 @@
           "description": "Xanomeline TTS (adhesive patches) 50 cm2, 54 mg",
           "transitionStartRule": {
             "id": "TransitionRule_11",
-            "transitionRuleDescription": "Randomized"
+            "description": "Randomized"
           },
           "transitionEndRule": null
         },
@@ -3959,7 +3959,7 @@
           "description": "Xanomeline TTS (adhesive patches) 50 cm2, 54 mg + 25 cm2, 27 mg",
           "transitionStartRule": {
             "id": "TransitionRule_12",
-            "transitionRuleDescription": "Administration\u00a0of\u00a0first\u00a0dose\u00a0(from\u00a0patches\u00a0supplied\u00a0at\u00a0Visit\u00a04)"
+            "description": "Administration\u00a0of\u00a0first\u00a0dose\u00a0(from\u00a0patches\u00a0supplied\u00a0at\u00a0Visit\u00a04)"
           },
           "transitionEndRule": null
         },
@@ -3969,7 +3969,7 @@
           "description": "Xanomeline TTS (adhesive patches) 50 cm2, 54 mg",
           "transitionStartRule": {
             "id": "TransitionRule_13",
-            "transitionRuleDescription": "Administration\u00a0of\u00a0first\u00a0dose\u00a0(from\u00a0patches\u00a0supplied\u00a0at\u00a0Visit\u00a012)"
+            "description": "Administration\u00a0of\u00a0first\u00a0dose\u00a0(from\u00a0patches\u00a0supplied\u00a0at\u00a0Visit\u00a012)"
           },
           "transitionEndRule": null
         }

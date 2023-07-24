@@ -237,8 +237,8 @@
 - id: 30
   properties:
     _type: Indication
+    description: An indication
     id: Indication_1
-    indicationDescription: An indication
     label: Indication_1
 - id: 33
   properties:
@@ -252,8 +252,8 @@
 - id: 32
   properties:
     _type: Indication
+    description: An indication
     id: Indication_2
-    indicationDescription: An indication
     label: Indication_2
 - id: 35
   properties:
@@ -276,8 +276,8 @@
 - id: 34
   properties:
     _type: InvestigationalIntervention
+    description: null
     id: InvestigationalIntervention_1
-    interventionDescription: An intervention
     label: InvestigationalIntervention_1
 - id: 38
   properties:
@@ -300,8 +300,8 @@
 - id: 37
   properties:
     _type: InvestigationalIntervention
+    description: null
     id: InvestigationalIntervention_2
-    interventionDescription: An intervention
     label: InvestigationalIntervention_2
 - id: 41
   properties:
@@ -315,12 +315,12 @@
 - id: 40
   properties:
     _type: StudyDesignPopulation
+    description: Pop 1
     id: StudyDesignPopulation_1
     label: StudyDesignPopulation_1
     plannedMaximumAgeOfParticipants: 40 years
     plannedMinimumAgeOfParticipants: 18 years
     plannedNumberOfParticipants: 100
-    populationDescription: Pop 1
 - id: 43
   properties:
     _type: Code
@@ -333,12 +333,12 @@
 - id: 42
   properties:
     _type: StudyDesignPopulation
+    description: Pop 2
     id: StudyDesignPopulation_2
     label: StudyDesignPopulation_2
     plannedMaximumAgeOfParticipants: 60 years
     plannedMinimumAgeOfParticipants: 18 years
     plannedNumberOfParticipants: 20
-    populationDescription: Pop 2
 - id: 45
   properties:
     _type: Code
@@ -351,12 +351,12 @@
 - id: 44
   properties:
     _type: StudyDesignPopulation
+    description: Pop 3
     id: StudyDesignPopulation_3
     label: StudyDesignPopulation_3
     plannedMaximumAgeOfParticipants: 70 years
     plannedMinimumAgeOfParticipants: 18 years
     plannedNumberOfParticipants: 20
-    populationDescription: Pop 3
 - id: 47
   properties:
     _type: Code
@@ -378,19 +378,19 @@
 - id: 48
   properties:
     _type: Endpoint
-    endpointDescription: Clinical status assessed using a 7-category ordinal scale
-      at Day 28
+    description: Clinical status assessed using a 7-category ordinal scale at Day
+      28
     endpointPurposeDescription: None provided
     id: Endpoint_1
     label: Endpoint_1
 - id: 46
   properties:
     _type: Objective
+    description: The primary efficacy objective for this study is to evaluate the
+      efficacy of TCZ compared with placebo in combination with SOC for the treatment
+      of severe COVID-19 pneumonia
     id: Objective_1
     label: Objective_1
-    objectiveDescription: The primary efficacy objective for this study is to evaluate
-      the efficacy of TCZ compared with placebo in combination with SOC for the treatment
-      of severe COVID-19 pneumonia
 - id: 51
   properties:
     _type: Code
@@ -412,8 +412,8 @@
 - id: 52
   properties:
     _type: Endpoint
-    endpointDescription: Time to clinical improvement (TTCI) defined as a National
-      Early Warning Score 2 (NEWS2) of <=2 maintained for 24 hours
+    description: Time to clinical improvement (TTCI) defined as a National Early Warning
+      Score 2 (NEWS2) of <=2 maintained for 24 hours
     endpointPurposeDescription: None provided
     id: Endpoint_2
     label: Endpoint_2
@@ -429,8 +429,8 @@
 - id: 54
   properties:
     _type: Endpoint
-    endpointDescription: Time to improvement of at least 2 categories relative to
-      baseline on a 7-category ordinal scale of clinical status
+    description: Time to improvement of at least 2 categories relative to baseline
+      on a 7-category ordinal scale of clinical status
     endpointPurposeDescription: None provided
     id: Endpoint_3
     label: Endpoint_3
@@ -446,7 +446,7 @@
 - id: 56
   properties:
     _type: Endpoint
-    endpointDescription: Incidence of mechanical ventilation
+    description: Incidence of mechanical ventilation
     endpointPurposeDescription: None provided
     id: Endpoint_4
     label: Endpoint_4
@@ -462,7 +462,7 @@
 - id: 58
   properties:
     _type: Endpoint
-    endpointDescription: Ventilator-free days to Day 28
+    description: Ventilator-free days to Day 28
     endpointPurposeDescription: None provided
     id: Endpoint_5
     label: Endpoint_5
@@ -478,7 +478,7 @@
 - id: 60
   properties:
     _type: Endpoint
-    endpointDescription: Incidence of intensive care unit (ICU) stay
+    description: Incidence of intensive care unit (ICU) stay
     endpointPurposeDescription: None provided
     id: Endpoint_6
     label: Endpoint_6
@@ -494,7 +494,7 @@
 - id: 62
   properties:
     _type: Endpoint
-    endpointDescription: Duration of ICU stay
+    description: Duration of ICU stay
     endpointPurposeDescription: None provided
     id: Endpoint_7
     label: Endpoint_7
@@ -510,7 +510,7 @@
 - id: 64
   properties:
     _type: Endpoint
-    endpointDescription: Time to clinical failure, defined as the time to death, mechanical
+    description: Time to clinical failure, defined as the time to death, mechanical
       ventilation, ICU admission, or withdrawal (whichever occurs first). For patients
       entering the study already in ICU or on mechanical ventilation, clinical failure
       is defined as a one-category worsening on the ordinal scale, withdrawal or death.
@@ -529,7 +529,7 @@
 - id: 66
   properties:
     _type: Endpoint
-    endpointDescription: Mortality rate at Days 7, 14, 21, 28, and 60
+    description: Mortality rate at Days 7, 14, 21, 28, and 60
     endpointPurposeDescription: None provided
     id: Endpoint_9
     label: Endpoint_9
@@ -545,9 +545,9 @@
 - id: 68
   properties:
     _type: Endpoint
-    endpointDescription: "Time to hospital discharge or \u201Cready for discharge\u201D\
-      \ (as evidenced by normal body temperature and respiratory rate, and stable\
-      \ oxygen saturation on ambient air or <= 2L supplemental oxygen)"
+    description: "Time to hospital discharge or \u201Cready for discharge\u201D (as\
+      \ evidenced by normal body temperature and respiratory rate, and stable oxygen\
+      \ saturation on ambient air or <= 2L supplemental oxygen)"
     endpointPurposeDescription: None provided
     id: Endpoint_10
     label: Endpoint_10
@@ -563,11 +563,11 @@
 - id: 70
   properties:
     _type: Endpoint
-    endpointDescription: "Time to recovery, defined as discharged or \u201Cready for\
-      \ discharge\u201D (as evidenced by normal body temperature and respiratory rate,\
-      \ and stable oxygen saturation on ambient air or <= 2L supplemental oxygen);\
-      \ OR, in a non-ICU hospital ward (or \u201Cready for hospital ward\u201D) not\
-      \ requiring supplemental oxygen"
+    description: "Time to recovery, defined as discharged or \u201Cready for discharge\u201D\
+      \ (as evidenced by normal body temperature and respiratory rate, and stable\
+      \ oxygen saturation on ambient air or <= 2L supplemental oxygen); OR, in a non-ICU\
+      \ hospital ward (or \u201Cready for hospital ward\u201D) not requiring supplemental\
+      \ oxygen"
     endpointPurposeDescription: None provided
     id: Endpoint_11
     label: Endpoint_11
@@ -583,18 +583,18 @@
 - id: 72
   properties:
     _type: Endpoint
-    endpointDescription: Duration of supplemental oxygen
+    description: Duration of supplemental oxygen
     endpointPurposeDescription: None provided
     id: Endpoint_12
     label: Endpoint_12
 - id: 50
   properties:
     _type: Objective
+    description: The secondary efficacy objective for this study is to evaluate the
+      efficacy of TCZ compared with placebo in combination with SOC for the treatment
+      of severe COVID-19 pneumonia
     id: Objective_2
     label: Objective_2
-    objectiveDescription: The secondary efficacy objective for this study is to evaluate
-      the efficacy of TCZ compared with placebo in combination with SOC for the treatment
-      of severe COVID-19 pneumonia
 - id: 75
   properties:
     _type: ScheduleTimelineExit
@@ -739,60 +739,64 @@
 - id: 91
   properties:
     _type: AnalysisPopulation
+    description: ITT
     id: AnalysisPopulation_1
     label: AnalysisPopulation_1
-    populationDescription: ITT
 - id: 92
   properties:
     _type: IntercurrentEvent
+    description: IC Event Description
     id: IntercurrentEvent_1
-    intercurrentEventDescription: IC Event Description
-    intercurrentEventName: termination
     intercurrentEventStrategy: Patients with out of range lab values before dosing
       will be excluded
     label: IntercurrentEvent_1
+    name: termination
 - id: 93
   properties:
     _type: IntercurrentEvent
+    description: ''
     id: IntercurrentEvent_2
-    intercurrentEventDescription: ''
-    intercurrentEventName: ''
     intercurrentEventStrategy: A second bad event
     label: IntercurrentEvent_2
+    name: ''
 - id: 94
   properties:
     _type: IntercurrentEvent
+    description: ''
     id: IntercurrentEvent_3
-    intercurrentEventDescription: ''
-    intercurrentEventName: ''
     intercurrentEventStrategy: A third bad thing
     label: IntercurrentEvent_3
+    name: ''
 - id: 90
   properties:
     _type: Estimand
     id: Estimand_1
     label: Estimand_1
     summaryMeasure: Survival of all patients
+    treatmentId: InvestigationalIntervention_1
+    variableOfInterestId: Endpoint_1
 - id: 96
   properties:
     _type: AnalysisPopulation
+    description: ITT
     id: AnalysisPopulation_2
     label: AnalysisPopulation_2
-    populationDescription: ITT
 - id: 97
   properties:
     _type: IntercurrentEvent
+    description: IC Event Description Number 2
     id: IntercurrentEvent_4
-    intercurrentEventDescription: IC Event Description Number 2
-    intercurrentEventName: Bad stuff
     intercurrentEventStrategy: Really really bad shit
     label: IntercurrentEvent_4
+    name: Bad stuff
 - id: 95
   properties:
     _type: Estimand
     id: Estimand_2
     label: Estimand_2
     summaryMeasure: Something else
+    treatmentId: InvestigationalIntervention_2
+    variableOfInterestId: Endpoint_2
 - id: 99
   properties:
     _type: Code
@@ -823,9 +827,9 @@
 - id: 102
   properties:
     _type: TransitionRule
+    description: Radomized
     id: TransitionRule_1
     label: TransitionRule_1
-    transitionRuleDescription: Radomized
 - id: 98
   properties:
     _type: Encounter
@@ -1328,15 +1332,15 @@
 - id: 162
   properties:
     _type: TransitionRule
+    description: Radomized
     id: TransitionRule_2
     label: TransitionRule_2
-    transitionRuleDescription: Radomized
 - id: 163
   properties:
     _type: TransitionRule
+    description: Completed treatment 1
     id: TransitionRule_3
     label: TransitionRule_3
-    transitionRuleDescription: Completed treatment 1
 - id: 161
   properties:
     _type: StudyElement
@@ -1347,15 +1351,15 @@
 - id: 165
   properties:
     _type: TransitionRule
+    description: Treated
     id: TransitionRule_4
     label: TransitionRule_4
-    transitionRuleDescription: Treated
 - id: 166
   properties:
     _type: TransitionRule
+    description: Leave Study
     id: TransitionRule_5
     label: TransitionRule_5
-    transitionRuleDescription: Leave Study
 - id: 164
   properties:
     _type: StudyElement

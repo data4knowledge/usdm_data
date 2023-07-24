@@ -213,8 +213,8 @@
 - id: 32
   properties:
     _type: Indication
+    description: Alzheimer's disease
     id: Indication_1
-    indicationDescription: Alzheimer's disease
     label: Indication_1
 - id: 35
   properties:
@@ -228,8 +228,8 @@
 - id: 34
   properties:
     _type: Indication
+    description: Alzheimer's disease
     id: Indication_2
-    indicationDescription: Alzheimer's disease
     label: Indication_2
 - id: 37
   properties:
@@ -243,12 +243,12 @@
 - id: 36
   properties:
     _type: StudyDesignPopulation
+    description: Patients with Probable Mild to Moderate Alzheimer\'s Disease
     id: StudyDesignPopulation_1
     label: StudyDesignPopulation_1
     plannedMaximumAgeOfParticipants: 100 years
     plannedMinimumAgeOfParticipants: 50 years
     plannedNumberOfParticipants: 300
-    populationDescription: Patients with Probable Mild to Moderate Alzheimer\'s Disease
 - id: 39
   properties:
     _type: Code
@@ -270,8 +270,8 @@
 - id: 40
   properties:
     _type: Endpoint
-    endpointDescription: 'Alzheimer\''s Disease Assessment Scale - Cognitive Subscale,
-      total of 11 items
+    description: 'Alzheimer\''s Disease Assessment Scale - Cognitive Subscale, total
+      of 11 items
 
       [ADAS-Cog (11)] at Week 24'
     endpointPurposeDescription: None provided
@@ -289,22 +289,22 @@
 - id: 42
   properties:
     _type: Endpoint
-    endpointDescription: "Video-referenced Clinician\u2019s Interview-based Impression\
-      \ of Change (CIBIC+) at\nWeek 24"
+    description: "Video-referenced Clinician\u2019s Interview-based Impression of\
+      \ Change (CIBIC+) at\nWeek 24"
     endpointPurposeDescription: None provided
     id: Endpoint_2
     label: Endpoint_2
 - id: 38
   properties:
     _type: Objective
-    id: Objective_1
-    label: Objective_1
-    objectiveDescription: 'To determine if there is a statistically significant relationship
+    description: 'To determine if there is a statistically significant relationship
       (overall Type 1 error
 
       rate, alpha=0.05) between the change in both the ADAS-Cog (11) and CIBIC+
 
       scores, and drug dose (0, 50 cm2 [54 mg], and 75 cm2 [81 mg]).'
+    id: Objective_1
+    label: Objective_1
 - id: 45
   properties:
     _type: Code
@@ -326,7 +326,7 @@
 - id: 46
   properties:
     _type: Endpoint
-    endpointDescription: Adverse events
+    description: Adverse events
     endpointPurposeDescription: None provided
     id: Endpoint_3
     label: Endpoint_3
@@ -342,8 +342,7 @@
 - id: 48
   properties:
     _type: Endpoint
-    endpointDescription: Vital signs (weight, standing and supine blood pressure,
-      heart rate)
+    description: Vital signs (weight, standing and supine blood pressure, heart rate)
     endpointPurposeDescription: None provided
     id: Endpoint_4
     label: Endpoint_4
@@ -359,7 +358,7 @@
 - id: 50
   properties:
     _type: Endpoint
-    endpointDescription: Laboratory evaluations (Change from Baseline)
+    description: Laboratory evaluations (Change from Baseline)
     endpointPurposeDescription: "The change from baseline laboratory value will be\
       \ \ncalculated as the difference between the baseline lab value and the endpoint\
       \ value (i.e.,\nthe value at the specified visit) or the end of treatment observation"
@@ -368,9 +367,9 @@
 - id: 44
   properties:
     _type: Objective
+    description: To document the safety profile of the xanomeline TTS.
     id: Objective_2
     label: Objective_2
-    objectiveDescription: To document the safety profile of the xanomeline TTS.
 - id: 53
   properties:
     _type: Code
@@ -392,8 +391,8 @@
 - id: 54
   properties:
     _type: Endpoint
-    endpointDescription: 'Alzheimer\''s Disease Assessment Scale - Cognitive Subscale,
-      total of 11 items
+    description: 'Alzheimer\''s Disease Assessment Scale - Cognitive Subscale, total
+      of 11 items
 
       [ADAS-Cog (11)] at Weeks 8 and 16'
     endpointPurposeDescription: None provided
@@ -411,8 +410,8 @@
 - id: 56
   properties:
     _type: Endpoint
-    endpointDescription: "Video-referenced Clinician\\\u2019s Interview-based Impression\
-      \ of Change (CIBIC+) at\nWeeks 8 and 16"
+    description: "Video-referenced Clinician\\\u2019s Interview-based Impression of\
+      \ Change (CIBIC+) at\nWeeks 8 and 16"
     endpointPurposeDescription: None provided
     id: Endpoint_7
     label: Endpoint_7
@@ -428,22 +427,22 @@
 - id: 58
   properties:
     _type: Endpoint
-    endpointDescription: Mean Revised Neuropsychiatric Inventory (NPI-X) from Week
-      4 to Week 24
+    description: Mean Revised Neuropsychiatric Inventory (NPI-X) from Week 4 to Week
+      24
     endpointPurposeDescription: None provided
     id: Endpoint_8
     label: Endpoint_8
 - id: 52
   properties:
     _type: Objective
-    id: Objective_3
-    label: Objective_3
-    objectiveDescription: 'To assess the dose-dependent improvement in behavior. Improved
-      scores on the
+    description: 'To assess the dose-dependent improvement in behavior. Improved scores
+      on the
 
       Revised Neuropsychiatric Inventory (NPI-X) will indicate improvement in these
 
       areas.'
+    id: Objective_3
+    label: Objective_3
 - id: 61
   properties:
     _type: ScheduleTimelineExit
@@ -1155,15 +1154,15 @@
 - id: 140
   properties:
     _type: TransitionRule
+    description: Subject identifier
     id: TransitionRule_1
     label: TransitionRule_1
-    transitionRuleDescription: Subject identifier
 - id: 141
   properties:
     _type: TransitionRule
+    description: completion of screening activities
     id: TransitionRule_2
     label: TransitionRule_2
-    transitionRuleDescription: completion of screening activities
 - id: 136
   properties:
     _type: Encounter
@@ -1204,10 +1203,9 @@
 - id: 146
   properties:
     _type: TransitionRule
+    description: subject leaves clinic after connection of ambulatory ECG machine
     id: TransitionRule_3
     label: TransitionRule_3
-    transitionRuleDescription: subject leaves clinic after connection of ambulatory
-      ECG machine
 - id: 142
   properties:
     _type: Encounter
@@ -1249,15 +1247,15 @@
 - id: 151
   properties:
     _type: TransitionRule
+    description: subject has connection of ambulatory ECG machine removed
     id: TransitionRule_4
     label: TransitionRule_4
-    transitionRuleDescription: subject has connection of ambulatory ECG machine removed
 - id: 152
   properties:
     _type: TransitionRule
+    description: Radomized
     id: TransitionRule_5
     label: TransitionRule_5
-    transitionRuleDescription: Radomized
 - id: 147
   properties:
     _type: Encounter
@@ -1844,9 +1842,9 @@
 - id: 213
   properties:
     _type: TransitionRule
+    description: End of treatment
     id: TransitionRule_6
     label: TransitionRule_6
-    transitionRuleDescription: End of treatment
 - id: 209
   properties:
     _type: Encounter
@@ -4266,16 +4264,16 @@
 - id: 489
   properties:
     _type: TransitionRule
+    description: Informed consent
     id: TransitionRule_7
     label: TransitionRule_7
-    transitionRuleDescription: Informed consent
 - id: 490
   properties:
     _type: TransitionRule
+    description: Completion of all screening activities and no more than 2 weeks from
+      informed consent
     id: TransitionRule_8
     label: TransitionRule_8
-    transitionRuleDescription: Completion of all screening activities and no more
-      than 2 weeks from informed consent
 - id: 488
   properties:
     _type: StudyElement
@@ -4286,9 +4284,9 @@
 - id: 492
   properties:
     _type: TransitionRule
+    description: "Administration\_of\_first\_dose"
     id: TransitionRule_9
     label: TransitionRule_9
-    transitionRuleDescription: "Administration\_of\_first\_dose"
 - id: 491
   properties:
     _type: StudyElement
@@ -4300,17 +4298,17 @@
 - id: 494
   properties:
     _type: TransitionRule
+    description: "End\_of\_last\_scheduled\_visit\_on\_study\_(including\_early\_\
+      termination)"
     id: TransitionRule_14
     label: TransitionRule_14
-    transitionRuleDescription: "End\_of\_last\_scheduled\_visit\_on\_study\_(including\_\
-      early\_termination)"
 - id: 495
   properties:
     _type: TransitionRule
+    description: "Completion\_of\_all\_specified\_followup\_activities\_(which\_vary\_\
+      on\_a\_patient-by-patient\_basis)"
     id: TransitionRule_15
     label: TransitionRule_15
-    transitionRuleDescription: "Completion\_of\_all\_specified\_followup\_activities\_\
-      (which\_vary\_on\_a\_patient-by-patient\_basis)"
 - id: 493
   properties:
     _type: StudyElement
@@ -4321,9 +4319,9 @@
 - id: 497
   properties:
     _type: TransitionRule
+    description: "Administration\_of\_first\_dose"
     id: TransitionRule_10
     label: TransitionRule_10
-    transitionRuleDescription: "Administration\_of\_first\_dose"
 - id: 496
   properties:
     _type: StudyElement
@@ -4335,9 +4333,9 @@
 - id: 499
   properties:
     _type: TransitionRule
+    description: Randomized
     id: TransitionRule_11
     label: TransitionRule_11
-    transitionRuleDescription: Randomized
 - id: 498
   properties:
     _type: StudyElement
@@ -4349,10 +4347,10 @@
 - id: 501
   properties:
     _type: TransitionRule
+    description: "Administration\_of\_first\_dose\_(from\_patches\_supplied\_at\_\
+      Visit\_4)"
     id: TransitionRule_12
     label: TransitionRule_12
-    transitionRuleDescription: "Administration\_of\_first\_dose\_(from\_patches\_\
-      supplied\_at\_Visit\_4)"
 - id: 500
   properties:
     _type: StudyElement
@@ -4364,10 +4362,10 @@
 - id: 503
   properties:
     _type: TransitionRule
+    description: "Administration\_of\_first\_dose\_(from\_patches\_supplied\_at\_\
+      Visit\_12)"
     id: TransitionRule_13
     label: TransitionRule_13
-    transitionRuleDescription: "Administration\_of\_first\_dose\_(from\_patches\_\
-      supplied\_at\_Visit\_12)"
 - id: 502
   properties:
     _type: StudyElement

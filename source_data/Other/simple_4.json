@@ -214,7 +214,7 @@
       "studyIndications": [
         {
           "id": "Indication_1",
-          "indicationDescription": "An indication",
+          "description": "An indication",
           "codes": [
             {
               "id": "Code_64",
@@ -227,7 +227,7 @@
         },
         {
           "id": "Indication_2",
-          "indicationDescription": "An indication",
+          "description": "An indication",
           "codes": [
             {
               "id": "Code_67",
@@ -242,7 +242,7 @@
       "studyInvestigationalInterventions": [
         {
           "id": "InvestigationalIntervention_1",
-          "interventionDescription": "An intervention",
+          "description": null,
           "codes": [
             {
               "id": "Code_65",
@@ -262,7 +262,7 @@
         },
         {
           "id": "InvestigationalIntervention_2",
-          "interventionDescription": "An intervention",
+          "description": null,
           "codes": [
             {
               "id": "Code_68",
@@ -284,7 +284,7 @@
       "studyPopulations": [
         {
           "id": "StudyDesignPopulation_1",
-          "populationDescription": "Pop 1",
+          "description": "Pop 1",
           "plannedNumberOfParticipants": 100,
           "plannedMaximumAgeOfParticipants": "40 years",
           "plannedMinimumAgeOfParticipants": "18 years",
@@ -300,7 +300,7 @@
         },
         {
           "id": "StudyDesignPopulation_2",
-          "populationDescription": "Pop 2",
+          "description": "Pop 2",
           "plannedNumberOfParticipants": 20,
           "plannedMaximumAgeOfParticipants": "60 years",
           "plannedMinimumAgeOfParticipants": "18 years",
@@ -316,7 +316,7 @@
         },
         {
           "id": "StudyDesignPopulation_3",
-          "populationDescription": "Pop 3",
+          "description": "Pop 3",
           "plannedNumberOfParticipants": 20,
           "plannedMaximumAgeOfParticipants": "70 years",
           "plannedMinimumAgeOfParticipants": "18 years",
@@ -334,7 +334,7 @@
       "studyObjectives": [
         {
           "id": "Objective_1",
-          "objectiveDescription": "The primary efficacy objective for this study is to evaluate the efficacy of TCZ compared with placebo in combination with SOC for the treatment of severe COVID-19 pneumonia",
+          "description": "The primary efficacy objective for this study is to evaluate the efficacy of TCZ compared with placebo in combination with SOC for the treatment of severe COVID-19 pneumonia",
           "objectiveLevel": {
             "id": "Code_74",
             "code": "C85826",
@@ -345,7 +345,7 @@
           "objectiveEndpoints": [
             {
               "id": "Endpoint_1",
-              "endpointDescription": "Clinical status assessed using a 7-category ordinal scale at Day 28",
+              "description": "Clinical status assessed using a 7-category ordinal scale at Day 28",
               "endpointPurposeDescription": "None provided",
               "endpointLevel": {
                 "id": "Code_73",
@@ -359,7 +359,7 @@
         },
         {
           "id": "Objective_2",
-          "objectiveDescription": "The secondary efficacy objective for this study is to evaluate the efficacy of TCZ compared with placebo in combination with SOC for the treatment of severe COVID-19 pneumonia",
+          "description": "The secondary efficacy objective for this study is to evaluate the efficacy of TCZ compared with placebo in combination with SOC for the treatment of severe COVID-19 pneumonia",
           "objectiveLevel": {
             "id": "Code_76",
             "code": "C85827",
@@ -370,7 +370,7 @@
           "objectiveEndpoints": [
             {
               "id": "Endpoint_2",
-              "endpointDescription": "Time to clinical improvement (TTCI) defined as a National Early Warning Score 2 (NEWS2) of <=2 maintained for 24 hours",
+              "description": "Time to clinical improvement (TTCI) defined as a National Early Warning Score 2 (NEWS2) of <=2 maintained for 24 hours",
               "endpointPurposeDescription": "None provided",
               "endpointLevel": {
                 "id": "Code_75",
@@ -382,7 +382,7 @@
             },
             {
               "id": "Endpoint_3",
-              "endpointDescription": "Time to improvement of at least 2 categories relative to baseline on a 7-category ordinal scale of clinical status",
+              "description": "Time to improvement of at least 2 categories relative to baseline on a 7-category ordinal scale of clinical status",
               "endpointPurposeDescription": "None provided",
               "endpointLevel": {
                 "id": "Code_77",
@@ -394,7 +394,7 @@
             },
             {
               "id": "Endpoint_4",
-              "endpointDescription": "Incidence of mechanical ventilation",
+              "description": "Incidence of mechanical ventilation",
               "endpointPurposeDescription": "None provided",
               "endpointLevel": {
                 "id": "Code_78",
@@ -406,7 +406,7 @@
             },
             {
               "id": "Endpoint_5",
-              "endpointDescription": "Ventilator-free days to Day 28",
+              "description": "Ventilator-free days to Day 28",
               "endpointPurposeDescription": "None provided",
               "endpointLevel": {
                 "id": "Code_79",
@@ -418,7 +418,7 @@
             },
             {
               "id": "Endpoint_6",
-              "endpointDescription": "Incidence of intensive care unit (ICU) stay",
+              "description": "Incidence of intensive care unit (ICU) stay",
               "endpointPurposeDescription": "None provided",
               "endpointLevel": {
                 "id": "Code_80",
@@ -430,7 +430,7 @@
             },
             {
               "id": "Endpoint_7",
-              "endpointDescription": "Duration of ICU stay",
+              "description": "Duration of ICU stay",
               "endpointPurposeDescription": "None provided",
               "endpointLevel": {
                 "id": "Code_81",
@@ -442,7 +442,7 @@
             },
             {
               "id": "Endpoint_8",
-              "endpointDescription": "Time to clinical failure, defined as the time to death, mechanical ventilation, ICU admission, or withdrawal (whichever occurs first). For patients entering the study already in ICU or on mechanical ventilation, clinical failure is defined as a one-category worsening on the ordinal scale, withdrawal or death.",
+              "description": "Time to clinical failure, defined as the time to death, mechanical ventilation, ICU admission, or withdrawal (whichever occurs first). For patients entering the study already in ICU or on mechanical ventilation, clinical failure is defined as a one-category worsening on the ordinal scale, withdrawal or death.",
               "endpointPurposeDescription": "None provided",
               "endpointLevel": {
                 "id": "Code_82",
@@ -454,7 +454,7 @@
             },
             {
               "id": "Endpoint_9",
-              "endpointDescription": "Mortality rate at Days 7, 14, 21, 28, and 60",
+              "description": "Mortality rate at Days 7, 14, 21, 28, and 60",
               "endpointPurposeDescription": "None provided",
               "endpointLevel": {
                 "id": "Code_83",
@@ -466,7 +466,7 @@
             },
             {
               "id": "Endpoint_10",
-              "endpointDescription": "Time to hospital discharge or \u201cready for discharge\u201d (as evidenced by normal body temperature and respiratory rate, and stable oxygen saturation on ambient air or <= 2L supplemental oxygen)",
+              "description": "Time to hospital discharge or \u201cready for discharge\u201d (as evidenced by normal body temperature and respiratory rate, and stable oxygen saturation on ambient air or <= 2L supplemental oxygen)",
               "endpointPurposeDescription": "None provided",
               "endpointLevel": {
                 "id": "Code_84",
@@ -478,7 +478,7 @@
             },
             {
               "id": "Endpoint_11",
-              "endpointDescription": "Time to recovery, defined as discharged or \u201cready for discharge\u201d (as evidenced by normal body temperature and respiratory rate, and stable oxygen saturation on ambient air or <= 2L supplemental oxygen); OR, in a non-ICU hospital ward (or \u201cready for hospital ward\u201d) not requiring supplemental oxygen",
+              "description": "Time to recovery, defined as discharged or \u201cready for discharge\u201d (as evidenced by normal body temperature and respiratory rate, and stable oxygen saturation on ambient air or <= 2L supplemental oxygen); OR, in a non-ICU hospital ward (or \u201cready for hospital ward\u201d) not requiring supplemental oxygen",
               "endpointPurposeDescription": "None provided",
               "endpointLevel": {
                 "id": "Code_85",
@@ -490,7 +490,7 @@
             },
             {
               "id": "Endpoint_12",
-              "endpointDescription": "Duration of supplemental oxygen",
+              "description": "Duration of supplemental oxygen",
               "endpointPurposeDescription": "None provided",
               "endpointLevel": {
                 "id": "Code_86",
@@ -656,28 +656,28 @@
           "summaryMeasure": "Survival of all patients",
           "analysisPopulation": {
             "id": "AnalysisPopulation_1",
-            "populationDescription": "ITT"
+            "description": "ITT"
           },
-          "treatment": "InvestigationalIntervention_1",
-          "variableOfInterest": "Endpoint_1",
+          "treatmentId": "InvestigationalIntervention_1",
+          "variableOfInterestId": "Endpoint_1",
           "intercurrentEvents": [
             {
               "id": "IntercurrentEvent_1",
-              "intercurrentEventStrategy": "Patients with out of range lab values before dosing will be excluded",
-              "intercurrentEventName": "termination",
-              "intercurrentEventDescription": "IC Event Description"
+              "name": "termination",
+              "description": "IC Event Description",
+              "intercurrentEventStrategy": "Patients with out of range lab values before dosing will be excluded"
             },
             {
               "id": "IntercurrentEvent_2",
-              "intercurrentEventStrategy": "A second bad event",
-              "intercurrentEventName": "",
-              "intercurrentEventDescription": ""
+              "name": "",
+              "description": "",
+              "intercurrentEventStrategy": "A second bad event"
             },
             {
               "id": "IntercurrentEvent_3",
-              "intercurrentEventStrategy": "A third bad thing",
-              "intercurrentEventName": "",
-              "intercurrentEventDescription": ""
+              "name": "",
+              "description": "",
+              "intercurrentEventStrategy": "A third bad thing"
             }
           ]
         },
@@ -686,16 +686,16 @@
           "summaryMeasure": "Something else",
           "analysisPopulation": {
             "id": "AnalysisPopulation_2",
-            "populationDescription": "ITT"
+            "description": "ITT"
           },
-          "treatment": "InvestigationalIntervention_2",
-          "variableOfInterest": "Endpoint_2",
+          "treatmentId": "InvestigationalIntervention_2",
+          "variableOfInterestId": "Endpoint_2",
           "intercurrentEvents": [
             {
               "id": "IntercurrentEvent_4",
-              "intercurrentEventStrategy": "Really really bad shit",
-              "intercurrentEventName": "Bad stuff",
-              "intercurrentEventDescription": "IC Event Description Number 2"
+              "name": "Bad stuff",
+              "description": "IC Event Description Number 2",
+              "intercurrentEventStrategy": "Really really bad shit"
             }
           ]
         }
@@ -732,7 +732,7 @@
           ],
           "transitionStartRule": {
             "id": "TransitionRule_1",
-            "transitionRuleDescription": "Radomized"
+            "description": "Radomized"
           },
           "transitionEndRule": null,
           "encounterScheduledAtTimingId": null
@@ -1159,11 +1159,11 @@
           "description": "Treatment Element 1",
           "transitionStartRule": {
             "id": "TransitionRule_2",
-            "transitionRuleDescription": "Radomized"
+            "description": "Radomized"
           },
           "transitionEndRule": {
             "id": "TransitionRule_3",
-            "transitionRuleDescription": "Completed treatment 1"
+            "description": "Completed treatment 1"
           }
         },
         {
@@ -1172,11 +1172,11 @@
           "description": "Follow Up Element",
           "transitionStartRule": {
             "id": "TransitionRule_4",
-            "transitionRuleDescription": "Treated"
+            "description": "Treated"
           },
           "transitionEndRule": {
             "id": "TransitionRule_5",
-            "transitionRuleDescription": "Leave Study"
+            "description": "Leave Study"
           }
         }
       ]

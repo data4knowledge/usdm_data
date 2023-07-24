@@ -195,8 +195,8 @@
 - id: 26
   properties:
     _type: Indication
+    description: An indication
     id: Indication_1
-    indicationDescription: An indication
     label: Indication_1
 - id: 29
   properties:
@@ -210,8 +210,8 @@
 - id: 28
   properties:
     _type: Indication
+    description: An indication
     id: Indication_2
-    indicationDescription: An indication
     label: Indication_2
 - id: 31
   properties:
@@ -234,8 +234,8 @@
 - id: 30
   properties:
     _type: InvestigationalIntervention
+    description: null
     id: InvestigationalIntervention_1
-    interventionDescription: An intervention
     label: InvestigationalIntervention_1
 - id: 34
   properties:
@@ -258,8 +258,8 @@
 - id: 33
   properties:
     _type: InvestigationalIntervention
+    description: null
     id: InvestigationalIntervention_2
-    interventionDescription: An intervention
     label: InvestigationalIntervention_2
 - id: 37
   properties:
@@ -273,12 +273,12 @@
 - id: 36
   properties:
     _type: StudyDesignPopulation
+    description: Pop 1
     id: StudyDesignPopulation_1
     label: StudyDesignPopulation_1
     plannedMaximumAgeOfParticipants: 40 years
     plannedMinimumAgeOfParticipants: 18 years
     plannedNumberOfParticipants: 100
-    populationDescription: Pop 1
 - id: 39
   properties:
     _type: Code
@@ -291,12 +291,12 @@
 - id: 38
   properties:
     _type: StudyDesignPopulation
+    description: Pop 2
     id: StudyDesignPopulation_2
     label: StudyDesignPopulation_2
     plannedMaximumAgeOfParticipants: 60 years
     plannedMinimumAgeOfParticipants: 18 years
     plannedNumberOfParticipants: 20
-    populationDescription: Pop 2
 - id: 41
   properties:
     _type: Code
@@ -309,12 +309,12 @@
 - id: 40
   properties:
     _type: StudyDesignPopulation
+    description: Pop 3
     id: StudyDesignPopulation_3
     label: StudyDesignPopulation_3
     plannedMaximumAgeOfParticipants: 70 years
     plannedMinimumAgeOfParticipants: 18 years
     plannedNumberOfParticipants: 20
-    populationDescription: Pop 3
 - id: 43
   properties:
     _type: Code
@@ -336,16 +336,16 @@
 - id: 44
   properties:
     _type: Endpoint
-    endpointDescription: End Desc
+    description: End Desc
     endpointPurposeDescription: '-'
     id: Endpoint_1
     label: Endpoint_1
 - id: 42
   properties:
     _type: Objective
+    description: Obj Desc
     id: Objective_1
     label: Objective_1
-    objectiveDescription: Obj Desc
 - id: 47
   properties:
     _type: ScheduleTimelineExit
@@ -1156,24 +1156,26 @@
 - id: 137
   properties:
     _type: AnalysisPopulation
+    description: ITT
     id: AnalysisPopulation_1
     label: AnalysisPopulation_1
-    populationDescription: ITT
 - id: 138
   properties:
     _type: IntercurrentEvent
+    description: IC Event Description
     id: IntercurrentEvent_1
-    intercurrentEventDescription: IC Event Description
-    intercurrentEventName: termination
     intercurrentEventStrategy: Patients with out of range lab values before dosing
       will be excluded
     label: IntercurrentEvent_1
+    name: termination
 - id: 136
   properties:
     _type: Estimand
     id: Estimand_1
     label: Estimand_1
     summaryMeasure: Survival of all patients
+    treatmentId: InvestigationalIntervention_1
+    variableOfInterestId: Endpoint_1
 - id: 140
   properties:
     _type: Code
@@ -1204,15 +1206,15 @@
 - id: 143
   properties:
     _type: TransitionRule
+    description: Subject identifier
     id: TransitionRule_1
     label: TransitionRule_1
-    transitionRuleDescription: Subject identifier
 - id: 144
   properties:
     _type: TransitionRule
+    description: IEs passed
     id: TransitionRule_2
     label: TransitionRule_2
-    transitionRuleDescription: IEs passed
 - id: 139
   properties:
     _type: Encounter
@@ -1253,9 +1255,9 @@
 - id: 149
   properties:
     _type: TransitionRule
+    description: Radomized
     id: TransitionRule_3
     label: TransitionRule_3
-    transitionRuleDescription: Radomized
 - id: 145
   properties:
     _type: Encounter
@@ -1570,9 +1572,9 @@
 - id: 182
   properties:
     _type: TransitionRule
+    description: End of treatment
     id: TransitionRule_4
     label: TransitionRule_4
-    transitionRuleDescription: End of treatment
 - id: 178
   properties:
     _type: Encounter
@@ -1818,15 +1820,15 @@
 - id: 209
   properties:
     _type: TransitionRule
+    description: Study Start
     id: TransitionRule_5
     label: TransitionRule_5
-    transitionRuleDescription: Study Start
 - id: 210
   properties:
     _type: TransitionRule
+    description: Screened
     id: TransitionRule_6
     label: TransitionRule_6
-    transitionRuleDescription: Screened
 - id: 208
   properties:
     _type: StudyElement
@@ -1837,15 +1839,15 @@
 - id: 212
   properties:
     _type: TransitionRule
+    description: Radomized
     id: TransitionRule_7
     label: TransitionRule_7
-    transitionRuleDescription: Radomized
 - id: 213
   properties:
     _type: TransitionRule
+    description: Completed treatment
     id: TransitionRule_8
     label: TransitionRule_8
-    transitionRuleDescription: Completed treatment
 - id: 211
   properties:
     _type: StudyElement
@@ -1856,15 +1858,15 @@
 - id: 215
   properties:
     _type: TransitionRule
+    description: Treated
     id: TransitionRule_9
     label: TransitionRule_9
-    transitionRuleDescription: Treated
 - id: 216
   properties:
     _type: TransitionRule
+    description: Leave Study
     id: TransitionRule_10
     label: TransitionRule_10
-    transitionRuleDescription: Leave Study
 - id: 214
   properties:
     _type: StudyElement
