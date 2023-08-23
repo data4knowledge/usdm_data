@@ -42,11 +42,11 @@
         "id": "StudyIdentifier_1",
         "studyIdentifier": "NCT12345678",
         "studyIdentifierScope": {
-          "id": "Organisation_1",
-          "organisationIdentifierScheme": "USGOV",
-          "organisationIdentifier": "CT-GOV",
-          "organisationName": "ClinicalTrials.gov",
-          "organisationType": {
+          "id": "Organization_1",
+          "name": "ClinicalTrials.gov",
+          "organizationIdentifierScheme": "USGOV",
+          "organizationIdentifier": "CT-GOV",
+          "organizationType": {
             "id": "Code_7",
             "code": "C93453",
             "codeSystem": "http://www.cdisc.org",
@@ -75,11 +75,11 @@
         "id": "StudyIdentifier_2",
         "studyIdentifier": "AP1234",
         "studyIdentifierScope": {
-          "id": "Organisation_2",
-          "organisationIdentifierScheme": "DUNS",
-          "organisationIdentifier": "123456789",
-          "organisationName": "ACME Pharma",
-          "organisationType": {
+          "id": "Organization_2",
+          "name": "ACME Pharma",
+          "organizationIdentifierScheme": "DUNS",
+          "organizationIdentifier": "123456789",
+          "organizationType": {
             "id": "Code_9",
             "code": "C70793",
             "codeSystem": "http://www.cdisc.org",
@@ -347,7 +347,7 @@
               {
                 "id": "Endpoint_1",
                 "description": "Clinical status assessed using a 7-category ordinal scale at Day 28",
-                "endpointPurposeDescription": "None provided",
+                "purpose": "None provided",
                 "endpointLevel": {
                   "id": "Code_73",
                   "code": "C94496",
@@ -372,7 +372,7 @@
               {
                 "id": "Endpoint_2",
                 "description": "Time to clinical improvement (TTCI) defined as a National Early Warning Score 2 (NEWS2) of <=2 maintained for 24 hours",
-                "endpointPurposeDescription": "None provided",
+                "purpose": "None provided",
                 "endpointLevel": {
                   "id": "Code_75",
                   "code": "C139173",
@@ -384,7 +384,7 @@
               {
                 "id": "Endpoint_3",
                 "description": "Time to improvement of at least 2 categories relative to baseline on a 7-category ordinal scale of clinical status",
-                "endpointPurposeDescription": "None provided",
+                "purpose": "None provided",
                 "endpointLevel": {
                   "id": "Code_77",
                   "code": "C139173",
@@ -396,7 +396,7 @@
               {
                 "id": "Endpoint_4",
                 "description": "Incidence of mechanical ventilation",
-                "endpointPurposeDescription": "None provided",
+                "purpose": "None provided",
                 "endpointLevel": {
                   "id": "Code_78",
                   "code": "C139173",
@@ -408,7 +408,7 @@
               {
                 "id": "Endpoint_5",
                 "description": "Ventilator-free days to Day 28",
-                "endpointPurposeDescription": "None provided",
+                "purpose": "None provided",
                 "endpointLevel": {
                   "id": "Code_79",
                   "code": "C139173",
@@ -420,7 +420,7 @@
               {
                 "id": "Endpoint_6",
                 "description": "Incidence of intensive care unit (ICU) stay",
-                "endpointPurposeDescription": "None provided",
+                "purpose": "None provided",
                 "endpointLevel": {
                   "id": "Code_80",
                   "code": "C139173",
@@ -432,7 +432,7 @@
               {
                 "id": "Endpoint_7",
                 "description": "Duration of ICU stay",
-                "endpointPurposeDescription": "None provided",
+                "purpose": "None provided",
                 "endpointLevel": {
                   "id": "Code_81",
                   "code": "C139173",
@@ -444,7 +444,7 @@
               {
                 "id": "Endpoint_8",
                 "description": "Time to clinical failure, defined as the time to death, mechanical ventilation, ICU admission, or withdrawal (whichever occurs first). For patients entering the study already in ICU or on mechanical ventilation, clinical failure is defined as a one-category worsening on the ordinal scale, withdrawal or death.",
-                "endpointPurposeDescription": "None provided",
+                "purpose": "None provided",
                 "endpointLevel": {
                   "id": "Code_82",
                   "code": "C139173",
@@ -456,7 +456,7 @@
               {
                 "id": "Endpoint_9",
                 "description": "Mortality rate at Days 7, 14, 21, 28, and 60",
-                "endpointPurposeDescription": "None provided",
+                "purpose": "None provided",
                 "endpointLevel": {
                   "id": "Code_83",
                   "code": "C139173",
@@ -468,7 +468,7 @@
               {
                 "id": "Endpoint_10",
                 "description": "Time to hospital discharge or \u201cready for discharge\u201d (as evidenced by normal body temperature and respiratory rate, and stable oxygen saturation on ambient air or <= 2L supplemental oxygen)",
-                "endpointPurposeDescription": "None provided",
+                "purpose": "None provided",
                 "endpointLevel": {
                   "id": "Code_84",
                   "code": "C139173",
@@ -480,7 +480,7 @@
               {
                 "id": "Endpoint_11",
                 "description": "Time to recovery, defined as discharged or \u201cready for discharge\u201d (as evidenced by normal body temperature and respiratory rate, and stable oxygen saturation on ambient air or <= 2L supplemental oxygen); OR, in a non-ICU hospital ward (or \u201cready for hospital ward\u201d) not requiring supplemental oxygen",
-                "endpointPurposeDescription": "None provided",
+                "purpose": "None provided",
                 "endpointLevel": {
                   "id": "Code_85",
                   "code": "C139173",
@@ -492,7 +492,7 @@
               {
                 "id": "Endpoint_12",
                 "description": "Duration of supplemental oxygen",
-                "endpointPurposeDescription": "None provided",
+                "purpose": "None provided",
                 "endpointLevel": {
                   "id": "Code_86",
                   "code": "C139173",
@@ -521,10 +521,11 @@
               {
                 "id": "ScheduledActivityInstance_1",
                 "scheduledInstanceType": "ACTIVITY",
-                "scheduleTimelineExitId": null,
                 "scheduledInstanceTimings": [
                   {
                     "id": "Timing_1",
+                    "name": "TIMING_3",
+                    "description": null,
                     "timingType": {
                       "id": "Code_35",
                       "code": "C99901x3",
@@ -533,7 +534,6 @@
                       "decode": "Fixed Reference"
                     },
                     "timingValue": "PT0M",
-                    "timingDescription": null,
                     "timingRelativeToFrom": {
                       "id": "Code_39",
                       "code": "C99900x1",
@@ -545,10 +545,12 @@
                     "relativeToScheduledInstanceId": "ScheduledActivityInstance_1",
                     "timingWindowLower": "PT0H",
                     "timingWindowUpper": "PT1H",
-                    "timingWindow": "0..1 Hours"
+                    "timingWindow": "0..1 Hours",
+                    "label": ""
                   }
                 ],
                 "scheduledInstanceTimelineId": null,
+                "scheduleTimelineExitId": null,
                 "defaultConditionId": "ScheduledActivityInstance_2",
                 "epochId": "StudyEpoch_1",
                 "activityIds": [
@@ -559,10 +561,11 @@
               {
                 "id": "ScheduledActivityInstance_2",
                 "scheduledInstanceType": "ACTIVITY",
-                "scheduleTimelineExitId": null,
                 "scheduledInstanceTimings": [
                   {
                     "id": "Timing_2",
+                    "name": "TIMING_4",
+                    "description": "+24 Hours",
                     "timingType": {
                       "id": "Code_41",
                       "code": "C99901x1",
@@ -571,7 +574,6 @@
                       "decode": "After"
                     },
                     "timingValue": "PT24H",
-                    "timingDescription": "+24 Hours",
                     "timingRelativeToFrom": {
                       "id": "Code_44",
                       "code": "C99900x1",
@@ -583,10 +585,12 @@
                     "relativeToScheduledInstanceId": "ScheduledActivityInstance_1",
                     "timingWindowLower": null,
                     "timingWindowUpper": null,
-                    "timingWindow": null
+                    "timingWindow": null,
+                    "label": ""
                   }
                 ],
                 "scheduledInstanceTimelineId": null,
+                "scheduleTimelineExitId": null,
                 "defaultConditionId": "ScheduledActivityInstance_3",
                 "epochId": "StudyEpoch_1",
                 "activityIds": [
@@ -597,10 +601,11 @@
               {
                 "id": "ScheduledActivityInstance_3",
                 "scheduledInstanceType": "ACTIVITY",
-                "scheduleTimelineExitId": null,
                 "scheduledInstanceTimings": [
                   {
                     "id": "Timing_3",
+                    "name": "TIMING_5",
+                    "description": "+7 Days",
                     "timingType": {
                       "id": "Code_46",
                       "code": "C99901x1",
@@ -609,7 +614,6 @@
                       "decode": "After"
                     },
                     "timingValue": "P7D",
-                    "timingDescription": "+7 Days",
                     "timingRelativeToFrom": {
                       "id": "Code_49",
                       "code": "C99900x1",
@@ -621,10 +625,12 @@
                     "relativeToScheduledInstanceId": "ScheduledActivityInstance_2",
                     "timingWindowLower": "P3D",
                     "timingWindowUpper": "P3D",
-                    "timingWindow": "-3..3 Days"
+                    "timingWindow": "-3..3 Days",
+                    "label": ""
                   }
                 ],
                 "scheduledInstanceTimelineId": null,
+                "scheduleTimelineExitId": null,
                 "defaultConditionId": null,
                 "epochId": "StudyEpoch_2",
                 "activityIds": [
@@ -670,14 +676,14 @@
               },
               {
                 "id": "IntercurrentEvent_2",
-                "name": "",
-                "description": "",
+                "name": "termination",
+                "description": "IC Event Description",
                 "intercurrentEventStrategy": "A second bad event"
               },
               {
                 "id": "IntercurrentEvent_3",
-                "name": "",
-                "description": "",
+                "name": "termination",
+                "description": "IC Event Description",
                 "intercurrentEventStrategy": "A third bad thing"
               }
             ]
@@ -856,13 +862,13 @@
         "biomedicalConcepts": [
           {
             "id": "BiomedicalConcept_1",
-            "bcName": "Sex",
+            "name": "Sex",
             "bcSynonyms": [],
             "bcReference": "/mdr/bc/packages/2023-03-31/biomedicalconcepts/C28421",
             "bcProperties": [
               {
                 "id": "BiomedicalConceptProperty_1",
-                "bcPropertyName": "Sex",
+                "name": "Sex",
                 "bcPropertyRequired": true,
                 "bcPropertyEnabled": true,
                 "bcPropertyDatatype": "string",
@@ -928,7 +934,7 @@
           },
           {
             "id": "BiomedicalConcept_2",
-            "bcName": "Race",
+            "name": "Race",
             "bcSynonyms": [
               "Racial Group"
             ],
@@ -936,7 +942,7 @@
             "bcProperties": [
               {
                 "id": "BiomedicalConceptProperty_2",
-                "bcPropertyName": "Race",
+                "name": "Race",
                 "bcPropertyRequired": true,
                 "bcPropertyEnabled": true,
                 "bcPropertyDatatype": "string",
@@ -980,7 +986,7 @@
           },
           {
             "id": "BiomedicalConcept_3",
-            "bcName": "Body Weight",
+            "name": "Body Weight",
             "bcSynonyms": [
               "Weight"
             ],
@@ -988,7 +994,7 @@
             "bcProperties": [
               {
                 "id": "BiomedicalConceptProperty_3",
-                "bcPropertyName": "Vital Signs Result",
+                "name": "Vital Signs Result",
                 "bcPropertyRequired": true,
                 "bcPropertyEnabled": true,
                 "bcPropertyDatatype": "decimal",
@@ -1007,7 +1013,7 @@
               },
               {
                 "id": "BiomedicalConceptProperty_4",
-                "bcPropertyName": "Unit of Weight",
+                "name": "Unit of Weight",
                 "bcPropertyRequired": true,
                 "bcPropertyEnabled": true,
                 "bcPropertyDatatype": "string",
@@ -1180,7 +1186,8 @@
               "description": "Leave Study"
             }
           }
-        ]
+        ],
+        "contents": []
       }
     ],
     "studyRationale": "A simple test",

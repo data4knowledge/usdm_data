@@ -42,12 +42,12 @@
     label: Code_5
 - id: 7
   properties:
-    _type: Organisation
-    id: Organisation_1
-    label: Organisation_1
-    organisationIdentifier: 00-642-1325
-    organisationIdentifierScheme: DUNS
-    organisationName: Eli Lilly
+    _type: Organization
+    id: Organization_1
+    label: Organization_1
+    name: Eli Lilly
+    organizationIdentifier: 00-642-1325
+    organizationIdentifierScheme: DUNS
     organizationLegalAddress: null
 - id: 6
   properties:
@@ -274,9 +274,9 @@
       of 11 items
 
       [ADAS-Cog (11)] at Week 24'
-    endpointPurposeDescription: None provided
     id: Endpoint_1
     label: Endpoint_1
+    purpose: None provided
 - id: 43
   properties:
     _type: Code
@@ -291,9 +291,9 @@
     _type: Endpoint
     description: "Video-referenced Clinician\u2019s Interview-based Impression of\
       \ Change (CIBIC+) at\nWeek 24"
-    endpointPurposeDescription: None provided
     id: Endpoint_2
     label: Endpoint_2
+    purpose: None provided
 - id: 38
   properties:
     _type: Objective
@@ -327,9 +327,9 @@
   properties:
     _type: Endpoint
     description: Adverse events
-    endpointPurposeDescription: None provided
     id: Endpoint_3
     label: Endpoint_3
+    purpose: None provided
 - id: 49
   properties:
     _type: Code
@@ -343,9 +343,9 @@
   properties:
     _type: Endpoint
     description: Vital signs (weight, standing and supine blood pressure, heart rate)
-    endpointPurposeDescription: None provided
     id: Endpoint_4
     label: Endpoint_4
+    purpose: None provided
 - id: 51
   properties:
     _type: Code
@@ -359,11 +359,11 @@
   properties:
     _type: Endpoint
     description: Laboratory evaluations (Change from Baseline)
-    endpointPurposeDescription: "The change from baseline laboratory value will be\
-      \ \ncalculated as the difference between the baseline lab value and the endpoint\
-      \ value (i.e.,\nthe value at the specified visit) or the end of treatment observation"
     id: Endpoint_5
     label: Endpoint_5
+    purpose: "The change from baseline laboratory value will be \ncalculated as the\
+      \ difference between the baseline lab value and the endpoint value (i.e.,\n\
+      the value at the specified visit) or the end of treatment observation"
 - id: 44
   properties:
     _type: Objective
@@ -395,9 +395,9 @@
       of 11 items
 
       [ADAS-Cog (11)] at Weeks 8 and 16'
-    endpointPurposeDescription: None provided
     id: Endpoint_6
     label: Endpoint_6
+    purpose: None provided
 - id: 57
   properties:
     _type: Code
@@ -412,9 +412,9 @@
     _type: Endpoint
     description: "Video-referenced Clinician\\\u2019s Interview-based Impression of\
       \ Change (CIBIC+) at\nWeeks 8 and 16"
-    endpointPurposeDescription: None provided
     id: Endpoint_7
     label: Endpoint_7
+    purpose: None provided
 - id: 59
   properties:
     _type: Code
@@ -429,9 +429,9 @@
     _type: Endpoint
     description: Mean Revised Neuropsychiatric Inventory (NPI-X) from Week 4 to Week
       24
-    endpointPurposeDescription: None provided
     id: Endpoint_8
     label: Endpoint_8
+    purpose: None provided
 - id: 52
   properties:
     _type: Objective
@@ -469,9 +469,10 @@
 - id: 63
   properties:
     _type: Timing
+    description: null
     id: Timing_1
     label: Timing_1
-    timingDescription: null
+    name: TIMING_3
     timingValue: PT0M
     timingWindow: null
     timingWindowLower: null
@@ -505,9 +506,10 @@
 - id: 67
   properties:
     _type: Timing
+    description: 24 Hours
     id: Timing_2
     label: Timing_2
-    timingDescription: 24 Hours
+    name: TIMING_4
     timingValue: PT24H
     timingWindow: null
     timingWindowLower: null
@@ -541,9 +543,10 @@
 - id: 71
   properties:
     _type: Timing
+    description: null
     id: Timing_3
     label: Timing_3
-    timingDescription: null
+    name: TIMING_5
     timingValue: PT0M
     timingWindow: null
     timingWindowLower: null
@@ -577,9 +580,10 @@
 - id: 75
   properties:
     _type: Timing
+    description: +13 Days
     id: Timing_4
     label: Timing_4
-    timingDescription: +13 Days
+    name: TIMING_6
     timingValue: P13D
     timingWindow: null
     timingWindowLower: null
@@ -613,9 +617,10 @@
 - id: 79
   properties:
     _type: Timing
+    description: +1 Days
     id: Timing_5
     label: Timing_5
-    timingDescription: +1 Days
+    name: TIMING_7
     timingValue: P1D
     timingWindow: null
     timingWindowLower: null
@@ -649,9 +654,10 @@
 - id: 83
   properties:
     _type: Timing
+    description: +14 Days
     id: Timing_6
     label: Timing_6
-    timingDescription: +14 Days
+    name: TIMING_8
     timingValue: P14D
     timingWindow: null
     timingWindowLower: null
@@ -685,9 +691,10 @@
 - id: 87
   properties:
     _type: Timing
+    description: +1 Days
     id: Timing_7
     label: Timing_7
-    timingDescription: +1 Days
+    name: TIMING_9
     timingValue: P1D
     timingWindow: null
     timingWindowLower: null
@@ -721,9 +728,10 @@
 - id: 91
   properties:
     _type: Timing
+    description: +13 Days
     id: Timing_8
     label: Timing_8
-    timingDescription: +13 Days
+    name: TIMING_10
     timingValue: P13D
     timingWindow: null
     timingWindowLower: null
@@ -757,9 +765,10 @@
 - id: 95
   properties:
     _type: Timing
+    description: +14 Days
     id: Timing_9
     label: Timing_9
-    timingDescription: +14 Days
+    name: TIMING_11
     timingValue: P14D
     timingWindow: null
     timingWindowLower: null
@@ -793,9 +802,10 @@
 - id: 99
   properties:
     _type: Timing
+    description: +1 Days
     id: Timing_10
     label: Timing_10
-    timingDescription: +1 Days
+    name: TIMING_12
     timingValue: P1D
     timingWindow: null
     timingWindowLower: null
@@ -829,9 +839,10 @@
 - id: 103
   properties:
     _type: Timing
+    description: +27 Days
     id: Timing_11
     label: Timing_11
-    timingDescription: +27 Days
+    name: TIMING_13
     timingValue: P27D
     timingWindow: null
     timingWindowLower: null
@@ -865,9 +876,10 @@
 - id: 107
   properties:
     _type: Timing
+    description: +1 Days
     id: Timing_12
     label: Timing_12
-    timingDescription: +1 Days
+    name: TIMING_14
     timingValue: P1D
     timingWindow: null
     timingWindowLower: null
@@ -901,9 +913,10 @@
 - id: 111
   properties:
     _type: Timing
+    description: +27 Days
     id: Timing_13
     label: Timing_13
-    timingDescription: +27 Days
+    name: TIMING_15
     timingValue: P27D
     timingWindow: null
     timingWindowLower: null
@@ -937,9 +950,10 @@
 - id: 115
   properties:
     _type: Timing
+    description: +1 Days
     id: Timing_14
     label: Timing_14
-    timingDescription: +1 Days
+    name: TIMING_16
     timingValue: P1D
     timingWindow: null
     timingWindowLower: null
@@ -973,9 +987,10 @@
 - id: 119
   properties:
     _type: Timing
+    description: +27 Days
     id: Timing_15
     label: Timing_15
-    timingDescription: +27 Days
+    name: TIMING_17
     timingValue: P27D
     timingWindow: null
     timingWindowLower: null
@@ -1009,9 +1024,10 @@
 - id: 123
   properties:
     _type: Timing
+    description: +1 Days
     id: Timing_16
     label: Timing_16
-    timingDescription: +1 Days
+    name: TIMING_18
     timingValue: P1D
     timingWindow: null
     timingWindowLower: null
@@ -1045,9 +1061,10 @@
 - id: 127
   properties:
     _type: Timing
+    description: +27 Days
     id: Timing_17
     label: Timing_17
-    timingDescription: +27 Days
+    name: TIMING_19
     timingValue: P27D
     timingWindow: null
     timingWindowLower: null
@@ -1081,9 +1098,10 @@
 - id: 131
   properties:
     _type: Timing
+    description: +14 Days
     id: Timing_18
     label: Timing_18
-    timingDescription: +14 Days
+    name: TIMING_20
     timingValue: P14D
     timingWindow: null
     timingWindowLower: null
@@ -2351,10 +2369,10 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
     bcPropertyEnabled: true
-    bcPropertyName: Sex
     bcPropertyRequired: true
     id: BiomedicalConceptProperty_1
     label: BiomedicalConceptProperty_1
+    name: Sex
 - id: 258
   properties:
     _type: Code
@@ -2373,11 +2391,11 @@
 - id: 247
   properties:
     _type: BiomedicalConcept
-    bcName: Sex
     bcReference: /mdr/bc/packages/2023-03-31/biomedicalconcepts/C28421
     bcSynonyms: []
     id: BiomedicalConcept_1
     label: BiomedicalConcept_1
+    name: Sex
 - id: 262
   properties:
     _type: Code
@@ -2413,10 +2431,10 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
     bcPropertyEnabled: true
-    bcPropertyName: Race
     bcPropertyRequired: true
     id: BiomedicalConceptProperty_2
     label: BiomedicalConceptProperty_2
+    name: Race
 - id: 266
   properties:
     _type: Code
@@ -2435,12 +2453,12 @@
 - id: 259
   properties:
     _type: BiomedicalConcept
-    bcName: Race
     bcReference: /mdr/bc/packages/2023-03-31/biomedicalconcepts/C17049
     bcSynonyms:
     - Racial Group
     id: BiomedicalConcept_2
     label: BiomedicalConcept_2
+    name: Race
 - id: 270
   properties:
     _type: Code
@@ -2461,11 +2479,11 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: decimal
     bcPropertyEnabled: true
-    bcPropertyName: Vital Signs Result
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_3
     label: BiomedicalConceptProperty_3
+    name: Vital Signs Result
 - id: 273
   properties:
     _type: Code
@@ -2501,10 +2519,10 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
     bcPropertyEnabled: true
-    bcPropertyName: Unit of Pressure
     bcPropertyRequired: true
     id: BiomedicalConceptProperty_4
     label: BiomedicalConceptProperty_4
+    name: Unit of Pressure
 - id: 278
   properties:
     _type: Code
@@ -2525,11 +2543,11 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
     bcPropertyEnabled: true
-    bcPropertyName: Vital Signs Location
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_5
     label: BiomedicalConceptProperty_5
+    name: Vital Signs Location
 - id: 281
   properties:
     _type: Code
@@ -2550,11 +2568,11 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
     bcPropertyEnabled: true
-    bcPropertyName: Vital Signs Laterality
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_6
     label: BiomedicalConceptProperty_6
+    name: Vital Signs Laterality
 - id: 284
   properties:
     _type: Code
@@ -2575,11 +2593,11 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
     bcPropertyEnabled: true
-    bcPropertyName: Test Method
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_7
     label: BiomedicalConceptProperty_7
+    name: Test Method
 - id: 287
   properties:
     _type: Code
@@ -2600,11 +2618,11 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
     bcPropertyEnabled: true
-    bcPropertyName: Vital Signs Position
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_8
     label: BiomedicalConceptProperty_8
+    name: Vital Signs Position
 - id: 289
   properties:
     _type: Code
@@ -2623,12 +2641,12 @@
 - id: 267
   properties:
     _type: BiomedicalConcept
-    bcName: Systolic Blood Pressure
     bcReference: /mdr/bc/packages/2023-07-06/biomedicalconcepts/C25298
     bcSynonyms:
     - SYSBP
     id: BiomedicalConcept_3
     label: BiomedicalConcept_3
+    name: Systolic Blood Pressure
 - id: 293
   properties:
     _type: Code
@@ -2649,11 +2667,11 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: decimal
     bcPropertyEnabled: true
-    bcPropertyName: Vital Signs Result
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_9
     label: BiomedicalConceptProperty_9
+    name: Vital Signs Result
 - id: 296
   properties:
     _type: Code
@@ -2689,10 +2707,10 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
     bcPropertyEnabled: true
-    bcPropertyName: Unit of Pressure
     bcPropertyRequired: true
     id: BiomedicalConceptProperty_10
     label: BiomedicalConceptProperty_10
+    name: Unit of Pressure
 - id: 301
   properties:
     _type: Code
@@ -2713,11 +2731,11 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
     bcPropertyEnabled: true
-    bcPropertyName: Vital Signs Location
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_11
     label: BiomedicalConceptProperty_11
+    name: Vital Signs Location
 - id: 304
   properties:
     _type: Code
@@ -2738,11 +2756,11 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
     bcPropertyEnabled: true
-    bcPropertyName: Vital Signs Laterality
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_12
     label: BiomedicalConceptProperty_12
+    name: Vital Signs Laterality
 - id: 307
   properties:
     _type: Code
@@ -2763,11 +2781,11 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
     bcPropertyEnabled: true
-    bcPropertyName: Test Method
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_13
     label: BiomedicalConceptProperty_13
+    name: Test Method
 - id: 310
   properties:
     _type: Code
@@ -2788,11 +2806,11 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
     bcPropertyEnabled: true
-    bcPropertyName: Vital Signs Position
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_14
     label: BiomedicalConceptProperty_14
+    name: Vital Signs Position
 - id: 312
   properties:
     _type: Code
@@ -2811,12 +2829,12 @@
 - id: 290
   properties:
     _type: BiomedicalConcept
-    bcName: Diastolic Blood Pressure
     bcReference: /mdr/bc/packages/2023-07-06/biomedicalconcepts/C25299
     bcSynonyms:
     - DIABP
     id: BiomedicalConcept_4
     label: BiomedicalConcept_4
+    name: Diastolic Blood Pressure
 - id: 316
   properties:
     _type: Code
@@ -2837,11 +2855,11 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: decimal
     bcPropertyEnabled: true
-    bcPropertyName: Vital Signs Result
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_15
     label: BiomedicalConceptProperty_15
+    name: Vital Signs Result
 - id: 319
   properties:
     _type: Code
@@ -2877,10 +2895,10 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
     bcPropertyEnabled: true
-    bcPropertyName: Unit of Temperature
     bcPropertyRequired: true
     id: BiomedicalConceptProperty_16
     label: BiomedicalConceptProperty_16
+    name: Unit of Temperature
 - id: 324
   properties:
     _type: Code
@@ -2901,11 +2919,11 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
     bcPropertyEnabled: true
-    bcPropertyName: Vital Signs Location
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_17
     label: BiomedicalConceptProperty_17
+    name: Vital Signs Location
 - id: 326
   properties:
     _type: Code
@@ -2924,12 +2942,12 @@
 - id: 313
   properties:
     _type: BiomedicalConcept
-    bcName: Body Temperature
     bcReference: /mdr/bc/packages/2022-10-26/biomedicalconcepts/C174446
     bcSynonyms:
     - Temperature
     id: BiomedicalConcept_5
     label: BiomedicalConcept_5
+    name: Body Temperature
 - id: 330
   properties:
     _type: Code
@@ -2950,11 +2968,11 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: decimal
     bcPropertyEnabled: true
-    bcPropertyName: Vital Signs Result
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_18
     label: BiomedicalConceptProperty_18
+    name: Vital Signs Result
 - id: 333
   properties:
     _type: Code
@@ -3020,10 +3038,10 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
     bcPropertyEnabled: true
-    bcPropertyName: Unit of Weight
     bcPropertyRequired: true
     id: BiomedicalConceptProperty_19
     label: BiomedicalConceptProperty_19
+    name: Unit of Weight
 - id: 341
   properties:
     _type: Code
@@ -3042,12 +3060,12 @@
 - id: 327
   properties:
     _type: BiomedicalConcept
-    bcName: Body Weight
     bcReference: /mdr/bc/packages/2022-10-26/biomedicalconcepts/C81328
     bcSynonyms:
     - Weight
     id: BiomedicalConcept_6
     label: BiomedicalConcept_6
+    name: Body Weight
 - id: 345
   properties:
     _type: Code
@@ -3068,11 +3086,11 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: decimal
     bcPropertyEnabled: true
-    bcPropertyName: Vital Signs Result
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_20
     label: BiomedicalConceptProperty_20
+    name: Vital Signs Result
 - id: 348
   properties:
     _type: Code
@@ -3153,10 +3171,10 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
     bcPropertyEnabled: true
-    bcPropertyName: Unit of Height
     bcPropertyRequired: true
     id: BiomedicalConceptProperty_21
     label: BiomedicalConceptProperty_21
+    name: Unit of Height
 - id: 358
   properties:
     _type: Code
@@ -3175,12 +3193,12 @@
 - id: 342
   properties:
     _type: BiomedicalConcept
-    bcName: Body Height
     bcReference: /mdr/bc/packages/2022-10-26/biomedicalconcepts/C164634
     bcSynonyms:
     - Height
     id: BiomedicalConcept_7
     label: BiomedicalConcept_7
+    name: Body Height
 - id: 362
   properties:
     _type: Code
@@ -3201,11 +3219,11 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: decimal
     bcPropertyEnabled: true
-    bcPropertyName: Laboratory Test Result
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_22
     label: BiomedicalConceptProperty_22
+    name: Laboratory Test Result
 - id: 365
   properties:
     _type: Code
@@ -3226,11 +3244,11 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: boolean
     bcPropertyEnabled: true
-    bcPropertyName: Laboratory Test Fasting Status
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_23
     label: BiomedicalConceptProperty_23
+    name: Laboratory Test Fasting Status
 - id: 368
   properties:
     _type: Code
@@ -3251,11 +3269,11 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
     bcPropertyEnabled: true
-    bcPropertyName: Unit of Catalytic Activity Concentration
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_24
     label: BiomedicalConceptProperty_24
+    name: Unit of Catalytic Activity Concentration
 - id: 371
   properties:
     _type: Code
@@ -3276,11 +3294,11 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
     bcPropertyEnabled: true
-    bcPropertyName: Biospecimen Type
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_25
     label: BiomedicalConceptProperty_25
+    name: Biospecimen Type
 - id: 373
   properties:
     _type: Code
@@ -3299,13 +3317,13 @@
 - id: 359
   properties:
     _type: BiomedicalConcept
-    bcName: Alanine Aminotransferase Measurement
     bcReference: /mdr/bc/packages/2023-02-13/biomedicalconcepts/C64433
     bcSynonyms:
     - ALT
     - SGPT
     id: BiomedicalConcept_8
     label: BiomedicalConcept_8
+    name: Alanine Aminotransferase Measurement
 - id: 377
   properties:
     _type: Code
@@ -3326,11 +3344,11 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: decimal
     bcPropertyEnabled: true
-    bcPropertyName: Laboratory Test Result
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_26
     label: BiomedicalConceptProperty_26
+    name: Laboratory Test Result
 - id: 380
   properties:
     _type: Code
@@ -3351,11 +3369,11 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: boolean
     bcPropertyEnabled: true
-    bcPropertyName: Laboratory Test Fasting Status
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_27
     label: BiomedicalConceptProperty_27
+    name: Laboratory Test Fasting Status
 - id: 383
   properties:
     _type: Code
@@ -3376,11 +3394,11 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
     bcPropertyEnabled: true
-    bcPropertyName: Unit of Mass or Substance Concentration
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_28
     label: BiomedicalConceptProperty_28
+    name: Unit of Mass or Substance Concentration
 - id: 386
   properties:
     _type: Code
@@ -3401,11 +3419,11 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
     bcPropertyEnabled: true
-    bcPropertyName: Biospecimen Type
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_29
     label: BiomedicalConceptProperty_29
+    name: Biospecimen Type
 - id: 388
   properties:
     _type: Code
@@ -3424,12 +3442,12 @@
 - id: 374
   properties:
     _type: BiomedicalConcept
-    bcName: Albumin Measurement
     bcReference: /mdr/bc/packages/2023-02-13/biomedicalconcepts/C64431
     bcSynonyms:
     - Albumin
     id: BiomedicalConcept_9
     label: BiomedicalConcept_9
+    name: Albumin Measurement
 - id: 392
   properties:
     _type: Code
@@ -3450,11 +3468,11 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: decimal
     bcPropertyEnabled: true
-    bcPropertyName: Laboratory Test Result
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_30
     label: BiomedicalConceptProperty_30
+    name: Laboratory Test Result
 - id: 395
   properties:
     _type: Code
@@ -3475,11 +3493,11 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: boolean
     bcPropertyEnabled: true
-    bcPropertyName: Laboratory Test Fasting Status
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_31
     label: BiomedicalConceptProperty_31
+    name: Laboratory Test Fasting Status
 - id: 398
   properties:
     _type: Code
@@ -3500,11 +3518,11 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
     bcPropertyEnabled: true
-    bcPropertyName: Unit of Catalytic Activity Concentration
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_32
     label: BiomedicalConceptProperty_32
+    name: Unit of Catalytic Activity Concentration
 - id: 401
   properties:
     _type: Code
@@ -3525,11 +3543,11 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
     bcPropertyEnabled: true
-    bcPropertyName: Biospecimen Type
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_33
     label: BiomedicalConceptProperty_33
+    name: Biospecimen Type
 - id: 403
   properties:
     _type: Code
@@ -3548,12 +3566,12 @@
 - id: 389
   properties:
     _type: BiomedicalConcept
-    bcName: Alkaline Phosphatase Measurement
     bcReference: /mdr/bc/packages/2023-02-13/biomedicalconcepts/C64432
     bcSynonyms:
     - Alkaline Phosphatase
     id: BiomedicalConcept_10
     label: BiomedicalConcept_10
+    name: Alkaline Phosphatase Measurement
 - id: 407
   properties:
     _type: Code
@@ -3574,11 +3592,11 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: decimal
     bcPropertyEnabled: true
-    bcPropertyName: Laboratory Test Result
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_34
     label: BiomedicalConceptProperty_34
+    name: Laboratory Test Result
 - id: 410
   properties:
     _type: Code
@@ -3599,11 +3617,11 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: boolean
     bcPropertyEnabled: true
-    bcPropertyName: Laboratory Test Fasting Status
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_35
     label: BiomedicalConceptProperty_35
+    name: Laboratory Test Fasting Status
 - id: 413
   properties:
     _type: Code
@@ -3624,11 +3642,11 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
     bcPropertyEnabled: true
-    bcPropertyName: Unit of Catalytic Activity Concentration
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_36
     label: BiomedicalConceptProperty_36
+    name: Unit of Catalytic Activity Concentration
 - id: 416
   properties:
     _type: Code
@@ -3649,11 +3667,11 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
     bcPropertyEnabled: true
-    bcPropertyName: Biospecimen Type
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_37
     label: BiomedicalConceptProperty_37
+    name: Biospecimen Type
 - id: 418
   properties:
     _type: Code
@@ -3672,13 +3690,13 @@
 - id: 404
   properties:
     _type: BiomedicalConcept
-    bcName: Aspartate Aminotransferase Measurement
     bcReference: /mdr/bc/packages/2023-02-13/biomedicalconcepts/C64467
     bcSynonyms:
     - AST
     - SGOT
     id: BiomedicalConcept_11
     label: BiomedicalConcept_11
+    name: Aspartate Aminotransferase Measurement
 - id: 422
   properties:
     _type: Code
@@ -3699,11 +3717,11 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: decimal
     bcPropertyEnabled: true
-    bcPropertyName: Laboratory Test Result
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_38
     label: BiomedicalConceptProperty_38
+    name: Laboratory Test Result
 - id: 425
   properties:
     _type: Code
@@ -3724,11 +3742,11 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: boolean
     bcPropertyEnabled: true
-    bcPropertyName: Laboratory Test Fasting Status
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_39
     label: BiomedicalConceptProperty_39
+    name: Laboratory Test Fasting Status
 - id: 428
   properties:
     _type: Code
@@ -3749,11 +3767,11 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
     bcPropertyEnabled: true
-    bcPropertyName: Unit of Mass or Substance Concentration
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_40
     label: BiomedicalConceptProperty_40
+    name: Unit of Mass or Substance Concentration
 - id: 431
   properties:
     _type: Code
@@ -3774,11 +3792,11 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
     bcPropertyEnabled: true
-    bcPropertyName: Biospecimen Type
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_41
     label: BiomedicalConceptProperty_41
+    name: Biospecimen Type
 - id: 433
   properties:
     _type: Code
@@ -3797,12 +3815,12 @@
 - id: 419
   properties:
     _type: BiomedicalConcept
-    bcName: Creatinine Measurement
     bcReference: /mdr/bc/packages/2023-02-13/biomedicalconcepts/C64547
     bcSynonyms:
     - Creatinine
     id: BiomedicalConcept_12
     label: BiomedicalConcept_12
+    name: Creatinine Measurement
 - id: 437
   properties:
     _type: Code
@@ -3823,11 +3841,11 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: decimal
     bcPropertyEnabled: true
-    bcPropertyName: Laboratory Test Result
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_42
     label: BiomedicalConceptProperty_42
+    name: Laboratory Test Result
 - id: 440
   properties:
     _type: Code
@@ -3848,11 +3866,11 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: boolean
     bcPropertyEnabled: true
-    bcPropertyName: Laboratory Test Fasting Status
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_43
     label: BiomedicalConceptProperty_43
+    name: Laboratory Test Fasting Status
 - id: 443
   properties:
     _type: Code
@@ -3873,11 +3891,11 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
     bcPropertyEnabled: true
-    bcPropertyName: Molarity Unit
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_44
     label: BiomedicalConceptProperty_44
+    name: Molarity Unit
 - id: 446
   properties:
     _type: Code
@@ -3898,11 +3916,11 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
     bcPropertyEnabled: true
-    bcPropertyName: Biospecimen Type
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_45
     label: BiomedicalConceptProperty_45
+    name: Biospecimen Type
 - id: 448
   properties:
     _type: Code
@@ -3921,13 +3939,13 @@
 - id: 434
   properties:
     _type: BiomedicalConcept
-    bcName: Potassium Measurement
     bcReference: /mdr/bc/packages/2023-02-13/biomedicalconcepts/C64853
     bcSynonyms:
     - Potassium
     - K
     id: BiomedicalConcept_13
     label: BiomedicalConcept_13
+    name: Potassium Measurement
 - id: 452
   properties:
     _type: Code
@@ -3948,11 +3966,11 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: decimal
     bcPropertyEnabled: true
-    bcPropertyName: Laboratory Test Result
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_46
     label: BiomedicalConceptProperty_46
+    name: Laboratory Test Result
 - id: 455
   properties:
     _type: Code
@@ -3973,11 +3991,11 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: boolean
     bcPropertyEnabled: true
-    bcPropertyName: Laboratory Test Fasting Status
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_47
     label: BiomedicalConceptProperty_47
+    name: Laboratory Test Fasting Status
 - id: 458
   properties:
     _type: Code
@@ -3998,11 +4016,11 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
     bcPropertyEnabled: true
-    bcPropertyName: Molarity Unit
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_48
     label: BiomedicalConceptProperty_48
+    name: Molarity Unit
 - id: 461
   properties:
     _type: Code
@@ -4023,11 +4041,11 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
     bcPropertyEnabled: true
-    bcPropertyName: Biospecimen Type
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_49
     label: BiomedicalConceptProperty_49
+    name: Biospecimen Type
 - id: 463
   properties:
     _type: Code
@@ -4046,13 +4064,13 @@
 - id: 449
   properties:
     _type: BiomedicalConcept
-    bcName: Sodium Measurement
     bcReference: /mdr/bc/packages/2023-02-13/biomedicalconcepts/C64809
     bcSynonyms:
     - Sodium
     - NA
     id: BiomedicalConcept_14
     label: BiomedicalConcept_14
+    name: Sodium Measurement
 - id: 466
   properties:
     _type: Code
@@ -4071,12 +4089,12 @@
 - id: 464
   properties:
     _type: BiomedicalConcept
-    bcName: Adverse Event
     bcProperties: []
     bcReference: /mdr/bc/packages/2023-07-06/biomedicalconcepts/C41331
     bcSynonyms: []
     id: BiomedicalConcept_15
     label: BiomedicalConcept_15
+    name: Adverse Event
 - id: 467
   properties:
     _type: BiomedicalConceptSurrogate
@@ -4378,6 +4396,7 @@
   properties:
     _type: StudyDesign
     bcCategories: []
+    contents: []
     description: The main design for the study
     id: StudyDesign_1
     label: StudyDesign_1

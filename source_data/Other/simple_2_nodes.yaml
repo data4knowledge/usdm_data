@@ -33,12 +33,12 @@
     label: Code_5
 - id: 6
   properties:
-    _type: Organisation
-    id: Organisation_1
-    label: Organisation_1
-    organisationIdentifier: CT-GOV
-    organisationIdentifierScheme: USGOV
-    organisationName: ClinicalTrials.gov
+    _type: Organization
+    id: Organization_1
+    label: Organization_1
+    name: ClinicalTrials.gov
+    organizationIdentifier: CT-GOV
+    organizationIdentifierScheme: USGOV
     organizationLegalAddress: null
 - id: 5
   properties:
@@ -298,9 +298,9 @@
   properties:
     _type: Endpoint
     description: End Desc
-    endpointPurposeDescription: None provided
     id: Endpoint_1
     label: Endpoint_1
+    purpose: None provided
 - id: 37
   properties:
     _type: Objective
@@ -333,9 +333,10 @@
 - id: 44
   properties:
     _type: Timing
+    description: null
     id: Timing_4
     label: Timing_4
-    timingDescription: null
+    name: TIMING_None
     timingValue: PT0M
     timingWindow: null
     timingWindowLower: null
@@ -369,9 +370,10 @@
 - id: 48
   properties:
     _type: Timing
+    description: null
     id: Timing_1
     label: Timing_1
-    timingDescription: null
+    name: TIMING_3
     timingValue: PT0M
     timingWindow: '-'
     timingWindowLower: null
@@ -405,9 +407,10 @@
 - id: 52
   properties:
     _type: Timing
+    description: null
     id: Timing_5
     label: Timing_5
-    timingDescription: null
+    name: TIMING_None
     timingValue: PT0M
     timingWindow: null
     timingWindowLower: null
@@ -450,9 +453,10 @@
 - id: 57
   properties:
     _type: Timing
+    description: +14 Days
     id: Timing_2
     label: Timing_2
-    timingDescription: +14 Days
+    name: TIMING_4
     timingValue: P14D
     timingWindow: -2..2 Days
     timingWindowLower: P2D
@@ -486,9 +490,10 @@
 - id: 61
   properties:
     _type: Timing
+    description: +14 Days
     id: Timing_3
     label: Timing_3
-    timingDescription: +14 Days
+    name: TIMING_5
     timingValue: P14D
     timingWindow: '-'
     timingWindowLower: null
@@ -888,6 +893,7 @@
     _type: StudyDesign
     bcCategories: []
     biomedicalConcepts: []
+    contents: []
     description: The main design for the study
     id: StudyDesign_1
     label: StudyDesign_1

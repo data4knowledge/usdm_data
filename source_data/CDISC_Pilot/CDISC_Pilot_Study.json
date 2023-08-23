@@ -35,11 +35,11 @@
         "id": "StudyIdentifier_1",
         "studyIdentifier": "H2Q-MC-LZZT",
         "studyIdentifierScope": {
-          "id": "Organisation_1",
-          "organisationIdentifierScheme": "DUNS",
-          "organisationIdentifier": "00-642-1325",
-          "organisationName": "Eli Lilly",
-          "organisationType": {
+          "id": "Organization_1",
+          "name": "Eli Lilly",
+          "organizationIdentifierScheme": "DUNS",
+          "organizationIdentifier": "00-642-1325",
+          "organizationType": {
             "id": "Code_5",
             "code": "C70793",
             "codeSystem": "http://www.cdisc.org",
@@ -297,7 +297,7 @@
               {
                 "id": "Endpoint_1",
                 "description": "Alzheimer\\'s Disease Assessment Scale - Cognitive Subscale, total of 11 items\n[ADAS-Cog (11)] at Week 24",
-                "endpointPurposeDescription": "None provided",
+                "purpose": "None provided",
                 "endpointLevel": {
                   "id": "Code_251",
                   "code": "C94496",
@@ -309,7 +309,7 @@
               {
                 "id": "Endpoint_2",
                 "description": "Video-referenced Clinician\u2019s Interview-based Impression of Change (CIBIC+) at\nWeek 24",
-                "endpointPurposeDescription": "None provided",
+                "purpose": "None provided",
                 "endpointLevel": {
                   "id": "Code_253",
                   "code": "C94496",
@@ -334,7 +334,7 @@
               {
                 "id": "Endpoint_3",
                 "description": "Adverse events",
-                "endpointPurposeDescription": "None provided",
+                "purpose": "None provided",
                 "endpointLevel": {
                   "id": "Code_254",
                   "code": "C94496",
@@ -346,7 +346,7 @@
               {
                 "id": "Endpoint_4",
                 "description": "Vital signs (weight, standing and supine blood pressure, heart rate)",
-                "endpointPurposeDescription": "None provided",
+                "purpose": "None provided",
                 "endpointLevel": {
                   "id": "Code_256",
                   "code": "C94496",
@@ -358,7 +358,7 @@
               {
                 "id": "Endpoint_5",
                 "description": "Laboratory evaluations (Change from Baseline)",
-                "endpointPurposeDescription": "The change from baseline laboratory value will be \ncalculated as the difference between the baseline lab value and the endpoint value (i.e.,\nthe value at the specified visit) or the end of treatment observation",
+                "purpose": "The change from baseline laboratory value will be \ncalculated as the difference between the baseline lab value and the endpoint value (i.e.,\nthe value at the specified visit) or the end of treatment observation",
                 "endpointLevel": {
                   "id": "Code_257",
                   "code": "C94496",
@@ -383,7 +383,7 @@
               {
                 "id": "Endpoint_6",
                 "description": "Alzheimer\\'s Disease Assessment Scale - Cognitive Subscale, total of 11 items\n[ADAS-Cog (11)] at Weeks 8 and 16",
-                "endpointPurposeDescription": "None provided",
+                "purpose": "None provided",
                 "endpointLevel": {
                   "id": "Code_258",
                   "code": "C139173",
@@ -395,7 +395,7 @@
               {
                 "id": "Endpoint_7",
                 "description": "Video-referenced Clinician\\\u2019s Interview-based Impression of Change (CIBIC+) at\nWeeks 8 and 16",
-                "endpointPurposeDescription": "None provided",
+                "purpose": "None provided",
                 "endpointLevel": {
                   "id": "Code_260",
                   "code": "C139173",
@@ -407,7 +407,7 @@
               {
                 "id": "Endpoint_8",
                 "description": "Mean Revised Neuropsychiatric Inventory (NPI-X) from Week 4 to Week 24",
-                "endpointPurposeDescription": "None provided",
+                "purpose": "None provided",
                 "endpointLevel": {
                   "id": "Code_261",
                   "code": "C139173",
@@ -436,10 +436,11 @@
               {
                 "id": "ScheduledActivityInstance_1",
                 "scheduledInstanceType": "ACTIVITY",
-                "scheduleTimelineExitId": null,
                 "scheduledInstanceTimings": [
                   {
                     "id": "Timing_1",
+                    "name": "TIMING_3",
+                    "description": null,
                     "timingType": {
                       "id": "Code_82",
                       "code": "C99901x2",
@@ -448,7 +449,6 @@
                       "decode": "Before"
                     },
                     "timingValue": "PT0M",
-                    "timingDescription": null,
                     "timingRelativeToFrom": {
                       "id": "Code_84",
                       "code": "C99900x1",
@@ -460,10 +460,12 @@
                     "relativeToScheduledInstanceId": "ScheduledActivityInstance_2",
                     "timingWindowLower": null,
                     "timingWindowUpper": null,
-                    "timingWindow": null
+                    "timingWindow": null,
+                    "label": ""
                   }
                 ],
                 "scheduledInstanceTimelineId": null,
+                "scheduleTimelineExitId": null,
                 "defaultConditionId": "ScheduledActivityInstance_2",
                 "epochId": "StudyEpoch_1",
                 "activityIds": [
@@ -496,10 +498,11 @@
               {
                 "id": "ScheduledActivityInstance_2",
                 "scheduledInstanceType": "ACTIVITY",
-                "scheduleTimelineExitId": null,
                 "scheduledInstanceTimings": [
                   {
                     "id": "Timing_2",
+                    "name": "TIMING_4",
+                    "description": "24 Hours",
                     "timingType": {
                       "id": "Code_87",
                       "code": "C99901x2",
@@ -508,7 +511,6 @@
                       "decode": "Before"
                     },
                     "timingValue": "PT24H",
-                    "timingDescription": "24 Hours",
                     "timingRelativeToFrom": {
                       "id": "Code_89",
                       "code": "C99900x1",
@@ -520,10 +522,12 @@
                     "relativeToScheduledInstanceId": "ScheduledActivityInstance_3",
                     "timingWindowLower": null,
                     "timingWindowUpper": null,
-                    "timingWindow": null
+                    "timingWindow": null,
+                    "label": ""
                   }
                 ],
                 "scheduledInstanceTimelineId": null,
+                "scheduleTimelineExitId": null,
                 "defaultConditionId": "ScheduledActivityInstance_3",
                 "epochId": "StudyEpoch_1",
                 "activityIds": [
@@ -536,10 +540,11 @@
               {
                 "id": "ScheduledActivityInstance_3",
                 "scheduledInstanceType": "ACTIVITY",
-                "scheduleTimelineExitId": null,
                 "scheduledInstanceTimings": [
                   {
                     "id": "Timing_3",
+                    "name": "TIMING_5",
+                    "description": null,
                     "timingType": {
                       "id": "Code_90",
                       "code": "C99901x3",
@@ -548,7 +553,6 @@
                       "decode": "Fixed Reference"
                     },
                     "timingValue": "PT0M",
-                    "timingDescription": null,
                     "timingRelativeToFrom": {
                       "id": "Code_94",
                       "code": "C99900x1",
@@ -560,10 +564,12 @@
                     "relativeToScheduledInstanceId": "ScheduledActivityInstance_3",
                     "timingWindowLower": null,
                     "timingWindowUpper": null,
-                    "timingWindow": null
+                    "timingWindow": null,
+                    "label": ""
                   }
                 ],
                 "scheduledInstanceTimelineId": null,
+                "scheduleTimelineExitId": null,
                 "defaultConditionId": "ScheduledActivityInstance_4",
                 "epochId": "StudyEpoch_2",
                 "activityIds": [
@@ -584,10 +590,11 @@
               {
                 "id": "ScheduledActivityInstance_4",
                 "scheduledInstanceType": "ACTIVITY",
-                "scheduleTimelineExitId": null,
                 "scheduledInstanceTimings": [
                   {
                     "id": "Timing_4",
+                    "name": "TIMING_6",
+                    "description": "+13 Days",
                     "timingType": {
                       "id": "Code_96",
                       "code": "C99901x1",
@@ -596,7 +603,6 @@
                       "decode": "After"
                     },
                     "timingValue": "P13D",
-                    "timingDescription": "+13 Days",
                     "timingRelativeToFrom": {
                       "id": "Code_99",
                       "code": "C99900x1",
@@ -608,10 +614,12 @@
                     "relativeToScheduledInstanceId": "ScheduledActivityInstance_3",
                     "timingWindowLower": null,
                     "timingWindowUpper": null,
-                    "timingWindow": null
+                    "timingWindow": null,
+                    "label": ""
                   }
                 ],
                 "scheduledInstanceTimelineId": null,
+                "scheduleTimelineExitId": null,
                 "defaultConditionId": "ScheduledActivityInstance_5",
                 "epochId": "StudyEpoch_2",
                 "activityIds": [
@@ -624,10 +632,11 @@
               {
                 "id": "ScheduledActivityInstance_5",
                 "scheduledInstanceType": "ACTIVITY",
-                "scheduleTimelineExitId": null,
                 "scheduledInstanceTimings": [
                   {
                     "id": "Timing_5",
+                    "name": "TIMING_7",
+                    "description": "+1 Days",
                     "timingType": {
                       "id": "Code_101",
                       "code": "C99901x1",
@@ -636,7 +645,6 @@
                       "decode": "After"
                     },
                     "timingValue": "P1D",
-                    "timingDescription": "+1 Days",
                     "timingRelativeToFrom": {
                       "id": "Code_104",
                       "code": "C99900x1",
@@ -648,10 +656,12 @@
                     "relativeToScheduledInstanceId": "ScheduledActivityInstance_4",
                     "timingWindowLower": null,
                     "timingWindowUpper": null,
-                    "timingWindow": null
+                    "timingWindow": null,
+                    "label": ""
                   }
                 ],
                 "scheduledInstanceTimelineId": null,
+                "scheduleTimelineExitId": null,
                 "defaultConditionId": "ScheduledActivityInstance_6",
                 "epochId": "StudyEpoch_2",
                 "activityIds": [
@@ -671,10 +681,11 @@
               {
                 "id": "ScheduledActivityInstance_6",
                 "scheduledInstanceType": "ACTIVITY",
-                "scheduleTimelineExitId": null,
                 "scheduledInstanceTimings": [
                   {
                     "id": "Timing_6",
+                    "name": "TIMING_8",
+                    "description": "+14 Days",
                     "timingType": {
                       "id": "Code_106",
                       "code": "C99901x1",
@@ -683,7 +694,6 @@
                       "decode": "After"
                     },
                     "timingValue": "P14D",
-                    "timingDescription": "+14 Days",
                     "timingRelativeToFrom": {
                       "id": "Code_109",
                       "code": "C99900x1",
@@ -695,10 +705,12 @@
                     "relativeToScheduledInstanceId": "ScheduledActivityInstance_5",
                     "timingWindowLower": null,
                     "timingWindowUpper": null,
-                    "timingWindow": null
+                    "timingWindow": null,
+                    "label": ""
                   }
                 ],
                 "scheduledInstanceTimelineId": null,
+                "scheduleTimelineExitId": null,
                 "defaultConditionId": "ScheduledActivityInstance_7",
                 "epochId": "StudyEpoch_3",
                 "activityIds": [
@@ -717,10 +729,11 @@
               {
                 "id": "ScheduledActivityInstance_7",
                 "scheduledInstanceType": "ACTIVITY",
-                "scheduleTimelineExitId": null,
                 "scheduledInstanceTimings": [
                   {
                     "id": "Timing_7",
+                    "name": "TIMING_9",
+                    "description": "+1 Days",
                     "timingType": {
                       "id": "Code_111",
                       "code": "C99901x1",
@@ -729,7 +742,6 @@
                       "decode": "After"
                     },
                     "timingValue": "P1D",
-                    "timingDescription": "+1 Days",
                     "timingRelativeToFrom": {
                       "id": "Code_114",
                       "code": "C99900x1",
@@ -741,10 +753,12 @@
                     "relativeToScheduledInstanceId": "ScheduledActivityInstance_6",
                     "timingWindowLower": null,
                     "timingWindowUpper": null,
-                    "timingWindow": null
+                    "timingWindow": null,
+                    "label": ""
                   }
                 ],
                 "scheduledInstanceTimelineId": null,
+                "scheduleTimelineExitId": null,
                 "defaultConditionId": "ScheduledActivityInstance_8",
                 "epochId": "StudyEpoch_3",
                 "activityIds": [
@@ -755,10 +769,11 @@
               {
                 "id": "ScheduledActivityInstance_8",
                 "scheduledInstanceType": "ACTIVITY",
-                "scheduleTimelineExitId": null,
                 "scheduledInstanceTimings": [
                   {
                     "id": "Timing_8",
+                    "name": "TIMING_10",
+                    "description": "+13 Days",
                     "timingType": {
                       "id": "Code_116",
                       "code": "C99901x1",
@@ -767,7 +782,6 @@
                       "decode": "After"
                     },
                     "timingValue": "P13D",
-                    "timingDescription": "+13 Days",
                     "timingRelativeToFrom": {
                       "id": "Code_119",
                       "code": "C99900x1",
@@ -779,10 +793,12 @@
                     "relativeToScheduledInstanceId": "ScheduledActivityInstance_7",
                     "timingWindowLower": null,
                     "timingWindowUpper": null,
-                    "timingWindow": null
+                    "timingWindow": null,
+                    "label": ""
                   }
                 ],
                 "scheduledInstanceTimelineId": null,
+                "scheduleTimelineExitId": null,
                 "defaultConditionId": "ScheduledActivityInstance_9",
                 "epochId": "StudyEpoch_3",
                 "activityIds": [
@@ -801,10 +817,11 @@
               {
                 "id": "ScheduledActivityInstance_9",
                 "scheduledInstanceType": "ACTIVITY",
-                "scheduleTimelineExitId": null,
                 "scheduledInstanceTimings": [
                   {
                     "id": "Timing_9",
+                    "name": "TIMING_11",
+                    "description": "+14 Days",
                     "timingType": {
                       "id": "Code_121",
                       "code": "C99901x1",
@@ -813,7 +830,6 @@
                       "decode": "After"
                     },
                     "timingValue": "P14D",
-                    "timingDescription": "+14 Days",
                     "timingRelativeToFrom": {
                       "id": "Code_124",
                       "code": "C99900x1",
@@ -825,10 +841,12 @@
                     "relativeToScheduledInstanceId": "ScheduledActivityInstance_8",
                     "timingWindowLower": null,
                     "timingWindowUpper": null,
-                    "timingWindow": null
+                    "timingWindow": null,
+                    "label": ""
                   }
                 ],
                 "scheduledInstanceTimelineId": null,
+                "scheduleTimelineExitId": null,
                 "defaultConditionId": "ScheduledActivityInstance_10",
                 "epochId": "StudyEpoch_3",
                 "activityIds": [
@@ -849,10 +867,11 @@
               {
                 "id": "ScheduledActivityInstance_10",
                 "scheduledInstanceType": "ACTIVITY",
-                "scheduleTimelineExitId": null,
                 "scheduledInstanceTimings": [
                   {
                     "id": "Timing_10",
+                    "name": "TIMING_12",
+                    "description": "+1 Days",
                     "timingType": {
                       "id": "Code_126",
                       "code": "C99901x1",
@@ -861,7 +880,6 @@
                       "decode": "After"
                     },
                     "timingValue": "P1D",
-                    "timingDescription": "+1 Days",
                     "timingRelativeToFrom": {
                       "id": "Code_129",
                       "code": "C99900x1",
@@ -873,10 +891,12 @@
                     "relativeToScheduledInstanceId": "ScheduledActivityInstance_9",
                     "timingWindowLower": null,
                     "timingWindowUpper": null,
-                    "timingWindow": null
+                    "timingWindow": null,
+                    "label": ""
                   }
                 ],
                 "scheduledInstanceTimelineId": null,
+                "scheduleTimelineExitId": null,
                 "defaultConditionId": "ScheduledActivityInstance_11",
                 "epochId": "StudyEpoch_3",
                 "activityIds": [
@@ -887,10 +907,11 @@
               {
                 "id": "ScheduledActivityInstance_11",
                 "scheduledInstanceType": "ACTIVITY",
-                "scheduleTimelineExitId": null,
                 "scheduledInstanceTimings": [
                   {
                     "id": "Timing_11",
+                    "name": "TIMING_13",
+                    "description": "+27 Days",
                     "timingType": {
                       "id": "Code_131",
                       "code": "C99901x1",
@@ -899,7 +920,6 @@
                       "decode": "After"
                     },
                     "timingValue": "P27D",
-                    "timingDescription": "+27 Days",
                     "timingRelativeToFrom": {
                       "id": "Code_134",
                       "code": "C99900x1",
@@ -911,10 +931,12 @@
                     "relativeToScheduledInstanceId": "ScheduledActivityInstance_10",
                     "timingWindowLower": null,
                     "timingWindowUpper": null,
-                    "timingWindow": null
+                    "timingWindow": null,
+                    "label": ""
                   }
                 ],
                 "scheduledInstanceTimelineId": null,
+                "scheduleTimelineExitId": null,
                 "defaultConditionId": "ScheduledActivityInstance_12",
                 "epochId": "StudyEpoch_3",
                 "activityIds": [
@@ -934,10 +956,11 @@
               {
                 "id": "ScheduledActivityInstance_12",
                 "scheduledInstanceType": "ACTIVITY",
-                "scheduleTimelineExitId": null,
                 "scheduledInstanceTimings": [
                   {
                     "id": "Timing_12",
+                    "name": "TIMING_14",
+                    "description": "+1 Days",
                     "timingType": {
                       "id": "Code_136",
                       "code": "C99901x1",
@@ -946,7 +969,6 @@
                       "decode": "After"
                     },
                     "timingValue": "P1D",
-                    "timingDescription": "+1 Days",
                     "timingRelativeToFrom": {
                       "id": "Code_139",
                       "code": "C99900x1",
@@ -958,10 +980,12 @@
                     "relativeToScheduledInstanceId": "ScheduledActivityInstance_11",
                     "timingWindowLower": null,
                     "timingWindowUpper": null,
-                    "timingWindow": null
+                    "timingWindow": null,
+                    "label": ""
                   }
                 ],
                 "scheduledInstanceTimelineId": null,
+                "scheduleTimelineExitId": null,
                 "defaultConditionId": "ScheduledActivityInstance_13",
                 "epochId": "StudyEpoch_3",
                 "activityIds": [
@@ -972,10 +996,11 @@
               {
                 "id": "ScheduledActivityInstance_13",
                 "scheduledInstanceType": "ACTIVITY",
-                "scheduleTimelineExitId": null,
                 "scheduledInstanceTimings": [
                   {
                     "id": "Timing_13",
+                    "name": "TIMING_15",
+                    "description": "+27 Days",
                     "timingType": {
                       "id": "Code_141",
                       "code": "C99901x1",
@@ -984,7 +1009,6 @@
                       "decode": "After"
                     },
                     "timingValue": "P27D",
-                    "timingDescription": "+27 Days",
                     "timingRelativeToFrom": {
                       "id": "Code_144",
                       "code": "C99900x1",
@@ -996,10 +1020,12 @@
                     "relativeToScheduledInstanceId": "ScheduledActivityInstance_12",
                     "timingWindowLower": null,
                     "timingWindowUpper": null,
-                    "timingWindow": null
+                    "timingWindow": null,
+                    "label": ""
                   }
                 ],
                 "scheduledInstanceTimelineId": null,
+                "scheduleTimelineExitId": null,
                 "defaultConditionId": "ScheduledActivityInstance_14",
                 "epochId": "StudyEpoch_3",
                 "activityIds": [
@@ -1020,10 +1046,11 @@
               {
                 "id": "ScheduledActivityInstance_14",
                 "scheduledInstanceType": "ACTIVITY",
-                "scheduleTimelineExitId": null,
                 "scheduledInstanceTimings": [
                   {
                     "id": "Timing_14",
+                    "name": "TIMING_16",
+                    "description": "+1 Days",
                     "timingType": {
                       "id": "Code_146",
                       "code": "C99901x1",
@@ -1032,7 +1059,6 @@
                       "decode": "After"
                     },
                     "timingValue": "P1D",
-                    "timingDescription": "+1 Days",
                     "timingRelativeToFrom": {
                       "id": "Code_149",
                       "code": "C99900x1",
@@ -1044,10 +1070,12 @@
                     "relativeToScheduledInstanceId": "ScheduledActivityInstance_13",
                     "timingWindowLower": null,
                     "timingWindowUpper": null,
-                    "timingWindow": null
+                    "timingWindow": null,
+                    "label": ""
                   }
                 ],
                 "scheduledInstanceTimelineId": null,
+                "scheduleTimelineExitId": null,
                 "defaultConditionId": "ScheduledActivityInstance_15",
                 "epochId": "StudyEpoch_3",
                 "activityIds": [
@@ -1058,10 +1086,11 @@
               {
                 "id": "ScheduledActivityInstance_15",
                 "scheduledInstanceType": "ACTIVITY",
-                "scheduleTimelineExitId": null,
                 "scheduledInstanceTimings": [
                   {
                     "id": "Timing_15",
+                    "name": "TIMING_17",
+                    "description": "+27 Days",
                     "timingType": {
                       "id": "Code_151",
                       "code": "C99901x1",
@@ -1070,7 +1099,6 @@
                       "decode": "After"
                     },
                     "timingValue": "P27D",
-                    "timingDescription": "+27 Days",
                     "timingRelativeToFrom": {
                       "id": "Code_154",
                       "code": "C99900x1",
@@ -1082,10 +1110,12 @@
                     "relativeToScheduledInstanceId": "ScheduledActivityInstance_14",
                     "timingWindowLower": null,
                     "timingWindowUpper": null,
-                    "timingWindow": null
+                    "timingWindow": null,
+                    "label": ""
                   }
                 ],
                 "scheduledInstanceTimelineId": null,
+                "scheduleTimelineExitId": null,
                 "defaultConditionId": "ScheduledActivityInstance_16",
                 "epochId": "StudyEpoch_3",
                 "activityIds": [
@@ -1104,10 +1134,11 @@
               {
                 "id": "ScheduledActivityInstance_16",
                 "scheduledInstanceType": "ACTIVITY",
-                "scheduleTimelineExitId": null,
                 "scheduledInstanceTimings": [
                   {
                     "id": "Timing_16",
+                    "name": "TIMING_18",
+                    "description": "+1 Days",
                     "timingType": {
                       "id": "Code_156",
                       "code": "C99901x1",
@@ -1116,7 +1147,6 @@
                       "decode": "After"
                     },
                     "timingValue": "P1D",
-                    "timingDescription": "+1 Days",
                     "timingRelativeToFrom": {
                       "id": "Code_159",
                       "code": "C99900x1",
@@ -1128,10 +1158,12 @@
                     "relativeToScheduledInstanceId": "ScheduledActivityInstance_15",
                     "timingWindowLower": null,
                     "timingWindowUpper": null,
-                    "timingWindow": null
+                    "timingWindow": null,
+                    "label": ""
                   }
                 ],
                 "scheduledInstanceTimelineId": null,
+                "scheduleTimelineExitId": null,
                 "defaultConditionId": "ScheduledActivityInstance_17",
                 "epochId": "StudyEpoch_3",
                 "activityIds": [
@@ -1142,10 +1174,11 @@
               {
                 "id": "ScheduledActivityInstance_17",
                 "scheduledInstanceType": "ACTIVITY",
-                "scheduleTimelineExitId": null,
                 "scheduledInstanceTimings": [
                   {
                     "id": "Timing_17",
+                    "name": "TIMING_19",
+                    "description": "+27 Days",
                     "timingType": {
                       "id": "Code_161",
                       "code": "C99901x1",
@@ -1154,7 +1187,6 @@
                       "decode": "After"
                     },
                     "timingValue": "P27D",
-                    "timingDescription": "+27 Days",
                     "timingRelativeToFrom": {
                       "id": "Code_164",
                       "code": "C99900x1",
@@ -1166,10 +1198,12 @@
                     "relativeToScheduledInstanceId": "ScheduledActivityInstance_16",
                     "timingWindowLower": null,
                     "timingWindowUpper": null,
-                    "timingWindow": null
+                    "timingWindow": null,
+                    "label": ""
                   }
                 ],
                 "scheduledInstanceTimelineId": null,
+                "scheduleTimelineExitId": null,
                 "defaultConditionId": "ScheduledActivityInstance_18",
                 "epochId": "StudyEpoch_4",
                 "activityIds": [
@@ -1191,10 +1225,11 @@
               {
                 "id": "ScheduledActivityInstance_18",
                 "scheduledInstanceType": "ACTIVITY",
-                "scheduleTimelineExitId": null,
                 "scheduledInstanceTimings": [
                   {
                     "id": "Timing_18",
+                    "name": "TIMING_20",
+                    "description": "+14 Days",
                     "timingType": {
                       "id": "Code_166",
                       "code": "C99901x1",
@@ -1203,7 +1238,6 @@
                       "decode": "After"
                     },
                     "timingValue": "P14D",
-                    "timingDescription": "+14 Days",
                     "timingRelativeToFrom": {
                       "id": "Code_169",
                       "code": "C99900x1",
@@ -1215,10 +1249,12 @@
                     "relativeToScheduledInstanceId": "ScheduledActivityInstance_17",
                     "timingWindowLower": null,
                     "timingWindowUpper": null,
-                    "timingWindow": null
+                    "timingWindow": null,
+                    "label": ""
                   }
                 ],
                 "scheduledInstanceTimelineId": null,
+                "scheduleTimelineExitId": null,
                 "defaultConditionId": null,
                 "epochId": "StudyEpoch_5",
                 "activityIds": [
@@ -2343,13 +2379,13 @@
         "biomedicalConcepts": [
           {
             "id": "BiomedicalConcept_1",
-            "bcName": "Sex",
+            "name": "Sex",
             "bcSynonyms": [],
             "bcReference": "/mdr/bc/packages/2023-03-31/biomedicalconcepts/C28421",
             "bcProperties": [
               {
                 "id": "BiomedicalConceptProperty_1",
-                "bcPropertyName": "Sex",
+                "name": "Sex",
                 "bcPropertyRequired": true,
                 "bcPropertyEnabled": true,
                 "bcPropertyDatatype": "string",
@@ -2415,7 +2451,7 @@
           },
           {
             "id": "BiomedicalConcept_2",
-            "bcName": "Race",
+            "name": "Race",
             "bcSynonyms": [
               "Racial Group"
             ],
@@ -2423,7 +2459,7 @@
             "bcProperties": [
               {
                 "id": "BiomedicalConceptProperty_2",
-                "bcPropertyName": "Race",
+                "name": "Race",
                 "bcPropertyRequired": true,
                 "bcPropertyEnabled": true,
                 "bcPropertyDatatype": "string",
@@ -2467,7 +2503,7 @@
           },
           {
             "id": "BiomedicalConcept_3",
-            "bcName": "Systolic Blood Pressure",
+            "name": "Systolic Blood Pressure",
             "bcSynonyms": [
               "SYSBP"
             ],
@@ -2475,7 +2511,7 @@
             "bcProperties": [
               {
                 "id": "BiomedicalConceptProperty_3",
-                "bcPropertyName": "Vital Signs Result",
+                "name": "Vital Signs Result",
                 "bcPropertyRequired": true,
                 "bcPropertyEnabled": true,
                 "bcPropertyDatatype": "decimal",
@@ -2494,7 +2530,7 @@
               },
               {
                 "id": "BiomedicalConceptProperty_4",
-                "bcPropertyName": "Unit of Pressure",
+                "name": "Unit of Pressure",
                 "bcPropertyRequired": true,
                 "bcPropertyEnabled": true,
                 "bcPropertyDatatype": "string",
@@ -2525,7 +2561,7 @@
               },
               {
                 "id": "BiomedicalConceptProperty_5",
-                "bcPropertyName": "Vital Signs Location",
+                "name": "Vital Signs Location",
                 "bcPropertyRequired": true,
                 "bcPropertyEnabled": true,
                 "bcPropertyDatatype": "string",
@@ -2544,7 +2580,7 @@
               },
               {
                 "id": "BiomedicalConceptProperty_6",
-                "bcPropertyName": "Vital Signs Laterality",
+                "name": "Vital Signs Laterality",
                 "bcPropertyRequired": true,
                 "bcPropertyEnabled": true,
                 "bcPropertyDatatype": "string",
@@ -2563,7 +2599,7 @@
               },
               {
                 "id": "BiomedicalConceptProperty_7",
-                "bcPropertyName": "Test Method",
+                "name": "Test Method",
                 "bcPropertyRequired": true,
                 "bcPropertyEnabled": true,
                 "bcPropertyDatatype": "string",
@@ -2582,7 +2618,7 @@
               },
               {
                 "id": "BiomedicalConceptProperty_8",
-                "bcPropertyName": "Vital Signs Position",
+                "name": "Vital Signs Position",
                 "bcPropertyRequired": true,
                 "bcPropertyEnabled": true,
                 "bcPropertyDatatype": "string",
@@ -2614,7 +2650,7 @@
           },
           {
             "id": "BiomedicalConcept_4",
-            "bcName": "Diastolic Blood Pressure",
+            "name": "Diastolic Blood Pressure",
             "bcSynonyms": [
               "DIABP"
             ],
@@ -2622,7 +2658,7 @@
             "bcProperties": [
               {
                 "id": "BiomedicalConceptProperty_9",
-                "bcPropertyName": "Vital Signs Result",
+                "name": "Vital Signs Result",
                 "bcPropertyRequired": true,
                 "bcPropertyEnabled": true,
                 "bcPropertyDatatype": "decimal",
@@ -2641,7 +2677,7 @@
               },
               {
                 "id": "BiomedicalConceptProperty_10",
-                "bcPropertyName": "Unit of Pressure",
+                "name": "Unit of Pressure",
                 "bcPropertyRequired": true,
                 "bcPropertyEnabled": true,
                 "bcPropertyDatatype": "string",
@@ -2672,7 +2708,7 @@
               },
               {
                 "id": "BiomedicalConceptProperty_11",
-                "bcPropertyName": "Vital Signs Location",
+                "name": "Vital Signs Location",
                 "bcPropertyRequired": true,
                 "bcPropertyEnabled": true,
                 "bcPropertyDatatype": "string",
@@ -2691,7 +2727,7 @@
               },
               {
                 "id": "BiomedicalConceptProperty_12",
-                "bcPropertyName": "Vital Signs Laterality",
+                "name": "Vital Signs Laterality",
                 "bcPropertyRequired": true,
                 "bcPropertyEnabled": true,
                 "bcPropertyDatatype": "string",
@@ -2710,7 +2746,7 @@
               },
               {
                 "id": "BiomedicalConceptProperty_13",
-                "bcPropertyName": "Test Method",
+                "name": "Test Method",
                 "bcPropertyRequired": true,
                 "bcPropertyEnabled": true,
                 "bcPropertyDatatype": "string",
@@ -2729,7 +2765,7 @@
               },
               {
                 "id": "BiomedicalConceptProperty_14",
-                "bcPropertyName": "Vital Signs Position",
+                "name": "Vital Signs Position",
                 "bcPropertyRequired": true,
                 "bcPropertyEnabled": true,
                 "bcPropertyDatatype": "string",
@@ -2761,7 +2797,7 @@
           },
           {
             "id": "BiomedicalConcept_5",
-            "bcName": "Body Temperature",
+            "name": "Body Temperature",
             "bcSynonyms": [
               "Temperature"
             ],
@@ -2769,7 +2805,7 @@
             "bcProperties": [
               {
                 "id": "BiomedicalConceptProperty_15",
-                "bcPropertyName": "Vital Signs Result",
+                "name": "Vital Signs Result",
                 "bcPropertyRequired": true,
                 "bcPropertyEnabled": true,
                 "bcPropertyDatatype": "decimal",
@@ -2788,7 +2824,7 @@
               },
               {
                 "id": "BiomedicalConceptProperty_16",
-                "bcPropertyName": "Unit of Temperature",
+                "name": "Unit of Temperature",
                 "bcPropertyRequired": true,
                 "bcPropertyEnabled": true,
                 "bcPropertyDatatype": "string",
@@ -2819,7 +2855,7 @@
               },
               {
                 "id": "BiomedicalConceptProperty_17",
-                "bcPropertyName": "Vital Signs Location",
+                "name": "Vital Signs Location",
                 "bcPropertyRequired": true,
                 "bcPropertyEnabled": true,
                 "bcPropertyDatatype": "string",
@@ -2851,7 +2887,7 @@
           },
           {
             "id": "BiomedicalConcept_6",
-            "bcName": "Body Weight",
+            "name": "Body Weight",
             "bcSynonyms": [
               "Weight"
             ],
@@ -2859,7 +2895,7 @@
             "bcProperties": [
               {
                 "id": "BiomedicalConceptProperty_18",
-                "bcPropertyName": "Vital Signs Result",
+                "name": "Vital Signs Result",
                 "bcPropertyRequired": true,
                 "bcPropertyEnabled": true,
                 "bcPropertyDatatype": "decimal",
@@ -2878,7 +2914,7 @@
               },
               {
                 "id": "BiomedicalConceptProperty_19",
-                "bcPropertyName": "Unit of Weight",
+                "name": "Unit of Weight",
                 "bcPropertyRequired": true,
                 "bcPropertyEnabled": true,
                 "bcPropertyDatatype": "string",
@@ -2944,7 +2980,7 @@
           },
           {
             "id": "BiomedicalConcept_7",
-            "bcName": "Body Height",
+            "name": "Body Height",
             "bcSynonyms": [
               "Height"
             ],
@@ -2952,7 +2988,7 @@
             "bcProperties": [
               {
                 "id": "BiomedicalConceptProperty_20",
-                "bcPropertyName": "Vital Signs Result",
+                "name": "Vital Signs Result",
                 "bcPropertyRequired": true,
                 "bcPropertyEnabled": true,
                 "bcPropertyDatatype": "decimal",
@@ -2971,7 +3007,7 @@
               },
               {
                 "id": "BiomedicalConceptProperty_21",
-                "bcPropertyName": "Unit of Height",
+                "name": "Unit of Height",
                 "bcPropertyRequired": true,
                 "bcPropertyEnabled": true,
                 "bcPropertyDatatype": "string",
@@ -3048,7 +3084,7 @@
           },
           {
             "id": "BiomedicalConcept_8",
-            "bcName": "Alanine Aminotransferase Measurement",
+            "name": "Alanine Aminotransferase Measurement",
             "bcSynonyms": [
               "ALT",
               "SGPT"
@@ -3057,7 +3093,7 @@
             "bcProperties": [
               {
                 "id": "BiomedicalConceptProperty_22",
-                "bcPropertyName": "Laboratory Test Result",
+                "name": "Laboratory Test Result",
                 "bcPropertyRequired": true,
                 "bcPropertyEnabled": true,
                 "bcPropertyDatatype": "decimal",
@@ -3076,7 +3112,7 @@
               },
               {
                 "id": "BiomedicalConceptProperty_23",
-                "bcPropertyName": "Laboratory Test Fasting Status",
+                "name": "Laboratory Test Fasting Status",
                 "bcPropertyRequired": true,
                 "bcPropertyEnabled": true,
                 "bcPropertyDatatype": "boolean",
@@ -3095,7 +3131,7 @@
               },
               {
                 "id": "BiomedicalConceptProperty_24",
-                "bcPropertyName": "Unit of Catalytic Activity Concentration",
+                "name": "Unit of Catalytic Activity Concentration",
                 "bcPropertyRequired": true,
                 "bcPropertyEnabled": true,
                 "bcPropertyDatatype": "string",
@@ -3114,7 +3150,7 @@
               },
               {
                 "id": "BiomedicalConceptProperty_25",
-                "bcPropertyName": "Biospecimen Type",
+                "name": "Biospecimen Type",
                 "bcPropertyRequired": true,
                 "bcPropertyEnabled": true,
                 "bcPropertyDatatype": "string",
@@ -3146,7 +3182,7 @@
           },
           {
             "id": "BiomedicalConcept_9",
-            "bcName": "Albumin Measurement",
+            "name": "Albumin Measurement",
             "bcSynonyms": [
               "Albumin"
             ],
@@ -3154,7 +3190,7 @@
             "bcProperties": [
               {
                 "id": "BiomedicalConceptProperty_26",
-                "bcPropertyName": "Laboratory Test Result",
+                "name": "Laboratory Test Result",
                 "bcPropertyRequired": true,
                 "bcPropertyEnabled": true,
                 "bcPropertyDatatype": "decimal",
@@ -3173,7 +3209,7 @@
               },
               {
                 "id": "BiomedicalConceptProperty_27",
-                "bcPropertyName": "Laboratory Test Fasting Status",
+                "name": "Laboratory Test Fasting Status",
                 "bcPropertyRequired": true,
                 "bcPropertyEnabled": true,
                 "bcPropertyDatatype": "boolean",
@@ -3192,7 +3228,7 @@
               },
               {
                 "id": "BiomedicalConceptProperty_28",
-                "bcPropertyName": "Unit of Mass or Substance Concentration",
+                "name": "Unit of Mass or Substance Concentration",
                 "bcPropertyRequired": true,
                 "bcPropertyEnabled": true,
                 "bcPropertyDatatype": "string",
@@ -3211,7 +3247,7 @@
               },
               {
                 "id": "BiomedicalConceptProperty_29",
-                "bcPropertyName": "Biospecimen Type",
+                "name": "Biospecimen Type",
                 "bcPropertyRequired": true,
                 "bcPropertyEnabled": true,
                 "bcPropertyDatatype": "string",
@@ -3243,7 +3279,7 @@
           },
           {
             "id": "BiomedicalConcept_10",
-            "bcName": "Alkaline Phosphatase Measurement",
+            "name": "Alkaline Phosphatase Measurement",
             "bcSynonyms": [
               "Alkaline Phosphatase"
             ],
@@ -3251,7 +3287,7 @@
             "bcProperties": [
               {
                 "id": "BiomedicalConceptProperty_30",
-                "bcPropertyName": "Laboratory Test Result",
+                "name": "Laboratory Test Result",
                 "bcPropertyRequired": true,
                 "bcPropertyEnabled": true,
                 "bcPropertyDatatype": "decimal",
@@ -3270,7 +3306,7 @@
               },
               {
                 "id": "BiomedicalConceptProperty_31",
-                "bcPropertyName": "Laboratory Test Fasting Status",
+                "name": "Laboratory Test Fasting Status",
                 "bcPropertyRequired": true,
                 "bcPropertyEnabled": true,
                 "bcPropertyDatatype": "boolean",
@@ -3289,7 +3325,7 @@
               },
               {
                 "id": "BiomedicalConceptProperty_32",
-                "bcPropertyName": "Unit of Catalytic Activity Concentration",
+                "name": "Unit of Catalytic Activity Concentration",
                 "bcPropertyRequired": true,
                 "bcPropertyEnabled": true,
                 "bcPropertyDatatype": "string",
@@ -3308,7 +3344,7 @@
               },
               {
                 "id": "BiomedicalConceptProperty_33",
-                "bcPropertyName": "Biospecimen Type",
+                "name": "Biospecimen Type",
                 "bcPropertyRequired": true,
                 "bcPropertyEnabled": true,
                 "bcPropertyDatatype": "string",
@@ -3340,7 +3376,7 @@
           },
           {
             "id": "BiomedicalConcept_11",
-            "bcName": "Aspartate Aminotransferase Measurement",
+            "name": "Aspartate Aminotransferase Measurement",
             "bcSynonyms": [
               "AST",
               "SGOT"
@@ -3349,7 +3385,7 @@
             "bcProperties": [
               {
                 "id": "BiomedicalConceptProperty_34",
-                "bcPropertyName": "Laboratory Test Result",
+                "name": "Laboratory Test Result",
                 "bcPropertyRequired": true,
                 "bcPropertyEnabled": true,
                 "bcPropertyDatatype": "decimal",
@@ -3368,7 +3404,7 @@
               },
               {
                 "id": "BiomedicalConceptProperty_35",
-                "bcPropertyName": "Laboratory Test Fasting Status",
+                "name": "Laboratory Test Fasting Status",
                 "bcPropertyRequired": true,
                 "bcPropertyEnabled": true,
                 "bcPropertyDatatype": "boolean",
@@ -3387,7 +3423,7 @@
               },
               {
                 "id": "BiomedicalConceptProperty_36",
-                "bcPropertyName": "Unit of Catalytic Activity Concentration",
+                "name": "Unit of Catalytic Activity Concentration",
                 "bcPropertyRequired": true,
                 "bcPropertyEnabled": true,
                 "bcPropertyDatatype": "string",
@@ -3406,7 +3442,7 @@
               },
               {
                 "id": "BiomedicalConceptProperty_37",
-                "bcPropertyName": "Biospecimen Type",
+                "name": "Biospecimen Type",
                 "bcPropertyRequired": true,
                 "bcPropertyEnabled": true,
                 "bcPropertyDatatype": "string",
@@ -3438,7 +3474,7 @@
           },
           {
             "id": "BiomedicalConcept_12",
-            "bcName": "Creatinine Measurement",
+            "name": "Creatinine Measurement",
             "bcSynonyms": [
               "Creatinine"
             ],
@@ -3446,7 +3482,7 @@
             "bcProperties": [
               {
                 "id": "BiomedicalConceptProperty_38",
-                "bcPropertyName": "Laboratory Test Result",
+                "name": "Laboratory Test Result",
                 "bcPropertyRequired": true,
                 "bcPropertyEnabled": true,
                 "bcPropertyDatatype": "decimal",
@@ -3465,7 +3501,7 @@
               },
               {
                 "id": "BiomedicalConceptProperty_39",
-                "bcPropertyName": "Laboratory Test Fasting Status",
+                "name": "Laboratory Test Fasting Status",
                 "bcPropertyRequired": true,
                 "bcPropertyEnabled": true,
                 "bcPropertyDatatype": "boolean",
@@ -3484,7 +3520,7 @@
               },
               {
                 "id": "BiomedicalConceptProperty_40",
-                "bcPropertyName": "Unit of Mass or Substance Concentration",
+                "name": "Unit of Mass or Substance Concentration",
                 "bcPropertyRequired": true,
                 "bcPropertyEnabled": true,
                 "bcPropertyDatatype": "string",
@@ -3503,7 +3539,7 @@
               },
               {
                 "id": "BiomedicalConceptProperty_41",
-                "bcPropertyName": "Biospecimen Type",
+                "name": "Biospecimen Type",
                 "bcPropertyRequired": true,
                 "bcPropertyEnabled": true,
                 "bcPropertyDatatype": "string",
@@ -3535,7 +3571,7 @@
           },
           {
             "id": "BiomedicalConcept_13",
-            "bcName": "Potassium Measurement",
+            "name": "Potassium Measurement",
             "bcSynonyms": [
               "Potassium",
               "K"
@@ -3544,7 +3580,7 @@
             "bcProperties": [
               {
                 "id": "BiomedicalConceptProperty_42",
-                "bcPropertyName": "Laboratory Test Result",
+                "name": "Laboratory Test Result",
                 "bcPropertyRequired": true,
                 "bcPropertyEnabled": true,
                 "bcPropertyDatatype": "decimal",
@@ -3563,7 +3599,7 @@
               },
               {
                 "id": "BiomedicalConceptProperty_43",
-                "bcPropertyName": "Laboratory Test Fasting Status",
+                "name": "Laboratory Test Fasting Status",
                 "bcPropertyRequired": true,
                 "bcPropertyEnabled": true,
                 "bcPropertyDatatype": "boolean",
@@ -3582,7 +3618,7 @@
               },
               {
                 "id": "BiomedicalConceptProperty_44",
-                "bcPropertyName": "Molarity Unit",
+                "name": "Molarity Unit",
                 "bcPropertyRequired": true,
                 "bcPropertyEnabled": true,
                 "bcPropertyDatatype": "string",
@@ -3601,7 +3637,7 @@
               },
               {
                 "id": "BiomedicalConceptProperty_45",
-                "bcPropertyName": "Biospecimen Type",
+                "name": "Biospecimen Type",
                 "bcPropertyRequired": true,
                 "bcPropertyEnabled": true,
                 "bcPropertyDatatype": "string",
@@ -3633,7 +3669,7 @@
           },
           {
             "id": "BiomedicalConcept_14",
-            "bcName": "Sodium Measurement",
+            "name": "Sodium Measurement",
             "bcSynonyms": [
               "Sodium",
               "NA"
@@ -3642,7 +3678,7 @@
             "bcProperties": [
               {
                 "id": "BiomedicalConceptProperty_46",
-                "bcPropertyName": "Laboratory Test Result",
+                "name": "Laboratory Test Result",
                 "bcPropertyRequired": true,
                 "bcPropertyEnabled": true,
                 "bcPropertyDatatype": "decimal",
@@ -3661,7 +3697,7 @@
               },
               {
                 "id": "BiomedicalConceptProperty_47",
-                "bcPropertyName": "Laboratory Test Fasting Status",
+                "name": "Laboratory Test Fasting Status",
                 "bcPropertyRequired": true,
                 "bcPropertyEnabled": true,
                 "bcPropertyDatatype": "boolean",
@@ -3680,7 +3716,7 @@
               },
               {
                 "id": "BiomedicalConceptProperty_48",
-                "bcPropertyName": "Molarity Unit",
+                "name": "Molarity Unit",
                 "bcPropertyRequired": true,
                 "bcPropertyEnabled": true,
                 "bcPropertyDatatype": "string",
@@ -3699,7 +3735,7 @@
               },
               {
                 "id": "BiomedicalConceptProperty_49",
-                "bcPropertyName": "Biospecimen Type",
+                "name": "Biospecimen Type",
                 "bcPropertyRequired": true,
                 "bcPropertyEnabled": true,
                 "bcPropertyDatatype": "string",
@@ -3731,7 +3767,7 @@
           },
           {
             "id": "BiomedicalConcept_15",
-            "bcName": "Adverse Event",
+            "name": "Adverse Event",
             "bcSynonyms": [],
             "bcReference": "/mdr/bc/packages/2023-07-06/biomedicalconcepts/C41331",
             "bcProperties": [],
@@ -3974,7 +4010,8 @@
             },
             "transitionEndRule": null
           }
-        ]
+        ],
+        "contents": []
       }
     ],
     "studyRationale": "The discontinuation rate associated with this oral dosing regimen was 58.6% in previous studies, and alternative clinical strategies have been sought to improve tolerance for the compound. To that end, development of a Transdermal Therapeutic System (TTS) has been initiated.",

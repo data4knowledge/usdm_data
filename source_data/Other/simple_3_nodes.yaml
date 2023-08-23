@@ -72,12 +72,12 @@
       and Northern Ireland
 - id: 8
   properties:
-    _type: Organisation
-    id: Organisation_1
-    label: Organisation_1
-    organisationIdentifier: CT-GOV
-    organisationIdentifierScheme: USGOV
-    organisationName: ClinicalTrials.gov
+    _type: Organization
+    id: Organization_1
+    label: Organization_1
+    name: ClinicalTrials.gov
+    organizationIdentifier: CT-GOV
+    organizationIdentifierScheme: USGOV
 - id: 7
   properties:
     _type: StudyIdentifier
@@ -115,12 +115,12 @@
     text: Somewhere, In a City, In a District, In a big state, 12345, France
 - id: 13
   properties:
-    _type: Organisation
-    id: Organisation_2
-    label: Organisation_2
-    organisationIdentifier: '123456789'
-    organisationIdentifierScheme: DUNS
-    organisationName: ACME Pharma
+    _type: Organization
+    id: Organization_2
+    label: Organization_2
+    name: ACME Pharma
+    organizationIdentifier: '123456789'
+    organizationIdentifierScheme: DUNS
 - id: 12
   properties:
     _type: StudyIdentifier
@@ -400,9 +400,9 @@
     _type: Endpoint
     description: Clinical status assessed using a 7-category ordinal scale at Day
       28
-    endpointPurposeDescription: None provided
     id: Endpoint_1
     label: Endpoint_1
+    purpose: None provided
 - id: 50
   properties:
     _type: Objective
@@ -434,9 +434,9 @@
     _type: Endpoint
     description: Time to clinical improvement (TTCI) defined as a National Early Warning
       Score 2 (NEWS2) of <=2 maintained for 24 hours
-    endpointPurposeDescription: None provided
     id: Endpoint_2
     label: Endpoint_2
+    purpose: None provided
 - id: 59
   properties:
     _type: Code
@@ -451,9 +451,9 @@
     _type: Endpoint
     description: Time to improvement of at least 2 categories relative to baseline
       on a 7-category ordinal scale of clinical status
-    endpointPurposeDescription: None provided
     id: Endpoint_3
     label: Endpoint_3
+    purpose: None provided
 - id: 61
   properties:
     _type: Code
@@ -467,9 +467,9 @@
   properties:
     _type: Endpoint
     description: Incidence of mechanical ventilation
-    endpointPurposeDescription: None provided
     id: Endpoint_4
     label: Endpoint_4
+    purpose: None provided
 - id: 63
   properties:
     _type: Code
@@ -483,9 +483,9 @@
   properties:
     _type: Endpoint
     description: Ventilator-free days to Day 28
-    endpointPurposeDescription: None provided
     id: Endpoint_5
     label: Endpoint_5
+    purpose: None provided
 - id: 65
   properties:
     _type: Code
@@ -499,9 +499,9 @@
   properties:
     _type: Endpoint
     description: Incidence of intensive care unit (ICU) stay
-    endpointPurposeDescription: None provided
     id: Endpoint_6
     label: Endpoint_6
+    purpose: None provided
 - id: 67
   properties:
     _type: Code
@@ -515,9 +515,9 @@
   properties:
     _type: Endpoint
     description: Duration of ICU stay
-    endpointPurposeDescription: None provided
     id: Endpoint_7
     label: Endpoint_7
+    purpose: None provided
 - id: 69
   properties:
     _type: Code
@@ -534,9 +534,9 @@
       ventilation, ICU admission, or withdrawal (whichever occurs first). For patients
       entering the study already in ICU or on mechanical ventilation, clinical failure
       is defined as a one-category worsening on the ordinal scale, withdrawal or death.
-    endpointPurposeDescription: None provided
     id: Endpoint_8
     label: Endpoint_8
+    purpose: None provided
 - id: 71
   properties:
     _type: Code
@@ -550,9 +550,9 @@
   properties:
     _type: Endpoint
     description: Mortality rate at Days 7, 14, 21, 28, and 60
-    endpointPurposeDescription: None provided
     id: Endpoint_9
     label: Endpoint_9
+    purpose: None provided
 - id: 73
   properties:
     _type: Code
@@ -568,9 +568,9 @@
     description: "Time to hospital discharge or \u201Cready for discharge\u201D (as\
       \ evidenced by normal body temperature and respiratory rate, and stable oxygen\
       \ saturation on ambient air or <= 2L supplemental oxygen)"
-    endpointPurposeDescription: None provided
     id: Endpoint_10
     label: Endpoint_10
+    purpose: None provided
 - id: 75
   properties:
     _type: Code
@@ -588,9 +588,9 @@
       \ oxygen saturation on ambient air or <= 2L supplemental oxygen); OR, in a non-ICU\
       \ hospital ward (or \u201Cready for hospital ward\u201D) not requiring supplemental\
       \ oxygen"
-    endpointPurposeDescription: None provided
     id: Endpoint_11
     label: Endpoint_11
+    purpose: None provided
 - id: 77
   properties:
     _type: Code
@@ -604,9 +604,9 @@
   properties:
     _type: Endpoint
     description: Duration of supplemental oxygen
-    endpointPurposeDescription: None provided
     id: Endpoint_12
     label: Endpoint_12
+    purpose: None provided
 - id: 54
   properties:
     _type: Objective
@@ -641,9 +641,10 @@
 - id: 81
   properties:
     _type: Timing
+    description: null
     id: Timing_1
     label: Timing_1
-    timingDescription: null
+    name: TIMING_3
     timingValue: PT0M
     timingWindow: null
     timingWindowLower: null
@@ -677,9 +678,10 @@
 - id: 85
   properties:
     _type: Timing
+    description: Pre Dose
     id: Timing_2
     label: Timing_2
-    timingDescription: Pre Dose
+    name: TIMING_4
     timingValue: PT0M
     timingWindow: 0..4 Hours
     timingWindowLower: PT0H
@@ -713,9 +715,10 @@
 - id: 89
   properties:
     _type: Timing
+    description: null
     id: Timing_3
     label: Timing_3
-    timingDescription: null
+    name: TIMING_5
     timingValue: PT0M
     timingWindow: 0..1 Hours
     timingWindowLower: PT0H
@@ -749,9 +752,10 @@
 - id: 93
   properties:
     _type: Timing
+    description: +24 Hours
     id: Timing_4
     label: Timing_4
-    timingDescription: +24 Hours
+    name: TIMING_6
     timingValue: PT24H
     timingWindow: null
     timingWindowLower: null
@@ -785,9 +789,10 @@
 - id: 97
   properties:
     _type: Timing
+    description: +7 Days
     id: Timing_5
     label: Timing_5
-    timingDescription: +7 Days
+    name: TIMING_7
     timingValue: P7D
     timingWindow: -3..3 Days
     timingWindowLower: P3D
@@ -846,19 +851,19 @@
 - id: 105
   properties:
     _type: IntercurrentEvent
-    description: ''
+    description: IC Event Description
     id: IntercurrentEvent_2
     intercurrentEventStrategy: A second bad event
     label: IntercurrentEvent_2
-    name: ''
+    name: termination
 - id: 106
   properties:
     _type: IntercurrentEvent
-    description: ''
+    description: IC Event Description
     id: IntercurrentEvent_3
     intercurrentEventStrategy: A third bad thing
     label: IntercurrentEvent_3
-    name: ''
+    name: termination
 - id: 102
   properties:
     _type: Estimand
@@ -1205,10 +1210,10 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
     bcPropertyEnabled: true
-    bcPropertyName: Sex
     bcPropertyRequired: true
     id: BiomedicalConceptProperty_1
     label: BiomedicalConceptProperty_1
+    name: Sex
 - id: 148
   properties:
     _type: Code
@@ -1227,11 +1232,11 @@
 - id: 137
   properties:
     _type: BiomedicalConcept
-    bcName: Sex
     bcReference: /mdr/bc/packages/2023-03-31/biomedicalconcepts/C28421
     bcSynonyms: []
     id: BiomedicalConcept_1
     label: BiomedicalConcept_1
+    name: Sex
 - id: 152
   properties:
     _type: Code
@@ -1267,10 +1272,10 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
     bcPropertyEnabled: true
-    bcPropertyName: Race
     bcPropertyRequired: true
     id: BiomedicalConceptProperty_2
     label: BiomedicalConceptProperty_2
+    name: Race
 - id: 156
   properties:
     _type: Code
@@ -1289,12 +1294,12 @@
 - id: 149
   properties:
     _type: BiomedicalConcept
-    bcName: Race
     bcReference: /mdr/bc/packages/2023-03-31/biomedicalconcepts/C17049
     bcSynonyms:
     - Racial Group
     id: BiomedicalConcept_2
     label: BiomedicalConcept_2
+    name: Race
 - id: 160
   properties:
     _type: Code
@@ -1315,11 +1320,11 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: decimal
     bcPropertyEnabled: true
-    bcPropertyName: Vital Signs Result
     bcPropertyRequired: true
     bcPropertyResponseCodes: []
     id: BiomedicalConceptProperty_3
     label: BiomedicalConceptProperty_3
+    name: Vital Signs Result
 - id: 163
   properties:
     _type: Code
@@ -1385,10 +1390,10 @@
     _type: BiomedicalConceptProperty
     bcPropertyDatatype: string
     bcPropertyEnabled: true
-    bcPropertyName: Unit of Weight
     bcPropertyRequired: true
     id: BiomedicalConceptProperty_4
     label: BiomedicalConceptProperty_4
+    name: Unit of Weight
 - id: 171
   properties:
     _type: Code
@@ -1407,12 +1412,12 @@
 - id: 157
   properties:
     _type: BiomedicalConcept
-    bcName: Body Weight
     bcReference: /mdr/bc/packages/2022-10-26/biomedicalconcepts/C81328
     bcSynonyms:
     - Weight
     id: BiomedicalConcept_3
     label: BiomedicalConcept_3
+    name: Body Weight
 - id: 172
   properties:
     _type: BiomedicalConceptSurrogate
@@ -1644,6 +1649,7 @@
   properties:
     _type: StudyDesign
     bcCategories: []
+    contents: []
     description: The main design for the study
     id: StudyDesign_1
     label: StudyDesign_1

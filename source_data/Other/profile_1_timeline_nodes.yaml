@@ -6,9 +6,10 @@
 - id: 13
   properties:
     _type: Timing
+    description: null
     id: Timing_6
     label: Timing_6
-    timingDescription: null
+    name: TIMING_3
     timingRelativeToFrom:
       _type: Code
       code: C99900x1
@@ -38,9 +39,10 @@
 - id: 17
   properties:
     _type: Timing
+    description: Pre Dose
     id: Timing_7
     label: Timing_7
-    timingDescription: Pre Dose
+    name: TIMING_4
     timingRelativeToFrom:
       _type: Code
       code: C99900x1
@@ -70,9 +72,10 @@
 - id: 21
   properties:
     _type: Timing
+    description: null
     id: Timing_8
     label: Timing_8
-    timingDescription: null
+    name: TIMING_5
     timingRelativeToFrom:
       _type: Code
       code: C99900x1
@@ -102,9 +105,10 @@
 - id: 25
   properties:
     _type: Timing
+    description: +24 Hours
     id: Timing_9
     label: Timing_9
-    timingDescription: +24 Hours
+    name: TIMING_6
     timingRelativeToFrom:
       _type: Code
       code: C99900x1
@@ -134,9 +138,10 @@
 - id: 29
   properties:
     _type: Timing
+    description: +7 Days
     id: Timing_10
     label: Timing_10
-    timingDescription: +7 Days
+    name: TIMING_7
     timingRelativeToFrom:
       _type: Code
       code: C99900x1
@@ -181,9 +186,10 @@
 - id: 35
   properties:
     _type: Timing
+    description: 1 Hour
     id: Timing_1
     label: Timing_1
-    timingDescription: 1 Hour
+    name: TIMING_3
     timingRelativeToFrom:
       _type: Code
       code: C99900x1
@@ -213,9 +219,10 @@
 - id: 39
   properties:
     _type: Timing
+    description: null
     id: Timing_2
     label: Timing_2
-    timingDescription: null
+    name: TIMING_4
     timingRelativeToFrom:
       _type: Code
       code: C99900x1
@@ -245,9 +252,10 @@
 - id: 43
   properties:
     _type: Timing
+    description: 2 Hours
     id: Timing_3
     label: Timing_3
-    timingDescription: 2 Hours
+    name: TIMING_5
     timingRelativeToFrom:
       _type: Code
       code: C99900x1
@@ -277,9 +285,10 @@
 - id: 47
   properties:
     _type: Timing
+    description: null
     id: Timing_4
     label: Timing_4
-    timingDescription: null
+    name: TIMING_6
     timingRelativeToFrom:
       _type: Code
       code: C99900x1
@@ -309,9 +318,10 @@
 - id: 51
   properties:
     _type: Timing
+    description: 2 Hours
     id: Timing_5
     label: Timing_5
-    timingDescription: 2 Hours
+    name: TIMING_7
     timingRelativeToFrom:
       _type: Code
       code: C99900x1
@@ -584,6 +594,7 @@
     bcCategories: []
     bcSurrogates: {}
     biomedicalConcepts: {}
+    contents: []
     description: The main design for the study
     id: StudyDesign_1
     interventionModel:
