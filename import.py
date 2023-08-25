@@ -9,7 +9,7 @@ from usdm_info import __package_version__ as code_version
 from usdm_info import __model_version__ as model_version
 
 def save_as_html_file(html, details):
-  with open(f"source_data/{details['path']}/{details['filename']}.html", 'w', encoding='utf-8') as f:
+  with open(f"source_data/{details['path']}/{details['filename']}_USDM.html", 'w', encoding='utf-8') as f:
     f.write(html)
 
 def save_as_json_file(raw_json, details):
