@@ -16,5 +16,10 @@ if __name__ == "__main__":
     excel = USDMExcel(f"source_data/{filename}.xlsx")
     with open(f"source_data/{filename}.json", 'w', encoding='utf-8') as f:
       f.write(json.dumps(json.loads(excel.to_json()), indent=2))
+    with open(f"source_data/{filename}.html", 'w', encoding='utf-8') as f:
+      f.write(excel.to_html())
+    with open(f"source_data/{filename}.pdf", 'w+b') as f:
+      f.write(excel.to_pdf())
+
   else:
     print("Multiple command line arguments detected.")

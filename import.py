@@ -8,6 +8,10 @@ from usdm_excel import USDMExcel
 from usdm_info import __package_version__ as code_version
 from usdm_info import __model_version__ as model_version
 
+def save_as_html_file(html, details):
+  with open(f"source_data/{details['path']}/{details['filename']}.html", 'w', encoding='utf-8') as f:
+    f.write(html)
+
 def save_as_json_file(raw_json, details):
   with open(f"source_data/{details['path']}/{details['filename']}.json", 'w', encoding='utf-8') as f:
     json_object = json.loads(raw_json)
@@ -61,6 +65,7 @@ for study in studies:
   x = USDMExcel(file_path)
   save_as_json_file(x.to_json(), study)
   save_as_csv_file(x.errors(), study)
+  save_as_html_file(x.to_html(), study)
   for view in [USDMExcel.FULL_VIEW, USDMExcel.TIMELINE_VIEW]:
     print("")
     print("VIEW:", str(view))
