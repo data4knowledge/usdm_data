@@ -1,7 +1,7 @@
 {
   "study": {
     "id": null,
-    "studyTitle": "Safety and Efficacy of the Xanomeline Transdermal Therapeutic System (TTS) in Patients with Mild to Moderate Alzheimer\\\u2019s Disease",
+    "studyTitle": "Safety and Efficacy of the Xanomeline Transdermal Therapeutic System (TTS) in Patients with Mild to Moderate Alzheimer\u2019s Disease",
     "studyVersion": "1",
     "studyType": {
       "id": "Code_1",
@@ -54,7 +54,7 @@
       {
         "id": "StudyProtocolVersion_1",
         "briefTitle": "Xanomeline (LY246708)",
-        "officialTitle": "Safety and Efficacy of the Xanomeline\nTransdermal Therapeutic System (TTS) in Patients\nwith Mild to Moderate Alzheimer\\\u2019s Disease",
+        "officialTitle": "Safety and Efficacy of the Xanomeline\nTransdermal Therapeutic System (TTS) in Patients\nwith Mild to Moderate Alzheimer\u2019s Disease",
         "publicTitle": "Safety and Efficacy of the Xanomeline Transdermal\nTherapeutic System (TTS) in Patients with Mild to\nModerate Alzheimer\\'s Disease",
         "scientificTitle": "None set",
         "protocolVersion": "1",
@@ -300,7 +300,7 @@
             "objectiveEndpoints": [
               {
                 "id": "Endpoint_1",
-                "description": "Alzheimer\\'s Disease Assessment Scale - Cognitive Subscale, total of 11 items\n[ADAS-Cog (11)] at Week 24",
+                "description": "Alzheimer's Disease Assessment Scale - Cognitive Subscale, total of 11 items [ADAS-Cog (11)] at Week 24",
                 "purpose": "None provided",
                 "endpointLevel": {
                   "id": "Code_251",
@@ -312,7 +312,7 @@
               },
               {
                 "id": "Endpoint_2",
-                "description": "Video-referenced Clinician\u2019s Interview-based Impression of Change (CIBIC+) at\nWeek 24",
+                "description": "Video-referenced Clinician\u2019s Interview-based Impression of Change (CIBIC+) at Week 24",
                 "purpose": "None provided",
                 "endpointLevel": {
                   "id": "Code_253",
@@ -363,7 +363,7 @@
               {
                 "id": "Endpoint_5",
                 "description": "Laboratory evaluations (Change from Baseline)",
-                "purpose": "The change from baseline laboratory value will be \ncalculated as the difference between the baseline lab value and the endpoint value (i.e.,\nthe value at the specified visit) or the end of treatment observation",
+                "purpose": "The change from baseline laboratory value will be  calculated as the difference between the baseline lab value and the endpoint value (i.e., the value at the specified visit) or the end of treatment observation",
                 "endpointLevel": {
                   "id": "Code_257",
                   "code": "C94496",
@@ -388,7 +388,7 @@
             "objectiveEndpoints": [
               {
                 "id": "Endpoint_6",
-                "description": "Alzheimer\\'s Disease Assessment Scale - Cognitive Subscale, total of 11 items\n[ADAS-Cog (11)] at Weeks 8 and 16",
+                "description": "Alzheimer's Disease Assessment Scale - Cognitive Subscale, total of 11 items [ADAS-Cog (11)] at Weeks 8 and 16",
                 "purpose": "None provided",
                 "endpointLevel": {
                   "id": "Code_258",
@@ -400,7 +400,7 @@
               },
               {
                 "id": "Endpoint_7",
-                "description": "Video-referenced Clinician\\\u2019s Interview-based Impression of Change (CIBIC+) at\nWeeks 8 and 16",
+                "description": "Video-referenced Clinician\u2019s Interview-based Impression of Change (CIBIC+) at Weeks 8 and 16",
                 "purpose": "None provided",
                 "endpointLevel": {
                   "id": "Code_260",
@@ -4028,18 +4028,18 @@
               "Content_2",
               "Content_6",
               "Content_9",
-              "Content_10",
-              "Content_19",
-              "Content_30",
-              "Content_50",
-              "Content_58",
-              "Content_92",
-              "Content_107",
-              "Content_113",
-              "Content_117",
-              "Content_122",
-              "Content_130",
-              "Content_131"
+              "Content_11",
+              "Content_20",
+              "Content_31",
+              "Content_51",
+              "Content_59",
+              "Content_93",
+              "Content_108",
+              "Content_114",
+              "Content_118",
+              "Content_123",
+              "Content_131",
+              "Content_132"
             ]
           },
           {
@@ -4111,33 +4111,43 @@
             "sectionNumber": "3",
             "sectionTitle": "TRIAL OBJECTIVES, ENDPOINTS AND ESTIMANDS",
             "text": "",
-            "contentChildIds": []
+            "contentChildIds": [
+              "Content_10"
+            ]
           },
           {
             "id": "Content_10",
+            "name": "SECTION 3.1",
+            "sectionNumber": "3.1",
+            "sectionTitle": "Primary Objectives",
+            "text": "<table>\n  <tr>\n    <th style=\"vertical-align: top\"><p>Primary Objective</p></th>\n    <th style=\"vertical-align: top\"><p>Primary Endpoint</p></th>\n  </tr>\n  <tr>\n    <td style=\"vertical-align: top\"><p><usdm:ref klass=\"Objective\" namexref=\"OBJ1\" attribute=\"description\"/></p></td>\n    <td style=\"vertical-align: top\">\n      <p><usdm:ref klass=\"Endpoint\" namexref=\"END1\" attribute=\"description\"/></p>\n      <p><usdm:ref klass=\"Endpoint\" namexref=\"END2\" attribute=\"description\"/></p>\n    </td>\n  </tr>\n  <tr>\n    <td style=\"vertical-align: top\"><p><usdm:ref klass=\"Objective\" namexref=\"OBJ2\" attribute=\"description\"/></p></td>\n    <td style=\"vertical-align: top\">\n      <p><usdm:ref klass=\"Endpoint\" namexref=\"END3\" attribute=\"description\"/></p>\n      <p><usdm:ref klass=\"Endpoint\" namexref=\"END4\" attribute=\"description\"/></p>\n      <p><usdm:ref klass=\"Endpoint\" namexref=\"END5\" attribute=\"description\"/></p>\n    </td>\n  </tr>\n</table>",
+            "contentChildIds": []
+          },
+          {
+            "id": "Content_11",
             "name": "SECTION 4",
             "sectionNumber": "4",
             "sectionTitle": "TRIAL DESIGN",
             "text": "",
             "contentChildIds": [
-              "Content_11",
-              "Content_13",
-              "Content_17",
-              "Content_18"
+              "Content_12",
+              "Content_14",
+              "Content_18",
+              "Content_19"
             ]
           },
           {
-            "id": "Content_11",
+            "id": "Content_12",
             "name": "SECTION 4.1",
             "sectionNumber": "4.1",
             "sectionTitle": "Description of Trial Design",
             "text": "",
             "contentChildIds": [
-              "Content_12"
+              "Content_13"
             ]
           },
           {
-            "id": "Content_12",
+            "id": "Content_13",
             "name": "SECTION 4.1.1",
             "sectionNumber": "4.1.1",
             "sectionTitle": "Participant Input into Design",
@@ -4145,19 +4155,19 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_13",
+            "id": "Content_14",
             "name": "SECTION 4.2",
             "sectionNumber": "4.2",
             "sectionTitle": "Rationale for Trial Design",
             "text": "",
             "contentChildIds": [
-              "Content_14",
               "Content_15",
-              "Content_16"
+              "Content_16",
+              "Content_17"
             ]
           },
           {
-            "id": "Content_14",
+            "id": "Content_15",
             "name": "SECTION 4.2.1",
             "sectionNumber": "4.2.1",
             "sectionTitle": "Rationale for Comparator",
@@ -4165,7 +4175,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_15",
+            "id": "Content_16",
             "name": "SECTION 4.2.2",
             "sectionNumber": "4.2.2",
             "sectionTitle": "Rationale for Adaptive or Novel Trial Design",
@@ -4173,7 +4183,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_16",
+            "id": "Content_17",
             "name": "SECTION 4.2.3",
             "sectionNumber": "4.2.3",
             "sectionTitle": "Other Trial Design Considerations",
@@ -4181,7 +4191,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_17",
+            "id": "Content_18",
             "name": "SECTION 4.3",
             "sectionNumber": "4.3",
             "sectionTitle": "Access to Trial Intervention After End of Trial",
@@ -4189,7 +4199,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_18",
+            "id": "Content_19",
             "name": "SECTION 4.4",
             "sectionNumber": "4.4",
             "sectionTitle": "Start of Trial and End of Trial",
@@ -4197,22 +4207,22 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_19",
+            "id": "Content_20",
             "name": "SECTION 5",
             "sectionNumber": "5",
             "sectionTitle": "TRIAL POPULATION",
             "text": "",
             "contentChildIds": [
-              "Content_20",
               "Content_21",
               "Content_22",
               "Content_23",
               "Content_24",
-              "Content_29"
+              "Content_25",
+              "Content_30"
             ]
           },
           {
-            "id": "Content_20",
+            "id": "Content_21",
             "name": "SECTION 5.1",
             "sectionNumber": "5.1",
             "sectionTitle": "Selection of Trial Population",
@@ -4220,7 +4230,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_21",
+            "id": "Content_22",
             "name": "SECTION 5.2",
             "sectionNumber": "5.2",
             "sectionTitle": "Rationale for Trial Population",
@@ -4228,7 +4238,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_22",
+            "id": "Content_23",
             "name": "SECTION 5.3",
             "sectionNumber": "5.3",
             "sectionTitle": "Inclusion Criteria",
@@ -4236,7 +4246,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_23",
+            "id": "Content_24",
             "name": "SECTION 5.4",
             "sectionNumber": "5.4",
             "sectionTitle": "Exclusion Criteria",
@@ -4244,20 +4254,20 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_24",
+            "id": "Content_25",
             "name": "SECTION 5.5",
             "sectionNumber": "5.5",
             "sectionTitle": "Lifestyle Considerations",
             "text": "",
             "contentChildIds": [
-              "Content_25",
               "Content_26",
               "Content_27",
-              "Content_28"
+              "Content_28",
+              "Content_29"
             ]
           },
           {
-            "id": "Content_25",
+            "id": "Content_26",
             "name": "SECTION 5.5.1",
             "sectionNumber": "5.5.1",
             "sectionTitle": "Meals and Dietary Restrictions",
@@ -4265,7 +4275,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_26",
+            "id": "Content_27",
             "name": "SECTION 5.5.2",
             "sectionNumber": "5.5.2",
             "sectionTitle": "Caffeine, Alcohol, Tobacco, and Other Habits",
@@ -4273,7 +4283,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_27",
+            "id": "Content_28",
             "name": "SECTION 5.5.3",
             "sectionNumber": "5.5.3",
             "sectionTitle": "Physical Activity",
@@ -4281,7 +4291,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_28",
+            "id": "Content_29",
             "name": "SECTION 5.5.4",
             "sectionNumber": "5.5.4",
             "sectionTitle": "Other Activity",
@@ -4289,7 +4299,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_29",
+            "id": "Content_30",
             "name": "SECTION 5.6",
             "sectionNumber": "5.6",
             "sectionTitle": "Screen Failures",
@@ -4297,24 +4307,24 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_30",
+            "id": "Content_31",
             "name": "SECTION 6",
             "sectionNumber": "6",
             "sectionTitle": "TRIAL INTERVENTION AND CONCOMITANT THERAPY",
             "text": "",
             "contentChildIds": [
-              "Content_31",
               "Content_32",
               "Content_33",
-              "Content_35",
+              "Content_34",
               "Content_36",
-              "Content_40",
-              "Content_44",
-              "Content_45"
+              "Content_37",
+              "Content_41",
+              "Content_45",
+              "Content_46"
             ]
           },
           {
-            "id": "Content_31",
+            "id": "Content_32",
             "name": "SECTION 6.1",
             "sectionNumber": "6.1",
             "sectionTitle": "Description of Trial Intervention",
@@ -4322,7 +4332,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_32",
+            "id": "Content_33",
             "name": "SECTION 6.2",
             "sectionNumber": "6.2",
             "sectionTitle": "Rationale for Trial Intervention",
@@ -4330,17 +4340,17 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_33",
+            "id": "Content_34",
             "name": "SECTION 6.3",
             "sectionNumber": "6.3",
             "sectionTitle": "Dosing and Administration",
             "text": "",
             "contentChildIds": [
-              "Content_34"
+              "Content_35"
             ]
           },
           {
-            "id": "Content_34",
+            "id": "Content_35",
             "name": "SECTION 6.3.1",
             "sectionNumber": "6.3.1",
             "sectionTitle": "Trial Intervention Dose Modification",
@@ -4348,7 +4358,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_35",
+            "id": "Content_36",
             "name": "SECTION 6.4",
             "sectionNumber": "6.4",
             "sectionTitle": "Treatment of Overdose",
@@ -4356,19 +4366,19 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_36",
+            "id": "Content_37",
             "name": "SECTION 6.5",
             "sectionNumber": "6.5",
             "sectionTitle": "Preparation, Handling, Storage and Accountability",
             "text": "",
             "contentChildIds": [
-              "Content_37",
               "Content_38",
-              "Content_39"
+              "Content_39",
+              "Content_40"
             ]
           },
           {
-            "id": "Content_37",
+            "id": "Content_38",
             "name": "SECTION 6.5.1",
             "sectionNumber": "6.5.1",
             "sectionTitle": "Preparation of Trial Intervention",
@@ -4376,7 +4386,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_38",
+            "id": "Content_39",
             "name": "SECTION 6.5.2",
             "sectionNumber": "6.5.2",
             "sectionTitle": "Handling and Storage of Trial Intervention",
@@ -4384,7 +4394,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_39",
+            "id": "Content_40",
             "name": "SECTION 6.5.3",
             "sectionNumber": "6.5.3",
             "sectionTitle": "Accountability of Trial Intervention",
@@ -4392,19 +4402,19 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_40",
+            "id": "Content_41",
             "name": "SECTION 6.6",
             "sectionNumber": "6.6",
             "sectionTitle": "Participant Assignment, Randomisation and Blinding",
             "text": "",
             "contentChildIds": [
-              "Content_41",
               "Content_42",
-              "Content_43"
+              "Content_43",
+              "Content_44"
             ]
           },
           {
-            "id": "Content_41",
+            "id": "Content_42",
             "name": "SECTION 6.6.1",
             "sectionNumber": "6.6.1",
             "sectionTitle": "Participant Assignment",
@@ -4412,7 +4422,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_42",
+            "id": "Content_43",
             "name": "SECTION 6.6.2",
             "sectionNumber": "6.6.2",
             "sectionTitle": "Randomisation",
@@ -4420,7 +4430,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_43",
+            "id": "Content_44",
             "name": "SECTION 6.6.3",
             "sectionNumber": "6.6.3",
             "sectionTitle": "Blinding and Unblinding",
@@ -4428,7 +4438,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_44",
+            "id": "Content_45",
             "name": "SECTION 6.7",
             "sectionNumber": "6.7",
             "sectionTitle": "Trial Intervention Compliance",
@@ -4436,20 +4446,20 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_45",
+            "id": "Content_46",
             "name": "SECTION 6.8",
             "sectionNumber": "6.8",
             "sectionTitle": "Concomitant Therapy",
             "text": "",
             "contentChildIds": [
-              "Content_46",
               "Content_47",
               "Content_48",
-              "Content_49"
+              "Content_49",
+              "Content_50"
             ]
           },
           {
-            "id": "Content_46",
+            "id": "Content_47",
             "name": "SECTION 6.8.1",
             "sectionNumber": "6.8.1",
             "sectionTitle": "Prohibited Concomitant Therapy",
@@ -4457,7 +4467,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_47",
+            "id": "Content_48",
             "name": "SECTION 6.8.2",
             "sectionNumber": "6.8.2",
             "sectionTitle": "Permitted Concomitant Therapy",
@@ -4465,7 +4475,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_48",
+            "id": "Content_49",
             "name": "SECTION 6.8.3",
             "sectionNumber": "6.8.3",
             "sectionTitle": "Rescue Therapy",
@@ -4473,7 +4483,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_49",
+            "id": "Content_50",
             "name": "SECTION 6.8.4",
             "sectionNumber": "6.8.4",
             "sectionTitle": "Other Therapy",
@@ -4481,32 +4491,32 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_50",
+            "id": "Content_51",
             "name": "SECTION 7",
             "sectionNumber": "7",
             "sectionTitle": "DISCONTINUATION OF TRIAL INTERVENTION AND PARTICIPANT WITHDRAWAL FROM TRIAL",
             "text": "",
             "contentChildIds": [
-              "Content_51",
-              "Content_55",
+              "Content_52",
               "Content_56",
-              "Content_57"
+              "Content_57",
+              "Content_58"
             ]
           },
           {
-            "id": "Content_51",
+            "id": "Content_52",
             "name": "SECTION 7.1",
             "sectionNumber": "7.1",
             "sectionTitle": "Discontinuation of Trial Intervention",
             "text": "",
             "contentChildIds": [
-              "Content_52",
               "Content_53",
-              "Content_54"
+              "Content_54",
+              "Content_55"
             ]
           },
           {
-            "id": "Content_52",
+            "id": "Content_53",
             "name": "SECTION 7.1.1",
             "sectionNumber": "7.1.1",
             "sectionTitle": "Criteria for Permanent Discontinuation of Trial Intervention",
@@ -4514,7 +4524,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_53",
+            "id": "Content_54",
             "name": "SECTION 7.1.2",
             "sectionNumber": "7.1.2",
             "sectionTitle": "Temporary Discontinuation or Interruption of Trial Intervention",
@@ -4522,7 +4532,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_54",
+            "id": "Content_55",
             "name": "SECTION 7.1.3",
             "sectionNumber": "7.1.3",
             "sectionTitle": "Rechallenge",
@@ -4530,7 +4540,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_55",
+            "id": "Content_56",
             "name": "SECTION 7.2",
             "sectionNumber": "7.2",
             "sectionTitle": "Participant Withdrawal from the Trial",
@@ -4538,7 +4548,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_56",
+            "id": "Content_57",
             "name": "SECTION 7.3",
             "sectionNumber": "7.3",
             "sectionTitle": "Lost to Follow-Up",
@@ -4546,7 +4556,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_57",
+            "id": "Content_58",
             "name": "SECTION 7.4",
             "sectionNumber": "7.4",
             "sectionTitle": "Trial Stopping Rules",
@@ -4554,26 +4564,26 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_58",
+            "id": "Content_59",
             "name": "SECTION 8",
             "sectionNumber": "8",
             "sectionTitle": "TRIAL ASSESSMENTS AND PROCEDURES",
             "text": "",
             "contentChildIds": [
-              "Content_59",
               "Content_60",
               "Content_61",
-              "Content_67",
-              "Content_78",
-              "Content_81",
-              "Content_87",
+              "Content_62",
+              "Content_68",
+              "Content_79",
+              "Content_82",
               "Content_88",
               "Content_89",
-              "Content_90"
+              "Content_90",
+              "Content_91"
             ]
           },
           {
-            "id": "Content_59",
+            "id": "Content_60",
             "name": "SECTION 8.1",
             "sectionNumber": "8.1",
             "sectionTitle": "Screening/Baseline Assessments and Procedures",
@@ -4581,7 +4591,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_60",
+            "id": "Content_61",
             "name": "SECTION 8.2",
             "sectionNumber": "8.2",
             "sectionTitle": "Efficacy Assessments and Procedures",
@@ -4589,21 +4599,21 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_61",
+            "id": "Content_62",
             "name": "SECTION 8.3",
             "sectionNumber": "8.3",
             "sectionTitle": "Safety Assessments and Procedures",
             "text": "",
             "contentChildIds": [
-              "Content_62",
               "Content_63",
               "Content_64",
               "Content_65",
-              "Content_66"
+              "Content_66",
+              "Content_67"
             ]
           },
           {
-            "id": "Content_62",
+            "id": "Content_63",
             "name": "SECTION 8.3.1",
             "sectionNumber": "8.3.1",
             "sectionTitle": "Physical Examination",
@@ -4611,7 +4621,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_63",
+            "id": "Content_64",
             "name": "SECTION 8.3.2",
             "sectionNumber": "8.3.2",
             "sectionTitle": "Vital Signs",
@@ -4619,7 +4629,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_64",
+            "id": "Content_65",
             "name": "SECTION 8.3.3",
             "sectionNumber": "8.3.3",
             "sectionTitle": "Electrocardiograms",
@@ -4627,7 +4637,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_65",
+            "id": "Content_66",
             "name": "SECTION 8.3.4",
             "sectionNumber": "8.3.4",
             "sectionTitle": "Clinical Laboratory Assessments",
@@ -4635,7 +4645,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_66",
+            "id": "Content_67",
             "name": "SECTION 8.3.5",
             "sectionNumber": "8.3.5",
             "sectionTitle": "Suicidal Ideation and Behaviour Risk Monitoring",
@@ -4643,13 +4653,12 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_67",
+            "id": "Content_68",
             "name": "SECTION 8.4",
             "sectionNumber": "8.4",
             "sectionTitle": "Adverse Events and Serious Adverse Events",
             "text": "",
             "contentChildIds": [
-              "Content_68",
               "Content_69",
               "Content_70",
               "Content_71",
@@ -4658,11 +4667,12 @@
               "Content_74",
               "Content_75",
               "Content_76",
-              "Content_77"
+              "Content_77",
+              "Content_78"
             ]
           },
           {
-            "id": "Content_68",
+            "id": "Content_69",
             "name": "SECTION 8.4.1",
             "sectionNumber": "8.4.1",
             "sectionTitle": "Definitions of AE and SAE",
@@ -4670,7 +4680,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_69",
+            "id": "Content_70",
             "name": "SECTION 8.4.2",
             "sectionNumber": "8.4.2",
             "sectionTitle": "Time Period and Frequency for Collecting AE and SAE Information",
@@ -4678,7 +4688,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_70",
+            "id": "Content_71",
             "name": "SECTION 8.4.3",
             "sectionNumber": "8.4.3",
             "sectionTitle": "Identifying AEs and SAEs",
@@ -4686,7 +4696,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_71",
+            "id": "Content_72",
             "name": "SECTION 8.4.4",
             "sectionNumber": "8.4.4",
             "sectionTitle": "Recording of AEs and SAEs",
@@ -4694,7 +4704,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_72",
+            "id": "Content_73",
             "name": "SECTION 8.4.5",
             "sectionNumber": "8.4.5",
             "sectionTitle": "Follow-up of AEs and SAEs",
@@ -4702,7 +4712,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_73",
+            "id": "Content_74",
             "name": "SECTION 8.4.6",
             "sectionNumber": "8.4.6",
             "sectionTitle": "Reporting of SAEs",
@@ -4710,7 +4720,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_74",
+            "id": "Content_75",
             "name": "SECTION 8.4.7",
             "sectionNumber": "8.4.7",
             "sectionTitle": "Regulatory Reporting Requirements for SAEs",
@@ -4718,7 +4728,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_75",
+            "id": "Content_76",
             "name": "SECTION 8.4.8",
             "sectionNumber": "8.4.8",
             "sectionTitle": "Serious and Unexpected Adverse Reaction Reporting",
@@ -4726,7 +4736,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_76",
+            "id": "Content_77",
             "name": "SECTION 8.4.9",
             "sectionNumber": "8.4.9",
             "sectionTitle": "Adverse Events of Special Interest",
@@ -4734,7 +4744,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_77",
+            "id": "Content_78",
             "name": "SECTION 8.4.10",
             "sectionNumber": "8.4.10",
             "sectionTitle": "Disease-related Events or Outcomes Not Qualifying as AEs or SAEs",
@@ -4742,18 +4752,18 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_78",
+            "id": "Content_79",
             "name": "SECTION 8.5",
             "sectionNumber": "8.5",
             "sectionTitle": "Pregnancy and Postpartum Information",
             "text": "",
             "contentChildIds": [
-              "Content_79",
-              "Content_80"
+              "Content_80",
+              "Content_81"
             ]
           },
           {
-            "id": "Content_79",
+            "id": "Content_80",
             "name": "SECTION 8.5.1",
             "sectionNumber": "8.5.1",
             "sectionTitle": "Participants Who Become Pregnant During the Trial",
@@ -4761,7 +4771,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_80",
+            "id": "Content_81",
             "name": "SECTION 8.5.2",
             "sectionNumber": "8.5.2",
             "sectionTitle": "Participants Whose Partners Become Pregnant",
@@ -4769,21 +4779,21 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_81",
+            "id": "Content_82",
             "name": "SECTION 8.6",
             "sectionNumber": "8.6",
             "sectionTitle": "Medical Device Product Complaints for Drug/Device Combination Products",
             "text": "",
             "contentChildIds": [
-              "Content_82",
               "Content_83",
               "Content_84",
               "Content_85",
-              "Content_86"
+              "Content_86",
+              "Content_87"
             ]
           },
           {
-            "id": "Content_82",
+            "id": "Content_83",
             "name": "SECTION 8.6.1",
             "sectionNumber": "8.6.1",
             "sectionTitle": "Definition of Medical Device Product Complaints",
@@ -4791,7 +4801,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_83",
+            "id": "Content_84",
             "name": "SECTION 8.6.2",
             "sectionNumber": "8.6.2",
             "sectionTitle": "Recording of Medical Device Product Complaints",
@@ -4799,7 +4809,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_84",
+            "id": "Content_85",
             "name": "SECTION 8.6.3",
             "sectionNumber": "8.6.3",
             "sectionTitle": "Time Period and Frequency for Collecting Medical Device Product Complaints .",
@@ -4807,7 +4817,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_85",
+            "id": "Content_86",
             "name": "SECTION 8.6.4",
             "sectionNumber": "8.6.4",
             "sectionTitle": "Follow-Up of Medical Device Product Complaints",
@@ -4815,7 +4825,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_86",
+            "id": "Content_87",
             "name": "SECTION 8.6.5",
             "sectionNumber": "8.6.5",
             "sectionTitle": "Regulatory Reporting Requirements for Medical Device Product Complaints",
@@ -4823,7 +4833,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_87",
+            "id": "Content_88",
             "name": "SECTION 8.7",
             "sectionNumber": "8.7",
             "sectionTitle": "Pharmacokinetics",
@@ -4831,7 +4841,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_88",
+            "id": "Content_89",
             "name": "SECTION 8.8",
             "sectionNumber": "8.8",
             "sectionTitle": "Genetics",
@@ -4839,7 +4849,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_89",
+            "id": "Content_90",
             "name": "SECTION 8.9",
             "sectionNumber": "8.9",
             "sectionTitle": "Biomarkers",
@@ -4847,17 +4857,17 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_90",
+            "id": "Content_91",
             "name": "SECTION 8.1",
             "sectionNumber": "8.1",
             "sectionTitle": "Immunogenicity Assessments",
             "text": "",
             "contentChildIds": [
-              "Content_91"
+              "Content_92"
             ]
           },
           {
-            "id": "Content_91",
+            "id": "Content_92",
             "name": "SECTION 8.1.1",
             "sectionNumber": "8.1.1",
             "sectionTitle": "Medical Resource Utilisation and Health Economics",
@@ -4865,25 +4875,25 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_92",
+            "id": "Content_93",
             "name": "SECTION 9",
             "sectionNumber": "9",
             "sectionTitle": "STATISTICAL CONSIDERATIONS",
             "text": "",
             "contentChildIds": [
-              "Content_93",
               "Content_94",
-              "Content_100",
+              "Content_95",
               "Content_101",
               "Content_102",
               "Content_103",
               "Content_104",
               "Content_105",
-              "Content_106"
+              "Content_106",
+              "Content_107"
             ]
           },
           {
-            "id": "Content_93",
+            "id": "Content_94",
             "name": "SECTION 9.1",
             "sectionNumber": "9.1",
             "sectionTitle": "Analysis Sets",
@@ -4891,21 +4901,21 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_94",
+            "id": "Content_95",
             "name": "SECTION 9.2",
             "sectionNumber": "9.2",
             "sectionTitle": "Analyses Supporting Primary Objective(s)",
             "text": "",
             "contentChildIds": [
-              "Content_95",
               "Content_96",
               "Content_97",
               "Content_98",
-              "Content_99"
+              "Content_99",
+              "Content_100"
             ]
           },
           {
-            "id": "Content_95",
+            "id": "Content_96",
             "name": "SECTION 9.2.1",
             "sectionNumber": "9.2.1",
             "sectionTitle": "Statistical Model, Hypothesis, and Method of Analysis",
@@ -4913,7 +4923,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_96",
+            "id": "Content_97",
             "name": "SECTION 9.2.2",
             "sectionNumber": "9.2.2",
             "sectionTitle": "Handling of Intercurrent Events of Primary Estimand(s)",
@@ -4921,7 +4931,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_97",
+            "id": "Content_98",
             "name": "SECTION 9.2.3",
             "sectionNumber": "9.2.3",
             "sectionTitle": "Handling of Missing Data",
@@ -4929,7 +4939,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_98",
+            "id": "Content_99",
             "name": "SECTION 9.2.4",
             "sectionNumber": "9.2.4",
             "sectionTitle": "Sensitivity Analysis",
@@ -4937,7 +4947,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_99",
+            "id": "Content_100",
             "name": "SECTION 9.2.5",
             "sectionNumber": "9.2.5",
             "sectionTitle": "Supplementary Analysis",
@@ -4945,7 +4955,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_100",
+            "id": "Content_101",
             "name": "SECTION 9.3",
             "sectionNumber": "9.3",
             "sectionTitle": "Analysis Supporting Secondary Objective(s)",
@@ -4953,7 +4963,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_101",
+            "id": "Content_102",
             "name": "SECTION 9.4",
             "sectionNumber": "9.4",
             "sectionTitle": "Analysis of Exploratory Objective(s)",
@@ -4961,7 +4971,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_102",
+            "id": "Content_103",
             "name": "SECTION 9.5",
             "sectionNumber": "9.5",
             "sectionTitle": "Safety Analyses",
@@ -4969,7 +4979,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_103",
+            "id": "Content_104",
             "name": "SECTION 9.6",
             "sectionNumber": "9.6",
             "sectionTitle": "Other Analyses",
@@ -4977,7 +4987,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_104",
+            "id": "Content_105",
             "name": "SECTION 9.7",
             "sectionNumber": "9.7",
             "sectionTitle": "Interim Analyses",
@@ -4985,7 +4995,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_105",
+            "id": "Content_106",
             "name": "SECTION 9.8",
             "sectionNumber": "9.8",
             "sectionTitle": "Sample Size Determination",
@@ -4993,7 +5003,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_106",
+            "id": "Content_107",
             "name": "SECTION 9.9",
             "sectionNumber": "9.9",
             "sectionTitle": "Protocol Deviations",
@@ -5001,21 +5011,21 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_107",
+            "id": "Content_108",
             "name": "SECTION 10",
             "sectionNumber": "10",
             "sectionTitle": "GENERAL CONSIDERATIONS: REGULATORY, ETHICAL, AND TRIAL OVERSIGHT",
             "text": "",
             "contentChildIds": [
-              "Content_108",
               "Content_109",
               "Content_110",
               "Content_111",
-              "Content_112"
+              "Content_112",
+              "Content_113"
             ]
           },
           {
-            "id": "Content_108",
+            "id": "Content_109",
             "name": "SECTION 10.1",
             "sectionNumber": "10.1",
             "sectionTitle": "Regulatory and Ethical Considerations",
@@ -5023,7 +5033,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_109",
+            "id": "Content_110",
             "name": "SECTION 10.2",
             "sectionNumber": "10.2",
             "sectionTitle": "Committees",
@@ -5031,7 +5041,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_110",
+            "id": "Content_111",
             "name": "SECTION 10.3",
             "sectionNumber": "10.3",
             "sectionTitle": "Informed Consent Process",
@@ -5039,7 +5049,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_111",
+            "id": "Content_112",
             "name": "SECTION 10.4",
             "sectionNumber": "10.4",
             "sectionTitle": "Data Protection",
@@ -5047,7 +5057,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_112",
+            "id": "Content_113",
             "name": "SECTION 10.5",
             "sectionNumber": "10.5",
             "sectionTitle": "Early Site Closure or Trial Termination",
@@ -5055,19 +5065,19 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_113",
+            "id": "Content_114",
             "name": "SECTION 11",
             "sectionNumber": "11",
             "sectionTitle": "GENERAL CONSIDERATIONS: RISK MANAGEMENT AND QUALITY ASSURANCE",
             "text": "",
             "contentChildIds": [
-              "Content_114",
               "Content_115",
-              "Content_116"
+              "Content_116",
+              "Content_117"
             ]
           },
           {
-            "id": "Content_114",
+            "id": "Content_115",
             "name": "SECTION 11.1",
             "sectionNumber": "11.1",
             "sectionTitle": "Quality Tolerance Limits",
@@ -5075,7 +5085,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_115",
+            "id": "Content_116",
             "name": "SECTION 11.2",
             "sectionNumber": "11.2",
             "sectionTitle": "Data Quality Assurance",
@@ -5083,7 +5093,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_116",
+            "id": "Content_117",
             "name": "SECTION 11.3",
             "sectionNumber": "11.3",
             "sectionTitle": "Source Data",
@@ -5091,20 +5101,20 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_117",
+            "id": "Content_118",
             "name": "SECTION 12",
             "sectionNumber": "12",
             "sectionTitle": "APPENDIX: ADVERSE EVENTS AND SERIOUS ADVERSE EVENTS - DEFINITIONS, SEVERITY, AND CAUSALITY",
             "text": "",
             "contentChildIds": [
-              "Content_118",
               "Content_119",
               "Content_120",
-              "Content_121"
+              "Content_121",
+              "Content_122"
             ]
           },
           {
-            "id": "Content_118",
+            "id": "Content_119",
             "name": "SECTION 12.1",
             "sectionNumber": "12.1",
             "sectionTitle": "Further Details and Clarifications on the AE Definition",
@@ -5112,7 +5122,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_119",
+            "id": "Content_120",
             "name": "SECTION 12.2",
             "sectionNumber": "12.2",
             "sectionTitle": "Further Details and Clarifications on the SAE Definition",
@@ -5120,7 +5130,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_120",
+            "id": "Content_121",
             "name": "SECTION 12.3",
             "sectionNumber": "12.3",
             "sectionTitle": "Severity",
@@ -5128,7 +5138,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_121",
+            "id": "Content_122",
             "name": "SECTION 12.4",
             "sectionNumber": "12.4",
             "sectionTitle": "Causality",
@@ -5136,32 +5146,32 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_122",
+            "id": "Content_123",
             "name": "SECTION 13",
             "sectionNumber": "13",
             "sectionTitle": "APPENDIX: DEFINITIONS AND SUPPORTING OPERATIONAL DETAILS",
             "text": "",
             "contentChildIds": [
-              "Content_123",
-              "Content_127",
+              "Content_124",
               "Content_128",
-              "Content_129"
+              "Content_129",
+              "Content_130"
             ]
           },
           {
-            "id": "Content_123",
+            "id": "Content_124",
             "name": "SECTION 13.1",
             "sectionNumber": "13.1",
             "sectionTitle": "Contraception and Pregnancy Testing",
             "text": "",
             "contentChildIds": [
-              "Content_124",
               "Content_125",
-              "Content_126"
+              "Content_126",
+              "Content_127"
             ]
           },
           {
-            "id": "Content_124",
+            "id": "Content_125",
             "name": "SECTION 13.1.1",
             "sectionNumber": "13.1.1",
             "sectionTitle": "Definitions Related to Childbearing Potential",
@@ -5169,7 +5179,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_125",
+            "id": "Content_126",
             "name": "SECTION 13.1.2",
             "sectionNumber": "13.1.2",
             "sectionTitle": "Contraception",
@@ -5177,7 +5187,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_126",
+            "id": "Content_127",
             "name": "SECTION 13.1.3",
             "sectionNumber": "13.1.3",
             "sectionTitle": "Pregnancy Testing",
@@ -5185,7 +5195,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_127",
+            "id": "Content_128",
             "name": "SECTION 13.2",
             "sectionNumber": "13.2",
             "sectionTitle": "Clinical Laboratory Tests",
@@ -5193,7 +5203,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_128",
+            "id": "Content_129",
             "name": "SECTION 13.3",
             "sectionNumber": "13.3",
             "sectionTitle": "Country/Region-Specific Differences",
@@ -5201,7 +5211,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_129",
+            "id": "Content_130",
             "name": "SECTION 13.4",
             "sectionNumber": "13.4",
             "sectionTitle": "Prior Protocol Amendments",
@@ -5209,7 +5219,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_130",
+            "id": "Content_131",
             "name": "SECTION 14",
             "sectionNumber": "14",
             "sectionTitle": "APPENDIX: GLOSSARY OF TERMS",
@@ -5217,7 +5227,7 @@
             "contentChildIds": []
           },
           {
-            "id": "Content_131",
+            "id": "Content_132",
             "name": "SECTION 15",
             "sectionNumber": "15",
             "sectionTitle": "APPENDIX: REFERENCES",
