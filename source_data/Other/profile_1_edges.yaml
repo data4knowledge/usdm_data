@@ -1,7 +1,7 @@
 - end: 2
   id: 1
   properties:
-    label: studyType
+    label: type
   start: 1
 - end: 4
   id: 2
@@ -26,7 +26,7 @@
 - end: 9
   id: 6
   properties:
-    label: organizationType
+    label: type
   start: 8
 - end: 11
   id: 7
@@ -46,7 +46,7 @@
 - end: 14
   id: 10
   properties:
-    label: organizationType
+    label: type
   start: 13
 - end: 16
   id: 11
@@ -106,7 +106,7 @@
 - end: 24
   id: 22
   properties:
-    label: trialType
+    label: trialTypes
   start: 21
 - end: 25
   id: 23
@@ -381,7 +381,7 @@
 - end: 82
   id: 77
   properties:
-    label: timingType
+    label: type
   start: 81
 - end: 83
   id: 78
@@ -396,7 +396,7 @@
 - end: 86
   id: 80
   properties:
-    label: timingType
+    label: type
   start: 85
 - end: 87
   id: 81
@@ -411,7 +411,7 @@
 - end: 90
   id: 83
   properties:
-    label: timingType
+    label: type
   start: 89
 - end: 91
   id: 84
@@ -426,7 +426,7 @@
 - end: 94
   id: 86
   properties:
-    label: timingType
+    label: type
   start: 93
 - end: 95
   id: 87
@@ -441,7 +441,7 @@
 - end: 98
   id: 89
   properties:
-    label: timingType
+    label: type
   start: 97
 - end: 99
   id: 90
@@ -486,7 +486,7 @@
 - end: 104
   id: 98
   properties:
-    label: timingType
+    label: type
   start: 103
 - end: 105
   id: 99
@@ -501,7 +501,7 @@
 - end: 108
   id: 101
   properties:
-    label: timingType
+    label: type
   start: 107
 - end: 109
   id: 102
@@ -516,7 +516,7 @@
 - end: 112
   id: 104
   properties:
-    label: timingType
+    label: type
   start: 111
 - end: 113
   id: 105
@@ -531,7 +531,7 @@
 - end: 116
   id: 107
   properties:
-    label: timingType
+    label: type
   start: 115
 - end: 117
   id: 108
@@ -546,7 +546,7 @@
 - end: 120
   id: 110
   properties:
-    label: timingType
+    label: type
   start: 119
 - end: 121
   id: 111
@@ -646,7 +646,7 @@
 - end: 133
   id: 130
   properties:
-    label: encounterType
+    label: type
   start: 132
 - end: 134
   id: 131
@@ -671,7 +671,7 @@
 - end: 139
   id: 135
   properties:
-    label: encounterType
+    label: type
   start: 138
 - end: 140
   id: 136
@@ -686,7 +686,7 @@
 - end: 143
   id: 138
   properties:
-    label: encounterType
+    label: type
   start: 142
 - end: 144
   id: 139
@@ -706,7 +706,7 @@
 - end: 148
   id: 142
   properties:
-    label: encounterType
+    label: type
   start: 147
 - end: 149
   id: 143
@@ -721,7 +721,7 @@
 - end: 152
   id: 145
   properties:
-    label: encounterType
+    label: type
   start: 151
 - end: 153
   id: 146
@@ -761,12 +761,12 @@
 - end: 159
   id: 153
   properties:
-    label: procedureCode
+    label: code
   start: 158
 - end: 161
   id: 154
   properties:
-    label: procedureCode
+    label: code
   start: 160
 - end: 158
   id: 155
@@ -851,7 +851,7 @@
 - end: 174
   id: 171
   properties:
-    label: bcPropertyConceptCode
+    label: code
   start: 167
 - end: 167
   id: 172
@@ -866,7 +866,7 @@
 - end: 176
   id: 174
   properties:
-    label: bcConceptCode
+    label: code
   start: 166
 - end: 181
   id: 175
@@ -886,7 +886,7 @@
 - end: 182
   id: 178
   properties:
-    label: bcPropertyConceptCode
+    label: code
   start: 179
 - end: 179
   id: 179
@@ -901,7 +901,7 @@
 - end: 184
   id: 181
   properties:
-    label: bcConceptCode
+    label: code
   start: 178
 - end: 189
   id: 182
@@ -911,7 +911,7 @@
 - end: 188
   id: 183
   properties:
-    label: bcPropertyConceptCode
+    label: code
   start: 187
 - end: 192
   id: 184
@@ -951,7 +951,7 @@
 - end: 197
   id: 191
   properties:
-    label: bcPropertyConceptCode
+    label: code
   start: 190
 - end: 187
   id: 192
@@ -971,7 +971,7 @@
 - end: 199
   id: 195
   properties:
-    label: bcConceptCode
+    label: code
   start: 186
 - end: 204
   id: 196
@@ -981,7 +981,7 @@
 - end: 203
   id: 197
   properties:
-    label: bcPropertyConceptCode
+    label: code
   start: 202
 - end: 207
   id: 198
@@ -1021,7 +1021,7 @@
 - end: 212
   id: 205
   properties:
-    label: bcPropertyConceptCode
+    label: code
   start: 205
 - end: 202
   id: 206
@@ -1041,7 +1041,7 @@
 - end: 214
   id: 209
   properties:
-    label: bcConceptCode
+    label: code
   start: 201
 - end: 219
   id: 210
@@ -1051,7 +1051,7 @@
 - end: 218
   id: 211
   properties:
-    label: bcPropertyConceptCode
+    label: code
   start: 217
 - end: 222
   id: 212
@@ -1071,7 +1071,7 @@
 - end: 223
   id: 215
   properties:
-    label: bcPropertyConceptCode
+    label: code
   start: 220
 - end: 227
   id: 216
@@ -1081,7 +1081,7 @@
 - end: 226
   id: 217
   properties:
-    label: bcPropertyConceptCode
+    label: code
   start: 225
 - end: 217
   id: 218
@@ -1106,7 +1106,7 @@
 - end: 228
   id: 222
   properties:
-    label: bcConceptCode
+    label: code
   start: 216
 - end: 166
   id: 223
@@ -1141,22 +1141,22 @@
 - end: 232
   id: 229
   properties:
-    label: studyArmType
+    label: type
   start: 231
 - end: 233
   id: 230
   properties:
-    label: studyArmDataOriginType
+    label: dataOriginType
   start: 231
 - end: 235
   id: 231
   properties:
-    label: studyArmType
+    label: type
   start: 234
 - end: 236
   id: 232
   properties:
-    label: studyArmDataOriginType
+    label: dataOriginType
   start: 234
 - end: 231
   id: 233
@@ -1171,22 +1171,22 @@
 - end: 238
   id: 235
   properties:
-    label: studyEpochType
+    label: type
   start: 237
 - end: 240
   id: 236
   properties:
-    label: studyEpochType
+    label: type
   start: 239
 - end: 242
   id: 237
   properties:
-    label: studyEpochType
+    label: type
   start: 241
 - end: 244
   id: 238
   properties:
-    label: studyEpochType
+    label: type
   start: 243
 - end: 237
   id: 239

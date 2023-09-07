@@ -1,7 +1,7 @@
 - end: 2
   id: 1
   properties:
-    label: studyType
+    label: type
   start: 1
 - end: 4
   id: 2
@@ -21,7 +21,7 @@
 - end: 8
   id: 5
   properties:
-    label: organizationType
+    label: type
   start: 7
 - end: 10
   id: 6
@@ -66,7 +66,7 @@
 - end: 16
   id: 14
   properties:
-    label: trialType
+    label: trialTypes
   start: 13
 - end: 17
   id: 15
@@ -166,7 +166,7 @@
 - end: 39
   id: 34
   properties:
-    label: timingType
+    label: type
   start: 38
 - end: 40
   id: 35
@@ -181,7 +181,7 @@
 - end: 43
   id: 37
   properties:
-    label: timingType
+    label: type
   start: 42
 - end: 44
   id: 38
@@ -196,7 +196,7 @@
 - end: 47
   id: 40
   properties:
-    label: timingType
+    label: type
   start: 46
 - end: 48
   id: 41
@@ -251,7 +251,7 @@
 - end: 54
   id: 51
   properties:
-    label: encounterType
+    label: type
   start: 53
 - end: 55
   id: 52
@@ -276,7 +276,7 @@
 - end: 60
   id: 56
   properties:
-    label: encounterType
+    label: type
   start: 59
 - end: 61
   id: 57
@@ -291,7 +291,7 @@
 - end: 64
   id: 59
   properties:
-    label: encounterType
+    label: type
   start: 63
 - end: 65
   id: 60
@@ -381,7 +381,7 @@
 - end: 80
   id: 77
   properties:
-    label: bcPropertyConceptCode
+    label: code
   start: 73
 - end: 73
   id: 78
@@ -396,7 +396,7 @@
 - end: 82
   id: 80
   properties:
-    label: bcConceptCode
+    label: code
   start: 72
 - end: 87
   id: 81
@@ -416,7 +416,7 @@
 - end: 88
   id: 84
   properties:
-    label: bcPropertyConceptCode
+    label: code
   start: 85
 - end: 85
   id: 85
@@ -431,7 +431,7 @@
 - end: 90
   id: 87
   properties:
-    label: bcConceptCode
+    label: code
   start: 84
 - end: 95
   id: 88
@@ -441,7 +441,7 @@
 - end: 94
   id: 89
   properties:
-    label: bcPropertyConceptCode
+    label: code
   start: 93
 - end: 98
   id: 90
@@ -481,7 +481,7 @@
 - end: 103
   id: 97
   properties:
-    label: bcPropertyConceptCode
+    label: code
   start: 96
 - end: 93
   id: 98
@@ -501,7 +501,7 @@
 - end: 105
   id: 101
   properties:
-    label: bcConceptCode
+    label: code
   start: 92
 - end: 72
   id: 102
@@ -526,22 +526,22 @@
 - end: 109
   id: 106
   properties:
-    label: studyArmType
+    label: type
   start: 108
 - end: 110
   id: 107
   properties:
-    label: studyArmDataOriginType
+    label: dataOriginType
   start: 108
 - end: 112
   id: 108
   properties:
-    label: studyArmType
+    label: type
   start: 111
 - end: 113
   id: 109
   properties:
-    label: studyArmDataOriginType
+    label: dataOriginType
   start: 111
 - end: 108
   id: 110
@@ -556,17 +556,17 @@
 - end: 115
   id: 112
   properties:
-    label: studyEpochType
+    label: type
   start: 114
 - end: 117
   id: 113
   properties:
-    label: studyEpochType
+    label: type
   start: 116
 - end: 119
   id: 114
   properties:
-    label: studyEpochType
+    label: type
   start: 118
 - end: 114
   id: 115

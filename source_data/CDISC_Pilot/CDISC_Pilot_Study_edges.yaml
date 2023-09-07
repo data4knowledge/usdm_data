@@ -1,7 +1,7 @@
 - end: 2
   id: 1
   properties:
-    label: studyType
+    label: type
   start: 1
 - end: 4
   id: 2
@@ -21,7 +21,7 @@
 - end: 8
   id: 5
   properties:
-    label: organizationType
+    label: type
   start: 7
 - end: 7
   id: 6
@@ -51,17 +51,17 @@
 - end: 13
   id: 11
   properties:
-    label: trialType
+    label: trialTypes
   start: 11
 - end: 14
   id: 12
   properties:
-    label: trialType
+    label: trialTypes
   start: 11
 - end: 15
   id: 13
   properties:
-    label: trialType
+    label: trialTypes
   start: 11
 - end: 16
   id: 14
@@ -291,7 +291,7 @@
 - end: 64
   id: 59
   properties:
-    label: timingType
+    label: type
   start: 63
 - end: 65
   id: 60
@@ -306,7 +306,7 @@
 - end: 68
   id: 62
   properties:
-    label: timingType
+    label: type
   start: 67
 - end: 69
   id: 63
@@ -321,7 +321,7 @@
 - end: 72
   id: 65
   properties:
-    label: timingType
+    label: type
   start: 71
 - end: 73
   id: 66
@@ -336,7 +336,7 @@
 - end: 76
   id: 68
   properties:
-    label: timingType
+    label: type
   start: 75
 - end: 77
   id: 69
@@ -351,7 +351,7 @@
 - end: 80
   id: 71
   properties:
-    label: timingType
+    label: type
   start: 79
 - end: 81
   id: 72
@@ -366,7 +366,7 @@
 - end: 84
   id: 74
   properties:
-    label: timingType
+    label: type
   start: 83
 - end: 85
   id: 75
@@ -381,7 +381,7 @@
 - end: 88
   id: 77
   properties:
-    label: timingType
+    label: type
   start: 87
 - end: 89
   id: 78
@@ -396,7 +396,7 @@
 - end: 92
   id: 80
   properties:
-    label: timingType
+    label: type
   start: 91
 - end: 93
   id: 81
@@ -411,7 +411,7 @@
 - end: 96
   id: 83
   properties:
-    label: timingType
+    label: type
   start: 95
 - end: 97
   id: 84
@@ -426,7 +426,7 @@
 - end: 100
   id: 86
   properties:
-    label: timingType
+    label: type
   start: 99
 - end: 101
   id: 87
@@ -441,7 +441,7 @@
 - end: 104
   id: 89
   properties:
-    label: timingType
+    label: type
   start: 103
 - end: 105
   id: 90
@@ -456,7 +456,7 @@
 - end: 108
   id: 92
   properties:
-    label: timingType
+    label: type
   start: 107
 - end: 109
   id: 93
@@ -471,7 +471,7 @@
 - end: 112
   id: 95
   properties:
-    label: timingType
+    label: type
   start: 111
 - end: 113
   id: 96
@@ -486,7 +486,7 @@
 - end: 116
   id: 98
   properties:
-    label: timingType
+    label: type
   start: 115
 - end: 117
   id: 99
@@ -501,7 +501,7 @@
 - end: 120
   id: 101
   properties:
-    label: timingType
+    label: type
   start: 119
 - end: 121
   id: 102
@@ -516,7 +516,7 @@
 - end: 124
   id: 104
   properties:
-    label: timingType
+    label: type
   start: 123
 - end: 125
   id: 105
@@ -531,7 +531,7 @@
 - end: 128
   id: 107
   properties:
-    label: timingType
+    label: type
   start: 127
 - end: 129
   id: 108
@@ -546,7 +546,7 @@
 - end: 132
   id: 110
   properties:
-    label: timingType
+    label: type
   start: 131
 - end: 133
   id: 111
@@ -666,7 +666,7 @@
 - end: 137
   id: 134
   properties:
-    label: encounterType
+    label: type
   start: 136
 - end: 138
   id: 135
@@ -691,7 +691,7 @@
 - end: 143
   id: 139
   properties:
-    label: encounterType
+    label: type
   start: 142
 - end: 144
   id: 140
@@ -711,7 +711,7 @@
 - end: 148
   id: 143
   properties:
-    label: encounterType
+    label: type
   start: 147
 - end: 149
   id: 144
@@ -736,7 +736,7 @@
 - end: 154
   id: 148
   properties:
-    label: encounterType
+    label: type
   start: 153
 - end: 155
   id: 149
@@ -751,7 +751,7 @@
 - end: 158
   id: 151
   properties:
-    label: encounterType
+    label: type
   start: 157
 - end: 159
   id: 152
@@ -766,7 +766,7 @@
 - end: 162
   id: 154
   properties:
-    label: encounterType
+    label: type
   start: 161
 - end: 163
   id: 155
@@ -781,7 +781,7 @@
 - end: 166
   id: 157
   properties:
-    label: encounterType
+    label: type
   start: 165
 - end: 167
   id: 158
@@ -796,7 +796,7 @@
 - end: 170
   id: 160
   properties:
-    label: encounterType
+    label: type
   start: 169
 - end: 171
   id: 161
@@ -811,7 +811,7 @@
 - end: 174
   id: 163
   properties:
-    label: encounterType
+    label: type
   start: 173
 - end: 175
   id: 164
@@ -826,7 +826,7 @@
 - end: 178
   id: 166
   properties:
-    label: encounterType
+    label: type
   start: 177
 - end: 179
   id: 167
@@ -841,7 +841,7 @@
 - end: 182
   id: 169
   properties:
-    label: encounterType
+    label: type
   start: 181
 - end: 183
   id: 170
@@ -856,7 +856,7 @@
 - end: 186
   id: 172
   properties:
-    label: encounterType
+    label: type
   start: 185
 - end: 187
   id: 173
@@ -871,7 +871,7 @@
 - end: 190
   id: 175
   properties:
-    label: encounterType
+    label: type
   start: 189
 - end: 191
   id: 176
@@ -886,7 +886,7 @@
 - end: 194
   id: 178
   properties:
-    label: encounterType
+    label: type
   start: 193
 - end: 195
   id: 179
@@ -901,7 +901,7 @@
 - end: 198
   id: 181
   properties:
-    label: encounterType
+    label: type
   start: 197
 - end: 199
   id: 182
@@ -916,7 +916,7 @@
 - end: 202
   id: 184
   properties:
-    label: encounterType
+    label: type
   start: 201
 - end: 203
   id: 185
@@ -931,7 +931,7 @@
 - end: 206
   id: 187
   properties:
-    label: encounterType
+    label: type
   start: 205
 - end: 207
   id: 188
@@ -946,7 +946,7 @@
 - end: 210
   id: 190
   properties:
-    label: encounterType
+    label: type
   start: 209
 - end: 211
   id: 191
@@ -1256,7 +1256,7 @@
 - end: 255
   id: 252
   properties:
-    label: bcPropertyConceptCode
+    label: code
   start: 248
 - end: 248
   id: 253
@@ -1271,7 +1271,7 @@
 - end: 257
   id: 255
   properties:
-    label: bcConceptCode
+    label: code
   start: 247
 - end: 262
   id: 256
@@ -1291,7 +1291,7 @@
 - end: 263
   id: 259
   properties:
-    label: bcPropertyConceptCode
+    label: code
   start: 260
 - end: 260
   id: 260
@@ -1306,7 +1306,7 @@
 - end: 265
   id: 262
   properties:
-    label: bcConceptCode
+    label: code
   start: 259
 - end: 270
   id: 263
@@ -1316,7 +1316,7 @@
 - end: 269
   id: 264
   properties:
-    label: bcPropertyConceptCode
+    label: code
   start: 268
 - end: 273
   id: 265
@@ -1336,7 +1336,7 @@
 - end: 274
   id: 268
   properties:
-    label: bcPropertyConceptCode
+    label: code
   start: 271
 - end: 278
   id: 269
@@ -1346,7 +1346,7 @@
 - end: 277
   id: 270
   properties:
-    label: bcPropertyConceptCode
+    label: code
   start: 276
 - end: 281
   id: 271
@@ -1356,7 +1356,7 @@
 - end: 280
   id: 272
   properties:
-    label: bcPropertyConceptCode
+    label: code
   start: 279
 - end: 284
   id: 273
@@ -1366,7 +1366,7 @@
 - end: 283
   id: 274
   properties:
-    label: bcPropertyConceptCode
+    label: code
   start: 282
 - end: 287
   id: 275
@@ -1376,7 +1376,7 @@
 - end: 286
   id: 276
   properties:
-    label: bcPropertyConceptCode
+    label: code
   start: 285
 - end: 268
   id: 277
@@ -1416,7 +1416,7 @@
 - end: 288
   id: 284
   properties:
-    label: bcConceptCode
+    label: code
   start: 267
 - end: 293
   id: 285
@@ -1426,7 +1426,7 @@
 - end: 292
   id: 286
   properties:
-    label: bcPropertyConceptCode
+    label: code
   start: 291
 - end: 296
   id: 287
@@ -1446,7 +1446,7 @@
 - end: 297
   id: 290
   properties:
-    label: bcPropertyConceptCode
+    label: code
   start: 294
 - end: 301
   id: 291
@@ -1456,7 +1456,7 @@
 - end: 300
   id: 292
   properties:
-    label: bcPropertyConceptCode
+    label: code
   start: 299
 - end: 304
   id: 293
@@ -1466,7 +1466,7 @@
 - end: 303
   id: 294
   properties:
-    label: bcPropertyConceptCode
+    label: code
   start: 302
 - end: 307
   id: 295
@@ -1476,7 +1476,7 @@
 - end: 306
   id: 296
   properties:
-    label: bcPropertyConceptCode
+    label: code
   start: 305
 - end: 310
   id: 297
@@ -1486,7 +1486,7 @@
 - end: 309
   id: 298
   properties:
-    label: bcPropertyConceptCode
+    label: code
   start: 308
 - end: 291
   id: 299
@@ -1526,7 +1526,7 @@
 - end: 311
   id: 306
   properties:
-    label: bcConceptCode
+    label: code
   start: 290
 - end: 316
   id: 307
@@ -1536,7 +1536,7 @@
 - end: 315
   id: 308
   properties:
-    label: bcPropertyConceptCode
+    label: code
   start: 314
 - end: 319
   id: 309
@@ -1556,7 +1556,7 @@
 - end: 320
   id: 312
   properties:
-    label: bcPropertyConceptCode
+    label: code
   start: 317
 - end: 324
   id: 313
@@ -1566,7 +1566,7 @@
 - end: 323
   id: 314
   properties:
-    label: bcPropertyConceptCode
+    label: code
   start: 322
 - end: 314
   id: 315
@@ -1591,7 +1591,7 @@
 - end: 325
   id: 319
   properties:
-    label: bcConceptCode
+    label: code
   start: 313
 - end: 330
   id: 320
@@ -1601,7 +1601,7 @@
 - end: 329
   id: 321
   properties:
-    label: bcPropertyConceptCode
+    label: code
   start: 328
 - end: 333
   id: 322
@@ -1641,7 +1641,7 @@
 - end: 338
   id: 329
   properties:
-    label: bcPropertyConceptCode
+    label: code
   start: 331
 - end: 328
   id: 330
@@ -1661,7 +1661,7 @@
 - end: 340
   id: 333
   properties:
-    label: bcConceptCode
+    label: code
   start: 327
 - end: 345
   id: 334
@@ -1671,7 +1671,7 @@
 - end: 344
   id: 335
   properties:
-    label: bcPropertyConceptCode
+    label: code
   start: 343
 - end: 348
   id: 336
@@ -1721,7 +1721,7 @@
 - end: 355
   id: 345
   properties:
-    label: bcPropertyConceptCode
+    label: code
   start: 346
 - end: 343
   id: 346
@@ -1741,7 +1741,7 @@
 - end: 357
   id: 349
   properties:
-    label: bcConceptCode
+    label: code
   start: 342
 - end: 362
   id: 350
@@ -1751,7 +1751,7 @@
 - end: 361
   id: 351
   properties:
-    label: bcPropertyConceptCode
+    label: code
   start: 360
 - end: 365
   id: 352
@@ -1761,7 +1761,7 @@
 - end: 364
   id: 353
   properties:
-    label: bcPropertyConceptCode
+    label: code
   start: 363
 - end: 368
   id: 354
@@ -1771,7 +1771,7 @@
 - end: 367
   id: 355
   properties:
-    label: bcPropertyConceptCode
+    label: code
   start: 366
 - end: 371
   id: 356
@@ -1781,7 +1781,7 @@
 - end: 370
   id: 357
   properties:
-    label: bcPropertyConceptCode
+    label: code
   start: 369
 - end: 360
   id: 358
@@ -1811,7 +1811,7 @@
 - end: 372
   id: 363
   properties:
-    label: bcConceptCode
+    label: code
   start: 359
 - end: 377
   id: 364
@@ -1821,7 +1821,7 @@
 - end: 376
   id: 365
   properties:
-    label: bcPropertyConceptCode
+    label: code
   start: 375
 - end: 380
   id: 366
@@ -1831,7 +1831,7 @@
 - end: 379
   id: 367
   properties:
-    label: bcPropertyConceptCode
+    label: code
   start: 378
 - end: 383
   id: 368
@@ -1841,7 +1841,7 @@
 - end: 382
   id: 369
   properties:
-    label: bcPropertyConceptCode
+    label: code
   start: 381
 - end: 386
   id: 370
@@ -1851,7 +1851,7 @@
 - end: 385
   id: 371
   properties:
-    label: bcPropertyConceptCode
+    label: code
   start: 384
 - end: 375
   id: 372
@@ -1881,7 +1881,7 @@
 - end: 387
   id: 377
   properties:
-    label: bcConceptCode
+    label: code
   start: 374
 - end: 392
   id: 378
@@ -1891,7 +1891,7 @@
 - end: 391
   id: 379
   properties:
-    label: bcPropertyConceptCode
+    label: code
   start: 390
 - end: 395
   id: 380
@@ -1901,7 +1901,7 @@
 - end: 394
   id: 381
   properties:
-    label: bcPropertyConceptCode
+    label: code
   start: 393
 - end: 398
   id: 382
@@ -1911,7 +1911,7 @@
 - end: 397
   id: 383
   properties:
-    label: bcPropertyConceptCode
+    label: code
   start: 396
 - end: 401
   id: 384
@@ -1921,7 +1921,7 @@
 - end: 400
   id: 385
   properties:
-    label: bcPropertyConceptCode
+    label: code
   start: 399
 - end: 390
   id: 386
@@ -1951,7 +1951,7 @@
 - end: 402
   id: 391
   properties:
-    label: bcConceptCode
+    label: code
   start: 389
 - end: 407
   id: 392
@@ -1961,7 +1961,7 @@
 - end: 406
   id: 393
   properties:
-    label: bcPropertyConceptCode
+    label: code
   start: 405
 - end: 410
   id: 394
@@ -1971,7 +1971,7 @@
 - end: 409
   id: 395
   properties:
-    label: bcPropertyConceptCode
+    label: code
   start: 408
 - end: 413
   id: 396
@@ -1981,7 +1981,7 @@
 - end: 412
   id: 397
   properties:
-    label: bcPropertyConceptCode
+    label: code
   start: 411
 - end: 416
   id: 398
@@ -1991,7 +1991,7 @@
 - end: 415
   id: 399
   properties:
-    label: bcPropertyConceptCode
+    label: code
   start: 414
 - end: 405
   id: 400
@@ -2021,7 +2021,7 @@
 - end: 417
   id: 405
   properties:
-    label: bcConceptCode
+    label: code
   start: 404
 - end: 422
   id: 406
@@ -2031,7 +2031,7 @@
 - end: 421
   id: 407
   properties:
-    label: bcPropertyConceptCode
+    label: code
   start: 420
 - end: 425
   id: 408
@@ -2041,7 +2041,7 @@
 - end: 424
   id: 409
   properties:
-    label: bcPropertyConceptCode
+    label: code
   start: 423
 - end: 428
   id: 410
@@ -2051,7 +2051,7 @@
 - end: 427
   id: 411
   properties:
-    label: bcPropertyConceptCode
+    label: code
   start: 426
 - end: 431
   id: 412
@@ -2061,7 +2061,7 @@
 - end: 430
   id: 413
   properties:
-    label: bcPropertyConceptCode
+    label: code
   start: 429
 - end: 420
   id: 414
@@ -2091,7 +2091,7 @@
 - end: 432
   id: 419
   properties:
-    label: bcConceptCode
+    label: code
   start: 419
 - end: 437
   id: 420
@@ -2101,7 +2101,7 @@
 - end: 436
   id: 421
   properties:
-    label: bcPropertyConceptCode
+    label: code
   start: 435
 - end: 440
   id: 422
@@ -2111,7 +2111,7 @@
 - end: 439
   id: 423
   properties:
-    label: bcPropertyConceptCode
+    label: code
   start: 438
 - end: 443
   id: 424
@@ -2121,7 +2121,7 @@
 - end: 442
   id: 425
   properties:
-    label: bcPropertyConceptCode
+    label: code
   start: 441
 - end: 446
   id: 426
@@ -2131,7 +2131,7 @@
 - end: 445
   id: 427
   properties:
-    label: bcPropertyConceptCode
+    label: code
   start: 444
 - end: 435
   id: 428
@@ -2161,7 +2161,7 @@
 - end: 447
   id: 433
   properties:
-    label: bcConceptCode
+    label: code
   start: 434
 - end: 452
   id: 434
@@ -2171,7 +2171,7 @@
 - end: 451
   id: 435
   properties:
-    label: bcPropertyConceptCode
+    label: code
   start: 450
 - end: 455
   id: 436
@@ -2181,7 +2181,7 @@
 - end: 454
   id: 437
   properties:
-    label: bcPropertyConceptCode
+    label: code
   start: 453
 - end: 458
   id: 438
@@ -2191,7 +2191,7 @@
 - end: 457
   id: 439
   properties:
-    label: bcPropertyConceptCode
+    label: code
   start: 456
 - end: 461
   id: 440
@@ -2201,7 +2201,7 @@
 - end: 460
   id: 441
   properties:
-    label: bcPropertyConceptCode
+    label: code
   start: 459
 - end: 450
   id: 442
@@ -2231,7 +2231,7 @@
 - end: 462
   id: 447
   properties:
-    label: bcConceptCode
+    label: code
   start: 449
 - end: 466
   id: 448
@@ -2241,7 +2241,7 @@
 - end: 465
   id: 449
   properties:
-    label: bcConceptCode
+    label: code
   start: 464
 - end: 247
   id: 450
@@ -2331,32 +2331,32 @@
 - end: 470
   id: 467
   properties:
-    label: studyArmType
+    label: type
   start: 469
 - end: 471
   id: 468
   properties:
-    label: studyArmDataOriginType
+    label: dataOriginType
   start: 469
 - end: 473
   id: 469
   properties:
-    label: studyArmType
+    label: type
   start: 472
 - end: 474
   id: 470
   properties:
-    label: studyArmDataOriginType
+    label: dataOriginType
   start: 472
 - end: 476
   id: 471
   properties:
-    label: studyArmType
+    label: type
   start: 475
 - end: 477
   id: 472
   properties:
-    label: studyArmDataOriginType
+    label: dataOriginType
   start: 475
 - end: 469
   id: 473
@@ -2376,27 +2376,27 @@
 - end: 479
   id: 476
   properties:
-    label: studyEpochType
+    label: type
   start: 478
 - end: 481
   id: 477
   properties:
-    label: studyEpochType
+    label: type
   start: 480
 - end: 483
   id: 478
   properties:
-    label: studyEpochType
+    label: type
   start: 482
 - end: 485
   id: 479
   properties:
-    label: studyEpochType
+    label: type
   start: 484
 - end: 487
   id: 480
   properties:
-    label: studyEpochType
+    label: type
   start: 486
 - end: 478
   id: 481
@@ -3158,1729 +3158,1739 @@
   properties:
     label: contents
   start: 11
-- end: 11
+- end: 635
   id: 633
+  properties:
+    label: contents
+  start: 11
+- end: 636
+  id: 634
+  properties:
+    label: contents
+  start: 11
+- end: 11
+  id: 635
   properties:
     label: studyDesigns
   start: 1
 - end: 469
-  id: 634
-  properties:
-    label: studyArmId
-    type: Other
-  start: 17
-- end: 478
-  id: 635
-  properties:
-    label: studyEpochId
-    type: Other
-  start: 17
-- end: 488
   id: 636
   properties:
+    label: studyArmId
+    type: Other
+  start: 17
+- end: 478
+  id: 637
+  properties:
+    label: studyEpochId
+    type: Other
+  start: 17
+- end: 488
+  id: 638
+  properties:
     label: studyElementIds
     type: List
   start: 17
 - end: 469
-  id: 637
-  properties:
-    label: studyArmId
-    type: Other
-  start: 18
-- end: 480
-  id: 638
-  properties:
-    label: studyEpochId
-    type: Other
-  start: 18
-- end: 491
   id: 639
   properties:
+    label: studyArmId
+    type: Other
+  start: 18
+- end: 480
+  id: 640
+  properties:
+    label: studyEpochId
+    type: Other
+  start: 18
+- end: 491
+  id: 641
+  properties:
     label: studyElementIds
     type: List
   start: 18
 - end: 469
-  id: 640
+  id: 642
   properties:
     label: studyArmId
     type: Other
   start: 19
 - end: 482
-  id: 641
+  id: 643
   properties:
     label: studyEpochId
     type: Other
   start: 19
 - end: 491
-  id: 642
+  id: 644
   properties:
     label: studyElementIds
     type: List
   start: 19
 - end: 469
-  id: 643
+  id: 645
   properties:
     label: studyArmId
     type: Other
   start: 20
 - end: 484
-  id: 644
+  id: 646
   properties:
     label: studyEpochId
     type: Other
   start: 20
 - end: 491
-  id: 645
+  id: 647
   properties:
     label: studyElementIds
     type: List
   start: 20
 - end: 469
-  id: 646
+  id: 648
   properties:
     label: studyArmId
     type: Other
   start: 21
 - end: 486
-  id: 647
+  id: 649
   properties:
     label: studyEpochId
     type: Other
   start: 21
 - end: 493
-  id: 648
+  id: 650
   properties:
     label: studyElementIds
     type: List
   start: 21
 - end: 472
-  id: 649
+  id: 651
   properties:
     label: studyArmId
     type: Other
   start: 22
 - end: 478
-  id: 650
+  id: 652
   properties:
     label: studyEpochId
     type: Other
   start: 22
 - end: 488
-  id: 651
+  id: 653
   properties:
     label: studyElementIds
     type: List
   start: 22
 - end: 472
-  id: 652
+  id: 654
   properties:
     label: studyArmId
     type: Other
   start: 23
 - end: 480
-  id: 653
+  id: 655
   properties:
     label: studyEpochId
     type: Other
   start: 23
 - end: 496
-  id: 654
+  id: 656
   properties:
     label: studyElementIds
     type: List
   start: 23
 - end: 472
-  id: 655
+  id: 657
   properties:
     label: studyArmId
     type: Other
   start: 24
 - end: 482
-  id: 656
+  id: 658
   properties:
     label: studyEpochId
     type: Other
   start: 24
 - end: 496
-  id: 657
+  id: 659
   properties:
     label: studyElementIds
     type: List
   start: 24
 - end: 472
-  id: 658
+  id: 660
   properties:
     label: studyArmId
     type: Other
   start: 25
 - end: 484
-  id: 659
+  id: 661
   properties:
     label: studyEpochId
     type: Other
   start: 25
 - end: 496
-  id: 660
+  id: 662
   properties:
     label: studyElementIds
     type: List
   start: 25
 - end: 472
-  id: 661
+  id: 663
   properties:
     label: studyArmId
     type: Other
   start: 26
 - end: 486
-  id: 662
+  id: 664
   properties:
     label: studyEpochId
     type: Other
   start: 26
 - end: 493
-  id: 663
+  id: 665
   properties:
     label: studyElementIds
     type: List
   start: 26
 - end: 475
-  id: 664
+  id: 666
   properties:
     label: studyArmId
     type: Other
   start: 27
 - end: 478
-  id: 665
+  id: 667
   properties:
     label: studyEpochId
     type: Other
   start: 27
 - end: 488
-  id: 666
+  id: 668
   properties:
     label: studyElementIds
     type: List
   start: 27
 - end: 475
-  id: 667
+  id: 669
   properties:
     label: studyArmId
     type: Other
   start: 28
 - end: 480
-  id: 668
+  id: 670
   properties:
     label: studyEpochId
     type: Other
   start: 28
 - end: 498
-  id: 669
+  id: 671
   properties:
     label: studyElementIds
     type: List
   start: 28
 - end: 475
-  id: 670
+  id: 672
   properties:
     label: studyArmId
     type: Other
   start: 29
 - end: 482
-  id: 671
+  id: 673
   properties:
     label: studyEpochId
     type: Other
   start: 29
 - end: 500
-  id: 672
+  id: 674
   properties:
     label: studyElementIds
     type: List
   start: 29
 - end: 475
-  id: 673
+  id: 675
   properties:
     label: studyArmId
     type: Other
   start: 30
 - end: 484
-  id: 674
+  id: 676
   properties:
     label: studyEpochId
     type: Other
   start: 30
 - end: 502
-  id: 675
+  id: 677
   properties:
     label: studyElementIds
     type: List
   start: 30
 - end: 475
-  id: 676
+  id: 678
   properties:
     label: studyArmId
     type: Other
   start: 31
 - end: 486
-  id: 677
+  id: 679
   properties:
     label: studyEpochId
     type: Other
   start: 31
 - end: 493
-  id: 678
+  id: 680
   properties:
     label: studyElementIds
     type: List
   start: 31
 - end: 62
-  id: 679
+  id: 681
   properties:
     label: relativeFromScheduledInstanceId
     type: Other
   start: 63
 - end: 66
-  id: 680
+  id: 682
   properties:
     label: relativeToScheduledInstanceId
     type: Other
   start: 63
 - end: 66
-  id: 681
+  id: 683
   properties:
     label: defaultConditionId
     type: Other
   start: 62
 - end: 478
-  id: 682
+  id: 684
   properties:
     label: epochId
     type: Other
   start: 62
 - end: 214
-  id: 683
-  properties:
-    label: activityIds
-    type: List
-  start: 62
-- end: 215
-  id: 684
-  properties:
-    label: activityIds
-    type: List
-  start: 62
-- end: 216
   id: 685
   properties:
     label: activityIds
     type: List
   start: 62
-- end: 217
+- end: 215
   id: 686
   properties:
     label: activityIds
     type: List
   start: 62
-- end: 218
+- end: 216
   id: 687
   properties:
     label: activityIds
     type: List
   start: 62
-- end: 219
+- end: 217
   id: 688
   properties:
     label: activityIds
     type: List
   start: 62
-- end: 220
+- end: 218
   id: 689
   properties:
     label: activityIds
     type: List
   start: 62
-- end: 221
+- end: 219
   id: 690
   properties:
     label: activityIds
     type: List
   start: 62
-- end: 222
+- end: 220
   id: 691
   properties:
     label: activityIds
     type: List
   start: 62
-- end: 223
+- end: 221
   id: 692
   properties:
     label: activityIds
     type: List
   start: 62
-- end: 226
+- end: 222
   id: 693
   properties:
     label: activityIds
     type: List
   start: 62
-- end: 229
+- end: 223
   id: 694
   properties:
     label: activityIds
     type: List
   start: 62
-- end: 230
+- end: 226
   id: 695
   properties:
     label: activityIds
     type: List
   start: 62
-- end: 231
+- end: 229
   id: 696
   properties:
     label: activityIds
     type: List
   start: 62
-- end: 232
+- end: 230
   id: 697
   properties:
     label: activityIds
     type: List
   start: 62
-- end: 233
+- end: 231
   id: 698
   properties:
     label: activityIds
     type: List
   start: 62
-- end: 234
+- end: 232
   id: 699
   properties:
     label: activityIds
     type: List
   start: 62
-- end: 235
+- end: 233
   id: 700
   properties:
     label: activityIds
     type: List
   start: 62
-- end: 240
+- end: 234
   id: 701
   properties:
     label: activityIds
     type: List
   start: 62
-- end: 241
+- end: 235
   id: 702
   properties:
     label: activityIds
     type: List
   start: 62
-- end: 242
+- end: 240
   id: 703
   properties:
     label: activityIds
     type: List
   start: 62
-- end: 243
+- end: 241
   id: 704
   properties:
     label: activityIds
     type: List
   start: 62
-- end: 244
+- end: 242
   id: 705
   properties:
     label: activityIds
     type: List
   start: 62
-- end: 136
+- end: 243
   id: 706
+  properties:
+    label: activityIds
+    type: List
+  start: 62
+- end: 244
+  id: 707
+  properties:
+    label: activityIds
+    type: List
+  start: 62
+- end: 136
+  id: 708
   properties:
     label: scheduledActivityInstanceEncounterId
     type: Other
   start: 62
 - end: 66
-  id: 707
+  id: 709
   properties:
     label: relativeFromScheduledInstanceId
     type: Other
   start: 67
 - end: 70
-  id: 708
+  id: 710
   properties:
     label: relativeToScheduledInstanceId
     type: Other
   start: 67
 - end: 70
-  id: 709
+  id: 711
   properties:
     label: defaultConditionId
     type: Other
   start: 66
 - end: 478
-  id: 710
+  id: 712
   properties:
     label: epochId
     type: Other
   start: 66
 - end: 226
-  id: 711
-  properties:
-    label: activityIds
-    type: List
-  start: 66
-- end: 227
-  id: 712
-  properties:
-    label: activityIds
-    type: List
-  start: 66
-- end: 244
   id: 713
   properties:
     label: activityIds
     type: List
   start: 66
-- end: 142
+- end: 227
   id: 714
+  properties:
+    label: activityIds
+    type: List
+  start: 66
+- end: 244
+  id: 715
+  properties:
+    label: activityIds
+    type: List
+  start: 66
+- end: 142
+  id: 716
   properties:
     label: scheduledActivityInstanceEncounterId
     type: Other
   start: 66
 - end: 70
-  id: 715
+  id: 717
   properties:
     label: relativeFromScheduledInstanceId
     type: Other
   start: 71
 - end: 70
-  id: 716
+  id: 718
   properties:
     label: relativeToScheduledInstanceId
     type: Other
   start: 71
 - end: 74
-  id: 717
+  id: 719
   properties:
     label: defaultConditionId
     type: Other
   start: 70
 - end: 480
-  id: 718
+  id: 720
   properties:
     label: epochId
     type: Other
   start: 70
 - end: 225
-  id: 719
-  properties:
-    label: activityIds
-    type: List
-  start: 70
-- end: 226
-  id: 720
-  properties:
-    label: activityIds
-    type: List
-  start: 70
-- end: 228
   id: 721
   properties:
     label: activityIds
     type: List
   start: 70
-- end: 232
+- end: 226
   id: 722
   properties:
     label: activityIds
     type: List
   start: 70
-- end: 236
+- end: 228
   id: 723
   properties:
     label: activityIds
     type: List
   start: 70
-- end: 238
+- end: 232
   id: 724
   properties:
     label: activityIds
     type: List
   start: 70
-- end: 240
+- end: 236
   id: 725
   properties:
     label: activityIds
     type: List
   start: 70
-- end: 241
+- end: 238
   id: 726
   properties:
     label: activityIds
     type: List
   start: 70
-- end: 242
+- end: 240
   id: 727
   properties:
     label: activityIds
     type: List
   start: 70
-- end: 243
+- end: 241
   id: 728
   properties:
     label: activityIds
     type: List
   start: 70
-- end: 244
+- end: 242
   id: 729
   properties:
     label: activityIds
     type: List
   start: 70
-- end: 147
+- end: 243
   id: 730
+  properties:
+    label: activityIds
+    type: List
+  start: 70
+- end: 244
+  id: 731
+  properties:
+    label: activityIds
+    type: List
+  start: 70
+- end: 147
+  id: 732
   properties:
     label: scheduledActivityInstanceEncounterId
     type: Other
   start: 70
 - end: 74
-  id: 731
+  id: 733
   properties:
     label: relativeFromScheduledInstanceId
     type: Other
   start: 75
 - end: 70
-  id: 732
+  id: 734
   properties:
     label: relativeToScheduledInstanceId
     type: Other
   start: 75
 - end: 78
-  id: 733
+  id: 735
   properties:
     label: defaultConditionId
     type: Other
   start: 74
 - end: 480
-  id: 734
+  id: 736
   properties:
     label: epochId
     type: Other
   start: 74
 - end: 224
-  id: 735
-  properties:
-    label: activityIds
-    type: List
-  start: 74
-- end: 226
-  id: 736
-  properties:
-    label: activityIds
-    type: List
-  start: 74
-- end: 227
   id: 737
   properties:
     label: activityIds
     type: List
   start: 74
-- end: 153
+- end: 226
   id: 738
+  properties:
+    label: activityIds
+    type: List
+  start: 74
+- end: 227
+  id: 739
+  properties:
+    label: activityIds
+    type: List
+  start: 74
+- end: 153
+  id: 740
   properties:
     label: scheduledActivityInstanceEncounterId
     type: Other
   start: 74
 - end: 78
-  id: 739
+  id: 741
   properties:
     label: relativeFromScheduledInstanceId
     type: Other
   start: 79
 - end: 74
-  id: 740
+  id: 742
   properties:
     label: relativeToScheduledInstanceId
     type: Other
   start: 79
 - end: 82
-  id: 741
+  id: 743
   properties:
     label: defaultConditionId
     type: Other
   start: 78
 - end: 480
-  id: 742
+  id: 744
   properties:
     label: epochId
     type: Other
   start: 78
 - end: 226
-  id: 743
-  properties:
-    label: activityIds
-    type: List
-  start: 78
-- end: 229
-  id: 744
-  properties:
-    label: activityIds
-    type: List
-  start: 78
-- end: 232
   id: 745
   properties:
     label: activityIds
     type: List
   start: 78
-- end: 233
+- end: 229
   id: 746
   properties:
     label: activityIds
     type: List
   start: 78
-- end: 234
+- end: 232
   id: 747
   properties:
     label: activityIds
     type: List
   start: 78
-- end: 235
+- end: 233
   id: 748
   properties:
     label: activityIds
     type: List
   start: 78
-- end: 236
+- end: 234
   id: 749
   properties:
     label: activityIds
     type: List
   start: 78
-- end: 238
+- end: 235
   id: 750
   properties:
     label: activityIds
     type: List
   start: 78
-- end: 243
+- end: 236
   id: 751
   properties:
     label: activityIds
     type: List
   start: 78
-- end: 244
+- end: 238
   id: 752
   properties:
     label: activityIds
     type: List
   start: 78
-- end: 157
+- end: 243
   id: 753
+  properties:
+    label: activityIds
+    type: List
+  start: 78
+- end: 244
+  id: 754
+  properties:
+    label: activityIds
+    type: List
+  start: 78
+- end: 157
+  id: 755
   properties:
     label: scheduledActivityInstanceEncounterId
     type: Other
   start: 78
 - end: 82
-  id: 754
+  id: 756
   properties:
     label: relativeFromScheduledInstanceId
     type: Other
   start: 83
 - end: 78
-  id: 755
+  id: 757
   properties:
     label: relativeToScheduledInstanceId
     type: Other
   start: 83
 - end: 86
-  id: 756
+  id: 758
   properties:
     label: defaultConditionId
     type: Other
   start: 82
 - end: 482
-  id: 757
+  id: 759
   properties:
     label: epochId
     type: Other
   start: 82
 - end: 226
-  id: 758
-  properties:
-    label: activityIds
-    type: List
-  start: 82
-- end: 229
-  id: 759
-  properties:
-    label: activityIds
-    type: List
-  start: 82
-- end: 232
   id: 760
   properties:
     label: activityIds
     type: List
   start: 82
-- end: 233
+- end: 229
   id: 761
   properties:
     label: activityIds
     type: List
   start: 82
-- end: 234
+- end: 232
   id: 762
   properties:
     label: activityIds
     type: List
   start: 82
-- end: 236
+- end: 233
   id: 763
   properties:
     label: activityIds
     type: List
   start: 82
-- end: 238
+- end: 234
   id: 764
   properties:
     label: activityIds
     type: List
   start: 82
-- end: 243
+- end: 236
   id: 765
   properties:
     label: activityIds
     type: List
   start: 82
-- end: 244
+- end: 238
   id: 766
   properties:
     label: activityIds
     type: List
   start: 82
-- end: 161
+- end: 243
   id: 767
+  properties:
+    label: activityIds
+    type: List
+  start: 82
+- end: 244
+  id: 768
+  properties:
+    label: activityIds
+    type: List
+  start: 82
+- end: 161
+  id: 769
   properties:
     label: scheduledActivityInstanceEncounterId
     type: Other
   start: 82
 - end: 86
-  id: 768
+  id: 770
   properties:
     label: relativeFromScheduledInstanceId
     type: Other
   start: 87
 - end: 82
-  id: 769
+  id: 771
   properties:
     label: relativeToScheduledInstanceId
     type: Other
   start: 87
 - end: 90
-  id: 770
+  id: 772
   properties:
     label: defaultConditionId
     type: Other
   start: 86
 - end: 482
-  id: 771
+  id: 773
   properties:
     label: epochId
     type: Other
   start: 86
 - end: 228
-  id: 772
+  id: 774
   properties:
     label: activityIds
     type: List
   start: 86
 - end: 165
-  id: 773
+  id: 775
   properties:
     label: scheduledActivityInstanceEncounterId
     type: Other
   start: 86
 - end: 90
-  id: 774
+  id: 776
   properties:
     label: relativeFromScheduledInstanceId
     type: Other
   start: 91
 - end: 86
-  id: 775
+  id: 777
   properties:
     label: relativeToScheduledInstanceId
     type: Other
   start: 91
 - end: 94
-  id: 776
+  id: 778
   properties:
     label: defaultConditionId
     type: Other
   start: 90
 - end: 482
-  id: 777
+  id: 779
   properties:
     label: epochId
     type: Other
   start: 90
 - end: 226
-  id: 778
-  properties:
-    label: activityIds
-    type: List
-  start: 90
-- end: 229
-  id: 779
-  properties:
-    label: activityIds
-    type: List
-  start: 90
-- end: 232
   id: 780
   properties:
     label: activityIds
     type: List
   start: 90
-- end: 233
+- end: 229
   id: 781
   properties:
     label: activityIds
     type: List
   start: 90
-- end: 234
+- end: 232
   id: 782
   properties:
     label: activityIds
     type: List
   start: 90
-- end: 236
+- end: 233
   id: 783
   properties:
     label: activityIds
     type: List
   start: 90
-- end: 238
+- end: 234
   id: 784
   properties:
     label: activityIds
     type: List
   start: 90
-- end: 243
+- end: 236
   id: 785
   properties:
     label: activityIds
     type: List
   start: 90
-- end: 244
+- end: 238
   id: 786
   properties:
     label: activityIds
     type: List
   start: 90
-- end: 169
+- end: 243
   id: 787
+  properties:
+    label: activityIds
+    type: List
+  start: 90
+- end: 244
+  id: 788
+  properties:
+    label: activityIds
+    type: List
+  start: 90
+- end: 169
+  id: 789
   properties:
     label: scheduledActivityInstanceEncounterId
     type: Other
   start: 90
 - end: 94
-  id: 788
+  id: 790
   properties:
     label: relativeFromScheduledInstanceId
     type: Other
   start: 95
 - end: 90
-  id: 789
+  id: 791
   properties:
     label: relativeToScheduledInstanceId
     type: Other
   start: 95
 - end: 98
-  id: 790
+  id: 792
   properties:
     label: defaultConditionId
     type: Other
   start: 94
 - end: 482
-  id: 791
+  id: 793
   properties:
     label: epochId
     type: Other
   start: 94
 - end: 226
-  id: 792
-  properties:
-    label: activityIds
-    type: List
-  start: 94
-- end: 229
-  id: 793
-  properties:
-    label: activityIds
-    type: List
-  start: 94
-- end: 232
   id: 794
   properties:
     label: activityIds
     type: List
   start: 94
-- end: 233
+- end: 229
   id: 795
   properties:
     label: activityIds
     type: List
   start: 94
-- end: 234
+- end: 232
   id: 796
   properties:
     label: activityIds
     type: List
   start: 94
-- end: 238
+- end: 233
   id: 797
   properties:
     label: activityIds
     type: List
   start: 94
-- end: 240
+- end: 234
   id: 798
   properties:
     label: activityIds
     type: List
   start: 94
-- end: 241
+- end: 238
   id: 799
   properties:
     label: activityIds
     type: List
   start: 94
-- end: 242
+- end: 240
   id: 800
   properties:
     label: activityIds
     type: List
   start: 94
-- end: 243
+- end: 241
   id: 801
   properties:
     label: activityIds
     type: List
   start: 94
-- end: 244
+- end: 242
   id: 802
   properties:
     label: activityIds
     type: List
   start: 94
-- end: 173
+- end: 243
   id: 803
+  properties:
+    label: activityIds
+    type: List
+  start: 94
+- end: 244
+  id: 804
+  properties:
+    label: activityIds
+    type: List
+  start: 94
+- end: 173
+  id: 805
   properties:
     label: scheduledActivityInstanceEncounterId
     type: Other
   start: 94
 - end: 98
-  id: 804
+  id: 806
   properties:
     label: relativeFromScheduledInstanceId
     type: Other
   start: 99
 - end: 94
-  id: 805
+  id: 807
   properties:
     label: relativeToScheduledInstanceId
     type: Other
   start: 99
 - end: 102
-  id: 806
+  id: 808
   properties:
     label: defaultConditionId
     type: Other
   start: 98
 - end: 482
-  id: 807
+  id: 809
   properties:
     label: epochId
     type: Other
   start: 98
 - end: 243
-  id: 808
+  id: 810
   properties:
     label: activityIds
     type: List
   start: 98
 - end: 177
-  id: 809
+  id: 811
   properties:
     label: scheduledActivityInstanceEncounterId
     type: Other
   start: 98
 - end: 102
-  id: 810
+  id: 812
   properties:
     label: relativeFromScheduledInstanceId
     type: Other
   start: 103
 - end: 98
-  id: 811
+  id: 813
   properties:
     label: relativeToScheduledInstanceId
     type: Other
   start: 103
 - end: 106
-  id: 812
+  id: 814
   properties:
     label: defaultConditionId
     type: Other
   start: 102
 - end: 482
-  id: 813
+  id: 815
   properties:
     label: epochId
     type: Other
   start: 102
 - end: 226
-  id: 814
-  properties:
-    label: activityIds
-    type: List
-  start: 102
-- end: 229
-  id: 815
-  properties:
-    label: activityIds
-    type: List
-  start: 102
-- end: 232
   id: 816
   properties:
     label: activityIds
     type: List
   start: 102
-- end: 233
+- end: 229
   id: 817
   properties:
     label: activityIds
     type: List
   start: 102
-- end: 234
+- end: 232
   id: 818
   properties:
     label: activityIds
     type: List
   start: 102
-- end: 235
+- end: 233
   id: 819
   properties:
     label: activityIds
     type: List
   start: 102
-- end: 236
+- end: 234
   id: 820
   properties:
     label: activityIds
     type: List
   start: 102
-- end: 238
+- end: 235
   id: 821
   properties:
     label: activityIds
     type: List
   start: 102
-- end: 243
+- end: 236
   id: 822
   properties:
     label: activityIds
     type: List
   start: 102
-- end: 244
+- end: 238
   id: 823
   properties:
     label: activityIds
     type: List
   start: 102
-- end: 181
+- end: 243
   id: 824
+  properties:
+    label: activityIds
+    type: List
+  start: 102
+- end: 244
+  id: 825
+  properties:
+    label: activityIds
+    type: List
+  start: 102
+- end: 181
+  id: 826
   properties:
     label: scheduledActivityInstanceEncounterId
     type: Other
   start: 102
 - end: 106
-  id: 825
+  id: 827
   properties:
     label: relativeFromScheduledInstanceId
     type: Other
   start: 107
 - end: 102
-  id: 826
+  id: 828
   properties:
     label: relativeToScheduledInstanceId
     type: Other
   start: 107
 - end: 110
-  id: 827
+  id: 829
   properties:
     label: defaultConditionId
     type: Other
   start: 106
 - end: 482
-  id: 828
+  id: 830
   properties:
     label: epochId
     type: Other
   start: 106
 - end: 243
-  id: 829
+  id: 831
   properties:
     label: activityIds
     type: List
   start: 106
 - end: 185
-  id: 830
+  id: 832
   properties:
     label: scheduledActivityInstanceEncounterId
     type: Other
   start: 106
 - end: 110
-  id: 831
+  id: 833
   properties:
     label: relativeFromScheduledInstanceId
     type: Other
   start: 111
 - end: 106
-  id: 832
+  id: 834
   properties:
     label: relativeToScheduledInstanceId
     type: Other
   start: 111
 - end: 114
-  id: 833
+  id: 835
   properties:
     label: defaultConditionId
     type: Other
   start: 110
 - end: 482
-  id: 834
+  id: 836
   properties:
     label: epochId
     type: Other
   start: 110
 - end: 226
-  id: 835
-  properties:
-    label: activityIds
-    type: List
-  start: 110
-- end: 229
-  id: 836
-  properties:
-    label: activityIds
-    type: List
-  start: 110
-- end: 232
   id: 837
   properties:
     label: activityIds
     type: List
   start: 110
-- end: 233
+- end: 229
   id: 838
   properties:
     label: activityIds
     type: List
   start: 110
-- end: 234
+- end: 232
   id: 839
   properties:
     label: activityIds
     type: List
   start: 110
-- end: 238
+- end: 233
   id: 840
   properties:
     label: activityIds
     type: List
   start: 110
-- end: 240
+- end: 234
   id: 841
   properties:
     label: activityIds
     type: List
   start: 110
-- end: 241
+- end: 238
   id: 842
   properties:
     label: activityIds
     type: List
   start: 110
-- end: 242
+- end: 240
   id: 843
   properties:
     label: activityIds
     type: List
   start: 110
-- end: 243
+- end: 241
   id: 844
   properties:
     label: activityIds
     type: List
   start: 110
-- end: 244
+- end: 242
   id: 845
   properties:
     label: activityIds
     type: List
   start: 110
-- end: 189
+- end: 243
   id: 846
+  properties:
+    label: activityIds
+    type: List
+  start: 110
+- end: 244
+  id: 847
+  properties:
+    label: activityIds
+    type: List
+  start: 110
+- end: 189
+  id: 848
   properties:
     label: scheduledActivityInstanceEncounterId
     type: Other
   start: 110
 - end: 114
-  id: 847
+  id: 849
   properties:
     label: relativeFromScheduledInstanceId
     type: Other
   start: 115
 - end: 110
-  id: 848
+  id: 850
   properties:
     label: relativeToScheduledInstanceId
     type: Other
   start: 115
 - end: 118
-  id: 849
+  id: 851
   properties:
     label: defaultConditionId
     type: Other
   start: 114
 - end: 482
-  id: 850
+  id: 852
   properties:
     label: epochId
     type: Other
   start: 114
 - end: 243
-  id: 851
+  id: 853
   properties:
     label: activityIds
     type: List
   start: 114
 - end: 193
-  id: 852
+  id: 854
   properties:
     label: scheduledActivityInstanceEncounterId
     type: Other
   start: 114
 - end: 118
-  id: 853
+  id: 855
   properties:
     label: relativeFromScheduledInstanceId
     type: Other
   start: 119
 - end: 114
-  id: 854
+  id: 856
   properties:
     label: relativeToScheduledInstanceId
     type: Other
   start: 119
 - end: 122
-  id: 855
+  id: 857
   properties:
     label: defaultConditionId
     type: Other
   start: 118
 - end: 482
-  id: 856
+  id: 858
   properties:
     label: epochId
     type: Other
   start: 118
 - end: 226
-  id: 857
-  properties:
-    label: activityIds
-    type: List
-  start: 118
-- end: 229
-  id: 858
-  properties:
-    label: activityIds
-    type: List
-  start: 118
-- end: 232
   id: 859
   properties:
     label: activityIds
     type: List
   start: 118
-- end: 233
+- end: 229
   id: 860
   properties:
     label: activityIds
     type: List
   start: 118
-- end: 234
+- end: 232
   id: 861
   properties:
     label: activityIds
     type: List
   start: 118
-- end: 236
+- end: 233
   id: 862
   properties:
     label: activityIds
     type: List
   start: 118
-- end: 238
+- end: 234
   id: 863
   properties:
     label: activityIds
     type: List
   start: 118
-- end: 243
+- end: 236
   id: 864
   properties:
     label: activityIds
     type: List
   start: 118
-- end: 244
+- end: 238
   id: 865
   properties:
     label: activityIds
     type: List
   start: 118
-- end: 197
+- end: 243
   id: 866
+  properties:
+    label: activityIds
+    type: List
+  start: 118
+- end: 244
+  id: 867
+  properties:
+    label: activityIds
+    type: List
+  start: 118
+- end: 197
+  id: 868
   properties:
     label: scheduledActivityInstanceEncounterId
     type: Other
   start: 118
 - end: 122
-  id: 867
+  id: 869
   properties:
     label: relativeFromScheduledInstanceId
     type: Other
   start: 123
 - end: 118
-  id: 868
+  id: 870
   properties:
     label: relativeToScheduledInstanceId
     type: Other
   start: 123
 - end: 126
-  id: 869
+  id: 871
   properties:
     label: defaultConditionId
     type: Other
   start: 122
 - end: 482
-  id: 870
+  id: 872
   properties:
     label: epochId
     type: Other
   start: 122
 - end: 243
-  id: 871
+  id: 873
   properties:
     label: activityIds
     type: List
   start: 122
 - end: 201
-  id: 872
+  id: 874
   properties:
     label: scheduledActivityInstanceEncounterId
     type: Other
   start: 122
 - end: 126
-  id: 873
+  id: 875
   properties:
     label: relativeFromScheduledInstanceId
     type: Other
   start: 127
 - end: 122
-  id: 874
+  id: 876
   properties:
     label: relativeToScheduledInstanceId
     type: Other
   start: 127
 - end: 130
-  id: 875
+  id: 877
   properties:
     label: defaultConditionId
     type: Other
   start: 126
 - end: 484
-  id: 876
+  id: 878
   properties:
     label: epochId
     type: Other
   start: 126
 - end: 226
-  id: 877
-  properties:
-    label: activityIds
-    type: List
-  start: 126
-- end: 229
-  id: 878
-  properties:
-    label: activityIds
-    type: List
-  start: 126
-- end: 232
   id: 879
   properties:
     label: activityIds
     type: List
   start: 126
-- end: 233
+- end: 229
   id: 880
   properties:
     label: activityIds
     type: List
   start: 126
-- end: 234
+- end: 232
   id: 881
   properties:
     label: activityIds
     type: List
   start: 126
-- end: 235
+- end: 233
   id: 882
   properties:
     label: activityIds
     type: List
   start: 126
-- end: 238
+- end: 234
   id: 883
   properties:
     label: activityIds
     type: List
   start: 126
-- end: 240
+- end: 235
   id: 884
   properties:
     label: activityIds
     type: List
   start: 126
-- end: 241
+- end: 238
   id: 885
   properties:
     label: activityIds
     type: List
   start: 126
-- end: 242
+- end: 240
   id: 886
   properties:
     label: activityIds
     type: List
   start: 126
-- end: 243
+- end: 241
   id: 887
   properties:
     label: activityIds
     type: List
   start: 126
-- end: 244
+- end: 242
   id: 888
   properties:
     label: activityIds
     type: List
   start: 126
-- end: 205
+- end: 243
   id: 889
+  properties:
+    label: activityIds
+    type: List
+  start: 126
+- end: 244
+  id: 890
+  properties:
+    label: activityIds
+    type: List
+  start: 126
+- end: 205
+  id: 891
   properties:
     label: scheduledActivityInstanceEncounterId
     type: Other
   start: 126
 - end: 130
-  id: 890
+  id: 892
   properties:
     label: relativeFromScheduledInstanceId
     type: Other
   start: 131
 - end: 126
-  id: 891
+  id: 893
   properties:
     label: relativeToScheduledInstanceId
     type: Other
   start: 131
 - end: 486
-  id: 892
+  id: 894
   properties:
     label: epochId
     type: Other
   start: 130
 - end: 220
-  id: 893
-  properties:
-    label: activityIds
-    type: List
-  start: 130
-- end: 226
-  id: 894
-  properties:
-    label: activityIds
-    type: List
-  start: 130
-- end: 229
   id: 895
   properties:
     label: activityIds
     type: List
   start: 130
-- end: 232
+- end: 226
   id: 896
   properties:
     label: activityIds
     type: List
   start: 130
-- end: 233
+- end: 229
   id: 897
   properties:
     label: activityIds
     type: List
   start: 130
-- end: 234
+- end: 232
   id: 898
   properties:
     label: activityIds
     type: List
   start: 130
-- end: 238
+- end: 233
   id: 899
   properties:
     label: activityIds
     type: List
   start: 130
-- end: 239
+- end: 234
   id: 900
   properties:
     label: activityIds
     type: List
   start: 130
-- end: 243
+- end: 238
   id: 901
   properties:
     label: activityIds
     type: List
   start: 130
-- end: 244
+- end: 239
   id: 902
   properties:
     label: activityIds
     type: List
   start: 130
-- end: 209
+- end: 243
   id: 903
+  properties:
+    label: activityIds
+    type: List
+  start: 130
+- end: 244
+  id: 904
+  properties:
+    label: activityIds
+    type: List
+  start: 130
+- end: 209
+  id: 905
   properties:
     label: scheduledActivityInstanceEncounterId
     type: Other
   start: 130
 - end: 247
-  id: 904
+  id: 906
   properties:
     label: biomedicalConceptIds
     type: List
   start: 217
 - end: 259
-  id: 905
+  id: 907
   properties:
     label: biomedicalConceptIds
     type: List
   start: 217
 - end: 467
-  id: 906
+  id: 908
   properties:
     label: bcSurrogateIds
     type: List
   start: 217
 - end: 267
-  id: 907
-  properties:
-    label: biomedicalConceptIds
-    type: List
-  start: 226
-- end: 290
-  id: 908
-  properties:
-    label: biomedicalConceptIds
-    type: List
-  start: 226
-- end: 313
   id: 909
   properties:
     label: biomedicalConceptIds
     type: List
   start: 226
-- end: 327
+- end: 290
   id: 910
   properties:
     label: biomedicalConceptIds
     type: List
   start: 226
-- end: 342
+- end: 313
   id: 911
   properties:
     label: biomedicalConceptIds
     type: List
   start: 226
-- end: 359
+- end: 327
   id: 912
   properties:
     label: biomedicalConceptIds
     type: List
-  start: 234
-- end: 374
+  start: 226
+- end: 342
   id: 913
   properties:
     label: biomedicalConceptIds
     type: List
-  start: 234
-- end: 389
+  start: 226
+- end: 359
   id: 914
   properties:
     label: biomedicalConceptIds
     type: List
   start: 234
-- end: 404
+- end: 374
   id: 915
   properties:
     label: biomedicalConceptIds
     type: List
   start: 234
-- end: 419
+- end: 389
   id: 916
   properties:
     label: biomedicalConceptIds
     type: List
   start: 234
-- end: 434
+- end: 404
   id: 917
   properties:
     label: biomedicalConceptIds
     type: List
   start: 234
-- end: 449
+- end: 419
   id: 918
   properties:
     label: biomedicalConceptIds
     type: List
   start: 234
-- end: 468
+- end: 434
   id: 919
+  properties:
+    label: biomedicalConceptIds
+    type: List
+  start: 234
+- end: 449
+  id: 920
+  properties:
+    label: biomedicalConceptIds
+    type: List
+  start: 234
+- end: 468
+  id: 921
   properties:
     label: bcSurrogateIds
     type: List
   start: 237
 - end: 464
-  id: 920
+  id: 922
   properties:
     label: biomedicalConceptIds
     type: List
