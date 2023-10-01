@@ -1,0 +1,138 @@
+<!DOCTYPE html><html><head></head><body><h1>Timeline ScheduleTimeline_1</h1><pre class="mermaid">
+graph LR
+ScheduleTimeline_1([Potential subject identified])
+ScheduledActivityInstance_1(A)
+ScheduleTimeline_1 -->|first| ScheduledActivityInstance_1
+ScheduledActivityInstance_3(A)
+ScheduledActivityInstance_1 -->|default| ScheduledActivityInstance_3
+ScheduledActivityInstance_4(A)
+ScheduledActivityInstance_3 -->|default| ScheduledActivityInstance_4
+ScheduledActivityInstance_5(A)
+ScheduledActivityInstance_4 -->|default| ScheduledActivityInstance_5
+ScheduledActivityInstance_6(A)
+ScheduledActivityInstance_5 -->|default| ScheduledActivityInstance_6
+ScheduledActivityInstance_7(A)
+ScheduledActivityInstance_6 -->|default| ScheduledActivityInstance_7
+ScheduledDecisionInstance_1{{D}}
+ScheduledDecisionInstance_1 -->|if cycle 2| ScheduledActivityInstance_5
+ScheduledActivityInstance_7 -->|default| ScheduledDecisionInstance_1
+ScheduledActivityInstance_8(A)
+ScheduledDecisionInstance_1 -->|default| ScheduledActivityInstance_8
+ScheduledActivityInstance_9(A)
+ScheduledActivityInstance_8 -->|default| ScheduledActivityInstance_9
+ScheduledActivityInstance_10(A)
+ScheduledActivityInstance_9 -->|default| ScheduledActivityInstance_10
+ScheduledDecisionInstance_2{{D}}
+ScheduledDecisionInstance_2 -->|if need to continue treatment condition| ScheduledActivityInstance_8
+ScheduledActivityInstance_10 -->|default| ScheduledDecisionInstance_2
+ScheduledActivityInstance_11(A)
+ScheduledDecisionInstance_2 -->|default| ScheduledActivityInstance_11
+ScheduledActivityInstance_12(A)
+ScheduledActivityInstance_11 -->|default| ScheduledActivityInstance_12
+ScheduledActivityInstance_13(A)
+ScheduledActivityInstance_12 -->|default| ScheduledActivityInstance_13
+ScheduledActivityInstance_14(A)
+ScheduledActivityInstance_13 -->|default| ScheduledActivityInstance_14
+ScheduledActivityInstance_15(A)
+ScheduledActivityInstance_14 -->|default| ScheduledActivityInstance_15
+ScheduleTimelineExit_1([Exit])
+ScheduledActivityInstance_15 -->|exit| ScheduleTimelineExit_1
+Timing_1((Screening
+Before
+P1D
+P28D..P0D))
+Timing_1 -->|from| ScheduledActivityInstance_1
+Timing_1 -->|to| ScheduledActivityInstance_2
+Timing_3((Baseline to C1 D1
+After
+P1D
+None..None))
+Timing_3 -->|from| ScheduledActivityInstance_3
+Timing_3 -->|to| ScheduledActivityInstance_4
+Timing_4((C1 D1 to C1 D15
+After
+P15D
+P3D..P3D))
+Timing_4 -->|from| ScheduledActivityInstance_3
+Timing_4 -->|to| ScheduledActivityInstance_4
+Timing_5((C1 to C2
+After
+P0D
+None..None))
+Timing_5 -->|from| ScheduledActivityInstance_4
+Timing_5 -->|to| ScheduledActivityInstance_5
+Timing_6((C2-3 Base to C2-3 D1
+After
+P1D
+P3D..P3D))
+Timing_6 -->|from| ScheduledActivityInstance_5
+Timing_6 -->|to| ScheduledActivityInstance_6
+Timing_7((C2-3 D1 to C2-3 D15
+After
+P15D
+P3D..P3D))
+Timing_7 -->|from| ScheduledActivityInstance_6
+Timing_7 -->|to| ScheduledActivityInstance_7
+Timing_8((C2-3 D15 to C2-3 Check
+After
+P0D
+None..None))
+Timing_8 -->|from| ScheduledActivityInstance_7
+Timing_8 -->|to| ScheduledDecisionInstance_1
+Timing_9((C2-3 to C4
+After
+P0D
+None..None))
+Timing_9 -->|from| ScheduledDecisionInstance_1
+Timing_9 -->|to| ScheduledActivityInstance_8
+Timing_10((C4 Base to C4 D1
+After
+P1D
+P3D..P3D))
+Timing_10 -->|from| ScheduledActivityInstance_8
+Timing_10 -->|to| ScheduledActivityInstance_9
+Timing_11((Cycle 4 Day 1
+After
+P0D
+None..None))
+Timing_11 -->|from| ScheduledActivityInstance_9
+Timing_11 -->|to| ScheduledActivityInstance_10
+Timing_12((Cycle 4 End
+After
+P0D
+None..None))
+Timing_12 -->|from| ScheduledActivityInstance_10
+Timing_12 -->|to| ScheduledDecisionInstance_2
+Timing_13((Cycle 4 Check
+After
+P0D
+None..None))
+Timing_13 -->|from| ScheduledDecisionInstance_2
+Timing_13 -->|to| ScheduledActivityInstance_11
+Timing_14((EOT Anchor
+After
+P30D
+P29D..P0D))
+Timing_14 -->|from| ScheduledActivityInstance_11
+Timing_14 -->|to| ScheduledActivityInstance_12
+Timing_15((EOT to S1
+After
+P90D
+None..None))
+Timing_15 -->|from| ScheduledActivityInstance_12
+Timing_15 -->|to| ScheduledActivityInstance_13
+Timing_16((S1 to S2
+After
+P90D
+None..None))
+Timing_16 -->|from| ScheduledActivityInstance_13
+Timing_16 -->|to| ScheduledActivityInstance_14
+Timing_17((S2 to Exit
+After
+P0D
+None..None))
+Timing_17 -->|from| ScheduledActivityInstance_14
+Timing_17 -->|to| ScheduledActivityInstance_15
+</pre><script type="module">import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+mermaid.initialize({ startOnLoad: true });
+</script></body></html>
