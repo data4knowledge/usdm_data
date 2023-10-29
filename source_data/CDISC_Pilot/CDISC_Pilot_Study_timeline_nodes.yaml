@@ -1,34 +1,857 @@
-- id: 11
+- id: 13
+  properties:
+    _type: Encounter
+    description: Screening encounter
+    encounterContactModes:
+    - _type: Code
+      code: C175574
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2023-09-29'
+      decode: In Person
+      id: Code_22
+    encounterEnvironmentalSetting:
+      _type: Code
+      code: C51282
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2023-09-29'
+      decode: Clinic
+      id: Code_21
+    encounterScheduledAtTimingId: null
+    id: Encounter_1
+    label: Encounter_1
+    name: E1
+    nextEncounterId: Encounter_2
+    previousEncounterId: null
+    transitionEndRule: {}
+    transitionStartRule: {}
+    type:
+      _type: Code
+      code: C25716
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2023-09-29'
+      decode: Visit
+      id: Code_20
+- id: 17
+  properties:
+    _type: Encounter
+    description: Screening encounter - Ambulatory ECG Placement
+    encounterContactModes:
+    - _type: Code
+      code: C175574
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2023-09-29'
+      decode: In Person
+      id: Code_25
+    encounterEnvironmentalSetting:
+      _type: Code
+      code: C51282
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2023-09-29'
+      decode: Clinic
+      id: Code_24
+    encounterScheduledAtTimingId: null
+    id: Encounter_2
+    label: Encounter_2
+    name: E2
+    nextEncounterId: Encounter_3
+    previousEncounterId: Encounter_1
+    transitionEndRule: {}
+    transitionStartRule: null
+    type:
+      _type: Code
+      code: C25716
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2023-09-29'
+      decode: Visit
+      id: Code_23
+- id: 21
+  properties:
+    _type: Encounter
+    description: Baseline encounter - Ambulatory ECG Removal
+    encounterContactModes:
+    - _type: Code
+      code: C175574
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2023-09-29'
+      decode: In Person
+      id: Code_28
+    encounterEnvironmentalSetting:
+      _type: Code
+      code: C51282
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2023-09-29'
+      decode: Clinic
+      id: Code_27
+    encounterScheduledAtTimingId: null
+    id: Encounter_3
+    label: Encounter_3
+    name: E3
+    nextEncounterId: Encounter_4
+    previousEncounterId: Encounter_2
+    transitionEndRule: {}
+    transitionStartRule: {}
+    type:
+      _type: Code
+      code: C25716
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2023-09-29'
+      decode: Visit
+      id: Code_26
+- id: 25
+  properties:
+    _type: Encounter
+    description: Day 14
+    encounterContactModes:
+    - _type: Code
+      code: C175574
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2023-09-29'
+      decode: In Person
+      id: Code_31
+    encounterEnvironmentalSetting:
+      _type: Code
+      code: C51282
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2023-09-29'
+      decode: Clinic
+      id: Code_30
+    encounterScheduledAtTimingId: null
+    id: Encounter_4
+    label: Encounter_4
+    name: E4
+    nextEncounterId: Encounter_5
+    previousEncounterId: Encounter_3
+    transitionEndRule: null
+    transitionStartRule: null
+    type:
+      _type: Code
+      code: C25716
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2023-09-29'
+      decode: Visit
+      id: Code_29
+- id: 29
+  properties:
+    _type: Encounter
+    description: Day 28
+    encounterContactModes:
+    - _type: Code
+      code: C175574
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2023-09-29'
+      decode: In Person
+      id: Code_34
+    encounterEnvironmentalSetting:
+      _type: Code
+      code: C51282
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2023-09-29'
+      decode: Clinic
+      id: Code_33
+    encounterScheduledAtTimingId: null
+    id: Encounter_5
+    label: Encounter_5
+    name: E5
+    nextEncounterId: Encounter_6
+    previousEncounterId: Encounter_4
+    transitionEndRule: null
+    transitionStartRule: null
+    type:
+      _type: Code
+      code: C25716
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2023-09-29'
+      decode: Visit
+      id: Code_32
+- id: 33
+  properties:
+    _type: Encounter
+    description: Day 42
+    encounterContactModes:
+    - _type: Code
+      code: C175574
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2023-09-29'
+      decode: In Person
+      id: Code_37
+    encounterEnvironmentalSetting:
+      _type: Code
+      code: C51282
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2023-09-29'
+      decode: Clinic
+      id: Code_36
+    encounterScheduledAtTimingId: null
+    id: Encounter_6
+    label: Encounter_6
+    name: E7
+    nextEncounterId: Encounter_7
+    previousEncounterId: Encounter_5
+    transitionEndRule: null
+    transitionStartRule: null
+    type:
+      _type: Code
+      code: C25716
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2023-09-29'
+      decode: Visit
+      id: Code_35
+- id: 37
+  properties:
+    _type: Encounter
+    description: Day 56
+    encounterContactModes:
+    - _type: Code
+      code: C175574
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2023-09-29'
+      decode: In Person
+      id: Code_40
+    - _type: Code
+      code: C171537
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2023-09-29'
+      decode: Telephone Call
+      id: Code_41
+    encounterEnvironmentalSetting:
+      _type: Code
+      code: C51282
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2023-09-29'
+      decode: Clinic
+      id: Code_39
+    encounterScheduledAtTimingId: null
+    id: Encounter_7
+    label: Encounter_7
+    name: E8
+    nextEncounterId: Encounter_8
+    previousEncounterId: Encounter_6
+    transitionEndRule: null
+    transitionStartRule: null
+    type:
+      _type: Code
+      code: C25716
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2023-09-29'
+      decode: Visit
+      id: Code_38
+- id: 42
+  properties:
+    _type: Encounter
+    description: Day 84
+    encounterContactModes:
+    - _type: Code
+      code: C175574
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2023-09-29'
+      decode: In Person
+      id: Code_44
+    - _type: Code
+      code: C171537
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2023-09-29'
+      decode: Telephone Call
+      id: Code_45
+    encounterEnvironmentalSetting:
+      _type: Code
+      code: C51282
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2023-09-29'
+      decode: Clinic
+      id: Code_43
+    encounterScheduledAtTimingId: null
+    id: Encounter_8
+    label: Encounter_8
+    name: E9
+    nextEncounterId: Encounter_9
+    previousEncounterId: Encounter_7
+    transitionEndRule: null
+    transitionStartRule: null
+    type:
+      _type: Code
+      code: C25716
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2023-09-29'
+      decode: Visit
+      id: Code_42
+- id: 47
+  properties:
+    _type: Encounter
+    description: Day 112
+    encounterContactModes:
+    - _type: Code
+      code: C175574
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2023-09-29'
+      decode: In Person
+      id: Code_48
+    - _type: Code
+      code: C171537
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2023-09-29'
+      decode: Telephone Call
+      id: Code_49
+    encounterEnvironmentalSetting:
+      _type: Code
+      code: C51282
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2023-09-29'
+      decode: Clinic
+      id: Code_47
+    encounterScheduledAtTimingId: null
+    id: Encounter_9
+    label: Encounter_9
+    name: E10
+    nextEncounterId: Encounter_10
+    previousEncounterId: Encounter_8
+    transitionEndRule: null
+    transitionStartRule: null
+    type:
+      _type: Code
+      code: C25716
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2023-09-29'
+      decode: Visit
+      id: Code_46
+- id: 52
+  properties:
+    _type: Encounter
+    description: Day 140
+    encounterContactModes:
+    - _type: Code
+      code: C175574
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2023-09-29'
+      decode: In Person
+      id: Code_52
+    - _type: Code
+      code: C171537
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2023-09-29'
+      decode: Telephone Call
+      id: Code_53
+    encounterEnvironmentalSetting:
+      _type: Code
+      code: C51282
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2023-09-29'
+      decode: Clinic
+      id: Code_51
+    encounterScheduledAtTimingId: null
+    id: Encounter_10
+    label: Encounter_10
+    name: E11
+    nextEncounterId: Encounter_11
+    previousEncounterId: Encounter_9
+    transitionEndRule: null
+    transitionStartRule: null
+    type:
+      _type: Code
+      code: C25716
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2023-09-29'
+      decode: Visit
+      id: Code_50
+- id: 57
+  properties:
+    _type: Encounter
+    description: Day 168
+    encounterContactModes:
+    - _type: Code
+      code: C175574
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2023-09-29'
+      decode: In Person
+      id: Code_56
+    encounterEnvironmentalSetting:
+      _type: Code
+      code: C51282
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2023-09-29'
+      decode: Clinic
+      id: Code_55
+    encounterScheduledAtTimingId: null
+    id: Encounter_11
+    label: Encounter_11
+    name: E12
+    nextEncounterId: Encounter_12
+    previousEncounterId: Encounter_10
+    transitionEndRule: null
+    transitionStartRule: null
+    type:
+      _type: Code
+      code: C25716
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2023-09-29'
+      decode: Visit
+      id: Code_54
+- id: 61
+  properties:
+    _type: Encounter
+    description: Day 182
+    encounterContactModes:
+    - _type: Code
+      code: C175574
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2023-09-29'
+      decode: In Person
+      id: Code_59
+    encounterEnvironmentalSetting:
+      _type: Code
+      code: C51282
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2023-09-29'
+      decode: Clinic
+      id: Code_58
+    encounterScheduledAtTimingId: null
+    id: Encounter_12
+    label: Encounter_12
+    name: E13
+    nextEncounterId: null
+    previousEncounterId: Encounter_11
+    transitionEndRule: {}
+    transitionStartRule: null
+    type:
+      _type: Code
+      code: C25716
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2023-09-29'
+      decode: Visit
+      id: Code_57
+- id: 65
+  properties:
+    _type: Activity
+    activityIsConditional: false
+    activityIsConditionalReason: ''
+    activityTimelineId: ''
+    definedProcedures: []
+    description: ''
+    id: Activity_1
+    label: Activity_1
+    name: Informed consent
+    nextActivityId: Activity_2
+    previousActivityId: null
+- id: 66
+  properties:
+    _type: Activity
+    activityIsConditional: false
+    activityIsConditionalReason: ''
+    activityTimelineId: ''
+    definedProcedures: []
+    description: ''
+    id: Activity_2
+    label: Activity_2
+    name: Inclusion/exclusion criteria
+    nextActivityId: Activity_3
+    previousActivityId: Activity_1
+- id: 67
+  properties:
+    _type: Activity
+    activityIsConditional: false
+    activityIsConditionalReason: ''
+    activityTimelineId: ''
+    definedProcedures: []
+    description: ''
+    id: Activity_3
+    label: Activity_3
+    name: Patient number assigned
+    nextActivityId: Activity_4
+    previousActivityId: Activity_2
+- id: 68
+  properties:
+    _type: Activity
+    activityIsConditional: false
+    activityIsConditionalReason: ''
+    activityTimelineId: ''
+    definedProcedures: []
+    description: ''
+    id: Activity_4
+    label: Activity_4
+    name: Demographics
+    nextActivityId: Activity_5
+    previousActivityId: Activity_3
+- id: 69
+  properties:
+    _type: Activity
+    activityIsConditional: false
+    activityIsConditionalReason: ''
+    activityTimelineId: ''
+    definedProcedures: []
+    description: ''
+    id: Activity_5
+    label: Activity_5
+    name: Hachinski <= 4
+    nextActivityId: Activity_6
+    previousActivityId: Activity_4
+- id: 70
+  properties:
+    _type: Activity
+    activityIsConditional: false
+    activityIsConditionalReason: ''
+    activityTimelineId: ''
+    definedProcedures: []
+    description: ''
+    id: Activity_6
+    label: Activity_6
+    name: MMSE 10-23
+    nextActivityId: Activity_7
+    previousActivityId: Activity_5
+- id: 71
+  properties:
+    _type: Activity
+    activityIsConditional: false
+    activityIsConditionalReason: ''
+    activityTimelineId: ''
+    definedProcedures: []
+    description: ''
+    id: Activity_7
+    label: Activity_7
+    name: Physical examination
+    nextActivityId: Activity_8
+    previousActivityId: Activity_6
+- id: 72
+  properties:
+    _type: Activity
+    activityIsConditional: false
+    activityIsConditionalReason: ''
+    activityTimelineId: ''
+    definedProcedures: []
+    description: ''
+    id: Activity_8
+    label: Activity_8
+    name: Medical history
+    nextActivityId: Activity_9
+    previousActivityId: Activity_7
+- id: 73
+  properties:
+    _type: Activity
+    activityIsConditional: false
+    activityIsConditionalReason: ''
+    activityTimelineId: ''
+    definedProcedures: []
+    description: ''
+    id: Activity_9
+    label: Activity_9
+    name: Habits
+    nextActivityId: Activity_10
+    previousActivityId: Activity_8
+- id: 74
+  properties:
+    _type: Activity
+    activityIsConditional: false
+    activityIsConditionalReason: ''
+    activityTimelineId: ''
+    definedProcedures: []
+    description: ''
+    id: Activity_10
+    label: Activity_10
+    name: Chest X-ray
+    nextActivityId: Activity_11
+    previousActivityId: Activity_9
+- id: 75
+  properties:
+    _type: Activity
+    activityIsConditional: false
+    activityIsConditionalReason: ''
+    activityTimelineId: ''
+    definedProcedures: []
+    description: ''
+    id: Activity_11
+    label: Activity_11
+    name: Apo E genotyping
+    nextActivityId: Activity_12
+    previousActivityId: Activity_10
+- id: 76
+  properties:
+    _type: Activity
+    activityIsConditional: false
+    activityIsConditionalReason: ''
+    activityTimelineId: ''
+    definedProcedures: []
+    description: ''
+    id: Activity_12
+    label: Activity_12
+    name: Patient randomised
+    nextActivityId: Activity_13
+    previousActivityId: Activity_11
+- id: 77
+  properties:
+    _type: Activity
+    activityIsConditional: false
+    activityIsConditionalReason: ''
+    activityTimelineId: ''
+    definedProcedures: []
+    description: ''
+    id: Activity_13
+    label: Activity_13
+    name: Vital signs / Temperature
+    nextActivityId: Activity_14
+    previousActivityId: Activity_12
+- id: 78
+  properties:
+    _type: Activity
+    activityIsConditional: false
+    activityIsConditionalReason: ''
+    activityTimelineId: ''
+    definedProcedures: []
+    description: ''
+    id: Activity_14
+    label: Activity_14
+    name: Ambulatory ECG placed
+    nextActivityId: Activity_15
+    previousActivityId: Activity_13
+- id: 79
+  properties:
+    _type: Activity
+    activityIsConditional: false
+    activityIsConditionalReason: ''
+    activityTimelineId: ''
+    definedProcedures: []
+    description: ''
+    id: Activity_15
+    label: Activity_15
+    name: Ambulatory ECG removed
+    nextActivityId: Activity_16
+    previousActivityId: Activity_14
+- id: 80
+  properties:
+    _type: Activity
+    activityIsConditional: false
+    activityIsConditionalReason: ''
+    activityTimelineId: ''
+    definedProcedures: []
+    description: ''
+    id: Activity_16
+    label: Activity_16
+    name: ECG
+    nextActivityId: Activity_17
+    previousActivityId: Activity_15
+- id: 81
+  properties:
+    _type: Activity
+    activityIsConditional: false
+    activityIsConditionalReason: ''
+    activityTimelineId: ''
+    definedProcedures: []
+    description: ''
+    id: Activity_17
+    label: Activity_17
+    name: Placebo TTS test
+    nextActivityId: Activity_18
+    previousActivityId: Activity_16
+- id: 82
+  properties:
+    _type: Activity
+    activityIsConditional: false
+    activityIsConditionalReason: ''
+    activityTimelineId: ''
+    definedProcedures: []
+    description: ''
+    id: Activity_18
+    label: Activity_18
+    name: CT scan
+    nextActivityId: Activity_19
+    previousActivityId: Activity_17
+- id: 83
+  properties:
+    _type: Activity
+    activityIsConditional: false
+    activityIsConditionalReason: ''
+    activityTimelineId: ''
+    definedProcedures: []
+    description: ''
+    id: Activity_19
+    label: Activity_19
+    name: Concomitant medications
+    nextActivityId: Activity_20
+    previousActivityId: Activity_18
+- id: 84
+  properties:
+    _type: Activity
+    activityIsConditional: false
+    activityIsConditionalReason: ''
+    activityTimelineId: ''
+    definedProcedures: []
+    description: ''
+    id: Activity_20
+    label: Activity_20
+    name: Hematology
+    nextActivityId: Activity_21
+    previousActivityId: Activity_19
+- id: 85
+  properties:
+    _type: Activity
+    activityIsConditional: false
+    activityIsConditionalReason: ''
+    activityTimelineId: ''
+    definedProcedures: []
+    description: ''
+    id: Activity_21
+    label: Activity_21
+    name: Chemistry
+    nextActivityId: Activity_22
+    previousActivityId: Activity_20
+- id: 86
+  properties:
+    _type: Activity
+    activityIsConditional: false
+    activityIsConditionalReason: ''
+    activityTimelineId: ''
+    definedProcedures: []
+    description: ''
+    id: Activity_22
+    label: Activity_22
+    name: Uninalysis
+    nextActivityId: Activity_23
+    previousActivityId: Activity_21
+- id: 87
+  properties:
+    _type: Activity
+    activityIsConditional: false
+    activityIsConditionalReason: ''
+    activityTimelineId: ''
+    definedProcedures: []
+    description: ''
+    id: Activity_23
+    label: Activity_23
+    name: Plasma Specimen (Xanomeline)
+    nextActivityId: Activity_24
+    previousActivityId: Activity_22
+- id: 88
+  properties:
+    _type: Activity
+    activityIsConditional: false
+    activityIsConditionalReason: ''
+    activityTimelineId: ''
+    definedProcedures: []
+    description: ''
+    id: Activity_24
+    label: Activity_24
+    name: Hemoglobin A1C
+    nextActivityId: Activity_25
+    previousActivityId: Activity_23
+- id: 89
+  properties:
+    _type: Activity
+    activityIsConditional: false
+    activityIsConditionalReason: ''
+    activityTimelineId: ''
+    definedProcedures: []
+    description: ''
+    id: Activity_25
+    label: Activity_25
+    name: Study drug
+    nextActivityId: Activity_26
+    previousActivityId: Activity_24
+- id: 90
+  properties:
+    _type: Activity
+    activityIsConditional: false
+    activityIsConditionalReason: ''
+    activityTimelineId: ''
+    definedProcedures: []
+    description: ''
+    id: Activity_26
+    label: Activity_26
+    name: TTS Acceptability Survey
+    nextActivityId: Activity_27
+    previousActivityId: Activity_25
+- id: 91
+  properties:
+    _type: Activity
+    activityIsConditional: false
+    activityIsConditionalReason: ''
+    activityTimelineId: ''
+    definedProcedures: []
+    description: ''
+    id: Activity_27
+    label: Activity_27
+    name: ADAS-Cog
+    nextActivityId: Activity_28
+    previousActivityId: Activity_26
+- id: 92
+  properties:
+    _type: Activity
+    activityIsConditional: false
+    activityIsConditionalReason: ''
+    activityTimelineId: ''
+    definedProcedures: []
+    description: ''
+    id: Activity_28
+    label: Activity_28
+    name: CIBIC+
+    nextActivityId: Activity_29
+    previousActivityId: Activity_27
+- id: 93
+  properties:
+    _type: Activity
+    activityIsConditional: false
+    activityIsConditionalReason: ''
+    activityTimelineId: ''
+    definedProcedures: []
+    description: ''
+    id: Activity_29
+    label: Activity_29
+    name: DAD
+    nextActivityId: Activity_30
+    previousActivityId: Activity_28
+- id: 94
+  properties:
+    _type: Activity
+    activityIsConditional: false
+    activityIsConditionalReason: ''
+    activityTimelineId: ''
+    definedProcedures: []
+    description: ''
+    id: Activity_30
+    label: Activity_30
+    name: NPI-X
+    nextActivityId: Activity_31
+    previousActivityId: Activity_29
+- id: 95
+  properties:
+    _type: Activity
+    activityIsConditional: false
+    activityIsConditionalReason: ''
+    activityTimelineId: ''
+    definedProcedures: []
+    description: ''
+    id: Activity_31
+    label: Activity_31
+    name: Adverse events
+    nextActivityId: null
+    previousActivityId: Activity_30
+- id: 97
   properties:
     _type: ScheduleTimelineExit
     id: ScheduleTimelineExit_1
     label: ScheduleTimelineExit_1
-- id: 13
+- id: 99
   properties:
     _type: Timing
-    description: null
+    description: Screening timing
     id: Timing_1
     label: Timing_1
-    name: TIMING_3
+    name: TIM1
     timingRelativeToFrom:
       _type: Code
-      code: C99900x1
+      code: C201265
       codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
+      codeSystemVersion: '2023-09-29'
       decode: Start to Start
-      id: Code_84
-    timingValue: PT0M
-    timingWindow: null
+      id: Code_72
+    timingValue: P2W
+    timingWindow: ''
     timingWindowLower: null
     timingWindowUpper: null
     type:
       _type: Code
-      code: C99901x2
+      code: C201264
       codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
+      codeSystemVersion: '2023-09-29'
       decode: Before
-      id: Code_82
-- id: 12
+      id: Code_71
+- id: 98
   properties:
     _type: ScheduledActivityInstance
     id: ScheduledActivityInstance_1
@@ -36,32 +859,32 @@
     label: ScheduledActivityInstance_1
     scheduleTimelineExitId: null
     scheduledInstanceTimelineId: null
-- id: 17
+- id: 103
   properties:
     _type: Timing
-    description: 24 Hours
+    description: Pre dose timing
     id: Timing_2
     label: Timing_2
-    name: TIMING_4
+    name: TIM2
     timingRelativeToFrom:
       _type: Code
-      code: C99900x1
+      code: C201265
       codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
+      codeSystemVersion: '2023-09-29'
       decode: Start to Start
-      id: Code_89
-    timingValue: PT24H
-    timingWindow: null
-    timingWindowLower: null
-    timingWindowUpper: null
+      id: Code_74
+    timingValue: P2D
+    timingWindow: -4..0 hours
+    timingWindowLower: PT4H
+    timingWindowUpper: PT0H
     type:
       _type: Code
-      code: C99901x2
+      code: C201264
       codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
+      codeSystemVersion: '2023-09-29'
       decode: Before
-      id: Code_87
-- id: 16
+      id: Code_73
+- id: 102
   properties:
     _type: ScheduledActivityInstance
     id: ScheduledActivityInstance_2
@@ -69,32 +892,32 @@
     label: ScheduledActivityInstance_2
     scheduleTimelineExitId: null
     scheduledInstanceTimelineId: null
-- id: 21
+- id: 107
   properties:
     _type: Timing
-    description: null
+    description: Dosing anchor
     id: Timing_3
     label: Timing_3
-    name: TIMING_5
+    name: TIM3
     timingRelativeToFrom:
       _type: Code
-      code: C99900x1
+      code: C201265
       codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
+      codeSystemVersion: '2023-09-29'
       decode: Start to Start
-      id: Code_94
-    timingValue: PT0M
-    timingWindow: null
+      id: Code_76
+    timingValue: P1D
+    timingWindow: ''
     timingWindowLower: null
     timingWindowUpper: null
     type:
       _type: Code
-      code: C99901x3
+      code: C201264
       codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
+      codeSystemVersion: '2023-09-29'
       decode: Fixed Reference
-      id: Code_90
-- id: 20
+      id: Code_75
+- id: 106
   properties:
     _type: ScheduledActivityInstance
     id: ScheduledActivityInstance_3
@@ -102,32 +925,32 @@
     label: ScheduledActivityInstance_3
     scheduleTimelineExitId: null
     scheduledInstanceTimelineId: null
-- id: 25
+- id: 111
   properties:
     _type: Timing
-    description: +13 Days
+    description: Week 2 timing
     id: Timing_4
     label: Timing_4
-    name: TIMING_6
+    name: TIM4
     timingRelativeToFrom:
       _type: Code
-      code: C99900x1
+      code: C201265
       codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
+      codeSystemVersion: '2023-09-29'
       decode: Start to Start
-      id: Code_99
-    timingValue: P13D
-    timingWindow: null
-    timingWindowLower: null
-    timingWindowUpper: null
+      id: Code_78
+    timingValue: P2W
+    timingWindow: -3..3 days
+    timingWindowLower: P3D
+    timingWindowUpper: P3D
     type:
       _type: Code
-      code: C99901x1
+      code: C201264
       codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
+      codeSystemVersion: '2023-09-29'
       decode: After
-      id: Code_96
-- id: 24
+      id: Code_77
+- id: 110
   properties:
     _type: ScheduledActivityInstance
     id: ScheduledActivityInstance_4
@@ -135,32 +958,32 @@
     label: ScheduledActivityInstance_4
     scheduleTimelineExitId: null
     scheduledInstanceTimelineId: null
-- id: 29
+- id: 115
   properties:
     _type: Timing
-    description: +1 Days
+    description: Week 4 timing
     id: Timing_5
     label: Timing_5
-    name: TIMING_7
+    name: TIM5
     timingRelativeToFrom:
       _type: Code
-      code: C99900x1
+      code: C201265
       codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
+      codeSystemVersion: '2023-09-29'
       decode: Start to Start
-      id: Code_104
-    timingValue: P1D
-    timingWindow: null
-    timingWindowLower: null
-    timingWindowUpper: null
+      id: Code_80
+    timingValue: P4W
+    timingWindow: -3..3 days
+    timingWindowLower: P3D
+    timingWindowUpper: P3D
     type:
       _type: Code
-      code: C99901x1
+      code: C201264
       codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
+      codeSystemVersion: '2023-09-29'
       decode: After
-      id: Code_101
-- id: 28
+      id: Code_79
+- id: 114
   properties:
     _type: ScheduledActivityInstance
     id: ScheduledActivityInstance_5
@@ -168,32 +991,32 @@
     label: ScheduledActivityInstance_5
     scheduleTimelineExitId: null
     scheduledInstanceTimelineId: null
-- id: 33
+- id: 119
   properties:
     _type: Timing
-    description: +14 Days
+    description: Week 6 timing
     id: Timing_6
     label: Timing_6
-    name: TIMING_8
+    name: TIM6
     timingRelativeToFrom:
       _type: Code
-      code: C99900x1
+      code: C201265
       codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
+      codeSystemVersion: '2023-09-29'
       decode: Start to Start
-      id: Code_109
-    timingValue: P14D
-    timingWindow: null
-    timingWindowLower: null
-    timingWindowUpper: null
+      id: Code_82
+    timingValue: P6W
+    timingWindow: -3..3 days
+    timingWindowLower: P3D
+    timingWindowUpper: P3D
     type:
       _type: Code
-      code: C99901x1
+      code: C201264
       codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
+      codeSystemVersion: '2023-09-29'
       decode: After
-      id: Code_106
-- id: 32
+      id: Code_81
+- id: 118
   properties:
     _type: ScheduledActivityInstance
     id: ScheduledActivityInstance_6
@@ -201,32 +1024,32 @@
     label: ScheduledActivityInstance_6
     scheduleTimelineExitId: null
     scheduledInstanceTimelineId: null
-- id: 37
+- id: 123
   properties:
     _type: Timing
-    description: +1 Days
+    description: Week 8 timing
     id: Timing_7
     label: Timing_7
-    name: TIMING_9
+    name: TIM7
     timingRelativeToFrom:
       _type: Code
-      code: C99900x1
+      code: C201265
       codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
+      codeSystemVersion: '2023-09-29'
       decode: Start to Start
-      id: Code_114
-    timingValue: P1D
-    timingWindow: null
-    timingWindowLower: null
-    timingWindowUpper: null
+      id: Code_84
+    timingValue: P8W
+    timingWindow: -3..3 days
+    timingWindowLower: P3D
+    timingWindowUpper: P3D
     type:
       _type: Code
-      code: C99901x1
+      code: C201264
       codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
+      codeSystemVersion: '2023-09-29'
       decode: After
-      id: Code_111
-- id: 36
+      id: Code_83
+- id: 122
   properties:
     _type: ScheduledActivityInstance
     id: ScheduledActivityInstance_7
@@ -234,32 +1057,32 @@
     label: ScheduledActivityInstance_7
     scheduleTimelineExitId: null
     scheduledInstanceTimelineId: null
-- id: 41
+- id: 127
   properties:
     _type: Timing
-    description: +13 Days
+    description: Week 8 at home timing
     id: Timing_8
     label: Timing_8
-    name: TIMING_10
+    name: TIM8
     timingRelativeToFrom:
       _type: Code
-      code: C99900x1
+      code: C201265
       codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
+      codeSystemVersion: '2023-09-29'
       decode: Start to Start
-      id: Code_119
-    timingValue: P13D
-    timingWindow: null
+      id: Code_86
+    timingValue: P2W
+    timingWindow: ''
     timingWindowLower: null
     timingWindowUpper: null
     type:
       _type: Code
-      code: C99901x1
+      code: C201264
       codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
+      codeSystemVersion: '2023-09-29'
       decode: After
-      id: Code_116
-- id: 40
+      id: Code_85
+- id: 126
   properties:
     _type: ScheduledActivityInstance
     id: ScheduledActivityInstance_8
@@ -267,32 +1090,32 @@
     label: ScheduledActivityInstance_8
     scheduleTimelineExitId: null
     scheduledInstanceTimelineId: null
-- id: 45
+- id: 131
   properties:
     _type: Timing
-    description: +14 Days
+    description: Week 12 timing
     id: Timing_9
     label: Timing_9
-    name: TIMING_11
+    name: TIM9
     timingRelativeToFrom:
       _type: Code
-      code: C99900x1
+      code: C201265
       codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
+      codeSystemVersion: '2023-09-29'
       decode: Start to Start
-      id: Code_124
-    timingValue: P14D
-    timingWindow: null
-    timingWindowLower: null
-    timingWindowUpper: null
+      id: Code_88
+    timingValue: P12W
+    timingWindow: -4..4 days
+    timingWindowLower: P4D
+    timingWindowUpper: P4D
     type:
       _type: Code
-      code: C99901x1
+      code: C201264
       codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
+      codeSystemVersion: '2023-09-29'
       decode: After
-      id: Code_121
-- id: 44
+      id: Code_87
+- id: 130
   properties:
     _type: ScheduledActivityInstance
     id: ScheduledActivityInstance_9
@@ -300,32 +1123,32 @@
     label: ScheduledActivityInstance_9
     scheduleTimelineExitId: null
     scheduledInstanceTimelineId: null
-- id: 49
+- id: 135
   properties:
     _type: Timing
-    description: +1 Days
+    description: Week 12 at home timing
     id: Timing_10
     label: Timing_10
-    name: TIMING_12
+    name: TIM10
     timingRelativeToFrom:
       _type: Code
-      code: C99900x1
+      code: C201265
       codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
+      codeSystemVersion: '2023-09-29'
       decode: Start to Start
-      id: Code_129
-    timingValue: P1D
-    timingWindow: null
+      id: Code_90
+    timingValue: P2W
+    timingWindow: ''
     timingWindowLower: null
     timingWindowUpper: null
     type:
       _type: Code
-      code: C99901x1
+      code: C201264
       codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
+      codeSystemVersion: '2023-09-29'
       decode: After
-      id: Code_126
-- id: 48
+      id: Code_89
+- id: 134
   properties:
     _type: ScheduledActivityInstance
     id: ScheduledActivityInstance_10
@@ -333,32 +1156,32 @@
     label: ScheduledActivityInstance_10
     scheduleTimelineExitId: null
     scheduledInstanceTimelineId: null
-- id: 53
+- id: 139
   properties:
     _type: Timing
-    description: +27 Days
+    description: Week 16 timing
     id: Timing_11
     label: Timing_11
-    name: TIMING_13
+    name: TIM11
     timingRelativeToFrom:
       _type: Code
-      code: C99900x1
+      code: C201265
       codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
+      codeSystemVersion: '2023-09-29'
       decode: Start to Start
-      id: Code_134
-    timingValue: P27D
-    timingWindow: null
-    timingWindowLower: null
-    timingWindowUpper: null
+      id: Code_92
+    timingValue: P16W
+    timingWindow: -4..4 days
+    timingWindowLower: P4D
+    timingWindowUpper: P4D
     type:
       _type: Code
-      code: C99901x1
+      code: C201264
       codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
+      codeSystemVersion: '2023-09-29'
       decode: After
-      id: Code_131
-- id: 52
+      id: Code_91
+- id: 138
   properties:
     _type: ScheduledActivityInstance
     id: ScheduledActivityInstance_11
@@ -366,32 +1189,32 @@
     label: ScheduledActivityInstance_11
     scheduleTimelineExitId: null
     scheduledInstanceTimelineId: null
-- id: 57
+- id: 143
   properties:
     _type: Timing
-    description: +1 Days
+    description: Week 16 at home timing
     id: Timing_12
     label: Timing_12
-    name: TIMING_14
+    name: TIM12
     timingRelativeToFrom:
       _type: Code
-      code: C99900x1
+      code: C201265
       codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
+      codeSystemVersion: '2023-09-29'
       decode: Start to Start
-      id: Code_139
-    timingValue: P1D
-    timingWindow: null
+      id: Code_94
+    timingValue: P2W
+    timingWindow: ''
     timingWindowLower: null
     timingWindowUpper: null
     type:
       _type: Code
-      code: C99901x1
+      code: C201264
       codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
+      codeSystemVersion: '2023-09-29'
       decode: After
-      id: Code_136
-- id: 56
+      id: Code_93
+- id: 142
   properties:
     _type: ScheduledActivityInstance
     id: ScheduledActivityInstance_12
@@ -399,32 +1222,32 @@
     label: ScheduledActivityInstance_12
     scheduleTimelineExitId: null
     scheduledInstanceTimelineId: null
-- id: 61
+- id: 147
   properties:
     _type: Timing
-    description: +27 Days
+    description: Week 20 timing
     id: Timing_13
     label: Timing_13
-    name: TIMING_15
+    name: TIM13
     timingRelativeToFrom:
       _type: Code
-      code: C99900x1
+      code: C201265
       codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
+      codeSystemVersion: '2023-09-29'
       decode: Start to Start
-      id: Code_144
-    timingValue: P27D
-    timingWindow: null
-    timingWindowLower: null
-    timingWindowUpper: null
+      id: Code_96
+    timingValue: P20W
+    timingWindow: -4..4 days
+    timingWindowLower: P4D
+    timingWindowUpper: P4D
     type:
       _type: Code
-      code: C99901x1
+      code: C201264
       codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
+      codeSystemVersion: '2023-09-29'
       decode: After
-      id: Code_141
-- id: 60
+      id: Code_95
+- id: 146
   properties:
     _type: ScheduledActivityInstance
     id: ScheduledActivityInstance_13
@@ -432,32 +1255,32 @@
     label: ScheduledActivityInstance_13
     scheduleTimelineExitId: null
     scheduledInstanceTimelineId: null
-- id: 65
+- id: 151
   properties:
     _type: Timing
-    description: +1 Days
+    description: Week 20 at home timing
     id: Timing_14
     label: Timing_14
-    name: TIMING_16
+    name: TIM14
     timingRelativeToFrom:
       _type: Code
-      code: C99900x1
+      code: C201265
       codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
+      codeSystemVersion: '2023-09-29'
       decode: Start to Start
-      id: Code_149
-    timingValue: P1D
-    timingWindow: null
+      id: Code_98
+    timingValue: P2W
+    timingWindow: ''
     timingWindowLower: null
     timingWindowUpper: null
     type:
       _type: Code
-      code: C99901x1
+      code: C201264
       codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
+      codeSystemVersion: '2023-09-29'
       decode: After
-      id: Code_146
-- id: 64
+      id: Code_97
+- id: 150
   properties:
     _type: ScheduledActivityInstance
     id: ScheduledActivityInstance_14
@@ -465,32 +1288,32 @@
     label: ScheduledActivityInstance_14
     scheduleTimelineExitId: null
     scheduledInstanceTimelineId: null
-- id: 69
+- id: 155
   properties:
     _type: Timing
-    description: +27 Days
+    description: Week 24 timing
     id: Timing_15
     label: Timing_15
-    name: TIMING_17
+    name: TIM15
     timingRelativeToFrom:
       _type: Code
-      code: C99900x1
+      code: C201265
       codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
+      codeSystemVersion: '2023-09-29'
       decode: Start to Start
-      id: Code_154
-    timingValue: P27D
-    timingWindow: null
-    timingWindowLower: null
-    timingWindowUpper: null
+      id: Code_100
+    timingValue: P24W
+    timingWindow: -4..4 days
+    timingWindowLower: P4D
+    timingWindowUpper: P4D
     type:
       _type: Code
-      code: C99901x1
+      code: C201264
       codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
+      codeSystemVersion: '2023-09-29'
       decode: After
-      id: Code_151
-- id: 68
+      id: Code_99
+- id: 154
   properties:
     _type: ScheduledActivityInstance
     id: ScheduledActivityInstance_15
@@ -498,106 +1321,40 @@
     label: ScheduledActivityInstance_15
     scheduleTimelineExitId: null
     scheduledInstanceTimelineId: null
-- id: 73
+- id: 159
   properties:
     _type: Timing
-    description: +1 Days
+    description: Week 26 timing
     id: Timing_16
     label: Timing_16
-    name: TIMING_18
+    name: TIM16
     timingRelativeToFrom:
       _type: Code
-      code: C99900x1
+      code: C201265
       codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
+      codeSystemVersion: '2023-09-29'
       decode: Start to Start
-      id: Code_159
-    timingValue: P1D
-    timingWindow: null
-    timingWindowLower: null
-    timingWindowUpper: null
+      id: Code_102
+    timingValue: P26W
+    timingWindow: -3..3 days
+    timingWindowLower: P3D
+    timingWindowUpper: P3D
     type:
       _type: Code
-      code: C99901x1
+      code: C201264
       codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
+      codeSystemVersion: '2023-09-29'
       decode: After
-      id: Code_156
-- id: 72
+      id: Code_101
+- id: 158
   properties:
     _type: ScheduledActivityInstance
     id: ScheduledActivityInstance_16
     instanceType: ACTIVITY
     label: ScheduledActivityInstance_16
-    scheduleTimelineExitId: null
+    scheduleTimelineExitId: ScheduleTimelineExit_1
     scheduledInstanceTimelineId: null
-- id: 77
-  properties:
-    _type: Timing
-    description: +27 Days
-    id: Timing_17
-    label: Timing_17
-    name: TIMING_19
-    timingRelativeToFrom:
-      _type: Code
-      code: C99900x1
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Start to Start
-      id: Code_164
-    timingValue: P27D
-    timingWindow: null
-    timingWindowLower: null
-    timingWindowUpper: null
-    type:
-      _type: Code
-      code: C99901x1
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: After
-      id: Code_161
-- id: 76
-  properties:
-    _type: ScheduledActivityInstance
-    id: ScheduledActivityInstance_17
-    instanceType: ACTIVITY
-    label: ScheduledActivityInstance_17
-    scheduleTimelineExitId: null
-    scheduledInstanceTimelineId: null
-- id: 81
-  properties:
-    _type: Timing
-    description: +14 Days
-    id: Timing_18
-    label: Timing_18
-    name: TIMING_20
-    timingRelativeToFrom:
-      _type: Code
-      code: C99900x1
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Start to Start
-      id: Code_169
-    timingValue: P14D
-    timingWindow: null
-    timingWindowLower: null
-    timingWindowUpper: null
-    type:
-      _type: Code
-      code: C99901x1
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: After
-      id: Code_166
-- id: 80
-  properties:
-    _type: ScheduledActivityInstance
-    id: ScheduledActivityInstance_18
-    instanceType: ACTIVITY
-    label: ScheduledActivityInstance_18
-    scheduleTimelineExitId: null
-    scheduledInstanceTimelineId: null
-- id: 10
+- id: 96
   properties:
     _type: ScheduleTimeline
     description: This is the main timeline for the study design.
@@ -607,2602 +1364,22 @@
     mainTimeline: true
     name: Main Timeline
     scheduleTimelineEntryId: ScheduledActivityInstance_1
-- id: 86
-  properties:
-    _type: Encounter
-    description: Screening encounter
-    encounterContactModes:
-    - _type: Code
-      code: C175574
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: In Person
-      id: Code_9
-    encounterEnvironmentalSetting:
-      _type: Code
-      code: C51282
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Clinic
-      id: Code_8
-    encounterScheduledAtTimingId: null
-    id: Encounter_1
-    label: Encounter_1
-    name: Screening 1
-    nextEncounterId: Encounter_2
-    previousEncounterId: null
-    transitionEndRule: {}
-    transitionStartRule: {}
-    type:
-      _type: Code
-      code: C25716
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Visit
-      id: Code_7
-- id: 90
-  properties:
-    _type: Encounter
-    description: Screening encounter - Ambulatory ECG Placement
-    encounterContactModes:
-    - _type: Code
-      code: C175574
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: In Person
-      id: Code_12
-    encounterEnvironmentalSetting:
-      _type: Code
-      code: C51282
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Clinic
-      id: Code_11
-    encounterScheduledAtTimingId: null
-    id: Encounter_2
-    label: Encounter_2
-    name: Screening 2
-    nextEncounterId: Encounter_3
-    previousEncounterId: Encounter_1
-    transitionEndRule: {}
-    transitionStartRule: null
-    type:
-      _type: Code
-      code: C25716
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Visit
-      id: Code_10
-- id: 94
-  properties:
-    _type: Encounter
-    description: Baseline encounter - Ambulatory ECG Removal
-    encounterContactModes:
-    - _type: Code
-      code: C175574
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: In Person
-      id: Code_15
-    encounterEnvironmentalSetting:
-      _type: Code
-      code: C51282
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Clinic
-      id: Code_14
-    encounterScheduledAtTimingId: null
-    id: Encounter_3
-    label: Encounter_3
-    name: Baseline
-    nextEncounterId: Encounter_4
-    previousEncounterId: Encounter_2
-    transitionEndRule: {}
-    transitionStartRule: {}
-    type:
-      _type: Code
-      code: C25716
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Visit
-      id: Code_13
-- id: 98
-  properties:
-    _type: Encounter
-    description: Day 13 - Ambulatory ECG Placement
-    encounterContactModes:
-    - _type: Code
-      code: C175574
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: In Person
-      id: Code_18
-    encounterEnvironmentalSetting:
-      _type: Code
-      code: C51282
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Clinic
-      id: Code_17
-    encounterScheduledAtTimingId: null
-    id: Encounter_4
-    label: Encounter_4
-    name: Week 1
-    nextEncounterId: Encounter_5
-    previousEncounterId: Encounter_3
-    transitionEndRule: null
-    transitionStartRule: null
-    type:
-      _type: Code
-      code: C25716
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Visit
-      id: Code_16
-- id: 102
-  properties:
-    _type: Encounter
-    description: Day 14
-    encounterContactModes:
-    - _type: Code
-      code: C175574
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: In Person
-      id: Code_21
-    encounterEnvironmentalSetting:
-      _type: Code
-      code: C51282
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Clinic
-      id: Code_20
-    encounterScheduledAtTimingId: null
-    id: Encounter_5
-    label: Encounter_5
-    name: Week 2
-    nextEncounterId: Encounter_6
-    previousEncounterId: Encounter_4
-    transitionEndRule: null
-    transitionStartRule: null
-    type:
-      _type: Code
-      code: C25716
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Visit
-      id: Code_19
-- id: 106
-  properties:
-    _type: Encounter
-    description: Day 28
-    encounterContactModes:
-    - _type: Code
-      code: C175574
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: In Person
-      id: Code_24
-    encounterEnvironmentalSetting:
-      _type: Code
-      code: C51282
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Clinic
-      id: Code_23
-    encounterScheduledAtTimingId: null
-    id: Encounter_6
-    label: Encounter_6
-    name: Week 4
-    nextEncounterId: Encounter_7
-    previousEncounterId: Encounter_5
-    transitionEndRule: null
-    transitionStartRule: null
-    type:
-      _type: Code
-      code: C25716
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Visit
-      id: Code_22
-- id: 110
-  properties:
-    _type: Encounter
-    description: "Day 30 - Ambulatory ECG \_Removal"
-    encounterContactModes:
-    - _type: Code
-      code: C175574
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: In Person
-      id: Code_27
-    encounterEnvironmentalSetting:
-      _type: Code
-      code: C51282
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Clinic
-      id: Code_26
-    encounterScheduledAtTimingId: null
-    id: Encounter_7
-    label: Encounter_7
-    name: Week 5
-    nextEncounterId: Encounter_8
-    previousEncounterId: Encounter_6
-    transitionEndRule: null
-    transitionStartRule: null
-    type:
-      _type: Code
-      code: C25716
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Visit
-      id: Code_25
-- id: 114
-  properties:
-    _type: Encounter
-    description: Day 42
-    encounterContactModes:
-    - _type: Code
-      code: C175574
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: In Person
-      id: Code_30
-    encounterEnvironmentalSetting:
-      _type: Code
-      code: C51282
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Clinic
-      id: Code_29
-    encounterScheduledAtTimingId: null
-    id: Encounter_8
-    label: Encounter_8
-    name: Week 6
-    nextEncounterId: Encounter_9
-    previousEncounterId: Encounter_7
-    transitionEndRule: null
-    transitionStartRule: null
-    type:
-      _type: Code
-      code: C25716
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Visit
-      id: Code_28
-- id: 118
-  properties:
-    _type: Encounter
-    description: Day 56
-    encounterContactModes:
-    - _type: Code
-      code: C175574
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: In Person
-      id: Code_33
-    encounterEnvironmentalSetting:
-      _type: Code
-      code: C51282
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Clinic
-      id: Code_32
-    encounterScheduledAtTimingId: null
-    id: Encounter_9
-    label: Encounter_9
-    name: Week 8
-    nextEncounterId: Encounter_10
-    previousEncounterId: Encounter_8
-    transitionEndRule: null
-    transitionStartRule: null
-    type:
-      _type: Code
-      code: C25716
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Visit
-      id: Code_31
-- id: 122
-  properties:
-    _type: Encounter
-    description: Day 70
-    encounterContactModes:
-    - _type: Code
-      code: C171537
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Telephone Call
-      id: Code_36
-    encounterEnvironmentalSetting:
-      _type: Code
-      code: C18002
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Home
-      id: Code_35
-    encounterScheduledAtTimingId: null
-    id: Encounter_10
-    label: Encounter_10
-    name: "Week\_10\_(T)"
-    nextEncounterId: Encounter_11
-    previousEncounterId: Encounter_9
-    transitionEndRule: null
-    transitionStartRule: null
-    type:
-      _type: Code
-      code: C25716
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Visit
-      id: Code_34
-- id: 126
-  properties:
-    _type: Encounter
-    description: Day 84
-    encounterContactModes:
-    - _type: Code
-      code: C175574
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: In Person
-      id: Code_39
-    encounterEnvironmentalSetting:
-      _type: Code
-      code: C51282
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Clinic
-      id: Code_38
-    encounterScheduledAtTimingId: null
-    id: Encounter_11
-    label: Encounter_11
-    name: Week 12
-    nextEncounterId: Encounter_12
-    previousEncounterId: Encounter_10
-    transitionEndRule: null
-    transitionStartRule: null
-    type:
-      _type: Code
-      code: C25716
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Visit
-      id: Code_37
-- id: 130
-  properties:
-    _type: Encounter
-    description: Day 98
-    encounterContactModes:
-    - _type: Code
-      code: C171537
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Telephone Call
-      id: Code_42
-    encounterEnvironmentalSetting:
-      _type: Code
-      code: C18002
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Home
-      id: Code_41
-    encounterScheduledAtTimingId: null
-    id: Encounter_12
-    label: Encounter_12
-    name: Week 14 (T)
-    nextEncounterId: Encounter_13
-    previousEncounterId: Encounter_11
-    transitionEndRule: null
-    transitionStartRule: null
-    type:
-      _type: Code
-      code: C25716
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Visit
-      id: Code_40
-- id: 134
-  properties:
-    _type: Encounter
-    description: Day 112
-    encounterContactModes:
-    - _type: Code
-      code: C175574
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: In Person
-      id: Code_45
-    encounterEnvironmentalSetting:
-      _type: Code
-      code: C51282
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Clinic
-      id: Code_44
-    encounterScheduledAtTimingId: null
-    id: Encounter_13
-    label: Encounter_13
-    name: Week 16
-    nextEncounterId: Encounter_14
-    previousEncounterId: Encounter_12
-    transitionEndRule: null
-    transitionStartRule: null
-    type:
-      _type: Code
-      code: C25716
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Visit
-      id: Code_43
-- id: 138
-  properties:
-    _type: Encounter
-    description: Day 126
-    encounterContactModes:
-    - _type: Code
-      code: C171537
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Telephone Call
-      id: Code_48
-    encounterEnvironmentalSetting:
-      _type: Code
-      code: C18002
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Home
-      id: Code_47
-    encounterScheduledAtTimingId: null
-    id: Encounter_14
-    label: Encounter_14
-    name: Week 18 (T)
-    nextEncounterId: Encounter_15
-    previousEncounterId: Encounter_13
-    transitionEndRule: null
-    transitionStartRule: null
-    type:
-      _type: Code
-      code: C25716
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Visit
-      id: Code_46
-- id: 142
-  properties:
-    _type: Encounter
-    description: Day 140
-    encounterContactModes:
-    - _type: Code
-      code: C175574
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: In Person
-      id: Code_51
-    encounterEnvironmentalSetting:
-      _type: Code
-      code: C51282
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Clinic
-      id: Code_50
-    encounterScheduledAtTimingId: null
-    id: Encounter_15
-    label: Encounter_15
-    name: Week 20
-    nextEncounterId: Encounter_16
-    previousEncounterId: Encounter_14
-    transitionEndRule: null
-    transitionStartRule: null
-    type:
-      _type: Code
-      code: C25716
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Visit
-      id: Code_49
-- id: 146
-  properties:
-    _type: Encounter
-    description: Day 154
-    encounterContactModes:
-    - _type: Code
-      code: C171537
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Telephone Call
-      id: Code_54
-    encounterEnvironmentalSetting:
-      _type: Code
-      code: C18002
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Home
-      id: Code_53
-    encounterScheduledAtTimingId: null
-    id: Encounter_16
-    label: Encounter_16
-    name: Week 22 (T)
-    nextEncounterId: Encounter_17
-    previousEncounterId: Encounter_15
-    transitionEndRule: null
-    transitionStartRule: null
-    type:
-      _type: Code
-      code: C25716
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Visit
-      id: Code_52
-- id: 150
-  properties:
-    _type: Encounter
-    description: Day 168
-    encounterContactModes:
-    - _type: Code
-      code: C175574
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: In Person
-      id: Code_57
-    encounterEnvironmentalSetting:
-      _type: Code
-      code: C51282
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Clinic
-      id: Code_56
-    encounterScheduledAtTimingId: null
-    id: Encounter_17
-    label: Encounter_17
-    name: Week 24
-    nextEncounterId: Encounter_18
-    previousEncounterId: Encounter_16
-    transitionEndRule: null
-    transitionStartRule: null
-    type:
-      _type: Code
-      code: C25716
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Visit
-      id: Code_55
-- id: 154
-  properties:
-    _type: Encounter
-    description: Day 182
-    encounterContactModes:
-    - _type: Code
-      code: C175574
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: In Person
-      id: Code_60
-    encounterEnvironmentalSetting:
-      _type: Code
-      code: C51282
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Clinic
-      id: Code_59
-    encounterScheduledAtTimingId: null
-    id: Encounter_18
-    label: Encounter_18
-    name: Week 26
-    nextEncounterId: null
-    previousEncounterId: Encounter_17
-    transitionEndRule: {}
-    transitionStartRule: null
-    type:
-      _type: Code
-      code: C25716
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
-      decode: Visit
-      id: Code_58
-- id: 158
-  properties:
-    _type: Activity
-    activityIsConditional: false
-    activityIsConditionalReason: ''
-    activityTimelineId: ''
-    definedProcedures: []
-    description: Informed consent
-    id: Activity_1
-    label: Activity_1
-    name: Informed consent
-    nextActivityId: Activity_2
-    previousActivityId: null
-- id: 159
-  properties:
-    _type: Activity
-    activityIsConditional: false
-    activityIsConditionalReason: ''
-    activityTimelineId: ''
-    definedProcedures: []
-    description: Inclusion/exclusion criteria
-    id: Activity_2
-    label: Activity_2
-    name: Inclusion/exclusion criteria
-    nextActivityId: Activity_3
-    previousActivityId: Activity_1
-- id: 160
-  properties:
-    _type: Activity
-    activityIsConditional: false
-    activityIsConditionalReason: ''
-    activityTimelineId: ''
-    definedProcedures: []
-    description: Patient number assigned
-    id: Activity_3
-    label: Activity_3
-    name: Patient number assigned
-    nextActivityId: Activity_4
-    previousActivityId: Activity_2
-- id: 161
-  properties:
-    _type: Activity
-    activityIsConditional: false
-    activityIsConditionalReason: ''
-    activityTimelineId: ''
-    definedProcedures: []
-    description: Demographics
-    id: Activity_4
-    label: Activity_4
-    name: Demographics
-    nextActivityId: Activity_5
-    previousActivityId: Activity_3
-- id: 162
-  properties:
-    _type: Activity
-    activityIsConditional: false
-    activityIsConditionalReason: ''
-    activityTimelineId: ''
-    definedProcedures: []
-    description: Hachinski <= 4
-    id: Activity_5
-    label: Activity_5
-    name: Hachinski <= 4
-    nextActivityId: Activity_6
-    previousActivityId: Activity_4
-- id: 163
-  properties:
-    _type: Activity
-    activityIsConditional: false
-    activityIsConditionalReason: ''
-    activityTimelineId: ''
-    definedProcedures: []
-    description: MMSE 10-23
-    id: Activity_6
-    label: Activity_6
-    name: MMSE 10-23
-    nextActivityId: Activity_7
-    previousActivityId: Activity_5
-- id: 164
-  properties:
-    _type: Activity
-    activityIsConditional: false
-    activityIsConditionalReason: ''
-    activityTimelineId: ''
-    definedProcedures: []
-    description: Physical examination
-    id: Activity_7
-    label: Activity_7
-    name: Physical examination
-    nextActivityId: Activity_8
-    previousActivityId: Activity_6
-- id: 165
-  properties:
-    _type: Activity
-    activityIsConditional: false
-    activityIsConditionalReason: ''
-    activityTimelineId: ''
-    definedProcedures: []
-    description: Medical history
-    id: Activity_8
-    label: Activity_8
-    name: Medical history
-    nextActivityId: Activity_9
-    previousActivityId: Activity_7
-- id: 166
-  properties:
-    _type: Activity
-    activityIsConditional: false
-    activityIsConditionalReason: ''
-    activityTimelineId: ''
-    definedProcedures: []
-    description: Habits
-    id: Activity_9
-    label: Activity_9
-    name: Habits
-    nextActivityId: Activity_10
-    previousActivityId: Activity_8
-- id: 167
-  properties:
-    _type: Activity
-    activityIsConditional: false
-    activityIsConditionalReason: ''
-    activityTimelineId: ''
-    definedProcedures: []
-    description: Chest X-ray
-    id: Activity_10
-    label: Activity_10
-    name: Chest X-ray
-    nextActivityId: Activity_11
-    previousActivityId: Activity_9
-- id: 168
-  properties:
-    _type: Activity
-    activityIsConditional: false
-    activityIsConditionalReason: ''
-    activityTimelineId: ''
-    definedProcedures: []
-    description: Apo E genotyping
-    id: Activity_11
-    label: Activity_11
-    name: Apo E genotyping
-    nextActivityId: Activity_12
-    previousActivityId: Activity_10
-- id: 169
-  properties:
-    _type: Activity
-    activityIsConditional: false
-    activityIsConditionalReason: ''
-    activityTimelineId: ''
-    definedProcedures: []
-    description: Patient randomised
-    id: Activity_12
-    label: Activity_12
-    name: Patient randomised
-    nextActivityId: Activity_13
-    previousActivityId: Activity_11
-- id: 170
-  properties:
-    _type: Activity
-    activityIsConditional: false
-    activityIsConditionalReason: ''
-    activityTimelineId: ''
-    definedProcedures: []
-    description: Vital signs /Temperature
-    id: Activity_13
-    label: Activity_13
-    name: Vital signs /Temperature
-    nextActivityId: Activity_14
-    previousActivityId: Activity_12
-- id: 171
-  properties:
-    _type: Activity
-    activityIsConditional: false
-    activityIsConditionalReason: ''
-    activityTimelineId: ''
-    definedProcedures: []
-    description: Ambulatory ECG placed
-    id: Activity_14
-    label: Activity_14
-    name: Ambulatory ECG placed
-    nextActivityId: Activity_15
-    previousActivityId: Activity_13
-- id: 172
-  properties:
-    _type: Activity
-    activityIsConditional: false
-    activityIsConditionalReason: ''
-    activityTimelineId: ''
-    definedProcedures: []
-    description: Ambulatory ECG removed
-    id: Activity_15
-    label: Activity_15
-    name: Ambulatory ECG removed
-    nextActivityId: Activity_16
-    previousActivityId: Activity_14
-- id: 173
-  properties:
-    _type: Activity
-    activityIsConditional: false
-    activityIsConditionalReason: ''
-    activityTimelineId: ''
-    definedProcedures: []
-    description: ECG
-    id: Activity_16
-    label: Activity_16
-    name: ECG
-    nextActivityId: Activity_17
-    previousActivityId: Activity_15
-- id: 174
-  properties:
-    _type: Activity
-    activityIsConditional: false
-    activityIsConditionalReason: ''
-    activityTimelineId: ''
-    definedProcedures: []
-    description: Placebo TTS test
-    id: Activity_17
-    label: Activity_17
-    name: Placebo TTS test
-    nextActivityId: Activity_18
-    previousActivityId: Activity_16
-- id: 175
-  properties:
-    _type: Activity
-    activityIsConditional: false
-    activityIsConditionalReason: ''
-    activityTimelineId: ''
-    definedProcedures: []
-    description: CT scan
-    id: Activity_18
-    label: Activity_18
-    name: CT scan
-    nextActivityId: Activity_19
-    previousActivityId: Activity_17
-- id: 176
-  properties:
-    _type: Activity
-    activityIsConditional: false
-    activityIsConditionalReason: ''
-    activityTimelineId: ''
-    definedProcedures: []
-    description: Concomitant medications
-    id: Activity_19
-    label: Activity_19
-    name: Concomitant medications
-    nextActivityId: Activity_20
-    previousActivityId: Activity_18
-- id: 177
-  properties:
-    _type: Activity
-    activityIsConditional: false
-    activityIsConditionalReason: ''
-    activityTimelineId: ''
-    definedProcedures: []
-    description: Hematology
-    id: Activity_20
-    label: Activity_20
-    name: Hematology
-    nextActivityId: Activity_21
-    previousActivityId: Activity_19
-- id: 178
-  properties:
-    _type: Activity
-    activityIsConditional: false
-    activityIsConditionalReason: ''
-    activityTimelineId: ''
-    definedProcedures: []
-    description: Chemistry
-    id: Activity_21
-    label: Activity_21
-    name: Chemistry
-    nextActivityId: Activity_22
-    previousActivityId: Activity_20
-- id: 179
-  properties:
-    _type: Activity
-    activityIsConditional: false
-    activityIsConditionalReason: ''
-    activityTimelineId: ''
-    definedProcedures: []
-    description: Uninalysis
-    id: Activity_22
-    label: Activity_22
-    name: Uninalysis
-    nextActivityId: Activity_23
-    previousActivityId: Activity_21
-- id: 180
-  properties:
-    _type: Activity
-    activityIsConditional: false
-    activityIsConditionalReason: ''
-    activityTimelineId: ''
-    definedProcedures: []
-    description: 'Plasma Specimen
-
-      (Xanomeline)'
-    id: Activity_23
-    label: Activity_23
-    name: 'Plasma Specimen
-
-      (Xanomeline)'
-    nextActivityId: Activity_24
-    previousActivityId: Activity_22
-- id: 181
-  properties:
-    _type: Activity
-    activityIsConditional: false
-    activityIsConditionalReason: ''
-    activityTimelineId: ''
-    definedProcedures: []
-    description: Hemoglobin A1C
-    id: Activity_24
-    label: Activity_24
-    name: Hemoglobin A1C
-    nextActivityId: Activity_25
-    previousActivityId: Activity_23
-- id: 182
-  properties:
-    _type: Activity
-    activityIsConditional: false
-    activityIsConditionalReason: ''
-    activityTimelineId: ''
-    definedProcedures: []
-    description: 'Study drug record
-
-      Medications dispensed
-
-      Medications returned'
-    id: Activity_25
-    label: Activity_25
-    name: 'Study drug record
-
-      Medications dispensed
-
-      Medications returned'
-    nextActivityId: Activity_26
-    previousActivityId: Activity_24
-- id: 183
-  properties:
-    _type: Activity
-    activityIsConditional: false
-    activityIsConditionalReason: ''
-    activityTimelineId: ''
-    definedProcedures: []
-    description: TTS Acceptability Survey
-    id: Activity_26
-    label: Activity_26
-    name: TTS Acceptability Survey
-    nextActivityId: Activity_27
-    previousActivityId: Activity_25
-- id: 184
-  properties:
-    _type: Activity
-    activityIsConditional: false
-    activityIsConditionalReason: ''
-    activityTimelineId: ''
-    definedProcedures: []
-    description: ADAS-Cog
-    id: Activity_27
-    label: Activity_27
-    name: ADAS-Cog
-    nextActivityId: Activity_28
-    previousActivityId: Activity_26
-- id: 185
-  properties:
-    _type: Activity
-    activityIsConditional: false
-    activityIsConditionalReason: ''
-    activityTimelineId: ''
-    definedProcedures: []
-    description: CIBIC+
-    id: Activity_28
-    label: Activity_28
-    name: CIBIC+
-    nextActivityId: Activity_29
-    previousActivityId: Activity_27
-- id: 186
-  properties:
-    _type: Activity
-    activityIsConditional: false
-    activityIsConditionalReason: ''
-    activityTimelineId: ''
-    definedProcedures: []
-    description: DAD
-    id: Activity_29
-    label: Activity_29
-    name: DAD
-    nextActivityId: Activity_30
-    previousActivityId: Activity_28
-- id: 187
-  properties:
-    _type: Activity
-    activityIsConditional: false
-    activityIsConditionalReason: ''
-    activityTimelineId: ''
-    definedProcedures: []
-    description: NPI-X
-    id: Activity_30
-    label: Activity_30
-    name: NPI-X
-    nextActivityId: Activity_31
-    previousActivityId: Activity_29
-- id: 188
-  properties:
-    _type: Activity
-    activityIsConditional: false
-    activityIsConditionalReason: ''
-    activityTimelineId: ''
-    definedProcedures: []
-    description: Adverse events
-    id: Activity_31
-    label: Activity_31
-    name: Adverse events
-    nextActivityId: null
-    previousActivityId: Activity_30
-- id: 189
-  properties:
-    _type: Content
-    contentChildIds:
-    - Content_2
-    - Content_3
-    - Content_7
-    - Content_10
-    - Content_12
-    - Content_21
-    - Content_32
-    - Content_52
-    - Content_60
-    - Content_94
-    - Content_109
-    - Content_115
-    - Content_119
-    - Content_124
-    - Content_132
-    - Content_133
-    id: Content_1
-    label: Content_1
-    name: ROOT
-    sectionNumber: '0'
-    sectionTitle: Root
-    text: ''
-- id: 190
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_2
-    label: Content_2
-    name: SECTION 0
-    sectionNumber: '0'
-    sectionTitle: TITLE PAGE
-    text: "<table>\n  <tr>\n    <th style=\"vertical-align: top; text-align: left\"\
-      ><p>Protocol Full Title:</p></th>\n    <td style=\"vertical-align: top; text-align:\
-      \ left\"><p><usdm:ref klass=\"StudyProtocolVersion\" id=\"StudyProtocolVersion_1\"\
-      \ attribute=\"officialTitle\"/></p></td>\n  </tr>\n  <tr>\n    <th style=\"\
-      vertical-align: top; text-align: left\"><p>Protocol Number:</p></th>\n    <td\
-      \ style=\"vertical-align: top; text-align: left\"><p><usdm:ref klass=\"StudyIdentifier\"\
-      \ id=\"StudyIdentifier_1\" attribute=\"studyIdentifier\"/></p></td>\n  </tr>\n\
-      \  <tr>\n    <th style=\"vertical-align: top; text-align: left\"><p>Version:</p></th>\n\
-      \    <td style=\"vertical-align: top; text-align: left\"><p><usdm:ref klass=\"\
-      \" namexref=\"\" attribute=\"\"/></p></td>\n  </tr>\n  <tr>\n    <th style=\"\
-      vertical-align: top; text-align: left\"><p>Amendment Number:</p></th>\n    <td\
-      \ style=\"vertical-align: top; text-align: left\"><p><usdm:ref klass=\"\" namexref=\"\
-      \" attribute=\"\"/></p></td>\n  </tr>\n  <tr>\n    <th style=\"vertical-align:\
-      \ top; text-align: left\"><p>Amendment Scope:</p></th>\n    <td style=\"vertical-align:\
-      \ top; text-align: left\"><p><usdm:ref klass=\"\" namexref=\"\" attribute=\"\
-      \"/></p></td>\n  </tr>\n  <tr>\n    <th style=\"vertical-align: top; text-align:\
-      \ left\"><p>Compound Number(s):</p></th>\n    <td style=\"vertical-align: top;\
-      \ text-align: left\"><p><usdm:ref klass=\"\" namexref=\"\" attribute=\"\"/></p></td>\n\
-      \  </tr> \n  <tr>\n    <th style=\"vertical-align: top; text-align: left\"><p>Compound\
-      \ Name(s):</p></th>\n    <td style=\"vertical-align: top; text-align: left\"\
-      ><p><usdm:ref klass=\"\" namexref=\"\" attribute=\"\"/></p></td>\n  </tr>  \n\
-      \  <tr>\n    <th style=\"vertical-align: top; text-align: left\"><p>Trial Phase:</p></th>\n\
-      \    <td style=\"vertical-align: top; text-align: left\"><p><usdm:ref klass=\"\
-      Code\" id=\"Code_2\" attribute=\"decode\"/></p></td>\n  </tr>\n  <tr>\n    <th\
-      \ style=\"vertical-align: top; text-align: left\"><p>Acronym:</p></th>\n   \
-      \ <td style=\"vertical-align: top; text-align: left\"><p><usdm:ref klass=\"\
-      Study\" namexref=\"STUDY\" attribute=\"studyAcronym\"/></p></td>\n  </tr>\n\
-      \  <tr>\n    <th style=\"vertical-align: top; text-align: left\"><p>Short Title:</p></th>\n\
-      \    <td style=\"vertical-align: top; text-align: left\"><p><usdm:ref klass=\"\
-      StudyProtocolVersion\" id=\"StudyProtocolVersion_1\" attribute=\"briefTitle\"\
-      /></p></td>\n  </tr>\n  <tr>\n    <th style=\"vertical-align: top; text-align:\
-      \ left\"><p>Sponsor Name and Address:</p></th>\n    <td style=\"vertical-align:\
-      \ top; text-align: left\"><p><usdm:ref klass=\"\" namexref=\"\" attribute=\"\
-      \"/></p></td>\n  </tr>\n</table>"
-- id: 191
-  properties:
-    _type: Content
-    contentChildIds:
-    - Content_4
-    - Content_5
-    - Content_6
-    id: Content_3
-    label: Content_3
-    name: SECTION 1
-    sectionNumber: '1'
-    sectionTitle: PROTOCOL SUMMARY
-    text: ''
-- id: 192
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_4
-    label: Content_4
-    name: SECTION 1.1
-    sectionNumber: '1.1'
-    sectionTitle: Protocol Synopsis
-    text: ''
-- id: 193
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_5
-    label: Content_5
-    name: SECTION 1.2
-    sectionNumber: '1.2'
-    sectionTitle: Trial Schema
-    text: ''
-- id: 194
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_6
-    label: Content_6
-    name: SECTION 1.3
-    sectionNumber: '1.3'
-    sectionTitle: Schedule of Activities
-    text: ''
-- id: 195
-  properties:
-    _type: Content
-    contentChildIds:
-    - Content_8
-    - Content_9
-    id: Content_7
-    label: Content_7
-    name: SECTION 2
-    sectionNumber: '2'
-    sectionTitle: INTRODUCTION
-    text: ''
-- id: 196
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_8
-    label: Content_8
-    name: SECTION 2.1
-    sectionNumber: '2.1'
-    sectionTitle: Purpose of Trial
-    text: ''
-- id: 197
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_9
-    label: Content_9
-    name: SECTION 2.2
-    sectionNumber: '2.2'
-    sectionTitle: Summary of Benefits and Risks
-    text: ''
-- id: 198
-  properties:
-    _type: Content
-    contentChildIds:
-    - Content_11
-    id: Content_10
-    label: Content_10
-    name: SECTION 3
-    sectionNumber: '3'
-    sectionTitle: TRIAL OBJECTIVES, ENDPOINTS AND ESTIMANDS
-    text: ''
-- id: 199
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_11
-    label: Content_11
-    name: SECTION 3.1
-    sectionNumber: '3.1'
-    sectionTitle: Primary Objectives
-    text: "<table>\n  <tr>\n    <th style=\"vertical-align: top\"><p>Primary Objective</p></th>\n\
-      \    <th style=\"vertical-align: top\"><p>Primary Endpoint</p></th>\n  </tr>\n\
-      \  <tr>\n    <td style=\"vertical-align: top\"><p><usdm:ref klass=\"Objective\"\
-      \ namexref=\"OBJ1\" attribute=\"description\"/></p></td>\n    <td style=\"vertical-align:\
-      \ top\">\n      <p><usdm:ref klass=\"Endpoint\" namexref=\"END1\" attribute=\"\
-      description\"/></p>\n      <p><usdm:ref klass=\"Endpoint\" namexref=\"END2\"\
-      \ attribute=\"description\"/></p>\n    </td>\n  </tr>\n  <tr>\n    <td style=\"\
-      vertical-align: top\"><p><usdm:ref klass=\"Objective\" namexref=\"OBJ2\" attribute=\"\
-      description\"/></p></td>\n    <td style=\"vertical-align: top\">\n      <p><usdm:ref\
-      \ klass=\"Endpoint\" namexref=\"END3\" attribute=\"description\"/></p>\n   \
-      \   <p><usdm:ref klass=\"Endpoint\" namexref=\"END4\" attribute=\"description\"\
-      /></p>\n      <p><usdm:ref klass=\"Endpoint\" namexref=\"END5\" attribute=\"\
-      description\"/></p>\n    </td>\n  </tr>\n</table>"
-- id: 200
-  properties:
-    _type: Content
-    contentChildIds:
-    - Content_13
-    - Content_15
-    - Content_19
-    - Content_20
-    id: Content_12
-    label: Content_12
-    name: SECTION 4
-    sectionNumber: '4'
-    sectionTitle: TRIAL DESIGN
-    text: ''
-- id: 201
-  properties:
-    _type: Content
-    contentChildIds:
-    - Content_14
-    id: Content_13
-    label: Content_13
-    name: SECTION 4.1
-    sectionNumber: '4.1'
-    sectionTitle: Description of Trial Design
-    text: ''
-- id: 202
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_14
-    label: Content_14
-    name: SECTION 4.1.1
-    sectionNumber: 4.1.1
-    sectionTitle: Participant Input into Design
-    text: ''
-- id: 203
-  properties:
-    _type: Content
-    contentChildIds:
-    - Content_16
-    - Content_17
-    - Content_18
-    id: Content_15
-    label: Content_15
-    name: SECTION 4.2
-    sectionNumber: '4.2'
-    sectionTitle: Rationale for Trial Design
-    text: ''
-- id: 204
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_16
-    label: Content_16
-    name: SECTION 4.2.1
-    sectionNumber: 4.2.1
-    sectionTitle: Rationale for Comparator
-    text: ''
-- id: 205
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_17
-    label: Content_17
-    name: SECTION 4.2.2
-    sectionNumber: 4.2.2
-    sectionTitle: Rationale for Adaptive or Novel Trial Design
-    text: ''
-- id: 206
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_18
-    label: Content_18
-    name: SECTION 4.2.3
-    sectionNumber: 4.2.3
-    sectionTitle: Other Trial Design Considerations
-    text: ''
-- id: 207
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_19
-    label: Content_19
-    name: SECTION 4.3
-    sectionNumber: '4.3'
-    sectionTitle: Access to Trial Intervention After End of Trial
-    text: ''
-- id: 208
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_20
-    label: Content_20
-    name: SECTION 4.4
-    sectionNumber: '4.4'
-    sectionTitle: Start of Trial and End of Trial
-    text: ''
-- id: 209
-  properties:
-    _type: Content
-    contentChildIds:
-    - Content_22
-    - Content_23
-    - Content_24
-    - Content_25
-    - Content_26
-    - Content_31
-    id: Content_21
-    label: Content_21
-    name: SECTION 5
-    sectionNumber: '5'
-    sectionTitle: TRIAL POPULATION
-    text: ''
-- id: 210
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_22
-    label: Content_22
-    name: SECTION 5.1
-    sectionNumber: '5.1'
-    sectionTitle: Selection of Trial Population
-    text: ''
-- id: 211
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_23
-    label: Content_23
-    name: SECTION 5.2
-    sectionNumber: '5.2'
-    sectionTitle: Rationale for Trial Population
-    text: ''
-- id: 212
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_24
-    label: Content_24
-    name: SECTION 5.3
-    sectionNumber: '5.3'
-    sectionTitle: Inclusion Criteria
-    text: "<p>Patients may be included in the study only if they meet <strong>all</strong>\
-      \ the following criteria:</p>\n<table>\n  <tr>\n    <td style=\"vertical-align:\
-      \ top\">[1]</td>\n    <td style=\"vertical-align: top\">\n      Males and postmenopausal\
-      \ females at least 50 years of age.\n    </td>\n  </tr>\n  <tr>\n    <td style=\"\
-      vertical-align: top\">[2]</td>\n    <td style=\"vertical-align: top\">Diagnosis\
-      \ of probable AD as defined by National Institute of Neurological and Communicative\
-      \ Disorders and Stroke\n      (NINCDS) and the Alzheimer\u2019s Disease and\
-      \ Related Disorders Association (ADRDA) guidelines (Attachment LZZT.7).\n  </tr>\n\
-      \  <tr>\n    <td style=\"vertical-align: top\">[3]</td>\n    <td style=\"vertical-align:\
-      \ top\">MMSE score of 10 to 23.</td> \n  </tr>\n  <tr>\n    <td style=\"vertical-align:\
-      \ top\">[4]</td>\n    <td style=\"vertical-align: top\">Hachinski Ischemic Scale\
-      \ score of \u22644 (Attachment LZZT.8).</td>\n  </tr>\n  <tr>\n    <td style=\"\
-      vertical-align: top\">[5]</td>\n    <td style=\"vertical-align: top\">CNS imaging\
-      \ (CT scan or MRI of brain) compatible with AD within past 1 year.\n      The\
-      \ following findings are incompatible with AD:\n      <ol type=\"a\">\n    \
-      \    <li>Large vessel strokes\n          <ol type=\"1\">\n            <li>Any\
-      \ definite area of encephalomalacia consistent with ischemic necrosis in any\
-      \ cerebral artery\n              territory.</li>\n            <li>Large, confluent\
-      \ areas of encephalomalacia in parieto-occipital or frontal regions consistent\
-      \ with\n              watershed infarcts. The above are exclusionary. Exceptions\
-      \ are made for small areas of cortical asymmetry\n              which may represent\
-      \ a small cortical stroke or a focal area of atrophy provided there is no abnormal\n\
-      \              signal intensity in the immediately underlying parenchyma. Only\
-      \ one such questionable area allowed per\n              scan, and size is restricted\
-      \ to \u22641cm in frontal/parietal/temporal cortices and \u22642 cm in occipital\
-      \ cortex.\n            </li>\n          </ol>\n        </li>\n        <li>Small\
-      \ vessel ischemia\n          <ol type=\"1\">\n            <li>Lacunar infarct\
-      \ is defined as an area of abnormal intensity seen on CT scan or on both T1\
-      \ and T2\n              weighted MRI images in the basal ganglia, thalamus or\
-      \ deep white matter which is \u22641 cm in maximal\n              diameter.\
-      \ A maximum of one lacune is allowed per scan.</li>\n            <li>Leukoariosis\
-      \ or leukoencephalopathy is regarded as an abnormality seen on T2 but not T1\
-      \ weighted MRIs,\n              or on CT. This is accepted if mild or moderate\
-      \ in extent, meaning involvement of less than 25% of cortical\n            \
-      \  white matter.</li>\n          </ol>\n        </li>\n        <li>Miscellaneous\n\
-      \          <ol type=\"1\">\n            <li>Benign small extra-axial tumors\
-      \ (ie, meningiomas) are accepted if they do not contact or indent the\n    \
-      \          brain parenchyma.</li>\n            <li>extra-axial arachnoid cysts\
-      \ are accepted if they do not indent or deform the brain parenchyma.</li>\n\
-      \          </ol>\n        </li>\n      </ol>\n    </td>\n  </tr>\n  <tr>\n \
-      \   <td style=\"vertical-align: top\">[6]</td>\n    <td style=\"vertical-align:\
-      \ top\">Investigator has obtained informed consent signed by the patient (and/or\
-      \ legal representative) and by the\n      caregiver.</td>\n  </tr>\n  <tr>\n\
-      \    <td style=\"vertical-align: top\">[7]</td>\n    <td style=\"vertical-align:\
-      \ top\">Geographic proximity to investigator\u2019s site that allows adequate\
-      \ follow-up.</td>\n  </tr>\n  <tr>\n    <td style=\"vertical-align: top\">[8]</td>\n\
-      \    <td style=\"vertical-align: top\">A reliable caregiver who is in frequent\
-      \ or daily contact with the patient and who will accompany the patient to\n\
-      \      the office and/or be available by telephone at designated times, will\
-      \ monitor administration of prescribed\n      medications, and will be responsible\
-      \ for the overall care of the patient at home. The caregiver and the patient\n\
-      \      must be able to communicate in English and willing to comply with 26\
-      \ weeks of transdermal therapy.</td>\n  </tr>\n<table>"
-- id: 213
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_25
-    label: Content_25
-    name: SECTION 5.4
-    sectionNumber: '5.4'
-    sectionTitle: Exclusion Criteria
-    text: ''
-- id: 214
-  properties:
-    _type: Content
-    contentChildIds:
-    - Content_27
-    - Content_28
-    - Content_29
-    - Content_30
-    id: Content_26
-    label: Content_26
-    name: SECTION 5.5
-    sectionNumber: '5.5'
-    sectionTitle: Lifestyle Considerations
-    text: ''
-- id: 215
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_27
-    label: Content_27
-    name: SECTION 5.5.1
-    sectionNumber: 5.5.1
-    sectionTitle: Meals and Dietary Restrictions
-    text: ''
-- id: 216
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_28
-    label: Content_28
-    name: SECTION 5.5.2
-    sectionNumber: 5.5.2
-    sectionTitle: Caffeine, Alcohol, Tobacco, and Other Habits
-    text: ''
-- id: 217
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_29
-    label: Content_29
-    name: SECTION 5.5.3
-    sectionNumber: 5.5.3
-    sectionTitle: Physical Activity
-    text: ''
-- id: 218
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_30
-    label: Content_30
-    name: SECTION 5.5.4
-    sectionNumber: 5.5.4
-    sectionTitle: Other Activity
-    text: ''
-- id: 219
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_31
-    label: Content_31
-    name: SECTION 5.6
-    sectionNumber: '5.6'
-    sectionTitle: Screen Failures
-    text: ''
-- id: 220
-  properties:
-    _type: Content
-    contentChildIds:
-    - Content_33
-    - Content_34
-    - Content_35
-    - Content_37
-    - Content_38
-    - Content_42
-    - Content_46
-    - Content_47
-    id: Content_32
-    label: Content_32
-    name: SECTION 6
-    sectionNumber: '6'
-    sectionTitle: TRIAL INTERVENTION AND CONCOMITANT THERAPY
-    text: ''
-- id: 221
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_33
-    label: Content_33
-    name: SECTION 6.1
-    sectionNumber: '6.1'
-    sectionTitle: Description of Trial Intervention
-    text: ''
-- id: 222
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_34
-    label: Content_34
-    name: SECTION 6.2
-    sectionNumber: '6.2'
-    sectionTitle: Rationale for Trial Intervention
-    text: ''
-- id: 223
-  properties:
-    _type: Content
-    contentChildIds:
-    - Content_36
-    id: Content_35
-    label: Content_35
-    name: SECTION 6.3
-    sectionNumber: '6.3'
-    sectionTitle: Dosing and Administration
-    text: ''
-- id: 224
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_36
-    label: Content_36
-    name: SECTION 6.3.1
-    sectionNumber: 6.3.1
-    sectionTitle: Trial Intervention Dose Modification
-    text: ''
-- id: 225
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_37
-    label: Content_37
-    name: SECTION 6.4
-    sectionNumber: '6.4'
-    sectionTitle: Treatment of Overdose
-    text: ''
-- id: 226
-  properties:
-    _type: Content
-    contentChildIds:
-    - Content_39
-    - Content_40
-    - Content_41
-    id: Content_38
-    label: Content_38
-    name: SECTION 6.5
-    sectionNumber: '6.5'
-    sectionTitle: Preparation, Handling, Storage and Accountability
-    text: ''
-- id: 227
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_39
-    label: Content_39
-    name: SECTION 6.5.1
-    sectionNumber: 6.5.1
-    sectionTitle: Preparation of Trial Intervention
-    text: ''
-- id: 228
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_40
-    label: Content_40
-    name: SECTION 6.5.2
-    sectionNumber: 6.5.2
-    sectionTitle: Handling and Storage of Trial Intervention
-    text: ''
-- id: 229
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_41
-    label: Content_41
-    name: SECTION 6.5.3
-    sectionNumber: 6.5.3
-    sectionTitle: Accountability of Trial Intervention
-    text: ''
-- id: 230
-  properties:
-    _type: Content
-    contentChildIds:
-    - Content_43
-    - Content_44
-    - Content_45
-    id: Content_42
-    label: Content_42
-    name: SECTION 6.6
-    sectionNumber: '6.6'
-    sectionTitle: Participant Assignment, Randomisation and Blinding
-    text: ''
-- id: 231
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_43
-    label: Content_43
-    name: SECTION 6.6.1
-    sectionNumber: 6.6.1
-    sectionTitle: Participant Assignment
-    text: ''
-- id: 232
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_44
-    label: Content_44
-    name: SECTION 6.6.2
-    sectionNumber: 6.6.2
-    sectionTitle: Randomisation
-    text: ''
-- id: 233
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_45
-    label: Content_45
-    name: SECTION 6.6.3
-    sectionNumber: 6.6.3
-    sectionTitle: Blinding and Unblinding
-    text: "<p>The study will be double-blind. To further preserve the blinding of\
-      \ the study, only a minimum number of Lilly and CRO personnel will see the randomization\
-      \ table and codes before the study is complete.</p>\n<p>Emergency codes generated\
-      \ by a computer drug-labeling system will be available to the investigator.\
-      \ These codes, which reveal the patients treatment group, may be opened during\
-      \ the study only if the choice of follow-up treatment depends on the patient\u2019\
-      s therapy assignment.</p>\n<p>The investigator should make every effort to contact\
-      \ the clinical research physician prior to unblinding a patient\u2019s therapy\
-      \ assignment. If a patient\u2019s therapy assignment is unblinded, Lilly must\
-      \ be notified immediately by telephone. After the study, the investigator must\
-      \ return all sealed and any opened codes.</p>"
-- id: 234
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_46
-    label: Content_46
-    name: SECTION 6.7
-    sectionNumber: '6.7'
-    sectionTitle: Trial Intervention Compliance
-    text: ''
-- id: 235
-  properties:
-    _type: Content
-    contentChildIds:
-    - Content_48
-    - Content_49
-    - Content_50
-    - Content_51
-    id: Content_47
-    label: Content_47
-    name: SECTION 6.8
-    sectionNumber: '6.8'
-    sectionTitle: Concomitant Therapy
-    text: ''
-- id: 236
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_48
-    label: Content_48
-    name: SECTION 6.8.1
-    sectionNumber: 6.8.1
-    sectionTitle: Prohibited Concomitant Therapy
-    text: ''
-- id: 237
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_49
-    label: Content_49
-    name: SECTION 6.8.2
-    sectionNumber: 6.8.2
-    sectionTitle: Permitted Concomitant Therapy
-    text: ''
-- id: 238
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_50
-    label: Content_50
-    name: SECTION 6.8.3
-    sectionNumber: 6.8.3
-    sectionTitle: Rescue Therapy
-    text: ''
-- id: 239
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_51
-    label: Content_51
-    name: SECTION 6.8.4
-    sectionNumber: 6.8.4
-    sectionTitle: Other Therapy
-    text: ''
-- id: 240
-  properties:
-    _type: Content
-    contentChildIds:
-    - Content_53
-    - Content_57
-    - Content_58
-    - Content_59
-    id: Content_52
-    label: Content_52
-    name: SECTION 7
-    sectionNumber: '7'
-    sectionTitle: DISCONTINUATION OF TRIAL INTERVENTION AND PARTICIPANT WITHDRAWAL
-      FROM TRIAL
-    text: ''
-- id: 241
-  properties:
-    _type: Content
-    contentChildIds:
-    - Content_54
-    - Content_55
-    - Content_56
-    id: Content_53
-    label: Content_53
-    name: SECTION 7.1
-    sectionNumber: '7.1'
-    sectionTitle: Discontinuation of Trial Intervention
-    text: ''
-- id: 242
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_54
-    label: Content_54
-    name: SECTION 7.1.1
-    sectionNumber: 7.1.1
-    sectionTitle: Criteria for Permanent Discontinuation of Trial Intervention
-    text: ''
-- id: 243
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_55
-    label: Content_55
-    name: SECTION 7.1.2
-    sectionNumber: 7.1.2
-    sectionTitle: Temporary Discontinuation or Interruption of Trial Intervention
-    text: ''
-- id: 244
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_56
-    label: Content_56
-    name: SECTION 7.1.3
-    sectionNumber: 7.1.3
-    sectionTitle: Rechallenge
-    text: ''
-- id: 245
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_57
-    label: Content_57
-    name: SECTION 7.2
-    sectionNumber: '7.2'
-    sectionTitle: Participant Withdrawal from the Trial
-    text: ''
-- id: 246
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_58
-    label: Content_58
-    name: SECTION 7.3
-    sectionNumber: '7.3'
-    sectionTitle: Lost to Follow-Up
-    text: ''
-- id: 247
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_59
-    label: Content_59
-    name: SECTION 7.4
-    sectionNumber: '7.4'
-    sectionTitle: Trial Stopping Rules
-    text: ''
-- id: 248
-  properties:
-    _type: Content
-    contentChildIds:
-    - Content_61
-    - Content_62
-    - Content_63
-    - Content_69
-    - Content_80
-    - Content_83
-    - Content_89
-    - Content_90
-    - Content_91
-    - Content_92
-    id: Content_60
-    label: Content_60
-    name: SECTION 8
-    sectionNumber: '8'
-    sectionTitle: TRIAL ASSESSMENTS AND PROCEDURES
-    text: ''
-- id: 249
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_61
-    label: Content_61
-    name: SECTION 8.1
-    sectionNumber: '8.1'
-    sectionTitle: Screening/Baseline Assessments and Procedures
-    text: ''
-- id: 250
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_62
-    label: Content_62
-    name: SECTION 8.2
-    sectionNumber: '8.2'
-    sectionTitle: Efficacy Assessments and Procedures
-    text: ''
-- id: 251
-  properties:
-    _type: Content
-    contentChildIds:
-    - Content_64
-    - Content_65
-    - Content_66
-    - Content_67
-    - Content_68
-    id: Content_63
-    label: Content_63
-    name: SECTION 8.3
-    sectionNumber: '8.3'
-    sectionTitle: Safety Assessments and Procedures
-    text: ''
-- id: 252
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_64
-    label: Content_64
-    name: SECTION 8.3.1
-    sectionNumber: 8.3.1
-    sectionTitle: Physical Examination
-    text: ''
-- id: 253
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_65
-    label: Content_65
-    name: SECTION 8.3.2
-    sectionNumber: 8.3.2
-    sectionTitle: Vital Signs
-    text: ''
-- id: 254
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_66
-    label: Content_66
-    name: SECTION 8.3.3
-    sectionNumber: 8.3.3
-    sectionTitle: Electrocardiograms
-    text: ''
-- id: 255
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_67
-    label: Content_67
-    name: SECTION 8.3.4
-    sectionNumber: 8.3.4
-    sectionTitle: Clinical Laboratory Assessments
-    text: ''
-- id: 256
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_68
-    label: Content_68
-    name: SECTION 8.3.5
-    sectionNumber: 8.3.5
-    sectionTitle: Suicidal Ideation and Behaviour Risk Monitoring
-    text: ''
-- id: 257
-  properties:
-    _type: Content
-    contentChildIds:
-    - Content_70
-    - Content_71
-    - Content_72
-    - Content_73
-    - Content_74
-    - Content_75
-    - Content_76
-    - Content_77
-    - Content_78
-    - Content_79
-    id: Content_69
-    label: Content_69
-    name: SECTION 8.4
-    sectionNumber: '8.4'
-    sectionTitle: Adverse Events and Serious Adverse Events
-    text: ''
-- id: 258
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_70
-    label: Content_70
-    name: SECTION 8.4.1
-    sectionNumber: 8.4.1
-    sectionTitle: Definitions of AE and SAE
-    text: ''
-- id: 259
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_71
-    label: Content_71
-    name: SECTION 8.4.2
-    sectionNumber: 8.4.2
-    sectionTitle: Time Period and Frequency for Collecting AE and SAE Information
-    text: ''
-- id: 260
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_72
-    label: Content_72
-    name: SECTION 8.4.3
-    sectionNumber: 8.4.3
-    sectionTitle: Identifying AEs and SAEs
-    text: ''
-- id: 261
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_73
-    label: Content_73
-    name: SECTION 8.4.4
-    sectionNumber: 8.4.4
-    sectionTitle: Recording of AEs and SAEs
-    text: ''
-- id: 262
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_74
-    label: Content_74
-    name: SECTION 8.4.5
-    sectionNumber: 8.4.5
-    sectionTitle: Follow-up of AEs and SAEs
-    text: ''
-- id: 263
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_75
-    label: Content_75
-    name: SECTION 8.4.6
-    sectionNumber: 8.4.6
-    sectionTitle: Reporting of SAEs
-    text: ''
-- id: 264
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_76
-    label: Content_76
-    name: SECTION 8.4.7
-    sectionNumber: 8.4.7
-    sectionTitle: Regulatory Reporting Requirements for SAEs
-    text: ''
-- id: 265
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_77
-    label: Content_77
-    name: SECTION 8.4.8
-    sectionNumber: 8.4.8
-    sectionTitle: Serious and Unexpected Adverse Reaction Reporting
-    text: ''
-- id: 266
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_78
-    label: Content_78
-    name: SECTION 8.4.9
-    sectionNumber: 8.4.9
-    sectionTitle: Adverse Events of Special Interest
-    text: ''
-- id: 267
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_79
-    label: Content_79
-    name: SECTION 8.4.10
-    sectionNumber: 8.4.10
-    sectionTitle: Disease-related Events or Outcomes Not Qualifying as AEs or SAEs
-    text: ''
-- id: 268
-  properties:
-    _type: Content
-    contentChildIds:
-    - Content_81
-    - Content_82
-    id: Content_80
-    label: Content_80
-    name: SECTION 8.5
-    sectionNumber: '8.5'
-    sectionTitle: Pregnancy and Postpartum Information
-    text: ''
-- id: 269
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_81
-    label: Content_81
-    name: SECTION 8.5.1
-    sectionNumber: 8.5.1
-    sectionTitle: Participants Who Become Pregnant During the Trial
-    text: ''
-- id: 270
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_82
-    label: Content_82
-    name: SECTION 8.5.2
-    sectionNumber: 8.5.2
-    sectionTitle: Participants Whose Partners Become Pregnant
-    text: ''
-- id: 271
-  properties:
-    _type: Content
-    contentChildIds:
-    - Content_84
-    - Content_85
-    - Content_86
-    - Content_87
-    - Content_88
-    id: Content_83
-    label: Content_83
-    name: SECTION 8.6
-    sectionNumber: '8.6'
-    sectionTitle: Medical Device Product Complaints for Drug/Device Combination Products
-    text: ''
-- id: 272
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_84
-    label: Content_84
-    name: SECTION 8.6.1
-    sectionNumber: 8.6.1
-    sectionTitle: Definition of Medical Device Product Complaints
-    text: ''
-- id: 273
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_85
-    label: Content_85
-    name: SECTION 8.6.2
-    sectionNumber: 8.6.2
-    sectionTitle: Recording of Medical Device Product Complaints
-    text: ''
-- id: 274
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_86
-    label: Content_86
-    name: SECTION 8.6.3
-    sectionNumber: 8.6.3
-    sectionTitle: Time Period and Frequency for Collecting Medical Device Product
-      Complaints .
-    text: ''
-- id: 275
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_87
-    label: Content_87
-    name: SECTION 8.6.4
-    sectionNumber: 8.6.4
-    sectionTitle: Follow-Up of Medical Device Product Complaints
-    text: ''
-- id: 276
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_88
-    label: Content_88
-    name: SECTION 8.6.5
-    sectionNumber: 8.6.5
-    sectionTitle: Regulatory Reporting Requirements for Medical Device Product Complaints
-    text: ''
-- id: 277
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_89
-    label: Content_89
-    name: SECTION 8.7
-    sectionNumber: '8.7'
-    sectionTitle: Pharmacokinetics
-    text: ''
-- id: 278
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_90
-    label: Content_90
-    name: SECTION 8.8
-    sectionNumber: '8.8'
-    sectionTitle: Genetics
-    text: ''
-- id: 279
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_91
-    label: Content_91
-    name: SECTION 8.9
-    sectionNumber: '8.9'
-    sectionTitle: Biomarkers
-    text: ''
-- id: 280
-  properties:
-    _type: Content
-    contentChildIds:
-    - Content_93
-    id: Content_92
-    label: Content_92
-    name: SECTION 8.1
-    sectionNumber: '8.1'
-    sectionTitle: Immunogenicity Assessments
-    text: ''
-- id: 281
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_93
-    label: Content_93
-    name: SECTION 8.1.1
-    sectionNumber: 8.1.1
-    sectionTitle: Medical Resource Utilisation and Health Economics
-    text: ''
-- id: 282
-  properties:
-    _type: Content
-    contentChildIds:
-    - Content_95
-    - Content_96
-    - Content_102
-    - Content_103
-    - Content_104
-    - Content_105
-    - Content_106
-    - Content_107
-    - Content_108
-    id: Content_94
-    label: Content_94
-    name: SECTION 9
-    sectionNumber: '9'
-    sectionTitle: STATISTICAL CONSIDERATIONS
-    text: ''
-- id: 283
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_95
-    label: Content_95
-    name: SECTION 9.1
-    sectionNumber: '9.1'
-    sectionTitle: Analysis Sets
-    text: ''
-- id: 284
-  properties:
-    _type: Content
-    contentChildIds:
-    - Content_97
-    - Content_98
-    - Content_99
-    - Content_100
-    - Content_101
-    id: Content_96
-    label: Content_96
-    name: SECTION 9.2
-    sectionNumber: '9.2'
-    sectionTitle: Analyses Supporting Primary Objective(s)
-    text: ''
-- id: 285
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_97
-    label: Content_97
-    name: SECTION 9.2.1
-    sectionNumber: 9.2.1
-    sectionTitle: Statistical Model, Hypothesis, and Method of Analysis
-    text: ''
-- id: 286
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_98
-    label: Content_98
-    name: SECTION 9.2.2
-    sectionNumber: 9.2.2
-    sectionTitle: Handling of Intercurrent Events of Primary Estimand(s)
-    text: ''
-- id: 287
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_99
-    label: Content_99
-    name: SECTION 9.2.3
-    sectionNumber: 9.2.3
-    sectionTitle: Handling of Missing Data
-    text: ''
-- id: 288
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_100
-    label: Content_100
-    name: SECTION 9.2.4
-    sectionNumber: 9.2.4
-    sectionTitle: Sensitivity Analysis
-    text: ''
-- id: 289
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_101
-    label: Content_101
-    name: SECTION 9.2.5
-    sectionNumber: 9.2.5
-    sectionTitle: Supplementary Analysis
-    text: ''
-- id: 290
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_102
-    label: Content_102
-    name: SECTION 9.3
-    sectionNumber: '9.3'
-    sectionTitle: Analysis Supporting Secondary Objective(s)
-    text: ''
-- id: 291
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_103
-    label: Content_103
-    name: SECTION 9.4
-    sectionNumber: '9.4'
-    sectionTitle: Analysis of Exploratory Objective(s)
-    text: ''
-- id: 292
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_104
-    label: Content_104
-    name: SECTION 9.5
-    sectionNumber: '9.5'
-    sectionTitle: Safety Analyses
-    text: ''
-- id: 293
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_105
-    label: Content_105
-    name: SECTION 9.6
-    sectionNumber: '9.6'
-    sectionTitle: Other Analyses
-    text: ''
-- id: 294
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_106
-    label: Content_106
-    name: SECTION 9.7
-    sectionNumber: '9.7'
-    sectionTitle: Interim Analyses
-    text: ''
-- id: 295
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_107
-    label: Content_107
-    name: SECTION 9.8
-    sectionNumber: '9.8'
-    sectionTitle: Sample Size Determination
-    text: ''
-- id: 296
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_108
-    label: Content_108
-    name: SECTION 9.9
-    sectionNumber: '9.9'
-    sectionTitle: Protocol Deviations
-    text: ''
-- id: 297
-  properties:
-    _type: Content
-    contentChildIds:
-    - Content_110
-    - Content_111
-    - Content_112
-    - Content_113
-    - Content_114
-    id: Content_109
-    label: Content_109
-    name: SECTION 10
-    sectionNumber: '10'
-    sectionTitle: 'GENERAL CONSIDERATIONS: REGULATORY, ETHICAL, AND TRIAL OVERSIGHT'
-    text: ''
-- id: 298
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_110
-    label: Content_110
-    name: SECTION 10.1
-    sectionNumber: '10.1'
-    sectionTitle: Regulatory and Ethical Considerations
-    text: ''
-- id: 299
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_111
-    label: Content_111
-    name: SECTION 10.2
-    sectionNumber: '10.2'
-    sectionTitle: Committees
-    text: ''
-- id: 300
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_112
-    label: Content_112
-    name: SECTION 10.3
-    sectionNumber: '10.3'
-    sectionTitle: Informed Consent Process
-    text: ''
-- id: 301
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_113
-    label: Content_113
-    name: SECTION 10.4
-    sectionNumber: '10.4'
-    sectionTitle: Data Protection
-    text: ''
-- id: 302
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_114
-    label: Content_114
-    name: SECTION 10.5
-    sectionNumber: '10.5'
-    sectionTitle: Early Site Closure or Trial Termination
-    text: ''
-- id: 303
-  properties:
-    _type: Content
-    contentChildIds:
-    - Content_116
-    - Content_117
-    - Content_118
-    id: Content_115
-    label: Content_115
-    name: SECTION 11
-    sectionNumber: '11'
-    sectionTitle: 'GENERAL CONSIDERATIONS: RISK MANAGEMENT AND QUALITY ASSURANCE'
-    text: ''
-- id: 304
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_116
-    label: Content_116
-    name: SECTION 11.1
-    sectionNumber: '11.1'
-    sectionTitle: Quality Tolerance Limits
-    text: ''
-- id: 305
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_117
-    label: Content_117
-    name: SECTION 11.2
-    sectionNumber: '11.2'
-    sectionTitle: Data Quality Assurance
-    text: ''
-- id: 306
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_118
-    label: Content_118
-    name: SECTION 11.3
-    sectionNumber: '11.3'
-    sectionTitle: Source Data
-    text: ''
-- id: 307
-  properties:
-    _type: Content
-    contentChildIds:
-    - Content_120
-    - Content_121
-    - Content_122
-    - Content_123
-    id: Content_119
-    label: Content_119
-    name: SECTION 12
-    sectionNumber: '12'
-    sectionTitle: 'APPENDIX: ADVERSE EVENTS AND SERIOUS ADVERSE EVENTS - DEFINITIONS,
-      SEVERITY, AND CAUSALITY'
-    text: ''
-- id: 308
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_120
-    label: Content_120
-    name: SECTION 12.1
-    sectionNumber: '12.1'
-    sectionTitle: Further Details and Clarifications on the AE Definition
-    text: ''
-- id: 309
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_121
-    label: Content_121
-    name: SECTION 12.2
-    sectionNumber: '12.2'
-    sectionTitle: Further Details and Clarifications on the SAE Definition
-    text: ''
-- id: 310
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_122
-    label: Content_122
-    name: SECTION 12.3
-    sectionNumber: '12.3'
-    sectionTitle: Severity
-    text: ''
-- id: 311
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_123
-    label: Content_123
-    name: SECTION 12.4
-    sectionNumber: '12.4'
-    sectionTitle: Causality
-    text: ''
-- id: 312
-  properties:
-    _type: Content
-    contentChildIds:
-    - Content_125
-    - Content_129
-    - Content_130
-    - Content_131
-    id: Content_124
-    label: Content_124
-    name: SECTION 13
-    sectionNumber: '13'
-    sectionTitle: 'APPENDIX: DEFINITIONS AND SUPPORTING OPERATIONAL DETAILS'
-    text: ''
-- id: 313
-  properties:
-    _type: Content
-    contentChildIds:
-    - Content_126
-    - Content_127
-    - Content_128
-    id: Content_125
-    label: Content_125
-    name: SECTION 13.1
-    sectionNumber: '13.1'
-    sectionTitle: Contraception and Pregnancy Testing
-    text: ''
-- id: 314
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_126
-    label: Content_126
-    name: SECTION 13.1.1
-    sectionNumber: 13.1.1
-    sectionTitle: Definitions Related to Childbearing Potential
-    text: ''
-- id: 315
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_127
-    label: Content_127
-    name: SECTION 13.1.2
-    sectionNumber: 13.1.2
-    sectionTitle: Contraception
-    text: ''
-- id: 316
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_128
-    label: Content_128
-    name: SECTION 13.1.3
-    sectionNumber: 13.1.3
-    sectionTitle: Pregnancy Testing
-    text: ''
-- id: 317
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_129
-    label: Content_129
-    name: SECTION 13.2
-    sectionNumber: '13.2'
-    sectionTitle: Clinical Laboratory Tests
-    text: ''
-- id: 318
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_130
-    label: Content_130
-    name: SECTION 13.3
-    sectionNumber: '13.3'
-    sectionTitle: Country/Region-Specific Differences
-    text: ''
-- id: 319
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_131
-    label: Content_131
-    name: SECTION 13.4
-    sectionNumber: '13.4'
-    sectionTitle: Prior Protocol Amendments
-    text: ''
-- id: 320
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_132
-    label: Content_132
-    name: SECTION 14
-    sectionNumber: '14'
-    sectionTitle: 'APPENDIX: GLOSSARY OF TERMS'
-    text: ''
-- id: 321
-  properties:
-    _type: Content
-    contentChildIds: []
-    id: Content_133
-    label: Content_133
-    name: SECTION 15
-    sectionNumber: '15'
-    sectionTitle: 'APPENDIX: REFERENCES'
-    text: ''
-- id: 4
+- id: 5
   properties:
     _type: StudyDesign
     bcCategories: []
     bcSurrogates: {}
     biomedicalConcepts: {}
     description: The main design for the study
+    documentVersion: null
     id: StudyDesign_1
     interventionModel:
       _type: Code
       code: C82639
       codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
+      codeSystemVersion: '2023-09-29'
       decode: Parallel Study
-      id: Code_79
+      id: Code_110
     label: StudyDesign_1
     name: Study Design 1
     studyArms: {}
@@ -3213,6 +1390,7 @@
       been sought to improve tolerance for the compound. To that end, development
       of a Transdermal Therapeutic System (TTS) has been initiated.
     studyElements: {}
+    studyEligibilityCritieria: {}
     studyEpochs: {}
     studyEstimands: []
     studyIndications: {}
@@ -3225,42 +1403,43 @@
       codeSystem: SPONSOR
       codeSystemVersion: '12'
       decode: Mild to Moderate Alzheimer\'s Disease
-      id: Code_72
+      id: Code_103
     - _type: Code
       code: '26929004'
       codeSystem: SNOMED
       codeSystemVersion: January 31, 2018
       decode: Alzheimer\'s disease
-      id: Code_73
+      id: Code_104
     trialIntentTypes:
     - _type: Code
       code: C49656
       codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
+      codeSystemVersion: '2023-09-29'
       decode: Treatment Study
-      id: Code_75
+      id: Code_106
     trialTypes:
     - _type: Code
       code: C49666
       codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
+      codeSystemVersion: '2023-09-29'
       decode: Efficacy Study
-      id: Code_76
+      id: Code_107
     - _type: Code
       code: C49667
       codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
+      codeSystemVersion: '2023-09-29'
       decode: Safety Study
-      id: Code_77
+      id: Code_108
     - _type: Code
       code: C49663
       codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
+      codeSystemVersion: '2023-09-29'
       decode: Pharmacokinetic Study
-      id: Code_78
-- id: 1
+      id: Code_109
+- id: 2
   properties:
-    _type: Study
+    _type: StudyVersion
+    amendments: {}
     businessTherapeuticAreas:
     - _type: Code
       code: PHARMA
@@ -3268,23 +1447,31 @@
       codeSystemVersion: '12'
       decode: Eli Lilly
       id: Code_3
-    id: null
-    label: Study
+    dateValues: {}
+    documentVersionId: StudyProtocolDocumentVersion_1
+    id: StudyVersion_1
+    label: StudyVersion_1
     studyAcronym: H2Q-MC-LZZT
     studyIdentifiers: {}
     studyPhase: {}
-    studyProtocolVersions: {}
     studyRationale: The discontinuation rate associated with this oral dosing regimen
       was 58.6% in previous studies, and alternative clinical strategies have been
       sought to improve tolerance for the compound. To that end, development of a
       Transdermal Therapeutic System (TTS) has been initiated.
     studyTitle: Safety and Efficacy of the Xanomeline Transdermal Therapeutic System
       (TTS) in Patients with Mild to Moderate Alzheimer's Disease
-    studyVersion: '1'
+    studyVersion: '2'
     type:
       _type: Code
       code: C98388
       codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2022-12-16'
+      codeSystemVersion: '2023-09-29'
       decode: Interventional Study
       id: Code_1
+- id: 1
+  properties:
+    _type: Study
+    description: null
+    documentedBy: {}
+    id: null
+    label: Study

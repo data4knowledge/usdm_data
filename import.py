@@ -48,11 +48,11 @@ studies = [
   # { 'path': 'Other', 'filename': 'simple_2' },
   # { 'path': 'Other', 'filename': 'profile_1' },
   # { 'path': 'Other', 'filename': 'simple_3' },
-  # { 'path': 'CDISC_Pilot', 'filename': 'CDISC_Pilot_Study' },
+  { 'path': 'CDISC_Pilot', 'filename': 'CDISC_Pilot_Study' },
   # { 'path': 'NCT03421379', 'filename': 'EliLilly_NCT03421379_Diabetes' },
   # { 'path': 'Other', 'filename': 'simple_4' },
   # { 'path': 'Other', 'filename': 'arms_epochs' },
-  { 'path': 'Other', 'filename': 'full_1' }
+  #{ 'path': 'Other', 'filename': 'full_1' }
 ]
 
 print("")
