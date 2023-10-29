@@ -21,28 +21,28 @@ if __name__ == "__main__":
     print("")
 
     filename = sys.argv[1].strip()
-    excel = USDMExcel(f"test_data/{filename}.xlsx")
+    excel = USDMExcel(f"{filename}.xlsx")
     errors = excel.errors()
     if len(errors) > 0:
-      with open(f"test_data/{filename}_errors.yaml", 'w', encoding='utf-8') as f:
+      with open(f"{filename}_errors.yaml", 'w', encoding='utf-8') as f:
         yaml.dump(errors, f, default_flow_style=False)
-    with open(f"test_data/{filename}.json", 'w', encoding='utf-8') as f:
+    with open(f"{filename}.json", 'w', encoding='utf-8') as f:
       json.dump(json.loads(excel.to_json()), f, indent=2)
 
 
     filename = sys.argv[1].strip()
-    excel = USDMExcel(f"test_data/{filename}.xlsx")
+    excel = USDMExcel(f"{filename}.xlsx")
     errors = excel.errors()
     if len(errors) > 0:
-      with open(f"test_data/{filename}_errors.yaml", 'w', encoding='utf-8') as f:
+      with open(f"{filename}_errors.yaml", 'w', encoding='utf-8') as f:
         yaml.dump(errors, f, default_flow_style=False)
-    with open(f"test_data/{filename}.json", 'w', encoding='utf-8') as f:
+    with open(f"{filename}.json", 'w', encoding='utf-8') as f:
       f.write(json.dumps(json.loads(excel.to_json()), indent=2))
-    with open(f"test_data/{filename}_USDM.html", 'w', encoding='utf-8') as f:
+    with open(f"{filename}_USDM.html", 'w', encoding='utf-8') as f:
       f.write(excel.to_html())
-    with open(f"test_data/{filename}_USDM.pdf", 'w+b') as f:
+    with open(f"{filename}_USDM.pdf", 'w+b') as f:
       f.write(excel.to_pdf())
-    with open(f"test_data/{filename}_timeline.html", 'w') as f:
+    with open(f"{filename}_timeline.html", 'w') as f:
       f.write(excel.to_timeline())
 
   else:
