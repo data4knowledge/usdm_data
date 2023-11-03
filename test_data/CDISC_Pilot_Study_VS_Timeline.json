@@ -6169,11 +6169,11 @@
               },
               {
                 "id": "ScheduleTimeline_3",
-                "name": "Early Termination Timeline",
-                "label": "Early Termination Timeline",
-                "description": "This is the early termination processing",
+                "name": "Vital Sign Blood Pressure Timeline",
+                "label": "Vital Sign Blood Pressure Timeline",
+                "description": "BP Profile",
                 "mainTimeline": false,
-                "entryCondition": "Subject terminates the study early",
+                "entryCondition": "Automatic execution",
                 "scheduleTimelineEntryId": "ScheduledActivityInstance_3",
                 "scheduleTimelineExits": [
                   {
