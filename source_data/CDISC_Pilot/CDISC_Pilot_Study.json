@@ -5941,6 +5941,25 @@
                 "identifier": "3",
                 "nextCriterionId": null,
                 "previousCriterionId": null
+              },
+              {
+                "id": "EligibilityCriteria_4",
+                "name": "Previous Criteria",
+                "label": "",
+                "description": "The previous xanomeline TTS criterion",
+                "instanceType": "ELIGIBILITY_CRITERIA",
+                "text": "Persons who have previously completed or withdrawn from this study or any other study investigating xanomeline TTS or the oral formulation of xanomeline.",
+                "dictionaryId": null,
+                "category": {
+                  "id": "Code_295",
+                  "code": "C25370",
+                  "codeSystem": "http://www.cdisc.org",
+                  "codeSystemVersion": "2023-09-29",
+                  "decode": "Exclusion Criteria"
+                },
+                "identifier": "9",
+                "nextCriterionId": null,
+                "previousCriterionId": null
               }
             ],
             "dictionaries": [
