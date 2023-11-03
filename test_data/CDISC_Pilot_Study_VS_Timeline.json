@@ -788,7 +788,7 @@
                 "label": "Demographics",
                 "description": "",
                 "previousActivityId": "Activity_3",
-                "nextActivityId": "Activity_37",
+                "nextActivityId": "Activity_5",
                 "definedProcedures": [],
                 "activityIsConditional": false,
                 "activityIsConditionalReason": "",
@@ -798,12 +798,12 @@
                 "activityTimelineId": ""
               },
               {
-                "id": "Activity_37",
-                "name": "Hachinski <= 4",
-                "label": null,
-                "description": "Hachinski <= 4",
+                "id": "Activity_5",
+                "name": "Hachinski",
+                "label": "Hachinski",
+                "description": "",
                 "previousActivityId": "Activity_4",
-                "nextActivityId": "Activity_38",
+                "nextActivityId": "Activity_6",
                 "definedProcedures": [],
                 "activityIsConditional": false,
                 "activityIsConditionalReason": "",
@@ -813,11 +813,11 @@
                 "activityTimelineId": ""
               },
               {
-                "id": "Activity_38",
-                "name": "MMSE 10-23",
-                "label": null,
-                "description": "MMSE 10-23",
-                "previousActivityId": "Activity_37",
+                "id": "Activity_6",
+                "name": "MMSE",
+                "label": "MMSE",
+                "description": "",
+                "previousActivityId": "Activity_5",
                 "nextActivityId": "Activity_7",
                 "definedProcedures": [],
                 "activityIsConditional": false,
@@ -832,7 +832,7 @@
                 "name": "Physical examination",
                 "label": "",
                 "description": "",
-                "previousActivityId": "Activity_38",
+                "previousActivityId": "Activity_6",
                 "nextActivityId": "Activity_8",
                 "definedProcedures": [],
                 "activityIsConditional": false,
@@ -930,13 +930,11 @@
                 "biomedicalConceptIds": [
                   "BiomedicalConcept_18",
                   "BiomedicalConcept_19",
-                  "BiomedicalConcept_20",
-                  "BiomedicalConcept_21",
-                  "BiomedicalConcept_22"
+                  "BiomedicalConcept_20"
                 ],
                 "bcCategoryIds": [],
                 "bcSurrogateIds": [],
-                "activityTimelineId": ""
+                "activityTimelineId": "ScheduleTimeline_3"
               },
               {
                 "id": "Activity_14",
@@ -1005,7 +1003,24 @@
                 "description": "",
                 "previousActivityId": "Activity_17",
                 "nextActivityId": "Activity_19",
-                "definedProcedures": [],
+                "definedProcedures": [
+                  {
+                    "id": "Procedure_1",
+                    "name": "PR1",
+                    "label": "CT Scan",
+                    "description": "CT Scan",
+                    "procedureType": "CT Scan",
+                    "code": {
+                      "id": "Code_19",
+                      "code": "383371000119108",
+                      "codeSystem": "SNOMED",
+                      "codeSystemVersion": "January 31, 2018",
+                      "decode": "CT of head without contrast"
+                    },
+                    "procedureIsConditional": false,
+                    "procedureIsConditionalReason": ""
+                  }
+                ],
                 "activityIsConditional": false,
                 "activityIsConditionalReason": "",
                 "biomedicalConceptIds": [],
@@ -1054,13 +1069,13 @@
                 "activityIsConditional": false,
                 "activityIsConditionalReason": "",
                 "biomedicalConceptIds": [
+                  "BiomedicalConcept_21",
+                  "BiomedicalConcept_22",
                   "BiomedicalConcept_23",
                   "BiomedicalConcept_24",
                   "BiomedicalConcept_25",
                   "BiomedicalConcept_26",
-                  "BiomedicalConcept_27",
-                  "BiomedicalConcept_28",
-                  "BiomedicalConcept_29"
+                  "BiomedicalConcept_27"
                 ],
                 "bcCategoryIds": [],
                 "bcSurrogateIds": [],
@@ -1339,12 +1354,12 @@
             "biomedicalConcepts": [
               {
                 "id": "BiomedicalConcept_18",
-                "name": "Systolic Blood Pressure",
-                "label": "Systolic Blood Pressure",
+                "name": "Body Temperature",
+                "label": "Body Temperature",
                 "bcSynonyms": [
-                  "SYSBP"
+                  "Temperature"
                 ],
-                "bcReference": "/mdr/bc/packages/2023-07-06/biomedicalconcepts/C25298",
+                "bcReference": "/mdr/bc/packages/2022-10-26/biomedicalconcepts/C174446",
                 "bcProperties": [
                   {
                     "id": "BiomedicalConceptProperty_86",
@@ -1368,8 +1383,8 @@
                   },
                   {
                     "id": "BiomedicalConceptProperty_87",
-                    "name": "Unit of Pressure",
-                    "label": "Unit of Pressure",
+                    "name": "Unit of Temperature",
+                    "label": "Unit of Temperature",
                     "bcPropertyRequired": true,
                     "bcPropertyEnabled": true,
                     "bcPropertyDatatype": "string",
@@ -1379,10 +1394,10 @@
                         "responseCodeEnabled": true,
                         "code": {
                           "id": "Code_245",
-                          "code": "C42547",
+                          "code": "C42537",
                           "codeSystem": "http://www.cdisc.org",
                           "codeSystemVersion": "2023-09-29",
-                          "decode": "Pascal"
+                          "decode": "Kelvin"
                         }
                       }
                     ],
@@ -1390,10 +1405,10 @@
                       "id": "AliasCode_110",
                       "standardCode": {
                         "id": "Code_246",
-                        "code": "C49669",
+                        "code": "C44276",
                         "codeSystem": "NCI Thesaurus",
                         "codeSystemVersion": "",
-                        "decode": "Unit of Pressure"
+                        "decode": "Unit of Temperature"
                       },
                       "standardCodeAliases": []
                     }
@@ -1417,320 +1432,12 @@
                       },
                       "standardCodeAliases": []
                     }
-                  },
-                  {
-                    "id": "BiomedicalConceptProperty_89",
-                    "name": "Vital Signs Laterality",
-                    "label": "Vital Signs Laterality",
-                    "bcPropertyRequired": true,
-                    "bcPropertyEnabled": true,
-                    "bcPropertyDatatype": "string",
-                    "bcPropertyResponseCodes": [],
-                    "code": {
-                      "id": "AliasCode_112",
-                      "standardCode": {
-                        "id": "Code_248",
-                        "code": "C123975",
-                        "codeSystem": "NCI Thesaurus",
-                        "codeSystemVersion": "",
-                        "decode": "Vital Signs Laterality"
-                      },
-                      "standardCodeAliases": []
-                    }
-                  },
-                  {
-                    "id": "BiomedicalConceptProperty_90",
-                    "name": "Test Method",
-                    "label": "Test Method",
-                    "bcPropertyRequired": true,
-                    "bcPropertyEnabled": true,
-                    "bcPropertyDatatype": "string",
-                    "bcPropertyResponseCodes": [],
-                    "code": {
-                      "id": "AliasCode_113",
-                      "standardCode": {
-                        "id": "Code_249",
-                        "code": "C82535",
-                        "codeSystem": "NCI Thesaurus",
-                        "codeSystemVersion": "",
-                        "decode": "Test Method"
-                      },
-                      "standardCodeAliases": []
-                    }
-                  },
-                  {
-                    "id": "BiomedicalConceptProperty_91",
-                    "name": "Vital Signs Position",
-                    "label": "Vital Signs Position",
-                    "bcPropertyRequired": true,
-                    "bcPropertyEnabled": true,
-                    "bcPropertyDatatype": "string",
-                    "bcPropertyResponseCodes": [],
-                    "code": {
-                      "id": "AliasCode_114",
-                      "standardCode": {
-                        "id": "Code_250",
-                        "code": "C83114",
-                        "codeSystem": "NCI Thesaurus",
-                        "codeSystemVersion": "",
-                        "decode": "Vital Signs Position"
-                      },
-                      "standardCodeAliases": []
-                    }
                   }
                 ],
                 "code": {
                   "id": "AliasCode_108",
                   "standardCode": {
                     "id": "Code_243",
-                    "code": "C25298",
-                    "codeSystem": "NCI Thesaurus",
-                    "codeSystemVersion": "",
-                    "decode": "Systolic Blood Pressure"
-                  },
-                  "standardCodeAliases": []
-                }
-              },
-              {
-                "id": "BiomedicalConcept_19",
-                "name": "Diastolic Blood Pressure",
-                "label": "Diastolic Blood Pressure",
-                "bcSynonyms": [
-                  "DIABP"
-                ],
-                "bcReference": "/mdr/bc/packages/2023-07-06/biomedicalconcepts/C25299",
-                "bcProperties": [
-                  {
-                    "id": "BiomedicalConceptProperty_92",
-                    "name": "Vital Signs Result",
-                    "label": "Vital Signs Result",
-                    "bcPropertyRequired": true,
-                    "bcPropertyEnabled": true,
-                    "bcPropertyDatatype": "decimal",
-                    "bcPropertyResponseCodes": [],
-                    "code": {
-                      "id": "AliasCode_116",
-                      "standardCode": {
-                        "id": "Code_252",
-                        "code": "C173522",
-                        "codeSystem": "NCI Thesaurus",
-                        "codeSystemVersion": "",
-                        "decode": "Vital Signs Result"
-                      },
-                      "standardCodeAliases": []
-                    }
-                  },
-                  {
-                    "id": "BiomedicalConceptProperty_93",
-                    "name": "Unit of Pressure",
-                    "label": "Unit of Pressure",
-                    "bcPropertyRequired": true,
-                    "bcPropertyEnabled": true,
-                    "bcPropertyDatatype": "string",
-                    "bcPropertyResponseCodes": [
-                      {
-                        "id": "ResponseCode_18",
-                        "responseCodeEnabled": true,
-                        "code": {
-                          "id": "Code_253",
-                          "code": "C42547",
-                          "codeSystem": "http://www.cdisc.org",
-                          "codeSystemVersion": "2023-09-29",
-                          "decode": "Pascal"
-                        }
-                      }
-                    ],
-                    "code": {
-                      "id": "AliasCode_117",
-                      "standardCode": {
-                        "id": "Code_254",
-                        "code": "C49669",
-                        "codeSystem": "NCI Thesaurus",
-                        "codeSystemVersion": "",
-                        "decode": "Unit of Pressure"
-                      },
-                      "standardCodeAliases": []
-                    }
-                  },
-                  {
-                    "id": "BiomedicalConceptProperty_94",
-                    "name": "Vital Signs Location",
-                    "label": "Vital Signs Location",
-                    "bcPropertyRequired": true,
-                    "bcPropertyEnabled": true,
-                    "bcPropertyDatatype": "string",
-                    "bcPropertyResponseCodes": [],
-                    "code": {
-                      "id": "AliasCode_118",
-                      "standardCode": {
-                        "id": "Code_255",
-                        "code": "C83088",
-                        "codeSystem": "NCI Thesaurus",
-                        "codeSystemVersion": "",
-                        "decode": "Vital Signs Location"
-                      },
-                      "standardCodeAliases": []
-                    }
-                  },
-                  {
-                    "id": "BiomedicalConceptProperty_95",
-                    "name": "Vital Signs Laterality",
-                    "label": "Vital Signs Laterality",
-                    "bcPropertyRequired": true,
-                    "bcPropertyEnabled": true,
-                    "bcPropertyDatatype": "string",
-                    "bcPropertyResponseCodes": [],
-                    "code": {
-                      "id": "AliasCode_119",
-                      "standardCode": {
-                        "id": "Code_256",
-                        "code": "C123975",
-                        "codeSystem": "NCI Thesaurus",
-                        "codeSystemVersion": "",
-                        "decode": "Vital Signs Laterality"
-                      },
-                      "standardCodeAliases": []
-                    }
-                  },
-                  {
-                    "id": "BiomedicalConceptProperty_96",
-                    "name": "Test Method",
-                    "label": "Test Method",
-                    "bcPropertyRequired": true,
-                    "bcPropertyEnabled": true,
-                    "bcPropertyDatatype": "string",
-                    "bcPropertyResponseCodes": [],
-                    "code": {
-                      "id": "AliasCode_120",
-                      "standardCode": {
-                        "id": "Code_257",
-                        "code": "C82535",
-                        "codeSystem": "NCI Thesaurus",
-                        "codeSystemVersion": "",
-                        "decode": "Test Method"
-                      },
-                      "standardCodeAliases": []
-                    }
-                  },
-                  {
-                    "id": "BiomedicalConceptProperty_97",
-                    "name": "Vital Signs Position",
-                    "label": "Vital Signs Position",
-                    "bcPropertyRequired": true,
-                    "bcPropertyEnabled": true,
-                    "bcPropertyDatatype": "string",
-                    "bcPropertyResponseCodes": [],
-                    "code": {
-                      "id": "AliasCode_121",
-                      "standardCode": {
-                        "id": "Code_258",
-                        "code": "C83114",
-                        "codeSystem": "NCI Thesaurus",
-                        "codeSystemVersion": "",
-                        "decode": "Vital Signs Position"
-                      },
-                      "standardCodeAliases": []
-                    }
-                  }
-                ],
-                "code": {
-                  "id": "AliasCode_115",
-                  "standardCode": {
-                    "id": "Code_251",
-                    "code": "C25299",
-                    "codeSystem": "NCI Thesaurus",
-                    "codeSystemVersion": "",
-                    "decode": "Diastolic Blood Pressure"
-                  },
-                  "standardCodeAliases": []
-                }
-              },
-              {
-                "id": "BiomedicalConcept_20",
-                "name": "Body Temperature",
-                "label": "Body Temperature",
-                "bcSynonyms": [
-                  "Temperature"
-                ],
-                "bcReference": "/mdr/bc/packages/2022-10-26/biomedicalconcepts/C174446",
-                "bcProperties": [
-                  {
-                    "id": "BiomedicalConceptProperty_98",
-                    "name": "Vital Signs Result",
-                    "label": "Vital Signs Result",
-                    "bcPropertyRequired": true,
-                    "bcPropertyEnabled": true,
-                    "bcPropertyDatatype": "decimal",
-                    "bcPropertyResponseCodes": [],
-                    "code": {
-                      "id": "AliasCode_123",
-                      "standardCode": {
-                        "id": "Code_260",
-                        "code": "C173522",
-                        "codeSystem": "NCI Thesaurus",
-                        "codeSystemVersion": "",
-                        "decode": "Vital Signs Result"
-                      },
-                      "standardCodeAliases": []
-                    }
-                  },
-                  {
-                    "id": "BiomedicalConceptProperty_99",
-                    "name": "Unit of Temperature",
-                    "label": "Unit of Temperature",
-                    "bcPropertyRequired": true,
-                    "bcPropertyEnabled": true,
-                    "bcPropertyDatatype": "string",
-                    "bcPropertyResponseCodes": [
-                      {
-                        "id": "ResponseCode_19",
-                        "responseCodeEnabled": true,
-                        "code": {
-                          "id": "Code_261",
-                          "code": "C42537",
-                          "codeSystem": "http://www.cdisc.org",
-                          "codeSystemVersion": "2023-09-29",
-                          "decode": "Kelvin"
-                        }
-                      }
-                    ],
-                    "code": {
-                      "id": "AliasCode_124",
-                      "standardCode": {
-                        "id": "Code_262",
-                        "code": "C44276",
-                        "codeSystem": "NCI Thesaurus",
-                        "codeSystemVersion": "",
-                        "decode": "Unit of Temperature"
-                      },
-                      "standardCodeAliases": []
-                    }
-                  },
-                  {
-                    "id": "BiomedicalConceptProperty_100",
-                    "name": "Vital Signs Location",
-                    "label": "Vital Signs Location",
-                    "bcPropertyRequired": true,
-                    "bcPropertyEnabled": true,
-                    "bcPropertyDatatype": "string",
-                    "bcPropertyResponseCodes": [],
-                    "code": {
-                      "id": "AliasCode_125",
-                      "standardCode": {
-                        "id": "Code_263",
-                        "code": "C83088",
-                        "codeSystem": "NCI Thesaurus",
-                        "codeSystemVersion": "",
-                        "decode": "Vital Signs Location"
-                      },
-                      "standardCodeAliases": []
-                    }
-                  }
-                ],
-                "code": {
-                  "id": "AliasCode_122",
-                  "standardCode": {
-                    "id": "Code_259",
                     "code": "C174446",
                     "codeSystem": "NCI Thesaurus",
                     "codeSystemVersion": "",
@@ -1740,7 +1447,7 @@
                 }
               },
               {
-                "id": "BiomedicalConcept_21",
+                "id": "BiomedicalConcept_19",
                 "name": "Body Weight",
                 "label": "Body Weight",
                 "bcSynonyms": [
@@ -1749,7 +1456,7 @@
                 "bcReference": "/mdr/bc/packages/2022-10-26/biomedicalconcepts/C81328",
                 "bcProperties": [
                   {
-                    "id": "BiomedicalConceptProperty_101",
+                    "id": "BiomedicalConceptProperty_89",
                     "name": "Vital Signs Result",
                     "label": "Vital Signs Result",
                     "bcPropertyRequired": true,
@@ -1757,9 +1464,9 @@
                     "bcPropertyDatatype": "decimal",
                     "bcPropertyResponseCodes": [],
                     "code": {
-                      "id": "AliasCode_127",
+                      "id": "AliasCode_113",
                       "standardCode": {
-                        "id": "Code_265",
+                        "id": "Code_249",
                         "code": "C173522",
                         "codeSystem": "NCI Thesaurus",
                         "codeSystemVersion": "",
@@ -1769,7 +1476,7 @@
                     }
                   },
                   {
-                    "id": "BiomedicalConceptProperty_102",
+                    "id": "BiomedicalConceptProperty_90",
                     "name": "Unit of Weight",
                     "label": "Unit of Weight",
                     "bcPropertyRequired": true,
@@ -1777,10 +1484,10 @@
                     "bcPropertyDatatype": "string",
                     "bcPropertyResponseCodes": [
                       {
-                        "id": "ResponseCode_20",
+                        "id": "ResponseCode_18",
                         "responseCodeEnabled": true,
                         "code": {
-                          "id": "Code_266",
+                          "id": "Code_250",
                           "code": "C28252",
                           "codeSystem": "http://www.cdisc.org",
                           "codeSystemVersion": "2023-09-29",
@@ -1788,10 +1495,10 @@
                         }
                       },
                       {
-                        "id": "ResponseCode_21",
+                        "id": "ResponseCode_19",
                         "responseCodeEnabled": true,
                         "code": {
-                          "id": "Code_267",
+                          "id": "Code_251",
                           "code": "C48155",
                           "codeSystem": "http://www.cdisc.org",
                           "codeSystemVersion": "2023-09-29",
@@ -1799,10 +1506,10 @@
                         }
                       },
                       {
-                        "id": "ResponseCode_22",
+                        "id": "ResponseCode_20",
                         "responseCodeEnabled": true,
                         "code": {
-                          "id": "Code_268",
+                          "id": "Code_252",
                           "code": "C48531",
                           "codeSystem": "http://www.cdisc.org",
                           "codeSystemVersion": "2023-09-29",
@@ -1811,9 +1518,9 @@
                       }
                     ],
                     "code": {
-                      "id": "AliasCode_128",
+                      "id": "AliasCode_114",
                       "standardCode": {
-                        "id": "Code_269",
+                        "id": "Code_253",
                         "code": "C48208",
                         "codeSystem": "NCI Thesaurus",
                         "codeSystemVersion": "",
@@ -1824,9 +1531,9 @@
                   }
                 ],
                 "code": {
-                  "id": "AliasCode_126",
+                  "id": "AliasCode_112",
                   "standardCode": {
-                    "id": "Code_264",
+                    "id": "Code_248",
                     "code": "C81328",
                     "codeSystem": "NCI Thesaurus",
                     "codeSystemVersion": "",
@@ -1836,7 +1543,7 @@
                 }
               },
               {
-                "id": "BiomedicalConcept_22",
+                "id": "BiomedicalConcept_20",
                 "name": "Body Height",
                 "label": "Body Height",
                 "bcSynonyms": [
@@ -1845,7 +1552,7 @@
                 "bcReference": "/mdr/bc/packages/2022-10-26/biomedicalconcepts/C164634",
                 "bcProperties": [
                   {
-                    "id": "BiomedicalConceptProperty_103",
+                    "id": "BiomedicalConceptProperty_91",
                     "name": "Vital Signs Result",
                     "label": "Vital Signs Result",
                     "bcPropertyRequired": true,
@@ -1853,9 +1560,9 @@
                     "bcPropertyDatatype": "decimal",
                     "bcPropertyResponseCodes": [],
                     "code": {
-                      "id": "AliasCode_130",
+                      "id": "AliasCode_116",
                       "standardCode": {
-                        "id": "Code_271",
+                        "id": "Code_255",
                         "code": "C173522",
                         "codeSystem": "NCI Thesaurus",
                         "codeSystemVersion": "",
@@ -1865,7 +1572,7 @@
                     }
                   },
                   {
-                    "id": "BiomedicalConceptProperty_104",
+                    "id": "BiomedicalConceptProperty_92",
                     "name": "Unit of Height",
                     "label": "Unit of Height",
                     "bcPropertyRequired": true,
@@ -1873,10 +1580,10 @@
                     "bcPropertyDatatype": "string",
                     "bcPropertyResponseCodes": [
                       {
-                        "id": "ResponseCode_23",
+                        "id": "ResponseCode_21",
                         "responseCodeEnabled": true,
                         "code": {
-                          "id": "Code_272",
+                          "id": "Code_256",
                           "code": "C49668",
                           "codeSystem": "http://www.cdisc.org",
                           "codeSystemVersion": "2023-09-29",
@@ -1884,10 +1591,10 @@
                         }
                       },
                       {
-                        "id": "ResponseCode_24",
+                        "id": "ResponseCode_22",
                         "responseCodeEnabled": true,
                         "code": {
-                          "id": "Code_273",
+                          "id": "Code_257",
                           "code": "C48500",
                           "codeSystem": "http://www.cdisc.org",
                           "codeSystemVersion": "2023-09-29",
@@ -1895,10 +1602,10 @@
                         }
                       },
                       {
-                        "id": "ResponseCode_25",
+                        "id": "ResponseCode_23",
                         "responseCodeEnabled": true,
                         "code": {
-                          "id": "Code_274",
+                          "id": "Code_258",
                           "code": "C28251",
                           "codeSystem": "http://www.cdisc.org",
                           "codeSystemVersion": "2023-09-29",
@@ -1906,10 +1613,10 @@
                         }
                       },
                       {
-                        "id": "ResponseCode_26",
+                        "id": "ResponseCode_24",
                         "responseCodeEnabled": true,
                         "code": {
-                          "id": "Code_275",
+                          "id": "Code_259",
                           "code": "C41139",
                           "codeSystem": "http://www.cdisc.org",
                           "codeSystemVersion": "2023-09-29",
@@ -1918,9 +1625,9 @@
                       }
                     ],
                     "code": {
-                      "id": "AliasCode_131",
+                      "id": "AliasCode_117",
                       "standardCode": {
-                        "id": "Code_276",
+                        "id": "Code_260",
                         "code": "C168688",
                         "codeSystem": "NCI Thesaurus",
                         "codeSystemVersion": "",
@@ -1931,9 +1638,9 @@
                   }
                 ],
                 "code": {
-                  "id": "AliasCode_129",
+                  "id": "AliasCode_115",
                   "standardCode": {
-                    "id": "Code_270",
+                    "id": "Code_254",
                     "code": "C164634",
                     "codeSystem": "NCI Thesaurus",
                     "codeSystemVersion": "",
@@ -1943,7 +1650,7 @@
                 }
               },
               {
-                "id": "BiomedicalConcept_23",
+                "id": "BiomedicalConcept_21",
                 "name": "Alanine Aminotransferase Measurement",
                 "label": "Alanine Aminotransferase Measurement",
                 "bcSynonyms": [
@@ -1951,6 +1658,313 @@
                   "SGPT"
                 ],
                 "bcReference": "/mdr/bc/packages/2023-02-13/biomedicalconcepts/C64433",
+                "bcProperties": [
+                  {
+                    "id": "BiomedicalConceptProperty_93",
+                    "name": "Laboratory Test Result",
+                    "label": "Laboratory Test Result",
+                    "bcPropertyRequired": true,
+                    "bcPropertyEnabled": true,
+                    "bcPropertyDatatype": "decimal",
+                    "bcPropertyResponseCodes": [],
+                    "code": {
+                      "id": "AliasCode_119",
+                      "standardCode": {
+                        "id": "Code_262",
+                        "code": "C36292",
+                        "codeSystem": "NCI Thesaurus",
+                        "codeSystemVersion": "",
+                        "decode": "Laboratory Test Result"
+                      },
+                      "standardCodeAliases": []
+                    }
+                  },
+                  {
+                    "id": "BiomedicalConceptProperty_94",
+                    "name": "Laboratory Test Fasting Status",
+                    "label": "Laboratory Test Fasting Status",
+                    "bcPropertyRequired": true,
+                    "bcPropertyEnabled": true,
+                    "bcPropertyDatatype": "boolean",
+                    "bcPropertyResponseCodes": [],
+                    "code": {
+                      "id": "AliasCode_120",
+                      "standardCode": {
+                        "id": "Code_263",
+                        "code": "C83309",
+                        "codeSystem": "NCI Thesaurus",
+                        "codeSystemVersion": "",
+                        "decode": "Laboratory Test Fasting Status"
+                      },
+                      "standardCodeAliases": []
+                    }
+                  },
+                  {
+                    "id": "BiomedicalConceptProperty_95",
+                    "name": "Unit of Catalytic Activity Concentration",
+                    "label": "Unit of Catalytic Activity Concentration",
+                    "bcPropertyRequired": true,
+                    "bcPropertyEnabled": true,
+                    "bcPropertyDatatype": "string",
+                    "bcPropertyResponseCodes": [],
+                    "code": {
+                      "id": "AliasCode_121",
+                      "standardCode": {
+                        "id": "Code_264",
+                        "code": "C67365",
+                        "codeSystem": "NCI Thesaurus",
+                        "codeSystemVersion": "",
+                        "decode": "Unit of Catalytic Activity Concentration"
+                      },
+                      "standardCodeAliases": []
+                    }
+                  },
+                  {
+                    "id": "BiomedicalConceptProperty_96",
+                    "name": "Biospecimen Type",
+                    "label": "Biospecimen Type",
+                    "bcPropertyRequired": true,
+                    "bcPropertyEnabled": true,
+                    "bcPropertyDatatype": "string",
+                    "bcPropertyResponseCodes": [],
+                    "code": {
+                      "id": "AliasCode_122",
+                      "standardCode": {
+                        "id": "Code_265",
+                        "code": "C70713",
+                        "codeSystem": "NCI Thesaurus",
+                        "codeSystemVersion": "",
+                        "decode": "Biospecimen Type"
+                      },
+                      "standardCodeAliases": []
+                    }
+                  }
+                ],
+                "code": {
+                  "id": "AliasCode_118",
+                  "standardCode": {
+                    "id": "Code_261",
+                    "code": "C64433",
+                    "codeSystem": "NCI Thesaurus",
+                    "codeSystemVersion": "",
+                    "decode": "Alanine Aminotransferase Measurement"
+                  },
+                  "standardCodeAliases": []
+                }
+              },
+              {
+                "id": "BiomedicalConcept_22",
+                "name": "Albumin Measurement",
+                "label": "Albumin Measurement",
+                "bcSynonyms": [
+                  "Albumin"
+                ],
+                "bcReference": "/mdr/bc/packages/2023-10-03/biomedicalconcepts/C64431",
+                "bcProperties": [
+                  {
+                    "id": "BiomedicalConceptProperty_97",
+                    "name": "Laboratory Test Result",
+                    "label": "Laboratory Test Result",
+                    "bcPropertyRequired": true,
+                    "bcPropertyEnabled": true,
+                    "bcPropertyDatatype": "string",
+                    "bcPropertyResponseCodes": [],
+                    "code": {
+                      "id": "AliasCode_124",
+                      "standardCode": {
+                        "id": "Code_267",
+                        "code": "C36292",
+                        "codeSystem": "NCI Thesaurus",
+                        "codeSystemVersion": "",
+                        "decode": "Laboratory Test Result"
+                      },
+                      "standardCodeAliases": []
+                    }
+                  },
+                  {
+                    "id": "BiomedicalConceptProperty_98",
+                    "name": "Laboratory Test Fasting Status",
+                    "label": "Laboratory Test Fasting Status",
+                    "bcPropertyRequired": true,
+                    "bcPropertyEnabled": true,
+                    "bcPropertyDatatype": "boolean",
+                    "bcPropertyResponseCodes": [],
+                    "code": {
+                      "id": "AliasCode_125",
+                      "standardCode": {
+                        "id": "Code_268",
+                        "code": "C83309",
+                        "codeSystem": "NCI Thesaurus",
+                        "codeSystemVersion": "",
+                        "decode": "Laboratory Test Fasting Status"
+                      },
+                      "standardCodeAliases": []
+                    }
+                  },
+                  {
+                    "id": "BiomedicalConceptProperty_99",
+                    "name": "Unit of Concentration",
+                    "label": "Unit of Concentration",
+                    "bcPropertyRequired": true,
+                    "bcPropertyEnabled": true,
+                    "bcPropertyDatatype": "string",
+                    "bcPropertyResponseCodes": [],
+                    "code": {
+                      "id": "AliasCode_126",
+                      "standardCode": {
+                        "id": "Code_269",
+                        "code": "C48207",
+                        "codeSystem": "NCI Thesaurus",
+                        "codeSystemVersion": "",
+                        "decode": "Unit of Concentration"
+                      },
+                      "standardCodeAliases": []
+                    }
+                  },
+                  {
+                    "id": "BiomedicalConceptProperty_100",
+                    "name": "Biospecimen Type",
+                    "label": "Biospecimen Type",
+                    "bcPropertyRequired": true,
+                    "bcPropertyEnabled": true,
+                    "bcPropertyDatatype": "string",
+                    "bcPropertyResponseCodes": [],
+                    "code": {
+                      "id": "AliasCode_127",
+                      "standardCode": {
+                        "id": "Code_270",
+                        "code": "C70713",
+                        "codeSystem": "NCI Thesaurus",
+                        "codeSystemVersion": "",
+                        "decode": "Biospecimen Type"
+                      },
+                      "standardCodeAliases": []
+                    }
+                  }
+                ],
+                "code": {
+                  "id": "AliasCode_123",
+                  "standardCode": {
+                    "id": "Code_266",
+                    "code": "C64431",
+                    "codeSystem": "NCI Thesaurus",
+                    "codeSystemVersion": "",
+                    "decode": "Albumin Measurement"
+                  },
+                  "standardCodeAliases": []
+                }
+              },
+              {
+                "id": "BiomedicalConcept_23",
+                "name": "Alkaline Phosphatase Measurement",
+                "label": "Alkaline Phosphatase Measurement",
+                "bcSynonyms": [
+                  "Alkaline Phosphatase"
+                ],
+                "bcReference": "/mdr/bc/packages/2023-02-13/biomedicalconcepts/C64432",
+                "bcProperties": [
+                  {
+                    "id": "BiomedicalConceptProperty_101",
+                    "name": "Laboratory Test Result",
+                    "label": "Laboratory Test Result",
+                    "bcPropertyRequired": true,
+                    "bcPropertyEnabled": true,
+                    "bcPropertyDatatype": "decimal",
+                    "bcPropertyResponseCodes": [],
+                    "code": {
+                      "id": "AliasCode_129",
+                      "standardCode": {
+                        "id": "Code_272",
+                        "code": "C36292",
+                        "codeSystem": "NCI Thesaurus",
+                        "codeSystemVersion": "",
+                        "decode": "Laboratory Test Result"
+                      },
+                      "standardCodeAliases": []
+                    }
+                  },
+                  {
+                    "id": "BiomedicalConceptProperty_102",
+                    "name": "Laboratory Test Fasting Status",
+                    "label": "Laboratory Test Fasting Status",
+                    "bcPropertyRequired": true,
+                    "bcPropertyEnabled": true,
+                    "bcPropertyDatatype": "boolean",
+                    "bcPropertyResponseCodes": [],
+                    "code": {
+                      "id": "AliasCode_130",
+                      "standardCode": {
+                        "id": "Code_273",
+                        "code": "C83309",
+                        "codeSystem": "NCI Thesaurus",
+                        "codeSystemVersion": "",
+                        "decode": "Laboratory Test Fasting Status"
+                      },
+                      "standardCodeAliases": []
+                    }
+                  },
+                  {
+                    "id": "BiomedicalConceptProperty_103",
+                    "name": "Unit of Catalytic Activity Concentration",
+                    "label": "Unit of Catalytic Activity Concentration",
+                    "bcPropertyRequired": true,
+                    "bcPropertyEnabled": true,
+                    "bcPropertyDatatype": "string",
+                    "bcPropertyResponseCodes": [],
+                    "code": {
+                      "id": "AliasCode_131",
+                      "standardCode": {
+                        "id": "Code_274",
+                        "code": "C67365",
+                        "codeSystem": "NCI Thesaurus",
+                        "codeSystemVersion": "",
+                        "decode": "Unit of Catalytic Activity Concentration"
+                      },
+                      "standardCodeAliases": []
+                    }
+                  },
+                  {
+                    "id": "BiomedicalConceptProperty_104",
+                    "name": "Biospecimen Type",
+                    "label": "Biospecimen Type",
+                    "bcPropertyRequired": true,
+                    "bcPropertyEnabled": true,
+                    "bcPropertyDatatype": "string",
+                    "bcPropertyResponseCodes": [],
+                    "code": {
+                      "id": "AliasCode_132",
+                      "standardCode": {
+                        "id": "Code_275",
+                        "code": "C70713",
+                        "codeSystem": "NCI Thesaurus",
+                        "codeSystemVersion": "",
+                        "decode": "Biospecimen Type"
+                      },
+                      "standardCodeAliases": []
+                    }
+                  }
+                ],
+                "code": {
+                  "id": "AliasCode_128",
+                  "standardCode": {
+                    "id": "Code_271",
+                    "code": "C64432",
+                    "codeSystem": "NCI Thesaurus",
+                    "codeSystemVersion": "",
+                    "decode": "Alkaline Phosphatase Measurement"
+                  },
+                  "standardCodeAliases": []
+                }
+              },
+              {
+                "id": "BiomedicalConcept_24",
+                "name": "Aspartate Aminotransferase Measurement",
+                "label": "Aspartate Aminotransferase Measurement",
+                "bcSynonyms": [
+                  "AST",
+                  "SGOT"
+                ],
+                "bcReference": "/mdr/bc/packages/2023-02-13/biomedicalconcepts/C64467",
                 "bcProperties": [
                   {
                     "id": "BiomedicalConceptProperty_105",
@@ -1961,9 +1975,9 @@
                     "bcPropertyDatatype": "decimal",
                     "bcPropertyResponseCodes": [],
                     "code": {
-                      "id": "AliasCode_133",
+                      "id": "AliasCode_134",
                       "standardCode": {
-                        "id": "Code_278",
+                        "id": "Code_277",
                         "code": "C36292",
                         "codeSystem": "NCI Thesaurus",
                         "codeSystemVersion": "",
@@ -1981,9 +1995,9 @@
                     "bcPropertyDatatype": "boolean",
                     "bcPropertyResponseCodes": [],
                     "code": {
-                      "id": "AliasCode_134",
+                      "id": "AliasCode_135",
                       "standardCode": {
-                        "id": "Code_279",
+                        "id": "Code_278",
                         "code": "C83309",
                         "codeSystem": "NCI Thesaurus",
                         "codeSystemVersion": "",
@@ -2001,9 +2015,9 @@
                     "bcPropertyDatatype": "string",
                     "bcPropertyResponseCodes": [],
                     "code": {
-                      "id": "AliasCode_135",
+                      "id": "AliasCode_136",
                       "standardCode": {
-                        "id": "Code_280",
+                        "id": "Code_279",
                         "code": "C67365",
                         "codeSystem": "NCI Thesaurus",
                         "codeSystemVersion": "",
@@ -2021,9 +2035,9 @@
                     "bcPropertyDatatype": "string",
                     "bcPropertyResponseCodes": [],
                     "code": {
-                      "id": "AliasCode_136",
+                      "id": "AliasCode_137",
                       "standardCode": {
-                        "id": "Code_281",
+                        "id": "Code_280",
                         "code": "C70713",
                         "codeSystem": "NCI Thesaurus",
                         "codeSystemVersion": "",
@@ -2034,25 +2048,25 @@
                   }
                 ],
                 "code": {
-                  "id": "AliasCode_132",
+                  "id": "AliasCode_133",
                   "standardCode": {
-                    "id": "Code_277",
-                    "code": "C64433",
+                    "id": "Code_276",
+                    "code": "C64467",
                     "codeSystem": "NCI Thesaurus",
                     "codeSystemVersion": "",
-                    "decode": "Alanine Aminotransferase Measurement"
+                    "decode": "Aspartate Aminotransferase Measurement"
                   },
                   "standardCodeAliases": []
                 }
               },
               {
-                "id": "BiomedicalConcept_24",
-                "name": "Albumin Measurement",
-                "label": "Albumin Measurement",
+                "id": "BiomedicalConcept_25",
+                "name": "Creatinine Measurement",
+                "label": "Creatinine Measurement",
                 "bcSynonyms": [
-                  "Albumin"
+                  "Creatinine"
                 ],
-                "bcReference": "/mdr/bc/packages/2023-10-03/biomedicalconcepts/C64431",
+                "bcReference": "/mdr/bc/packages/2023-10-03/biomedicalconcepts/C64547",
                 "bcProperties": [
                   {
                     "id": "BiomedicalConceptProperty_109",
@@ -2063,9 +2077,9 @@
                     "bcPropertyDatatype": "string",
                     "bcPropertyResponseCodes": [],
                     "code": {
-                      "id": "AliasCode_138",
+                      "id": "AliasCode_139",
                       "standardCode": {
-                        "id": "Code_283",
+                        "id": "Code_282",
                         "code": "C36292",
                         "codeSystem": "NCI Thesaurus",
                         "codeSystemVersion": "",
@@ -2083,9 +2097,9 @@
                     "bcPropertyDatatype": "boolean",
                     "bcPropertyResponseCodes": [],
                     "code": {
-                      "id": "AliasCode_139",
+                      "id": "AliasCode_140",
                       "standardCode": {
-                        "id": "Code_284",
+                        "id": "Code_283",
                         "code": "C83309",
                         "codeSystem": "NCI Thesaurus",
                         "codeSystemVersion": "",
@@ -2103,9 +2117,9 @@
                     "bcPropertyDatatype": "string",
                     "bcPropertyResponseCodes": [],
                     "code": {
-                      "id": "AliasCode_140",
+                      "id": "AliasCode_141",
                       "standardCode": {
-                        "id": "Code_285",
+                        "id": "Code_284",
                         "code": "C48207",
                         "codeSystem": "NCI Thesaurus",
                         "codeSystemVersion": "",
@@ -2123,9 +2137,9 @@
                     "bcPropertyDatatype": "string",
                     "bcPropertyResponseCodes": [],
                     "code": {
-                      "id": "AliasCode_141",
+                      "id": "AliasCode_142",
                       "standardCode": {
-                        "id": "Code_286",
+                        "id": "Code_285",
                         "code": "C70713",
                         "codeSystem": "NCI Thesaurus",
                         "codeSystemVersion": "",
@@ -2136,25 +2150,26 @@
                   }
                 ],
                 "code": {
-                  "id": "AliasCode_137",
+                  "id": "AliasCode_138",
                   "standardCode": {
-                    "id": "Code_282",
-                    "code": "C64431",
+                    "id": "Code_281",
+                    "code": "C64547",
                     "codeSystem": "NCI Thesaurus",
                     "codeSystemVersion": "",
-                    "decode": "Albumin Measurement"
+                    "decode": "Creatinine Measurement"
                   },
                   "standardCodeAliases": []
                 }
               },
               {
-                "id": "BiomedicalConcept_25",
-                "name": "Alkaline Phosphatase Measurement",
-                "label": "Alkaline Phosphatase Measurement",
+                "id": "BiomedicalConcept_26",
+                "name": "Potassium Measurement",
+                "label": "Potassium Measurement",
                 "bcSynonyms": [
-                  "Alkaline Phosphatase"
+                  "Potassium",
+                  "K"
                 ],
-                "bcReference": "/mdr/bc/packages/2023-02-13/biomedicalconcepts/C64432",
+                "bcReference": "/mdr/bc/packages/2023-02-13/biomedicalconcepts/C64853",
                 "bcProperties": [
                   {
                     "id": "BiomedicalConceptProperty_113",
@@ -2165,9 +2180,9 @@
                     "bcPropertyDatatype": "decimal",
                     "bcPropertyResponseCodes": [],
                     "code": {
-                      "id": "AliasCode_143",
+                      "id": "AliasCode_144",
                       "standardCode": {
-                        "id": "Code_288",
+                        "id": "Code_287",
                         "code": "C36292",
                         "codeSystem": "NCI Thesaurus",
                         "codeSystemVersion": "",
@@ -2185,9 +2200,9 @@
                     "bcPropertyDatatype": "boolean",
                     "bcPropertyResponseCodes": [],
                     "code": {
-                      "id": "AliasCode_144",
+                      "id": "AliasCode_145",
                       "standardCode": {
-                        "id": "Code_289",
+                        "id": "Code_288",
                         "code": "C83309",
                         "codeSystem": "NCI Thesaurus",
                         "codeSystemVersion": "",
@@ -2198,20 +2213,20 @@
                   },
                   {
                     "id": "BiomedicalConceptProperty_115",
-                    "name": "Unit of Catalytic Activity Concentration",
-                    "label": "Unit of Catalytic Activity Concentration",
+                    "name": "Molarity Unit",
+                    "label": "Molarity Unit",
                     "bcPropertyRequired": true,
                     "bcPropertyEnabled": true,
                     "bcPropertyDatatype": "string",
                     "bcPropertyResponseCodes": [],
                     "code": {
-                      "id": "AliasCode_145",
+                      "id": "AliasCode_146",
                       "standardCode": {
-                        "id": "Code_290",
-                        "code": "C67365",
+                        "id": "Code_289",
+                        "code": "C64567",
                         "codeSystem": "NCI Thesaurus",
                         "codeSystemVersion": "",
-                        "decode": "Unit of Catalytic Activity Concentration"
+                        "decode": "Molarity Unit"
                       },
                       "standardCodeAliases": []
                     }
@@ -2225,9 +2240,9 @@
                     "bcPropertyDatatype": "string",
                     "bcPropertyResponseCodes": [],
                     "code": {
-                      "id": "AliasCode_146",
+                      "id": "AliasCode_147",
                       "standardCode": {
-                        "id": "Code_291",
+                        "id": "Code_290",
                         "code": "C70713",
                         "codeSystem": "NCI Thesaurus",
                         "codeSystemVersion": "",
@@ -2238,26 +2253,26 @@
                   }
                 ],
                 "code": {
-                  "id": "AliasCode_142",
+                  "id": "AliasCode_143",
                   "standardCode": {
-                    "id": "Code_287",
-                    "code": "C64432",
+                    "id": "Code_286",
+                    "code": "C64853",
                     "codeSystem": "NCI Thesaurus",
                     "codeSystemVersion": "",
-                    "decode": "Alkaline Phosphatase Measurement"
+                    "decode": "Potassium Measurement"
                   },
                   "standardCodeAliases": []
                 }
               },
               {
-                "id": "BiomedicalConcept_26",
-                "name": "Aspartate Aminotransferase Measurement",
-                "label": "Aspartate Aminotransferase Measurement",
+                "id": "BiomedicalConcept_27",
+                "name": "Sodium Measurement",
+                "label": "Sodium Measurement",
                 "bcSynonyms": [
-                  "AST",
-                  "SGOT"
+                  "Sodium",
+                  "NA"
                 ],
-                "bcReference": "/mdr/bc/packages/2023-02-13/biomedicalconcepts/C64467",
+                "bcReference": "/mdr/bc/packages/2023-02-13/biomedicalconcepts/C64809",
                 "bcProperties": [
                   {
                     "id": "BiomedicalConceptProperty_117",
@@ -2268,9 +2283,9 @@
                     "bcPropertyDatatype": "decimal",
                     "bcPropertyResponseCodes": [],
                     "code": {
-                      "id": "AliasCode_148",
+                      "id": "AliasCode_149",
                       "standardCode": {
-                        "id": "Code_293",
+                        "id": "Code_292",
                         "code": "C36292",
                         "codeSystem": "NCI Thesaurus",
                         "codeSystemVersion": "",
@@ -2288,9 +2303,9 @@
                     "bcPropertyDatatype": "boolean",
                     "bcPropertyResponseCodes": [],
                     "code": {
-                      "id": "AliasCode_149",
+                      "id": "AliasCode_150",
                       "standardCode": {
-                        "id": "Code_294",
+                        "id": "Code_293",
                         "code": "C83309",
                         "codeSystem": "NCI Thesaurus",
                         "codeSystemVersion": "",
@@ -2301,20 +2316,20 @@
                   },
                   {
                     "id": "BiomedicalConceptProperty_119",
-                    "name": "Unit of Catalytic Activity Concentration",
-                    "label": "Unit of Catalytic Activity Concentration",
+                    "name": "Molarity Unit",
+                    "label": "Molarity Unit",
                     "bcPropertyRequired": true,
                     "bcPropertyEnabled": true,
                     "bcPropertyDatatype": "string",
                     "bcPropertyResponseCodes": [],
                     "code": {
-                      "id": "AliasCode_150",
+                      "id": "AliasCode_151",
                       "standardCode": {
-                        "id": "Code_295",
-                        "code": "C67365",
+                        "id": "Code_294",
+                        "code": "C64567",
                         "codeSystem": "NCI Thesaurus",
                         "codeSystemVersion": "",
-                        "decode": "Unit of Catalytic Activity Concentration"
+                        "decode": "Molarity Unit"
                       },
                       "standardCodeAliases": []
                     }
@@ -2328,9 +2343,9 @@
                     "bcPropertyDatatype": "string",
                     "bcPropertyResponseCodes": [],
                     "code": {
-                      "id": "AliasCode_151",
+                      "id": "AliasCode_152",
                       "standardCode": {
-                        "id": "Code_296",
+                        "id": "Code_295",
                         "code": "C70713",
                         "codeSystem": "NCI Thesaurus",
                         "codeSystemVersion": "",
@@ -2341,317 +2356,9 @@
                   }
                 ],
                 "code": {
-                  "id": "AliasCode_147",
+                  "id": "AliasCode_148",
                   "standardCode": {
-                    "id": "Code_292",
-                    "code": "C64467",
-                    "codeSystem": "NCI Thesaurus",
-                    "codeSystemVersion": "",
-                    "decode": "Aspartate Aminotransferase Measurement"
-                  },
-                  "standardCodeAliases": []
-                }
-              },
-              {
-                "id": "BiomedicalConcept_27",
-                "name": "Creatinine Measurement",
-                "label": "Creatinine Measurement",
-                "bcSynonyms": [
-                  "Creatinine"
-                ],
-                "bcReference": "/mdr/bc/packages/2023-10-03/biomedicalconcepts/C64547",
-                "bcProperties": [
-                  {
-                    "id": "BiomedicalConceptProperty_121",
-                    "name": "Laboratory Test Result",
-                    "label": "Laboratory Test Result",
-                    "bcPropertyRequired": true,
-                    "bcPropertyEnabled": true,
-                    "bcPropertyDatatype": "string",
-                    "bcPropertyResponseCodes": [],
-                    "code": {
-                      "id": "AliasCode_153",
-                      "standardCode": {
-                        "id": "Code_298",
-                        "code": "C36292",
-                        "codeSystem": "NCI Thesaurus",
-                        "codeSystemVersion": "",
-                        "decode": "Laboratory Test Result"
-                      },
-                      "standardCodeAliases": []
-                    }
-                  },
-                  {
-                    "id": "BiomedicalConceptProperty_122",
-                    "name": "Laboratory Test Fasting Status",
-                    "label": "Laboratory Test Fasting Status",
-                    "bcPropertyRequired": true,
-                    "bcPropertyEnabled": true,
-                    "bcPropertyDatatype": "boolean",
-                    "bcPropertyResponseCodes": [],
-                    "code": {
-                      "id": "AliasCode_154",
-                      "standardCode": {
-                        "id": "Code_299",
-                        "code": "C83309",
-                        "codeSystem": "NCI Thesaurus",
-                        "codeSystemVersion": "",
-                        "decode": "Laboratory Test Fasting Status"
-                      },
-                      "standardCodeAliases": []
-                    }
-                  },
-                  {
-                    "id": "BiomedicalConceptProperty_123",
-                    "name": "Unit of Concentration",
-                    "label": "Unit of Concentration",
-                    "bcPropertyRequired": true,
-                    "bcPropertyEnabled": true,
-                    "bcPropertyDatatype": "string",
-                    "bcPropertyResponseCodes": [],
-                    "code": {
-                      "id": "AliasCode_155",
-                      "standardCode": {
-                        "id": "Code_300",
-                        "code": "C48207",
-                        "codeSystem": "NCI Thesaurus",
-                        "codeSystemVersion": "",
-                        "decode": "Unit of Concentration"
-                      },
-                      "standardCodeAliases": []
-                    }
-                  },
-                  {
-                    "id": "BiomedicalConceptProperty_124",
-                    "name": "Biospecimen Type",
-                    "label": "Biospecimen Type",
-                    "bcPropertyRequired": true,
-                    "bcPropertyEnabled": true,
-                    "bcPropertyDatatype": "string",
-                    "bcPropertyResponseCodes": [],
-                    "code": {
-                      "id": "AliasCode_156",
-                      "standardCode": {
-                        "id": "Code_301",
-                        "code": "C70713",
-                        "codeSystem": "NCI Thesaurus",
-                        "codeSystemVersion": "",
-                        "decode": "Biospecimen Type"
-                      },
-                      "standardCodeAliases": []
-                    }
-                  }
-                ],
-                "code": {
-                  "id": "AliasCode_152",
-                  "standardCode": {
-                    "id": "Code_297",
-                    "code": "C64547",
-                    "codeSystem": "NCI Thesaurus",
-                    "codeSystemVersion": "",
-                    "decode": "Creatinine Measurement"
-                  },
-                  "standardCodeAliases": []
-                }
-              },
-              {
-                "id": "BiomedicalConcept_28",
-                "name": "Potassium Measurement",
-                "label": "Potassium Measurement",
-                "bcSynonyms": [
-                  "Potassium",
-                  "K"
-                ],
-                "bcReference": "/mdr/bc/packages/2023-02-13/biomedicalconcepts/C64853",
-                "bcProperties": [
-                  {
-                    "id": "BiomedicalConceptProperty_125",
-                    "name": "Laboratory Test Result",
-                    "label": "Laboratory Test Result",
-                    "bcPropertyRequired": true,
-                    "bcPropertyEnabled": true,
-                    "bcPropertyDatatype": "decimal",
-                    "bcPropertyResponseCodes": [],
-                    "code": {
-                      "id": "AliasCode_158",
-                      "standardCode": {
-                        "id": "Code_303",
-                        "code": "C36292",
-                        "codeSystem": "NCI Thesaurus",
-                        "codeSystemVersion": "",
-                        "decode": "Laboratory Test Result"
-                      },
-                      "standardCodeAliases": []
-                    }
-                  },
-                  {
-                    "id": "BiomedicalConceptProperty_126",
-                    "name": "Laboratory Test Fasting Status",
-                    "label": "Laboratory Test Fasting Status",
-                    "bcPropertyRequired": true,
-                    "bcPropertyEnabled": true,
-                    "bcPropertyDatatype": "boolean",
-                    "bcPropertyResponseCodes": [],
-                    "code": {
-                      "id": "AliasCode_159",
-                      "standardCode": {
-                        "id": "Code_304",
-                        "code": "C83309",
-                        "codeSystem": "NCI Thesaurus",
-                        "codeSystemVersion": "",
-                        "decode": "Laboratory Test Fasting Status"
-                      },
-                      "standardCodeAliases": []
-                    }
-                  },
-                  {
-                    "id": "BiomedicalConceptProperty_127",
-                    "name": "Molarity Unit",
-                    "label": "Molarity Unit",
-                    "bcPropertyRequired": true,
-                    "bcPropertyEnabled": true,
-                    "bcPropertyDatatype": "string",
-                    "bcPropertyResponseCodes": [],
-                    "code": {
-                      "id": "AliasCode_160",
-                      "standardCode": {
-                        "id": "Code_305",
-                        "code": "C64567",
-                        "codeSystem": "NCI Thesaurus",
-                        "codeSystemVersion": "",
-                        "decode": "Molarity Unit"
-                      },
-                      "standardCodeAliases": []
-                    }
-                  },
-                  {
-                    "id": "BiomedicalConceptProperty_128",
-                    "name": "Biospecimen Type",
-                    "label": "Biospecimen Type",
-                    "bcPropertyRequired": true,
-                    "bcPropertyEnabled": true,
-                    "bcPropertyDatatype": "string",
-                    "bcPropertyResponseCodes": [],
-                    "code": {
-                      "id": "AliasCode_161",
-                      "standardCode": {
-                        "id": "Code_306",
-                        "code": "C70713",
-                        "codeSystem": "NCI Thesaurus",
-                        "codeSystemVersion": "",
-                        "decode": "Biospecimen Type"
-                      },
-                      "standardCodeAliases": []
-                    }
-                  }
-                ],
-                "code": {
-                  "id": "AliasCode_157",
-                  "standardCode": {
-                    "id": "Code_302",
-                    "code": "C64853",
-                    "codeSystem": "NCI Thesaurus",
-                    "codeSystemVersion": "",
-                    "decode": "Potassium Measurement"
-                  },
-                  "standardCodeAliases": []
-                }
-              },
-              {
-                "id": "BiomedicalConcept_29",
-                "name": "Sodium Measurement",
-                "label": "Sodium Measurement",
-                "bcSynonyms": [
-                  "Sodium",
-                  "NA"
-                ],
-                "bcReference": "/mdr/bc/packages/2023-02-13/biomedicalconcepts/C64809",
-                "bcProperties": [
-                  {
-                    "id": "BiomedicalConceptProperty_129",
-                    "name": "Laboratory Test Result",
-                    "label": "Laboratory Test Result",
-                    "bcPropertyRequired": true,
-                    "bcPropertyEnabled": true,
-                    "bcPropertyDatatype": "decimal",
-                    "bcPropertyResponseCodes": [],
-                    "code": {
-                      "id": "AliasCode_163",
-                      "standardCode": {
-                        "id": "Code_308",
-                        "code": "C36292",
-                        "codeSystem": "NCI Thesaurus",
-                        "codeSystemVersion": "",
-                        "decode": "Laboratory Test Result"
-                      },
-                      "standardCodeAliases": []
-                    }
-                  },
-                  {
-                    "id": "BiomedicalConceptProperty_130",
-                    "name": "Laboratory Test Fasting Status",
-                    "label": "Laboratory Test Fasting Status",
-                    "bcPropertyRequired": true,
-                    "bcPropertyEnabled": true,
-                    "bcPropertyDatatype": "boolean",
-                    "bcPropertyResponseCodes": [],
-                    "code": {
-                      "id": "AliasCode_164",
-                      "standardCode": {
-                        "id": "Code_309",
-                        "code": "C83309",
-                        "codeSystem": "NCI Thesaurus",
-                        "codeSystemVersion": "",
-                        "decode": "Laboratory Test Fasting Status"
-                      },
-                      "standardCodeAliases": []
-                    }
-                  },
-                  {
-                    "id": "BiomedicalConceptProperty_131",
-                    "name": "Molarity Unit",
-                    "label": "Molarity Unit",
-                    "bcPropertyRequired": true,
-                    "bcPropertyEnabled": true,
-                    "bcPropertyDatatype": "string",
-                    "bcPropertyResponseCodes": [],
-                    "code": {
-                      "id": "AliasCode_165",
-                      "standardCode": {
-                        "id": "Code_310",
-                        "code": "C64567",
-                        "codeSystem": "NCI Thesaurus",
-                        "codeSystemVersion": "",
-                        "decode": "Molarity Unit"
-                      },
-                      "standardCodeAliases": []
-                    }
-                  },
-                  {
-                    "id": "BiomedicalConceptProperty_132",
-                    "name": "Biospecimen Type",
-                    "label": "Biospecimen Type",
-                    "bcPropertyRequired": true,
-                    "bcPropertyEnabled": true,
-                    "bcPropertyDatatype": "string",
-                    "bcPropertyResponseCodes": [],
-                    "code": {
-                      "id": "AliasCode_166",
-                      "standardCode": {
-                        "id": "Code_311",
-                        "code": "C70713",
-                        "codeSystem": "NCI Thesaurus",
-                        "codeSystemVersion": "",
-                        "decode": "Biospecimen Type"
-                      },
-                      "standardCodeAliases": []
-                    }
-                  }
-                ],
-                "code": {
-                  "id": "AliasCode_162",
-                  "standardCode": {
-                    "id": "Code_307",
+                    "id": "Code_291",
                     "code": "C64809",
                     "codeSystem": "NCI Thesaurus",
                     "codeSystemVersion": "",
@@ -5334,7 +5041,7 @@
                 "description": "Alzheimer's disease",
                 "codes": [
                   {
-                    "id": "Code_312",
+                    "id": "Code_296",
                     "code": "G30.9",
                     "codeSystem": "ICD-10-CM",
                     "codeSystemVersion": "1",
@@ -5349,7 +5056,7 @@
                 "description": "Alzheimer's disease",
                 "codes": [
                   {
-                    "id": "Code_313",
+                    "id": "Code_297",
                     "code": "26929004",
                     "codeSystem": "SNOMED",
                     "codeSystemVersion": "January 31, 2018",
@@ -5369,7 +5076,7 @@
                 "text": "To determine if there is a statistically significant relationship (overall Type 1 erroralpha=0.05) between the change in both the ADAS-Cog (11) and CIBIC+ scores, and drug dose (0, 50 cm2 [54 mg], and 75 cm2 [81 mg]).",
                 "dictionaryId": null,
                 "level": {
-                  "id": "Code_316",
+                  "id": "Code_300",
                   "code": "C85826",
                   "codeSystem": "http://www.cdisc.org",
                   "codeSystemVersion": "2023-09-29",
@@ -5386,7 +5093,7 @@
                     "dictionaryId": null,
                     "purpose": "",
                     "level": {
-                      "id": "Code_315",
+                      "id": "Code_299",
                       "code": "C94496",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
@@ -5403,7 +5110,7 @@
                     "dictionaryId": null,
                     "purpose": "",
                     "level": {
-                      "id": "Code_317",
+                      "id": "Code_301",
                       "code": "C94496",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
@@ -5421,7 +5128,7 @@
                 "text": "To document the safety profile of the xanomeline TTS.",
                 "dictionaryId": null,
                 "level": {
-                  "id": "Code_319",
+                  "id": "Code_303",
                   "code": "C85826",
                   "codeSystem": "http://www.cdisc.org",
                   "codeSystemVersion": "2023-09-29",
@@ -5438,7 +5145,7 @@
                     "dictionaryId": null,
                     "purpose": "",
                     "level": {
-                      "id": "Code_318",
+                      "id": "Code_302",
                       "code": "C94496",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
@@ -5455,7 +5162,7 @@
                     "dictionaryId": null,
                     "purpose": "",
                     "level": {
-                      "id": "Code_320",
+                      "id": "Code_304",
                       "code": "C94496",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
@@ -5472,7 +5179,7 @@
                     "dictionaryId": null,
                     "purpose": "",
                     "level": {
-                      "id": "Code_321",
+                      "id": "Code_305",
                       "code": "C94496",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
@@ -5490,7 +5197,7 @@
                 "text": "To assess the dose-dependent improvement in behavior. Improved scores on the Revised Neuropsychiatric Inventory (NPI-X) will indicate improvement in these\nareas.",
                 "dictionaryId": null,
                 "level": {
-                  "id": "Code_323",
+                  "id": "Code_307",
                   "code": "C85827",
                   "codeSystem": "http://www.cdisc.org",
                   "codeSystemVersion": "2023-09-29",
@@ -5507,7 +5214,7 @@
                     "dictionaryId": null,
                     "purpose": "",
                     "level": {
-                      "id": "Code_322",
+                      "id": "Code_306",
                       "code": "C139173",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
@@ -5524,7 +5231,7 @@
                     "dictionaryId": null,
                     "purpose": "",
                     "level": {
-                      "id": "Code_324",
+                      "id": "Code_308",
                       "code": "C139173",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
@@ -5541,7 +5248,7 @@
                     "dictionaryId": null,
                     "purpose": "",
                     "level": {
-                      "id": "Code_325",
+                      "id": "Code_309",
                       "code": "C139173",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
@@ -5562,7 +5269,7 @@
                 "plannedMinimumAgeOfParticipants": "50 years",
                 "plannedSexOfParticipants": [
                   {
-                    "id": "Code_314",
+                    "id": "Code_298",
                     "code": "C49636",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-09-29",
@@ -5626,6 +5333,8 @@
                       "Activity_2",
                       "Activity_3",
                       "Activity_4",
+                      "Activity_5",
+                      "Activity_6",
                       "Activity_7",
                       "Activity_8",
                       "Activity_9",
@@ -6646,7 +6355,7 @@
                 "text": "Subjects shall be between [min_age] and [max_age]",
                 "dictionaryId": "SyntaxTemplateDictionary_1",
                 "category": {
-                  "id": "Code_326",
+                  "id": "Code_310",
                   "code": "C25532",
                   "codeSystem": "http://www.cdisc.org",
                   "codeSystemVersion": "2023-09-29",
@@ -6665,7 +6374,7 @@
                 "text": "[StudyPopulation] as defined by the NINCDS and the ADRDA guidelines (Attachment LZZT.7)",
                 "dictionaryId": "SyntaxTemplateDictionary_1",
                 "category": {
-                  "id": "Code_327",
+                  "id": "Code_311",
                   "code": "C25532",
                   "codeSystem": "http://www.cdisc.org",
                   "codeSystemVersion": "2023-09-29",
@@ -6684,7 +6393,7 @@
                 "text": "[Activity1] score of 10 to 23",
                 "dictionaryId": "SyntaxTemplateDictionary_2",
                 "category": {
-                  "id": "Code_328",
+                  "id": "Code_312",
                   "code": "C25532",
                   "codeSystem": "http://www.cdisc.org",
                   "codeSystemVersion": "2023-09-29",
@@ -6703,7 +6412,7 @@
                 "text": "Persons who have previously completed or withdrawn from this study or any other study investigating xanomeline TTS or the oral formulation of xanomeline.",
                 "dictionaryId": null,
                 "category": {
-                  "id": "Code_329",
+                  "id": "Code_313",
                   "code": "C25370",
                   "codeSystem": "http://www.cdisc.org",
                   "codeSystemVersion": "2023-09-29",
