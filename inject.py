@@ -36,7 +36,7 @@ class Service():
 
 
 def file_read(filename):
-  f = open('source_data/%s.json' % (filename))
+  f = open('%s.json' % (filename))
   return json.load(f)
 
 if __name__ == "__main__":
