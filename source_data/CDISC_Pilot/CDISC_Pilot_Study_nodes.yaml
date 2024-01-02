@@ -9015,9 +9015,8 @@
     text: '<p>Patients may be included in the study only if they meet <strong>all</strong>
       the following criteria:</p><table><tr><td style="vertical-align: top; text-align:
       left"><p>1</p></td><td style="vertical-align: top; text-align: left"><p>Subjects
-      shall be between <usdm:ref klass="StudyDesignPopulation" id="StudyDesignPopulation_1"
-      attribute="@plannedAge/Range/@maxValue"/> and <usdm:ref klass="StudyDesignPopulation"
-      id="StudyDesignPopulation_1" attribute="@plannedAge/Range/@minValue"/></p></td></tr><tr><td
+      shall be between <usdm:ref klass="Range" id="Range_3" attribute="maxValue"/>
+      and <usdm:ref klass="Range" id="Range_3" attribute="minValue"/></p></td></tr><tr><td
       style="vertical-align: top; text-align: left"><p>2</p></td><td style="vertical-align:
       top; text-align: left"><p><usdm:ref klass="StudyDesignPopulation" id="StudyDesignPopulation_1"
       attribute="description"/> as defined by the NINCDS and the ADRDA guidelines
