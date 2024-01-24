@@ -1,7 +1,7 @@
 <!DOCTYPE html><html><head></head><body><h1>Main Timeline</h1><pre class="mermaid">
 graph LR
 ScheduleTimeline_4([Potential subject identified])
-ScheduledActivityInstance_9(A)
+ScheduledActivityInstance_9(ScheduledActivityInstance)
 ScheduleTimeline_4 -->|first| ScheduledActivityInstance_9
 ScheduledActivityInstance_10(ScheduledActivityInstance)
 ScheduledActivityInstance_9 -->|default| ScheduledActivityInstance_10
@@ -134,7 +134,7 @@ Timing_14 -->|to| ScheduledActivityInstance_21
 </pre><h1>Adverse Event Timeline</h1><pre class="mermaid">
 graph LR
 ScheduleTimeline_1([Subject suffers an adverse event])
-ScheduledActivityInstance_1(A)
+ScheduledActivityInstance_1(ScheduledActivityInstance)
 ScheduleTimeline_1 -->|first| ScheduledActivityInstance_1
 ScheduleTimelineExit_1([Exit])
 ScheduledActivityInstance_1 -->|exit| ScheduleTimelineExit_1
@@ -147,7 +147,7 @@ Timing_17 -->|to| ScheduledActivityInstance_1
 </pre><h1>Early Termination Timeline</h1><pre class="mermaid">
 graph LR
 ScheduleTimeline_2([Subject terminates the study early])
-ScheduledActivityInstance_2(A)
+ScheduledActivityInstance_2(ScheduledActivityInstance)
 ScheduleTimeline_2 -->|first| ScheduledActivityInstance_2
 ScheduleTimelineExit_2([Exit])
 ScheduledActivityInstance_2 -->|exit| ScheduleTimelineExit_2
@@ -160,7 +160,7 @@ Timing_18 -->|to| ScheduledActivityInstance_2
 </pre><h1>Vital Sign Blood Pressure Timeline</h1><pre class="mermaid">
 graph LR
 ScheduleTimeline_3([Automatic execution])
-ScheduledActivityInstance_3(A)
+ScheduledActivityInstance_3(ScheduledActivityInstance)
 ScheduleTimeline_3 -->|first| ScheduledActivityInstance_3
 ScheduledActivityInstance_4(ScheduledActivityInstance)
 ScheduledActivityInstance_3 -->|default| ScheduledActivityInstance_4
