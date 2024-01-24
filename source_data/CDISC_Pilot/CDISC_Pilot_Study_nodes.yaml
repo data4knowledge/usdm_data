@@ -7156,14 +7156,14 @@
     label: Code_346
 - id: 756
   properties:
-    _type: EligibilityCriteria
+    _type: EligibilityCriterion
     contextId: null
     description: The study age criterion
     dictionaryId: SyntaxTemplateDictionary_1
-    id: EligibilityCriteria_1
+    id: EligibilityCriterion_1
     identifier: '1'
-    instanceType: EligibilityCriteria
-    label: EligibilityCriteria_1
+    instanceType: EligibilityCriterion
+    label: EligibilityCriterion_1
     name: Age Criteria
     nextId: null
     previousId: null
@@ -7180,14 +7180,14 @@
     label: Code_347
 - id: 758
   properties:
-    _type: EligibilityCriteria
+    _type: EligibilityCriterion
     contextId: null
     description: The study population criterion
     dictionaryId: SyntaxTemplateDictionary_1
-    id: EligibilityCriteria_2
+    id: EligibilityCriterion_2
     identifier: '2'
-    instanceType: EligibilityCriteria
-    label: EligibilityCriteria_2
+    instanceType: EligibilityCriterion
+    label: EligibilityCriterion_2
     name: Pop Criteria
     nextId: null
     previousId: null
@@ -7205,14 +7205,14 @@
     label: Code_348
 - id: 760
   properties:
-    _type: EligibilityCriteria
+    _type: EligibilityCriterion
     contextId: null
     description: The study diagnosis criterion
     dictionaryId: SyntaxTemplateDictionary_2
-    id: EligibilityCriteria_3
+    id: EligibilityCriterion_3
     identifier: '3'
-    instanceType: EligibilityCriteria
-    label: EligibilityCriteria_3
+    instanceType: EligibilityCriterion
+    label: EligibilityCriterion_3
     name: Diag Criteria
     nextId: null
     previousId: null
@@ -7229,14 +7229,14 @@
     label: Code_349
 - id: 762
   properties:
-    _type: EligibilityCriteria
+    _type: EligibilityCriterion
     contextId: null
     description: The previous xanomeline TTS criterion
     dictionaryId: null
-    id: EligibilityCriteria_4
+    id: EligibilityCriterion_4
     identifier: '9'
-    instanceType: EligibilityCriteria
-    label: EligibilityCriteria_4
+    instanceType: EligibilityCriterion
+    label: EligibilityCriterion_4
     name: Previous Criteria
     nextId: null
     previousId: null
@@ -7278,7 +7278,7 @@
     id: ScheduleTimelineExit_4
     instanceType: ScheduleTimelineExit
     label: ScheduleTimelineExit_4
-- id: 770
+- id: 769
   properties:
     _type: Code
     code: C201264
@@ -7288,7 +7288,7 @@
     id: Code_15
     instanceType: Code
     label: Code_15
-- id: 771
+- id: 770
   properties:
     _type: Code
     code: C201265
@@ -7298,7 +7298,7 @@
     id: Code_16
     instanceType: Code
     label: Code_16
-- id: 769
+- id: 768
   properties:
     _type: Timing
     description: Screening timing
@@ -7310,15 +7310,7 @@
     window: ''
     windowLower: null
     windowUpper: null
-- id: 768
-  properties:
-    _type: ScheduledActivityInstance
-    id: ScheduledActivityInstance_9
-    instanceType: ScheduledActivityInstance
-    label: ScheduledActivityInstance_9
-    timelineExitId: null
-    timelineId: null
-- id: 774
+- id: 772
   properties:
     _type: Code
     code: C201264
@@ -7328,7 +7320,7 @@
     id: Code_17
     instanceType: Code
     label: Code_17
-- id: 775
+- id: 773
   properties:
     _type: Code
     code: C201265
@@ -7338,7 +7330,7 @@
     id: Code_18
     instanceType: Code
     label: Code_18
-- id: 773
+- id: 771
   properties:
     _type: Timing
     description: Pre dose timing
@@ -7350,15 +7342,7 @@
     window: -4..0 hours
     windowLower: PT4H
     windowUpper: PT0H
-- id: 772
-  properties:
-    _type: ScheduledActivityInstance
-    id: ScheduledActivityInstance_10
-    instanceType: ScheduledActivityInstance
-    label: ScheduledActivityInstance_10
-    timelineExitId: null
-    timelineId: null
-- id: 778
+- id: 775
   properties:
     _type: Code
     code: C201264
@@ -7368,7 +7352,7 @@
     id: Code_20
     instanceType: Code
     label: Code_20
-- id: 779
+- id: 776
   properties:
     _type: Code
     code: C201265
@@ -7378,7 +7362,7 @@
     id: Code_21
     instanceType: Code
     label: Code_21
-- id: 777
+- id: 774
   properties:
     _type: Timing
     description: Dosing anchor
@@ -7390,15 +7374,7 @@
     window: ''
     windowLower: null
     windowUpper: null
-- id: 776
-  properties:
-    _type: ScheduledActivityInstance
-    id: ScheduledActivityInstance_11
-    instanceType: ScheduledActivityInstance
-    label: ScheduledActivityInstance_11
-    timelineExitId: null
-    timelineId: null
-- id: 782
+- id: 778
   properties:
     _type: Code
     code: C201264
@@ -7408,7 +7384,7 @@
     id: Code_22
     instanceType: Code
     label: Code_22
-- id: 783
+- id: 779
   properties:
     _type: Code
     code: C201265
@@ -7418,7 +7394,7 @@
     id: Code_23
     instanceType: Code
     label: Code_23
-- id: 781
+- id: 777
   properties:
     _type: Timing
     description: Week 2 timing
@@ -7430,15 +7406,7 @@
     window: -3..3 days
     windowLower: P3D
     windowUpper: P3D
-- id: 780
-  properties:
-    _type: ScheduledActivityInstance
-    id: ScheduledActivityInstance_12
-    instanceType: ScheduledActivityInstance
-    label: ScheduledActivityInstance_12
-    timelineExitId: null
-    timelineId: null
-- id: 786
+- id: 781
   properties:
     _type: Code
     code: C201264
@@ -7448,7 +7416,7 @@
     id: Code_25
     instanceType: Code
     label: Code_25
-- id: 787
+- id: 782
   properties:
     _type: Code
     code: C201265
@@ -7458,7 +7426,7 @@
     id: Code_26
     instanceType: Code
     label: Code_26
-- id: 785
+- id: 780
   properties:
     _type: Timing
     description: Week 4 timing
@@ -7472,14 +7440,6 @@
     windowUpper: P3D
 - id: 784
   properties:
-    _type: ScheduledActivityInstance
-    id: ScheduledActivityInstance_13
-    instanceType: ScheduledActivityInstance
-    label: ScheduledActivityInstance_13
-    timelineExitId: null
-    timelineId: null
-- id: 790
-  properties:
     _type: Code
     code: C201264
     codeSystem: http://www.cdisc.org
@@ -7488,7 +7448,7 @@
     id: Code_28
     instanceType: Code
     label: Code_28
-- id: 791
+- id: 785
   properties:
     _type: Code
     code: C201265
@@ -7498,7 +7458,7 @@
     id: Code_29
     instanceType: Code
     label: Code_29
-- id: 789
+- id: 783
   properties:
     _type: Timing
     description: Week 6 timing
@@ -7510,15 +7470,7 @@
     window: -3..3 days
     windowLower: P3D
     windowUpper: P3D
-- id: 788
-  properties:
-    _type: ScheduledActivityInstance
-    id: ScheduledActivityInstance_14
-    instanceType: ScheduledActivityInstance
-    label: ScheduledActivityInstance_14
-    timelineExitId: null
-    timelineId: null
-- id: 794
+- id: 787
   properties:
     _type: Code
     code: C201264
@@ -7528,7 +7480,7 @@
     id: Code_31
     instanceType: Code
     label: Code_31
-- id: 795
+- id: 788
   properties:
     _type: Code
     code: C201265
@@ -7538,7 +7490,7 @@
     id: Code_32
     instanceType: Code
     label: Code_32
-- id: 793
+- id: 786
   properties:
     _type: Timing
     description: Week 8 timing
@@ -7550,55 +7502,7 @@
     window: -3..3 days
     windowLower: P3D
     windowUpper: P3D
-- id: 792
-  properties:
-    _type: ScheduledActivityInstance
-    id: ScheduledActivityInstance_15
-    instanceType: ScheduledActivityInstance
-    label: ScheduledActivityInstance_15
-    timelineExitId: null
-    timelineId: null
-- id: 798
-  properties:
-    _type: Code
-    code: C201264
-    codeSystem: http://www.cdisc.org
-    codeSystemVersion: '2023-09-29'
-    decode: After
-    id: Code_34
-    instanceType: Code
-    label: Code_34
-- id: 799
-  properties:
-    _type: Code
-    code: C201265
-    codeSystem: http://www.cdisc.org
-    codeSystemVersion: '2023-09-29'
-    decode: Start to Start
-    id: Code_35
-    instanceType: Code
-    label: Code_35
-- id: 797
-  properties:
-    _type: Timing
-    description: Week 8 at home timing
-    id: Timing_8
-    instanceType: Timing
-    label: Timing_8
-    name: TIM8
-    value: P2W
-    window: ''
-    windowLower: null
-    windowUpper: null
-- id: 796
-  properties:
-    _type: ScheduledActivityInstance
-    id: ScheduledActivityInstance_16
-    instanceType: ScheduledActivityInstance
-    label: ScheduledActivityInstance_16
-    timelineExitId: null
-    timelineId: null
-- id: 802
+- id: 790
   properties:
     _type: Code
     code: C201264
@@ -7608,7 +7512,7 @@
     id: Code_36
     instanceType: Code
     label: Code_36
-- id: 803
+- id: 791
   properties:
     _type: Code
     code: C201265
@@ -7618,7 +7522,7 @@
     id: Code_37
     instanceType: Code
     label: Code_37
-- id: 801
+- id: 789
   properties:
     _type: Timing
     description: Week 12 timing
@@ -7630,55 +7534,7 @@
     window: -4..4 days
     windowLower: P4D
     windowUpper: P4D
-- id: 800
-  properties:
-    _type: ScheduledActivityInstance
-    id: ScheduledActivityInstance_17
-    instanceType: ScheduledActivityInstance
-    label: ScheduledActivityInstance_17
-    timelineExitId: null
-    timelineId: null
-- id: 806
-  properties:
-    _type: Code
-    code: C201264
-    codeSystem: http://www.cdisc.org
-    codeSystemVersion: '2023-09-29'
-    decode: After
-    id: Code_39
-    instanceType: Code
-    label: Code_39
-- id: 807
-  properties:
-    _type: Code
-    code: C201265
-    codeSystem: http://www.cdisc.org
-    codeSystemVersion: '2023-09-29'
-    decode: Start to Start
-    id: Code_40
-    instanceType: Code
-    label: Code_40
-- id: 805
-  properties:
-    _type: Timing
-    description: Week 12 at home timing
-    id: Timing_10
-    instanceType: Timing
-    label: Timing_10
-    name: TIM10
-    value: P2W
-    window: ''
-    windowLower: null
-    windowUpper: null
-- id: 804
-  properties:
-    _type: ScheduledActivityInstance
-    id: ScheduledActivityInstance_18
-    instanceType: ScheduledActivityInstance
-    label: ScheduledActivityInstance_18
-    timelineExitId: null
-    timelineId: null
-- id: 810
+- id: 793
   properties:
     _type: Code
     code: C201264
@@ -7688,7 +7544,7 @@
     id: Code_41
     instanceType: Code
     label: Code_41
-- id: 811
+- id: 794
   properties:
     _type: Code
     code: C201265
@@ -7698,7 +7554,7 @@
     id: Code_42
     instanceType: Code
     label: Code_42
-- id: 809
+- id: 792
   properties:
     _type: Timing
     description: Week 16 timing
@@ -7710,55 +7566,7 @@
     window: -4..4 days
     windowLower: P4D
     windowUpper: P4D
-- id: 808
-  properties:
-    _type: ScheduledActivityInstance
-    id: ScheduledActivityInstance_19
-    instanceType: ScheduledActivityInstance
-    label: ScheduledActivityInstance_19
-    timelineExitId: null
-    timelineId: null
-- id: 814
-  properties:
-    _type: Code
-    code: C201264
-    codeSystem: http://www.cdisc.org
-    codeSystemVersion: '2023-09-29'
-    decode: After
-    id: Code_44
-    instanceType: Code
-    label: Code_44
-- id: 815
-  properties:
-    _type: Code
-    code: C201265
-    codeSystem: http://www.cdisc.org
-    codeSystemVersion: '2023-09-29'
-    decode: Start to Start
-    id: Code_45
-    instanceType: Code
-    label: Code_45
-- id: 813
-  properties:
-    _type: Timing
-    description: Week 16 at home timing
-    id: Timing_12
-    instanceType: Timing
-    label: Timing_12
-    name: TIM12
-    value: P2W
-    window: ''
-    windowLower: null
-    windowUpper: null
-- id: 812
-  properties:
-    _type: ScheduledActivityInstance
-    id: ScheduledActivityInstance_20
-    instanceType: ScheduledActivityInstance
-    label: ScheduledActivityInstance_20
-    timelineExitId: null
-    timelineId: null
-- id: 818
+- id: 796
   properties:
     _type: Code
     code: C201264
@@ -7768,7 +7576,7 @@
     id: Code_46
     instanceType: Code
     label: Code_46
-- id: 819
+- id: 797
   properties:
     _type: Code
     code: C201265
@@ -7778,7 +7586,7 @@
     id: Code_47
     instanceType: Code
     label: Code_47
-- id: 817
+- id: 795
   properties:
     _type: Timing
     description: Week 20 timing
@@ -7790,55 +7598,7 @@
     window: -4..4 days
     windowLower: P4D
     windowUpper: P4D
-- id: 816
-  properties:
-    _type: ScheduledActivityInstance
-    id: ScheduledActivityInstance_21
-    instanceType: ScheduledActivityInstance
-    label: ScheduledActivityInstance_21
-    timelineExitId: null
-    timelineId: null
-- id: 822
-  properties:
-    _type: Code
-    code: C201264
-    codeSystem: http://www.cdisc.org
-    codeSystemVersion: '2023-09-29'
-    decode: After
-    id: Code_49
-    instanceType: Code
-    label: Code_49
-- id: 823
-  properties:
-    _type: Code
-    code: C201265
-    codeSystem: http://www.cdisc.org
-    codeSystemVersion: '2023-09-29'
-    decode: Start to Start
-    id: Code_50
-    instanceType: Code
-    label: Code_50
-- id: 821
-  properties:
-    _type: Timing
-    description: Week 20 at home timing
-    id: Timing_14
-    instanceType: Timing
-    label: Timing_14
-    name: TIM14
-    value: P2W
-    window: ''
-    windowLower: null
-    windowUpper: null
-- id: 820
-  properties:
-    _type: ScheduledActivityInstance
-    id: ScheduledActivityInstance_22
-    instanceType: ScheduledActivityInstance
-    label: ScheduledActivityInstance_22
-    timelineExitId: null
-    timelineId: null
-- id: 826
+- id: 799
   properties:
     _type: Code
     code: C201264
@@ -7848,7 +7608,7 @@
     id: Code_51
     instanceType: Code
     label: Code_51
-- id: 827
+- id: 800
   properties:
     _type: Code
     code: C201265
@@ -7858,7 +7618,7 @@
     id: Code_52
     instanceType: Code
     label: Code_52
-- id: 825
+- id: 798
   properties:
     _type: Timing
     description: Week 24 timing
@@ -7870,15 +7630,7 @@
     window: -4..4 days
     windowLower: P4D
     windowUpper: P4D
-- id: 824
-  properties:
-    _type: ScheduledActivityInstance
-    id: ScheduledActivityInstance_23
-    instanceType: ScheduledActivityInstance
-    label: ScheduledActivityInstance_23
-    timelineExitId: null
-    timelineId: null
-- id: 830
+- id: 802
   properties:
     _type: Code
     code: C201264
@@ -7888,7 +7640,7 @@
     id: Code_54
     instanceType: Code
     label: Code_54
-- id: 831
+- id: 803
   properties:
     _type: Code
     code: C201265
@@ -7898,7 +7650,7 @@
     id: Code_55
     instanceType: Code
     label: Code_55
-- id: 829
+- id: 801
   properties:
     _type: Timing
     description: Week 26 timing
@@ -7910,7 +7662,255 @@
     window: -3..3 days
     windowLower: P3D
     windowUpper: P3D
+- id: 805
+  properties:
+    _type: Code
+    code: C201264
+    codeSystem: http://www.cdisc.org
+    codeSystemVersion: '2023-09-29'
+    decode: After
+    id: Code_34
+    instanceType: Code
+    label: Code_34
+- id: 806
+  properties:
+    _type: Code
+    code: C201265
+    codeSystem: http://www.cdisc.org
+    codeSystemVersion: '2023-09-29'
+    decode: Start to Start
+    id: Code_35
+    instanceType: Code
+    label: Code_35
+- id: 804
+  properties:
+    _type: Timing
+    description: Week 8 at home timing
+    id: Timing_8
+    instanceType: Timing
+    label: Timing_8
+    name: TIM8
+    value: P2W
+    window: ''
+    windowLower: null
+    windowUpper: null
+- id: 808
+  properties:
+    _type: Code
+    code: C201264
+    codeSystem: http://www.cdisc.org
+    codeSystemVersion: '2023-09-29'
+    decode: After
+    id: Code_39
+    instanceType: Code
+    label: Code_39
+- id: 809
+  properties:
+    _type: Code
+    code: C201265
+    codeSystem: http://www.cdisc.org
+    codeSystemVersion: '2023-09-29'
+    decode: Start to Start
+    id: Code_40
+    instanceType: Code
+    label: Code_40
+- id: 807
+  properties:
+    _type: Timing
+    description: Week 12 at home timing
+    id: Timing_10
+    instanceType: Timing
+    label: Timing_10
+    name: TIM10
+    value: P2W
+    window: ''
+    windowLower: null
+    windowUpper: null
+- id: 811
+  properties:
+    _type: Code
+    code: C201264
+    codeSystem: http://www.cdisc.org
+    codeSystemVersion: '2023-09-29'
+    decode: After
+    id: Code_44
+    instanceType: Code
+    label: Code_44
+- id: 812
+  properties:
+    _type: Code
+    code: C201265
+    codeSystem: http://www.cdisc.org
+    codeSystemVersion: '2023-09-29'
+    decode: Start to Start
+    id: Code_45
+    instanceType: Code
+    label: Code_45
+- id: 810
+  properties:
+    _type: Timing
+    description: Week 16 at home timing
+    id: Timing_12
+    instanceType: Timing
+    label: Timing_12
+    name: TIM12
+    value: P2W
+    window: ''
+    windowLower: null
+    windowUpper: null
+- id: 814
+  properties:
+    _type: Code
+    code: C201264
+    codeSystem: http://www.cdisc.org
+    codeSystemVersion: '2023-09-29'
+    decode: After
+    id: Code_49
+    instanceType: Code
+    label: Code_49
+- id: 815
+  properties:
+    _type: Code
+    code: C201265
+    codeSystem: http://www.cdisc.org
+    codeSystemVersion: '2023-09-29'
+    decode: Start to Start
+    id: Code_50
+    instanceType: Code
+    label: Code_50
+- id: 813
+  properties:
+    _type: Timing
+    description: Week 20 at home timing
+    id: Timing_14
+    instanceType: Timing
+    label: Timing_14
+    name: TIM14
+    value: P2W
+    window: ''
+    windowLower: null
+    windowUpper: null
+- id: 816
+  properties:
+    _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_9
+    instanceType: ScheduledActivityInstance
+    label: ScheduledActivityInstance_9
+    timelineExitId: null
+    timelineId: null
+- id: 817
+  properties:
+    _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_10
+    instanceType: ScheduledActivityInstance
+    label: ScheduledActivityInstance_10
+    timelineExitId: null
+    timelineId: null
+- id: 818
+  properties:
+    _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_11
+    instanceType: ScheduledActivityInstance
+    label: ScheduledActivityInstance_11
+    timelineExitId: null
+    timelineId: null
+- id: 819
+  properties:
+    _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_12
+    instanceType: ScheduledActivityInstance
+    label: ScheduledActivityInstance_12
+    timelineExitId: null
+    timelineId: null
+- id: 820
+  properties:
+    _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_13
+    instanceType: ScheduledActivityInstance
+    label: ScheduledActivityInstance_13
+    timelineExitId: null
+    timelineId: null
+- id: 821
+  properties:
+    _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_14
+    instanceType: ScheduledActivityInstance
+    label: ScheduledActivityInstance_14
+    timelineExitId: null
+    timelineId: null
+- id: 822
+  properties:
+    _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_15
+    instanceType: ScheduledActivityInstance
+    label: ScheduledActivityInstance_15
+    timelineExitId: null
+    timelineId: null
+- id: 823
+  properties:
+    _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_16
+    instanceType: ScheduledActivityInstance
+    label: ScheduledActivityInstance_16
+    timelineExitId: null
+    timelineId: null
+- id: 824
+  properties:
+    _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_17
+    instanceType: ScheduledActivityInstance
+    label: ScheduledActivityInstance_17
+    timelineExitId: null
+    timelineId: null
+- id: 825
+  properties:
+    _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_18
+    instanceType: ScheduledActivityInstance
+    label: ScheduledActivityInstance_18
+    timelineExitId: null
+    timelineId: null
+- id: 826
+  properties:
+    _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_19
+    instanceType: ScheduledActivityInstance
+    label: ScheduledActivityInstance_19
+    timelineExitId: null
+    timelineId: null
+- id: 827
+  properties:
+    _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_20
+    instanceType: ScheduledActivityInstance
+    label: ScheduledActivityInstance_20
+    timelineExitId: null
+    timelineId: null
 - id: 828
+  properties:
+    _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_21
+    instanceType: ScheduledActivityInstance
+    label: ScheduledActivityInstance_21
+    timelineExitId: null
+    timelineId: null
+- id: 829
+  properties:
+    _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_22
+    instanceType: ScheduledActivityInstance
+    label: ScheduledActivityInstance_22
+    timelineExitId: null
+    timelineId: null
+- id: 830
+  properties:
+    _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_23
+    instanceType: ScheduledActivityInstance
+    label: ScheduledActivityInstance_23
+    timelineExitId: null
+    timelineId: null
+- id: 831
   properties:
     _type: ScheduledActivityInstance
     id: ScheduledActivityInstance_24
@@ -7935,7 +7935,7 @@
     id: ScheduleTimelineExit_1
     instanceType: ScheduleTimelineExit
     label: ScheduleTimelineExit_1
-- id: 836
+- id: 835
   properties:
     _type: Code
     code: C201264
@@ -7945,7 +7945,7 @@
     id: Code_57
     instanceType: Code
     label: Code_57
-- id: 837
+- id: 836
   properties:
     _type: Code
     code: C201265
@@ -7955,7 +7955,7 @@
     id: Code_58
     instanceType: Code
     label: Code_58
-- id: 835
+- id: 834
   properties:
     _type: Timing
     description: Adverse Event
@@ -7967,7 +7967,7 @@
     window: ''
     windowLower: null
     windowUpper: null
-- id: 834
+- id: 837
   properties:
     _type: ScheduledActivityInstance
     id: ScheduledActivityInstance_1
@@ -7992,7 +7992,7 @@
     id: ScheduleTimelineExit_2
     instanceType: ScheduleTimelineExit
     label: ScheduleTimelineExit_2
-- id: 842
+- id: 841
   properties:
     _type: Code
     code: C201264
@@ -8002,7 +8002,7 @@
     id: Code_59
     instanceType: Code
     label: Code_59
-- id: 843
+- id: 842
   properties:
     _type: Code
     code: C201265
@@ -8012,7 +8012,7 @@
     id: Code_60
     instanceType: Code
     label: Code_60
-- id: 841
+- id: 840
   properties:
     _type: Timing
     description: Early Termination
@@ -8024,7 +8024,7 @@
     window: ''
     windowLower: null
     windowUpper: null
-- id: 840
+- id: 843
   properties:
     _type: ScheduledActivityInstance
     id: ScheduledActivityInstance_2
@@ -8049,7 +8049,7 @@
     id: ScheduleTimelineExit_3
     instanceType: ScheduleTimelineExit
     label: ScheduleTimelineExit_3
-- id: 848
+- id: 847
   properties:
     _type: Code
     code: C201264
@@ -8059,7 +8059,7 @@
     id: Code_61
     instanceType: Code
     label: Code_61
-- id: 849
+- id: 848
   properties:
     _type: Code
     code: C201265
@@ -8069,7 +8069,7 @@
     id: Code_62
     instanceType: Code
     label: Code_62
-- id: 847
+- id: 846
   properties:
     _type: Timing
     description: Supine
@@ -8081,15 +8081,7 @@
     window: ''
     windowLower: null
     windowUpper: null
-- id: 846
-  properties:
-    _type: ScheduledActivityInstance
-    id: ScheduledActivityInstance_3
-    instanceType: ScheduledActivityInstance
-    label: ScheduledActivityInstance_3
-    timelineExitId: null
-    timelineId: null
-- id: 852
+- id: 850
   properties:
     _type: Code
     code: C201264
@@ -8099,7 +8091,7 @@
     id: Code_63
     instanceType: Code
     label: Code_63
-- id: 853
+- id: 851
   properties:
     _type: Code
     code: C201265
@@ -8109,7 +8101,7 @@
     id: Code_64
     instanceType: Code
     label: Code_64
-- id: 851
+- id: 849
   properties:
     _type: Timing
     description: VS while supine
@@ -8121,15 +8113,7 @@
     window: ''
     windowLower: null
     windowUpper: null
-- id: 850
-  properties:
-    _type: ScheduledActivityInstance
-    id: ScheduledActivityInstance_4
-    instanceType: ScheduledActivityInstance
-    label: ScheduledActivityInstance_4
-    timelineExitId: null
-    timelineId: null
-- id: 856
+- id: 853
   properties:
     _type: Code
     code: C201264
@@ -8139,7 +8123,7 @@
     id: Code_65
     instanceType: Code
     label: Code_65
-- id: 857
+- id: 854
   properties:
     _type: Code
     code: C201265
@@ -8149,7 +8133,7 @@
     id: Code_66
     instanceType: Code
     label: Code_66
-- id: 855
+- id: 852
   properties:
     _type: Timing
     description: Standing
@@ -8161,15 +8145,7 @@
     window: ''
     windowLower: null
     windowUpper: null
-- id: 854
-  properties:
-    _type: ScheduledActivityInstance
-    id: ScheduledActivityInstance_5
-    instanceType: ScheduledActivityInstance
-    label: ScheduledActivityInstance_5
-    timelineExitId: null
-    timelineId: null
-- id: 860
+- id: 856
   properties:
     _type: Code
     code: C201264
@@ -8179,7 +8155,7 @@
     id: Code_67
     instanceType: Code
     label: Code_67
-- id: 861
+- id: 857
   properties:
     _type: Code
     code: C201265
@@ -8189,7 +8165,7 @@
     id: Code_68
     instanceType: Code
     label: Code_68
-- id: 859
+- id: 855
   properties:
     _type: Timing
     description: VS while standing
@@ -8201,15 +8177,7 @@
     window: ''
     windowLower: null
     windowUpper: null
-- id: 858
-  properties:
-    _type: ScheduledActivityInstance
-    id: ScheduledActivityInstance_6
-    instanceType: ScheduledActivityInstance
-    label: ScheduledActivityInstance_6
-    timelineExitId: null
-    timelineId: null
-- id: 864
+- id: 859
   properties:
     _type: Code
     code: C201264
@@ -8219,7 +8187,7 @@
     id: Code_69
     instanceType: Code
     label: Code_69
-- id: 865
+- id: 860
   properties:
     _type: Code
     code: C201265
@@ -8229,7 +8197,7 @@
     id: Code_70
     instanceType: Code
     label: Code_70
-- id: 863
+- id: 858
   properties:
     _type: Timing
     description: Standing
@@ -8243,14 +8211,6 @@
     windowUpper: null
 - id: 862
   properties:
-    _type: ScheduledActivityInstance
-    id: ScheduledActivityInstance_7
-    instanceType: ScheduledActivityInstance
-    label: ScheduledActivityInstance_7
-    timelineExitId: null
-    timelineId: null
-- id: 868
-  properties:
     _type: Code
     code: C201264
     codeSystem: http://www.cdisc.org
@@ -8259,7 +8219,7 @@
     id: Code_71
     instanceType: Code
     label: Code_71
-- id: 869
+- id: 863
   properties:
     _type: Code
     code: C201265
@@ -8269,7 +8229,7 @@
     id: Code_72
     instanceType: Code
     label: Code_72
-- id: 867
+- id: 861
   properties:
     _type: Timing
     description: VS while standing
@@ -8281,7 +8241,47 @@
     window: ''
     windowLower: null
     windowUpper: null
+- id: 864
+  properties:
+    _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_3
+    instanceType: ScheduledActivityInstance
+    label: ScheduledActivityInstance_3
+    timelineExitId: null
+    timelineId: null
+- id: 865
+  properties:
+    _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_4
+    instanceType: ScheduledActivityInstance
+    label: ScheduledActivityInstance_4
+    timelineExitId: null
+    timelineId: null
 - id: 866
+  properties:
+    _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_5
+    instanceType: ScheduledActivityInstance
+    label: ScheduledActivityInstance_5
+    timelineExitId: null
+    timelineId: null
+- id: 867
+  properties:
+    _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_6
+    instanceType: ScheduledActivityInstance
+    label: ScheduledActivityInstance_6
+    timelineExitId: null
+    timelineId: null
+- id: 868
+  properties:
+    _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_7
+    instanceType: ScheduledActivityInstance
+    label: ScheduledActivityInstance_7
+    timelineExitId: null
+    timelineId: null
+- id: 869
   properties:
     _type: ScheduledActivityInstance
     id: ScheduledActivityInstance_8
@@ -8302,15 +8302,6 @@
     name: Vital Sign Blood Pressure Timeline
 - id: 870
   properties:
-    _type: StudySite
-    currentEnrollment: null
-    description: Main Site
-    id: StudySite_1
-    instanceType: StudySite
-    label: StudySite_1
-    name: SITE_1
-- id: 871
-  properties:
     _type: SyntaxTemplateDictionary
     description: Dictionary for IE
     id: SyntaxTemplateDictionary_1
@@ -8318,7 +8309,7 @@
     label: SyntaxTemplateDictionary_1
     name: IE_Dict
     parameterMap: {}
-- id: 872
+- id: 871
   properties:
     _type: SyntaxTemplateDictionary
     description: Dictionary for Study Assessments
@@ -8327,7 +8318,7 @@
     label: SyntaxTemplateDictionary_2
     name: AS_Dict
     parameterMap: {}
-- id: 873
+- id: 872
   properties:
     _type: Condition
     appliesToIds:
@@ -8340,7 +8331,7 @@
     label: Condition_1
     name: COND1
     text: If this is true
-- id: 875
+- id: 874
   properties:
     _type: Code
     code: C70793
@@ -8350,7 +8341,7 @@
     id: Code_350
     instanceType: Code
     label: Code_350
-- id: 877
+- id: 876
   properties:
     _type: Code
     code: GBR
@@ -8360,7 +8351,7 @@
     id: Code_351
     instanceType: Code
     label: Code_351
-- id: 876
+- id: 875
   properties:
     _type: Address
     city: city
@@ -8373,7 +8364,16 @@
     state: state
     text: line, city, district, state, postal_code, United Kingdom of Great Britain
       and Northern Ireland
-- id: 874
+- id: 877
+  properties:
+    _type: StudySite
+    currentEnrollment: null
+    description: Main Site
+    id: StudySite_1
+    instanceType: StudySite
+    label: StudySite_1
+    name: SITE_1
+- id: 873
   properties:
     _type: ResearchOrganization
     id: ResearchOrganization_1
@@ -8381,15 +8381,13 @@
     identifierScheme: DUNS
     instanceType: ResearchOrganization
     label: ResearchOrganization_1
-    manageIds:
-    - StudySite_1
     name: SITE_ORG_1
 - id: 29
   properties:
     _type: StudyDesign
     bcCategories: []
     description: The main design for the study
-    documentVersion: null
+    documentVersionId: null
     estimands: []
     id: StudyDesign_1
     instanceType: StudyDesign
@@ -8564,7 +8562,7 @@
 - id: 897
   properties:
     _type: NarrativeContent
-    childrenIds:
+    childIds:
     - NarrativeContent_2
     - NarrativeContent_3
     - NarrativeContent_7
@@ -8591,7 +8589,7 @@
 - id: 898
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_2
     instanceType: NarrativeContent
     label: NarrativeContent_2
@@ -8697,7 +8695,7 @@
 - id: 899
   properties:
     _type: NarrativeContent
-    childrenIds:
+    childIds:
     - NarrativeContent_4
     - NarrativeContent_5
     - NarrativeContent_6
@@ -8711,7 +8709,7 @@
 - id: 900
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_4
     instanceType: NarrativeContent
     label: NarrativeContent_4
@@ -8722,7 +8720,7 @@
 - id: 901
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_5
     instanceType: NarrativeContent
     label: NarrativeContent_5
@@ -8733,7 +8731,7 @@
 - id: 902
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_6
     instanceType: NarrativeContent
     label: NarrativeContent_6
@@ -8744,7 +8742,7 @@
 - id: 903
   properties:
     _type: NarrativeContent
-    childrenIds:
+    childIds:
     - NarrativeContent_8
     - NarrativeContent_9
     id: NarrativeContent_7
@@ -8757,7 +8755,7 @@
 - id: 904
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_8
     instanceType: NarrativeContent
     label: NarrativeContent_8
@@ -8768,7 +8766,7 @@
 - id: 905
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_9
     instanceType: NarrativeContent
     label: NarrativeContent_9
@@ -8779,7 +8777,7 @@
 - id: 906
   properties:
     _type: NarrativeContent
-    childrenIds:
+    childIds:
     - NarrativeContent_11
     id: NarrativeContent_10
     instanceType: NarrativeContent
@@ -8791,7 +8789,7 @@
 - id: 907
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_11
     instanceType: NarrativeContent
     label: NarrativeContent_11
@@ -8820,7 +8818,7 @@
 - id: 908
   properties:
     _type: NarrativeContent
-    childrenIds:
+    childIds:
     - NarrativeContent_13
     - NarrativeContent_15
     - NarrativeContent_19
@@ -8835,7 +8833,7 @@
 - id: 909
   properties:
     _type: NarrativeContent
-    childrenIds:
+    childIds:
     - NarrativeContent_14
     id: NarrativeContent_13
     instanceType: NarrativeContent
@@ -8847,7 +8845,7 @@
 - id: 910
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_14
     instanceType: NarrativeContent
     label: NarrativeContent_14
@@ -8858,7 +8856,7 @@
 - id: 911
   properties:
     _type: NarrativeContent
-    childrenIds:
+    childIds:
     - NarrativeContent_16
     - NarrativeContent_17
     - NarrativeContent_18
@@ -8880,7 +8878,7 @@
 - id: 912
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_16
     instanceType: NarrativeContent
     label: NarrativeContent_16
@@ -8897,7 +8895,7 @@
 - id: 913
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_17
     instanceType: NarrativeContent
     label: NarrativeContent_17
@@ -8908,7 +8906,7 @@
 - id: 914
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_18
     instanceType: NarrativeContent
     label: NarrativeContent_18
@@ -8919,7 +8917,7 @@
 - id: 915
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_19
     instanceType: NarrativeContent
     label: NarrativeContent_19
@@ -8930,7 +8928,7 @@
 - id: 916
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_20
     instanceType: NarrativeContent
     label: NarrativeContent_20
@@ -8941,7 +8939,7 @@
 - id: 917
   properties:
     _type: NarrativeContent
-    childrenIds:
+    childIds:
     - NarrativeContent_22
     - NarrativeContent_23
     - NarrativeContent_24
@@ -8958,7 +8956,7 @@
 - id: 918
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_22
     instanceType: NarrativeContent
     label: NarrativeContent_22
@@ -8994,7 +8992,7 @@
 - id: 919
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_23
     instanceType: NarrativeContent
     label: NarrativeContent_23
@@ -9005,7 +9003,7 @@
 - id: 920
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_24
     instanceType: NarrativeContent
     label: NarrativeContent_24
@@ -9026,7 +9024,7 @@
 - id: 921
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_25
     instanceType: NarrativeContent
     label: NarrativeContent_25
@@ -9041,7 +9039,7 @@
 - id: 922
   properties:
     _type: NarrativeContent
-    childrenIds:
+    childIds:
     - NarrativeContent_27
     - NarrativeContent_28
     - NarrativeContent_29
@@ -9056,7 +9054,7 @@
 - id: 923
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_27
     instanceType: NarrativeContent
     label: NarrativeContent_27
@@ -9067,7 +9065,7 @@
 - id: 924
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_28
     instanceType: NarrativeContent
     label: NarrativeContent_28
@@ -9078,7 +9076,7 @@
 - id: 925
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_29
     instanceType: NarrativeContent
     label: NarrativeContent_29
@@ -9089,7 +9087,7 @@
 - id: 926
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_30
     instanceType: NarrativeContent
     label: NarrativeContent_30
@@ -9100,7 +9098,7 @@
 - id: 927
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_31
     instanceType: NarrativeContent
     label: NarrativeContent_31
@@ -9111,7 +9109,7 @@
 - id: 928
   properties:
     _type: NarrativeContent
-    childrenIds:
+    childIds:
     - NarrativeContent_33
     - NarrativeContent_34
     - NarrativeContent_35
@@ -9130,7 +9128,7 @@
 - id: 929
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_33
     instanceType: NarrativeContent
     label: NarrativeContent_33
@@ -9141,7 +9139,7 @@
 - id: 930
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_34
     instanceType: NarrativeContent
     label: NarrativeContent_34
@@ -9152,7 +9150,7 @@
 - id: 931
   properties:
     _type: NarrativeContent
-    childrenIds:
+    childIds:
     - NarrativeContent_36
     id: NarrativeContent_35
     instanceType: NarrativeContent
@@ -9164,7 +9162,7 @@
 - id: 932
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_36
     instanceType: NarrativeContent
     label: NarrativeContent_36
@@ -9175,7 +9173,7 @@
 - id: 933
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_37
     instanceType: NarrativeContent
     label: NarrativeContent_37
@@ -9186,7 +9184,7 @@
 - id: 934
   properties:
     _type: NarrativeContent
-    childrenIds:
+    childIds:
     - NarrativeContent_39
     - NarrativeContent_40
     - NarrativeContent_41
@@ -9200,7 +9198,7 @@
 - id: 935
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_39
     instanceType: NarrativeContent
     label: NarrativeContent_39
@@ -9211,7 +9209,7 @@
 - id: 936
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_40
     instanceType: NarrativeContent
     label: NarrativeContent_40
@@ -9222,7 +9220,7 @@
 - id: 937
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_41
     instanceType: NarrativeContent
     label: NarrativeContent_41
@@ -9233,7 +9231,7 @@
 - id: 938
   properties:
     _type: NarrativeContent
-    childrenIds:
+    childIds:
     - NarrativeContent_43
     - NarrativeContent_44
     - NarrativeContent_45
@@ -9247,7 +9245,7 @@
 - id: 939
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_43
     instanceType: NarrativeContent
     label: NarrativeContent_43
@@ -9258,7 +9256,7 @@
 - id: 940
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_44
     instanceType: NarrativeContent
     label: NarrativeContent_44
@@ -9269,7 +9267,7 @@
 - id: 941
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_45
     instanceType: NarrativeContent
     label: NarrativeContent_45
@@ -9290,7 +9288,7 @@
 - id: 942
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_46
     instanceType: NarrativeContent
     label: NarrativeContent_46
@@ -9301,7 +9299,7 @@
 - id: 943
   properties:
     _type: NarrativeContent
-    childrenIds:
+    childIds:
     - NarrativeContent_48
     - NarrativeContent_49
     - NarrativeContent_50
@@ -9316,7 +9314,7 @@
 - id: 944
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_48
     instanceType: NarrativeContent
     label: NarrativeContent_48
@@ -9327,7 +9325,7 @@
 - id: 945
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_49
     instanceType: NarrativeContent
     label: NarrativeContent_49
@@ -9338,7 +9336,7 @@
 - id: 946
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_50
     instanceType: NarrativeContent
     label: NarrativeContent_50
@@ -9349,7 +9347,7 @@
 - id: 947
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_51
     instanceType: NarrativeContent
     label: NarrativeContent_51
@@ -9360,7 +9358,7 @@
 - id: 948
   properties:
     _type: NarrativeContent
-    childrenIds:
+    childIds:
     - NarrativeContent_53
     - NarrativeContent_57
     - NarrativeContent_58
@@ -9376,7 +9374,7 @@
 - id: 949
   properties:
     _type: NarrativeContent
-    childrenIds:
+    childIds:
     - NarrativeContent_54
     - NarrativeContent_55
     - NarrativeContent_56
@@ -9390,7 +9388,7 @@
 - id: 950
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_54
     instanceType: NarrativeContent
     label: NarrativeContent_54
@@ -9401,7 +9399,7 @@
 - id: 951
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_55
     instanceType: NarrativeContent
     label: NarrativeContent_55
@@ -9412,7 +9410,7 @@
 - id: 952
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_56
     instanceType: NarrativeContent
     label: NarrativeContent_56
@@ -9423,7 +9421,7 @@
 - id: 953
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_57
     instanceType: NarrativeContent
     label: NarrativeContent_57
@@ -9434,7 +9432,7 @@
 - id: 954
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_58
     instanceType: NarrativeContent
     label: NarrativeContent_58
@@ -9445,7 +9443,7 @@
 - id: 955
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_59
     instanceType: NarrativeContent
     label: NarrativeContent_59
@@ -9456,7 +9454,7 @@
 - id: 956
   properties:
     _type: NarrativeContent
-    childrenIds:
+    childIds:
     - NarrativeContent_61
     - NarrativeContent_62
     - NarrativeContent_63
@@ -9477,7 +9475,7 @@
 - id: 957
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_61
     instanceType: NarrativeContent
     label: NarrativeContent_61
@@ -9488,7 +9486,7 @@
 - id: 958
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_62
     instanceType: NarrativeContent
     label: NarrativeContent_62
@@ -9499,7 +9497,7 @@
 - id: 959
   properties:
     _type: NarrativeContent
-    childrenIds:
+    childIds:
     - NarrativeContent_64
     - NarrativeContent_65
     - NarrativeContent_66
@@ -9515,7 +9513,7 @@
 - id: 960
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_64
     instanceType: NarrativeContent
     label: NarrativeContent_64
@@ -9526,7 +9524,7 @@
 - id: 961
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_65
     instanceType: NarrativeContent
     label: NarrativeContent_65
@@ -9537,7 +9535,7 @@
 - id: 962
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_66
     instanceType: NarrativeContent
     label: NarrativeContent_66
@@ -9548,7 +9546,7 @@
 - id: 963
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_67
     instanceType: NarrativeContent
     label: NarrativeContent_67
@@ -9559,7 +9557,7 @@
 - id: 964
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_68
     instanceType: NarrativeContent
     label: NarrativeContent_68
@@ -9570,7 +9568,7 @@
 - id: 965
   properties:
     _type: NarrativeContent
-    childrenIds:
+    childIds:
     - NarrativeContent_70
     - NarrativeContent_71
     - NarrativeContent_72
@@ -9591,7 +9589,7 @@
 - id: 966
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_70
     instanceType: NarrativeContent
     label: NarrativeContent_70
@@ -9602,7 +9600,7 @@
 - id: 967
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_71
     instanceType: NarrativeContent
     label: NarrativeContent_71
@@ -9613,7 +9611,7 @@
 - id: 968
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_72
     instanceType: NarrativeContent
     label: NarrativeContent_72
@@ -9624,7 +9622,7 @@
 - id: 969
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_73
     instanceType: NarrativeContent
     label: NarrativeContent_73
@@ -9635,7 +9633,7 @@
 - id: 970
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_74
     instanceType: NarrativeContent
     label: NarrativeContent_74
@@ -9646,7 +9644,7 @@
 - id: 971
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_75
     instanceType: NarrativeContent
     label: NarrativeContent_75
@@ -9657,7 +9655,7 @@
 - id: 972
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_76
     instanceType: NarrativeContent
     label: NarrativeContent_76
@@ -9668,7 +9666,7 @@
 - id: 973
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_77
     instanceType: NarrativeContent
     label: NarrativeContent_77
@@ -9679,7 +9677,7 @@
 - id: 974
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_78
     instanceType: NarrativeContent
     label: NarrativeContent_78
@@ -9690,7 +9688,7 @@
 - id: 975
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_79
     instanceType: NarrativeContent
     label: NarrativeContent_79
@@ -9701,7 +9699,7 @@
 - id: 976
   properties:
     _type: NarrativeContent
-    childrenIds:
+    childIds:
     - NarrativeContent_81
     - NarrativeContent_82
     id: NarrativeContent_80
@@ -9714,7 +9712,7 @@
 - id: 977
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_81
     instanceType: NarrativeContent
     label: NarrativeContent_81
@@ -9725,7 +9723,7 @@
 - id: 978
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_82
     instanceType: NarrativeContent
     label: NarrativeContent_82
@@ -9736,7 +9734,7 @@
 - id: 979
   properties:
     _type: NarrativeContent
-    childrenIds:
+    childIds:
     - NarrativeContent_84
     - NarrativeContent_85
     - NarrativeContent_86
@@ -9752,7 +9750,7 @@
 - id: 980
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_84
     instanceType: NarrativeContent
     label: NarrativeContent_84
@@ -9763,7 +9761,7 @@
 - id: 981
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_85
     instanceType: NarrativeContent
     label: NarrativeContent_85
@@ -9774,7 +9772,7 @@
 - id: 982
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_86
     instanceType: NarrativeContent
     label: NarrativeContent_86
@@ -9786,7 +9784,7 @@
 - id: 983
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_87
     instanceType: NarrativeContent
     label: NarrativeContent_87
@@ -9797,7 +9795,7 @@
 - id: 984
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_88
     instanceType: NarrativeContent
     label: NarrativeContent_88
@@ -9808,7 +9806,7 @@
 - id: 985
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_89
     instanceType: NarrativeContent
     label: NarrativeContent_89
@@ -9819,7 +9817,7 @@
 - id: 986
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_90
     instanceType: NarrativeContent
     label: NarrativeContent_90
@@ -9830,7 +9828,7 @@
 - id: 987
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_91
     instanceType: NarrativeContent
     label: NarrativeContent_91
@@ -9841,7 +9839,7 @@
 - id: 988
   properties:
     _type: NarrativeContent
-    childrenIds:
+    childIds:
     - NarrativeContent_93
     id: NarrativeContent_92
     instanceType: NarrativeContent
@@ -9853,7 +9851,7 @@
 - id: 989
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_93
     instanceType: NarrativeContent
     label: NarrativeContent_93
@@ -9864,7 +9862,7 @@
 - id: 990
   properties:
     _type: NarrativeContent
-    childrenIds:
+    childIds:
     - NarrativeContent_95
     - NarrativeContent_96
     - NarrativeContent_102
@@ -9884,7 +9882,7 @@
 - id: 991
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_95
     instanceType: NarrativeContent
     label: NarrativeContent_95
@@ -9895,7 +9893,7 @@
 - id: 992
   properties:
     _type: NarrativeContent
-    childrenIds:
+    childIds:
     - NarrativeContent_97
     - NarrativeContent_98
     - NarrativeContent_99
@@ -9911,7 +9909,7 @@
 - id: 993
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_97
     instanceType: NarrativeContent
     label: NarrativeContent_97
@@ -9922,7 +9920,7 @@
 - id: 994
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_98
     instanceType: NarrativeContent
     label: NarrativeContent_98
@@ -9933,7 +9931,7 @@
 - id: 995
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_99
     instanceType: NarrativeContent
     label: NarrativeContent_99
@@ -9944,7 +9942,7 @@
 - id: 996
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_100
     instanceType: NarrativeContent
     label: NarrativeContent_100
@@ -9955,7 +9953,7 @@
 - id: 997
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_101
     instanceType: NarrativeContent
     label: NarrativeContent_101
@@ -9966,7 +9964,7 @@
 - id: 998
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_102
     instanceType: NarrativeContent
     label: NarrativeContent_102
@@ -9977,7 +9975,7 @@
 - id: 999
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_103
     instanceType: NarrativeContent
     label: NarrativeContent_103
@@ -9988,7 +9986,7 @@
 - id: 1000
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_104
     instanceType: NarrativeContent
     label: NarrativeContent_104
@@ -9999,7 +9997,7 @@
 - id: 1001
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_105
     instanceType: NarrativeContent
     label: NarrativeContent_105
@@ -10010,7 +10008,7 @@
 - id: 1002
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_106
     instanceType: NarrativeContent
     label: NarrativeContent_106
@@ -10021,7 +10019,7 @@
 - id: 1003
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_107
     instanceType: NarrativeContent
     label: NarrativeContent_107
@@ -10032,7 +10030,7 @@
 - id: 1004
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_108
     instanceType: NarrativeContent
     label: NarrativeContent_108
@@ -10043,7 +10041,7 @@
 - id: 1005
   properties:
     _type: NarrativeContent
-    childrenIds:
+    childIds:
     - NarrativeContent_110
     - NarrativeContent_111
     - NarrativeContent_112
@@ -10059,7 +10057,7 @@
 - id: 1006
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_110
     instanceType: NarrativeContent
     label: NarrativeContent_110
@@ -10070,7 +10068,7 @@
 - id: 1007
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_111
     instanceType: NarrativeContent
     label: NarrativeContent_111
@@ -10081,7 +10079,7 @@
 - id: 1008
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_112
     instanceType: NarrativeContent
     label: NarrativeContent_112
@@ -10092,7 +10090,7 @@
 - id: 1009
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_113
     instanceType: NarrativeContent
     label: NarrativeContent_113
@@ -10103,7 +10101,7 @@
 - id: 1010
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_114
     instanceType: NarrativeContent
     label: NarrativeContent_114
@@ -10114,7 +10112,7 @@
 - id: 1011
   properties:
     _type: NarrativeContent
-    childrenIds:
+    childIds:
     - NarrativeContent_116
     - NarrativeContent_117
     - NarrativeContent_118
@@ -10128,7 +10126,7 @@
 - id: 1012
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_116
     instanceType: NarrativeContent
     label: NarrativeContent_116
@@ -10139,7 +10137,7 @@
 - id: 1013
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_117
     instanceType: NarrativeContent
     label: NarrativeContent_117
@@ -10150,7 +10148,7 @@
 - id: 1014
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_118
     instanceType: NarrativeContent
     label: NarrativeContent_118
@@ -10161,7 +10159,7 @@
 - id: 1015
   properties:
     _type: NarrativeContent
-    childrenIds:
+    childIds:
     - NarrativeContent_120
     - NarrativeContent_121
     - NarrativeContent_122
@@ -10177,7 +10175,7 @@
 - id: 1016
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_120
     instanceType: NarrativeContent
     label: NarrativeContent_120
@@ -10188,7 +10186,7 @@
 - id: 1017
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_121
     instanceType: NarrativeContent
     label: NarrativeContent_121
@@ -10199,7 +10197,7 @@
 - id: 1018
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_122
     instanceType: NarrativeContent
     label: NarrativeContent_122
@@ -10210,7 +10208,7 @@
 - id: 1019
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_123
     instanceType: NarrativeContent
     label: NarrativeContent_123
@@ -10221,7 +10219,7 @@
 - id: 1020
   properties:
     _type: NarrativeContent
-    childrenIds:
+    childIds:
     - NarrativeContent_125
     - NarrativeContent_129
     - NarrativeContent_130
@@ -10236,7 +10234,7 @@
 - id: 1021
   properties:
     _type: NarrativeContent
-    childrenIds:
+    childIds:
     - NarrativeContent_126
     - NarrativeContent_127
     - NarrativeContent_128
@@ -10250,7 +10248,7 @@
 - id: 1022
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_126
     instanceType: NarrativeContent
     label: NarrativeContent_126
@@ -10261,7 +10259,7 @@
 - id: 1023
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_127
     instanceType: NarrativeContent
     label: NarrativeContent_127
@@ -10272,7 +10270,7 @@
 - id: 1024
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_128
     instanceType: NarrativeContent
     label: NarrativeContent_128
@@ -10283,7 +10281,7 @@
 - id: 1025
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_129
     instanceType: NarrativeContent
     label: NarrativeContent_129
@@ -10294,7 +10292,7 @@
 - id: 1026
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_130
     instanceType: NarrativeContent
     label: NarrativeContent_130
@@ -10305,7 +10303,7 @@
 - id: 1027
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_131
     instanceType: NarrativeContent
     label: NarrativeContent_131
@@ -10316,7 +10314,7 @@
 - id: 1028
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_132
     instanceType: NarrativeContent
     label: NarrativeContent_132
@@ -10327,7 +10325,7 @@
 - id: 1029
   properties:
     _type: NarrativeContent
-    childrenIds: []
+    childIds: []
     id: NarrativeContent_133
     instanceType: NarrativeContent
     label: NarrativeContent_133
@@ -10338,7 +10336,7 @@
 - id: 889
   properties:
     _type: StudyProtocolDocumentVersion
-    childrenIds: []
+    childIds: []
     id: StudyProtocolDocumentVersion_1
     instanceType: StudyProtocolDocumentVersion
     label: StudyProtocolDocumentVersion_1

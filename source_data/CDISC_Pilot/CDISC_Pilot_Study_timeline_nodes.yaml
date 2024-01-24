@@ -11,7 +11,7 @@
       instanceType: Code
     description: Screening encounter
     environmentalSetting:
-      _type: Code
+    - _type: Code
       code: C51282
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2023-09-29'
@@ -48,7 +48,7 @@
       instanceType: Code
     description: Screening encounter - Ambulatory ECG Placement
     environmentalSetting:
-      _type: Code
+    - _type: Code
       code: C51282
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2023-09-29'
@@ -85,7 +85,7 @@
       instanceType: Code
     description: Baseline encounter - Ambulatory ECG Removal
     environmentalSetting:
-      _type: Code
+    - _type: Code
       code: C51282
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2023-09-29'
@@ -122,7 +122,7 @@
       instanceType: Code
     description: Day 14
     environmentalSetting:
-      _type: Code
+    - _type: Code
       code: C51282
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2023-09-29'
@@ -159,7 +159,7 @@
       instanceType: Code
     description: Day 28
     environmentalSetting:
-      _type: Code
+    - _type: Code
       code: C51282
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2023-09-29'
@@ -196,7 +196,7 @@
       instanceType: Code
     description: Day 42
     environmentalSetting:
-      _type: Code
+    - _type: Code
       code: C51282
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2023-09-29'
@@ -240,7 +240,7 @@
       instanceType: Code
     description: Day 56
     environmentalSetting:
-      _type: Code
+    - _type: Code
       code: C51282
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2023-09-29'
@@ -284,7 +284,7 @@
       instanceType: Code
     description: Day 84
     environmentalSetting:
-      _type: Code
+    - _type: Code
       code: C51282
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2023-09-29'
@@ -328,7 +328,7 @@
       instanceType: Code
     description: Day 112
     environmentalSetting:
-      _type: Code
+    - _type: Code
       code: C51282
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2023-09-29'
@@ -372,7 +372,7 @@
       instanceType: Code
     description: Day 140
     environmentalSetting:
-      _type: Code
+    - _type: Code
       code: C51282
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2023-09-29'
@@ -409,7 +409,7 @@
       instanceType: Code
     description: Day 168
     environmentalSetting:
-      _type: Code
+    - _type: Code
       code: C51282
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2023-09-29'
@@ -446,7 +446,7 @@
       instanceType: Code
     description: Day 182
     environmentalSetting:
-      _type: Code
+    - _type: Code
       code: C51282
       codeSystem: http://www.cdisc.org
       codeSystemVersion: '2023-09-29'
@@ -923,7 +923,7 @@
     id: ScheduleTimelineExit_4
     instanceType: ScheduleTimelineExit
     label: ScheduleTimelineExit_4
-- id: 108
+- id: 107
   properties:
     _type: Timing
     description: Screening timing
@@ -951,15 +951,7 @@
     window: ''
     windowLower: null
     windowUpper: null
-- id: 107
-  properties:
-    _type: ScheduledActivityInstance
-    id: ScheduledActivityInstance_9
-    instanceType: ScheduledActivityInstance
-    label: ScheduledActivityInstance_9
-    timelineExitId: null
-    timelineId: null
-- id: 112
+- id: 110
   properties:
     _type: Timing
     description: Pre dose timing
@@ -987,15 +979,7 @@
     window: -4..0 hours
     windowLower: PT4H
     windowUpper: PT0H
-- id: 111
-  properties:
-    _type: ScheduledActivityInstance
-    id: ScheduledActivityInstance_10
-    instanceType: ScheduledActivityInstance
-    label: ScheduledActivityInstance_10
-    timelineExitId: null
-    timelineId: null
-- id: 116
+- id: 113
   properties:
     _type: Timing
     description: Dosing anchor
@@ -1023,15 +1007,7 @@
     window: ''
     windowLower: null
     windowUpper: null
-- id: 115
-  properties:
-    _type: ScheduledActivityInstance
-    id: ScheduledActivityInstance_11
-    instanceType: ScheduledActivityInstance
-    label: ScheduledActivityInstance_11
-    timelineExitId: null
-    timelineId: null
-- id: 120
+- id: 116
   properties:
     _type: Timing
     description: Week 2 timing
@@ -1061,14 +1037,6 @@
     windowUpper: P3D
 - id: 119
   properties:
-    _type: ScheduledActivityInstance
-    id: ScheduledActivityInstance_12
-    instanceType: ScheduledActivityInstance
-    label: ScheduledActivityInstance_12
-    timelineExitId: null
-    timelineId: null
-- id: 124
-  properties:
     _type: Timing
     description: Week 4 timing
     id: Timing_5
@@ -1095,15 +1063,7 @@
     window: -3..3 days
     windowLower: P3D
     windowUpper: P3D
-- id: 123
-  properties:
-    _type: ScheduledActivityInstance
-    id: ScheduledActivityInstance_13
-    instanceType: ScheduledActivityInstance
-    label: ScheduledActivityInstance_13
-    timelineExitId: null
-    timelineId: null
-- id: 128
+- id: 122
   properties:
     _type: Timing
     description: Week 6 timing
@@ -1131,15 +1091,7 @@
     window: -3..3 days
     windowLower: P3D
     windowUpper: P3D
-- id: 127
-  properties:
-    _type: ScheduledActivityInstance
-    id: ScheduledActivityInstance_14
-    instanceType: ScheduledActivityInstance
-    label: ScheduledActivityInstance_14
-    timelineExitId: null
-    timelineId: null
-- id: 132
+- id: 125
   properties:
     _type: Timing
     description: Week 8 timing
@@ -1167,51 +1119,7 @@
     window: -3..3 days
     windowLower: P3D
     windowUpper: P3D
-- id: 131
-  properties:
-    _type: ScheduledActivityInstance
-    id: ScheduledActivityInstance_15
-    instanceType: ScheduledActivityInstance
-    label: ScheduledActivityInstance_15
-    timelineExitId: null
-    timelineId: null
-- id: 136
-  properties:
-    _type: Timing
-    description: Week 8 at home timing
-    id: Timing_8
-    instanceType: Timing
-    label: Timing_8
-    name: TIM8
-    relativeToFrom:
-      _type: Code
-      code: C201265
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2023-09-29'
-      decode: Start to Start
-      id: Code_35
-      instanceType: Code
-    type:
-      _type: Code
-      code: C201264
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2023-09-29'
-      decode: After
-      id: Code_34
-      instanceType: Code
-    value: P2W
-    window: ''
-    windowLower: null
-    windowUpper: null
-- id: 135
-  properties:
-    _type: ScheduledActivityInstance
-    id: ScheduledActivityInstance_16
-    instanceType: ScheduledActivityInstance
-    label: ScheduledActivityInstance_16
-    timelineExitId: null
-    timelineId: null
-- id: 140
+- id: 128
   properties:
     _type: Timing
     description: Week 12 timing
@@ -1239,51 +1147,7 @@
     window: -4..4 days
     windowLower: P4D
     windowUpper: P4D
-- id: 139
-  properties:
-    _type: ScheduledActivityInstance
-    id: ScheduledActivityInstance_17
-    instanceType: ScheduledActivityInstance
-    label: ScheduledActivityInstance_17
-    timelineExitId: null
-    timelineId: null
-- id: 144
-  properties:
-    _type: Timing
-    description: Week 12 at home timing
-    id: Timing_10
-    instanceType: Timing
-    label: Timing_10
-    name: TIM10
-    relativeToFrom:
-      _type: Code
-      code: C201265
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2023-09-29'
-      decode: Start to Start
-      id: Code_40
-      instanceType: Code
-    type:
-      _type: Code
-      code: C201264
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2023-09-29'
-      decode: After
-      id: Code_39
-      instanceType: Code
-    value: P2W
-    window: ''
-    windowLower: null
-    windowUpper: null
-- id: 143
-  properties:
-    _type: ScheduledActivityInstance
-    id: ScheduledActivityInstance_18
-    instanceType: ScheduledActivityInstance
-    label: ScheduledActivityInstance_18
-    timelineExitId: null
-    timelineId: null
-- id: 148
+- id: 131
   properties:
     _type: Timing
     description: Week 16 timing
@@ -1311,51 +1175,7 @@
     window: -4..4 days
     windowLower: P4D
     windowUpper: P4D
-- id: 147
-  properties:
-    _type: ScheduledActivityInstance
-    id: ScheduledActivityInstance_19
-    instanceType: ScheduledActivityInstance
-    label: ScheduledActivityInstance_19
-    timelineExitId: null
-    timelineId: null
-- id: 152
-  properties:
-    _type: Timing
-    description: Week 16 at home timing
-    id: Timing_12
-    instanceType: Timing
-    label: Timing_12
-    name: TIM12
-    relativeToFrom:
-      _type: Code
-      code: C201265
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2023-09-29'
-      decode: Start to Start
-      id: Code_45
-      instanceType: Code
-    type:
-      _type: Code
-      code: C201264
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2023-09-29'
-      decode: After
-      id: Code_44
-      instanceType: Code
-    value: P2W
-    window: ''
-    windowLower: null
-    windowUpper: null
-- id: 151
-  properties:
-    _type: ScheduledActivityInstance
-    id: ScheduledActivityInstance_20
-    instanceType: ScheduledActivityInstance
-    label: ScheduledActivityInstance_20
-    timelineExitId: null
-    timelineId: null
-- id: 156
+- id: 134
   properties:
     _type: Timing
     description: Week 20 timing
@@ -1383,51 +1203,7 @@
     window: -4..4 days
     windowLower: P4D
     windowUpper: P4D
-- id: 155
-  properties:
-    _type: ScheduledActivityInstance
-    id: ScheduledActivityInstance_21
-    instanceType: ScheduledActivityInstance
-    label: ScheduledActivityInstance_21
-    timelineExitId: null
-    timelineId: null
-- id: 160
-  properties:
-    _type: Timing
-    description: Week 20 at home timing
-    id: Timing_14
-    instanceType: Timing
-    label: Timing_14
-    name: TIM14
-    relativeToFrom:
-      _type: Code
-      code: C201265
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2023-09-29'
-      decode: Start to Start
-      id: Code_50
-      instanceType: Code
-    type:
-      _type: Code
-      code: C201264
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2023-09-29'
-      decode: After
-      id: Code_49
-      instanceType: Code
-    value: P2W
-    window: ''
-    windowLower: null
-    windowUpper: null
-- id: 159
-  properties:
-    _type: ScheduledActivityInstance
-    id: ScheduledActivityInstance_22
-    instanceType: ScheduledActivityInstance
-    label: ScheduledActivityInstance_22
-    timelineExitId: null
-    timelineId: null
-- id: 164
+- id: 137
   properties:
     _type: Timing
     description: Week 24 timing
@@ -1455,15 +1231,7 @@
     window: -4..4 days
     windowLower: P4D
     windowUpper: P4D
-- id: 163
-  properties:
-    _type: ScheduledActivityInstance
-    id: ScheduledActivityInstance_23
-    instanceType: ScheduledActivityInstance
-    label: ScheduledActivityInstance_23
-    timelineExitId: null
-    timelineId: null
-- id: 168
+- id: 140
   properties:
     _type: Timing
     description: Week 26 timing
@@ -1491,7 +1259,239 @@
     window: -3..3 days
     windowLower: P3D
     windowUpper: P3D
+- id: 143
+  properties:
+    _type: Timing
+    description: Week 8 at home timing
+    id: Timing_8
+    instanceType: Timing
+    label: Timing_8
+    name: TIM8
+    relativeToFrom:
+      _type: Code
+      code: C201265
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2023-09-29'
+      decode: Start to Start
+      id: Code_35
+      instanceType: Code
+    type:
+      _type: Code
+      code: C201264
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2023-09-29'
+      decode: After
+      id: Code_34
+      instanceType: Code
+    value: P2W
+    window: ''
+    windowLower: null
+    windowUpper: null
+- id: 146
+  properties:
+    _type: Timing
+    description: Week 12 at home timing
+    id: Timing_10
+    instanceType: Timing
+    label: Timing_10
+    name: TIM10
+    relativeToFrom:
+      _type: Code
+      code: C201265
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2023-09-29'
+      decode: Start to Start
+      id: Code_40
+      instanceType: Code
+    type:
+      _type: Code
+      code: C201264
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2023-09-29'
+      decode: After
+      id: Code_39
+      instanceType: Code
+    value: P2W
+    window: ''
+    windowLower: null
+    windowUpper: null
+- id: 149
+  properties:
+    _type: Timing
+    description: Week 16 at home timing
+    id: Timing_12
+    instanceType: Timing
+    label: Timing_12
+    name: TIM12
+    relativeToFrom:
+      _type: Code
+      code: C201265
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2023-09-29'
+      decode: Start to Start
+      id: Code_45
+      instanceType: Code
+    type:
+      _type: Code
+      code: C201264
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2023-09-29'
+      decode: After
+      id: Code_44
+      instanceType: Code
+    value: P2W
+    window: ''
+    windowLower: null
+    windowUpper: null
+- id: 152
+  properties:
+    _type: Timing
+    description: Week 20 at home timing
+    id: Timing_14
+    instanceType: Timing
+    label: Timing_14
+    name: TIM14
+    relativeToFrom:
+      _type: Code
+      code: C201265
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2023-09-29'
+      decode: Start to Start
+      id: Code_50
+      instanceType: Code
+    type:
+      _type: Code
+      code: C201264
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2023-09-29'
+      decode: After
+      id: Code_49
+      instanceType: Code
+    value: P2W
+    window: ''
+    windowLower: null
+    windowUpper: null
+- id: 155
+  properties:
+    _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_9
+    instanceType: ScheduledActivityInstance
+    label: ScheduledActivityInstance_9
+    timelineExitId: null
+    timelineId: null
+- id: 156
+  properties:
+    _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_10
+    instanceType: ScheduledActivityInstance
+    label: ScheduledActivityInstance_10
+    timelineExitId: null
+    timelineId: null
+- id: 157
+  properties:
+    _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_11
+    instanceType: ScheduledActivityInstance
+    label: ScheduledActivityInstance_11
+    timelineExitId: null
+    timelineId: null
+- id: 158
+  properties:
+    _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_12
+    instanceType: ScheduledActivityInstance
+    label: ScheduledActivityInstance_12
+    timelineExitId: null
+    timelineId: null
+- id: 159
+  properties:
+    _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_13
+    instanceType: ScheduledActivityInstance
+    label: ScheduledActivityInstance_13
+    timelineExitId: null
+    timelineId: null
+- id: 160
+  properties:
+    _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_14
+    instanceType: ScheduledActivityInstance
+    label: ScheduledActivityInstance_14
+    timelineExitId: null
+    timelineId: null
+- id: 161
+  properties:
+    _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_15
+    instanceType: ScheduledActivityInstance
+    label: ScheduledActivityInstance_15
+    timelineExitId: null
+    timelineId: null
+- id: 162
+  properties:
+    _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_16
+    instanceType: ScheduledActivityInstance
+    label: ScheduledActivityInstance_16
+    timelineExitId: null
+    timelineId: null
+- id: 163
+  properties:
+    _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_17
+    instanceType: ScheduledActivityInstance
+    label: ScheduledActivityInstance_17
+    timelineExitId: null
+    timelineId: null
+- id: 164
+  properties:
+    _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_18
+    instanceType: ScheduledActivityInstance
+    label: ScheduledActivityInstance_18
+    timelineExitId: null
+    timelineId: null
+- id: 165
+  properties:
+    _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_19
+    instanceType: ScheduledActivityInstance
+    label: ScheduledActivityInstance_19
+    timelineExitId: null
+    timelineId: null
+- id: 166
+  properties:
+    _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_20
+    instanceType: ScheduledActivityInstance
+    label: ScheduledActivityInstance_20
+    timelineExitId: null
+    timelineId: null
 - id: 167
+  properties:
+    _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_21
+    instanceType: ScheduledActivityInstance
+    label: ScheduledActivityInstance_21
+    timelineExitId: null
+    timelineId: null
+- id: 168
+  properties:
+    _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_22
+    instanceType: ScheduledActivityInstance
+    label: ScheduledActivityInstance_22
+    timelineExitId: null
+    timelineId: null
+- id: 169
+  properties:
+    _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_23
+    instanceType: ScheduledActivityInstance
+    label: ScheduledActivityInstance_23
+    timelineExitId: null
+    timelineId: null
+- id: 170
   properties:
     _type: ScheduledActivityInstance
     id: ScheduledActivityInstance_24
@@ -1516,7 +1516,7 @@
     id: ScheduleTimelineExit_1
     instanceType: ScheduleTimelineExit
     label: ScheduleTimelineExit_1
-- id: 174
+- id: 173
   properties:
     _type: Timing
     description: Adverse Event
@@ -1544,7 +1544,7 @@
     window: ''
     windowLower: null
     windowUpper: null
-- id: 173
+- id: 176
   properties:
     _type: ScheduledActivityInstance
     id: ScheduledActivityInstance_1
@@ -1569,7 +1569,7 @@
     id: ScheduleTimelineExit_2
     instanceType: ScheduleTimelineExit
     label: ScheduleTimelineExit_2
-- id: 180
+- id: 179
   properties:
     _type: Timing
     description: Early Termination
@@ -1597,7 +1597,7 @@
     window: ''
     windowLower: null
     windowUpper: null
-- id: 179
+- id: 182
   properties:
     _type: ScheduledActivityInstance
     id: ScheduledActivityInstance_2
@@ -1622,7 +1622,7 @@
     id: ScheduleTimelineExit_3
     instanceType: ScheduleTimelineExit
     label: ScheduleTimelineExit_3
-- id: 186
+- id: 185
   properties:
     _type: Timing
     description: Supine
@@ -1650,15 +1650,7 @@
     window: ''
     windowLower: null
     windowUpper: null
-- id: 185
-  properties:
-    _type: ScheduledActivityInstance
-    id: ScheduledActivityInstance_3
-    instanceType: ScheduledActivityInstance
-    label: ScheduledActivityInstance_3
-    timelineExitId: null
-    timelineId: null
-- id: 190
+- id: 188
   properties:
     _type: Timing
     description: VS while supine
@@ -1686,15 +1678,7 @@
     window: ''
     windowLower: null
     windowUpper: null
-- id: 189
-  properties:
-    _type: ScheduledActivityInstance
-    id: ScheduledActivityInstance_4
-    instanceType: ScheduledActivityInstance
-    label: ScheduledActivityInstance_4
-    timelineExitId: null
-    timelineId: null
-- id: 194
+- id: 191
   properties:
     _type: Timing
     description: Standing
@@ -1722,15 +1706,7 @@
     window: ''
     windowLower: null
     windowUpper: null
-- id: 193
-  properties:
-    _type: ScheduledActivityInstance
-    id: ScheduledActivityInstance_5
-    instanceType: ScheduledActivityInstance
-    label: ScheduledActivityInstance_5
-    timelineExitId: null
-    timelineId: null
-- id: 198
+- id: 194
   properties:
     _type: Timing
     description: VS while standing
@@ -1760,14 +1736,6 @@
     windowUpper: null
 - id: 197
   properties:
-    _type: ScheduledActivityInstance
-    id: ScheduledActivityInstance_6
-    instanceType: ScheduledActivityInstance
-    label: ScheduledActivityInstance_6
-    timelineExitId: null
-    timelineId: null
-- id: 202
-  properties:
     _type: Timing
     description: Standing
     id: Timing_23
@@ -1794,15 +1762,7 @@
     window: ''
     windowLower: null
     windowUpper: null
-- id: 201
-  properties:
-    _type: ScheduledActivityInstance
-    id: ScheduledActivityInstance_7
-    instanceType: ScheduledActivityInstance
-    label: ScheduledActivityInstance_7
-    timelineExitId: null
-    timelineId: null
-- id: 206
+- id: 200
   properties:
     _type: Timing
     description: VS while standing
@@ -1830,7 +1790,47 @@
     window: ''
     windowLower: null
     windowUpper: null
+- id: 203
+  properties:
+    _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_3
+    instanceType: ScheduledActivityInstance
+    label: ScheduledActivityInstance_3
+    timelineExitId: null
+    timelineId: null
+- id: 204
+  properties:
+    _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_4
+    instanceType: ScheduledActivityInstance
+    label: ScheduledActivityInstance_4
+    timelineExitId: null
+    timelineId: null
 - id: 205
+  properties:
+    _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_5
+    instanceType: ScheduledActivityInstance
+    label: ScheduledActivityInstance_5
+    timelineExitId: null
+    timelineId: null
+- id: 206
+  properties:
+    _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_6
+    instanceType: ScheduledActivityInstance
+    label: ScheduledActivityInstance_6
+    timelineExitId: null
+    timelineId: null
+- id: 207
+  properties:
+    _type: ScheduledActivityInstance
+    id: ScheduledActivityInstance_7
+    instanceType: ScheduledActivityInstance
+    label: ScheduledActivityInstance_7
+    timelineExitId: null
+    timelineId: null
+- id: 208
   properties:
     _type: ScheduledActivityInstance
     id: ScheduledActivityInstance_8
@@ -1851,15 +1851,6 @@
     name: Vital Sign Blood Pressure Timeline
 - id: 209
   properties:
-    _type: StudySite
-    currentEnrollment: null
-    description: Main Site
-    id: StudySite_1
-    instanceType: StudySite
-    label: StudySite_1
-    name: SITE_1
-- id: 210
-  properties:
     _type: SyntaxTemplateDictionary
     description: Dictionary for IE
     id: SyntaxTemplateDictionary_1
@@ -1867,7 +1858,7 @@
     label: SyntaxTemplateDictionary_1
     name: IE_Dict
     parameterMap: {}
-- id: 211
+- id: 210
   properties:
     _type: SyntaxTemplateDictionary
     description: Dictionary for Study Assessments
@@ -1876,7 +1867,7 @@
     label: SyntaxTemplateDictionary_2
     name: AS_Dict
     parameterMap: {}
-- id: 212
+- id: 211
   properties:
     _type: Condition
     appliesToIds:
@@ -1889,7 +1880,7 @@
     label: Condition_1
     name: COND1
     text: If this is true
-- id: 215
+- id: 214
   properties:
     _type: Address
     city: city
@@ -1910,7 +1901,16 @@
     state: state
     text: line, city, district, state, postal_code, United Kingdom of Great Britain
       and Northern Ireland
-- id: 213
+- id: 216
+  properties:
+    _type: StudySite
+    currentEnrollment: null
+    description: Main Site
+    id: StudySite_1
+    instanceType: StudySite
+    label: StudySite_1
+    name: SITE_1
+- id: 212
   properties:
     _type: ResearchOrganization
     id: ResearchOrganization_1
@@ -1918,10 +1918,8 @@
     identifierScheme: DUNS
     instanceType: ResearchOrganization
     label: ResearchOrganization_1
-    manageIds:
-    - StudySite_1
     name: SITE_ORG_1
-    type:
+    organizationType:
       _type: Code
       code: C70793
       codeSystem: http://www.cdisc.org
@@ -1953,7 +1951,7 @@
       id: Code_144
       instanceType: Code
     description: The main design for the study
-    documentVersion: null
+    documentVersionId: null
     elements: {}
     epochs: {}
     estimands: []
@@ -2123,7 +2121,7 @@
       Therapeutic System (TTS) has been initiated.
     studyIdentifiers: {}
     studyPhase: {}
-    type:
+    studyType:
       _type: Code
       code: C98388
       codeSystem: http://www.cdisc.org

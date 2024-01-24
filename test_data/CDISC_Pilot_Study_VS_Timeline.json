@@ -9,7 +9,7 @@
         "id": "StudyVersion_1",
         "versionIdentifier": "2",
         "rationale": "The discontinuation rate associated with this oral dosing regimen was 58.6% in previous studies, and alternative clinical strategies have been sought to improve tolerance for the compound. To that end, development of a Transdermal Therapeutic System (TTS) has been initiated.",
-        "type": {
+        "studyType": {
           "id": "Code_1",
           "code": "C98388",
           "codeSystem": "http://www.cdisc.org",
@@ -153,7 +153,7 @@
               "id": "Organization_1",
               "name": "Eli Lilly",
               "label": "",
-              "type": {
+              "organizationType": {
                 "id": "Code_77",
                 "code": "C70793",
                 "codeSystem": "http://www.cdisc.org",
@@ -192,7 +192,7 @@
               "id": "Organization_2",
               "name": "ClinicalTrials.gov",
               "label": "",
-              "type": {
+              "organizationType": {
                 "id": "Code_79",
                 "code": "C93453",
                 "codeSystem": "http://www.cdisc.org",
@@ -311,14 +311,16 @@
                 "previousId": null,
                 "nextId": "Encounter_2",
                 "scheduledAtId": null,
-                "environmentalSetting": {
-                  "id": "Code_84",
-                  "code": "C51282",
-                  "codeSystem": "http://www.cdisc.org",
-                  "codeSystemVersion": "2023-09-29",
-                  "decode": "Clinic",
-                  "instanceType": "Code"
-                },
+                "environmentalSetting": [
+                  {
+                    "id": "Code_84",
+                    "code": "C51282",
+                    "codeSystem": "http://www.cdisc.org",
+                    "codeSystemVersion": "2023-09-29",
+                    "decode": "Clinic",
+                    "instanceType": "Code"
+                  }
+                ],
                 "contactModes": [
                   {
                     "id": "Code_85",
@@ -363,14 +365,16 @@
                 "previousId": "Encounter_1",
                 "nextId": "Encounter_3",
                 "scheduledAtId": "Timing_2",
-                "environmentalSetting": {
-                  "id": "Code_87",
-                  "code": "C51282",
-                  "codeSystem": "http://www.cdisc.org",
-                  "codeSystemVersion": "2023-09-29",
-                  "decode": "Clinic",
-                  "instanceType": "Code"
-                },
+                "environmentalSetting": [
+                  {
+                    "id": "Code_87",
+                    "code": "C51282",
+                    "codeSystem": "http://www.cdisc.org",
+                    "codeSystemVersion": "2023-09-29",
+                    "decode": "Clinic",
+                    "instanceType": "Code"
+                  }
+                ],
                 "contactModes": [
                   {
                     "id": "Code_88",
@@ -408,14 +412,16 @@
                 "previousId": "Encounter_2",
                 "nextId": "Encounter_4",
                 "scheduledAtId": null,
-                "environmentalSetting": {
-                  "id": "Code_90",
-                  "code": "C51282",
-                  "codeSystem": "http://www.cdisc.org",
-                  "codeSystemVersion": "2023-09-29",
-                  "decode": "Clinic",
-                  "instanceType": "Code"
-                },
+                "environmentalSetting": [
+                  {
+                    "id": "Code_90",
+                    "code": "C51282",
+                    "codeSystem": "http://www.cdisc.org",
+                    "codeSystemVersion": "2023-09-29",
+                    "decode": "Clinic",
+                    "instanceType": "Code"
+                  }
+                ],
                 "contactModes": [
                   {
                     "id": "Code_91",
@@ -460,14 +466,16 @@
                 "previousId": "Encounter_3",
                 "nextId": "Encounter_5",
                 "scheduledAtId": "Timing_4",
-                "environmentalSetting": {
-                  "id": "Code_93",
-                  "code": "C51282",
-                  "codeSystem": "http://www.cdisc.org",
-                  "codeSystemVersion": "2023-09-29",
-                  "decode": "Clinic",
-                  "instanceType": "Code"
-                },
+                "environmentalSetting": [
+                  {
+                    "id": "Code_93",
+                    "code": "C51282",
+                    "codeSystem": "http://www.cdisc.org",
+                    "codeSystemVersion": "2023-09-29",
+                    "decode": "Clinic",
+                    "instanceType": "Code"
+                  }
+                ],
                 "contactModes": [
                   {
                     "id": "Code_94",
@@ -498,14 +506,16 @@
                 "previousId": "Encounter_4",
                 "nextId": "Encounter_6",
                 "scheduledAtId": "Timing_5",
-                "environmentalSetting": {
-                  "id": "Code_96",
-                  "code": "C51282",
-                  "codeSystem": "http://www.cdisc.org",
-                  "codeSystemVersion": "2023-09-29",
-                  "decode": "Clinic",
-                  "instanceType": "Code"
-                },
+                "environmentalSetting": [
+                  {
+                    "id": "Code_96",
+                    "code": "C51282",
+                    "codeSystem": "http://www.cdisc.org",
+                    "codeSystemVersion": "2023-09-29",
+                    "decode": "Clinic",
+                    "instanceType": "Code"
+                  }
+                ],
                 "contactModes": [
                   {
                     "id": "Code_97",
@@ -536,14 +546,16 @@
                 "previousId": "Encounter_5",
                 "nextId": "Encounter_7",
                 "scheduledAtId": "Timing_6",
-                "environmentalSetting": {
-                  "id": "Code_99",
-                  "code": "C51282",
-                  "codeSystem": "http://www.cdisc.org",
-                  "codeSystemVersion": "2023-09-29",
-                  "decode": "Clinic",
-                  "instanceType": "Code"
-                },
+                "environmentalSetting": [
+                  {
+                    "id": "Code_99",
+                    "code": "C51282",
+                    "codeSystem": "http://www.cdisc.org",
+                    "codeSystemVersion": "2023-09-29",
+                    "decode": "Clinic",
+                    "instanceType": "Code"
+                  }
+                ],
                 "contactModes": [
                   {
                     "id": "Code_100",
@@ -574,14 +586,16 @@
                 "previousId": "Encounter_6",
                 "nextId": "Encounter_8",
                 "scheduledAtId": "Timing_7",
-                "environmentalSetting": {
-                  "id": "Code_102",
-                  "code": "C51282",
-                  "codeSystem": "http://www.cdisc.org",
-                  "codeSystemVersion": "2023-09-29",
-                  "decode": "Clinic",
-                  "instanceType": "Code"
-                },
+                "environmentalSetting": [
+                  {
+                    "id": "Code_102",
+                    "code": "C51282",
+                    "codeSystem": "http://www.cdisc.org",
+                    "codeSystemVersion": "2023-09-29",
+                    "decode": "Clinic",
+                    "instanceType": "Code"
+                  }
+                ],
                 "contactModes": [
                   {
                     "id": "Code_103",
@@ -620,14 +634,16 @@
                 "previousId": "Encounter_7",
                 "nextId": "Encounter_9",
                 "scheduledAtId": "Timing_9",
-                "environmentalSetting": {
-                  "id": "Code_106",
-                  "code": "C51282",
-                  "codeSystem": "http://www.cdisc.org",
-                  "codeSystemVersion": "2023-09-29",
-                  "decode": "Clinic",
-                  "instanceType": "Code"
-                },
+                "environmentalSetting": [
+                  {
+                    "id": "Code_106",
+                    "code": "C51282",
+                    "codeSystem": "http://www.cdisc.org",
+                    "codeSystemVersion": "2023-09-29",
+                    "decode": "Clinic",
+                    "instanceType": "Code"
+                  }
+                ],
                 "contactModes": [
                   {
                     "id": "Code_107",
@@ -666,14 +682,16 @@
                 "previousId": "Encounter_8",
                 "nextId": "Encounter_10",
                 "scheduledAtId": "Timing_11",
-                "environmentalSetting": {
-                  "id": "Code_110",
-                  "code": "C51282",
-                  "codeSystem": "http://www.cdisc.org",
-                  "codeSystemVersion": "2023-09-29",
-                  "decode": "Clinic",
-                  "instanceType": "Code"
-                },
+                "environmentalSetting": [
+                  {
+                    "id": "Code_110",
+                    "code": "C51282",
+                    "codeSystem": "http://www.cdisc.org",
+                    "codeSystemVersion": "2023-09-29",
+                    "decode": "Clinic",
+                    "instanceType": "Code"
+                  }
+                ],
                 "contactModes": [
                   {
                     "id": "Code_111",
@@ -712,14 +730,16 @@
                 "previousId": "Encounter_9",
                 "nextId": "Encounter_11",
                 "scheduledAtId": "Timing_13",
-                "environmentalSetting": {
-                  "id": "Code_114",
-                  "code": "C51282",
-                  "codeSystem": "http://www.cdisc.org",
-                  "codeSystemVersion": "2023-09-29",
-                  "decode": "Clinic",
-                  "instanceType": "Code"
-                },
+                "environmentalSetting": [
+                  {
+                    "id": "Code_114",
+                    "code": "C51282",
+                    "codeSystem": "http://www.cdisc.org",
+                    "codeSystemVersion": "2023-09-29",
+                    "decode": "Clinic",
+                    "instanceType": "Code"
+                  }
+                ],
                 "contactModes": [
                   {
                     "id": "Code_115",
@@ -758,14 +778,16 @@
                 "previousId": "Encounter_10",
                 "nextId": "Encounter_12",
                 "scheduledAtId": "Timing_15",
-                "environmentalSetting": {
-                  "id": "Code_118",
-                  "code": "C51282",
-                  "codeSystem": "http://www.cdisc.org",
-                  "codeSystemVersion": "2023-09-29",
-                  "decode": "Clinic",
-                  "instanceType": "Code"
-                },
+                "environmentalSetting": [
+                  {
+                    "id": "Code_118",
+                    "code": "C51282",
+                    "codeSystem": "http://www.cdisc.org",
+                    "codeSystemVersion": "2023-09-29",
+                    "decode": "Clinic",
+                    "instanceType": "Code"
+                  }
+                ],
                 "contactModes": [
                   {
                     "id": "Code_119",
@@ -796,14 +818,16 @@
                 "previousId": "Encounter_11",
                 "nextId": null,
                 "scheduledAtId": "Timing_16",
-                "environmentalSetting": {
-                  "id": "Code_121",
-                  "code": "C51282",
-                  "codeSystem": "http://www.cdisc.org",
-                  "codeSystemVersion": "2023-09-29",
-                  "decode": "Clinic",
-                  "instanceType": "Code"
-                },
+                "environmentalSetting": [
+                  {
+                    "id": "Code_121",
+                    "code": "C51282",
+                    "codeSystem": "http://www.cdisc.org",
+                    "codeSystemVersion": "2023-09-29",
+                    "decode": "Clinic",
+                    "instanceType": "Code"
+                  }
+                ],
                 "contactModes": [
                   {
                     "id": "Code_122",
@@ -6262,13 +6286,13 @@
               "plannedSex": [],
               "criteria": [
                 {
-                  "id": "EligibilityCriteria_1",
+                  "id": "EligibilityCriterion_1",
                   "name": "Age Criteria",
                   "label": "",
                   "description": "The study age criterion",
                   "text": "Subjects shall be between [min_age] and [max_age]",
                   "dictionaryId": "SyntaxTemplateDictionary_1",
-                  "instanceType": "EligibilityCriteria",
+                  "instanceType": "EligibilityCriterion",
                   "category": {
                     "id": "Code_346",
                     "code": "C25532",
@@ -6283,13 +6307,13 @@
                   "contextId": null
                 },
                 {
-                  "id": "EligibilityCriteria_2",
+                  "id": "EligibilityCriterion_2",
                   "name": "Pop Criteria",
                   "label": "",
                   "description": "The study population criterion",
                   "text": "[StudyPopulation] as defined by the NINCDS and the ADRDA guidelines (Attachment LZZT.7)",
                   "dictionaryId": "SyntaxTemplateDictionary_1",
-                  "instanceType": "EligibilityCriteria",
+                  "instanceType": "EligibilityCriterion",
                   "category": {
                     "id": "Code_347",
                     "code": "C25532",
@@ -6304,13 +6328,13 @@
                   "contextId": null
                 },
                 {
-                  "id": "EligibilityCriteria_3",
+                  "id": "EligibilityCriterion_3",
                   "name": "Diag Criteria",
                   "label": "",
                   "description": "The study diagnosis criterion",
                   "text": "[Activity1] score of 10 to 23",
                   "dictionaryId": "SyntaxTemplateDictionary_2",
-                  "instanceType": "EligibilityCriteria",
+                  "instanceType": "EligibilityCriterion",
                   "category": {
                     "id": "Code_348",
                     "code": "C25532",
@@ -6325,13 +6349,13 @@
                   "contextId": null
                 },
                 {
-                  "id": "EligibilityCriteria_4",
+                  "id": "EligibilityCriterion_4",
                   "name": "Previous Criteria",
                   "label": "",
                   "description": "The previous xanomeline TTS criterion",
                   "text": "Persons who have previously completed or withdrawn from this study or any other study investigating xanomeline TTS or the oral formulation of xanomeline.",
                   "dictionaryId": null,
-                  "instanceType": "EligibilityCriteria",
+                  "instanceType": "EligibilityCriterion",
                   "category": {
                     "id": "Code_349",
                     "code": "C25370",
@@ -6379,40 +6403,475 @@
                     "instanceType": "ScheduleTimelineExit"
                   }
                 ],
+                "timings": [
+                  {
+                    "id": "Timing_1",
+                    "name": "TIM1",
+                    "label": "Screening",
+                    "description": "Screening timing",
+                    "type": {
+                      "id": "Code_15",
+                      "code": "C201264",
+                      "codeSystem": "http://www.cdisc.org",
+                      "codeSystemVersion": "2023-09-29",
+                      "decode": "Before",
+                      "instanceType": "Code"
+                    },
+                    "value": "P2W",
+                    "relativeToFrom": {
+                      "id": "Code_16",
+                      "code": "C201265",
+                      "codeSystem": "http://www.cdisc.org",
+                      "codeSystemVersion": "2023-09-29",
+                      "decode": "Start to Start",
+                      "instanceType": "Code"
+                    },
+                    "relativeFromScheduledInstanceId": "ScheduledActivityInstance_9",
+                    "relativeToScheduledInstanceId": "ScheduledActivityInstance_11",
+                    "windowLower": null,
+                    "windowUpper": null,
+                    "window": "",
+                    "instanceType": "Timing"
+                  },
+                  {
+                    "id": "Timing_2",
+                    "name": "TIM2",
+                    "label": "Pre dose",
+                    "description": "Pre dose timing",
+                    "type": {
+                      "id": "Code_17",
+                      "code": "C201264",
+                      "codeSystem": "http://www.cdisc.org",
+                      "codeSystemVersion": "2023-09-29",
+                      "decode": "Before",
+                      "instanceType": "Code"
+                    },
+                    "value": "P2D",
+                    "relativeToFrom": {
+                      "id": "Code_18",
+                      "code": "C201265",
+                      "codeSystem": "http://www.cdisc.org",
+                      "codeSystemVersion": "2023-09-29",
+                      "decode": "Start to Start",
+                      "instanceType": "Code"
+                    },
+                    "relativeFromScheduledInstanceId": "ScheduledActivityInstance_10",
+                    "relativeToScheduledInstanceId": "ScheduledActivityInstance_11",
+                    "windowLower": "PT4H",
+                    "windowUpper": "PT0H",
+                    "window": "-4..0 hours",
+                    "instanceType": "Timing"
+                  },
+                  {
+                    "id": "Timing_3",
+                    "name": "TIM3",
+                    "label": "Dosing",
+                    "description": "Dosing anchor",
+                    "type": {
+                      "id": "Code_20",
+                      "code": "C201264",
+                      "codeSystem": "http://www.cdisc.org",
+                      "codeSystemVersion": "2023-09-29",
+                      "decode": "Fixed Reference",
+                      "instanceType": "Code"
+                    },
+                    "value": "P1D",
+                    "relativeToFrom": {
+                      "id": "Code_21",
+                      "code": "C201265",
+                      "codeSystem": "http://www.cdisc.org",
+                      "codeSystemVersion": "2023-09-29",
+                      "decode": "Start to Start",
+                      "instanceType": "Code"
+                    },
+                    "relativeFromScheduledInstanceId": "ScheduledActivityInstance_11",
+                    "relativeToScheduledInstanceId": "ScheduledActivityInstance_11",
+                    "windowLower": null,
+                    "windowUpper": null,
+                    "window": "",
+                    "instanceType": "Timing"
+                  },
+                  {
+                    "id": "Timing_4",
+                    "name": "TIM4",
+                    "label": "Week 2",
+                    "description": "Week 2 timing",
+                    "type": {
+                      "id": "Code_22",
+                      "code": "C201264",
+                      "codeSystem": "http://www.cdisc.org",
+                      "codeSystemVersion": "2023-09-29",
+                      "decode": "After",
+                      "instanceType": "Code"
+                    },
+                    "value": "P2W",
+                    "relativeToFrom": {
+                      "id": "Code_23",
+                      "code": "C201265",
+                      "codeSystem": "http://www.cdisc.org",
+                      "codeSystemVersion": "2023-09-29",
+                      "decode": "Start to Start",
+                      "instanceType": "Code"
+                    },
+                    "relativeFromScheduledInstanceId": "ScheduledActivityInstance_12",
+                    "relativeToScheduledInstanceId": "ScheduledActivityInstance_11",
+                    "windowLower": "P3D",
+                    "windowUpper": "P3D",
+                    "window": "-3..3 days",
+                    "instanceType": "Timing"
+                  },
+                  {
+                    "id": "Timing_5",
+                    "name": "TIM5",
+                    "label": "Week 4",
+                    "description": "Week 4 timing",
+                    "type": {
+                      "id": "Code_25",
+                      "code": "C201264",
+                      "codeSystem": "http://www.cdisc.org",
+                      "codeSystemVersion": "2023-09-29",
+                      "decode": "After",
+                      "instanceType": "Code"
+                    },
+                    "value": "P4W",
+                    "relativeToFrom": {
+                      "id": "Code_26",
+                      "code": "C201265",
+                      "codeSystem": "http://www.cdisc.org",
+                      "codeSystemVersion": "2023-09-29",
+                      "decode": "Start to Start",
+                      "instanceType": "Code"
+                    },
+                    "relativeFromScheduledInstanceId": "ScheduledActivityInstance_13",
+                    "relativeToScheduledInstanceId": "ScheduledActivityInstance_11",
+                    "windowLower": "P3D",
+                    "windowUpper": "P3D",
+                    "window": "-3..3 days",
+                    "instanceType": "Timing"
+                  },
+                  {
+                    "id": "Timing_6",
+                    "name": "TIM6",
+                    "label": "Week 6",
+                    "description": "Week 6 timing",
+                    "type": {
+                      "id": "Code_28",
+                      "code": "C201264",
+                      "codeSystem": "http://www.cdisc.org",
+                      "codeSystemVersion": "2023-09-29",
+                      "decode": "After",
+                      "instanceType": "Code"
+                    },
+                    "value": "P6W",
+                    "relativeToFrom": {
+                      "id": "Code_29",
+                      "code": "C201265",
+                      "codeSystem": "http://www.cdisc.org",
+                      "codeSystemVersion": "2023-09-29",
+                      "decode": "Start to Start",
+                      "instanceType": "Code"
+                    },
+                    "relativeFromScheduledInstanceId": "ScheduledActivityInstance_14",
+                    "relativeToScheduledInstanceId": "ScheduledActivityInstance_11",
+                    "windowLower": "P3D",
+                    "windowUpper": "P3D",
+                    "window": "-3..3 days",
+                    "instanceType": "Timing"
+                  },
+                  {
+                    "id": "Timing_7",
+                    "name": "TIM7",
+                    "label": "Week 8",
+                    "description": "Week 8 timing",
+                    "type": {
+                      "id": "Code_31",
+                      "code": "C201264",
+                      "codeSystem": "http://www.cdisc.org",
+                      "codeSystemVersion": "2023-09-29",
+                      "decode": "After",
+                      "instanceType": "Code"
+                    },
+                    "value": "P8W",
+                    "relativeToFrom": {
+                      "id": "Code_32",
+                      "code": "C201265",
+                      "codeSystem": "http://www.cdisc.org",
+                      "codeSystemVersion": "2023-09-29",
+                      "decode": "Start to Start",
+                      "instanceType": "Code"
+                    },
+                    "relativeFromScheduledInstanceId": "ScheduledActivityInstance_15",
+                    "relativeToScheduledInstanceId": "ScheduledActivityInstance_11",
+                    "windowLower": "P3D",
+                    "windowUpper": "P3D",
+                    "window": "-3..3 days",
+                    "instanceType": "Timing"
+                  },
+                  {
+                    "id": "Timing_9",
+                    "name": "TIM9",
+                    "label": "Week 12",
+                    "description": "Week 12 timing",
+                    "type": {
+                      "id": "Code_36",
+                      "code": "C201264",
+                      "codeSystem": "http://www.cdisc.org",
+                      "codeSystemVersion": "2023-09-29",
+                      "decode": "After",
+                      "instanceType": "Code"
+                    },
+                    "value": "P12W",
+                    "relativeToFrom": {
+                      "id": "Code_37",
+                      "code": "C201265",
+                      "codeSystem": "http://www.cdisc.org",
+                      "codeSystemVersion": "2023-09-29",
+                      "decode": "Start to Start",
+                      "instanceType": "Code"
+                    },
+                    "relativeFromScheduledInstanceId": "ScheduledActivityInstance_17",
+                    "relativeToScheduledInstanceId": "ScheduledActivityInstance_11",
+                    "windowLower": "P4D",
+                    "windowUpper": "P4D",
+                    "window": "-4..4 days",
+                    "instanceType": "Timing"
+                  },
+                  {
+                    "id": "Timing_11",
+                    "name": "TIM11",
+                    "label": "Week 16",
+                    "description": "Week 16 timing",
+                    "type": {
+                      "id": "Code_41",
+                      "code": "C201264",
+                      "codeSystem": "http://www.cdisc.org",
+                      "codeSystemVersion": "2023-09-29",
+                      "decode": "After",
+                      "instanceType": "Code"
+                    },
+                    "value": "P16W",
+                    "relativeToFrom": {
+                      "id": "Code_42",
+                      "code": "C201265",
+                      "codeSystem": "http://www.cdisc.org",
+                      "codeSystemVersion": "2023-09-29",
+                      "decode": "Start to Start",
+                      "instanceType": "Code"
+                    },
+                    "relativeFromScheduledInstanceId": "ScheduledActivityInstance_19",
+                    "relativeToScheduledInstanceId": "ScheduledActivityInstance_11",
+                    "windowLower": "P4D",
+                    "windowUpper": "P4D",
+                    "window": "-4..4 days",
+                    "instanceType": "Timing"
+                  },
+                  {
+                    "id": "Timing_13",
+                    "name": "TIM13",
+                    "label": "Week 20",
+                    "description": "Week 20 timing",
+                    "type": {
+                      "id": "Code_46",
+                      "code": "C201264",
+                      "codeSystem": "http://www.cdisc.org",
+                      "codeSystemVersion": "2023-09-29",
+                      "decode": "After",
+                      "instanceType": "Code"
+                    },
+                    "value": "P20W",
+                    "relativeToFrom": {
+                      "id": "Code_47",
+                      "code": "C201265",
+                      "codeSystem": "http://www.cdisc.org",
+                      "codeSystemVersion": "2023-09-29",
+                      "decode": "Start to Start",
+                      "instanceType": "Code"
+                    },
+                    "relativeFromScheduledInstanceId": "ScheduledActivityInstance_21",
+                    "relativeToScheduledInstanceId": "ScheduledActivityInstance_11",
+                    "windowLower": "P4D",
+                    "windowUpper": "P4D",
+                    "window": "-4..4 days",
+                    "instanceType": "Timing"
+                  },
+                  {
+                    "id": "Timing_15",
+                    "name": "TIM15",
+                    "label": "Week 24",
+                    "description": "Week 24 timing",
+                    "type": {
+                      "id": "Code_51",
+                      "code": "C201264",
+                      "codeSystem": "http://www.cdisc.org",
+                      "codeSystemVersion": "2023-09-29",
+                      "decode": "After",
+                      "instanceType": "Code"
+                    },
+                    "value": "P24W",
+                    "relativeToFrom": {
+                      "id": "Code_52",
+                      "code": "C201265",
+                      "codeSystem": "http://www.cdisc.org",
+                      "codeSystemVersion": "2023-09-29",
+                      "decode": "Start to Start",
+                      "instanceType": "Code"
+                    },
+                    "relativeFromScheduledInstanceId": "ScheduledActivityInstance_23",
+                    "relativeToScheduledInstanceId": "ScheduledActivityInstance_11",
+                    "windowLower": "P4D",
+                    "windowUpper": "P4D",
+                    "window": "-4..4 days",
+                    "instanceType": "Timing"
+                  },
+                  {
+                    "id": "Timing_16",
+                    "name": "TIM16",
+                    "label": "Week 26",
+                    "description": "Week 26 timing",
+                    "type": {
+                      "id": "Code_54",
+                      "code": "C201264",
+                      "codeSystem": "http://www.cdisc.org",
+                      "codeSystemVersion": "2023-09-29",
+                      "decode": "After",
+                      "instanceType": "Code"
+                    },
+                    "value": "P26W",
+                    "relativeToFrom": {
+                      "id": "Code_55",
+                      "code": "C201265",
+                      "codeSystem": "http://www.cdisc.org",
+                      "codeSystemVersion": "2023-09-29",
+                      "decode": "Start to Start",
+                      "instanceType": "Code"
+                    },
+                    "relativeFromScheduledInstanceId": "ScheduledActivityInstance_24",
+                    "relativeToScheduledInstanceId": "ScheduledActivityInstance_11",
+                    "windowLower": "P3D",
+                    "windowUpper": "P3D",
+                    "window": "-3..3 days",
+                    "instanceType": "Timing"
+                  },
+                  {
+                    "id": "Timing_8",
+                    "name": "TIM8",
+                    "label": "Week 8 Home",
+                    "description": "Week 8 at home timing",
+                    "type": {
+                      "id": "Code_34",
+                      "code": "C201264",
+                      "codeSystem": "http://www.cdisc.org",
+                      "codeSystemVersion": "2023-09-29",
+                      "decode": "After",
+                      "instanceType": "Code"
+                    },
+                    "value": "P2W",
+                    "relativeToFrom": {
+                      "id": "Code_35",
+                      "code": "C201265",
+                      "codeSystem": "http://www.cdisc.org",
+                      "codeSystemVersion": "2023-09-29",
+                      "decode": "Start to Start",
+                      "instanceType": "Code"
+                    },
+                    "relativeFromScheduledInstanceId": "ScheduledActivityInstance_16",
+                    "relativeToScheduledInstanceId": "ScheduledActivityInstance_15",
+                    "windowLower": null,
+                    "windowUpper": null,
+                    "window": "",
+                    "instanceType": "Timing"
+                  },
+                  {
+                    "id": "Timing_10",
+                    "name": "TIM10",
+                    "label": "Week 12 Home",
+                    "description": "Week 12 at home timing",
+                    "type": {
+                      "id": "Code_39",
+                      "code": "C201264",
+                      "codeSystem": "http://www.cdisc.org",
+                      "codeSystemVersion": "2023-09-29",
+                      "decode": "After",
+                      "instanceType": "Code"
+                    },
+                    "value": "P2W",
+                    "relativeToFrom": {
+                      "id": "Code_40",
+                      "code": "C201265",
+                      "codeSystem": "http://www.cdisc.org",
+                      "codeSystemVersion": "2023-09-29",
+                      "decode": "Start to Start",
+                      "instanceType": "Code"
+                    },
+                    "relativeFromScheduledInstanceId": "ScheduledActivityInstance_18",
+                    "relativeToScheduledInstanceId": "ScheduledActivityInstance_17",
+                    "windowLower": null,
+                    "windowUpper": null,
+                    "window": "",
+                    "instanceType": "Timing"
+                  },
+                  {
+                    "id": "Timing_12",
+                    "name": "TIM12",
+                    "label": "Week 16 Home",
+                    "description": "Week 16 at home timing",
+                    "type": {
+                      "id": "Code_44",
+                      "code": "C201264",
+                      "codeSystem": "http://www.cdisc.org",
+                      "codeSystemVersion": "2023-09-29",
+                      "decode": "After",
+                      "instanceType": "Code"
+                    },
+                    "value": "P2W",
+                    "relativeToFrom": {
+                      "id": "Code_45",
+                      "code": "C201265",
+                      "codeSystem": "http://www.cdisc.org",
+                      "codeSystemVersion": "2023-09-29",
+                      "decode": "Start to Start",
+                      "instanceType": "Code"
+                    },
+                    "relativeFromScheduledInstanceId": "ScheduledActivityInstance_20",
+                    "relativeToScheduledInstanceId": "ScheduledActivityInstance_19",
+                    "windowLower": null,
+                    "windowUpper": null,
+                    "window": "",
+                    "instanceType": "Timing"
+                  },
+                  {
+                    "id": "Timing_14",
+                    "name": "TIM14",
+                    "label": "Week 20 Home",
+                    "description": "Week 20 at home timing",
+                    "type": {
+                      "id": "Code_49",
+                      "code": "C201264",
+                      "codeSystem": "http://www.cdisc.org",
+                      "codeSystemVersion": "2023-09-29",
+                      "decode": "After",
+                      "instanceType": "Code"
+                    },
+                    "value": "P2W",
+                    "relativeToFrom": {
+                      "id": "Code_50",
+                      "code": "C201265",
+                      "codeSystem": "http://www.cdisc.org",
+                      "codeSystemVersion": "2023-09-29",
+                      "decode": "Start to Start",
+                      "instanceType": "Code"
+                    },
+                    "relativeFromScheduledInstanceId": "ScheduledActivityInstance_22",
+                    "relativeToScheduledInstanceId": "ScheduledActivityInstance_21",
+                    "windowLower": null,
+                    "windowUpper": null,
+                    "window": "",
+                    "instanceType": "Timing"
+                  }
+                ],
                 "instances": [
                   {
                     "id": "ScheduledActivityInstance_9",
-                    "timings": [
-                      {
-                        "id": "Timing_1",
-                        "name": "TIM1",
-                        "label": "Screening",
-                        "description": "Screening timing",
-                        "type": {
-                          "id": "Code_15",
-                          "code": "C201264",
-                          "codeSystem": "http://www.cdisc.org",
-                          "codeSystemVersion": "2023-09-29",
-                          "decode": "Before",
-                          "instanceType": "Code"
-                        },
-                        "value": "P2W",
-                        "relativeToFrom": {
-                          "id": "Code_16",
-                          "code": "C201265",
-                          "codeSystem": "http://www.cdisc.org",
-                          "codeSystemVersion": "2023-09-29",
-                          "decode": "Start to Start",
-                          "instanceType": "Code"
-                        },
-                        "relativeFromScheduledInstanceId": "ScheduledActivityInstance_9",
-                        "relativeToScheduledInstanceId": "ScheduledActivityInstance_11",
-                        "windowLower": null,
-                        "windowUpper": null,
-                        "window": "",
-                        "instanceType": "Timing"
-                      }
-                    ],
                     "timelineId": null,
                     "timelineExitId": null,
                     "defaultConditionId": "ScheduledActivityInstance_10",
@@ -6447,37 +6906,6 @@
                   },
                   {
                     "id": "ScheduledActivityInstance_10",
-                    "timings": [
-                      {
-                        "id": "Timing_2",
-                        "name": "TIM2",
-                        "label": "Pre dose",
-                        "description": "Pre dose timing",
-                        "type": {
-                          "id": "Code_17",
-                          "code": "C201264",
-                          "codeSystem": "http://www.cdisc.org",
-                          "codeSystemVersion": "2023-09-29",
-                          "decode": "Before",
-                          "instanceType": "Code"
-                        },
-                        "value": "P2D",
-                        "relativeToFrom": {
-                          "id": "Code_18",
-                          "code": "C201265",
-                          "codeSystem": "http://www.cdisc.org",
-                          "codeSystemVersion": "2023-09-29",
-                          "decode": "Start to Start",
-                          "instanceType": "Code"
-                        },
-                        "relativeFromScheduledInstanceId": "ScheduledActivityInstance_10",
-                        "relativeToScheduledInstanceId": "ScheduledActivityInstance_11",
-                        "windowLower": "PT4H",
-                        "windowUpper": "PT0H",
-                        "window": "-4..0 hours",
-                        "instanceType": "Timing"
-                      }
-                    ],
                     "timelineId": null,
                     "timelineExitId": null,
                     "defaultConditionId": "ScheduledActivityInstance_11",
@@ -6491,37 +6919,6 @@
                   },
                   {
                     "id": "ScheduledActivityInstance_11",
-                    "timings": [
-                      {
-                        "id": "Timing_3",
-                        "name": "TIM3",
-                        "label": "Dosing",
-                        "description": "Dosing anchor",
-                        "type": {
-                          "id": "Code_20",
-                          "code": "C201264",
-                          "codeSystem": "http://www.cdisc.org",
-                          "codeSystemVersion": "2023-09-29",
-                          "decode": "Fixed Reference",
-                          "instanceType": "Code"
-                        },
-                        "value": "P1D",
-                        "relativeToFrom": {
-                          "id": "Code_21",
-                          "code": "C201265",
-                          "codeSystem": "http://www.cdisc.org",
-                          "codeSystemVersion": "2023-09-29",
-                          "decode": "Start to Start",
-                          "instanceType": "Code"
-                        },
-                        "relativeFromScheduledInstanceId": "ScheduledActivityInstance_11",
-                        "relativeToScheduledInstanceId": "ScheduledActivityInstance_11",
-                        "windowLower": null,
-                        "windowUpper": null,
-                        "window": "",
-                        "instanceType": "Timing"
-                      }
-                    ],
                     "timelineId": null,
                     "timelineExitId": null,
                     "defaultConditionId": "ScheduledActivityInstance_12",
@@ -6543,37 +6940,6 @@
                   },
                   {
                     "id": "ScheduledActivityInstance_12",
-                    "timings": [
-                      {
-                        "id": "Timing_4",
-                        "name": "TIM4",
-                        "label": "Week 2",
-                        "description": "Week 2 timing",
-                        "type": {
-                          "id": "Code_22",
-                          "code": "C201264",
-                          "codeSystem": "http://www.cdisc.org",
-                          "codeSystemVersion": "2023-09-29",
-                          "decode": "After",
-                          "instanceType": "Code"
-                        },
-                        "value": "P2W",
-                        "relativeToFrom": {
-                          "id": "Code_23",
-                          "code": "C201265",
-                          "codeSystem": "http://www.cdisc.org",
-                          "codeSystemVersion": "2023-09-29",
-                          "decode": "Start to Start",
-                          "instanceType": "Code"
-                        },
-                        "relativeFromScheduledInstanceId": "ScheduledActivityInstance_12",
-                        "relativeToScheduledInstanceId": "ScheduledActivityInstance_11",
-                        "windowLower": "P3D",
-                        "windowUpper": "P3D",
-                        "window": "-3..3 days",
-                        "instanceType": "Timing"
-                      }
-                    ],
                     "timelineId": null,
                     "timelineExitId": null,
                     "defaultConditionId": "ScheduledActivityInstance_13",
@@ -6595,37 +6961,6 @@
                   },
                   {
                     "id": "ScheduledActivityInstance_13",
-                    "timings": [
-                      {
-                        "id": "Timing_5",
-                        "name": "TIM5",
-                        "label": "Week 4",
-                        "description": "Week 4 timing",
-                        "type": {
-                          "id": "Code_25",
-                          "code": "C201264",
-                          "codeSystem": "http://www.cdisc.org",
-                          "codeSystemVersion": "2023-09-29",
-                          "decode": "After",
-                          "instanceType": "Code"
-                        },
-                        "value": "P4W",
-                        "relativeToFrom": {
-                          "id": "Code_26",
-                          "code": "C201265",
-                          "codeSystem": "http://www.cdisc.org",
-                          "codeSystemVersion": "2023-09-29",
-                          "decode": "Start to Start",
-                          "instanceType": "Code"
-                        },
-                        "relativeFromScheduledInstanceId": "ScheduledActivityInstance_13",
-                        "relativeToScheduledInstanceId": "ScheduledActivityInstance_11",
-                        "windowLower": "P3D",
-                        "windowUpper": "P3D",
-                        "window": "-3..3 days",
-                        "instanceType": "Timing"
-                      }
-                    ],
                     "timelineId": null,
                     "timelineExitId": null,
                     "defaultConditionId": "ScheduledActivityInstance_14",
@@ -6645,37 +6980,6 @@
                   },
                   {
                     "id": "ScheduledActivityInstance_14",
-                    "timings": [
-                      {
-                        "id": "Timing_6",
-                        "name": "TIM6",
-                        "label": "Week 6",
-                        "description": "Week 6 timing",
-                        "type": {
-                          "id": "Code_28",
-                          "code": "C201264",
-                          "codeSystem": "http://www.cdisc.org",
-                          "codeSystemVersion": "2023-09-29",
-                          "decode": "After",
-                          "instanceType": "Code"
-                        },
-                        "value": "P6W",
-                        "relativeToFrom": {
-                          "id": "Code_29",
-                          "code": "C201265",
-                          "codeSystem": "http://www.cdisc.org",
-                          "codeSystemVersion": "2023-09-29",
-                          "decode": "Start to Start",
-                          "instanceType": "Code"
-                        },
-                        "relativeFromScheduledInstanceId": "ScheduledActivityInstance_14",
-                        "relativeToScheduledInstanceId": "ScheduledActivityInstance_11",
-                        "windowLower": "P3D",
-                        "windowUpper": "P3D",
-                        "window": "-3..3 days",
-                        "instanceType": "Timing"
-                      }
-                    ],
                     "timelineId": null,
                     "timelineExitId": null,
                     "defaultConditionId": "ScheduledActivityInstance_15",
@@ -6695,37 +6999,6 @@
                   },
                   {
                     "id": "ScheduledActivityInstance_15",
-                    "timings": [
-                      {
-                        "id": "Timing_7",
-                        "name": "TIM7",
-                        "label": "Week 8",
-                        "description": "Week 8 timing",
-                        "type": {
-                          "id": "Code_31",
-                          "code": "C201264",
-                          "codeSystem": "http://www.cdisc.org",
-                          "codeSystemVersion": "2023-09-29",
-                          "decode": "After",
-                          "instanceType": "Code"
-                        },
-                        "value": "P8W",
-                        "relativeToFrom": {
-                          "id": "Code_32",
-                          "code": "C201265",
-                          "codeSystem": "http://www.cdisc.org",
-                          "codeSystemVersion": "2023-09-29",
-                          "decode": "Start to Start",
-                          "instanceType": "Code"
-                        },
-                        "relativeFromScheduledInstanceId": "ScheduledActivityInstance_15",
-                        "relativeToScheduledInstanceId": "ScheduledActivityInstance_11",
-                        "windowLower": "P3D",
-                        "windowUpper": "P3D",
-                        "window": "-3..3 days",
-                        "instanceType": "Timing"
-                      }
-                    ],
                     "timelineId": null,
                     "timelineExitId": null,
                     "defaultConditionId": "ScheduledActivityInstance_16",
@@ -6747,37 +7020,6 @@
                   },
                   {
                     "id": "ScheduledActivityInstance_16",
-                    "timings": [
-                      {
-                        "id": "Timing_8",
-                        "name": "TIM8",
-                        "label": "Week 8 Home",
-                        "description": "Week 8 at home timing",
-                        "type": {
-                          "id": "Code_34",
-                          "code": "C201264",
-                          "codeSystem": "http://www.cdisc.org",
-                          "codeSystemVersion": "2023-09-29",
-                          "decode": "After",
-                          "instanceType": "Code"
-                        },
-                        "value": "P2W",
-                        "relativeToFrom": {
-                          "id": "Code_35",
-                          "code": "C201265",
-                          "codeSystem": "http://www.cdisc.org",
-                          "codeSystemVersion": "2023-09-29",
-                          "decode": "Start to Start",
-                          "instanceType": "Code"
-                        },
-                        "relativeFromScheduledInstanceId": "ScheduledActivityInstance_16",
-                        "relativeToScheduledInstanceId": "ScheduledActivityInstance_15",
-                        "windowLower": null,
-                        "windowUpper": null,
-                        "window": "",
-                        "instanceType": "Timing"
-                      }
-                    ],
                     "timelineId": null,
                     "timelineExitId": null,
                     "defaultConditionId": "ScheduledActivityInstance_17",
@@ -6790,37 +7032,6 @@
                   },
                   {
                     "id": "ScheduledActivityInstance_17",
-                    "timings": [
-                      {
-                        "id": "Timing_9",
-                        "name": "TIM9",
-                        "label": "Week 12",
-                        "description": "Week 12 timing",
-                        "type": {
-                          "id": "Code_36",
-                          "code": "C201264",
-                          "codeSystem": "http://www.cdisc.org",
-                          "codeSystemVersion": "2023-09-29",
-                          "decode": "After",
-                          "instanceType": "Code"
-                        },
-                        "value": "P12W",
-                        "relativeToFrom": {
-                          "id": "Code_37",
-                          "code": "C201265",
-                          "codeSystem": "http://www.cdisc.org",
-                          "codeSystemVersion": "2023-09-29",
-                          "decode": "Start to Start",
-                          "instanceType": "Code"
-                        },
-                        "relativeFromScheduledInstanceId": "ScheduledActivityInstance_17",
-                        "relativeToScheduledInstanceId": "ScheduledActivityInstance_11",
-                        "windowLower": "P4D",
-                        "windowUpper": "P4D",
-                        "window": "-4..4 days",
-                        "instanceType": "Timing"
-                      }
-                    ],
                     "timelineId": null,
                     "timelineExitId": null,
                     "defaultConditionId": "ScheduledActivityInstance_18",
@@ -6841,37 +7052,6 @@
                   },
                   {
                     "id": "ScheduledActivityInstance_18",
-                    "timings": [
-                      {
-                        "id": "Timing_10",
-                        "name": "TIM10",
-                        "label": "Week 12 Home",
-                        "description": "Week 12 at home timing",
-                        "type": {
-                          "id": "Code_39",
-                          "code": "C201264",
-                          "codeSystem": "http://www.cdisc.org",
-                          "codeSystemVersion": "2023-09-29",
-                          "decode": "After",
-                          "instanceType": "Code"
-                        },
-                        "value": "P2W",
-                        "relativeToFrom": {
-                          "id": "Code_40",
-                          "code": "C201265",
-                          "codeSystem": "http://www.cdisc.org",
-                          "codeSystemVersion": "2023-09-29",
-                          "decode": "Start to Start",
-                          "instanceType": "Code"
-                        },
-                        "relativeFromScheduledInstanceId": "ScheduledActivityInstance_18",
-                        "relativeToScheduledInstanceId": "ScheduledActivityInstance_17",
-                        "windowLower": null,
-                        "windowUpper": null,
-                        "window": "",
-                        "instanceType": "Timing"
-                      }
-                    ],
                     "timelineId": null,
                     "timelineExitId": null,
                     "defaultConditionId": "ScheduledActivityInstance_19",
@@ -6884,37 +7064,6 @@
                   },
                   {
                     "id": "ScheduledActivityInstance_19",
-                    "timings": [
-                      {
-                        "id": "Timing_11",
-                        "name": "TIM11",
-                        "label": "Week 16",
-                        "description": "Week 16 timing",
-                        "type": {
-                          "id": "Code_41",
-                          "code": "C201264",
-                          "codeSystem": "http://www.cdisc.org",
-                          "codeSystemVersion": "2023-09-29",
-                          "decode": "After",
-                          "instanceType": "Code"
-                        },
-                        "value": "P16W",
-                        "relativeToFrom": {
-                          "id": "Code_42",
-                          "code": "C201265",
-                          "codeSystem": "http://www.cdisc.org",
-                          "codeSystemVersion": "2023-09-29",
-                          "decode": "Start to Start",
-                          "instanceType": "Code"
-                        },
-                        "relativeFromScheduledInstanceId": "ScheduledActivityInstance_19",
-                        "relativeToScheduledInstanceId": "ScheduledActivityInstance_11",
-                        "windowLower": "P4D",
-                        "windowUpper": "P4D",
-                        "window": "-4..4 days",
-                        "instanceType": "Timing"
-                      }
-                    ],
                     "timelineId": null,
                     "timelineExitId": null,
                     "defaultConditionId": "ScheduledActivityInstance_20",
@@ -6936,37 +7085,6 @@
                   },
                   {
                     "id": "ScheduledActivityInstance_20",
-                    "timings": [
-                      {
-                        "id": "Timing_12",
-                        "name": "TIM12",
-                        "label": "Week 16 Home",
-                        "description": "Week 16 at home timing",
-                        "type": {
-                          "id": "Code_44",
-                          "code": "C201264",
-                          "codeSystem": "http://www.cdisc.org",
-                          "codeSystemVersion": "2023-09-29",
-                          "decode": "After",
-                          "instanceType": "Code"
-                        },
-                        "value": "P2W",
-                        "relativeToFrom": {
-                          "id": "Code_45",
-                          "code": "C201265",
-                          "codeSystem": "http://www.cdisc.org",
-                          "codeSystemVersion": "2023-09-29",
-                          "decode": "Start to Start",
-                          "instanceType": "Code"
-                        },
-                        "relativeFromScheduledInstanceId": "ScheduledActivityInstance_20",
-                        "relativeToScheduledInstanceId": "ScheduledActivityInstance_19",
-                        "windowLower": null,
-                        "windowUpper": null,
-                        "window": "",
-                        "instanceType": "Timing"
-                      }
-                    ],
                     "timelineId": null,
                     "timelineExitId": null,
                     "defaultConditionId": "ScheduledActivityInstance_21",
@@ -6979,37 +7097,6 @@
                   },
                   {
                     "id": "ScheduledActivityInstance_21",
-                    "timings": [
-                      {
-                        "id": "Timing_13",
-                        "name": "TIM13",
-                        "label": "Week 20",
-                        "description": "Week 20 timing",
-                        "type": {
-                          "id": "Code_46",
-                          "code": "C201264",
-                          "codeSystem": "http://www.cdisc.org",
-                          "codeSystemVersion": "2023-09-29",
-                          "decode": "After",
-                          "instanceType": "Code"
-                        },
-                        "value": "P20W",
-                        "relativeToFrom": {
-                          "id": "Code_47",
-                          "code": "C201265",
-                          "codeSystem": "http://www.cdisc.org",
-                          "codeSystemVersion": "2023-09-29",
-                          "decode": "Start to Start",
-                          "instanceType": "Code"
-                        },
-                        "relativeFromScheduledInstanceId": "ScheduledActivityInstance_21",
-                        "relativeToScheduledInstanceId": "ScheduledActivityInstance_11",
-                        "windowLower": "P4D",
-                        "windowUpper": "P4D",
-                        "window": "-4..4 days",
-                        "instanceType": "Timing"
-                      }
-                    ],
                     "timelineId": null,
                     "timelineExitId": null,
                     "defaultConditionId": "ScheduledActivityInstance_22",
@@ -7029,37 +7116,6 @@
                   },
                   {
                     "id": "ScheduledActivityInstance_22",
-                    "timings": [
-                      {
-                        "id": "Timing_14",
-                        "name": "TIM14",
-                        "label": "Week 20 Home",
-                        "description": "Week 20 at home timing",
-                        "type": {
-                          "id": "Code_49",
-                          "code": "C201264",
-                          "codeSystem": "http://www.cdisc.org",
-                          "codeSystemVersion": "2023-09-29",
-                          "decode": "After",
-                          "instanceType": "Code"
-                        },
-                        "value": "P2W",
-                        "relativeToFrom": {
-                          "id": "Code_50",
-                          "code": "C201265",
-                          "codeSystem": "http://www.cdisc.org",
-                          "codeSystemVersion": "2023-09-29",
-                          "decode": "Start to Start",
-                          "instanceType": "Code"
-                        },
-                        "relativeFromScheduledInstanceId": "ScheduledActivityInstance_22",
-                        "relativeToScheduledInstanceId": "ScheduledActivityInstance_21",
-                        "windowLower": null,
-                        "windowUpper": null,
-                        "window": "",
-                        "instanceType": "Timing"
-                      }
-                    ],
                     "timelineId": null,
                     "timelineExitId": null,
                     "defaultConditionId": "ScheduledActivityInstance_23",
@@ -7072,37 +7128,6 @@
                   },
                   {
                     "id": "ScheduledActivityInstance_23",
-                    "timings": [
-                      {
-                        "id": "Timing_15",
-                        "name": "TIM15",
-                        "label": "Week 24",
-                        "description": "Week 24 timing",
-                        "type": {
-                          "id": "Code_51",
-                          "code": "C201264",
-                          "codeSystem": "http://www.cdisc.org",
-                          "codeSystemVersion": "2023-09-29",
-                          "decode": "After",
-                          "instanceType": "Code"
-                        },
-                        "value": "P24W",
-                        "relativeToFrom": {
-                          "id": "Code_52",
-                          "code": "C201265",
-                          "codeSystem": "http://www.cdisc.org",
-                          "codeSystemVersion": "2023-09-29",
-                          "decode": "Start to Start",
-                          "instanceType": "Code"
-                        },
-                        "relativeFromScheduledInstanceId": "ScheduledActivityInstance_23",
-                        "relativeToScheduledInstanceId": "ScheduledActivityInstance_11",
-                        "windowLower": "P4D",
-                        "windowUpper": "P4D",
-                        "window": "-4..4 days",
-                        "instanceType": "Timing"
-                      }
-                    ],
                     "timelineId": null,
                     "timelineExitId": null,
                     "defaultConditionId": "ScheduledActivityInstance_24",
@@ -7125,37 +7150,6 @@
                   },
                   {
                     "id": "ScheduledActivityInstance_24",
-                    "timings": [
-                      {
-                        "id": "Timing_16",
-                        "name": "TIM16",
-                        "label": "Week 26",
-                        "description": "Week 26 timing",
-                        "type": {
-                          "id": "Code_54",
-                          "code": "C201264",
-                          "codeSystem": "http://www.cdisc.org",
-                          "codeSystemVersion": "2023-09-29",
-                          "decode": "After",
-                          "instanceType": "Code"
-                        },
-                        "value": "P26W",
-                        "relativeToFrom": {
-                          "id": "Code_55",
-                          "code": "C201265",
-                          "codeSystem": "http://www.cdisc.org",
-                          "codeSystemVersion": "2023-09-29",
-                          "decode": "Start to Start",
-                          "instanceType": "Code"
-                        },
-                        "relativeFromScheduledInstanceId": "ScheduledActivityInstance_24",
-                        "relativeToScheduledInstanceId": "ScheduledActivityInstance_11",
-                        "windowLower": "P3D",
-                        "windowUpper": "P3D",
-                        "window": "-3..3 days",
-                        "instanceType": "Timing"
-                      }
-                    ],
                     "timelineId": null,
                     "timelineExitId": "ScheduleTimelineExit_4",
                     "defaultConditionId": null,
@@ -7191,40 +7185,40 @@
                     "instanceType": "ScheduleTimelineExit"
                   }
                 ],
+                "timings": [
+                  {
+                    "id": "Timing_17",
+                    "name": "TIM17",
+                    "label": "Adverse Event",
+                    "description": "Adverse Event",
+                    "type": {
+                      "id": "Code_57",
+                      "code": "C201264",
+                      "codeSystem": "http://www.cdisc.org",
+                      "codeSystemVersion": "2023-09-29",
+                      "decode": "Fixed Reference",
+                      "instanceType": "Code"
+                    },
+                    "value": "P1D",
+                    "relativeToFrom": {
+                      "id": "Code_58",
+                      "code": "C201265",
+                      "codeSystem": "http://www.cdisc.org",
+                      "codeSystemVersion": "2023-09-29",
+                      "decode": "Start to Start",
+                      "instanceType": "Code"
+                    },
+                    "relativeFromScheduledInstanceId": "ScheduledActivityInstance_1",
+                    "relativeToScheduledInstanceId": "ScheduledActivityInstance_1",
+                    "windowLower": null,
+                    "windowUpper": null,
+                    "window": "",
+                    "instanceType": "Timing"
+                  }
+                ],
                 "instances": [
                   {
                     "id": "ScheduledActivityInstance_1",
-                    "timings": [
-                      {
-                        "id": "Timing_17",
-                        "name": "TIM17",
-                        "label": "Adverse Event",
-                        "description": "Adverse Event",
-                        "type": {
-                          "id": "Code_57",
-                          "code": "C201264",
-                          "codeSystem": "http://www.cdisc.org",
-                          "codeSystemVersion": "2023-09-29",
-                          "decode": "Fixed Reference",
-                          "instanceType": "Code"
-                        },
-                        "value": "P1D",
-                        "relativeToFrom": {
-                          "id": "Code_58",
-                          "code": "C201265",
-                          "codeSystem": "http://www.cdisc.org",
-                          "codeSystemVersion": "2023-09-29",
-                          "decode": "Start to Start",
-                          "instanceType": "Code"
-                        },
-                        "relativeFromScheduledInstanceId": "ScheduledActivityInstance_1",
-                        "relativeToScheduledInstanceId": "ScheduledActivityInstance_1",
-                        "windowLower": null,
-                        "windowUpper": null,
-                        "window": "",
-                        "instanceType": "Timing"
-                      }
-                    ],
                     "timelineId": null,
                     "timelineExitId": "ScheduleTimelineExit_1",
                     "defaultConditionId": null,
@@ -7252,40 +7246,40 @@
                     "instanceType": "ScheduleTimelineExit"
                   }
                 ],
+                "timings": [
+                  {
+                    "id": "Timing_18",
+                    "name": "TIM18",
+                    "label": "Early Termination",
+                    "description": "Early Termination",
+                    "type": {
+                      "id": "Code_59",
+                      "code": "C201264",
+                      "codeSystem": "http://www.cdisc.org",
+                      "codeSystemVersion": "2023-09-29",
+                      "decode": "Fixed Reference",
+                      "instanceType": "Code"
+                    },
+                    "value": "P1D",
+                    "relativeToFrom": {
+                      "id": "Code_60",
+                      "code": "C201265",
+                      "codeSystem": "http://www.cdisc.org",
+                      "codeSystemVersion": "2023-09-29",
+                      "decode": "Start to Start",
+                      "instanceType": "Code"
+                    },
+                    "relativeFromScheduledInstanceId": "ScheduledActivityInstance_2",
+                    "relativeToScheduledInstanceId": "ScheduledActivityInstance_2",
+                    "windowLower": null,
+                    "windowUpper": null,
+                    "window": "",
+                    "instanceType": "Timing"
+                  }
+                ],
                 "instances": [
                   {
                     "id": "ScheduledActivityInstance_2",
-                    "timings": [
-                      {
-                        "id": "Timing_18",
-                        "name": "TIM18",
-                        "label": "Early Termination",
-                        "description": "Early Termination",
-                        "type": {
-                          "id": "Code_59",
-                          "code": "C201264",
-                          "codeSystem": "http://www.cdisc.org",
-                          "codeSystemVersion": "2023-09-29",
-                          "decode": "Fixed Reference",
-                          "instanceType": "Code"
-                        },
-                        "value": "P1D",
-                        "relativeToFrom": {
-                          "id": "Code_60",
-                          "code": "C201265",
-                          "codeSystem": "http://www.cdisc.org",
-                          "codeSystemVersion": "2023-09-29",
-                          "decode": "Start to Start",
-                          "instanceType": "Code"
-                        },
-                        "relativeFromScheduledInstanceId": "ScheduledActivityInstance_2",
-                        "relativeToScheduledInstanceId": "ScheduledActivityInstance_2",
-                        "windowLower": null,
-                        "windowUpper": null,
-                        "window": "",
-                        "instanceType": "Timing"
-                      }
-                    ],
                     "timelineId": null,
                     "timelineExitId": "ScheduleTimelineExit_2",
                     "defaultConditionId": null,
@@ -7327,40 +7321,185 @@
                     "instanceType": "ScheduleTimelineExit"
                   }
                 ],
+                "timings": [
+                  {
+                    "id": "Timing_19",
+                    "name": "TIM19",
+                    "label": "Supine",
+                    "description": "Supine",
+                    "type": {
+                      "id": "Code_61",
+                      "code": "C201264",
+                      "codeSystem": "http://www.cdisc.org",
+                      "codeSystemVersion": "2023-09-29",
+                      "decode": "Fixed Reference",
+                      "instanceType": "Code"
+                    },
+                    "value": "PT0M",
+                    "relativeToFrom": {
+                      "id": "Code_62",
+                      "code": "C201265",
+                      "codeSystem": "http://www.cdisc.org",
+                      "codeSystemVersion": "2023-09-29",
+                      "decode": "Start to Start",
+                      "instanceType": "Code"
+                    },
+                    "relativeFromScheduledInstanceId": "ScheduledActivityInstance_3",
+                    "relativeToScheduledInstanceId": "ScheduledActivityInstance_3",
+                    "windowLower": null,
+                    "windowUpper": null,
+                    "window": "",
+                    "instanceType": "Timing"
+                  },
+                  {
+                    "id": "Timing_20",
+                    "name": "TIM20",
+                    "label": "VS while supine",
+                    "description": "VS while supine",
+                    "type": {
+                      "id": "Code_63",
+                      "code": "C201264",
+                      "codeSystem": "http://www.cdisc.org",
+                      "codeSystemVersion": "2023-09-29",
+                      "decode": "After",
+                      "instanceType": "Code"
+                    },
+                    "value": "PT5M",
+                    "relativeToFrom": {
+                      "id": "Code_64",
+                      "code": "C201265",
+                      "codeSystem": "http://www.cdisc.org",
+                      "codeSystemVersion": "2023-09-29",
+                      "decode": "Start to Start",
+                      "instanceType": "Code"
+                    },
+                    "relativeFromScheduledInstanceId": "ScheduledActivityInstance_4",
+                    "relativeToScheduledInstanceId": "ScheduledActivityInstance_3",
+                    "windowLower": null,
+                    "windowUpper": null,
+                    "window": "",
+                    "instanceType": "Timing"
+                  },
+                  {
+                    "id": "Timing_21",
+                    "name": "TIM21",
+                    "label": "Standing",
+                    "description": "Standing",
+                    "type": {
+                      "id": "Code_65",
+                      "code": "C201264",
+                      "codeSystem": "http://www.cdisc.org",
+                      "codeSystemVersion": "2023-09-29",
+                      "decode": "After",
+                      "instanceType": "Code"
+                    },
+                    "value": "PT0M",
+                    "relativeToFrom": {
+                      "id": "Code_66",
+                      "code": "C201265",
+                      "codeSystem": "http://www.cdisc.org",
+                      "codeSystemVersion": "2023-09-29",
+                      "decode": "End to Start",
+                      "instanceType": "Code"
+                    },
+                    "relativeFromScheduledInstanceId": "ScheduledActivityInstance_5",
+                    "relativeToScheduledInstanceId": "ScheduledActivityInstance_4",
+                    "windowLower": null,
+                    "windowUpper": null,
+                    "window": "",
+                    "instanceType": "Timing"
+                  },
+                  {
+                    "id": "Timing_22",
+                    "name": "TIM22",
+                    "label": "VS while standing",
+                    "description": "VS while standing",
+                    "type": {
+                      "id": "Code_67",
+                      "code": "C201264",
+                      "codeSystem": "http://www.cdisc.org",
+                      "codeSystemVersion": "2023-09-29",
+                      "decode": "After",
+                      "instanceType": "Code"
+                    },
+                    "value": "PT1M",
+                    "relativeToFrom": {
+                      "id": "Code_68",
+                      "code": "C201265",
+                      "codeSystem": "http://www.cdisc.org",
+                      "codeSystemVersion": "2023-09-29",
+                      "decode": "Start to Start",
+                      "instanceType": "Code"
+                    },
+                    "relativeFromScheduledInstanceId": "ScheduledActivityInstance_6",
+                    "relativeToScheduledInstanceId": "ScheduledActivityInstance_5",
+                    "windowLower": null,
+                    "windowUpper": null,
+                    "window": "",
+                    "instanceType": "Timing"
+                  },
+                  {
+                    "id": "Timing_23",
+                    "name": "TIM23",
+                    "label": "Standing",
+                    "description": "Standing",
+                    "type": {
+                      "id": "Code_69",
+                      "code": "C201264",
+                      "codeSystem": "http://www.cdisc.org",
+                      "codeSystemVersion": "2023-09-29",
+                      "decode": "After",
+                      "instanceType": "Code"
+                    },
+                    "value": "PT0M",
+                    "relativeToFrom": {
+                      "id": "Code_70",
+                      "code": "C201265",
+                      "codeSystem": "http://www.cdisc.org",
+                      "codeSystemVersion": "2023-09-29",
+                      "decode": "End to Start",
+                      "instanceType": "Code"
+                    },
+                    "relativeFromScheduledInstanceId": "ScheduledActivityInstance_7",
+                    "relativeToScheduledInstanceId": "ScheduledActivityInstance_6",
+                    "windowLower": null,
+                    "windowUpper": null,
+                    "window": "",
+                    "instanceType": "Timing"
+                  },
+                  {
+                    "id": "Timing_24",
+                    "name": "TIM24",
+                    "label": "VS while standing",
+                    "description": "VS while standing",
+                    "type": {
+                      "id": "Code_71",
+                      "code": "C201264",
+                      "codeSystem": "http://www.cdisc.org",
+                      "codeSystemVersion": "2023-09-29",
+                      "decode": "After",
+                      "instanceType": "Code"
+                    },
+                    "value": "PT2M",
+                    "relativeToFrom": {
+                      "id": "Code_72",
+                      "code": "C201265",
+                      "codeSystem": "http://www.cdisc.org",
+                      "codeSystemVersion": "2023-09-29",
+                      "decode": "Start to Start",
+                      "instanceType": "Code"
+                    },
+                    "relativeFromScheduledInstanceId": "ScheduledActivityInstance_8",
+                    "relativeToScheduledInstanceId": "ScheduledActivityInstance_7",
+                    "windowLower": null,
+                    "windowUpper": null,
+                    "window": "",
+                    "instanceType": "Timing"
+                  }
+                ],
                 "instances": [
                   {
                     "id": "ScheduledActivityInstance_3",
-                    "timings": [
-                      {
-                        "id": "Timing_19",
-                        "name": "TIM19",
-                        "label": "Supine",
-                        "description": "Supine",
-                        "type": {
-                          "id": "Code_61",
-                          "code": "C201264",
-                          "codeSystem": "http://www.cdisc.org",
-                          "codeSystemVersion": "2023-09-29",
-                          "decode": "Fixed Reference",
-                          "instanceType": "Code"
-                        },
-                        "value": "PT0M",
-                        "relativeToFrom": {
-                          "id": "Code_62",
-                          "code": "C201265",
-                          "codeSystem": "http://www.cdisc.org",
-                          "codeSystemVersion": "2023-09-29",
-                          "decode": "Start to Start",
-                          "instanceType": "Code"
-                        },
-                        "relativeFromScheduledInstanceId": "ScheduledActivityInstance_3",
-                        "relativeToScheduledInstanceId": "ScheduledActivityInstance_3",
-                        "windowLower": null,
-                        "windowUpper": null,
-                        "window": "",
-                        "instanceType": "Timing"
-                      }
-                    ],
                     "timelineId": null,
                     "timelineExitId": null,
                     "defaultConditionId": "ScheduledActivityInstance_4",
@@ -7373,37 +7512,6 @@
                   },
                   {
                     "id": "ScheduledActivityInstance_4",
-                    "timings": [
-                      {
-                        "id": "Timing_20",
-                        "name": "TIM20",
-                        "label": "VS while supine",
-                        "description": "VS while supine",
-                        "type": {
-                          "id": "Code_63",
-                          "code": "C201264",
-                          "codeSystem": "http://www.cdisc.org",
-                          "codeSystemVersion": "2023-09-29",
-                          "decode": "After",
-                          "instanceType": "Code"
-                        },
-                        "value": "PT5M",
-                        "relativeToFrom": {
-                          "id": "Code_64",
-                          "code": "C201265",
-                          "codeSystem": "http://www.cdisc.org",
-                          "codeSystemVersion": "2023-09-29",
-                          "decode": "Start to Start",
-                          "instanceType": "Code"
-                        },
-                        "relativeFromScheduledInstanceId": "ScheduledActivityInstance_4",
-                        "relativeToScheduledInstanceId": "ScheduledActivityInstance_3",
-                        "windowLower": null,
-                        "windowUpper": null,
-                        "window": "",
-                        "instanceType": "Timing"
-                      }
-                    ],
                     "timelineId": null,
                     "timelineExitId": null,
                     "defaultConditionId": "ScheduledActivityInstance_5",
@@ -7416,37 +7524,6 @@
                   },
                   {
                     "id": "ScheduledActivityInstance_5",
-                    "timings": [
-                      {
-                        "id": "Timing_21",
-                        "name": "TIM21",
-                        "label": "Standing",
-                        "description": "Standing",
-                        "type": {
-                          "id": "Code_65",
-                          "code": "C201264",
-                          "codeSystem": "http://www.cdisc.org",
-                          "codeSystemVersion": "2023-09-29",
-                          "decode": "After",
-                          "instanceType": "Code"
-                        },
-                        "value": "PT0M",
-                        "relativeToFrom": {
-                          "id": "Code_66",
-                          "code": "C201265",
-                          "codeSystem": "http://www.cdisc.org",
-                          "codeSystemVersion": "2023-09-29",
-                          "decode": "End to Start",
-                          "instanceType": "Code"
-                        },
-                        "relativeFromScheduledInstanceId": "ScheduledActivityInstance_5",
-                        "relativeToScheduledInstanceId": "ScheduledActivityInstance_4",
-                        "windowLower": null,
-                        "windowUpper": null,
-                        "window": "",
-                        "instanceType": "Timing"
-                      }
-                    ],
                     "timelineId": null,
                     "timelineExitId": null,
                     "defaultConditionId": "ScheduledActivityInstance_6",
@@ -7459,37 +7536,6 @@
                   },
                   {
                     "id": "ScheduledActivityInstance_6",
-                    "timings": [
-                      {
-                        "id": "Timing_22",
-                        "name": "TIM22",
-                        "label": "VS while standing",
-                        "description": "VS while standing",
-                        "type": {
-                          "id": "Code_67",
-                          "code": "C201264",
-                          "codeSystem": "http://www.cdisc.org",
-                          "codeSystemVersion": "2023-09-29",
-                          "decode": "After",
-                          "instanceType": "Code"
-                        },
-                        "value": "PT1M",
-                        "relativeToFrom": {
-                          "id": "Code_68",
-                          "code": "C201265",
-                          "codeSystem": "http://www.cdisc.org",
-                          "codeSystemVersion": "2023-09-29",
-                          "decode": "Start to Start",
-                          "instanceType": "Code"
-                        },
-                        "relativeFromScheduledInstanceId": "ScheduledActivityInstance_6",
-                        "relativeToScheduledInstanceId": "ScheduledActivityInstance_5",
-                        "windowLower": null,
-                        "windowUpper": null,
-                        "window": "",
-                        "instanceType": "Timing"
-                      }
-                    ],
                     "timelineId": null,
                     "timelineExitId": null,
                     "defaultConditionId": "ScheduledActivityInstance_7",
@@ -7502,37 +7548,6 @@
                   },
                   {
                     "id": "ScheduledActivityInstance_7",
-                    "timings": [
-                      {
-                        "id": "Timing_23",
-                        "name": "TIM23",
-                        "label": "Standing",
-                        "description": "Standing",
-                        "type": {
-                          "id": "Code_69",
-                          "code": "C201264",
-                          "codeSystem": "http://www.cdisc.org",
-                          "codeSystemVersion": "2023-09-29",
-                          "decode": "After",
-                          "instanceType": "Code"
-                        },
-                        "value": "PT0M",
-                        "relativeToFrom": {
-                          "id": "Code_70",
-                          "code": "C201265",
-                          "codeSystem": "http://www.cdisc.org",
-                          "codeSystemVersion": "2023-09-29",
-                          "decode": "End to Start",
-                          "instanceType": "Code"
-                        },
-                        "relativeFromScheduledInstanceId": "ScheduledActivityInstance_7",
-                        "relativeToScheduledInstanceId": "ScheduledActivityInstance_6",
-                        "windowLower": null,
-                        "windowUpper": null,
-                        "window": "",
-                        "instanceType": "Timing"
-                      }
-                    ],
                     "timelineId": null,
                     "timelineExitId": null,
                     "defaultConditionId": "ScheduledActivityInstance_8",
@@ -7545,37 +7560,6 @@
                   },
                   {
                     "id": "ScheduledActivityInstance_8",
-                    "timings": [
-                      {
-                        "id": "Timing_24",
-                        "name": "TIM24",
-                        "label": "VS while standing",
-                        "description": "VS while standing",
-                        "type": {
-                          "id": "Code_71",
-                          "code": "C201264",
-                          "codeSystem": "http://www.cdisc.org",
-                          "codeSystemVersion": "2023-09-29",
-                          "decode": "After",
-                          "instanceType": "Code"
-                        },
-                        "value": "PT2M",
-                        "relativeToFrom": {
-                          "id": "Code_72",
-                          "code": "C201265",
-                          "codeSystem": "http://www.cdisc.org",
-                          "codeSystemVersion": "2023-09-29",
-                          "decode": "Start to Start",
-                          "instanceType": "Code"
-                        },
-                        "relativeFromScheduledInstanceId": "ScheduledActivityInstance_8",
-                        "relativeToScheduledInstanceId": "ScheduledActivityInstance_7",
-                        "windowLower": null,
-                        "windowUpper": null,
-                        "window": "",
-                        "instanceType": "Timing"
-                      }
-                    ],
                     "timelineId": null,
                     "timelineExitId": "ScheduleTimelineExit_3",
                     "defaultConditionId": null,
@@ -7590,17 +7574,7 @@
                 "instanceType": "ScheduleTimeline"
               }
             ],
-            "documentVersion": null,
-            "appliesTo": [
-              {
-                "id": "StudySite_1",
-                "name": "SITE_1",
-                "label": "Site One",
-                "description": "Main Site",
-                "currentEnrollment": null,
-                "instanceType": "StudySite"
-              }
-            ],
+            "documentVersionId": null,
             "dictionaries": [
               {
                 "id": "SyntaxTemplateDictionary_1",
@@ -7661,7 +7635,7 @@
                 "id": "ResearchOrganization_1",
                 "name": "SITE_ORG_1",
                 "label": "Site Org",
-                "type": {
+                "organizationType": {
                   "id": "Code_350",
                   "code": "C70793",
                   "codeSystem": "http://www.cdisc.org",
@@ -7690,8 +7664,15 @@
                   "instanceType": "Address"
                 },
                 "instanceType": "ResearchOrganization",
-                "manageIds": [
-                  "StudySite_1"
+                "manages": [
+                  {
+                    "id": "StudySite_1",
+                    "name": "SITE_1",
+                    "label": "Site One",
+                    "description": "Main Site",
+                    "currentEnrollment": null,
+                    "instanceType": "StudySite"
+                  }
                 ]
               }
             ],
@@ -7837,7 +7818,7 @@
               "sectionNumber": "0",
               "sectionTitle": "Root",
               "text": "",
-              "childrenIds": [
+              "childIds": [
                 "NarrativeContent_2",
                 "NarrativeContent_3",
                 "NarrativeContent_7",
@@ -7863,7 +7844,7 @@
               "sectionNumber": "0",
               "sectionTitle": "TITLE PAGE",
               "text": "<div><usdm:section name=\"M11-title-page\"></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -7872,7 +7853,7 @@
               "sectionNumber": "1",
               "sectionTitle": "PROTOCOL SUMMARY",
               "text": "<div></div>",
-              "childrenIds": [
+              "childIds": [
                 "NarrativeContent_4",
                 "NarrativeContent_5",
                 "NarrativeContent_6"
@@ -7885,7 +7866,7 @@
               "sectionNumber": "1.1",
               "sectionTitle": "Protocol Synopsis",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -7894,7 +7875,7 @@
               "sectionNumber": "1.2",
               "sectionTitle": "Trial Schema",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -7903,7 +7884,7 @@
               "sectionNumber": "1.3",
               "sectionTitle": "Schedule of Activities",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -7912,7 +7893,7 @@
               "sectionNumber": "2",
               "sectionTitle": "INTRODUCTION",
               "text": "<div></div>",
-              "childrenIds": [
+              "childIds": [
                 "NarrativeContent_8",
                 "NarrativeContent_9"
               ],
@@ -7924,7 +7905,7 @@
               "sectionNumber": "2.1",
               "sectionTitle": "Purpose of Trial",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -7933,7 +7914,7 @@
               "sectionNumber": "2.2",
               "sectionTitle": "Summary of Benefits and Risks",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -7942,7 +7923,7 @@
               "sectionNumber": "3",
               "sectionTitle": "TRIAL OBJECTIVES, ENDPOINTS AND ESTIMANDS",
               "text": "<div></div>",
-              "childrenIds": [
+              "childIds": [
                 "NarrativeContent_11"
               ],
               "instanceType": "NarrativeContent"
@@ -7953,7 +7934,7 @@
               "sectionNumber": "3.1",
               "sectionTitle": "Primary Objectives",
               "text": "<div><usdm:section name=\"M11-objective-endpoints\"></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -7962,7 +7943,7 @@
               "sectionNumber": "4",
               "sectionTitle": "TRIAL DESIGN",
               "text": "<div></div>",
-              "childrenIds": [
+              "childIds": [
                 "NarrativeContent_13",
                 "NarrativeContent_15",
                 "NarrativeContent_19",
@@ -7976,7 +7957,7 @@
               "sectionNumber": "4.1",
               "sectionTitle": "Description of Trial Design",
               "text": "<div></div>",
-              "childrenIds": [
+              "childIds": [
                 "NarrativeContent_14"
               ],
               "instanceType": "NarrativeContent"
@@ -7987,7 +7968,7 @@
               "sectionNumber": "4.1.1",
               "sectionTitle": "Participant Input into Design",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -7996,7 +7977,7 @@
               "sectionNumber": "4.2",
               "sectionTitle": "Rationale for Trial Design",
               "text": "<div><p>Previous studies of the oral formulation have shown that xanomeline tartrate may improve behavior and cognition. Effects on behavior are manifest within 2 to 4 weeks of initiation of treatment. The same studies have shown that 8 to 12 weeks are required to demonstrate effects on cognition and clinical global assessment. This study is intended to determine the acute and chronic effects of the TTS formulation in AD; for that reason, the study is of 26 weeks duration. Dosage specification has been made on the basis of tolerance to the xanomeline TTS in a clinical pharmacology study (H2Q-EW-LKAA), and target plasma levels as determined in studies of the oral formulation of xanomeline (H2Q-MC-LZZA).</p></div>",
-              "childrenIds": [
+              "childIds": [
                 "NarrativeContent_16",
                 "NarrativeContent_17",
                 "NarrativeContent_18"
@@ -8009,7 +7990,7 @@
               "sectionNumber": "4.2.1",
               "sectionTitle": "Rationale for Comparator",
               "text": "<div><p>The parallel dosing regimen maximizes the ability to make direct comparisons between the treatment groups. The use of placebo allows for a blinded, thus minimally biased, study. The placebo treatment group is a comparator group for efficacy and safety assessment.</p><p>Two interim analyses are planned for this study. The first interim analysis will occur when 50% of the patients have completed Visit 8 (8 weeks). If required, the second interim analysis will occur when 50% of the patients have completed Visit 12 (24 weeks).</p></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8018,7 +7999,7 @@
               "sectionNumber": "4.2.2",
               "sectionTitle": "Rationale for Adaptive or Novel Trial Design",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8027,7 +8008,7 @@
               "sectionNumber": "4.2.3",
               "sectionTitle": "Other Trial Design Considerations",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8036,7 +8017,7 @@
               "sectionNumber": "4.3",
               "sectionTitle": "Access to Trial Intervention After End of Trial",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8045,7 +8026,7 @@
               "sectionNumber": "4.4",
               "sectionTitle": "Start of Trial and End of Trial",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8054,7 +8035,7 @@
               "sectionNumber": "5",
               "sectionTitle": "TRIAL POPULATION",
               "text": "<div></div>",
-              "childrenIds": [
+              "childIds": [
                 "NarrativeContent_22",
                 "NarrativeContent_23",
                 "NarrativeContent_24",
@@ -8070,7 +8051,7 @@
               "sectionNumber": "5.1",
               "sectionTitle": "Selection of Trial Population",
               "text": "<div><p>For Lilly studies, the following definitions are used:</p>\n<div>\n  <div><strong>Screen</strong></div>\n  <div>\n    <p>Screening is the act of determining if an individual meets minimum requirements to become part of a pool of potential candidates for participation in a clinical study.</p>\n    <p>In this study, <strong>screening</strong> will include asking the candidate preliminary questions (such as age and general health status) and conducting invasive or diagnostic procedures and/or tests (for example, diagnostic psychological tests, x-rays, blood draws). Patients will sign the consent at their screening visit, thereby consenting to undergo the screening procedures and to participate in the study if they qualify.</p>\n  </div>  \n</div>\n<div>\n  <div>To <strong>enter</strong></div>\n  <div>\n    <p>Patients <strong>entered</strong> into the study are those from whom informed consent for the study has been obtained. Adverse events will be reported for each patient who has <strong>entered</strong> the study, even if the patient is never assigned to a treatment group (<strong>enrolled</strong>).</p></div>\n  </div>  \n</div>\n<div>\n  <div>To <strong>enroll</strong></div>\n  <div>\n    <p>Patients who are enrolled in the study are those who have been assigned to a treatment group. Patients who are entered into the study but fail to meet criteria specified in the protocol for treatment assignment will not be enrolled in the study.</p></div>\n  </div>  \n</div>\n<p>At Visit 1, patients who meet the enrollment criteria of Mini-Mental State Examination (MMSE) score of 10 to 23 (Attachment LZZT.6), Hachinski Ischemia Score \u22644 (Attachment LZZT.8), a physical exam, safety labs, ECG, and urinalysis, will proceed to Visit 2 and Visit 3. At Visit 3, patients whose CNS imaging and other pending labs from Visit 1 satisfy the inclusion criteria (Section 3.4.2.1) will be enrolled in the study. Approximately 300 patients with a diagnosis of probable mild to moderate AD will be enrolled in the study.</p></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8079,7 +8060,7 @@
               "sectionNumber": "5.2",
               "sectionTitle": "Rationale for Trial Population",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8088,7 +8069,7 @@
               "sectionNumber": "5.3",
               "sectionTitle": "Inclusion Criteria",
               "text": "<div><usdm:section name=\"M11-inclusion\"></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8097,7 +8078,7 @@
               "sectionNumber": "5.4",
               "sectionTitle": "Exclusion Criteria",
               "text": "<div><usdm:section name=\"M11-exclusion\"></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8106,7 +8087,7 @@
               "sectionNumber": "5.5",
               "sectionTitle": "Lifestyle Considerations",
               "text": "<div></div>",
-              "childrenIds": [
+              "childIds": [
                 "NarrativeContent_27",
                 "NarrativeContent_28",
                 "NarrativeContent_29",
@@ -8120,7 +8101,7 @@
               "sectionNumber": "5.5.1",
               "sectionTitle": "Meals and Dietary Restrictions",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8129,7 +8110,7 @@
               "sectionNumber": "5.5.2",
               "sectionTitle": "Caffeine, Alcohol, Tobacco, and Other Habits",
               "text": "<div><p>Not applicable</p></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8138,7 +8119,7 @@
               "sectionNumber": "5.5.3",
               "sectionTitle": "Physical Activity",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8147,7 +8128,7 @@
               "sectionNumber": "5.5.4",
               "sectionTitle": "Other Activity",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8156,7 +8137,7 @@
               "sectionNumber": "5.6",
               "sectionTitle": "Screen Failures",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8165,7 +8146,7 @@
               "sectionNumber": "6",
               "sectionTitle": "TRIAL INTERVENTION AND CONCOMITANT THERAPY",
               "text": "<div></div>",
-              "childrenIds": [
+              "childIds": [
                 "NarrativeContent_33",
                 "NarrativeContent_34",
                 "NarrativeContent_35",
@@ -8183,7 +8164,7 @@
               "sectionNumber": "6.1",
               "sectionTitle": "Description of Trial Intervention",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8192,7 +8173,7 @@
               "sectionNumber": "6.2",
               "sectionTitle": "Rationale for Trial Intervention",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8201,7 +8182,7 @@
               "sectionNumber": "6.3",
               "sectionTitle": "Dosing and Administration",
               "text": "<div></div>",
-              "childrenIds": [
+              "childIds": [
                 "NarrativeContent_36"
               ],
               "instanceType": "NarrativeContent"
@@ -8212,7 +8193,7 @@
               "sectionNumber": "6.3.1",
               "sectionTitle": "Trial Intervention Dose Modification",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8221,7 +8202,7 @@
               "sectionNumber": "6.4",
               "sectionTitle": "Treatment of Overdose",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8230,7 +8211,7 @@
               "sectionNumber": "6.5",
               "sectionTitle": "Preparation, Handling, Storage and Accountability",
               "text": "<div></div>",
-              "childrenIds": [
+              "childIds": [
                 "NarrativeContent_39",
                 "NarrativeContent_40",
                 "NarrativeContent_41"
@@ -8243,7 +8224,7 @@
               "sectionNumber": "6.5.1",
               "sectionTitle": "Preparation of Trial Intervention",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8252,7 +8233,7 @@
               "sectionNumber": "6.5.2",
               "sectionTitle": "Handling and Storage of Trial Intervention",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8261,7 +8242,7 @@
               "sectionNumber": "6.5.3",
               "sectionTitle": "Accountability of Trial Intervention",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8270,7 +8251,7 @@
               "sectionNumber": "6.6",
               "sectionTitle": "Participant Assignment, Randomisation and Blinding",
               "text": "<div></div>",
-              "childrenIds": [
+              "childIds": [
                 "NarrativeContent_43",
                 "NarrativeContent_44",
                 "NarrativeContent_45"
@@ -8283,7 +8264,7 @@
               "sectionNumber": "6.6.1",
               "sectionTitle": "Participant Assignment",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8292,7 +8273,7 @@
               "sectionNumber": "6.6.2",
               "sectionTitle": "Randomisation",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8301,7 +8282,7 @@
               "sectionNumber": "6.6.3",
               "sectionTitle": "Blinding and Unblinding",
               "text": "<div><p>The study will be double-blind. To further preserve the blinding of the study, only a minimum number of Lilly and CRO personnel will see the randomization table and codes before the study is complete.</p>\n<p>Emergency codes generated by a computer drug-labeling system will be available to the investigator. These codes, which reveal the patients treatment group, may be opened during the study only if the choice of follow-up treatment depends on the patient\u2019s therapy assignment.</p>\n<p>The investigator should make every effort to contact the clinical research physician prior to unblinding a patient\u2019s therapy assignment. If a patient\u2019s therapy assignment is unblinded, Lilly must be notified immediately by telephone. After the study, the investigator must return all sealed and any opened codes.</p></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8310,7 +8291,7 @@
               "sectionNumber": "6.7",
               "sectionTitle": "Trial Intervention Compliance",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8319,7 +8300,7 @@
               "sectionNumber": "6.8",
               "sectionTitle": "Concomitant Therapy",
               "text": "<div></div>",
-              "childrenIds": [
+              "childIds": [
                 "NarrativeContent_48",
                 "NarrativeContent_49",
                 "NarrativeContent_50",
@@ -8333,7 +8314,7 @@
               "sectionNumber": "6.8.1",
               "sectionTitle": "Prohibited Concomitant Therapy",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8342,7 +8323,7 @@
               "sectionNumber": "6.8.2",
               "sectionTitle": "Permitted Concomitant Therapy",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8351,7 +8332,7 @@
               "sectionNumber": "6.8.3",
               "sectionTitle": "Rescue Therapy",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8360,7 +8341,7 @@
               "sectionNumber": "6.8.4",
               "sectionTitle": "Other Therapy",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8369,7 +8350,7 @@
               "sectionNumber": "7",
               "sectionTitle": "DISCONTINUATION OF TRIAL INTERVENTION AND PARTICIPANT WITHDRAWAL FROM TRIAL",
               "text": "<div></div>",
-              "childrenIds": [
+              "childIds": [
                 "NarrativeContent_53",
                 "NarrativeContent_57",
                 "NarrativeContent_58",
@@ -8383,7 +8364,7 @@
               "sectionNumber": "7.1",
               "sectionTitle": "Discontinuation of Trial Intervention",
               "text": "<div></div>",
-              "childrenIds": [
+              "childIds": [
                 "NarrativeContent_54",
                 "NarrativeContent_55",
                 "NarrativeContent_56"
@@ -8396,7 +8377,7 @@
               "sectionNumber": "7.1.1",
               "sectionTitle": "Criteria for Permanent Discontinuation of Trial Intervention",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8405,7 +8386,7 @@
               "sectionNumber": "7.1.2",
               "sectionTitle": "Temporary Discontinuation or Interruption of Trial Intervention",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8414,7 +8395,7 @@
               "sectionNumber": "7.1.3",
               "sectionTitle": "Rechallenge",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8423,7 +8404,7 @@
               "sectionNumber": "7.2",
               "sectionTitle": "Participant Withdrawal from the Trial",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8432,7 +8413,7 @@
               "sectionNumber": "7.3",
               "sectionTitle": "Lost to Follow-Up",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8441,7 +8422,7 @@
               "sectionNumber": "7.4",
               "sectionTitle": "Trial Stopping Rules",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8450,7 +8431,7 @@
               "sectionNumber": "8",
               "sectionTitle": "TRIAL ASSESSMENTS AND PROCEDURES",
               "text": "<div></div>",
-              "childrenIds": [
+              "childIds": [
                 "NarrativeContent_61",
                 "NarrativeContent_62",
                 "NarrativeContent_63",
@@ -8470,7 +8451,7 @@
               "sectionNumber": "8.1",
               "sectionTitle": "Screening/Baseline Assessments and Procedures",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8479,7 +8460,7 @@
               "sectionNumber": "8.2",
               "sectionTitle": "Efficacy Assessments and Procedures",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8488,7 +8469,7 @@
               "sectionNumber": "8.3",
               "sectionTitle": "Safety Assessments and Procedures",
               "text": "<div></div>",
-              "childrenIds": [
+              "childIds": [
                 "NarrativeContent_64",
                 "NarrativeContent_65",
                 "NarrativeContent_66",
@@ -8503,7 +8484,7 @@
               "sectionNumber": "8.3.1",
               "sectionTitle": "Physical Examination",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8512,7 +8493,7 @@
               "sectionNumber": "8.3.2",
               "sectionTitle": "Vital Signs",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8521,7 +8502,7 @@
               "sectionNumber": "8.3.3",
               "sectionTitle": "Electrocardiograms",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8530,7 +8511,7 @@
               "sectionNumber": "8.3.4",
               "sectionTitle": "Clinical Laboratory Assessments",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8539,7 +8520,7 @@
               "sectionNumber": "8.3.5",
               "sectionTitle": "Suicidal Ideation and Behaviour Risk Monitoring",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8548,7 +8529,7 @@
               "sectionNumber": "8.4",
               "sectionTitle": "Adverse Events and Serious Adverse Events",
               "text": "<div></div>",
-              "childrenIds": [
+              "childIds": [
                 "NarrativeContent_70",
                 "NarrativeContent_71",
                 "NarrativeContent_72",
@@ -8568,7 +8549,7 @@
               "sectionNumber": "8.4.1",
               "sectionTitle": "Definitions of AE and SAE",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8577,7 +8558,7 @@
               "sectionNumber": "8.4.2",
               "sectionTitle": "Time Period and Frequency for Collecting AE and SAE Information",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8586,7 +8567,7 @@
               "sectionNumber": "8.4.3",
               "sectionTitle": "Identifying AEs and SAEs",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8595,7 +8576,7 @@
               "sectionNumber": "8.4.4",
               "sectionTitle": "Recording of AEs and SAEs",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8604,7 +8585,7 @@
               "sectionNumber": "8.4.5",
               "sectionTitle": "Follow-up of AEs and SAEs",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8613,7 +8594,7 @@
               "sectionNumber": "8.4.6",
               "sectionTitle": "Reporting of SAEs",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8622,7 +8603,7 @@
               "sectionNumber": "8.4.7",
               "sectionTitle": "Regulatory Reporting Requirements for SAEs",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8631,7 +8612,7 @@
               "sectionNumber": "8.4.8",
               "sectionTitle": "Serious and Unexpected Adverse Reaction Reporting",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8640,7 +8621,7 @@
               "sectionNumber": "8.4.9",
               "sectionTitle": "Adverse Events of Special Interest",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8649,7 +8630,7 @@
               "sectionNumber": "8.4.10",
               "sectionTitle": "Disease-related Events or Outcomes Not Qualifying as AEs or SAEs",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8658,7 +8639,7 @@
               "sectionNumber": "8.5",
               "sectionTitle": "Pregnancy and Postpartum Information",
               "text": "<div></div>",
-              "childrenIds": [
+              "childIds": [
                 "NarrativeContent_81",
                 "NarrativeContent_82"
               ],
@@ -8670,7 +8651,7 @@
               "sectionNumber": "8.5.1",
               "sectionTitle": "Participants Who Become Pregnant During the Trial",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8679,7 +8660,7 @@
               "sectionNumber": "8.5.2",
               "sectionTitle": "Participants Whose Partners Become Pregnant",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8688,7 +8669,7 @@
               "sectionNumber": "8.6",
               "sectionTitle": "Medical Device Product Complaints for Drug/Device Combination Products",
               "text": "<div></div>",
-              "childrenIds": [
+              "childIds": [
                 "NarrativeContent_84",
                 "NarrativeContent_85",
                 "NarrativeContent_86",
@@ -8703,7 +8684,7 @@
               "sectionNumber": "8.6.1",
               "sectionTitle": "Definition of Medical Device Product Complaints",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8712,7 +8693,7 @@
               "sectionNumber": "8.6.2",
               "sectionTitle": "Recording of Medical Device Product Complaints",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8721,7 +8702,7 @@
               "sectionNumber": "8.6.3",
               "sectionTitle": "Time Period and Frequency for Collecting Medical Device Product Complaints .",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8730,7 +8711,7 @@
               "sectionNumber": "8.6.4",
               "sectionTitle": "Follow-Up of Medical Device Product Complaints",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8739,7 +8720,7 @@
               "sectionNumber": "8.6.5",
               "sectionTitle": "Regulatory Reporting Requirements for Medical Device Product Complaints",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8748,7 +8729,7 @@
               "sectionNumber": "8.7",
               "sectionTitle": "Pharmacokinetics",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8757,7 +8738,7 @@
               "sectionNumber": "8.8",
               "sectionTitle": "Genetics",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8766,7 +8747,7 @@
               "sectionNumber": "8.9",
               "sectionTitle": "Biomarkers",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8775,7 +8756,7 @@
               "sectionNumber": "8.1",
               "sectionTitle": "Immunogenicity Assessments",
               "text": "<div></div>",
-              "childrenIds": [
+              "childIds": [
                 "NarrativeContent_93"
               ],
               "instanceType": "NarrativeContent"
@@ -8786,7 +8767,7 @@
               "sectionNumber": "8.1.1",
               "sectionTitle": "Medical Resource Utilisation and Health Economics",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8795,7 +8776,7 @@
               "sectionNumber": "9",
               "sectionTitle": "STATISTICAL CONSIDERATIONS",
               "text": "<div></div>",
-              "childrenIds": [
+              "childIds": [
                 "NarrativeContent_95",
                 "NarrativeContent_96",
                 "NarrativeContent_102",
@@ -8814,7 +8795,7 @@
               "sectionNumber": "9.1",
               "sectionTitle": "Analysis Sets",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8823,7 +8804,7 @@
               "sectionNumber": "9.2",
               "sectionTitle": "Analyses Supporting Primary Objective(s)",
               "text": "<div></div>",
-              "childrenIds": [
+              "childIds": [
                 "NarrativeContent_97",
                 "NarrativeContent_98",
                 "NarrativeContent_99",
@@ -8838,7 +8819,7 @@
               "sectionNumber": "9.2.1",
               "sectionTitle": "Statistical Model, Hypothesis, and Method of Analysis",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8847,7 +8828,7 @@
               "sectionNumber": "9.2.2",
               "sectionTitle": "Handling of Intercurrent Events of Primary Estimand(s)",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8856,7 +8837,7 @@
               "sectionNumber": "9.2.3",
               "sectionTitle": "Handling of Missing Data",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8865,7 +8846,7 @@
               "sectionNumber": "9.2.4",
               "sectionTitle": "Sensitivity Analysis",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8874,7 +8855,7 @@
               "sectionNumber": "9.2.5",
               "sectionTitle": "Supplementary Analysis",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8883,7 +8864,7 @@
               "sectionNumber": "9.3",
               "sectionTitle": "Analysis Supporting Secondary Objective(s)",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8892,7 +8873,7 @@
               "sectionNumber": "9.4",
               "sectionTitle": "Analysis of Exploratory Objective(s)",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8901,7 +8882,7 @@
               "sectionNumber": "9.5",
               "sectionTitle": "Safety Analyses",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8910,7 +8891,7 @@
               "sectionNumber": "9.6",
               "sectionTitle": "Other Analyses",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8919,7 +8900,7 @@
               "sectionNumber": "9.7",
               "sectionTitle": "Interim Analyses",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8928,7 +8909,7 @@
               "sectionNumber": "9.8",
               "sectionTitle": "Sample Size Determination",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8937,7 +8918,7 @@
               "sectionNumber": "9.9",
               "sectionTitle": "Protocol Deviations",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8946,7 +8927,7 @@
               "sectionNumber": "10",
               "sectionTitle": "GENERAL CONSIDERATIONS: REGULATORY, ETHICAL, AND TRIAL OVERSIGHT",
               "text": "<div></div>",
-              "childrenIds": [
+              "childIds": [
                 "NarrativeContent_110",
                 "NarrativeContent_111",
                 "NarrativeContent_112",
@@ -8961,7 +8942,7 @@
               "sectionNumber": "10.1",
               "sectionTitle": "Regulatory and Ethical Considerations",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8970,7 +8951,7 @@
               "sectionNumber": "10.2",
               "sectionTitle": "Committees",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8979,7 +8960,7 @@
               "sectionNumber": "10.3",
               "sectionTitle": "Informed Consent Process",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8988,7 +8969,7 @@
               "sectionNumber": "10.4",
               "sectionTitle": "Data Protection",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -8997,7 +8978,7 @@
               "sectionNumber": "10.5",
               "sectionTitle": "Early Site Closure or Trial Termination",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -9006,7 +8987,7 @@
               "sectionNumber": "11",
               "sectionTitle": "GENERAL CONSIDERATIONS: RISK MANAGEMENT AND QUALITY ASSURANCE",
               "text": "<div></div>",
-              "childrenIds": [
+              "childIds": [
                 "NarrativeContent_116",
                 "NarrativeContent_117",
                 "NarrativeContent_118"
@@ -9019,7 +9000,7 @@
               "sectionNumber": "11.1",
               "sectionTitle": "Quality Tolerance Limits",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -9028,7 +9009,7 @@
               "sectionNumber": "11.2",
               "sectionTitle": "Data Quality Assurance",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -9037,7 +9018,7 @@
               "sectionNumber": "11.3",
               "sectionTitle": "Source Data",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -9046,7 +9027,7 @@
               "sectionNumber": "12",
               "sectionTitle": "APPENDIX: ADVERSE EVENTS AND SERIOUS ADVERSE EVENTS - DEFINITIONS, SEVERITY, AND CAUSALITY",
               "text": "<div></div>",
-              "childrenIds": [
+              "childIds": [
                 "NarrativeContent_120",
                 "NarrativeContent_121",
                 "NarrativeContent_122",
@@ -9060,7 +9041,7 @@
               "sectionNumber": "12.1",
               "sectionTitle": "Further Details and Clarifications on the AE Definition",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -9069,7 +9050,7 @@
               "sectionNumber": "12.2",
               "sectionTitle": "Further Details and Clarifications on the SAE Definition",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -9078,7 +9059,7 @@
               "sectionNumber": "12.3",
               "sectionTitle": "Severity",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -9087,7 +9068,7 @@
               "sectionNumber": "12.4",
               "sectionTitle": "Causality",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -9096,7 +9077,7 @@
               "sectionNumber": "13",
               "sectionTitle": "APPENDIX: DEFINITIONS AND SUPPORTING OPERATIONAL DETAILS",
               "text": "<div></div>",
-              "childrenIds": [
+              "childIds": [
                 "NarrativeContent_125",
                 "NarrativeContent_129",
                 "NarrativeContent_130",
@@ -9110,7 +9091,7 @@
               "sectionNumber": "13.1",
               "sectionTitle": "Contraception and Pregnancy Testing",
               "text": "<div></div>",
-              "childrenIds": [
+              "childIds": [
                 "NarrativeContent_126",
                 "NarrativeContent_127",
                 "NarrativeContent_128"
@@ -9123,7 +9104,7 @@
               "sectionNumber": "13.1.1",
               "sectionTitle": "Definitions Related to Childbearing Potential",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -9132,7 +9113,7 @@
               "sectionNumber": "13.1.2",
               "sectionTitle": "Contraception",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -9141,7 +9122,7 @@
               "sectionNumber": "13.1.3",
               "sectionTitle": "Pregnancy Testing",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -9150,7 +9131,7 @@
               "sectionNumber": "13.2",
               "sectionTitle": "Clinical Laboratory Tests",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -9159,7 +9140,7 @@
               "sectionNumber": "13.3",
               "sectionTitle": "Country/Region-Specific Differences",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -9168,7 +9149,7 @@
               "sectionNumber": "13.4",
               "sectionTitle": "Prior Protocol Amendments",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -9177,7 +9158,7 @@
               "sectionNumber": "14",
               "sectionTitle": "APPENDIX: GLOSSARY OF TERMS",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
@@ -9186,11 +9167,11 @@
               "sectionNumber": "15",
               "sectionTitle": "APPENDIX: REFERENCES",
               "text": "<div></div>",
-              "childrenIds": [],
+              "childIds": [],
               "instanceType": "NarrativeContent"
             }
           ],
-          "childrenIds": [],
+          "childIds": [],
           "instanceType": "StudyProtocolDocumentVersion"
         }
       ],
