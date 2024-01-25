@@ -41,18 +41,9 @@ def file_suffix(view):
   return ''
 
 studies = [
-  # { 'path': 'NCT04320615', 'filename': 'Roche_NCT04320615_COVID' },
-  # { 'path': 'Other', 'filename': 'cycles_1' },
-  # { 'path': 'Other', 'filename': 'cycles_2' },
-  # { 'path': 'Other', 'filename': 'simple_1' },
-  # { 'path': 'Other', 'filename': 'simple_2' },
-  # { 'path': 'Other', 'filename': 'profile_1' },
-  # { 'path': 'Other', 'filename': 'simple_3' },
-  { 'path': 'CDISC_Pilot', 'filename': 'CDISC_Pilot_Study' },
-  # { 'path': 'NCT03421379', 'filename': 'EliLilly_NCT03421379_Diabetes' },
-  # { 'path': 'Other', 'filename': 'simple_4' },
-  # { 'path': 'Other', 'filename': 'arms_epochs' },
-  #{ 'path': 'Other', 'filename': 'full_1' }
+  # { 'path': 'NCT04320615', 'filename': 'Roche_NCT04320615_COVID', 'html': False},
+  { 'path': 'CDISC_Pilot', 'filename': 'CDISC_Pilot_Study', 'html': True},
+  { 'path': 'NCT03421379', 'filename': 'EliLilly_NCT03421379_Diabetes', 'html': False},
 ]
 
 print("")
@@ -66,13 +57,14 @@ for study in studies:
   x = USDMExcel(file_path)
   save_as_json_file(x.to_json(), study)
   save_as_csv_file(x.errors(), study)
-  save_as_html_file(x.to_html(), study)
   for view in [USDMExcel.FULL_VIEW, USDMExcel.TIMELINE_VIEW]:
     print("")
     print("VIEW:", str(view))
     nodes, edges = x.to_nodes_and_edges(view)
     save_as_node_file(nodes, study, view)
     save_as_edges_file(edges, study, view)
+  if study['html']:
+    save_as_html_file(x.to_html(), study)
   print("")
   print("")
   print("ERRORS:", x.errors())
