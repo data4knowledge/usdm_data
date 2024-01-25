@@ -8,9 +8,13 @@ from usdm_excel import USDMExcel
 from usdm_info import __package_version__ as code_version
 from usdm_info import __model_version__ as model_version
 
-def save_as_html_file(html, details):
-  with open(f"source_data/{details['path']}/{details['filename']}_USDM.html", 'w', encoding='utf-8') as f:
+def save_as_html_file(html, details, suffix):
+  with open(f"source_data/{details['path']}/{details['filename']}_{suffix}.html", 'w', encoding='utf-8') as f:
     f.write(html)
+
+def save_as_pdf_file(data, details, suffix):
+  with open(f"source_data/{details['path']}/{details['filename']}_{suffix}.pdf", 'w+b') as f:
+    f.write(data)
 
 def save_as_json_file(raw_json, details):
   with open(f"source_data/{details['path']}/{details['filename']}.json", 'w', encoding='utf-8') as f:
@@ -41,32 +45,29 @@ def file_suffix(view):
   return ''
 
 studies = [
-  # { 'path': 'NCT04320615', 'filename': 'Roche_NCT04320615_COVID', 'html': False},
-  { 'path': 'CDISC_Pilot', 'filename': 'CDISC_Pilot_Study', 'html': True},
-  { 'path': 'NCT03421379', 'filename': 'EliLilly_NCT03421379_Diabetes', 'html': False},
+  # { 'path': 'NCT04320615', 'filename': 'Roche_NCT04320615_COVID', 'protocol': False},
+  { 'path': 'CDISC_Pilot', 'filename': 'CDISC_Pilot_Study', 'protocol': True},
+  { 'path': 'NCT03421379', 'filename': 'EliLilly_NCT03421379_Diabetes', 'protocol': False},
 ]
 
-print("")
-print (f"Import Utility, using USDM Python Package v{code_version} supporting USDM version v{model_version}")
-print("")
-print("")
+print (f"\n\nImport Utility, using USDM Python Package v{code_version} supporting USDM version v{model_version}\n\n")
 for study in studies:
-  print ("Processing study %s ..." % (study['filename']))
-  print("")
+  print (f"Processing study {(study['filename'])} ...\n\n")
   file_path = "source_data/%s/%s.xlsx" % (study['path'], study['filename'])
   x = USDMExcel(file_path)
+  print("\n\nJSON and Errors\n\n")
   save_as_json_file(x.to_json(), study)
   save_as_csv_file(x.errors(), study)
+  print("Timeline\n\n")
+  save_as_html_file(x.to_timeline(), study, 'timeline')
   for view in [USDMExcel.FULL_VIEW, USDMExcel.TIMELINE_VIEW]:
-    print("")
-    print("VIEW:", str(view))
+    print(f"{str(view)} view\n\n")
     nodes, edges = x.to_nodes_and_edges(view)
     save_as_node_file(nodes, study, view)
     save_as_edges_file(edges, study, view)
-  if study['html']:
-    save_as_html_file(x.to_html(), study)
-  print("")
-  print("")
-  print("ERRORS:", x.errors())
-  print("")
-  print("----- + -----")
+  if study['protocol']:
+    print("\n\nProtocol HTML and PDF\n\n")
+    save_as_html_file(x.to_html(), study, 'USDM')
+    save_as_pdf_file(x.to_pdf(), study, 'USDM')
+  print(f"\n\nERRORS:\n{x.errors()}\n\n")
+  print(f"----- + -----\n\n")
