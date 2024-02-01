@@ -1977,22 +1977,22 @@
             ],
             "population": {
               "id": "StudyDesignPopulation_1",
-              "name": "POP1",
-              "label": "",
-              "description": "",
+              "name": "STUDY_POP",
+              "label": "Overall study population",
+              "description": "Overall study population",
               "includesHealthySubjects": false,
               "plannedEnrollmentNumber": {
                 "id": "Range_2",
-                "minValue": 120.0,
-                "maxValue": 120.0,
+                "minValue": 75.0,
+                "maxValue": 75.0,
                 "unit": null,
                 "isApproximate": false,
                 "instanceType": "Range"
               },
               "plannedCompletionNumber": {
                 "id": "Range_1",
-                "minValue": 100.0,
-                "maxValue": 100.0,
+                "minValue": 66.0,
+                "maxValue": 66.0,
                 "unit": null,
                 "isApproximate": false,
                 "instanceType": "Range"
@@ -2004,18 +2004,25 @@
               "cohorts": [
                 {
                   "id": "StudyCohort_1",
-                  "name": "COHORT1",
-                  "label": "",
-                  "description": "",
+                  "name": "T1DM",
+                  "label": "Type-1 Diabetes Mellitus Cohort",
+                  "description": "Type-1 Diabetes Mellitus Cohort",
                   "includesHealthySubjects": false,
                   "plannedEnrollmentNumber": null,
-                  "plannedCompletionNumber": null,
+                  "plannedCompletionNumber": {
+                    "id": "Range_3",
+                    "minValue": 30.0,
+                    "maxValue": 30.0,
+                    "unit": null,
+                    "isApproximate": false,
+                    "instanceType": "Range"
+                  },
                   "plannedSex": [],
                   "criteria": [],
                   "plannedAge": {
-                    "id": "Range_3",
+                    "id": "Range_4",
                     "minValue": 18.0,
-                    "maxValue": 30.0,
+                    "maxValue": 64.0,
                     "unit": {
                       "id": "Code_142",
                       "code": "C29848",
@@ -2032,17 +2039,24 @@
                 },
                 {
                   "id": "StudyCohort_2",
-                  "name": "COHORT2",
-                  "label": "",
-                  "description": "",
+                  "name": "T2DM",
+                  "label": "Type-2 Diabetes Mellitus Cohort",
+                  "description": "Type-2 Diabetes Mellitus Cohort",
                   "includesHealthySubjects": false,
                   "plannedEnrollmentNumber": null,
-                  "plannedCompletionNumber": null,
+                  "plannedCompletionNumber": {
+                    "id": "Range_5",
+                    "minValue": 30.0,
+                    "maxValue": 30.0,
+                    "unit": null,
+                    "isApproximate": false,
+                    "instanceType": "Range"
+                  },
                   "plannedSex": [],
                   "criteria": [],
                   "plannedAge": {
-                    "id": "Range_4",
-                    "minValue": 31.0,
+                    "id": "Range_6",
+                    "minValue": 20.0,
                     "maxValue": 70.0,
                     "unit": {
                       "id": "Code_143",
@@ -3737,7 +3751,7 @@
           },
           {
             "id": "StudyTitle_2",
-            "text": "A Phase 3 Study of Nasal Glucagon (LY900018) Compared to Intramuscular Glucagon for Treatment of\nInsulin-induced Hypoglycemia in Japanese Patients with Diabetes Mellitus",
+            "text": "A Phase 3 Study of Nasal Glucagon (LY900018) Compared to Intramuscular Glucagon for Treatment of Insulin-induced Hypoglycemia in Japanese Patients with Diabetes Mellitus",
             "type": {
               "id": "Code_4",
               "code": "C99905x2",
@@ -3760,17 +3774,1114 @@
       "versions": [
         {
           "id": "StudyProtocolDocumentVersion_1",
-          "protocolVersion": "1",
+          "protocolVersion": "05-Dec-2017",
           "protocolStatus": {
             "id": "Code_5",
-            "code": "C85255",
+            "code": "C25425",
             "codeSystem": "http://www.cdisc.org",
             "codeSystemVersion": "2023-09-29",
-            "decode": "Draft",
+            "decode": "Approval",
             "instanceType": "Code"
           },
           "dateValues": [],
-          "contents": [],
+          "contents": [
+            {
+              "id": "NarrativeContent_1",
+              "name": "ROOT",
+              "sectionNumber": "0",
+              "sectionTitle": "Root",
+              "text": "",
+              "childIds": [
+                "NarrativeContent_2",
+                "NarrativeContent_3",
+                "NarrativeContent_4",
+                "NarrativeContent_5",
+                "NarrativeContent_9",
+                "NarrativeContent_10",
+                "NarrativeContent_16",
+                "NarrativeContent_24",
+                "NarrativeContent_36",
+                "NarrativeContent_42",
+                "NarrativeContent_76",
+                "NarrativeContent_98",
+                "NarrativeContent_99",
+                "NarrativeContent_100",
+                "NarrativeContent_101",
+                "NarrativeContent_102",
+                "NarrativeContent_103",
+                "NarrativeContent_104",
+                "NarrativeContent_105",
+                "NarrativeContent_106",
+                "NarrativeContent_107"
+              ],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_2",
+              "name": "SECTION 0",
+              "sectionNumber": "0",
+              "sectionTitle": "Title Page",
+              "text": "<div><div class=\"container\">\n  <div class=\"row\">\n    <div class=\"col-md-8 offset-md-2 text-center\">\n      <p><strong>Protocol I8R-JE-IGBJ</strong></p>\n    </div>\n  </div>\n  <div class=\"row mt-3\">\n    <div class=\"col-md-8 offset-md-2 text-center\">\n      <p>\n        <strong>A Phase 3 Study of Nasal Glucagon (LY900018) Compared to Intramuscular Glucagon for Treatment of\n          Insulin-induced Hypoglycemia in Japanese Patients with Diabetes Mellitus\n        </strong>\n      </p>\n    </div>\n  </div>\n  <div class=\"row mt-3\">\n    <div class=\"col-md-8 offset-md-2 text-center border\">\n      <p><strong>Confidential Information</strong></p>\n      <p>\n        <small>\n          The information contained in this protocol is confidential and is intended for the use of clinical\n          investigators. It is the property of Eli Lilly and Company or its subsidiaries and should not be copied by\n          or\n          distributed to persons not involved in the clinical investigation of glucagon (LY900018), unless such\n          persons\n          are bound by a confidentiality agreement with Eli Lilly and Company or its subsidiaries.\n        </small>\n      </p>\n      <p>\n        <small>\n          <b>Note to Regulatory Authorities:</b> This document may contain protected personal data and/or commercially\n          confidential information exempt from public disclosure. Eli Lilly and Company requests consultation\n          regarding\n          release/redaction prior to any public release. In the United States, this document is subject to Freedom of\n          Information Act (FOIA) Exemption 4 and may not be reproduced or otherwise disseminated without the written\n          approval of Eli Lilly and Company or its subsidiaries.\n        </small>\n      </p>\n    </div>\n  </div>\n  <div class=\"row mt-5\">\n    <div class=\"col-md-8 offset-md-2 text-center\">\n      <p>Glucagon (LY900018)</p>\n      <p>Eli Lilly Japan K.K Japan</p>\n      <p>Clinical Pharmacology Protocol Electronically Signed and Approved by Lilly:</p>\n      <p>26 October 2017</p>\n      <p>Amendment (a) Electronically Signed and Approved by Lilly on date provided below.</p>\n      </p>\n    </div>\n  </div>\n  <div class=\"row\">\n    <div class=\"col-md-3 offset-md-9 text-right\">\n      <p>Approval Date: 05-Dec-2017 GMT</p>\n    </div>\n  </div>\n</div></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_3",
+              "name": "SECTION 1",
+              "sectionNumber": "1",
+              "sectionTitle": "Protocol Synopsis",
+              "text": "<div>\n  <p><b>Title of Study:</b></p>\n  <p>A Phase 3 Study of Nasal Glucagon (LY900018) Compared to Intramuscular Glucagon for Treatment of Insulin-induced\n    Hypoglycemia in Japanese Patients with Diabetes Mellitus</p>\n  <p><b>Rationale:</b></p>\n  <p>Nasal glucagon (LY900018) is a powder formulation of human glucagon for the rescue treatment of hypoglycemia\n    packaged\n    in a user-friendly, single-use, nasal dosing device that delivers 3 mg glucagon powder for absorption through the\n    nasal mucosa. The glucagon component of LY900018 is a synthetic single-chain, 29-amino-acid polypeptide identical to\n    human glucagon. LY900018 is being developed for the rescue treatment of hypoglycemia.</p>\n  <p>Currently, glucagon in a liquid form lacks physical and chemical stability; thus, marketed products require\n    reconstitution of glucagon powder before the product can be administered through intramuscular (IM) injection.\n    LY900018 combines stable, synthetic glucagon and a nasal dosing device that for effective use obviates\n    reconstitution,\n    injection, and moreover, patient inhalation. Because of these advantages, LY900018 may offer a significant\n    improvement\n    in the treatment of severe hypoglycemia occurring outside of the hospital setting.</p>\n  <p>The aim of this study is to compare LY900018 with IM glucagon (IMG), a currently approved product that requires\n    reconstitution prior to administration through IM injection, in Japanese patients with type 1 diabetes mellitus\n    (T1DM)\n    and patients with type 2 diabetes mellitus (T2DM) who achieve treatment success during controlled insulin-induced\n    hypoglycemia. Treatment success is defined as an increase in plasma glucose (PG) to \u226570 mg/dL or an increase of \u226520\n    mg/dL from the PG nadir within 30 minutes after receiving glucagon, without the patient receiving additional\n    treatments to increase PG. The nadir is defined as the minimum PG measurement at the time of or within 10 minutes\n    following glucagon administration.</p>\n  <p><b>Objectives Endpoints:</b></p>\n\n  <table class=\"table\">\n    <tr>\n      <th>Objectives</th>\n      <th>Endpoints</th>\n    </tr>\n    <tr>\n      <td>\n        <p><b>Primary</b></p>\n        <p>\n          <usdm:ref namexref=\"OBJ1\" id=\"\" klass=\"Objective\" attribute=\"text\"></usdm:ref>\n        </p>\n      </td>\n      <td>\n        <p>&nbsp;</p>\n        <p>\n          <usdm:ref namexref=\"END1\" id=\"\" klass=\"Endpoint\" attribute=\"text\"></usdm:ref>\n        </p>\n      </td>\n    </tr>\n    <tr>\n      <td>\n        <p><b>Secondary</b></p>\n        <ul>\n          <li>\n            <p>\n              <usdm:ref namexref=\"OBJ2\" id=\"\" klass=\"Objective\" attribute=\"text\"></usdm:ref>\n            </p>\n          </li>\n          <li>\n            <p>\n              <usdm:ref namexref=\"OBJ3\" id=\"\" klass=\"Objective\" attribute=\"text\"></usdm:ref>\n            </p>\n          </li>\n          <li>\n            <p>\n              <usdm:ref namexref=\"OBJ4\" id=\"\" klass=\"Objective\" attribute=\"text\"></usdm:ref>\n            </p>\n          </li>\n        </ul>\n      </td>\n      <td>\n        <p>&nbsp;</p>\n        <ul>\n          <li>\n            <p>\n              <usdm:ref namexref=\"END2\" id=\"\" klass=\"Endpoint\" attribute=\"text\"></usdm:ref>\n            </p>\n          </li>\n          <li>\n            <p>\n              <usdm:ref namexref=\"END3\" id=\"\" klass=\"Endpoint\" attribute=\"text\"></usdm:ref>\n            </p>\n          </li>\n          <li>\n            <p>\n              <usdm:ref namexref=\"END4\" id=\"\" klass=\"Endpoint\" attribute=\"text\"></usdm:ref>\n            </p>\n          </li>\n        </ul>\n      </td>\n    </tr>\n  </table>\n\n  <p><small>Abbreviations: AE = adverse event; AUC = area under the concentration versus time curve; BG max = maximal\n      plasma glucose concentration; C max = maximal concentration; IMG = intramuscular glucagon; PD = pharmacodynamics;\n      PG\n      = plasma glucose; PK = pharmacokinetics; SAE = serious adverse event; TEAE = treatment-emergent adverse event; T\n      max\n      = time to maximal concentration.</small></p>\n\n  <p><b>Summary of Study Design:</b></p>\n  <p>Study I8R-JE-IGBJ is a Phase 3, multicenter, randomized, open-label, active comparator, single-dose, 2-treatment,\n    2-period crossover study in Japanese patients with T1DM and patients with T2DM.</p>\n\n  <p><b>Treatment Arms and Planned Duration for an Individual Patient:</b></p>\n  <p>LY900018: Single 3-mg dose; nasal administration by study site personnel<br />\n    IMG (GlucaGen, Novo Nordisk A/S): Single 1-mg dose; IM injection by study site personnel</p>\n  <p>Patients will undergo a screening examination within 28 days prior to enrollment. Patients will be administered a\n    single dose in Periods 1 and 2, which will be separated by a washout period of 3 to 14 days. Patients will return\n    for\n    a follow-up visit 26 to 30 days after the last study treatment.</p>\n\n  <p><b>Number of Patients:</b></p>\n  <p>Seventy five patients may be enrolled in order to have at least 66 patients (at least 30 patients with T1DM and\n    T2DM,\n    respectively) complete both periods with evaluable primary outcome. If patients discontinue from the study before\n    completion of both periods with evaluable primary outcome for any reason, the patient may be replaced. Replacement\n    should not occur beyond 75 patients enrolled, if it is expected to have at least 66 patients complete the study.</p>\n\n  <p><b>Statistical Analysis:</b></p>\n  <p>A total of 66 completers are required in the study in order to achieve the primary objective with at least 90%\n    power\n    using the following assumptions:</p>\n  <ul>\n    <li>\n      <p>A treatment success rate of 98% for both treatments</p>\n    </li>\n    <li>\n      <p>A non-inferiority margin (NIM) of 10%</p>\n    </li>\n    <li>\n      <p>One-sided alpha level of 0.025</p>\n    </li>\n    <li>\n      <p>A within-patient correlation of zero between 2 treatment visits</p>\n    </li>\n  </ul>\n  <p>The primary analysis will be a treatment comparison\n    of the percentage of patients, including both T1DM and T2DM, who achieve treatment success. The percentage of\n    patients\n    who achieve treatment success within each treatment group and the difference in the percentages between the 2\n    treatment groups will be computed. A 2-sided 95% confidence interval (CI) will be obtained from the 1-sample mean of\n    the paired differences in primary outcome (1=outcome observed; 0=outcome not observed) across 2 treatment visits.\n    Non-inferiority of LY900018 will be declared if the upper limit of the 2-sided 95% CI constructed on the difference\n    in\n    percentage (IMG - LY900018) is less than the NIM of 10%.</p>\n</div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_4",
+              "name": "SECTION 2",
+              "sectionNumber": "2",
+              "sectionTitle": "Schedule of Activities",
+              "text": "<div><i>Would be generated from the detailed study design</i></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_5",
+              "name": "SECTION 3",
+              "sectionNumber": "3",
+              "sectionTitle": "Introduction",
+              "text": "<div></div>",
+              "childIds": [
+                "NarrativeContent_6",
+                "NarrativeContent_7",
+                "NarrativeContent_8"
+              ],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_6",
+              "name": "SECTION 3.1.",
+              "sectionNumber": "3.1.",
+              "sectionTitle": "Study Rationale",
+              "text": "<div><p>Nasal glucagon (LY900018) is a powder formulation of human glucagon for the rescue treatment of hypoglycemia packaged in a user-friendly, single-use, nasal dosing device that delivers 3 mg glucagon powder for absorption through the nasal mucosa. The glucagon component of LY900018 is a synthetic single-chain, 29-amino-acid polypeptide identical to human glucagon. LY900018 is being developed for the rescue treatment of hypoglycemia.</p>\n<p>Currently, glucagon in a liquid form lacks physical and chemical stability; thus, marketed products require reconstitution of glucagon powder before the product can be administered through intramuscular (IM) injection. LY900018 combines stable, synthetic glucagon and a nasal dosing device that for effective use obviates reconstitution, injection, and moreover, patient inhalation. Because of these advantages, LY900018 may offer a significant improvement in the treatment of severe hypoglycemia occurring outside of the hospital setting.</p>\n<p>The aim of this study I8R-JE-IGBJ (IGBJ) is to compare LY900018 with IM glucagon (IMG) with respect to the proportion of patients who achieved treatment success during the controlled insulin-induced hypoglycemia in Japanese patients with type 1 diabetes mellitus (T1DM) and patients with type 2 diabetes mellitus (T2DM). Treatment success is defined as an increase in plasma glucose (PG) concentration to \u226570 mg/dL or an increase of \u226520 mg/dL from the PG nadir within 30 minutes after receiving glucagon, without the patient receiving additional treatments to increase PG. The nadir is defined as the minimum PG concentration at the time of or within 10 minutes following glucagon administration. The design and conduct of Study IGBJ are similar to the completed Phase 3 Study I8R-MC-IGBC (IGBC) (Rickels et al. 2016) and the planned Phase 1 Study I8R-MC-IGBI.</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_7",
+              "name": "SECTION 3.2.",
+              "sectionNumber": "3.2.",
+              "sectionTitle": "Background",
+              "text": "<div><p>Hypoglycemia is a common complication in all patients with T1DM and some patients with T2DM who use insulin to reduce blood glucose levels. Use of sulfonylurea and glinide by patients with T2DM may also cause hypoglycemia. Depending on the severity, hypoglycemia causes physical symptoms ranging from weakness, dizziness, and sweating progressing to blurred vision, behavioral changes, progressing to unconsciousness, seizures, and coma, and possibly to death (American Diabetes Association 2017). When emergency services are available in a timely manner, intravenous (IV) glucose supplementation is also an effective treatment. Glucagon for injection is a globally available product currently indicated for the treatment of severe hypoglycemia, and is another important treatment option outside of a clinical setting for people who try to rescue patients with severe hypoglycemia. However, for people without enough medical training, the multi-step reconstitution of glucagon and injection procedure would be complex and daunting with substantial risk of errors (Polonsky et al. 2016). Therefore the needle-free and easy-to-administer formulation of glucagon is desired for patients who have a risk of severe hypoglycemia related to anti-diabetes treatments. LY900018 is a powder formulation of synthetic human glucagon in a user-friendly, single-use, nasal dosing</p>\n<p>device which delivers 3 mg glucagon powder. Patients do not need to inhale, as the drug is absorbed from the nasal cavity.</p>\n<p>Three clinical trials using LY900018 have been completed in non-Japanese adults with T1DM and T2DM: Study IGBC, Study I8R-MC-IGBA (IGBA), and an actual use study (Study I8R-MC-B002 [B002]). Studies IGBC and IGBA demonstrated comparable safety and efficacy between 3 mg LY900018 and 1 mg injectable glucagon in reversing insulin-induced hypoglycemia in adult patients with T1DM only (Study IGBA) or patients with T2DM and T1DM (IGBC). Study B002 was an actual use study that evaluated the effectiveness of 3 mg LY900018 administered by a trained caregiver to patients with T1DM experiencing moderate to severe hypoglycemia in a real-world environment of work and home. Study B002 demonstrated that 96% of moderate to severe hypoglycemic events were resolved within 30 minutes. Finally, 2 trials were conducted in pediatric patients with T1DM: Study I8R-MC-IGBB (IGBB) and Study I8R-MC-B001 (B001). Studies IGBB and B001 demonstrated effectiveness in rescuing pediatric patients from hypoglycemia.</p>\n<p>All adult diabetic patients in the 2 inpatient clinical trials (Studies IGBA and IGBC) underwent hypoglycemia induction through IV insulin under close clinical supervision and were administered either LY900018 or injectable glucagon.</p>\n<p>Patients fully recovered from hypoglycemia without additional actions to increase glucose level. Specifically, in Study IGBC, at 30 minutes after glucagon dosing, 98.7% (74 out of 75 patients) of LY900018 and 100% (75 out of 75) of IMG-treated patients achieved treatment success (defined as an increase in PG to &gt;70 mg/dL or an increase of &gt;20 mg/dL from nadir). The nadir is defined as the minimum glucose measurement at the time of or within 10 minutes following glucagon administration. The LY900018-treated patient who did not meet the above criteria did achieve both PG &gt;70 mg/dL and an increase of &gt;20 mg/dL from nadir at 40 minutes after dosing. Furthermore, the mean time to treatment success in participants with nadir glucose &lt;50 mg/dL were 16 minutes in the LY900018 treatment arm and 13 minutes in the IMG treatment arm, respectively (Rickels et al. 2016).</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_8",
+              "name": "SECTION 3.3.",
+              "sectionNumber": "3.3.",
+              "sectionTitle": "Benefit/Risk Assessment",
+              "text": "<div><p>There is no anticipated therapeutic benefit for the patients participating in this study.</p>\n<p>This study will expose patients to an insulin-induced hypoglycemia meant to simulate hypoglycemia in a controlled setting. The procedure of insulin-induced hypoglycemia targeting nadir glucose around 50 mg/dL is adopted from a previously completed trial, specifically Study IGBC, which demonstrated the safe use of this method. This is an inpatient procedure in which the patients will be under constant supervision of the clinical research unit (CRU) staff with frequent glucose monitoring. Safety provisions have been considered in that IV glucose will be administered if the patient experiences signs and symptoms of severe hypoglycemia and gauged to require intervention during the experimental procedure, at the discretion of the investigator.</p>\n<p>Potential risks associated with LY900018, derived from the known risks of currently existing injected glucagon therapy and from the safety profile observed from clinical trials conducted for LY900018, include nausea, vomiting, allergic reactions, increased blood pressure (BP) and heart rate, headache, dysgeusia, and nasal or ocular events (Glucagon G Novo for Injection Package Insert, 2016; Glucagon G Novo for Injection Interview Form, 2015; GLUCAGON for Injection ITO Package Insert, 2016; GLUCAGON for Injection ITO Interview Form, 2016).</p>\n<p>Nausea and Vomiting: Glucagon therapy, including LY900018, may cause nausea and vomiting.</p>\n<p>Allergic Reactions: Severe, life-threatening, generalized allergy, including anaphylaxis, can occur with glucagon therapy, including LY900018. Patients who have had hypersensitivity reactions to injectable glucagon, or LY900018 or any of its excipients will be excluded from all clinical studies.</p>\n<p>Increased Blood Pressure and Heart Rate: Glucagon exerts positive inotropic and chronotropic effects. A temporary increase in both BP and heart rate may occur after the administration of glucagon, including LY900018.</p>\n<p>Headache and Dysgeusia: Use of LY900018 may cause headache and altered taste.</p>\n<p>Nasal Symptoms: Use of LY900018 may cause a variety of nasal symptoms, such as runny nose, stuffy nose, nasal discomfort, cough, and sneezing.</p>\n<p>Ocular Symptoms: Use of LY900018 may cause a variety of ocular symptoms, such as watery eyes, redness of eyes, and itchy eyes.</p>\n<p>No additional potential risks of LY900018 were identified in preclinical safety pharmacology and toxicity studies (Reno et al. 2015).</p>\n<p>More information about the known and expected benefits, risks, serious adverse events (SAEs), and reasonably anticipated adverse events (AEs) of LY900018 are to be found in the Investigator\u2019s Brochure (IB).</p>\n<p>More detailed information about the known and expected benefits and risks of GlucaGen \u00ae be found in the Summary of Product Characteristics (GlucaGen Summary of Product Characteristics, 2015).</p>\n<p>may</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_9",
+              "name": "SECTION 4",
+              "sectionNumber": "4",
+              "sectionTitle": "Objectives and Endpoints",
+              "text": "<div><p>Table IGBJ.1 shows the objectives and endpoints of the study.</p>\n<p><b>Table IGBJ.1. Objectives and Endpoints</b></p>\n<p>Objectives Endpoints</p>\n<p>Primary To demonstrate that 3 mg LY900018 is non-inferior to 1 mg IMG for the proportion of patients achieving treatment success from insulin-induced hypoglycemia using a non-inferiority margin of 10%</p>\n<p>The proportion of patients achieving treatment success defined as either an increase in PG to &gt;70 mg/dL or an increase of &gt;20 mg/dL from nadir within 30 minutes after administration of glucagon. The nadir is defined as the minimum PG value at the time of or within 10 minutes following glucagon administration.</p>\n<p>Secondary<br/>\n\uf0b7 To compare the safety and tolerability of 3 mg</p>\n<p>LY900018 with 1 mg IMG<br/>\n\uf0b7 To characterize the PK profile of 3 mg LY900018</p>\n<p>compared to 1 mg IMG<br/>\n\uf0b7 To characterize the PD profile of 3 mg LY900018</p>\n<p>compared to 1 mg IMG</p>\n<p class=\"p12\">\uf0b7 \uf0b7 \uf0b7</p>\n<p>SAE, TEAEs (including gastrointestinal, nasal, and<br/>\nnon-nasal AEs), vital signs<br/>\nPK parameters include AUC, C max , T max</p>\n<p>PD parameters include BG max and T max</p>\n<p>Exploratory<br/>\n\uf0b7 Explore the formation of anti-glucagon antibodies</p>\n<p>to glucagon<br/>\n\uf0b7 To evaluate the recovery from clinical symptoms of</p>\n<p>hypoglycemia</p>\n<p class=\"p12\">\uf0b7 \uf0b7</p>\n<p>Presence of anti-glucagon antibodies</p>\n<p>Hypoglycemia symptoms questionnaire</p>\n<p>Abbreviations: AE = adverse event; AUC = area under the concentration versus time curve; BG max = maximal<br/>\nplasma glucose concentration; C max = maximal concentration; IMG = intramuscular glucagon;<br/>\nPD = pharmacodynamics; PG = plasma glucose; PK = pharmacokinetics; SAE = serious adverse event;<br/>\nTEAE = treatment-emergent adverse event; T max = time to maximal concentration.</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_10",
+              "name": "SECTION 5",
+              "sectionNumber": "5",
+              "sectionTitle": "Study Design",
+              "text": "<div></div>",
+              "childIds": [
+                "NarrativeContent_11",
+                "NarrativeContent_12",
+                "NarrativeContent_13",
+                "NarrativeContent_14",
+                "NarrativeContent_15"
+              ],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_11",
+              "name": "SECTION 5.1.",
+              "sectionNumber": "5.1.",
+              "sectionTitle": "Overall Design",
+              "text": "<div><p>This is a Phase 3, multicenter, randomized, open-label, active comparator, single-dose, 2-period, 2-treatment, crossover study in Japanese patients with T1DM and T2DM. The study consists of a screening period; treatment period 1 (Period 1); washout period; treatment period 2 (Period 2); follow-up period. Figure IGBJ.1 illustrates the study design. Prior to the study drug administration on Period 1 Day 1, patients will be randomly assigned to a treatment sequence (either LY900018 in Period 1 and IMG in Period 2, or vice versa).</p>\n<p>Safety data will be reviewed after the first 6 patients (regardless of type of diabetes) are administered LY900018 in Period 2, and the remaining patients will be dosed after confirmation of the safety. The investigator and Lilly clinical research physician (CRP) or scientist will review available safety data, including AEs, SAEs, vital signs, electrocardiograms (ECGs), and safety laboratory tests, from these patients after they complete Period 2 Day 1. If no clinically significant safety findings for treatment or study procedure are noted, the remaining patients will be dosed.</p>\n<p>In each treatment period, patients will undergo a procedure to induce hypoglycemia using IV insulin infusion and serial blood sampling will be conducted to monitor bedside PG for safety. The insulin infusion will be stopped once the PG level reaches &lt;60 mg/dL and approximately 5 minutes later patients will be administered either 3 mg LY900018 or 1 mg IMG (GlucaGen). Serial blood sampling will be performed for glucagon (for pharmacokinetics [PK]) and PG (for pharmacodynamics [PD]) concentration measurements immediately before and up to 4 hours following the administration of glucagon. In each period, patients will remain in the CRU for at least 6 hours after glucagon administration. All patients will receive a carbohydrate-rich meal prior to discharge. Patients may stay longer as needed, at the discretion of the investigator.</p>\n<p>Study governance considerations are described in detail in Appendix 3.</p>\n<p>Abbreviations: IM = intramuscular.</p>\n<p><b>Figure IGBJ.1. Illustration of study design for Protocol I8R-JE-IGBJ.</b></p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_12",
+              "name": "SECTION 5.2.",
+              "sectionNumber": "5.2.",
+              "sectionTitle": "Number of Participants",
+              "text": "<div><p>Seventy five patients may be enrolled in order to have at least 66 patients (at least 30 patients with T1DM and T2DM, respectively) complete the study. For purposes of this study, a completer is defined as a patient who completes both periods with evaluable primary outcome. If patients discontinue from the study before completion of both periods with evaluable primary outcome for any reason, the patient may be replaced to ensure 66 patients complete the study. The replacement patients will be assigned the same treatment sequence as the patients to be replaced and will complete that treatment sequence in its entirety. Replacement should not occur beyond 75 patients enrolled, if it is expected to have at least 66 patients complete the study.</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_13",
+              "name": "SECTION 5.3.",
+              "sectionNumber": "5.3.",
+              "sectionTitle": "End of Study Definition",
+              "text": "<div><p>End of the study is the date of the last visit or last scheduled procedure shown in the Schedule of Activities (Section 2) for the last patient.</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_14",
+              "name": "SECTION 5.4.",
+              "sectionNumber": "5.4.",
+              "sectionTitle": "Scientific Rationale for Study Design",
+              "text": "<div><p>This study design involves an open-label assessment of 3 mg LY900018 compared to 1 mg of the marketed IMG (GlucaGen). The study will be open label because the different administration routes (ie, intranasal and IM) cannot be blinded. The use of a crossover design allows each patient to serve as his or her own control, thereby reducing variability. The washout period of 3 to 14 days is considered sufficient based on the short half-life of LY900018 (t 1/2 = approximately 25 minutes). Since the critical role of glucagon in the treatment of severe hypoglycemia is to raise the PG level sufficiently to restore cognition to the point where oral carbohydrate can be ingested, treatment success is defined either as an increase in PG returning to normal level of \u226570 mg/dL or an increase of \u226520 mg/dL from the PG nadir within 30 minutes after receiving glucagon, without the patient receiving additional actions to increase glucose. It is believed that an expected PG nadir of approximately 50 mg/dL (approximately 5 minutes after stop of insulin infusion at 60 mg/dL) is low enough to generate clinical symptoms in most participants and is high enough to avoid impairment of consciousness. The primary analysis includes both patients with T1DM and T2DM since it is expected that the proportion of treatment success is similar between patients with T1DM and T2DM.</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_15",
+              "name": "SECTION 5.5.",
+              "sectionNumber": "5.5.",
+              "sectionTitle": "Justification for Dose",
+              "text": "<div><p>Results from studies in both pediatric and adult populations confirm that, while the physiological response to glucagon does appear to saturate between the 2- and 3-mg LY900018 doses, the lower 2-mg dose may not always elicit the maximum response needed in an emergency situation of severe hypoglycemia. The 3-mg dose provides more consistent clinical efficacy compared to the 2-mg dose and is similarly well tolerated in both pediatric and adult patients.</p>\n<p>The 1-mg dose of IMG is selected as the approved dose for the rescue treatment of hypoglycemia in Japan.</p>\n<p>Based on LY900018 exposure, efficacy, and safety, the 3-mg dose was selected for the Phase 3 studies. Therefore, in the current study, the 3-mg LY900018 dose will be used to compare against 1 mg IMG.</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_16",
+              "name": "SECTION 6",
+              "sectionNumber": "6",
+              "sectionTitle": "Study Population",
+              "text": "<div><p>Eligibility of patients for the study will be based on the results of screening medical history, physical examination, vital signs, clinical laboratory tests, and ECG.</p>\n<p>The nature of any conditions present at the time of the physical examination and any preexisting conditions will be documented.</p>\n<p>Screening may occur up to 28 days prior to enrollment. Patients who are not enrolled within 28 days of screening may be subjected to an additional medical assessment and/or clinical measurements to confirm their eligibility.</p>\n<p>Prospective approval of protocol deviations to recruitment and enrollment criteria, also known as protocol waivers or exemptions, are not permitted.</p></div>",
+              "childIds": [
+                "NarrativeContent_17",
+                "NarrativeContent_18",
+                "NarrativeContent_23"
+              ],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_17",
+              "name": "SECTION 6.1.",
+              "sectionNumber": "6.1.",
+              "sectionTitle": "Inclusion Criteria",
+              "text": "<div><p>Patients are eligible for inclusion in the study only if they meet all of the following criteria at screening and/or enrollment:</p>\n<p>[1] have had a diagnosis of either:</p>\n<p>[1a] T1DM based on the World Health Organization (WHO) diagnostic criteria, and have been on the following daily insulin therapy for at least 1 year</p>\n<p>[A] multiple daily injection of long-acting insulin analog (either insulin glargine [U-100 or U-300] or insulin degludec [U-100]) and rapid-acting insulin analog (insulin lispro, insulin aspart, or insulin glulisine), or</p>\n<p>[B] continuous subcutaneous insulin infusion (CSII)</p>\n<p>Or</p>\n<p>[1b] T2DM based on the WHO diagnostic criteria, and have received the</p>\n<p>following daily insulin therapy with or without oral anti-hyperglycemic medications (OAMs) for at least 1 year</p>\n<p>[A] insulin: long-acting insulin analog (either insulin glargine [U-100 or U-300] or insulin degludec [U-100]) alone, or in combination with rapid-acting insulin analog (insulin lispro, insulin aspart, or insulin glulisine) or CSII</p>\n<p>[B] OAM: up to 3 of the following OAMs in accordance with local regulations: metformin, dipeptidyl peptidase-4 inhibitor, sodium glucose cotransporter 2 inhibitor, sulfonylurea (should not be more than half of maximum approved doses), glinides, alpha-glucosidase inhibitor, or thiazolidine</p>\n<p>[2] male patients: agree to use an effective method of contraception for the<br/>\nduration of the study and for 28 days following the last study treatment</p>\n<p>[3] female patients:</p>\n<p>[3a] women of childbearing potential who are abstinent (if this is complete</p>\n<p>abstinence, as their preferred and usual lifestyle) or in a same sex relationship (as part of their preferred and usual lifestyle) must agree to either remain abstinent or stay in a same sex relationship without sexual relationships with males. Periodic abstinence (eg, calendar, ovulation, symptothermal, post-ovulation methods), declaration of abstinence just for the duration of a trial, and withdrawal are not acceptable methods of contraception.</p>\n<p>[3b] otherwise, women of childbearing potential participating must agree to use</p>\n<p>one highly effective method (less than 1% failure rate) of contraception, or a combination of 2 effective methods of contraception for the entirety of the study.</p>\n<p>[A] women of childbearing potential participating must test negative for pregnancy prior to initiation of treatment as indicated by a negative serum pregnancy test at the screening visit followed by a negative urine pregnancy test within 24 hours prior to exposure.</p>\n<p>[B] either one highly effective method of contraception or a combination of 2 effective methods of contraception will be used. The patient may choose to use a double barrier method of contraception. Barrier protection methods without concomitant use of a spermicide are not a reliable or acceptable method. Thus, each barrier method must include use of a spermicide. It should be noted that the use of male and female condoms as a double barrier method is not considered acceptable due to the high failure rate when these methods are combined.</p>\n<p>[3c] women not of childbearing potential may participate, and include those who<br/>\nare:</p>\n<p>[A] infertile due to surgical sterilization (hysterectomy, bilateral oophorectomy, or tubal ligation), congenital anomaly such as mullerian agenesis</p>\n<p>Or</p>\n<p>[B] postmenopausal, defined as either:</p>\n<p>[i] a woman at least 50 years of age with an intact uterus, not on hormone therapy, who has had either:</p>\n<p>[a] cessation of menses for at least 1 year, or</p>\n<p>[b] at least 6 months of spontaneous amenorrhea with a<br/>\nfollicle-stimulating hormone &gt;40 mIU/mL; or</p>\n<p>[ii] a woman 55 or older not on hormone therapy, who has had at least 6 months of spontaneous amenorrhea, or</p>\n<p>[iii] a woman at least 55 years of age with a diagnosis of menopause prior to starting hormone replacement therapy</p>\n<p>[4] are between 18 and 64 years old for T1DM, or between 20 and 70 years old<br/>\nfor T2DM at the time of informed consent</p>\n<p>[5] have a body mass index of 18.5 to 30.0 kg/m 2 for T1DM, or 18.5 to<br/>\n35.0 kg/m 2 for T2DM at the time of screening</p>\n<p>[6] have a hemoglobin A1c value \u226410% at the time of screening</p>\n<p>[7] have clinical laboratory test results within normal reference range (except for<br/>\nglycemic parameters) for the population or investigative site, or results with<br/>\nacceptable deviations that are judged to be not clinically significant by the<br/>\ninvestigator</p>\n<p>[8] have venous access sufficient to allow for blood sampling and administration<br/>\nof insulin for IV administration as per the protocol</p>\n<p>[9] are reliable and willing to make themselves available for the duration of the<br/>\nstudy and are willing to follow study procedures</p>\n<p>[10] are able and willing to give signed informed consent<br/>\n<b>6.2. Exclusion Criteria</b></p>\n<p>Patients will be excluded from study enrollment if they meet any of the following criteria at screening and/or enrollment:</p>\n<p>[11] are investigative site personnel directly affiliated with this study and their<br/>\nimmediate families. Immediate family is defined as a spouse, biological or<br/>\nlegal guardian, child, or sibling</p>\n<p>[12] are Lilly employees</p>\n<p>[13] are currently enrolled in a clinical trial involving an investigational product or<br/>\nany other type of medical research judged not to be scientifically or medically<br/>\ncompatible with this study</p>\n<p>[14] have participated, within the last 4 months, in a clinical trial involving an<br/>\ninvestigational product. If the previous investigational product has a long<br/>\nhalf-life, 4 months or 5 half-lives (whichever is longer) should have passed<br/>\nfrom the last dose of investigational product</p>\n<p>[15] have previously completed or withdrawn from this study or any other study<br/>\ninvestigating LY900018, and have previously received LY900018</p>\n<p>[16] have known allergies or sensitivity to LY900018, glucagon, related<br/>\ncompounds, or any components of the formulation, or history of significant<br/>\natopy</p>\n<p>[17] have an abnormality in the 12-lead ECG that, in the opinion of the<br/>\ninvestigator, increases the risks associated with participating in the study</p>\n<p>[18] any significant changes in insulin regimen and/or unstable blood glucose<br/>\ncontrol within the past 3 months prior to screening as assessed by the<br/>\ninvestigator</p>\n<p>[19] have received a total daily dose of insulin &gt;1.2 U/kg at the time of screening</p>\n<p>[20] have poorly controlled hypertension (ie, supine systolic BP &gt;165 mm Hg or<br/>\nsupine diastolic BP &gt;95 mm Hg) at screening, or a change in antihypertensive<br/>\nmedications within 30 days prior to screening</p>\n<p>[21] have a history of pheochromocytoma (ie, adrenal gland tumor) or insulinoma</p>\n<p>[22] have a history of an episode of severe hypoglycemia (as defined by an episode<br/>\nthat required third party assistance for treatment) in the 1 month prior to<br/>\nscreening or have a history of loss of consciousness within the last 2 years<br/>\ninduced other than by hypoglycemia</p>\n<p>[23] have a history of epilepsy or seizure disorder</p>\n<p>[24] have a history or presence of cardiovascular, respiratory, hepatic, renal,<br/>\ngastrointestinal, endocrine (apart from T1DM or T2DM), hematological, or<br/>\nneurological disorders capable of significantly altering the absorption,<br/>\nmetabolism, or elimination of drugs; of constituting a risk when taking the<br/>\ninvestigational product; or of interfering with the interpretation of data</p>\n<p>[25] have known or ongoing psychiatric disorders that, in the opinion of the<br/>\ninvestigator, may preclude the patient from following and completing the<br/>\nprotocol</p>\n<p>[26] regularly use known drugs of abuse and/or show positive findings on urinary<br/>\ndrug screening</p>\n<p>[27] show evidence of human immunodeficiency virus (HIV) infection and/or<br/>\npositive HIV antibodies and/or antigen</p>\n<p>[28] show evidence of hepatitis C and/or positive hepatitis C antibody</p>\n<p>[29] show evidence of hepatitis B and/or positive hepatitis B surface antigen</p>\n<p>[30] show evidence of syphilis and/or are positive for syphilis test</p>\n<p>[31] are women who are lactating</p>\n<p>[32] use of daily systemic beta-blocker, indomethacin, warfarin, anticholinergic<br/>\ndrugs</p>\n<p>[33] have donated 400 mL or more blood in the last 12 weeks (males) or in the last<br/>\n16 weeks (females), or any blood donation (including apheresis) within the<br/>\nlast 4 weeks, or total volume of blood donation within 12 months is 1200 mL<br/>\n(males)/800 mL (females) or more at screening</p>\n<p>[34] have an average weekly alcohol intake that exceeds 21 units per week (males<br/>\nup to age 65) and 14 units per week (males over 65 and females), or are<br/>\nunwilling to stop alcohol consumption from Day -2 to discharge from CRU in<br/>\neach period (1 unit = 12 oz or 360 mL of beer; 5 oz or 150 mL of wine; 1.5 oz<br/>\nor 45 mL of distilled spirits)</p>\n<p>[35] in the opinion of the investigator or sponsor, are unsuitable for inclusion in the<br/>\nstudy</p>\n<p>[36] have pre-proliferative and proliferative retinopathy or maculopathy requiring<br/>\ntreatment or not clinically stable in the last 6 months, or patients with active<br/>\nchanges in subjective eye symptoms as determined by the investigator if an<br/>\neye exam has not been performed in the last 6 months.<br/>\nNote: If an eye examination has been performed no more than 6 months before screening, it will not have to be repeated; however, the investigator will need to confirm via interview that there is no change in subjective symptoms.</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_18",
+              "name": "SECTION 6.3.",
+              "sectionNumber": "6.3.",
+              "sectionTitle": "Lifestyle and/or Dietary Requirements",
+              "text": "<div><p>Throughout the study, patients may undergo medical assessments and review of compliance with requirements before continuing in the study.</p></div>",
+              "childIds": [
+                "NarrativeContent_19",
+                "NarrativeContent_20",
+                "NarrativeContent_21",
+                "NarrativeContent_22"
+              ],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_19",
+              "name": "SECTION 6.3.1.",
+              "sectionNumber": "6.3.1.",
+              "sectionTitle": "Meals and Dietary Restrictions",
+              "text": "<div><p>In both treatment periods, patients will fast for at least 8 hours prior to beginning the hypoglycemia induction procedure. Patients should not be given any calorie-containing food/drink during insulin-induced hypoglycemia and within 90 minutes of glucagon administration unless there is a safety concern. The patients will receive a carbohydrate-rich meal after completion of all pharmacokinetic (PK) blood sample collections, at 240 minutes post glucagon dose. Patients will be given access to calorie-free water up to 240 minutes post study treatment.</p>\n<p>While resident in the CRU, patients should not consume any food or caloric drinks other than that provided by the CRU. When not resident in the CRU, patients will be encouraged to follow their normal diets.</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_20",
+              "name": "SECTION 6.3.2.",
+              "sectionNumber": "6.3.2.",
+              "sectionTitle": "Caffeine, Alcohol, and Tobacco",
+              "text": "<div><p>Patients should refrain from caffeine-containing food/beverages (eg, cola, chocolate drinks, tea, and coffee) from Day -1 to discharge from CRU in each period. Patient alcohol intake should not exceed 21 units per week (males up to age 65) and 14 units per week (males over 65 and females) during the study. Patients must not consume alcohol from Day -2 to discharge from CRU in each period. Smoking will not be permitted when resident in the CRU.</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_21",
+              "name": "SECTION 6.3.3.",
+              "sectionNumber": "6.3.3.",
+              "sectionTitle": "Activity",
+              "text": "<div><p>Patients are encouraged to maintain their regular exercise habits for the duration of the study. However, patients should avoid strenuous exercise 48 hours prior to admission or study visit.</p>\n<p>From the beginning of hypoglycemia induction to 240 minutes post study treatment, patients should remain recumbent or sitting on the bed.</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_22",
+              "name": "SECTION 6.3.4.",
+              "sectionNumber": "6.3.4.",
+              "sectionTitle": "Contraception",
+              "text": "<div><p>Male patients must use an effective method of contraception for the duration of the study and for 28 days following the last study treatment.</p>\n<p>Female patients of childbearing potential must use one highly effective method of contraception (&lt;1% failure rate; such as combined oral contraceptive pill, implanted contraceptives, or intrauterine device) or a combination of 2 effective methods of contraception (such as male or female condoms with spermicide [not approved in Japan], diaphragms with spermicide [not approved in Japan], or cervical sponges) during the study and for 28 days following the last study treatment. The patient may choose to use a double barrier method of contraception. Barrier protection methods without concomitant use of a spermicide are not a reliable or acceptable method. Thus, each barrier method must include use of a spermicide. It should be noted that the use of male and female condoms as a double barrier method is not considered acceptable due to the high failure rate when these methods are combined.</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_23",
+              "name": "SECTION 6.4.",
+              "sectionNumber": "6.4.",
+              "sectionTitle": "Screen Failures",
+              "text": "<div><p>Individuals who do not meet the criteria for participation in this study (screen failure) may not be re-screened.</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_24",
+              "name": "SECTION 7",
+              "sectionNumber": "7",
+              "sectionTitle": "Treatment",
+              "text": "<div></div>",
+              "childIds": [
+                "NarrativeContent_25",
+                "NarrativeContent_28",
+                "NarrativeContent_30",
+                "NarrativeContent_31",
+                "NarrativeContent_32",
+                "NarrativeContent_33",
+                "NarrativeContent_34",
+                "NarrativeContent_35"
+              ],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_25",
+              "name": "SECTION 7.1.",
+              "sectionNumber": "7.1.",
+              "sectionTitle": "Treatment Administered",
+              "text": "<div><p>This study involves a comparison of 3 mg of LY900018 administered once nasally to 1 mg glucagon administered IM (comparator). Table IGBJ.2 shows the study treatment information.</p>\n<p><b>Study Treatments</b></p>\n<p><b>Table IGBJ.2.</b></p>\n<p>Treatment Name LY900018 GlucaGen</p>\n<p>Dosage Formulation Dry powder Dry powder</p>\n<p>Dosage Levels 3 mg glucagon 1 mg glucagon</p>\n<p>Route of Administration Intranasal Intramuscular</p>\n<p>Dosing Instructions Administer a single nasal dose upon hypoglycemia onset</p>\n<p>Administer a single intramuscular<br/>\ninjection upon hypoglycemia onset</p>\n<p>The procedure for insulin-induced hypoglycemia will require an IV infusion of diluted human regular insulin (0.3 U/mL by diluting 15 U human regular insulin [100 U/mL] into 50 mL saline). Details regarding hypoglycemia induction and glucagon administration procedures are included in Sections 9.2.1 and 9.2.2, respectively.</p>\n<p>The investigator or designee is responsible for:</p>\n<p>\uf0b7 \uf0b7 \uf0b7 \uf0b7</p>\n<p>explaining the correct use of the investigational products to the site personnel</p>\n<p>verifying that instructions are followed properly</p>\n<p>maintaining accurate records of investigational product dispensing and collection</p>\n<p>and returning all unused medication to Lilly or its designee at the end of the study</p></div>",
+              "childIds": [
+                "NarrativeContent_26",
+                "NarrativeContent_27"
+              ],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_26",
+              "name": "SECTION 7.1.1.",
+              "sectionNumber": "7.1.1.",
+              "sectionTitle": "Packaging and Labeling",
+              "text": "<div><p>Clinical trial materials will be labeled according to the country\u2019s regulatory requirements. Lilly will supply LY900018 and GlucaGen to the clinical site. Study materials will be provided as open-label material.</p>\n<p>Investigational products must be stored at the investigational site, according to the instructions provided on the product label, in a locked and secure place.</p>\n<p>Unused investigational products will remain locked and securely stored, according to the instructions provided on the product label at the investigational site, until returned to the sponsor or its designee, according to written instruction from the sponsor.</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_27",
+              "name": "SECTION 7.1.2.",
+              "sectionNumber": "7.1.2.",
+              "sectionTitle": "Medical Devices",
+              "text": "<div><p>The manufactured drug product provided for use in the study includes a nasal delivery device as part of the investigational drug product. The device component of the investigational drug product is inserted into the nasal cavity to deliver the contained drug constituent.</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_28",
+              "name": "SECTION 7.2.",
+              "sectionNumber": "7.2.",
+              "sectionTitle": "Method of Treatment Assignment",
+              "text": "<div><p>The treatment sequence to be administered for each enrolled patient will be determined according to a randomization table.</p></div>",
+              "childIds": [
+                "NarrativeContent_29"
+              ],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_29",
+              "name": "SECTION 7.2.1.",
+              "sectionNumber": "7.2.1.",
+              "sectionTitle": "Selection and Timing of Doses",
+              "text": "<div><p>The hypoglycemia induction procedure should be initiated at approximately the same time at each treatment visit. Insulin IV infusion will be given until PG is &lt;60 mg/dL. At this point, insulin infusion will be stopped and, approximately 5 minutes later, a single glucagon dose (LY900018 or IMG) will be administered. The doses will be administered at approximately the same times on each day. The actual time of all dose administrations will be recorded in the patient\u2019s case report form (CRF).</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_30",
+              "name": "SECTION 7.3.",
+              "sectionNumber": "7.3.",
+              "sectionTitle": "Blinding",
+              "text": "<div><p>This is an open-label study. However, the treatment assignment list for all randomized patients will not be shared with those responsible for doing either the treatment response assessments or making the decision to take additional action to raise patients\u2019 PG concentrations post-glucagon administration. The intent is to minimize any potential bias in administering additional rescue treatment for hypoglycemia.</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_31",
+              "name": "SECTION 7.4.",
+              "sectionNumber": "7.4.",
+              "sectionTitle": "Dose Modification",
+              "text": "<div><p>Not applicable.</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_32",
+              "name": "SECTION 7.5.",
+              "sectionNumber": "7.5.",
+              "sectionTitle": "Preparation/Handling/Storage/Accountability",
+              "text": "<div><p>The investigator or designee must confirm appropriate temperature conditions have been maintained, as communicated by the sponsor, during transit for all investigational product received and any discrepancies are reported and resolved before use of the study treatment.</p>\n<p>Only participants enrolled in the study may receive investigational product or study materials, and only authorized site staff may supply or administer investigational product. All investigational products should be stored in an environmentally-controlled and monitored (manual or automated) area in accordance with the labeled storage conditions with access limited to the investigator and authorized site staff.</p>\n<p>The investigator, institution, or the head of the medical institution (where applicable) is responsible for study treatment accountability, reconciliation, and record maintenance (such as receipt, reconciliation, and final disposition records).</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_33",
+              "name": "SECTION 7.6.",
+              "sectionNumber": "7.6.",
+              "sectionTitle": "Treatment Compliance",
+              "text": "<div><p>The investigational product will be administered at the clinical site, and documentation of treatment administration will occur at the site.</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_34",
+              "name": "SECTION 7.7.",
+              "sectionNumber": "7.7.",
+              "sectionTitle": "Concomitant Therapy",
+              "text": "<div><p>Patients on stable concomitant medication at the time of study entry should continue their regular, unchanged dose throughout the study. These medications include stable regimen for 3 months of the anti-hyperglycemic therapy (for example, insulins and OAMs) as well as anti-hypertensive and anti-lipidemic medications. In addition to the physical examination, investigators should review the insulin regimen for all patients enrolled into the study to confirm acceptability to undergo the procedure to induce hypoglycemia (see Schedule of Activities; Section 2).</p>\n<p>For patients using basal insulin, the last basal insulin injection should occur no later than 12 hours prior to the insulin-induced hypoglycemia procedure, and the basal dose should not be changed. Patients may inject basal insulin any time after the last PK sample is collected on Day 1 in each period.</p>\n<p>For patients using prandial insulin, the last prandial insulin injection should occur no later than 6 hours prior to the insulin-induced hypoglycemia procedure. Patients may inject prandial insulin after the last PK sample is collected and before the meal on Day 1 in each period. The first prandial insulin dose for an individual patient after insulin-induced hypoglycemia procedure should be determined by the investigator based on the PG before meal and carbohydrate intake.</p>\n<p>For patients using an insulin pump, a continuous subcutaneous insulin infusion by pump should be discontinued prior to procedure to induce hypoglycemia. Patients may start subcutaneous insulin infusion after the last PK sample is collected and before the meal on Day 1 in each period. The insulin dose should be determined by the investigator based on the PG before meal and carbohydrate intake.</p>\n<p>For patients using OAMs, the last dose should occur no later than 12 hours prior to the insulin-induced hypoglycemia procedure. Patients may start OAM after the last PK sample is collected on Day 1 in each period.</p>\n<p>The following concomitant medications are prohibited to use during the course of the study: beta-blocker, indomethacin, warfarin, and anti-cholinergic drugs.</p>\n<p>The following concomitant medications that affect gastric motility can be used during the study but should be washed out before 7 days of each period and not taken while in the CRU: pro-motility medications (eg, metoclopramide, domperidone), opiate medications (eg, morphine), and medications with anti-emetic effects (eg, promethazine, prochlorperazine).</p>\n<p>In general, concomitant medication should be avoided; however, acetaminophen (1 g, maximum 2 g/24 hours) may be administered at the discretion of the investigator for treatment of headaches, etc. If the need for concomitant medication (other than acetaminophen) arises, inclusion or continuation of the patients may be at the discretion of the investigator after consultation with a Lilly clinical pharmacologist (CP) or CRP. Any medication used during the course of the study must be documented.</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_35",
+              "name": "SECTION 7.8.",
+              "sectionNumber": "7.8.",
+              "sectionTitle": "Treatment after the End of the Study",
+              "text": "<div><p>Patients will continue their previous insulin regimen after the study procedure has been completed.</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_36",
+              "name": "SECTION 8",
+              "sectionNumber": "8",
+              "sectionTitle": "Discontinuation Criteria",
+              "text": "<div><p>Patients discontinuing from the study prematurely for any reason must complete AE and follow-up procedures as shown in the Schedule of Activities (Section 2).</p></div>",
+              "childIds": [
+                "NarrativeContent_37",
+                "NarrativeContent_39",
+                "NarrativeContent_40",
+                "NarrativeContent_41"
+              ],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_37",
+              "name": "SECTION 8.1.",
+              "sectionNumber": "8.1.",
+              "sectionTitle": "Discontinuation from Study Treatment",
+              "text": "<div></div>",
+              "childIds": [
+                "NarrativeContent_38"
+              ],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_38",
+              "name": "SECTION 8.1.1.",
+              "sectionNumber": "8.1.1.",
+              "sectionTitle": "Discontinuation of Inadvertently Enrolled Patients",
+              "text": "<div><p>If the sponsor or investigator identifies a patient who did not meet enrollment criteria and was inadvertently enrolled, a discussion must occur between the Lilly CP/CRP and the investigator to determine if the patient may continue in the study. If both agree it is medically appropriate to continue, the investigator must obtain documented approval from the Lilly CP/CRP to allow the inadvertently enrolled patient to continue in the study with or without continued treatment with investigational product.</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_39",
+              "name": "SECTION 8.2.",
+              "sectionNumber": "8.2.",
+              "sectionTitle": "Discontinuation from the Study",
+              "text": "<div><p>Patients will be discontinued in the following circumstances:</p>\n<p>\uf0b7</p>\n<p>\uf0b7</p>\n<p>\uf0b7</p>\n<p>\uf0b7</p>\n<p>enrollment in any other clinical study involving an investigational product or enrollment in any other type of medical research judged not to be scientifically or medically compatible with this study</p>\n<p>participation in the study needs to be stopped for medical, safety, regulatory, or other reasons consistent with applicable laws, regulations, and good clinical practice</p>\n<p>investigator decision</p>\n<p class=\"p15\">o</p>\n<p>the investigator decides that the patient should be discontinued from the study for any reason. If this decision is made because of an AE, SAE, or a severe hypoglycemia event, appropriate measures are to be taken. Lilly or its designee is to be alerted.</p>\n<p>patient decision</p>\n<p class=\"p15\">o</p>\n<p>the patient, or legal representative, requests to be withdrawn from the study</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_40",
+              "name": "SECTION 8.3.",
+              "sectionNumber": "8.3.",
+              "sectionTitle": "Discontinuation of the Study",
+              "text": "<div><p>Following the review of the safety data from the first 6 patients to complete Period 2 Day 1, the study will be stopped if deemed necessary for patient safety in the opinion of the Investigator and sponsor (Section 10.3.7).</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_41",
+              "name": "SECTION 8.4.",
+              "sectionNumber": "8.4.",
+              "sectionTitle": "Patients Lost to Follow-up",
+              "text": "<div><p>A patient will be considered lost to follow-up if he or she repeatedly fails to return for scheduled visits and is unable to be contacted by the study site. Site personnel are expected to make diligent attempts to contact patients who fail to return for a scheduled visit or were otherwise unable to be followed up by the site.</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_42",
+              "name": "SECTION 9",
+              "sectionNumber": "9",
+              "sectionTitle": "Study Assessments and Procedures",
+              "text": "<div><p>Section 2 lists the Schedule of Activities, detailing the study procedures and their timing.</p>\n<p>Appendix 2 lists the laboratory tests that will be performed for this study.</p>\n<p>Appendix 5 provides a summary of the maximum number and volume of invasive samples, for all sampling, during the study.</p>\n<p>Unless otherwise stated in subsections below, all samples collected for specified laboratory tests will be destroyed within 60 days of receipt of confirmed test results. Certain samples may be retained for a longer period, if necessary, to comply with applicable laws, regulations, or laboratory certification standards.</p></div>",
+              "childIds": [
+                "NarrativeContent_43",
+                "NarrativeContent_47",
+                "NarrativeContent_55",
+                "NarrativeContent_60",
+                "NarrativeContent_61",
+                "NarrativeContent_69",
+                "NarrativeContent_71",
+                "NarrativeContent_73",
+                "NarrativeContent_74",
+                "NarrativeContent_75"
+              ],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_43",
+              "name": "SECTION 9.1.",
+              "sectionNumber": "9.1.",
+              "sectionTitle": "Efficacy Assessments",
+              "text": "<div><p>Plasma glucose levels will be measured as described in Section 9.2.3 and will be used to assess efficacy outcomes.</p></div>",
+              "childIds": [
+                "NarrativeContent_44",
+                "NarrativeContent_45",
+                "NarrativeContent_46"
+              ],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_44",
+              "name": "SECTION 9.1.1.",
+              "sectionNumber": "9.1.1.",
+              "sectionTitle": "Primary Efficacy Assessments",
+              "text": "<div><p>The primary efficacy measure is the proportion of patients achieving treatment success, defined<br/>\nas either an increase in PG to &gt;70 mg/dL or an increase of &gt;20 mg/dL from nadir within<br/>\n30 minutes after administration of glucagon.</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_45",
+              "name": "SECTION 9.1.2.",
+              "sectionNumber": "9.1.2.",
+              "sectionTitle": "Secondary Efficacy Assessments",
+              "text": "<div><p>Secondary efficacy measures will be determined from the pharmacodynamic (PD) characterization of PG profiles, including evaluation of change from baseline PG concentrations.</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_46",
+              "name": "SECTION 9.1.3.",
+              "sectionNumber": "9.1.3.",
+              "sectionTitle": "Exploratory Efficacy Assessments",
+              "text": "<div><p>Subjective hypoglycemia symptoms will be assessed using a self-reported assessment tool (Edinburgh Hypoglycemia Scale; Appendix 7) during the initiation of the hypoglycemia induction, as well as at various time points following the administration of either LY900018 or IMG (see Schedule of Activities; Section 2).</p>\n<p>The ability of the patient to identify hypoglycemic symptoms and describe their frequency will be captured at Period 1 Day -1 (see Schedule of Activities; Section 2). This self-report assessment will be done using the Clarke Hypoglycemia Awareness Survey (Appendix 8).</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_47",
+              "name": "SECTION 9.2.",
+              "sectionNumber": "9.2.",
+              "sectionTitle": "Procedures",
+              "text": "<div></div>",
+              "childIds": [
+                "NarrativeContent_48",
+                "NarrativeContent_49",
+                "NarrativeContent_52",
+                "NarrativeContent_53",
+                "NarrativeContent_54"
+              ],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_48",
+              "name": "SECTION 9.2.1.",
+              "sectionNumber": "9.2.1.",
+              "sectionTitle": "Insulin-induced Hypoglycemia",
+              "text": "<div><p>A study investigator, or qualified designee, must be present at the bedside for clinical assessments of the patient during the insulin infusion and for the 120 minutes following the glucagon administration.</p>\n<p>The bedside PG level, measured using a glucose analyzer (Antsense Duo, HORIBA Ltd. or equivalent), must be 90 to 250 mg/dL to start the procedure. If the bedside PG is outside of this range, the hypoglycemia induction should be rescheduled.</p>\n<p>Hypoglycemia will be induced by IV infusion of diluted human regular insulin (0.3 U/mL) at a rate of 2 mU/kg/min. The infusion rate may be adjusted as necessary up to a rate of 3 mU/kg/min for T1DM or 4 mU/kg/min for T2DM to decrease bedside PG levels &lt;60 mg/dL; however, the rate of decrease in PG should not exceed 50 mg/dL per 30 minutes. When the bedside PG concentration reaches &lt;90 mg/dL, the insulin infusion rate may be decreased to approximately 1.0 mU/kg/min at the investigator\u2019s discretion. Once the bedside PG level is &lt;60 mg/dL, the insulin infusion will be stopped. If the target bedside PG level cannot be achieved within 4 hours after the start of insulin infusion, the hypoglycemia induction procedure will be terminated before glucagon administration, and the patient may have a carbohydrate-rich meal and be discharged from the CRU after medical assessment. Additional safety assessments may be conducted at the investigator\u2019s discretion. The patient may be rescheduled for a new dosing visit 1 to 7 days later.</p>\n<p>For safety monitoring during the hypoglycemia induction procedure, bedside PG levels will be measured using the glucose analyzer no more than 10 minutes apart while PG is &gt;90 mg/dL, and no more than 5 minutes apart when PG is &lt;90 mg/dL.</p>\n<p>Blood samples will be collected at pre-hypoglycemia induction and end of insulin infusion (5 minutes prior to study treatment) for PG (PD, as measured by central laboratory) and/or glucagon (PK) measurements according to the Schedule of Activities (Section 2).</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_49",
+              "name": "SECTION 9.2.2.",
+              "sectionNumber": "9.2.2.",
+              "sectionTitle": "Glucagon Administration",
+              "text": "<div><p>Approximately 5 minutes after the insulin infusion has stopped, glucagon (either 3 mg LY900018 or 1 mg IMG) will be administered according to randomization. Refer to Section 7 for details regarding treatments.</p></div>",
+              "childIds": [
+                "NarrativeContent_50",
+                "NarrativeContent_51"
+              ],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_50",
+              "name": "SECTION 9.2.2.1.",
+              "sectionNumber": "9.2.2.1.",
+              "sectionTitle": "Nasal LY900018 Administration",
+              "text": "<div><p> LY900018 will be administered by CRU staff with the patient lying in a fully reclined lateral position on the opposite side of the nostril being administered (ie, dose is given in the left nostril of a patient lying in right lateral recumbency).</p>\n<p>The tip of the drug product is gently entered in the nostril to the point where the index and middle finger of the administrator are just touching the external nare of the patient. At that point, the bottom of the drug product is pushed with the thumb until the device is engaged, the green band disappears, and powder is discharged into the nostril. The drug is absorbed from the nasal cavity; thus, the patient does not need to inhale after dosing and continues breathing normally throughout the process. If a patient sneezes immediately after administration, document using the Nasal and Non-nasal Score Questionnaire (see Appendix 6 for a copy of the questionnaire).</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_51",
+              "name": "SECTION 9.2.2.2.",
+              "sectionNumber": "9.2.2.2.",
+              "sectionTitle": "Intramuscular Glucagon Administration",
+              "text": "<div><p>\nGlucaGen 1 mg for injection will be used as a comparator. The lyophilized 1 mg glucagon will\nbe reconstituted with 1.1 mL diluent according to the instruction. A dose of 1 mg of glucagon in</p>\n<p>a concentration of 1 mg/mL will be injected in the deltoid muscle of the patient\u2019s nondominant arm with the patient lying in a fully reclined lateral position on the opposite side of the arm being administered (ie, dose is given in the left arm of a patient lying in right lateral recumbency if right arm is the dominant arm).</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_52",
+              "name": "SECTION 9.2.3.",
+              "sectionNumber": "9.2.3.",
+              "sectionTitle": "Post Glucagon Administration",
+              "text": "<div><p>For 120 minutes after glucagon administration, bedside PG levels will be measured no more than<br/>\n5 minutes apart when the PG is &lt;90 mg/dL, and no more than 10 minutes apart when PG is<br/>\n&gt;90 mg/dL using a glucose analyzer (Antsense Duo, HORIBA Ltd. or equivalent).</p>\n<p>Blood samples will be collected at predose and various time points post glucagon administration for PG (PD, as measured by central laboratory) and/or glucagon (PK) measurements according to the Schedule of Activities (Section 2).</p>\n<p>To accurately capture the PG profile, the site should not give patients any calorie-containing food/drink within 90 minutes of glucagon administration unless there is a safety concern.</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_53",
+              "name": "SECTION 9.2.4.",
+              "sectionNumber": "9.2.4.",
+              "sectionTitle": "Procedures for Insufficient Response to Glucagon\nAdministration",
+              "text": "<div><p>If the patient loses consciousness or the bedside PG is declining too fast or symptoms consistent with the progression to severe hypoglycemia occur, the investigator may decide to start a glucose infusion to prevent a deterioration of the situation. Following the administration of glucagon, if a patient\u2019s bedside PG concentration remains &lt;55 mg/dL at 30 minutes or &lt;60 mg/dL at 45 minutes postdose, IV glucose may be given as deemed clinically necessary. If IV glucose is given, the time and amount of glucose infusion will be recorded in the CRF.</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_54",
+              "name": "SECTION 9.2.5.",
+              "sectionNumber": "9.2.5.",
+              "sectionTitle": "End of Admission",
+              "text": "<div><p>Before discharge from the CRU, the glucose and insulin dosing and stability of the patient will be evaluated by the investigator to ensure patient safety. Patients will remain at the CRU for at least 6 hours following glucagon administration, during which time a carbohydrate-rich meal will be provided. The patient may stay at the CRU longer, at the discretion of the investigator.</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_55",
+              "name": "SECTION 9.3.",
+              "sectionNumber": "9.3.",
+              "sectionTitle": "Adverse Events",
+              "text": "<div><p>Investigators are responsible for monitoring the safety of patients who have entered this study and for alerting Lilly or its designee to any event that seems unusual, even if this event may be considered an unanticipated benefit to the patient.</p>\n<p>The investigator is responsible for the appropriate medical care of patients during the study.</p>\n<p>Investigators must document their review of each laboratory safety report.</p>\n<p>The investigator remains responsible for following, through an appropriate health care option, AEs that are serious or otherwise medically important, considered related to the investigational product or the study, or that caused the patient to discontinue the investigational product before completing the study. The patient should be followed until the event resolves, stabilizes with</p>\n<p>appropriate diagnostic evaluation, or is reasonably explained. The frequency of follow-up evaluations of the AE is left to the discretion of the investigator.</p>\n<p>After the informed consent form is signed, study site personnel will record, via CRF, the occurrence and nature of each patient\u2019s preexisting conditions, including clinically significant signs and symptoms of the disease under treatment in the study. Additionally, site personnel will record any change in the condition(s) and the occurrence and nature of any AEs.</p>\n<p>The investigator will interpret and document whether or not an AE has a reasonable possibility of being related to study treatment, medical device, or a study procedure, taking into account the disease, concomitant treatment, or pathologies.</p>\n<p>A \u201creasonable possibility\u201d means that there is a potential cause and effect relationship between the investigational product, medical device, and/or study procedure and the AE.</p>\n<p>Planned surgeries should not be reported as AEs unless the underlying medical condition has worsened during the course of the study.</p></div>",
+              "childIds": [
+                "NarrativeContent_56",
+                "NarrativeContent_59"
+              ],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_56",
+              "name": "SECTION 9.3.1.",
+              "sectionNumber": "9.3.1.",
+              "sectionTitle": "Serious Adverse Events",
+              "text": "<div><p>An SAE is any AE from this study that results in one of the following:</p>\n<p>\uf0b7 \uf0b7 \uf0b7 \uf0b7 \uf0b7 \uf0b7</p>\n<p>\uf0b7</p>\n<p>death</p>\n<p>initial or prolonged inpatient hospitalization</p>\n<p>a life-threatening experience (that is, immediate risk of dying)</p>\n<p>persistent or significant disability/incapacity</p>\n<p>congenital anomaly/birth defect</p>\n<p>important medical events that may not be immediately life-threatening or result in death or hospitalization but may jeopardize the patient or may require intervention to prevent one of the other outcomes listed in the definition above when a condition related to the medical device necessitates medical or surgical intervention to preclude either permanent impairment of a body function or permanent damage to a body structure, the serious outcome of \u201crequired intervention\u201d will be assigned.</p>\n<p>Study site personnel must alert the Lilly CRP/CP, or its designee, of any SAE as soon as practically possible.</p>\n<p>Additionally, study site personnel must alert Lilly Global Patient Safety, or its designee, of any SAE within 24 hours of investigator awareness of the event via a sponsor-approved method. If alerts are issued via telephone, they are to be immediately followed with official notification on study-specific SAE forms. This 24-hour notification requirement refers to the initial SAE information and all follow-up SAE information.</p>\n<p>Although all AEs are recorded in the CRF after signing informed consent, SAE reporting to the sponsor begins after the patient has signed informed consent and has received investigational product. However, if an SAE occurs after signing informed consent, but prior to receiving investigational product, AND is considered reasonably possibly related to a study procedure then it MUST be reported.</p>\n<p>Investigators are not obligated to actively seek AEs or SAEs in patients once they have discontinued from and/or completed the study (the patient summary CRF has been completed). However, if the investigator learns of any SAE, including a death, at any time after a patient has been discharged from the study, and he/she considers the event reasonably possibly related to the study treatment or study participation, the investigator must promptly notify Lilly.</p>\n<p>Pregnancy (maternal or paternal exposure to investigational product) does not meet the definition of an AE. However, to fulfill regulatory requirements any pregnancy should be reported following the SAE process to collect data on the outcome for both mother and fetus.</p></div>",
+              "childIds": [
+                "NarrativeContent_57",
+                "NarrativeContent_58"
+              ],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_57",
+              "name": "SECTION 9.3.1.1.",
+              "sectionNumber": "9.3.1.1.",
+              "sectionTitle": "Suspected Unexpected Serious Adverse Reactions",
+              "text": "<div><p> Suspected unexpected serious adverse reactions (SUSARs) are serious events that are not listed in the IB and that the investigator reports as related to investigational product or procedure. Lilly has procedures that will be followed for the recording and expedited reporting of SUSARs that are consistent with global regulations and the associated detailed guidances.</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_58",
+              "name": "SECTION 9.3.1.2.",
+              "sectionNumber": "9.3.1.2.",
+              "sectionTitle": "Adverse Event Monitoring with a Systematic Questionnaire",
+              "text": "<div><p> Before administering the Nasal and Non-nasal Score Questionnaire (see Appendix 6) and Edinburgh Hypoglycemia Scale (see Appendix 7), study site personnel will question the patient about any change in the preexisting condition(s) and the occurrence and nature of any AEs. Study site personnel will explain the possibility to the patient of AEs associated with the study and that these AEs will be captured during the study through the use of the Nasal and Non-nasal Score Questionnaire and Edinburgh Hypoglycemia Scale.</p>\n<p>Nonserious AEs obtained through the questionnaire are recorded and analyzed separately.</p>\n<p>Only SAEs elicited through the Nasal and Non-nasal Score Questionnaire and Edinburgh Hypoglycemia Scale are to be recorded as AEs via CRF and reported to Lilly or its designee within 24 hours as SAEs.</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_59",
+              "name": "SECTION 9.3.2.",
+              "sectionNumber": "9.3.2.",
+              "sectionTitle": "Complaint Handling",
+              "text": "<div><p>Lilly collects product complaints on investigational products used in clinical trials in order to ensure the safety of study participants, monitor quality, and to facilitate process and product improvements.</p>\n<p>Patients should be instructed to contact the investigator as soon as possible if he or she has a complaint or problem with the investigational product so that the situation can be assessed.</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_60",
+              "name": "SECTION 9.4.",
+              "sectionNumber": "9.4.",
+              "sectionTitle": "Treatment of Overdose",
+              "text": "<div><p>For the purposes of this study, an overdose of LY900018 or IMG is considered any dose that is higher than the assigned dose. Refer to the LY900018 IB and GlucaGen Summary of Product Characteristics for more information.</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_61",
+              "name": "SECTION 9.5.",
+              "sectionNumber": "9.5.",
+              "sectionTitle": "Safety",
+              "text": "<div></div>",
+              "childIds": [
+                "NarrativeContent_62",
+                "NarrativeContent_63",
+                "NarrativeContent_64",
+                "NarrativeContent_65",
+                "NarrativeContent_66"
+              ],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_62",
+              "name": "SECTION 9.5.1.",
+              "sectionNumber": "9.5.1.",
+              "sectionTitle": "Laboratory Tests",
+              "text": "<div><p>For each patient, laboratory tests detailed in Appendix 2 should be conducted according to the Schedule of Activities (Section 2).</p>\n<p>Lilly or its designee will provide the investigator with the results of laboratory tests analyzed by a central vendor, if a central vendor is used for the study.</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_63",
+              "name": "SECTION 9.5.2.",
+              "sectionNumber": "9.5.2.",
+              "sectionTitle": "Vital Signs",
+              "text": "<div><p>For each patient, vital sign measurements should be conducted according to the Schedule of Activities (Section 2).</p>\n<p>Body temperature will be measured as specified in the Schedule of Activities (Section 2) and as clinically indicated.</p>\n<p>Blood pressure and pulse rate should be measured after at least 5 minutes supine.</p>\n<p>Unscheduled orthostatic vital signs should be assessed, if possible, during any AE of dizziness or posture-induced symptoms. If orthostatic measurements are required, patients should be supine for at least 5 minutes and stand for at least 2 minutes. If the patient feels unable to stand, supine vital signs only will be recorded. Additional vital signs may be measured during each study period if warranted.</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_64",
+              "name": "SECTION 9.5.3.",
+              "sectionNumber": "9.5.3.",
+              "sectionTitle": "Electrocardiograms",
+              "text": "<div><p>For each patient, single and triplicate ECGs should be collected according to the Schedule of Activities (Section 2).</p>\n<p>Any clinically significant findings from ECGs that result in a diagnosis and that occur after the patient receives the first dose of the investigational product should be reported to Lilly, or its designee, as an AE via CRF.</p>\n<p>Single ECGs will be collected and stored locally at the investigator\u2019s site.</p>\n<p>Triplicate ECGs will be electronically transmitted to a central ECG laboratory designated by Lilly. The central ECG laboratory will perform a basic quality control check (for example, demographics and study details) then store the ECGs in a database. At a future time, the stored ECG data may be overread at the central ECG laboratory for further evaluation of machine-read measurements or to meet regulatory requirements. Triplicate ECGs collected 30 and 15 minutes prior to the start of insulin-induced hypoglycemia on Day 1 of each period will be used to</p>\n<p>establish a baseline. The consecutive triplicate ECGs will be obtained at approximately 1-minute intervals.</p>\n<p>When scheduled at the same time point, ECGs must be recorded before collecting any blood samples. Patients must be supine for at least 5 minutes before ECG collection and remain supine but awake during ECG collection. Electrocardiograms may be obtained at additional times, when deemed clinically necessary.</p>\n<p>Single ECGs will be interpreted by a qualified physician (the investigator or qualified designee) at the site as soon after the time of ECG collection as possible, and ideally while the patient is still present, to determine whether the patient meets entry criteria at the relevant visit(s) and for immediate patient management, should any clinically relevant findings be identified.</p>\n<p>If a clinically significant finding is identified (including, but not limited to, changes in QT/corrected QT interval from baseline) after enrollment, the investigator will determine if the patient can continue in the study. The investigator, or qualified designee, is responsible for determining if any change in patient management is needed, and must document his/her review of the ECG printed at the time of collection. Any new clinically relevant finding should be reported as an AE.</p>\n<p>The machine-read ECG intervals and heart rate may be used for data analysis and report writing purposes unless a cardiologist overread of the ECGs is conducted prior to completion of the final study report (in which case the overread data would be used).</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_65",
+              "name": "SECTION 9.5.4.",
+              "sectionNumber": "9.5.4.",
+              "sectionTitle": "Other Tests",
+              "text": "<div><p>Nasal inspections with nasal speculum and injection-site assessments will be conducted according to the Schedule of Activities (Section 2). This inspection will ascertain whether sites are normal in appearance prior to and after drug administration.</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_66",
+              "name": "SECTION 9.5.5.",
+              "sectionNumber": "9.5.5.",
+              "sectionTitle": "Safety Monitoring",
+              "text": "<div><p>The Lilly CP or CRP/scientist will monitor safety data throughout the course of the study.</p>\n<p>Lilly will review SAEs within time frames mandated by company procedures. The Lilly CP or CRP will periodically review the following data:</p>\n<p>\uf0b7 trends in safety data<br/>\n\uf0b7 laboratory analytes<br/>\n\uf0b7 AEs including monitoring of nasal cavity and IM injection site<br/>\nWhen appropriate, the Lilly CP or CRP will consult with the functionally independent Global<br/>\nPatient Safety therapeutic area physician or clinical research scientist.</p></div>",
+              "childIds": [
+                "NarrativeContent_67",
+                "NarrativeContent_68"
+              ],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_67",
+              "name": "SECTION 9.5.5.1.",
+              "sectionNumber": "9.5.5.1.",
+              "sectionTitle": "Hypoglycemic Event Reporting",
+              "text": "<div><p> Episodes of hypoglycemia (plasma glucose \u226470 mg/dL) that occur after the patient\u2019s PG level returns to \u2265100 mg/dL (at least after 30 minutes post study dose) at post study treatment on Day 1, will be described using the following definitions:</p>\n<p class=\"p16\">Documented Glucose Alert Level (Level 1)</p>\n<p>Plasma glucose \u226470 mg/dL</p>\n<p>\uf0b7 \uf0b7</p>\n<p>\uf0b7</p>\n<p>Documented symptomatic hypoglycemia: with typical symptoms of hypoglycemia. Documented asymptomatic hypoglycemia: without typical symptoms of hypoglycemia.</p>\n<p>Documented unspecified hypoglycemia: with no information about symptoms of hypoglycemia available. (This has also been called unclassifiable hypoglycemia.)</p>\n<p class=\"p16\">Documented Clinically Significant Hypoglycemia (Level 2)</p>\n<p>Similar criterion as for Level 1, except for threshold PG &lt;54 mg/dL</p>\n<p>\uf0b7 Level 2 documented symptomatic hypoglycemia \uf0b7 Level 2 documented asymptomatic hypoglycemia \uf0b7 Level 2 documented unspecified hypoglycemia Severe Hypoglycemia (Level 3) Patient had altered mental status and could not assist in their own care, was semiconscious or unconscious, or experienced coma with or without seizures, and the assistance of another person was to actively administer carbohydrate, glucagon, or other resuscitative actions. Plasma glucose measurements may not be available during such an event, but neurological recovery attributable to the restoration of PG concentration to normal is considered sufficient evidence that the event was induced by a low PG concentration (PG \u226470 mg/dL).</p>\n<p class=\"p16\">Other Hypoglycemia</p>\n<p>\uf0b7</p>\n<p>\uf0b7</p>\n<p>Nocturnal hypoglycemia: Any documented hypoglycemic event (including severe hypoglycemia) that occurs at night and presumably during sleep. This is captured as hypoglycemia that occurs between bedtime and waking. This definition is more useful than the commonly used approximately 00:00 to 06:00 definition which does not take patients\u2019 individual sleep times into consideration, and is consistent with the American Diabetes Association recommendations of reporting events that occur during sleep (ADA 2005). It is also important to collect the actual time when a hypoglycemic event occurred to allow further characterization of hypoglycemia timing (eg, to allow analysis of frequency of events occurring across a 24-hour clock). Nocturnal hypoglycemia may occur at severity Levels 1, 2, or 3.</p>\n<p>Relative hypoglycemia (also referred to as pseudohypoglycemia [Seaquist et al. 2013]): An event during which typical symptoms of hypoglycemia occur, that does not require the assistance of another person and is accompanied by PG &gt;70 mg/dL. The PG value of patients with chronically poor glycemic control can decrease so rapidly that patients may report symptoms of hypoglycemia before their PG concentration falls below 70 mg/dL. Events with PG \u226470 mg/dL should not be categorized as relative hypoglycemia. Evaluation and statistical analysis of this category is optional. However, if a patient reports a relative hypoglycemia event</p>\n<p>where assistance from another person was received or the patient experienced significant symptoms, the study team should clarify the circumstances to ensure the event is not a severe hypoglycemia event, and report it appropriately.</p>\n<p>\uf0b7</p>\n<p>\uf0b7</p>\n<p>Probable symptomatic hypoglycemia: Symptoms of hypoglycemia were present, but PG measurement was not reported.</p>\n<p>Overall (or total) hypoglycemia: This optional category combines most cases of hypoglycemia (documented hypoglycemia and probable symptomatic hypoglycemia, including severe hypoglycemia). It does not include relative hypoglycemia. Nocturnal and severe hypoglycemia are special cases of documented or probable hypoglycemia. If an event of hypoglycemia falls into multiple subcategories, that event should only be counted once in the category of overall (or total) hypoglycemia.</p>\n<p>Hypoglycemia episodes will be recorded on specific CRF pages. Only severe hypoglycemic episodes will be reported separately as AEs. If a hypoglycemic event meets the criteria of severe, it needs to be recorded as serious in the CRF (that is, recorded as an SAE). In the case of a hypoglycemic event (other than severe), the actual glucose value, if measured, should be recorded in the CRF, with any treatments administered, and not be recorded as an AE. Cases of hypoglycemia may be treated with foods rich in carbohydrate such as fruit, juice, skimmed milk, or energy bars. All episodes of hypoglycemia that are determined by the investigator to constitute severe hypoglycemia according to the definition above should be reported as SAEs.</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_68",
+              "name": "SECTION 9.5.5.2.",
+              "sectionNumber": "9.5.5.2.",
+              "sectionTitle": "Hepatic Safety",
+              "text": "<div><p> If a study patient experiences elevated alanine aminotransferase (ALT) \u22653\u00d7 upper limit of normal (ULN), alkaline phosphatase (ALP) \u22652\u00d7 ULN, or elevated total bilirubin (TBL) \u22652\u00d7 ULN, liver tests (Appendix 4) should be repeated within 3 to 5 days including ALT, aspartate aminotransferase, ALP, TBL, direct bilirubin, gamma-glutamyl transferase, and creatinine kinase to confirm the abnormality and to determine if it is increasing or decreasing. If the abnormality persists or worsens, clinical and laboratory monitoring should be initiated by the investigator based on consultation with the Lilly CP or CRP. Monitoring should continue until levels normalize and/or are returning to approximate baseline levels.</p>\n<p>Additional safety data should be collected if 1 or more of the following conditions occur:</p>\n<p>\uf0b7 \uf0b7 \uf0b7 \uf0b7</p>\n<p>\uf0b7</p>\n<p>elevation of serum ALT to \u22655\u00d7 ULN on 2 or more consecutive blood tests</p>\n<p>elevated serum TBL to \u22652\u00d7 ULN (except for cases of known Gilbert\u2019s syndrome)</p>\n<p>elevation of serum ALP to \u22652\u00d7 ULN on 2 or more consecutive blood tests</p>\n<p>patient discontinued from treatment due to a hepatic event or abnormality of liver tests</p>\n<p>hepatic event considered to be an SAE.</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_69",
+              "name": "SECTION 9.6.",
+              "sectionNumber": "9.6.",
+              "sectionTitle": "Pharmacokinetics",
+              "text": "<div><p>At the visits and times specified in the Schedule of Activities (see Section 2), venous blood samples of approximately 4 mL each will be collected to determine the plasma concentrations of</p>\n<p>glucagon. Three samples may be collected per patient at additional time points during the study if warranted and agreed upon between both the investigator and sponsor. Instructions for the collection and handling of blood samples will be provided by the sponsor. The actual date and time (24-hour clock) of each sampling will be recorded.</p></div>",
+              "childIds": [
+                "NarrativeContent_70"
+              ],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_70",
+              "name": "SECTION 9.6.1.",
+              "sectionNumber": "9.6.1.",
+              "sectionTitle": "Bioanalysis",
+              "text": "<div><p>Samples will be analyzed at a laboratory approved by the sponsor and stored at a facility designated by the sponsor.</p>\n<p>Concentrations of glucagon will be assayed using a validated liquid chromatography with tandem mass spectrometry method.</p>\n<p>Bioanalytical samples collected to measure investigational product concentrations will be retained for a maximum of 1 year following last patient visit for the study.</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_71",
+              "name": "SECTION 9.7.",
+              "sectionNumber": "9.7.",
+              "sectionTitle": "Pharmacodynamics",
+              "text": "<div><p>At times specified in the Schedule of Activities (see Section 2), venous blood samples will be collected and used to determine PG concentrations.</p>\n<p>The samples will be stored for up to a maximum of 1 year after last patient visit for the study at a facility selected by the sponsor.</p></div>",
+              "childIds": [
+                "NarrativeContent_72"
+              ],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_72",
+              "name": "SECTION 9.7.1.",
+              "sectionNumber": "9.7.1.",
+              "sectionTitle": "Immunogenicity Assessments",
+              "text": "<div><p>At the visits and times specified in the Schedule of Activities (Section 2), venous blood samples will be collected to determine antibody production against glucagon. To interpret the results of immunogenicity, a venous blood sample may be collected at the same time points to determine the concentrations of glucagon. All samples for immunogenicity should be taken predose when applicable.</p>\n<p>In the event of drug hypersensitivity reactions (immediate or non-immediate), additional immunogenicity samples will be collected as close to the onset of the event as possible, at the resolution of the event, and 30 days following the event. A PK sample may be collected at these same time points(s) if warranted and agreed upon between both the investigator and sponsor.</p>\n<p>Treatment-emergent antidrug antibodies (TE ADA) are defined in Section 10.3.6. If the immunogenicity titer at the last scheduled assessment or discontinuation visit meets the definition of treatment emergent, then, at the discretion of the sponsor, patients should be called back to the site for follow-up immunogenicity assessment(s). Samples for immunogenicity should be collected every 12 weeks until the titer returns to baseline (ie, returns to within a single 2-fold dilution of the baseline titer) or until 1 year after the last dose of study treatment. A PK sample may be collected at the follow-up immunogenicity assessment(s) if warranted and agreed upon between both the investigator and sponsor. Every attempt should be made to contact patients for the follow-up immunogenicity assessment; however, if patients are unwilling or unable to return for the visit, this is not considered a protocol violation.</p>\n<p>Instructions for the collection and handling of blood samples will be provided by the sponsor. The actual date and time (24-hour clock time) of each sampling will be recorded.</p>\n<p>Immunogenicity will be assessed by a validated assay designed to detect antidrug antibodies (ADA) in the presence of glucagon at a laboratory approved by the sponsor. Antibodies may be further characterized and/or evaluated for their ability to neutralize the activity of glucagon.</p>\n<p>Samples will be retained for a maximum of 15 years after the last patient visit, or for a shorter period if local regulations and ethical review boards (ERBs) allow, at a facility selected by the sponsor. The duration allows the sponsor to respond to future regulatory requests related to LY900018. Any samples remaining after 15 years will be destroyed.</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_73",
+              "name": "SECTION 9.8.",
+              "sectionNumber": "9.8.",
+              "sectionTitle": "Genetics",
+              "text": "<div><p>A blood sample will be collected for pharmacogenetic analysis as specified in the Schedule of Activities (Section 2), where local regulations allow.</p>\n<p>Samples will not be used to conduct unspecified disease or population genetic research either now or in the future. Samples will be used to investigate variable exposure or response to nasal glucagon (LY900018) and to investigate genetic variants thought to play a role in diabetes mellitus and related complications. Assessment of variable response may include evaluation of AEs or differences in efficacy.</p>\n<p>All samples will be coded with the patient number. These samples and any data generated can be linked back to the patient only by the investigative site personnel.</p>\n<p>Samples will be retained for a maximum of 15 years after the last patient visit, or for a shorter period if local regulations and/or ERBs impose shorter time limits, for the study at a facility selected by Lilly or its designee. This retention period enables use of new technologies, response to regulatory questions, and investigation of variable response that may not be observed until later in the development of LY900018 or after LY900018 is commercially available.</p>\n<p>Molecular technologies are expected to improve during the 15-year storage period and therefore cannot be specifically named. However, existing approaches include whole genome or exome sequencing, genome wide association studies, multiplex assays, and candidate gene studies. Regardless of technology utilized, data generated will be used only for the specific research scope described in this section.</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_74",
+              "name": "SECTION 9.9.",
+              "sectionNumber": "9.9.",
+              "sectionTitle": "Biomarkers",
+              "text": "<div><p>Not applicable.</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_75",
+              "name": "SECTION 9.10.",
+              "sectionNumber": "9.10.",
+              "sectionTitle": "Health Economics",
+              "text": "<div><p>Not applicable.</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_76",
+              "name": "SECTION 10",
+              "sectionNumber": "10",
+              "sectionTitle": "Statistical Considerations and Data Analysis",
+              "text": "<div></div>",
+              "childIds": [
+                "NarrativeContent_77",
+                "NarrativeContent_78",
+                "NarrativeContent_82"
+              ],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_77",
+              "name": "SECTION 10.1.",
+              "sectionNumber": "10.1.",
+              "sectionTitle": "Sample Size Determination",
+              "text": "<div><p>Seventy five patients may be enrolled in order to have at least 66 patients (at least 30 patients with T1DM and T2DM, respectively) complete the study. For purposes of this study, a completer is defined as a patient who completes both periods with evaluable primary outcome. If patients discontinue from the study before completion of both periods with evaluable primary outcome for any reason, the patient may be replaced to ensure 66 patients complete the study. The replacement patients will be assigned the same treatment sequence as the patients to be replaced and will complete that treatment sequence in its entirety. Replacement should not occur beyond 75 patients enrolled, if it is expected to have at least 66 patients complete the study.</p>\n<p>Assuming a non-inferiority margin (NIM) of 10%, a 98% treatment success rate for both treatment groups, and a within-patient correlation of zero, 66 completers will provide at least 90% power to show non-inferiority between LY900018 and IMG in treatment success from insulin-induced hypoglycemia with one-sided alpha level of 0.025 based on the Chi-square test.</p>\n<p>The proposed NIM of 10% has been chosen based on the previously completed Phase 3 study (Rickels et al. 2016).</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_78",
+              "name": "SECTION 10.2.",
+              "sectionNumber": "10.2.",
+              "sectionTitle": "Populations for Analyses",
+              "text": "<div></div>",
+              "childIds": [
+                "NarrativeContent_79",
+                "NarrativeContent_80",
+                "NarrativeContent_81"
+              ],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_79",
+              "name": "SECTION 10.2.1.",
+              "sectionNumber": "10.2.1.",
+              "sectionTitle": "Study Participant Disposition",
+              "text": "<div><p>A detailed description of patient disposition will be provided at the end of the study.</p>\n<p>Proportion of patients discontinued from the study and the reasons for discontinuation will be summarized by treatment group for all randomized patients.</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_80",
+              "name": "SECTION 10.2.2.",
+              "sectionNumber": "10.2.2.",
+              "sectionTitle": "Study Participant Characteristics",
+              "text": "<div><p>The patients\u2019 baseline characteristics and demographic characteristics will be recorded, listed, and will be summarized for all randomized patients.</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_81",
+              "name": "SECTION 10.2.3.",
+              "sectionNumber": "10.2.3.",
+              "sectionTitle": "Treatment Compliance",
+              "text": "<div><p>No specific study data will be collected for analysis of treatment compliance.</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_82",
+              "name": "SECTION 10.3.",
+              "sectionNumber": "10.3.",
+              "sectionTitle": "Statistical Analyses",
+              "text": "<div><p>Statistical analysis of this study will be the responsibility of Eli Lilly and Company or its designee.</p>\n<p>Efficacy, PK, and PD analyses will be conducted on the full analysis set. This set includes all data from all randomized patients receiving at least one dose of the investigational product according to the treatment allocation. Safety analyses will be conducted for all enrolled patients, whether or not they completed all protocol requirements. If a patient receives a glucose infusion to prevent the progression to severe hypoglycemia (see Section 9.2.4), data after IV glucose</p>\n<p>infusion may be excluded from the efficacy and PD analyses. Details will be described in the statistical analysis plan (SAP).</p>\n<p>Any change to the data analysis methods described in the protocol will require an amendment ONLY if it changes a principal feature of the protocol. Any other change to the data analysis methods described in the protocol, and the justification for making the change, will be described in the SAP and/or in the clinical study report.</p>\n<p>Additional exploratory analyses of the data will be conducted as deemed appropriate. Study results may be pooled with the results of other studies for population PK analysis purposes to avoid issues with post-hoc analyses and incomplete disclosures of analyses.</p></div>",
+              "childIds": [
+                "NarrativeContent_83",
+                "NarrativeContent_85",
+                "NarrativeContent_89",
+                "NarrativeContent_92",
+                "NarrativeContent_94",
+                "NarrativeContent_95",
+                "NarrativeContent_96",
+                "NarrativeContent_97"
+              ],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_83",
+              "name": "SECTION 10.3.1.",
+              "sectionNumber": "10.3.1.",
+              "sectionTitle": "Efficacy Analyses",
+              "text": "<div></div>",
+              "childIds": [
+                "NarrativeContent_84"
+              ],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_84",
+              "name": "SECTION 10.3.1.1.",
+              "sectionNumber": "10.3.1.1.",
+              "sectionTitle": "Primary Efficacy Analysis",
+              "text": "<div><p> The primary objective is to demonstrate that 3 mg LY900018 is non-inferior to 1 mg IMG for the proportion (NIM=10%) of Japanese patients with T1DM or T2DM who achieve treatment success without receiving additional actions to increase the PG concentration. Treatment success is defined as either an increase in PG to \u226570 mg/dL or an increase of \u226520 mg/dL from PG nadir within 30 minutes after receiving study treatment. The nadir is defined as the minimum PG concentration at the time of or within 10 minutes following glucagon administration.</p>\n<p>The primary analysis will be a treatment group comparison of the primary outcome. The percentage of treatment successes in each treatment group and the difference in percentages will be computed. A 2-sided 95% confidence interval (CI) will be obtained from the 1-sample mean of the paired differences in primary outcome (1=outcome observed; 0=outcome not observed) across 2 treatment visits. Non-inferiority of LY900018 will be declared if the upper limit of a 2-sided 95% CI constructed on the difference in percentages (IMG - LY900018) is less than the NIM of 10%.</p>\n<p>Primary efficacy analysis will only include patients who complete both treatment visits with evaluable primary outcome. The following will be considered as non-evaluable primary efficacy outcomes and will be excluded from the analysis related to primary efficacy outcome:</p>\n<p>\uf0b7</p>\n<p>\uf0b7</p>\n<p>Patients with at least 1 treatment visit in which the lowest PG concentration at the time of or within 10 minutes following glucagon administration is \u226570 mg/dL;</p>\n<p>Patients who receive an external measure to raise PG concentration either before glucagon administration or within the first 10 minutes of glucagon administration.</p>\n<p>Plasma glucose concentrations assessed through a central laboratory will be used to assess treatment success. Additional analysis will be performed if deemed necessary. The details will be provided in the SAP.</p>\n<p>Descriptive statistics will be used to summarize the baseline, various postdose time points, and absolute change from baseline in PG values by treatment group. Additional analysis will be performed if deemed necessary. The details will be provided in the SAP.</p>\n<p>If a patient receives additional intervention to raise PG concentrations, measurements taken after the time of intervention will be excluded from the analysis.</p>\n<p>Descriptive statistics will be used to summarize the baseline, various postdose time points, and absolute change from baseline in total score and each subscale score of Edinburgh Hypoglycemia Scale by treatment group. Additional analysis will be performed if deemed necessary. The details will be provided in the SAP.</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_85",
+              "name": "SECTION 10.3.2.",
+              "sectionNumber": "10.3.2.",
+              "sectionTitle": "Safety Analyses",
+              "text": "<div></div>",
+              "childIds": [
+                "NarrativeContent_86",
+                "NarrativeContent_87",
+                "NarrativeContent_88"
+              ],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_86",
+              "name": "SECTION 10.3.2.1.",
+              "sectionNumber": "10.3.2.1.",
+              "sectionTitle": "Clinical Evaluation of Safety",
+              "text": "<div><p>\nAll investigational product and protocol procedure AEs will be listed, and, if the frequency of\nevents allows, safety data will be summarized using descriptive methodology.</p>\n<p>The incidence of symptoms for each treatment will be presented by severity and by association with investigational product as perceived by the investigator. Symptoms reported to occur prior to enrollment will be distinguished from those reported as new or increased in severity during the study.</p>\n<p>The number of investigational product-related SAEs will be reported.</p>\n<p>Nasal/respiratory and anosmia AEs will be identified using preferred terms and summarized by treatment group; the details will be provided in the SAP.</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_87",
+              "name": "SECTION 10.3.2.2.",
+              "sectionNumber": "10.3.2.2.",
+              "sectionTitle": "Nasal and Non-nasal Score Questionnaire",
+              "text": "<div><p> The scoring for each response to Nasal and Non-nasal Score Questionnaire will follow the scale displayed on the questionnaire (\u2018None\u2019=0, \u2018Mild\u2019=1, \u2018Moderate\u2019=2, \u2018Severe\u2019=3). The total score of the questionnaire will be calculated as the sum of the scores for each question. Descriptive statistics will be used to summarize the baseline, various postdose time points, and absolute change from baseline in total score of Nasal and Non-nasal Score Questionnaire by treatment group. See Appendix 6 for a copy of the questionnaire. Additional analysis will be performed if deemed necessary. The details will be provided in the SAP.</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_88",
+              "name": "SECTION 10.3.2.3.",
+              "sectionNumber": "10.3.2.3.",
+              "sectionTitle": "Statistical Evaluation of Safety",
+              "text": "<div><p> Safety parameters that will be assessed include safety laboratory parameters, vital signs, and triplicated ECG parameters. The parameters will be listed and summarized using standard descriptive statistics. Additional analysis will be performed if warranted upon review of the data. The details will be provided in the SAP.</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_89",
+              "name": "SECTION 10.3.3.",
+              "sectionNumber": "10.3.3.",
+              "sectionTitle": "Pharmacokinetic Analyses",
+              "text": "<div></div>",
+              "childIds": [
+                "NarrativeContent_90",
+                "NarrativeContent_91"
+              ],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_90",
+              "name": "SECTION 10.3.3.1.",
+              "sectionNumber": "10.3.3.1.",
+              "sectionTitle": "Pharmacokinetic Parameter Estimation",
+              "text": "<div><p> Patients who receive at least 1 dose of study treatment and have measurable glucagon concentrations will be included in the PK analysis dataset. Pharmacokinetic parameter estimates for glucagon will be calculated using standard noncompartmental methods of analysis (NCA).</p>\n<p>The primary parameters for PK analysis will be maximal concentration (C max ), area under the concentration versus time curve (AUC), and time to maximal concentration (T max ) of glucagon. Other noncompartmental parameters, such as half-life, apparent clearance, and apparent volume of distribution, may be reported.</p>\n<p>The following PK parameters will also be calculated using baseline-adjusted (ie, change from baseline) concentrations of glucagon: AUC, C max , and T max . Baseline glucagon concentrations will be concentrations from samples obtained immediately prior to glucagon dosing (ie, predose).</p>\n<p>Parameters will be individually calculated for each patient based on actual time of collection.</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_91",
+              "name": "SECTION 10.3.3.2.",
+              "sectionNumber": "10.3.3.2.",
+              "sectionTitle": "Pharmacokinetic Statistical Inference",
+              "text": "<div><p> Log-transformed PK parameters (such as C max and AUC) will be evaluated in a linear mixed-effects model with fixed effects for treatment, period, and sequence, and a random effect for patient. The treatment differences will be back-transformed to present the ratios of geometric means and the corresponding 90% CIs.</p>\n<p>The T max will be analyzed using the Wilcoxon signed-rank test. Estimates of the median difference based on the observed medians, 90% CIs, and p-values from the Wilcoxon test will be calculated.</p>\n<p>Exploratory analyses may be performed for other PK parameters as deemed appropriate.</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_92",
+              "name": "SECTION 10.3.4.",
+              "sectionNumber": "10.3.4.",
+              "sectionTitle": "Pharmacodynamic Analyses",
+              "text": "<div></div>",
+              "childIds": [
+                "NarrativeContent_93"
+              ],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_93",
+              "name": "SECTION 10.3.4.1.",
+              "sectionNumber": "10.3.4.1.",
+              "sectionTitle": "Pharmacodynamic Parameter Estimation",
+              "text": "<div><p> Pharmacodynamic parameters will be calculated using NCA. Key PD parameters will be derived to assess the exposure to glucose and duration of exposure above, below, and within the normal glucose range. The normal range for PG will be considered to be 70 to 108 mg/dL. Actual sampling times will be used for all calculations.</p>\n<p>The following PD parameters will be calculated using concentrations of glucose:</p>\n<p>AUEC above</p>\n<p>AUEC below</p>\n<p>AUEC within</p>\n<p>AUEC 0-1.5</p>\n<p>area under the effect concentration-time curve above the normal range</p>\n<p>area under the effect concentration-time curve below the normal range</p>\n<p>area under the effect concentration-time curve within the normal range</p>\n<p>area under the effect concentration-time curve from time zero (predose) up to 1.5 hours</p>\n<p>BG max Duration above</p>\n<p>maximal plasma glucose concentration<br/>\nduration above normal range<br/>\nDuration below duration below normal range<br/>\nDuration within duration within normal range<br/>\nt above time to concentrations above normal range<br/>\nt below time to concentrations below normal range (after t above )<br/>\nt within time to concentrations within normal range<br/>\nT max time to maximal concentration<br/>\nThe following PD parameters will be calculated using change from baseline concentrations of<br/>\nPG:</p>\n<p>AUEC 0-1.5 area under the effect concentration-time curve from time zero (predose) up to</p>\n<p>1. 5 hours</p>\n<p>BG max maximal plasma glucose concentration<br/>\nT max time to maximal concentration<br/>\nBaseline PG concentrations will be concentrations from samples obtained immediately prior to<br/>\nglucagon dosing (ie, zero hour time point).</p>\n<p>Other PD parameters of PG may be calculated if required. Individual concentrations and PD parameters of PG will be summarized with descriptive statistics by treatment. The patients who receive IV glucose up to 90 minutes postdose will be excluded from the summary statistics.</p>\n<p>The PD parameters (such as BG max and AUEC) will be log-transformed prior to analysis and a linear mixed-effects model fitted to the data, with treatment, period, and sequence as fixed effects and patient as a random effect. For each parameter, the treatment difference will be back-transformed to present the ratios of geometric means and the corresponding 90% CIs. The values of T max will be analyzed nonparametrically using the Wilcoxon signed-rank test. Median differences and approximate 90% CIs for the difference will be calculated for the comparisons of treatments.</p>\n<p>Exploratory analyses may be performed for other PD parameters as deemed appropriate.</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_94",
+              "name": "SECTION 10.3.5.",
+              "sectionNumber": "10.3.5.",
+              "sectionTitle": "Pharmacokinetic/Pharmacodynamic Analyses",
+              "text": "<div><p>Exploratory analyses may be performed to evaluate exposure-response relationship if needed.</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_95",
+              "name": "SECTION 10.3.6.",
+              "sectionNumber": "10.3.6.",
+              "sectionTitle": "Evaluation of Immunogenicity",
+              "text": "<div><p>The frequency and percentage of patients with preexisting (baseline) ADA, ADA at any time point after baseline, and patients with TE ADA to glucagon may be tabulated.</p>\n<p>Treatment-emergent ADA are defined as those with a titer 2-fold (1 dilution) greater than the minimum required dilution of the assay, if no ADA were detected at baseline; or those with a 4-fold (2 dilutions) increase in titer compared to baseline, if ADA were detected at baseline. For patients with TE ADA, the distribution of maximum titers may be described. The frequency of neutralizing antibodies may also be tabulated.</p>\n<p>The relationship between the presence of antibodies to glucagon and efficacy, PK parameters, PD response, and safety results may be assessed.</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_96",
+              "name": "SECTION 10.3.7.",
+              "sectionNumber": "10.3.7.",
+              "sectionTitle": "Data Review During the Study",
+              "text": "<div><p>Access to safety data is scheduled to occur after the first 6 patients complete Period 2 Day 1. The purpose of this review is to initiate remaining patients\u2019 dosing. The investigator and the Lilly sponsor team will make the determination regarding initiation of remaining patients\u2019 dose, based upon their review of the data.</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_97",
+              "name": "SECTION 10.3.8.",
+              "sectionNumber": "10.3.8.",
+              "sectionTitle": "Interim Analyses",
+              "text": "<div><p>Access to the safety data, including AEs, SAEs, vital signs, ECGs, and safety laboratory tests, is scheduled to occur after the first 6 patients complete Period 2. The purpose of the safety reviews is to ensure that the study procedures and treatment are safe enough to proceed with the remaining patients. The investigator and the Lilly sponsor team will make the determination to proceed with randomization of the remaining patients based upon their review of the safety and tolerability data.</p>\n<p>A primary database lock will be conducted after last patient discharge from the CRU. The aim of the primary database lock is to enable data analysis to assess the primary/secondary objectives, and may include assessment of exploratory objectives. The primary database lock will include all study data, except for immunogenicity data, up to the last patient discharge from the CRU.</p>\n<p>If patients need additional follow-up for TE ADA, an additional database lock may be conducted to develop the clinical study report. The database lock may contain all patients\u2019 data up to the follow-up visit, except for immunogenicity data. The final database lock is planned after all patients complete the follow-up period and additional follow-up for TE ADA (if needed).</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_98",
+              "name": "SECTION 11",
+              "sectionNumber": "11",
+              "sectionTitle": "References",
+              "text": "<div><p>American Diabetes Association; Workgroup on Hypoglycemia. Defining and reporting</p>\n<p>hypoglycemia in diabetes: a report from the American Diabetes Association Workgroup on Hypoglycemia. Diabetes Care. 2005;28(5):1245-1249.</p>\n<p>American Diabetes Association. Glycemic targets. Diabetes Care. 2017;40(suppl 1):S48-S56.</p>\n<p>GlucaGen (glucagon [rDNA origin] for injection) [Summary of Product Characteristics].</p>\n<p>Bagsvaerd, Denmark: Novo Nordisk; revised 2015. Available at:<br/>\nhttps://www.medicines.org.uk/emc/medicine/4258#DOCREVISION. Accessed September 29,<br/>\n2017.</p>\n<p>Glucagon G Novo for Injection [Package Insert]. Bagsvaerd, Denmark: Novo Nordisk; revised</p>\n<p>2016. Available at:<br/>\nhttp://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/620023_7229402D1036_<br/>\n1_06. Accessed September 28, 2017.</p>\n<p>Glucagon G Novo for Injection [Interview Form]. Bagsvaerd, Denmark: Novo Nordisk; 2015.</p>\n<p>Available at: http://www.info.pmda.go.jp/go/interview/1/620023_7229402D1036_1_007_1F. Accessed September 28, 2017.</p>\n<p>GLUCAGON for Injection ITO [Package Insert]. Osaka, Japan: Kaigen Pharma Co., Ltd; 2016.</p>\n<p>Available at:<br/>\nhttp://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/130616_7229400D1088_<br/>\n1_11.</p>\n<p>GLUCAGON for Injection ITO [Interview Form]. Osaka, Japan: Kaigen Pharma Co., Ltd; 2016.</p>\n<p>Available at: http://www.info.pmda.go.jp/go/interview/1/130616_7229400D1088_1_G07_1F. Accessed September 28, 2017.</p>\n<p>Polonsky WH, Fisher L, Hessler D, Johnson N. Emotional distress in the partners of type 1</p>\n<p>diabetes adults: worries about hypoglycemia and other key concerns. Diabetes Technol Ther. 2016;18:292-297.</p>\n<p>Rickels MR, Ruedy KJ, Foster NC, Pich\u00e9 CA, Dulude H, Sherr JL, Tamborlane WV, Bethin KE,<br/>\nDiMeglio LA, Wadwa RP, Ahmann AJ, Haller MJ, Nathan BM, Marcovina SM, Rampakakis<br/>\nE, Meng L, Beck RW; T1D Exchange Intranasal Glucagon Investigators. Intranasal glucagon<br/>\nfor treatment of insulin-induced hypoglycemia in adults with type 1 diabetes: a randomized<br/>\ncrossover noninferiority study. Diabetes Care. 2016;39(2):264-270.</p>\n<p>Reno FE, Normand P, McInally K, Silo S, Stotland P, Triest M, Carballo D, Pich\u00e9 C. A novel</p>\n<p>nasal powder formulation of glucagon: toxicology studies in animal models. BMC Pharmacol Toxicol. 2015;16:29.</p>\n<p>Seaquist ER, Anderson J, Childs B, Cryer P, Dagogo-Jack S, Fish L, Heller SR, Rodriguez H,<br/>\nRosenzweig J, Vigersky R. Hypoglycemia and diabetes: a report of a workgroup of the<br/>\nAmerican Diabetes Association and the Endocrine Society. Diabetes Care.<br/>\n2013;36(5):1384-1395</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_99",
+              "name": "SECTION Appendix 1.",
+              "sectionNumber": "Appendix 1.",
+              "sectionTitle": "Abbreviations and Definitions",
+              "text": "<div><p><b>Term Definition</b></p>\n<p><b>ADA AE</b></p>\n<p><b>ALP ALT AUC AUECabove AUECbelow AUECwithin AUEC0-1.5 BGmax BP CI CIOMS Cmax complaint</b></p>\n<p><b>compliance</b></p>\n<p><b>confirmation</b></p>\n<p><b>CP</b></p>\n<p>antidrug antibodies adverse event: Any untoward medical occurrence in a patient or clinical investigation patient administered a pharmaceutical product that does not necessarily have a causal relationship with this treatment. An AE can therefore be any unfavorable and unintended sign (including an abnormal laboratory finding), symptom, or disease temporally associated with the use of a medicinal (investigational) product, whether or not related to the medicinal (investigational) product.</p>\n<p>alkaline phosphatase<br/>\nalanine aminotransferase<br/>\narea under the concentration versus time curve<br/>\narea under the effect concentration-time curve above the normal range<br/>\narea under the effect concentration-time curve below the normal range<br/>\narea under the effect concentration-time curve within the normal range<br/>\narea under the effect concentration-time curve from time zero (predose) up to 1.5 hours<br/>\nmaximal plasma glucose concentration<br/>\nblood pressure<br/>\nconfidence interval<br/>\nCouncil for International Organizations of Medical Sciences<br/>\nmaximal concentration<br/>\nA complaint is any written, electronic, or oral communication that alleges deficiencies<br/>\nrelated to the identity, quality, purity, durability, reliability, safety or effectiveness, or<br/>\nperformance of a drug or drug delivery system.</p>\n<p>Adherence to all the study-related requirements, good clinical practice (GCP) requirements, and the applicable regulatory requirements.</p>\n<p>A process used to confirm that laboratory test results meet the quality requirements defined by the laboratory generating the data and that Lilly is confident that results are accurate. Confirmation will either occur immediately after initial testing or will require that samples be held to be retested at some defined time point, depending on the steps required to obtain confirmed results.</p>\n<p>clinical pharmacologist</p>\n<p><b>CRF CRP</b></p>\n<p><b>CRU CSII Durationabove Durationbelow Durationwithin ECG enroll</b></p>\n<p><b>enter</b></p>\n<p><b>ERB</b><br/>\n<b>FSH</b><br/>\n<b>GCP</b><br/>\n<b>HbA1c</b><br/>\n<b>HIV</b><br/>\n<b>IB</b><br/>\n<b>ICF</b><br/>\n<b>ICH</b><br/>\n<b>informed consent</b></p>\n<p><b>interim analysis</b></p>\n<p><b>investigational product</b></p>\n<p>case report form clinical research physician: Individual responsible for the medical conduct of the study. Responsibilities of the CRP may be performed by a physician, clinical research scientist, global safety physician or other medical officer.</p>\n<p>clinical research unit<br/>\ncontinuous subcutaneous insulin infusion<br/>\nduration above normal range<br/>\nduration below normal range<br/>\nduration within normal range<br/>\nelectrocardiogram<br/>\nThe act of assigning a patient to a treatment. Patients who are enrolled in the study are<br/>\nthose who have been assigned to a treatment.</p>\n<p>Patients entered into a study are those who sign the informed consent form directly or through their legally acceptable representatives.</p>\n<p>ethical review board<br/>\nfollicle-stimulating hormone<br/>\ngood clinical practice<br/>\nhemoglobin A1c<br/>\nhuman immunodeficiency virus<br/>\nInvestigator\u2019s Brochure<br/>\ninformed consent form<br/>\nInternational Council for Harmonization<br/>\nA process by which a patient voluntarily confirms his or her willingness to participate in<br/>\na particular study, after having been informed of all aspects of the study that are relevant<br/>\nto the patient\u2019s decision to participate. Informed consent is documented by means of a<br/>\nwritten, signed and dated informed consent form.</p>\n<p>An interim analysis is an analysis of clinical study data, separated into treatment groups, that is conducted before the final reporting database is created/locked.</p>\n<p>A pharmaceutical form of an active ingredient or placebo being tested or used as a reference in a clinical study, including products already on the market when used or assembled (formulated or packaged) in a way different from the authorized form, or marketed products used for an unauthorized indication, or marketed products used to gain further information about the authorized form.</p>\n<p><b>investigator</b></p>\n<p><b>IM</b><br/>\n<b>IMG</b><br/>\n<b>IV</b><br/>\n<b>NCA</b><br/>\n<b>NIM</b><br/>\n<b>OAM</b><br/>\n<b>open-label</b></p>\n<p><b>randomize</b><br/>\n<b>PD</b><br/>\n<b>PK</b><br/>\n<b>PG</b><br/>\n<b>SAE</b><br/>\n<b>SAP</b><br/>\n<b>screen</b></p>\n<p><b>SUSARs tabove tbelow TBL TE ADA TEAE</b></p>\n<p class=\"p18\"><b>Tmax twithin</b></p>\n<p>A person responsible for the conduct of the clinical study at a study site. If a study is conducted by a team of individuals at a study site, the investigator is the responsible leader of the team and may be called the principal investigator.</p>\n<p>intramuscular<br/>\nintramuscular glucagon<br/>\nintravenous<br/>\nnoncompartmental methods of analysis<br/>\nnon-inferiority margin<br/>\noral anti-hyperglycemic medication<br/>\nA study in which there are no restrictions on knowledge of treatment allocation,<br/>\ntherefore the investigator and the study participant are aware of the drug therapy<br/>\nreceived during the study.</p>\n<p>The process of assigning patients to an experimental group on a random basis.<br/>\npharmacodynamic(s)<br/>\npharmacokinetic(s)<br/>\nplasma glucose<br/>\nserious adverse event<br/>\nstatistical analysis plan<br/>\nThe act of determining if an individual meets minimum requirements to become part of<br/>\na pool of potential candidates for participation in a clinical study.</p>\n<p>suspected unexpected serious adverse reactions<br/>\ntime to concentrations above normal range<br/>\ntime to concentrations below normal range (after t above )<br/>\ntotal bilirubin<br/>\ntreatment-emergent antidrug antibodies<br/>\ntreatment-emergent adverse event: Any untoward medical occurrence that emerges<br/>\nduring a defined treatment period, having been absent pretreatment, or worsens relative<br/>\nto the pretreatment state, and does not necessarily have to have a causal relationship<br/>\nwith this treatment.</p>\n<p>time to maximal concentration<br/>\ntime to concentrations within normal range</p>\n<p><b>T1DM T2DM ULN WHO</b></p>\n<p>type 1 diabetes mellitus type 2 diabetes mellitus upper limit of normal World Health Organization</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_100",
+              "name": "SECTION Appendix 2.",
+              "sectionNumber": "Appendix 2.",
+              "sectionTitle": "Clinical Laboratory Tests",
+              "text": "<div><p><b>Safety Laboratory Tests</b></p>\n<p>Hematology a<br/>\nHematocrit<br/>\nHemoglobin<br/>\nErythrocyte count (RBC)<br/>\nMean cell volume<br/>\nMean cell hemoglobin<br/>\nMean cell hemoglobin concentration<br/>\nPlatelets<br/>\nLeukocytes (WBC)<br/>\nCell morphology<br/>\nRelative/% counts of:<br/>\nNeutrophils<br/>\nLymphocytes<br/>\nMonocytes<br/>\nEosinophils<br/>\nBasophils</p>\n<p>Urinalysisa</p>\n<p>Clinical Chemistrya</p>\n<p>Sodium<br/>\nPotassium<br/>\nChloride<br/>\nCalcium<br/>\nPhosphorus<br/>\nPlasma Glucose<br/>\nBlood urea nitrogen (BUN)<br/>\nUric acid<br/>\nTotal cholesterol<br/>\nTotal protein<br/>\nAlbumin<br/>\nTotal bilirubin<br/>\nAlkaline phosphatase (ALP)<br/>\nAspartate aminotransferase (AST)<br/>\nAlanine aminotransferase (ALT)<br/>\nCreatinine<br/>\nGamma-glutamyl transferase (GGT)<br/>\nInsulin</p>\n<p>Specific gravity pH Protein Glucose Ketones Bilirubin Urobilinogen Blood Nitrite</p>\n<p>Pregnancy test FSH b,e Ethanol testing b Urine drug screen</p>\n<p>d</p>\n<p>b</p>\n<p>HbA1c c</p>\n<p>Clinical Serology Test b<br/>\nHepatitis B surface antigen<br/>\nHepatitis C antibody<br/>\nHIV<br/>\nSyphilis</p>\n<p>Abbreviations: FSH = follicle-stimulating hormone; HbA1c = hemoglobin A1c; HIV = human immunodeficiency<br/>\nvirus; RBC = red blood cells; WBC = white blood cells.</p>\n<p>a Performed by the local laboratory at screening. Performed by the sponsor-designated central laboratory at every</p>\n<p>treatment period and follow-up visit.</p>\n<p>b Performed at screening only by the local laboratory.<br/>\nc Performed by the local laboratory at screening and by the sponsor-designated central laboratory at other time</p>\n<p>point(s).</p>\n<p>d Female patients of childbearing potential only. Serum pregnancy test at screening and urine pregnancy tests at</p>\n<p>every treatment period and follow-up visit will be performed by the local laboratory. e Female patients only, when needed to confirm postmenopausal status.</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_101",
+              "name": "SECTION Appendix 3.",
+              "sectionNumber": "Appendix 3.",
+              "sectionTitle": "Study Governance, Regulatory and Ethical Considerations",
+              "text": "<div><p>Informed Consent</p>\n<p>The investigator is responsible for:</p>\n<p>\uf0b7</p>\n<p>\uf0b7</p>\n<p>\uf0b7</p>\n<p>\uf0b7</p>\n<p>ensuring that the patient understands the nature of the study, the potential risks and benefits of participating in the study, and that their participation is voluntary.</p>\n<p>ensuring that informed consent is given by each patient or legal representative. This includes obtaining the appropriate signatures and dates on the informed consent form (ICF) prior to the performance of any protocol procedures and prior to the administration of investigational product.</p>\n<p>answering any questions the patient may have throughout the study and sharing in a timely manner any new information that may be relevant to the patient\u2019s willingness to continue his or her participation in the study.</p>\n<p>providing a copy of the ICF to the participant or the participant\u2019s legal representative and retaining a copy on file.</p>\n<p>Recruitment</p>\n<p>Lilly or its designee is responsible for the central recruitment strategy for patients. Individual investigators may have additional local requirements or processes. Study-specific recruitment material should be approved by Lilly.</p>\n<p>Ethical Review</p>\n<p>The investigator must give assurance that the ethical review board (ERB) was properly constituted and convened as required by International Council for Harmonization (ICH) guidelines and other applicable laws and regulations.</p>\n<p>Documentation of ERB approval of the protocol and the ICF must be provided to Lilly before the study may begin at the investigative site(s). Lilly or its representatives must approve the ICF before it is used at the investigative site(s). All ICFs must be compliant with the ICH guideline on good clinical practice (GCP).</p>\n<p>The study site\u2019s ERB(s) should be provided with the following:</p>\n<p>\uf0b7</p>\n<p>\uf0b7 \uf0b7</p>\n<p>the current Investigator\u2019s Brochure or Package Insert and updates during the course of the study</p>\n<p>ICF</p>\n<p>relevant curricula vitae</p>\n<p>Regulatory Considerations</p>\n<p>This study will be conducted in accordance with the protocol and with:</p>\n<p>1) consensus ethics principles derived from international ethics guidelines,<br/>\nincluding the Declaration of Helsinki and Council for International<br/>\nOrganizations of Medical Sciences (CIOMS) International Ethical Guidelines</p>\n<p>2) applicable ICH GCP Guidelines</p>\n<p>3) applicable laws and regulations</p>\n<p>Some of the obligations of the sponsor will be assigned to a third party organization.</p>\n<p>Protocol Signatures</p>\n<p>The sponsor\u2019s responsible medical officer will approve the protocol, confirming that, to the best of his or her knowledge, the protocol accurately describes the planned design and conduct of the study.</p>\n<p>After reading the protocol, each principal investigator will sign the protocol signature page and send a copy of the signed page to a Lilly representative.</p>\n<p>Final Report Signature</p>\n<p>The final report coordinating investigator or designee will sign the clinical study report for this study, indicating agreement that, to the best of his or her knowledge, the report accurately describes the conduct and results of the study.</p>\n<p>The investigator with the most enrolled patients will serve as the final report coordinating investigator. If this investigator is unable to fulfill this function, another investigator will be chosen by Lilly to serve as the final report coordinating investigator.</p>\n<p>The sponsor\u2019s responsible medical officer and statistician will sign/approve the final clinical study report for this study, confirming that, to the best of his or her knowledge, the report accurately describes the conduct and results of the study.</p>\n<p>Data Quality Assurance</p>\n<p>To ensure accurate, complete, and reliable data, Lilly or its representatives will do the following:</p>\n<p>\uf0b7 \uf0b7</p>\n<p>\uf0b7 \uf0b7</p>\n<p>provide instructional material to the study sites, as appropriate.</p>\n<p>provide training to instruct the investigators and study coordinators. This training will give instruction on the protocol, the completion of the case report forms (CRFs), and study procedures.</p>\n<p>make periodic visits to the study site.</p>\n<p>be available for consultation and stay in contact with the study site personnel by mail, telephone, and/or fax.</p>\n<p>\uf0b7</p>\n<p>\uf0b7</p>\n<p>review and evaluate CRF data and/or use standard computer edits to detect errors in data collection.</p>\n<p>conduct a quality review of the database.</p>\n<p>In addition, Lilly or its representatives will periodically check a sample of the patient data recorded against source documents at the study site. The study may be audited by Lilly and/or regulatory agencies at any time. Investigators will be given notice before an audit occurs.</p>\n<p>The investigator will keep records of all original source data. This might include laboratory tests, medical records, and clinical notes. If requested, the investigator will provide the sponsor, applicable regulatory agencies, and applicable ERBs with direct access to the original source documents.</p>\n<p>Data Collection Tools/Source Data</p>\n<p>An electronic data capture system will be used in this study. The site must define and retain all source records and must maintain a record of any data where source data are directly entered into the data capture system.</p>\n<p>Data Protection</p>\n<p>Data systems used for the study will have controls and requirements in accordance with local data protection law.</p>\n<p>The purpose and use of patient personal information collected will be provided in a written document to the patient by the sponsor.</p>\n<p>Study and Site Closure Discontinuation of Study Sites</p>\n<p>Study site participation may be discontinued if Lilly or its designee, the investigator, or the ERB of the study site judges it necessary for medical, safety, regulatory, or other reasons consistent with applicable laws, regulations, and GCP.</p>\n<p>Discontinuation of the Study</p>\n<p>The study will be discontinued if Lilly or its designee judges it necessary for medical, safety, regulatory, or other reasons consistent with applicable laws, regulations, and GCP.</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_102",
+              "name": "SECTION Appendix 4.",
+              "sectionNumber": "Appendix 4.",
+              "sectionTitle": "Hepatic Monitoring Tests for Treatment-emergent Abnormality",
+              "text": "<div><p>Selected tests may be obtained in the event of a treatment-emergent hepatic abnormality and may be required in follow-up with patients in consultation with Lilly or its designee clinical research physician.</p>\n<p>Hepatic Monitoring Tests</p>\n<p>Hepatic Hematology Hemoglobin Hematocrit RBC WBC Neutrophils Lymphocytes Monocytes Eosinophils Basophils Platelets</p>\n<p>a Haptoglobin a</p>\n<p>Hepatic Coagulation Prothrombin time Prothrombin time, INR</p>\n<p class=\"p20\">a</p>\n<p class=\"p20\">a</p>\n<p>Hepatic Serologies a,b Hepatitis A antibody, total Hepatitis A antibody, IgM Hepatitis B surface antigen Hepatitis B surface antibody Hepatitis B core antibody Hepatitis C antibody Hepatitis E antibody, IgG Hepatitis E antibody, IgM</p>\n<p>Hepatic Chemistry Total bilirubin Conjugated bilirubin Alkaline phosphatase ALT AST GGT CPK</p>\n<p>Anti-nuclear antibody a Alkaline phosphatase isoenzymes a Anti-smooth muscle antibody (or anti-actin antibody) a</p>\n<p>Abbreviations: ALT = alanine aminotransferase; AST = aspartate aminotransferase; CPK = creatinine<br/>\nphosphokinase; GGT = gamma-glutamyl transferase; Ig = immunoglobulin; INR = international normalized<br/>\nratio; RBC = red blood cells; WBC = white blood cells.</p>\n<p>a Assayed by Lilly-designated laboratory.<br/>\nb Reflex/confirmation dependent on regulatory requirements and/or testing availability.</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_103",
+              "name": "SECTION Appendix 5.",
+              "sectionNumber": "Appendix 5.",
+              "sectionTitle": "Blood Sampling Summary",
+              "text": "<div><p>This table summarizes the approximate number of venipunctures and blood volumes for all blood sampling (screening, safety laboratories, and bioanalytical assays) during the study.</p>\n<p>Protocol I8R-JE-IGBJ Sampling Summary</p>\n<p>Purpose</p>\n<p>Blood Volume per Sample (mL)</p>\n<p>Number of Blood Samples</p>\n<p>Total Volume (mL)</p>\n<p>Screening tests a,b 27 1 27</p>\n<p>Clinical laboratory tests a 9 3 27</p>\n<p>Safety glucose monitoring c 1 140 d 140</p>\n<p>Pharmacokinetics (Glucagon) 4 32 e,f 128</p>\n<p>Pharmacodynamics (Plasma Glucose) 2 30 60</p>\n<p>HbA1c (Period 1) 2 1 2</p>\n<p>Anti-glucagon antibody 5 2e 10</p>\n<p>Pharmacogenetics 5 1 5</p>\n<p>Total 399</p>\n<p>a b</p>\n<p>c d</p>\n<p>e</p>\n<p>f</p>\n<p>Additional samples may be drawn if needed for safety purposes.</p>\n<p>Because screening tests are performed at local laboratories at each site, this volume is an estimate and will vary depending on the local laboratory\u2019s testing requirements.</p>\n<p>Sample volume may vary by each clinical research unit. The number of samples may vary by each patient. Number of samples for safety glucose monitoring calculated assuming samples are collected approximately every 3 minutes for 90 minutes during hypoglycemia induction. Samples collected for 90 minutes + 120 minutes post glucagon dose = 210 minutes per period/3 = 70 samples per period \u00d7 2 periods = 140 samples total. Samples for immunogenicity should be collected every 12 weeks until the titer returns to baseline (ie, returns to within a single 2-fold dilution of the baseline titer) or until 1 year after the last dose of study treatment. A time-matched pharmacokinetics (glucagon) sample may be collected at the follow-up immunogenicity assessment(s) if warranted and agreed upon between both the investigator and sponsor.</p>\n<p>Includes 3 additional samples to be drawn if needed.</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_104",
+              "name": "SECTION Appendix 6.",
+              "sectionNumber": "Appendix 6.",
+              "sectionTitle": "Nasal and Non-nasal Score Questionnaire",
+              "text": "<div><p>Nasal and Non-nasal Score Questionnaire</p>\n<p>Please select the number that corresponds best to the effects/symptoms you are experiencing at this time, or have experienced since last questioning.</p>\n<p>0=Not experiencing this (no symptoms at all).</p>\n<p>1=Only experiencing a mild case of this and it is easily tolerated.</p>\n<p>2=Experiencing a moderate level of this symptom. It is bothersome but tolerable.</p>\n<p>3=Experiencing a severe level of this symptom. It is hard to tolerate and interferes with your activities.</p>\n<p>Symptoms Scale</p>\n<p>0 None</p>\n<p>1 Mild</p>\n<p>2 Moderate</p>\n<p>3 Severe</p>\n<p>1. Runny nose 0 None</p>\n<p>1 Mild</p>\n<p>2 Moderate</p>\n<p>3 Severe</p>\n<p>2. Nasal congestion<br/>\n(nostrils plugged)</p>\n<p>0 None</p>\n<p>1 Mild</p>\n<p>2 Moderate</p>\n<p>3 Severe</p>\n<p>3. Nasal itching 0 None</p>\n<p>1 Mild</p>\n<p>2 Moderate</p>\n<p>3 Severe</p>\n<p>4. Sneezing 0 None</p>\n<p>1 Mild</p>\n<p>2 Moderate</p>\n<p>3 Severe</p>\n<p>5. Watery eyes 0 None</p>\n<p>1 Mild</p>\n<p>2 Moderate</p>\n<p>3 Severe</p>\n<p>6. Itchy eyes 0 None</p>\n<p>1 Mild</p>\n<p>2 Moderate</p>\n<p>3 Severe</p>\n<p>7. Redness of eyes 0 None</p>\n<p>1 Mild</p>\n<p>2 Moderate</p>\n<p>3 Severe</p>\n<p>8. Itching of ears 0 None</p>\n<p>1 Mild</p>\n<p>2 Moderate</p>\n<p>3 Severe</p>\n<p>9. Itching of throat 0 None</p>\n<p>1 Mild</p>\n<p>2 Moderate</p>\n<p>3 Severe</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_105",
+              "name": "SECTION Appendix 7.",
+              "sectionNumber": "Appendix 7.",
+              "sectionTitle": "Edinburgh Hypoglycemia Scale",
+              "text": "<div><p>Edinburgh Hypoglycemia Scale</p>\n<p>Each of the 13 symptoms will have a score of 1 to 7:</p>\n<p>1 = not experiencing this (no symptoms at all).</p>\n<p>2 = only experiencing a very mild case of this and it is easily tolerated.</p>\n<p>3 = only experiencing a mild case of this and it is tolerated.</p>\n<p>4 = experiencing a mild to moderate case of this and it is tolerated.</p>\n<p>5 = experiencing a moderate case of this and it is tolerated.</p>\n<p>6 = experiencing a moderate to severe level of this symptom. It is bothersome but tolerable. 7 = experiencing a severe level of this symptom. It is hard to tolerate.</p>\n<p class=\"p16\">Neuroglycopenic symptoms Cognitive dysfunction</p>\n<p>Inability to concentrate:</p>\n<p>1</p>\n<p class=\"p22\">\uf0a1</p>\n<p>No symptom</p>\n<p>2<br/>\n\uf0a1</p>\n<p>2<br/>\n\uf0a1</p>\n<p>2<br/>\n\uf0a1</p>\n<p>2<br/>\n\uf0a1</p>\n<p>2<br/>\n\uf0a1</p>\n<p>2<br/>\n\uf0a1</p>\n<p>3<br/>\n\uf0a1</p>\n<p>3<br/>\n\uf0a1</p>\n<p>3<br/>\n\uf0a1</p>\n<p>3<br/>\n\uf0a1</p>\n<p>3<br/>\n\uf0a1</p>\n<p>3<br/>\n\uf0a1</p>\n<p>4<br/>\n\uf0a1</p>\n<p>5<br/>\n\uf0a1</p>\n<p>5<br/>\n\uf0a1</p>\n<p>5<br/>\n\uf0a1</p>\n<p>5<br/>\n\uf0a1</p>\n<p>5<br/>\n\uf0a1</p>\n<p>5<br/>\n\uf0a1</p>\n<p>6<br/>\n\uf0a1</p>\n<p>6<br/>\n\uf0a1</p>\n<p>6<br/>\n\uf0a1</p>\n<p>6<br/>\n\uf0a1</p>\n<p>6<br/>\n\uf0a1</p>\n<p>6<br/>\n\uf0a1</p>\n<p>7<br/>\n\uf0a1</p>\n<p>mild to moderate symptom</p>\n<p>4<br/>\n\uf0a1</p>\n<p>mild to moderate symptom</p>\n<p>4<br/>\n\uf0a1</p>\n<p>mild to moderate symptom</p>\n<p>4<br/>\n\uf0a1</p>\n<p>mild to moderate symptom</p>\n<p>4<br/>\n\uf0a1</p>\n<p>mild to moderate symptom</p>\n<p>4<br/>\n\uf0a1</p>\n<p>mild to moderate symptom</p>\n<p>severe<br/>\nsymptom</p>\n<p>Blurred vision:</p>\n<p>1<br/>\n\uf0a1</p>\n<p>No symptom</p>\n<p>7<br/>\n\uf0a1</p>\n<p>severe<br/>\nsymptom</p>\n<p>Anxiety:</p>\n<p>1<br/>\n\uf0a1</p>\n<p>No symptom</p>\n<p>7<br/>\n\uf0a1</p>\n<p>severe<br/>\nsymptom</p>\n<p>Confusion:</p>\n<p>1<br/>\n\uf0a1</p>\n<p>No symptom</p>\n<p>7<br/>\n\uf0a1</p>\n<p>severe<br/>\nsymptom</p>\n<p>Difficulty speaking:</p>\n<p>1<br/>\n\uf0a1</p>\n<p>No symptom</p>\n<p>7<br/>\n\uf0a1</p>\n<p>severe<br/>\nsymptom</p>\n<p>Double vision:</p>\n<p>1<br/>\n\uf0a1</p>\n<p>No symptom</p>\n<p>7<br/>\n\uf0a1</p>\n<p>severe<br/>\nsymptom</p>\n<p class=\"p16\">Neuroglycopenia</p>\n<p>Drowsiness:</p>\n<p>1<br/>\n\uf0a1</p>\n<p>2<br/>\n\uf0a1</p>\n<p>3<br/>\n\uf0a1</p>\n<p>4<br/>\n\uf0a1</p>\n<p>5<br/>\n\uf0a1</p>\n<p>5<br/>\n\uf0a1</p>\n<p>5<br/>\n\uf0a1</p>\n<p>5<br/>\n\uf0a1</p>\n<p>5<br/>\n\uf0a1</p>\n<p>5<br/>\n\uf0a1</p>\n<p>5<br/>\n\uf0a1</p>\n<p>6<br/>\n\uf0a1</p>\n<p>6<br/>\n\uf0a1</p>\n<p>6<br/>\n\uf0a1</p>\n<p>6<br/>\n\uf0a1</p>\n<p>6<br/>\n\uf0a1</p>\n<p>6<br/>\n\uf0a1</p>\n<p>6<br/>\n\uf0a1</p>\n<p>7<br/>\n\uf0a1</p>\n<p>No symptom mild to moderate symptom</p>\n<p>4<br/>\n\uf0a1</p>\n<p>mild to moderate symptom</p>\n<p>4<br/>\n\uf0a1</p>\n<p>mild to moderate symptom</p>\n<p>4<br/>\n\uf0a1</p>\n<p>mild to moderate symptom</p>\n<p>4<br/>\n\uf0a1</p>\n<p>mild to moderate symptom</p>\n<p>4<br/>\n\uf0a1</p>\n<p>mild to moderate symptom</p>\n<p>4<br/>\n\uf0a1</p>\n<p>mild to moderate symptom</p>\n<p>severe<br/>\nsymptom</p>\n<p>Tiredness:</p>\n<p>1<br/>\n\uf0a1</p>\n<p>No symptom</p>\n<p>2<br/>\n\uf0a1</p>\n<p>2<br/>\n\uf0a1</p>\n<p>2<br/>\n\uf0a1</p>\n<p>2<br/>\n\uf0a1</p>\n<p>2<br/>\n\uf0a1</p>\n<p>2<br/>\n\uf0a1</p>\n<p>3<br/>\n\uf0a1</p>\n<p>3<br/>\n\uf0a1</p>\n<p>3<br/>\n\uf0a1</p>\n<p>3<br/>\n\uf0a1</p>\n<p>3<br/>\n\uf0a1</p>\n<p>3<br/>\n\uf0a1</p>\n<p>7<br/>\n\uf0a1</p>\n<p>severe<br/>\nsymptom</p>\n<p>Hunger:</p>\n<p>1<br/>\n\uf0a1</p>\n<p>No symptom</p>\n<p>7<br/>\n\uf0a1</p>\n<p>severe<br/>\nsymptom</p>\n<p>Weakness:</p>\n<p>1<br/>\n\uf0a1</p>\n<p>No symptom</p>\n<p>7<br/>\n\uf0a1</p>\n<p>severe<br/>\nsymptom</p>\n<p class=\"p16\">Autonomic symptoms</p>\n<p>Sweating:</p>\n<p>1<br/>\n\uf0a1</p>\n<p>No symptom</p>\n<p>7<br/>\n\uf0a1</p>\n<p>severe<br/>\nsymptom</p>\n<p>Trembling:</p>\n<p>1<br/>\n\uf0a1</p>\n<p>No symptom</p>\n<p>7<br/>\n\uf0a1</p>\n<p>severe<br/>\nsymptom</p>\n<p>Warmness:</p>\n<p>1<br/>\n\uf0a1</p>\n<p>No symptom</p>\n<p>7<br/>\n\uf0a1</p>\n<p>severe<br/>\nsymptom</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_106",
+              "name": "SECTION Appendix 8.",
+              "sectionNumber": "Appendix 8.",
+              "sectionTitle": "Clarke Hypoglycemia Awareness Survey",
+              "text": "<div><p>Clarke Hypoglycemia Awareness Survey</p>\n<p>1. Check the category that best describes you: (check one only)</p>\n<p>I always have symptoms when my blood sugar is low A</p>\n<p>I sometime have symptoms when my blood sugar is low R</p>\n<p>I no longer have symptoms when my blood sugar is low R</p>\n<p>2. Have you lost some of the symptoms that used to occur when your blood sugar was low:</p>\n<p>Yes R</p>\n<p>No A</p>\n<p class=\"p23\">3. In the past six months, how often have you had moderate hypoglycemia episodes? (Episodes<br/>\nwhere you might feel confused, disoriented or lethargic and were unable to treat yourself)</p>\n<p>Never A</p>\n<p>Once or twice R</p>\n<p>Every other month R</p>\n<p>Every month R</p>\n<p>More than once a month R</p>\n<p class=\"p23\">4. In the past year, how often have you had severe hypoglycemic episodes? (Episodes where<br/>\nyou were unconscious or had a seizure and needed glucagon or intravenous glucose)</p>\n<p>Never A 5 times R 10 times R</p>\n<p>1 time R 6 times R 11 times R</p>\n<p>2 times R 7 times R 12 times or more</p>\n<p>R</p>\n<p>3 times R 8 times R</p>\n<p>4 times R 9 times R</p>\n<p>5. How often in the last month have you had readings &lt;70 mg/dL (3.9 mmol/L) with<br/>\nsymptoms?</p>\n<p>Never 1 time/week 4 to 5<br/>\ntimes/week</p>\n<p>1 to 3 times 2 to 3<br/>\ntimes/week</p>\n<p>Almost daily</p>\n<p>6. How often in the last month have you had readings &lt;70 mg/dL (3.9 mmol/L) without<br/>\nsymptoms?</p>\n<p>Never 1 time/week 4 to 5<br/>\ntimes/week</p>\n<p>1 to 3 times 2 to 3<br/>\ntimes/week</p>\n<p>Almost daily</p>\n<p>If answer to question 5 &lt; answer to question 6 R</p>\n<p>If answer to question 6 &lt; answer to question 5 A</p>\n<p>7. How low does your blood sugar need to go before you feel symptoms?</p>\n<p>60-69 mg/dL; 3.3-3.8 mmol/L A</p>\n<p>50-59 mg/dL; 2.8-3.3 mmol/L R</p>\n<p>40-49 mg/dL; 2.2-2.7 mmol/L R</p>\n<p>Less than 40 mg/dL; less than 2.2 mmol/L R</p>\n<p>8. To what extent can you tell by your symptoms that your blood sugar is low?</p>\n<p>Never R</p>\n<p>Rarely R</p>\n<p>Sometimes R</p>\n<p>Often A</p>\n<p>Always A</p>\n<p>Abbreviations: A = aware; R = reduced awareness.</p>\n<p>Final Score: Total Number of \u201cR\u201d responses. Reduced awareness = 4 or more reduced responses; Intermediate = 3 reduced responses; Aware = 2 or fewer reduced responses.</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_107",
+              "name": "SECTION Appendix 9.",
+              "sectionNumber": "Appendix 9.",
+              "sectionTitle": "Protocol Amendment I8R-JE-IGBJ(a)\nSummary A Phase 3 Study of Nasal Glucagon\n(LY900018) Compared to Intramuscular Glucagon for\nTreatment of Insulin-induced Hypoglycemia in Japanese\nPatients with Diabetes Mellitus",
+              "text": "<div><p>Overview</p>\n<p>Protocol I8R-JE-IGBJ A Phase 3 Study of Nasal Glucagon (LY900018) Compared to Intramuscular Glucagon for Treatment of Insulin-induced Hypoglycemia in Japanese Patients with Diabetes Mellitus has been amended. The new protocol is indicated by Amendment (a) and will be used to conduct the study in place of any preceding version of the protocol.</p>\n<p>The overall changes and rationale for the changes made to this protocol are as follows:</p>\n<p>\u2022 An exclusion criterion for patients with retinopathy or maculopathy was added due to the<br/>\npotential risk of fundal hemorrhage induced by hypoglycemia.</p>\n<p>\u2022 The GlucaGen reconstitution volume was changed from 1.0 mL to 1.1 mL in accordance<br/>\nwith instructions in the Summary of Product Characteristics (2015).</p>\n<p>LY900018</p>\n<p>Revised Protocol Sections</p>\n<p><b>Note:</b> All deletions have been identified by strikethroughs.</p>\n<p>All additions have been identified by the use of underscore.</p>\n<p>The numbering system used for inclusion and exclusion criteria provides a unique number for each criterion and allows for efficiency in data collection.</p>\n<p>In case an amendment to the protocol adds a criterion, that criterion will receive the next available number, regardless of whether it is an inclusion or exclusion criterion.</p>\n<p><b>6.2. Exclusion Criteria</b></p>\n<p>[36] have preproliferative and proliferative retinopathy or maculopathy requiring<br/>\ntreatment or not clinically stable in the last 6 months, or patients with active<br/>\nchanges in subjective eye symptoms as determined by the investigator if an<br/>\neye exam has not been performed in the last 6 months.</p>\n<p>Note: If an eye examination has been performed no more than 6 months before screening, it will not have to be repeated; however, the investigator will need to confirm via interview that there is no change in subjective symptoms.</p>\n<p><b>9.2.2.2. Intramuscular Glucagon Administration</b></p>\n<p>GlucaGen 1 mg for injection will be used as a comparator. The lyophilized 1 mg glucagon will be reconstituted with 1.01.1 mL diluent according to the instruction.</p>\n<p>LY900018</p></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            }
+          ],
           "childIds": [],
           "instanceType": "StudyProtocolDocumentVersion"
         }
