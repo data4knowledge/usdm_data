@@ -755,7 +755,7 @@
               {
                 "id": "Activity_12",
                 "name": "INSULIN_INFUSION",
-                "label": "Insulin infusion",
+                "label": "Insulin infusion to Induce Hypoglycemia",
                 "description": "Insulin infusion",
                 "previousId": "Activity_10",
                 "nextId": "Activity_13",
@@ -783,7 +783,7 @@
               {
                 "id": "Activity_14",
                 "name": "STUDY_TREATMENT",
-                "label": "Study Treatment administration",
+                "label": "Study Treatment Administration",
                 "description": "Study Treatment administration",
                 "previousId": "Activity_13",
                 "nextId": "Activity_17",
@@ -796,13 +796,16 @@
               },
               {
                 "id": "Activity_17",
-                "name": "VS",
-                "label": "Vital Signs",
+                "name": "VITAL_SIGNS",
+                "label": "Vital Signs (Supine Blood Pressure, Pulse Rate, and Body Temperature)",
                 "description": "Vital Signs",
                 "previousId": "Activity_14",
                 "nextId": "Activity_18",
                 "definedProcedures": [],
-                "biomedicalConceptIds": [],
+                "biomedicalConceptIds": [
+                  "BiomedicalConcept_1",
+                  "BiomedicalConcept_2"
+                ],
                 "bcCategoryIds": [],
                 "bcSurrogateIds": [
                   "BiomedicalConceptSurrogate_15",
@@ -849,13 +852,18 @@
                 "definedProcedures": [],
                 "biomedicalConceptIds": [],
                 "bcCategoryIds": [],
-                "bcSurrogateIds": [],
+                "bcSurrogateIds": [
+                  "BiomedicalConceptSurrogate_17",
+                  "BiomedicalConceptSurrogate_18",
+                  "BiomedicalConceptSurrogate_19",
+                  "BiomedicalConceptSurrogate_20"
+                ],
                 "timelineId": "",
                 "instanceType": "Activity"
               },
               {
                 "id": "Activity_21",
-                "name": "LB",
+                "name": "LAB_TESTS",
                 "label": "Clinical Lab Tests",
                 "description": "Clinical Lab Tests",
                 "previousId": "Activity_20",
@@ -863,7 +871,49 @@
                 "definedProcedures": [],
                 "biomedicalConceptIds": [],
                 "bcCategoryIds": [],
-                "bcSurrogateIds": [],
+                "bcSurrogateIds": [
+                  "BiomedicalConceptSurrogate_21",
+                  "BiomedicalConceptSurrogate_22",
+                  "BiomedicalConceptSurrogate_23",
+                  "BiomedicalConceptSurrogate_24",
+                  "BiomedicalConceptSurrogate_25",
+                  "BiomedicalConceptSurrogate_26",
+                  "BiomedicalConceptSurrogate_27",
+                  "BiomedicalConceptSurrogate_28",
+                  "BiomedicalConceptSurrogate_29",
+                  "BiomedicalConceptSurrogate_30",
+                  "BiomedicalConceptSurrogate_31",
+                  "BiomedicalConceptSurrogate_32",
+                  "BiomedicalConceptSurrogate_33",
+                  "BiomedicalConceptSurrogate_34",
+                  "BiomedicalConceptSurrogate_35",
+                  "BiomedicalConceptSurrogate_36",
+                  "BiomedicalConceptSurrogate_37",
+                  "BiomedicalConceptSurrogate_38",
+                  "BiomedicalConceptSurrogate_39",
+                  "BiomedicalConceptSurrogate_40",
+                  "BiomedicalConceptSurrogate_41",
+                  "BiomedicalConceptSurrogate_42",
+                  "BiomedicalConceptSurrogate_43",
+                  "BiomedicalConceptSurrogate_44",
+                  "BiomedicalConceptSurrogate_45",
+                  "BiomedicalConceptSurrogate_46",
+                  "BiomedicalConceptSurrogate_47",
+                  "BiomedicalConceptSurrogate_48",
+                  "BiomedicalConceptSurrogate_49",
+                  "BiomedicalConceptSurrogate_50",
+                  "BiomedicalConceptSurrogate_51",
+                  "BiomedicalConceptSurrogate_52",
+                  "BiomedicalConceptSurrogate_53",
+                  "BiomedicalConceptSurrogate_54",
+                  "BiomedicalConceptSurrogate_55",
+                  "BiomedicalConceptSurrogate_56",
+                  "BiomedicalConceptSurrogate_57",
+                  "BiomedicalConceptSurrogate_58",
+                  "BiomedicalConceptSurrogate_59",
+                  "BiomedicalConceptSurrogate_60",
+                  "BiomedicalConceptSurrogate_61"
+                ],
                 "timelineId": "",
                 "instanceType": "Activity"
               },
@@ -877,15 +927,17 @@
                 "definedProcedures": [],
                 "biomedicalConceptIds": [],
                 "bcCategoryIds": [],
-                "bcSurrogateIds": [],
+                "bcSurrogateIds": [
+                  "BiomedicalConceptSurrogate_62"
+                ],
                 "timelineId": "",
                 "instanceType": "Activity"
               },
               {
                 "id": "Activity_23",
                 "name": "PREGNANCY",
-                "label": "Serum Pregnancy Tests",
-                "description": "Serum Pregnancy Tests",
+                "label": "Pregnancy Test (Female patients of childbearing potential only)",
+                "description": "Pregnancy Tests",
                 "previousId": "Activity_22",
                 "nextId": "Activity_24",
                 "definedProcedures": [],
@@ -898,8 +950,8 @@
               {
                 "id": "Activity_24",
                 "name": "FSH",
-                "label": "FSH",
-                "description": "FSH",
+                "label": "FSH (Female patients only)",
+                "description": "Follicle-stimulating hormone",
                 "previousId": "Activity_23",
                 "nextId": "Activity_25",
                 "definedProcedures": [],
@@ -1112,7 +1164,293 @@
                 "instanceType": "Activity"
               }
             ],
-            "biomedicalConcepts": [],
+            "biomedicalConcepts": [
+              {
+                "id": "BiomedicalConcept_1",
+                "name": "Pulse Rate",
+                "label": "Pulse Rate",
+                "synonyms": [
+                  "Pulse"
+                ],
+                "reference": "/mdr/bc/packages/2022-10-26/biomedicalconcepts/C49676",
+                "properties": [
+                  {
+                    "id": "BiomedicalConceptProperty_1",
+                    "name": "Vital Signs Result",
+                    "label": "Vital Signs Result",
+                    "isRequired": true,
+                    "isEnabled": true,
+                    "datatype": "integer",
+                    "responseCodes": [],
+                    "code": {
+                      "id": "AliasCode_4",
+                      "standardCode": {
+                        "id": "Code_132",
+                        "code": "C173522",
+                        "codeSystem": "NCI Thesaurus",
+                        "codeSystemVersion": "",
+                        "decode": "Vital Signs Result",
+                        "instanceType": "Code"
+                      },
+                      "standardCodeAliases": [],
+                      "instanceType": "AliasCode"
+                    },
+                    "instanceType": "BiomedicalConceptProperty"
+                  },
+                  {
+                    "id": "BiomedicalConceptProperty_2",
+                    "name": "Count per Minute",
+                    "label": "Count per Minute",
+                    "isRequired": true,
+                    "isEnabled": true,
+                    "datatype": "string",
+                    "responseCodes": [
+                      {
+                        "id": "ResponseCode_1",
+                        "isEnabled": true,
+                        "code": {
+                          "id": "Code_133",
+                          "code": "C49673",
+                          "codeSystem": "http://www.cdisc.org",
+                          "codeSystemVersion": "2023-09-29",
+                          "decode": "Beats per Minute",
+                          "instanceType": "Code"
+                        },
+                        "instanceType": "ResponseCode"
+                      }
+                    ],
+                    "code": {
+                      "id": "AliasCode_5",
+                      "standardCode": {
+                        "id": "Code_134",
+                        "code": "C73688",
+                        "codeSystem": "NCI Thesaurus",
+                        "codeSystemVersion": "",
+                        "decode": "Count per Minute",
+                        "instanceType": "Code"
+                      },
+                      "standardCodeAliases": [],
+                      "instanceType": "AliasCode"
+                    },
+                    "instanceType": "BiomedicalConceptProperty"
+                  },
+                  {
+                    "id": "BiomedicalConceptProperty_3",
+                    "name": "Vital Signs Location",
+                    "label": "Vital Signs Location",
+                    "isRequired": true,
+                    "isEnabled": true,
+                    "datatype": "string",
+                    "responseCodes": [],
+                    "code": {
+                      "id": "AliasCode_6",
+                      "standardCode": {
+                        "id": "Code_135",
+                        "code": "C83088",
+                        "codeSystem": "NCI Thesaurus",
+                        "codeSystemVersion": "",
+                        "decode": "Vital Signs Location",
+                        "instanceType": "Code"
+                      },
+                      "standardCodeAliases": [],
+                      "instanceType": "AliasCode"
+                    },
+                    "instanceType": "BiomedicalConceptProperty"
+                  },
+                  {
+                    "id": "BiomedicalConceptProperty_4",
+                    "name": "Vital Signs Laterality",
+                    "label": "Vital Signs Laterality",
+                    "isRequired": true,
+                    "isEnabled": true,
+                    "datatype": "string",
+                    "responseCodes": [],
+                    "code": {
+                      "id": "AliasCode_7",
+                      "standardCode": {
+                        "id": "Code_136",
+                        "code": "C123975",
+                        "codeSystem": "NCI Thesaurus",
+                        "codeSystemVersion": "",
+                        "decode": "Vital Signs Laterality",
+                        "instanceType": "Code"
+                      },
+                      "standardCodeAliases": [],
+                      "instanceType": "AliasCode"
+                    },
+                    "instanceType": "BiomedicalConceptProperty"
+                  },
+                  {
+                    "id": "BiomedicalConceptProperty_5",
+                    "name": "Test Method",
+                    "label": "Test Method",
+                    "isRequired": true,
+                    "isEnabled": true,
+                    "datatype": "string",
+                    "responseCodes": [],
+                    "code": {
+                      "id": "AliasCode_8",
+                      "standardCode": {
+                        "id": "Code_137",
+                        "code": "C82535",
+                        "codeSystem": "NCI Thesaurus",
+                        "codeSystemVersion": "",
+                        "decode": "Test Method",
+                        "instanceType": "Code"
+                      },
+                      "standardCodeAliases": [],
+                      "instanceType": "AliasCode"
+                    },
+                    "instanceType": "BiomedicalConceptProperty"
+                  },
+                  {
+                    "id": "BiomedicalConceptProperty_6",
+                    "name": "Vital Signs Position",
+                    "label": "Vital Signs Position",
+                    "isRequired": true,
+                    "isEnabled": true,
+                    "datatype": "string",
+                    "responseCodes": [],
+                    "code": {
+                      "id": "AliasCode_9",
+                      "standardCode": {
+                        "id": "Code_138",
+                        "code": "C83114",
+                        "codeSystem": "NCI Thesaurus",
+                        "codeSystemVersion": "",
+                        "decode": "Vital Signs Position",
+                        "instanceType": "Code"
+                      },
+                      "standardCodeAliases": [],
+                      "instanceType": "AliasCode"
+                    },
+                    "instanceType": "BiomedicalConceptProperty"
+                  }
+                ],
+                "code": {
+                  "id": "AliasCode_3",
+                  "standardCode": {
+                    "id": "Code_131",
+                    "code": "C49676",
+                    "codeSystem": "NCI Thesaurus",
+                    "codeSystemVersion": "",
+                    "decode": "Pulse Rate",
+                    "instanceType": "Code"
+                  },
+                  "standardCodeAliases": [],
+                  "instanceType": "AliasCode"
+                },
+                "instanceType": "BiomedicalConcept"
+              },
+              {
+                "id": "BiomedicalConcept_2",
+                "name": "Body Temperature",
+                "label": "Body Temperature",
+                "synonyms": [
+                  "Temperature"
+                ],
+                "reference": "/mdr/bc/packages/2022-10-26/biomedicalconcepts/C174446",
+                "properties": [
+                  {
+                    "id": "BiomedicalConceptProperty_7",
+                    "name": "Vital Signs Result",
+                    "label": "Vital Signs Result",
+                    "isRequired": true,
+                    "isEnabled": true,
+                    "datatype": "decimal",
+                    "responseCodes": [],
+                    "code": {
+                      "id": "AliasCode_11",
+                      "standardCode": {
+                        "id": "Code_140",
+                        "code": "C173522",
+                        "codeSystem": "NCI Thesaurus",
+                        "codeSystemVersion": "",
+                        "decode": "Vital Signs Result",
+                        "instanceType": "Code"
+                      },
+                      "standardCodeAliases": [],
+                      "instanceType": "AliasCode"
+                    },
+                    "instanceType": "BiomedicalConceptProperty"
+                  },
+                  {
+                    "id": "BiomedicalConceptProperty_8",
+                    "name": "Unit of Temperature",
+                    "label": "Unit of Temperature",
+                    "isRequired": true,
+                    "isEnabled": true,
+                    "datatype": "string",
+                    "responseCodes": [
+                      {
+                        "id": "ResponseCode_2",
+                        "isEnabled": true,
+                        "code": {
+                          "id": "Code_141",
+                          "code": "C42537",
+                          "codeSystem": "http://www.cdisc.org",
+                          "codeSystemVersion": "2023-09-29",
+                          "decode": "Kelvin",
+                          "instanceType": "Code"
+                        },
+                        "instanceType": "ResponseCode"
+                      }
+                    ],
+                    "code": {
+                      "id": "AliasCode_12",
+                      "standardCode": {
+                        "id": "Code_142",
+                        "code": "C44276",
+                        "codeSystem": "NCI Thesaurus",
+                        "codeSystemVersion": "",
+                        "decode": "Unit of Temperature",
+                        "instanceType": "Code"
+                      },
+                      "standardCodeAliases": [],
+                      "instanceType": "AliasCode"
+                    },
+                    "instanceType": "BiomedicalConceptProperty"
+                  },
+                  {
+                    "id": "BiomedicalConceptProperty_9",
+                    "name": "Vital Signs Location",
+                    "label": "Vital Signs Location",
+                    "isRequired": true,
+                    "isEnabled": true,
+                    "datatype": "string",
+                    "responseCodes": [],
+                    "code": {
+                      "id": "AliasCode_13",
+                      "standardCode": {
+                        "id": "Code_143",
+                        "code": "C83088",
+                        "codeSystem": "NCI Thesaurus",
+                        "codeSystemVersion": "",
+                        "decode": "Vital Signs Location",
+                        "instanceType": "Code"
+                      },
+                      "standardCodeAliases": [],
+                      "instanceType": "AliasCode"
+                    },
+                    "instanceType": "BiomedicalConceptProperty"
+                  }
+                ],
+                "code": {
+                  "id": "AliasCode_10",
+                  "standardCode": {
+                    "id": "Code_139",
+                    "code": "C174446",
+                    "codeSystem": "NCI Thesaurus",
+                    "codeSystemVersion": "",
+                    "decode": "Body Temperature",
+                    "instanceType": "Code"
+                  },
+                  "standardCodeAliases": [],
+                  "instanceType": "AliasCode"
+                },
+                "instanceType": "BiomedicalConcept"
+              }
+            ],
             "bcCategories": [],
             "bcSurrogates": [
               {
@@ -1157,17 +1495,385 @@
               },
               {
                 "id": "BiomedicalConceptSurrogate_15",
-                "name": "SBP",
-                "label": "SBP",
-                "description": "SBP",
+                "name": "SYSBP",
+                "label": "SYSBP",
+                "description": "SYSBP",
                 "reference": "None set",
                 "instanceType": "BiomedicalConceptSurrogate"
               },
               {
                 "id": "BiomedicalConceptSurrogate_16",
-                "name": "DBP",
-                "label": "DBP",
-                "description": "DBP",
+                "name": "DIABP",
+                "label": "DIABP",
+                "description": "DIABP",
+                "reference": "None set",
+                "instanceType": "BiomedicalConceptSurrogate"
+              },
+              {
+                "id": "BiomedicalConceptSurrogate_17",
+                "name": "Hepatitis B surface antigen",
+                "label": "Hepatitis B surface antigen",
+                "description": "Hepatitis B surface antigen",
+                "reference": "None set",
+                "instanceType": "BiomedicalConceptSurrogate"
+              },
+              {
+                "id": "BiomedicalConceptSurrogate_18",
+                "name": "Hepatitis C antibody",
+                "label": "Hepatitis C antibody",
+                "description": "Hepatitis C antibody",
+                "reference": "None set",
+                "instanceType": "BiomedicalConceptSurrogate"
+              },
+              {
+                "id": "BiomedicalConceptSurrogate_19",
+                "name": "HIV",
+                "label": "HIV",
+                "description": "HIV",
+                "reference": "None set",
+                "instanceType": "BiomedicalConceptSurrogate"
+              },
+              {
+                "id": "BiomedicalConceptSurrogate_20",
+                "name": "Syphilis",
+                "label": "Syphilis",
+                "description": "Syphilis",
+                "reference": "None set",
+                "instanceType": "BiomedicalConceptSurrogate"
+              },
+              {
+                "id": "BiomedicalConceptSurrogate_21",
+                "name": "Hematocrit",
+                "label": "Hematocrit",
+                "description": "Hematocrit",
+                "reference": "None set",
+                "instanceType": "BiomedicalConceptSurrogate"
+              },
+              {
+                "id": "BiomedicalConceptSurrogate_22",
+                "name": "Hemoglobin",
+                "label": "Hemoglobin",
+                "description": "Hemoglobin",
+                "reference": "None set",
+                "instanceType": "BiomedicalConceptSurrogate"
+              },
+              {
+                "id": "BiomedicalConceptSurrogate_23",
+                "name": "Erythrocyte count (RBC)",
+                "label": "Erythrocyte count (RBC)",
+                "description": "Erythrocyte count (RBC)",
+                "reference": "None set",
+                "instanceType": "BiomedicalConceptSurrogate"
+              },
+              {
+                "id": "BiomedicalConceptSurrogate_24",
+                "name": "Mean cell volume",
+                "label": "Mean cell volume",
+                "description": "Mean cell volume",
+                "reference": "None set",
+                "instanceType": "BiomedicalConceptSurrogate"
+              },
+              {
+                "id": "BiomedicalConceptSurrogate_25",
+                "name": "Mean cell hemoglobin",
+                "label": "Mean cell hemoglobin",
+                "description": "Mean cell hemoglobin",
+                "reference": "None set",
+                "instanceType": "BiomedicalConceptSurrogate"
+              },
+              {
+                "id": "BiomedicalConceptSurrogate_26",
+                "name": "Mean cell hemoglobin concentration",
+                "label": "Mean cell hemoglobin concentration",
+                "description": "Mean cell hemoglobin concentration",
+                "reference": "None set",
+                "instanceType": "BiomedicalConceptSurrogate"
+              },
+              {
+                "id": "BiomedicalConceptSurrogate_27",
+                "name": "Platelets",
+                "label": "Platelets",
+                "description": "Platelets",
+                "reference": "None set",
+                "instanceType": "BiomedicalConceptSurrogate"
+              },
+              {
+                "id": "BiomedicalConceptSurrogate_28",
+                "name": "Leukocytes (WBC)",
+                "label": "Leukocytes (WBC)",
+                "description": "Leukocytes (WBC)",
+                "reference": "None set",
+                "instanceType": "BiomedicalConceptSurrogate"
+              },
+              {
+                "id": "BiomedicalConceptSurrogate_29",
+                "name": "Cell morphology",
+                "label": "Cell morphology",
+                "description": "Cell morphology",
+                "reference": "None set",
+                "instanceType": "BiomedicalConceptSurrogate"
+              },
+              {
+                "id": "BiomedicalConceptSurrogate_30",
+                "name": "Neutrophils",
+                "label": "Neutrophils",
+                "description": "Neutrophils",
+                "reference": "None set",
+                "instanceType": "BiomedicalConceptSurrogate"
+              },
+              {
+                "id": "BiomedicalConceptSurrogate_31",
+                "name": "Lymphocytes",
+                "label": "Lymphocytes",
+                "description": "Lymphocytes",
+                "reference": "None set",
+                "instanceType": "BiomedicalConceptSurrogate"
+              },
+              {
+                "id": "BiomedicalConceptSurrogate_32",
+                "name": "Monocytes",
+                "label": "Monocytes",
+                "description": "Monocytes",
+                "reference": "None set",
+                "instanceType": "BiomedicalConceptSurrogate"
+              },
+              {
+                "id": "BiomedicalConceptSurrogate_33",
+                "name": "Eosinophils",
+                "label": "Eosinophils",
+                "description": "Eosinophils",
+                "reference": "None set",
+                "instanceType": "BiomedicalConceptSurrogate"
+              },
+              {
+                "id": "BiomedicalConceptSurrogate_34",
+                "name": "Basophils",
+                "label": "Basophils",
+                "description": "Basophils",
+                "reference": "None set",
+                "instanceType": "BiomedicalConceptSurrogate"
+              },
+              {
+                "id": "BiomedicalConceptSurrogate_35",
+                "name": "Sodium",
+                "label": "Sodium",
+                "description": "Sodium",
+                "reference": "None set",
+                "instanceType": "BiomedicalConceptSurrogate"
+              },
+              {
+                "id": "BiomedicalConceptSurrogate_36",
+                "name": "Potassium",
+                "label": "Potassium",
+                "description": "Potassium",
+                "reference": "None set",
+                "instanceType": "BiomedicalConceptSurrogate"
+              },
+              {
+                "id": "BiomedicalConceptSurrogate_37",
+                "name": "Chloride",
+                "label": "Chloride",
+                "description": "Chloride",
+                "reference": "None set",
+                "instanceType": "BiomedicalConceptSurrogate"
+              },
+              {
+                "id": "BiomedicalConceptSurrogate_38",
+                "name": "Calcium",
+                "label": "Calcium",
+                "description": "Calcium",
+                "reference": "None set",
+                "instanceType": "BiomedicalConceptSurrogate"
+              },
+              {
+                "id": "BiomedicalConceptSurrogate_39",
+                "name": "Phosphorus",
+                "label": "Phosphorus",
+                "description": "Phosphorus",
+                "reference": "None set",
+                "instanceType": "BiomedicalConceptSurrogate"
+              },
+              {
+                "id": "BiomedicalConceptSurrogate_40",
+                "name": "Plasma Glucose",
+                "label": "Plasma Glucose",
+                "description": "Plasma Glucose",
+                "reference": "None set",
+                "instanceType": "BiomedicalConceptSurrogate"
+              },
+              {
+                "id": "BiomedicalConceptSurrogate_41",
+                "name": "Blood urea nitrogen (BUN)",
+                "label": "Blood urea nitrogen (BUN)",
+                "description": "Blood urea nitrogen (BUN)",
+                "reference": "None set",
+                "instanceType": "BiomedicalConceptSurrogate"
+              },
+              {
+                "id": "BiomedicalConceptSurrogate_42",
+                "name": "Uric acid",
+                "label": "Uric acid",
+                "description": "Uric acid",
+                "reference": "None set",
+                "instanceType": "BiomedicalConceptSurrogate"
+              },
+              {
+                "id": "BiomedicalConceptSurrogate_43",
+                "name": "Total cholesterol",
+                "label": "Total cholesterol",
+                "description": "Total cholesterol",
+                "reference": "None set",
+                "instanceType": "BiomedicalConceptSurrogate"
+              },
+              {
+                "id": "BiomedicalConceptSurrogate_44",
+                "name": "Total protein",
+                "label": "Total protein",
+                "description": "Total protein",
+                "reference": "None set",
+                "instanceType": "BiomedicalConceptSurrogate"
+              },
+              {
+                "id": "BiomedicalConceptSurrogate_45",
+                "name": "Albumin",
+                "label": "Albumin",
+                "description": "Albumin",
+                "reference": "None set",
+                "instanceType": "BiomedicalConceptSurrogate"
+              },
+              {
+                "id": "BiomedicalConceptSurrogate_46",
+                "name": "Total bilirubin",
+                "label": "Total bilirubin",
+                "description": "Total bilirubin",
+                "reference": "None set",
+                "instanceType": "BiomedicalConceptSurrogate"
+              },
+              {
+                "id": "BiomedicalConceptSurrogate_47",
+                "name": "Alkaline phosphatase (ALP)",
+                "label": "Alkaline phosphatase (ALP)",
+                "description": "Alkaline phosphatase (ALP)",
+                "reference": "None set",
+                "instanceType": "BiomedicalConceptSurrogate"
+              },
+              {
+                "id": "BiomedicalConceptSurrogate_48",
+                "name": "Aspartate aminotransferase (AST)",
+                "label": "Aspartate aminotransferase (AST)",
+                "description": "Aspartate aminotransferase (AST)",
+                "reference": "None set",
+                "instanceType": "BiomedicalConceptSurrogate"
+              },
+              {
+                "id": "BiomedicalConceptSurrogate_49",
+                "name": "Alanine aminotransferase (ALT)",
+                "label": "Alanine aminotransferase (ALT)",
+                "description": "Alanine aminotransferase (ALT)",
+                "reference": "None set",
+                "instanceType": "BiomedicalConceptSurrogate"
+              },
+              {
+                "id": "BiomedicalConceptSurrogate_50",
+                "name": "Creatinine",
+                "label": "Creatinine",
+                "description": "Creatinine",
+                "reference": "None set",
+                "instanceType": "BiomedicalConceptSurrogate"
+              },
+              {
+                "id": "BiomedicalConceptSurrogate_51",
+                "name": "Urinalysisa Gamma-glutamyl transferase (GGT)",
+                "label": "Urinalysisa Gamma-glutamyl transferase (GGT)",
+                "description": "Urinalysisa Gamma-glutamyl transferase (GGT)",
+                "reference": "None set",
+                "instanceType": "BiomedicalConceptSurrogate"
+              },
+              {
+                "id": "BiomedicalConceptSurrogate_52",
+                "name": "Insulin",
+                "label": "Insulin",
+                "description": "Insulin",
+                "reference": "None set",
+                "instanceType": "BiomedicalConceptSurrogate"
+              },
+              {
+                "id": "BiomedicalConceptSurrogate_53",
+                "name": "Specific gravity",
+                "label": "Specific gravity",
+                "description": "Specific gravity",
+                "reference": "None set",
+                "instanceType": "BiomedicalConceptSurrogate"
+              },
+              {
+                "id": "BiomedicalConceptSurrogate_54",
+                "name": "pH",
+                "label": "pH",
+                "description": "pH",
+                "reference": "None set",
+                "instanceType": "BiomedicalConceptSurrogate"
+              },
+              {
+                "id": "BiomedicalConceptSurrogate_55",
+                "name": "Protein",
+                "label": "Protein",
+                "description": "Protein",
+                "reference": "None set",
+                "instanceType": "BiomedicalConceptSurrogate"
+              },
+              {
+                "id": "BiomedicalConceptSurrogate_56",
+                "name": "Glucose",
+                "label": "Glucose",
+                "description": "Glucose",
+                "reference": "None set",
+                "instanceType": "BiomedicalConceptSurrogate"
+              },
+              {
+                "id": "BiomedicalConceptSurrogate_57",
+                "name": "Ketones",
+                "label": "Ketones",
+                "description": "Ketones",
+                "reference": "None set",
+                "instanceType": "BiomedicalConceptSurrogate"
+              },
+              {
+                "id": "BiomedicalConceptSurrogate_58",
+                "name": "Bilirubin",
+                "label": "Bilirubin",
+                "description": "Bilirubin",
+                "reference": "None set",
+                "instanceType": "BiomedicalConceptSurrogate"
+              },
+              {
+                "id": "BiomedicalConceptSurrogate_59",
+                "name": "Urobilinogen",
+                "label": "Urobilinogen",
+                "description": "Urobilinogen",
+                "reference": "None set",
+                "instanceType": "BiomedicalConceptSurrogate"
+              },
+              {
+                "id": "BiomedicalConceptSurrogate_60",
+                "name": "Blood",
+                "label": "Blood",
+                "description": "Blood",
+                "reference": "None set",
+                "instanceType": "BiomedicalConceptSurrogate"
+              },
+              {
+                "id": "BiomedicalConceptSurrogate_61",
+                "name": "Nitrite",
+                "label": "Nitrite",
+                "description": "Nitrite",
+                "reference": "None set",
+                "instanceType": "BiomedicalConceptSurrogate"
+              },
+              {
+                "id": "BiomedicalConceptSurrogate_62",
+                "name": "HbA1c",
+                "label": "HbA1c",
+                "description": "HbA1c",
                 "reference": "None set",
                 "instanceType": "BiomedicalConceptSurrogate"
               },
@@ -1671,7 +2377,7 @@
                 "description": "Indication One",
                 "codes": [
                   {
-                    "id": "Code_131",
+                    "id": "Code_144",
                     "code": "12345",
                     "codeSystem": "SNOMED",
                     "codeSystemVersion": "January 31, 2018",
@@ -1689,7 +2395,7 @@
                 "description": "Indication Two",
                 "codes": [
                   {
-                    "id": "Code_132",
+                    "id": "Code_145",
                     "code": "345678",
                     "codeSystem": "SNOMED",
                     "codeSystemVersion": "January 31, 2018",
@@ -1709,7 +2415,7 @@
                 "label": "Int Label 1",
                 "description": "Int Desc 1",
                 "role": {
-                  "id": "Code_138",
+                  "id": "Code_151",
                   "code": "role1",
                   "codeSystem": "M11",
                   "codeSystemVersion": "None set",
@@ -1717,7 +2423,7 @@
                   "instanceType": "Code"
                 },
                 "type": {
-                  "id": "Code_139",
+                  "id": "Code_152",
                   "code": "C1909",
                   "codeSystem": "http://www.cdisc.org",
                   "codeSystemVersion": "2023-09-29",
@@ -1728,7 +2434,7 @@
                   "id": "Quantity_4",
                   "value": 1.0,
                   "unit": {
-                    "id": "Code_142",
+                    "id": "Code_155",
                     "code": "C25301",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-09-29",
@@ -1739,7 +2445,7 @@
                 },
                 "codes": [
                   {
-                    "id": "Code_137",
+                    "id": "Code_150",
                     "code": "A",
                     "codeSystem": "SPONSOR",
                     "codeSystemVersion": "12",
@@ -1759,7 +2465,7 @@
                         "id": "Quantity_2",
                         "value": 14.0,
                         "unit": {
-                          "id": "Code_133",
+                          "id": "Code_146",
                           "code": "C25613",
                           "codeSystem": "http://www.cdisc.org",
                           "codeSystemVersion": "2023-09-29",
@@ -1777,7 +2483,7 @@
                       "id": "Quantity_3",
                       "value": 12.0,
                       "unit": {
-                        "id": "Code_135",
+                        "id": "Code_148",
                         "code": "C28253",
                         "codeSystem": "http://www.cdisc.org",
                         "codeSystemVersion": "2023-09-29",
@@ -1787,7 +2493,7 @@
                       "instanceType": "Quantity"
                     },
                     "route": {
-                      "id": "Code_134",
+                      "id": "Code_147",
                       "code": "C38197",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
@@ -1795,7 +2501,7 @@
                       "instanceType": "Code"
                     },
                     "frequency": {
-                      "id": "Code_136",
+                      "id": "Code_149",
                       "code": "C139179",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
@@ -1806,7 +2512,7 @@
                   }
                 ],
                 "productDesignation": {
-                  "id": "Code_141",
+                  "id": "Code_154",
                   "code": "desig1",
                   "codeSystem": "M11",
                   "codeSystemVersion": "None set",
@@ -1814,7 +2520,7 @@
                   "instanceType": "Code"
                 },
                 "pharmacologicClass": {
-                  "id": "Code_140",
+                  "id": "Code_153",
                   "code": "A",
                   "codeSystem": "FDA",
                   "codeSystemVersion": "None set",
@@ -1829,7 +2535,7 @@
                 "label": "Int Label 2",
                 "description": "Int Desc 2",
                 "role": {
-                  "id": "Code_148",
+                  "id": "Code_161",
                   "code": "role2",
                   "codeSystem": "M11",
                   "codeSystemVersion": "None set",
@@ -1837,7 +2543,7 @@
                   "instanceType": "Code"
                 },
                 "type": {
-                  "id": "Code_149",
+                  "id": "Code_162",
                   "code": "C1909",
                   "codeSystem": "http://www.cdisc.org",
                   "codeSystemVersion": "2023-09-29",
@@ -1848,7 +2554,7 @@
                   "id": "Quantity_7",
                   "value": 1.0,
                   "unit": {
-                    "id": "Code_152",
+                    "id": "Code_165",
                     "code": "C25301",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-09-29",
@@ -1859,7 +2565,7 @@
                 },
                 "codes": [
                   {
-                    "id": "Code_147",
+                    "id": "Code_160",
                     "code": "A",
                     "codeSystem": "SPONSOR",
                     "codeSystemVersion": "12",
@@ -1879,7 +2585,7 @@
                         "id": "Quantity_5",
                         "value": 14.0,
                         "unit": {
-                          "id": "Code_143",
+                          "id": "Code_156",
                           "code": "C25613",
                           "codeSystem": "http://www.cdisc.org",
                           "codeSystemVersion": "2023-09-29",
@@ -1897,7 +2603,7 @@
                       "id": "Quantity_6",
                       "value": 12.0,
                       "unit": {
-                        "id": "Code_145",
+                        "id": "Code_158",
                         "code": "C28253",
                         "codeSystem": "http://www.cdisc.org",
                         "codeSystemVersion": "2023-09-29",
@@ -1907,7 +2613,7 @@
                       "instanceType": "Quantity"
                     },
                     "route": {
-                      "id": "Code_144",
+                      "id": "Code_157",
                       "code": "C38197",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
@@ -1915,7 +2621,7 @@
                       "instanceType": "Code"
                     },
                     "frequency": {
-                      "id": "Code_146",
+                      "id": "Code_159",
                       "code": "C139179",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
@@ -1926,7 +2632,7 @@
                   }
                 ],
                 "productDesignation": {
-                  "id": "Code_151",
+                  "id": "Code_164",
                   "code": "desig2",
                   "codeSystem": "M11",
                   "codeSystemVersion": "None set",
@@ -1934,7 +2640,7 @@
                   "instanceType": "Code"
                 },
                 "pharmacologicClass": {
-                  "id": "Code_150",
+                  "id": "Code_163",
                   "code": "A",
                   "codeSystem": "FDA",
                   "codeSystemVersion": "None set",
@@ -1954,7 +2660,7 @@
                 "dictionaryId": null,
                 "instanceType": "Objective",
                 "level": {
-                  "id": "Code_157",
+                  "id": "Code_170",
                   "code": "C85826",
                   "codeSystem": "http://www.cdisc.org",
                   "codeSystemVersion": "2023-09-29",
@@ -1972,7 +2678,7 @@
                     "instanceType": "Endpoint",
                     "purpose": "",
                     "level": {
-                      "id": "Code_156",
+                      "id": "Code_169",
                       "code": "C94496",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
@@ -1991,7 +2697,7 @@
                 "dictionaryId": null,
                 "instanceType": "Objective",
                 "level": {
-                  "id": "Code_159",
+                  "id": "Code_172",
                   "code": "C85827",
                   "codeSystem": "http://www.cdisc.org",
                   "codeSystemVersion": "2023-09-29",
@@ -2009,7 +2715,7 @@
                     "instanceType": "Endpoint",
                     "purpose": "",
                     "level": {
-                      "id": "Code_158",
+                      "id": "Code_171",
                       "code": "C139173",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
@@ -2028,7 +2734,7 @@
                 "dictionaryId": null,
                 "instanceType": "Objective",
                 "level": {
-                  "id": "Code_161",
+                  "id": "Code_174",
                   "code": "C85827",
                   "codeSystem": "http://www.cdisc.org",
                   "codeSystemVersion": "2023-09-29",
@@ -2046,7 +2752,7 @@
                     "instanceType": "Endpoint",
                     "purpose": "",
                     "level": {
-                      "id": "Code_160",
+                      "id": "Code_173",
                       "code": "C139173",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
@@ -2065,7 +2771,7 @@
                 "dictionaryId": null,
                 "instanceType": "Objective",
                 "level": {
-                  "id": "Code_163",
+                  "id": "Code_176",
                   "code": "C85827",
                   "codeSystem": "http://www.cdisc.org",
                   "codeSystemVersion": "2023-09-29",
@@ -2083,7 +2789,7 @@
                     "instanceType": "Endpoint",
                     "purpose": "",
                     "level": {
-                      "id": "Code_162",
+                      "id": "Code_175",
                       "code": "C139173",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
@@ -2143,7 +2849,7 @@
                     "minValue": 18.0,
                     "maxValue": 64.0,
                     "unit": {
-                      "id": "Code_154",
+                      "id": "Code_167",
                       "code": "C29848",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
@@ -2178,7 +2884,7 @@
                     "minValue": 20.0,
                     "maxValue": 70.0,
                     "unit": {
-                      "id": "Code_155",
+                      "id": "Code_168",
                       "code": "C29848",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
@@ -2711,8 +3417,6 @@
                     "activityIds": [
                       "Activity_6",
                       "Activity_10",
-                      "Activity_21",
-                      "Activity_22",
                       "Activity_30"
                     ],
                     "encounterId": "Encounter_3"
@@ -2739,7 +3443,6 @@
                     "instanceType": "ScheduledActivityInstance",
                     "activityIds": [
                       "Activity_9",
-                      "Activity_10",
                       "Activity_14"
                     ],
                     "encounterId": "Encounter_3"
@@ -2795,8 +3498,6 @@
                     "instanceType": "ScheduledActivityInstance",
                     "activityIds": [
                       "Activity_10",
-                      "Activity_21",
-                      "Activity_22",
                       "Activity_30"
                     ],
                     "encounterId": "Encounter_6"
@@ -2823,7 +3524,6 @@
                     "instanceType": "ScheduledActivityInstance",
                     "activityIds": [
                       "Activity_9",
-                      "Activity_10",
                       "Activity_14"
                     ],
                     "encounterId": "Encounter_3"
@@ -3829,7 +4529,7 @@
               {
                 "id": "Condition_1",
                 "name": "COND1",
-                "label": "",
+                "label": "Eligibilty",
                 "description": "Eligibilty",
                 "text": "All eligibility criteria met",
                 "dictionaryId": null,
@@ -3843,19 +4543,6 @@
                 "id": "Condition_2",
                 "name": "COND2",
                 "label": "",
-                "description": "Discretion",
-                "text": "At the discretion of the investigator",
-                "dictionaryId": null,
-                "contextIds": [],
-                "appliesToIds": [
-                  "Procedure_3"
-                ],
-                "instanceType": "Condition"
-              },
-              {
-                "id": "Condition_3",
-                "name": "COND3",
-                "label": "",
                 "description": "Condition 1",
                 "text": "Stopped once bedside PG is <60 mg/dL",
                 "dictionaryId": null,
@@ -3866,8 +4553,8 @@
                 "instanceType": "Condition"
               },
               {
-                "id": "Condition_4",
-                "name": "COND4",
+                "id": "Condition_3",
+                "name": "COND3",
                 "label": "",
                 "description": "Condition 2",
                 "text": "5 minutes after bedside PG reaches <60 mg/dL and insulin infusion is stopped.",
@@ -3879,8 +4566,8 @@
                 "instanceType": "Condition"
               },
               {
-                "id": "Condition_5",
-                "name": "COND5",
+                "id": "Condition_4",
+                "name": "COND4",
                 "label": "",
                 "description": "IMG",
                 "text": "For IMG only",
@@ -3892,8 +4579,8 @@
                 "instanceType": "Condition"
               },
               {
-                "id": "Condition_6",
-                "name": "COND6",
+                "id": "Condition_5",
+                "name": "COND5",
                 "label": "",
                 "description": "Fasted",
                 "text": "At periods 1 and 2 pts should have fasted at least 8 hoours before any study procedures",
@@ -3905,8 +4592,8 @@
                 "instanceType": "Condition"
               },
               {
-                "id": "Condition_7",
-                "name": "COND7",
+                "id": "Condition_6",
+                "name": "COND6",
                 "label": "",
                 "description": "Childbearig potential",
                 "text": "Only females of childbearing potential",
@@ -3918,8 +4605,8 @@
                 "instanceType": "Condition"
               },
               {
-                "id": "Condition_8",
-                "name": "COND8",
+                "id": "Condition_7",
+                "name": "COND7",
                 "label": "",
                 "description": "Females",
                 "text": "Only Females when needed to confirm postmenopausal status",
@@ -3931,8 +4618,8 @@
                 "instanceType": "Condition"
               },
               {
-                "id": "Condition_9",
-                "name": "COND9",
+                "id": "Condition_8",
+                "name": "COND8",
                 "label": "Admission",
                 "description": "Patient admission PG level critieria",
                 "text": "Admission can be rescheduled if PG level is not 90 to 250 mg/dL on Day 1.",
@@ -3944,8 +4631,8 @@
                 "instanceType": "Condition"
               },
               {
-                "id": "Condition_10",
-                "name": "COND10",
+                "id": "Condition_9",
+                "name": "COND9",
                 "label": "Discharge",
                 "description": "Patient discharge critieria",
                 "text": "Patient may be discharged 6 hours after glucagon administration. A patient may remain inpatient at the CRU at the discretion of the investigator.",
@@ -3957,8 +4644,8 @@
                 "instanceType": "Condition"
               },
               {
-                "id": "Condition_11",
-                "name": "COND11",
+                "id": "Condition_10",
+                "name": "COND10",
                 "label": "Physical Examination",
                 "description": "Scope of patient physical examination",
                 "text": "After screening, medical assessment only performed to include medical review and targeted examination, as appropriate.",
@@ -3966,6 +4653,98 @@
                 "contextIds": [],
                 "appliesToIds": [
                   "Procedure_6"
+                ],
+                "instanceType": "Condition"
+              },
+              {
+                "id": "Condition_11",
+                "name": "COND11",
+                "label": "Hypoglycemia induction check",
+                "description": "Ability of patient to undergo hypoglycemia induction",
+                "text": "Review patients\u2019 insulin regimens to confirm acceptability to undergo the procedure to induce hypoglycemia.",
+                "dictionaryId": null,
+                "contextIds": [],
+                "appliesToIds": [
+                  "Activity_10"
+                ],
+                "instanceType": "Condition"
+              },
+              {
+                "id": "Condition_12",
+                "name": "COND12",
+                "label": "Carbohydrate-rich meal.",
+                "description": "Provision of carbohydrate-rich meal.",
+                "text": "After completion of all PK sampling, patients will be provided a carbohydrate-rich meal. The investigator will ensure the patient\u2019s PG is stable. A prandial insulin dose will be administered if needed.",
+                "dictionaryId": null,
+                "contextIds": [],
+                "appliesToIds": [
+                  "Procedure_4"
+                ],
+                "instanceType": "Condition"
+              },
+              {
+                "id": "Condition_13",
+                "name": "COND13",
+                "label": "Timing of insulin infusion",
+                "description": "Timing of insulin infusion",
+                "text": "Procedures in Period 2 will occur at approximately the same time as those in Period 1. Insulin infusion is stopped once bedside PG is <60 mg/dL.",
+                "dictionaryId": null,
+                "contextIds": [],
+                "appliesToIds": [
+                  "Activity_12"
+                ],
+                "instanceType": "Condition"
+              },
+              {
+                "id": "Condition_14",
+                "name": "COND14",
+                "label": "Patient fasting",
+                "description": "Patient fasting for labs tests",
+                "text": "Patients do not need to fast for samples at screening or follow-up. At Periods 1 and 2, samples should be collected from patients who have fasted at least 8 hours before any study procedures.",
+                "dictionaryId": null,
+                "contextIds": [],
+                "appliesToIds": [
+                  "Activity_21"
+                ],
+                "instanceType": "Condition"
+              },
+              {
+                "id": "Condition_15",
+                "name": "COND15",
+                "label": "Pregnancy tests",
+                "description": "Type of pregnancy tests",
+                "text": "Serum pregnancy test will be performed at screening. Urine pregnancy test will be performed at every admission period and follow-up visit if applicable.",
+                "dictionaryId": null,
+                "contextIds": [],
+                "appliesToIds": [
+                  "Activity_23"
+                ],
+                "instanceType": "Condition"
+              },
+              {
+                "id": "Condition_16",
+                "name": "COND16",
+                "label": "FSH testing",
+                "description": "FSH testing",
+                "text": "When needed to confirm postmenopausal status.",
+                "dictionaryId": null,
+                "contextIds": [],
+                "appliesToIds": [
+                  "Activity_24"
+                ],
+                "instanceType": "Condition"
+              },
+              {
+                "id": "Condition_17",
+                "name": "COND17",
+                "label": "Ethanol testing",
+                "description": "Ethanol testing",
+                "text": "Additional tests can be done at the discretion of the investigator.",
+                "dictionaryId": null,
+                "contextIds": [],
+                "appliesToIds": [
+                  "Activity_25",
+                  "Activity_26"
                 ],
                 "instanceType": "Condition"
               }
