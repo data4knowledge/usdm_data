@@ -2770,6 +2770,80 @@
                     }
                   }
                 ]
+              },
+              {
+                "id": "Objective_5",
+                "name": "OBJ5",
+                "label": "",
+                "description": "",
+                "text": "Explore the formation of anti-glucagon antibodies to glucagon",
+                "dictionaryId": null,
+                "instanceType": "Objective",
+                "level": {
+                  "id": "Code_178",
+                  "code": "C85827",
+                  "codeSystem": "http://www.cdisc.org",
+                  "codeSystemVersion": "2023-09-29",
+                  "decode": "Trial Secondary Objective",
+                  "instanceType": "Code"
+                },
+                "endpoints": [
+                  {
+                    "id": "Endpoint_5",
+                    "name": "END5",
+                    "label": "",
+                    "description": "",
+                    "text": "Presence of anti-glucagon antibodies",
+                    "dictionaryId": null,
+                    "instanceType": "Endpoint",
+                    "purpose": "",
+                    "level": {
+                      "id": "Code_177",
+                      "code": "C170559",
+                      "codeSystem": "http://www.cdisc.org",
+                      "codeSystemVersion": "2023-09-29",
+                      "decode": "Exploratory Endpoint",
+                      "instanceType": "Code"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "Objective_6",
+                "name": "OBJ6",
+                "label": "",
+                "description": "",
+                "text": "To evaluate the recovery from clinical symptoms of hypoglycemia",
+                "dictionaryId": null,
+                "instanceType": "Objective",
+                "level": {
+                  "id": "Code_180",
+                  "code": "C85827",
+                  "codeSystem": "http://www.cdisc.org",
+                  "codeSystemVersion": "2023-09-29",
+                  "decode": "Trial Secondary Objective",
+                  "instanceType": "Code"
+                },
+                "endpoints": [
+                  {
+                    "id": "Endpoint_6",
+                    "name": "END6",
+                    "label": "",
+                    "description": "",
+                    "text": "Hypoglycemia symptoms questionnaire",
+                    "dictionaryId": null,
+                    "instanceType": "Endpoint",
+                    "purpose": "",
+                    "level": {
+                      "id": "Code_179",
+                      "code": "C170559",
+                      "codeSystem": "http://www.cdisc.org",
+                      "codeSystemVersion": "2023-09-29",
+                      "decode": "Exploratory Endpoint",
+                      "instanceType": "Code"
+                    }
+                  }
+                ]
               }
             ],
             "population": {
@@ -4937,7 +5011,7 @@
               "name": "SECTION 4",
               "sectionNumber": "4",
               "sectionTitle": "Objectives and Endpoints",
-              "text": "<div><p>Table IGBJ.1 shows the objectives and endpoints of the study.</p>\n<p><b>Table IGBJ.1. Objectives and Endpoints</b></p>\n<p>Objectives Endpoints</p>\n<p>Primary To demonstrate that 3 mg LY900018 is non-inferior to 1 mg IMG for the proportion of patients achieving treatment success from insulin-induced hypoglycemia using a non-inferiority margin of 10%</p>\n<p>The proportion of patients achieving treatment success defined as either an increase in PG to &gt;70 mg/dL or an increase of &gt;20 mg/dL from nadir within 30 minutes after administration of glucagon. The nadir is defined as the minimum PG value at the time of or within 10 minutes following glucagon administration.</p>\n<p>Secondary<br/>\n\uf0b7 To compare the safety and tolerability of 3 mg</p>\n<p>LY900018 with 1 mg IMG<br/>\n\uf0b7 To characterize the PK profile of 3 mg LY900018</p>\n<p>compared to 1 mg IMG<br/>\n\uf0b7 To characterize the PD profile of 3 mg LY900018</p>\n<p>compared to 1 mg IMG</p>\n<p class=\"p12\">\uf0b7 \uf0b7 \uf0b7</p>\n<p>SAE, TEAEs (including gastrointestinal, nasal, and<br/>\nnon-nasal AEs), vital signs<br/>\nPK parameters include AUC, C max , T max</p>\n<p>PD parameters include BG max and T max</p>\n<p>Exploratory<br/>\n\uf0b7 Explore the formation of anti-glucagon antibodies</p>\n<p>to glucagon<br/>\n\uf0b7 To evaluate the recovery from clinical symptoms of</p>\n<p>hypoglycemia</p>\n<p class=\"p12\">\uf0b7 \uf0b7</p>\n<p>Presence of anti-glucagon antibodies</p>\n<p>Hypoglycemia symptoms questionnaire</p>\n<p>Abbreviations: AE = adverse event; AUC = area under the concentration versus time curve; BG max = maximal<br/>\nplasma glucose concentration; C max = maximal concentration; IMG = intramuscular glucagon;<br/>\nPD = pharmacodynamics; PG = plasma glucose; PK = pharmacokinetics; SAE = serious adverse event;<br/>\nTEAE = treatment-emergent adverse event; T max = time to maximal concentration.</p></div>",
+              "text": "<div>\n  <p>Table IGBJ.1 shows the objectives and endpoints of the study.</p>\n  <p><b>Table IGBJ.1. Objectives and Endpoints</b></p>\n  <table class=\"table\">\n    <tr>\n      <th>Objectives</th>\n      <th>Endpoints</th>\n    </tr>\n    <tr>\n      <td>\n        <p><b>Primary</b></p>\n        <p>\n          <usdm:ref namexref=\"OBJ1\" id=\"\" klass=\"Objective\" attribute=\"text\"></usdm:ref>\n        </p>\n      </td>\n      <td>\n        <p>&nbsp;</p>\n        <p>\n          <usdm:ref namexref=\"END1\" id=\"\" klass=\"Endpoint\" attribute=\"text\"></usdm:ref>\n        </p>\n      </td>\n    </tr>\n    <tr>\n      <td>\n        <p><b>Secondary</b></p>\n        <ul>\n          <li>\n            <p>\n              <usdm:ref namexref=\"OBJ2\" id=\"\" klass=\"Objective\" attribute=\"text\"></usdm:ref>\n            </p>\n          </li>\n          <li>\n            <p>\n              <usdm:ref namexref=\"OBJ3\" id=\"\" klass=\"Objective\" attribute=\"text\"></usdm:ref>\n            </p>\n          </li>\n          <li>\n            <p>\n              <usdm:ref namexref=\"OBJ4\" id=\"\" klass=\"Objective\" attribute=\"text\"></usdm:ref>\n            </p>\n          </li>\n        </ul>\n      </td>\n      <td>\n        <p>&nbsp;</p>\n        <ul>\n          <li>\n            <p>\n              <usdm:ref namexref=\"END2\" id=\"\" klass=\"Endpoint\" attribute=\"text\"></usdm:ref>\n            </p>\n          </li>\n          <li>\n            <p>\n              <usdm:ref namexref=\"END3\" id=\"\" klass=\"Endpoint\" attribute=\"text\"></usdm:ref>\n            </p>\n          </li>\n          <li>\n            <p>\n              <usdm:ref namexref=\"END4\" id=\"\" klass=\"Endpoint\" attribute=\"text\"></usdm:ref>\n            </p>\n          </li>\n        </ul>\n      </td>\n    </tr>\n    <tr>\n      <td>\n        <p><b>Exploratory</b></p>\n        <ul>\n          <li>\n            <p>\n              <usdm:ref namexref=\"OBJ5\" id=\"\" klass=\"Objective\" attribute=\"text\"></usdm:ref>\n            </p>\n          </li>\n          <li>\n            <p>\n              <usdm:ref namexref=\"OBJ6\" id=\"\" klass=\"Objective\" attribute=\"text\"></usdm:ref>\n            </p>\n          </li>\n        </ul>\n      </td>\n      <td>\n        <p>&nbsp;</p>\n        <ul>\n          <li>\n            <p>\n              <usdm:ref namexref=\"END5\" id=\"\" klass=\"Endpoint\" attribute=\"text\"></usdm:ref>\n            </p>\n          </li>\n          <li>\n            <p>\n              <usdm:ref namexref=\"END6\" id=\"\" klass=\"Endpoint\" attribute=\"text\"></usdm:ref>\n            </p>\n          </li>\n        </ul>\n      </td>\n    </tr>\n  </table>\n</div>\n<p><small>Abbreviations: AE = adverse event; AUC = area under the concentration versus time curve; BG max = maximal\n    plasma glucose concentration; C max = maximal concentration; IMG = intramuscular glucagon; PD = pharmacodynamics; PG\n    = plasma glucose; PK = pharmacokinetics; SAE = serious adverse event; TEAE = treatment-emergent adverse event; T max\n    = time to maximal concentration.</small></p>",
               "childIds": [],
               "instanceType": "NarrativeContent"
             },
