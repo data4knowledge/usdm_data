@@ -991,7 +991,7 @@
               },
               {
                 "id": "Activity_27",
-                "name": "PK",
+                "name": "PK_GLUCAGON",
                 "label": "PK (Glucagon)",
                 "description": "PK (Glucagon)",
                 "previousId": "Activity_26",
@@ -1019,8 +1019,8 @@
               },
               {
                 "id": "Activity_29",
-                "name": "GENETIC",
-                "label": "Genetic Sample",
+                "name": "GENETIC_SAMPLES",
+                "label": "Genetic Sample (stored)",
                 "description": "Genetic Sample",
                 "previousId": "Activity_28",
                 "nextId": "Activity_30",
@@ -1034,7 +1034,7 @@
               {
                 "id": "Activity_30",
                 "name": "ANTIBODIES",
-                "label": "Anti-glucagon antibodies",
+                "label": "Anti-glucagon Antibodies",
                 "description": "Anti-glucagon antibodies",
                 "previousId": "Activity_29",
                 "nextId": "Activity_31",
@@ -1047,7 +1047,7 @@
               },
               {
                 "id": "Activity_31",
-                "name": "CH_SURVEY",
+                "name": "CLARKE_SURVEY",
                 "label": "Clarke Hypoglycemia Awareness Survey",
                 "description": "Clarke Hypoglycemia Awareness Survey",
                 "previousId": "Activity_30",
@@ -3416,8 +3416,7 @@
                     "instanceType": "ScheduledActivityInstance",
                     "activityIds": [
                       "Activity_6",
-                      "Activity_10",
-                      "Activity_30"
+                      "Activity_10"
                     ],
                     "encounterId": "Encounter_3"
                   },
@@ -3484,7 +3483,6 @@
                       "Activity_6",
                       "Activity_10",
                       "Activity_23",
-                      "Activity_29",
                       "Activity_31"
                     ],
                     "encounterId": "Encounter_5"
@@ -3497,8 +3495,7 @@
                     "epochId": "StudyEpoch_4",
                     "instanceType": "ScheduledActivityInstance",
                     "activityIds": [
-                      "Activity_10",
-                      "Activity_30"
+                      "Activity_10"
                     ],
                     "encounterId": "Encounter_6"
                   },
@@ -4745,6 +4742,30 @@
                 "appliesToIds": [
                   "Activity_25",
                   "Activity_26"
+                ],
+                "instanceType": "Condition"
+              },
+              {
+                "id": "Condition_18",
+                "name": "COND18",
+                "label": "Genetic sampling",
+                "description": "Genetic sampling",
+                "text": "Single sample for pharmacogenetic analysis taken prior to/on Period 1 Day -1.",
+                "dictionaryId": null,
+                "contextIds": [],
+                "appliesToIds": [],
+                "instanceType": "Condition"
+              },
+              {
+                "id": "Condition_19",
+                "name": "COND19",
+                "label": "Drug reactions",
+                "description": "Drug reactions",
+                "text": "In the event of drug hypersensitivity reactions (immediate or non-immediate), samples will be collected as close to event onset as possible, at event resolution, and 30 days following the event. Patients with TE ADA at follow-up/ED will undergo additional follow-up.",
+                "dictionaryId": null,
+                "contextIds": [],
+                "appliesToIds": [
+                  "Activity_30"
                 ],
                 "instanceType": "Condition"
               }
