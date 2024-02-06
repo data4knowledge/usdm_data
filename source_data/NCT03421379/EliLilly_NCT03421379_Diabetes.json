@@ -738,15 +738,17 @@
               },
               {
                 "id": "Activity_10",
-                "name": "CM",
-                "label": "Concomitant Medication",
+                "name": "CONCOMITANT MEDS",
+                "label": "Collect Concomitant Medications",
                 "description": "Concomitant Medication",
                 "previousId": "Activity_9",
                 "nextId": "Activity_12",
                 "definedProcedures": [],
                 "biomedicalConceptIds": [],
                 "bcCategoryIds": [],
-                "bcSurrogateIds": [],
+                "bcSurrogateIds": [
+                  "BiomedicalConceptSurrogate_14"
+                ],
                 "timelineId": "",
                 "instanceType": "Activity"
               },
@@ -803,8 +805,8 @@
                 "biomedicalConceptIds": [],
                 "bcCategoryIds": [],
                 "bcSurrogateIds": [
-                  "BiomedicalConceptSurrogate_14",
-                  "BiomedicalConceptSurrogate_15"
+                  "BiomedicalConceptSurrogate_15",
+                  "BiomedicalConceptSurrogate_16"
                 ],
                 "timelineId": "",
                 "instanceType": "Activity"
@@ -1147,6 +1149,14 @@
               },
               {
                 "id": "BiomedicalConceptSurrogate_14",
+                "name": "Concomitant Medication Free Text Format",
+                "label": "Concomitant Medication Free Text Format",
+                "description": "Concomitant Medication Free Text Format",
+                "reference": "None set",
+                "instanceType": "BiomedicalConceptSurrogate"
+              },
+              {
+                "id": "BiomedicalConceptSurrogate_15",
                 "name": "SBP",
                 "label": "SBP",
                 "description": "SBP",
@@ -1154,7 +1164,7 @@
                 "instanceType": "BiomedicalConceptSurrogate"
               },
               {
-                "id": "BiomedicalConceptSurrogate_15",
+                "id": "BiomedicalConceptSurrogate_16",
                 "name": "DBP",
                 "label": "DBP",
                 "description": "DBP",
