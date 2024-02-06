@@ -4800,6 +4800,58 @@
                   "Activity_19"
                 ],
                 "instanceType": "Condition"
+              },
+              {
+                "id": "Condition_22",
+                "name": "COND22",
+                "label": "PK (Glucagon)",
+                "description": "PK (Glucagon)",
+                "text": "Sampling times are relative to the time of study treatment administration (0 min). Predose time point will be between insulin infusion stop and study treatment.",
+                "dictionaryId": null,
+                "contextIds": [],
+                "appliesToIds": [
+                  "Activity_27"
+                ],
+                "instanceType": "Condition"
+              },
+              {
+                "id": "Condition_23",
+                "name": "COND23",
+                "label": "Plasma Glucose",
+                "description": "Plasma Glucose",
+                "text": "Sampling times are relative to the time of study treatment administration (0 min). Predose time point will be between insulin infusion stop and study treatment.",
+                "dictionaryId": null,
+                "contextIds": [],
+                "appliesToIds": [
+                  "Activity_28"
+                ],
+                "instanceType": "Condition"
+              },
+              {
+                "id": "Condition_24",
+                "name": "COND24",
+                "label": "Nasal and Non-Nasal Score",
+                "description": "Nasal and Non-Nasal Score",
+                "text": "Sampling times are relative to the time of study treatment administration (0 min). Questionnaire will be collected in both LY900018 and IMG treatment groups in both periods.",
+                "dictionaryId": null,
+                "contextIds": [],
+                "appliesToIds": [
+                  "Activity_32"
+                ],
+                "instanceType": "Condition"
+              },
+              {
+                "id": "Condition_25",
+                "name": "COND25",
+                "label": "Edinburgh Scale",
+                "description": "Edinburgh Scale",
+                "text": "Sampling times are relative to the time of study treatment administration (0 min). During hypoglycemia induction will be when PG \u226475 mg/dL. Predose time point will be between insulin infusion stop and study treatment.",
+                "dictionaryId": null,
+                "contextIds": [],
+                "appliesToIds": [
+                  "Activity_33"
+                ],
+                "instanceType": "Condition"
               }
             ],
             "organizations": [],
