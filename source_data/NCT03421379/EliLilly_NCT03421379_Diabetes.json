@@ -2289,71 +2289,20 @@
                 "instanceType": "StudyElement"
               }
             ],
-            "estimands": [
-              {
-                "id": "Estimand_1",
-                "summaryMeasure": "Treatment Success",
-                "analysisPopulation": {
-                  "id": "AnalysisPopulation_1",
-                  "name": "AP_1",
-                  "label": null,
-                  "description": null,
-                  "text": "PP",
-                  "instanceType": "AnalysisPopulation"
-                },
-                "interventionId": "StudyIntervention_1",
-                "variableOfInterestId": "Endpoint_1",
-                "intercurrentEvents": [
-                  {
-                    "id": "IntercurrentEvent_1",
-                    "name": "no Hypo",
-                    "label": "",
-                    "description": "No hypoglycemia induced after 3 hours",
-                    "strategy": "Exclude subject from analysis",
-                    "instanceType": "IntercurrentEvent"
-                  }
-                ],
-                "instanceType": "Estimand"
-              },
-              {
-                "id": "Estimand_2",
-                "summaryMeasure": "Something else",
-                "analysisPopulation": {
-                  "id": "AnalysisPopulation_2",
-                  "name": "AP_2",
-                  "label": null,
-                  "description": null,
-                  "text": "ITT",
-                  "instanceType": "AnalysisPopulation"
-                },
-                "interventionId": "StudyIntervention_2",
-                "variableOfInterestId": "Endpoint_2",
-                "intercurrentEvents": [
-                  {
-                    "id": "IntercurrentEvent_2",
-                    "name": "Bad stuff",
-                    "label": "",
-                    "description": "IC Event Description Number 2",
-                    "strategy": "Really really bad shit",
-                    "instanceType": "IntercurrentEvent"
-                  }
-                ],
-                "instanceType": "Estimand"
-              }
-            ],
+            "estimands": [],
             "indications": [
               {
                 "id": "Indication_1",
-                "name": "IND1",
-                "label": "Indication 1",
-                "description": "Indication One",
+                "name": "IND_T1",
+                "label": "T1DM",
+                "description": "Diabetes mellitus type 1",
                 "codes": [
                   {
                     "id": "Code_144",
-                    "code": "12345",
+                    "code": "46635009",
                     "codeSystem": "SNOMED",
                     "codeSystemVersion": "January 31, 2018",
-                    "decode": "Indication1",
+                    "decode": "Diabetes mellitus type 1",
                     "instanceType": "Code"
                   }
                 ],
@@ -2362,16 +2311,16 @@
               },
               {
                 "id": "Indication_2",
-                "name": "IND2",
-                "label": "Indication 2",
-                "description": "Indication Two",
+                "name": "IND_T2",
+                "label": "T2DM",
+                "description": "Diabetes mellitus type 2",
                 "codes": [
                   {
                     "id": "Code_145",
-                    "code": "345678",
+                    "code": "44054006",
                     "codeSystem": "SNOMED",
                     "codeSystemVersion": "January 31, 2018",
-                    "decode": "Indication2",
+                    "decode": "Diabetes mellitus type 2",
                     "instanceType": "Code"
                   }
                 ],
@@ -2380,248 +2329,7 @@
               }
             ],
             "maskingRoles": [],
-            "studyInterventions": [
-              {
-                "id": "StudyIntervention_1",
-                "name": "INT1",
-                "label": "Int Label 1",
-                "description": "Int Desc 1",
-                "role": {
-                  "id": "Code_151",
-                  "code": "role1",
-                  "codeSystem": "M11",
-                  "codeSystemVersion": "None set",
-                  "decode": "role1",
-                  "instanceType": "Code"
-                },
-                "type": {
-                  "id": "Code_152",
-                  "code": "C1909",
-                  "codeSystem": "http://www.cdisc.org",
-                  "codeSystemVersion": "2023-09-29",
-                  "decode": "Pharmacologic Substance",
-                  "instanceType": "Code"
-                },
-                "minimumResponseDuration": {
-                  "id": "Quantity_4",
-                  "value": 1.0,
-                  "unit": {
-                    "id": "Code_155",
-                    "code": "C25301",
-                    "codeSystem": "http://www.cdisc.org",
-                    "codeSystemVersion": "2023-09-29",
-                    "decode": "Day",
-                    "instanceType": "Code"
-                  },
-                  "instanceType": "Quantity"
-                },
-                "codes": [
-                  {
-                    "id": "Code_150",
-                    "code": "A",
-                    "codeSystem": "SPONSOR",
-                    "codeSystemVersion": "12",
-                    "decode": "B",
-                    "instanceType": "Code"
-                  }
-                ],
-                "administrations": [
-                  {
-                    "id": "AgentAdministration_1",
-                    "name": "Admin 1",
-                    "label": "",
-                    "description": "Admin Desc 1",
-                    "duration": {
-                      "id": "AdministrationDuration_1",
-                      "quantity": {
-                        "id": "Quantity_2",
-                        "value": 14.0,
-                        "unit": {
-                          "id": "Code_146",
-                          "code": "C25613",
-                          "codeSystem": "http://www.cdisc.org",
-                          "codeSystemVersion": "2023-09-29",
-                          "decode": "Percentage",
-                          "instanceType": "Code"
-                        },
-                        "instanceType": "Quantity"
-                      },
-                      "description": "",
-                      "durationWillVary": true,
-                      "reasonDurationWillVary": "Will vary becuase we say so",
-                      "instanceType": "AdministrationDuration"
-                    },
-                    "dose": {
-                      "id": "Quantity_3",
-                      "value": 12.0,
-                      "unit": {
-                        "id": "Code_148",
-                        "code": "C28253",
-                        "codeSystem": "http://www.cdisc.org",
-                        "codeSystemVersion": "2023-09-29",
-                        "decode": "Milligram",
-                        "instanceType": "Code"
-                      },
-                      "instanceType": "Quantity"
-                    },
-                    "route": {
-                      "id": "Code_147",
-                      "code": "C38197",
-                      "codeSystem": "http://www.cdisc.org",
-                      "codeSystemVersion": "2023-09-29",
-                      "decode": "Dental Route of Administration",
-                      "instanceType": "Code"
-                    },
-                    "frequency": {
-                      "id": "Code_149",
-                      "code": "C139179",
-                      "codeSystem": "http://www.cdisc.org",
-                      "codeSystemVersion": "2023-09-29",
-                      "decode": "Ten Days Per Month",
-                      "instanceType": "Code"
-                    },
-                    "instanceType": "AgentAdministration"
-                  }
-                ],
-                "productDesignation": {
-                  "id": "Code_154",
-                  "code": "desig1",
-                  "codeSystem": "M11",
-                  "codeSystemVersion": "None set",
-                  "decode": "desig_1",
-                  "instanceType": "Code"
-                },
-                "pharmacologicClass": {
-                  "id": "Code_153",
-                  "code": "A",
-                  "codeSystem": "FDA",
-                  "codeSystemVersion": "None set",
-                  "decode": "B",
-                  "instanceType": "Code"
-                },
-                "instanceType": "StudyIntervention"
-              },
-              {
-                "id": "StudyIntervention_2",
-                "name": "INT2",
-                "label": "Int Label 2",
-                "description": "Int Desc 2",
-                "role": {
-                  "id": "Code_161",
-                  "code": "role2",
-                  "codeSystem": "M11",
-                  "codeSystemVersion": "None set",
-                  "decode": "role2",
-                  "instanceType": "Code"
-                },
-                "type": {
-                  "id": "Code_162",
-                  "code": "C1909",
-                  "codeSystem": "http://www.cdisc.org",
-                  "codeSystemVersion": "2023-09-29",
-                  "decode": "Pharmacologic Substance",
-                  "instanceType": "Code"
-                },
-                "minimumResponseDuration": {
-                  "id": "Quantity_7",
-                  "value": 1.0,
-                  "unit": {
-                    "id": "Code_165",
-                    "code": "C25301",
-                    "codeSystem": "http://www.cdisc.org",
-                    "codeSystemVersion": "2023-09-29",
-                    "decode": "Day",
-                    "instanceType": "Code"
-                  },
-                  "instanceType": "Quantity"
-                },
-                "codes": [
-                  {
-                    "id": "Code_160",
-                    "code": "A",
-                    "codeSystem": "SPONSOR",
-                    "codeSystemVersion": "12",
-                    "decode": "B",
-                    "instanceType": "Code"
-                  }
-                ],
-                "administrations": [
-                  {
-                    "id": "AgentAdministration_2",
-                    "name": "Admin 2",
-                    "label": "",
-                    "description": "Admin Desc 2",
-                    "duration": {
-                      "id": "AdministrationDuration_2",
-                      "quantity": {
-                        "id": "Quantity_5",
-                        "value": 14.0,
-                        "unit": {
-                          "id": "Code_156",
-                          "code": "C25613",
-                          "codeSystem": "http://www.cdisc.org",
-                          "codeSystemVersion": "2023-09-29",
-                          "decode": "Percentage",
-                          "instanceType": "Code"
-                        },
-                        "instanceType": "Quantity"
-                      },
-                      "description": "",
-                      "durationWillVary": true,
-                      "reasonDurationWillVary": "Will vary becuase we say so",
-                      "instanceType": "AdministrationDuration"
-                    },
-                    "dose": {
-                      "id": "Quantity_6",
-                      "value": 12.0,
-                      "unit": {
-                        "id": "Code_158",
-                        "code": "C28253",
-                        "codeSystem": "http://www.cdisc.org",
-                        "codeSystemVersion": "2023-09-29",
-                        "decode": "Milligram",
-                        "instanceType": "Code"
-                      },
-                      "instanceType": "Quantity"
-                    },
-                    "route": {
-                      "id": "Code_157",
-                      "code": "C38197",
-                      "codeSystem": "http://www.cdisc.org",
-                      "codeSystemVersion": "2023-09-29",
-                      "decode": "Dental Route of Administration",
-                      "instanceType": "Code"
-                    },
-                    "frequency": {
-                      "id": "Code_159",
-                      "code": "C139179",
-                      "codeSystem": "http://www.cdisc.org",
-                      "codeSystemVersion": "2023-09-29",
-                      "decode": "Ten Days Per Month",
-                      "instanceType": "Code"
-                    },
-                    "instanceType": "AgentAdministration"
-                  }
-                ],
-                "productDesignation": {
-                  "id": "Code_164",
-                  "code": "desig2",
-                  "codeSystem": "M11",
-                  "codeSystemVersion": "None set",
-                  "decode": "desig_2",
-                  "instanceType": "Code"
-                },
-                "pharmacologicClass": {
-                  "id": "Code_163",
-                  "code": "A",
-                  "codeSystem": "FDA",
-                  "codeSystemVersion": "None set",
-                  "decode": "B",
-                  "instanceType": "Code"
-                },
-                "instanceType": "StudyIntervention"
-              }
-            ],
+            "studyInterventions": [],
             "objectives": [
               {
                 "id": "Objective_1",
@@ -2632,7 +2340,7 @@
                 "dictionaryId": null,
                 "instanceType": "Objective",
                 "level": {
-                  "id": "Code_170",
+                  "id": "Code_167",
                   "code": "C85826",
                   "codeSystem": "http://www.cdisc.org",
                   "codeSystemVersion": "2023-09-29",
@@ -2650,7 +2358,7 @@
                     "instanceType": "Endpoint",
                     "purpose": "",
                     "level": {
-                      "id": "Code_169",
+                      "id": "Code_166",
                       "code": "C94496",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
@@ -2669,7 +2377,7 @@
                 "dictionaryId": null,
                 "instanceType": "Objective",
                 "level": {
-                  "id": "Code_172",
+                  "id": "Code_169",
                   "code": "C85827",
                   "codeSystem": "http://www.cdisc.org",
                   "codeSystemVersion": "2023-09-29",
@@ -2687,7 +2395,7 @@
                     "instanceType": "Endpoint",
                     "purpose": "",
                     "level": {
-                      "id": "Code_171",
+                      "id": "Code_168",
                       "code": "C139173",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
@@ -2706,7 +2414,7 @@
                 "dictionaryId": null,
                 "instanceType": "Objective",
                 "level": {
-                  "id": "Code_174",
+                  "id": "Code_171",
                   "code": "C85827",
                   "codeSystem": "http://www.cdisc.org",
                   "codeSystemVersion": "2023-09-29",
@@ -2724,7 +2432,7 @@
                     "instanceType": "Endpoint",
                     "purpose": "",
                     "level": {
-                      "id": "Code_173",
+                      "id": "Code_170",
                       "code": "C139173",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
@@ -2743,7 +2451,7 @@
                 "dictionaryId": null,
                 "instanceType": "Objective",
                 "level": {
-                  "id": "Code_176",
+                  "id": "Code_173",
                   "code": "C85827",
                   "codeSystem": "http://www.cdisc.org",
                   "codeSystemVersion": "2023-09-29",
@@ -2761,7 +2469,7 @@
                     "instanceType": "Endpoint",
                     "purpose": "",
                     "level": {
-                      "id": "Code_175",
+                      "id": "Code_172",
                       "code": "C139173",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
@@ -2780,7 +2488,7 @@
                 "dictionaryId": null,
                 "instanceType": "Objective",
                 "level": {
-                  "id": "Code_178",
+                  "id": "Code_175",
                   "code": "C85827",
                   "codeSystem": "http://www.cdisc.org",
                   "codeSystemVersion": "2023-09-29",
@@ -2798,7 +2506,7 @@
                     "instanceType": "Endpoint",
                     "purpose": "",
                     "level": {
-                      "id": "Code_177",
+                      "id": "Code_174",
                       "code": "C170559",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
@@ -2817,7 +2525,7 @@
                 "dictionaryId": null,
                 "instanceType": "Objective",
                 "level": {
-                  "id": "Code_180",
+                  "id": "Code_177",
                   "code": "C85827",
                   "codeSystem": "http://www.cdisc.org",
                   "codeSystemVersion": "2023-09-29",
@@ -2835,7 +2543,7 @@
                     "instanceType": "Endpoint",
                     "purpose": "",
                     "level": {
-                      "id": "Code_179",
+                      "id": "Code_176",
                       "code": "C170559",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
@@ -2869,7 +2577,764 @@
                 "instanceType": "Range"
               },
               "plannedSex": [],
-              "criteria": [],
+              "criteria": [
+                {
+                  "id": "EligibilityCriterion_1",
+                  "name": "INC1",
+                  "label": "",
+                  "description": "",
+                  "text": "<p>have had a diagnosis of either:</p>\n<ul>\n  <li>\n    <p>[1a] T1DM based on the World Health Organization (WHO) diagnostic criteria, and have been on the following daily insulin therapy for at least 1 year</p>\n    <ul>\n      <p>[A] multiple daily injection of long-acting insulin analog (either insulin glargine [U-100 or U-300] or insulin degludec [U-100]) and rapid-acting insulin analog (insulin lispro, insulin aspart, or insulin glulisine), or</p>\n      <p>[B] continuous subcutaneous insulin infusion (CSII)</p>    \n    </ul>\n  </li>\n  <p>Or</p>\n  <li>\n    <p>[1b] T2DM based on the WHO diagnostic criteria, and have received the</p>\n    <p>following daily insulin therapy with or without oral anti-hyperglycemic medications (OAMs) for at least 1 year</p>\n    <ul>\n      <p>[A] insulin: long-acting insulin analog (either insulin glargine [U-100 or U-300] or insulin degludec [U-100]) alone, or in combination with rapid-acting insulin analog (insulin lispro, insulin aspart, or insulin glulisine) or CSII</p>\n      <p>[B] OAM: up to 3 of the following OAMs in accordance with local regulations: metformin, dipeptidyl peptidase-4 inhibitor, sodium glucose cotransporter 2 inhibitor, sulfonylurea (should not be more than half of maximum approved doses), glinides, alpha-glucosidase inhibitor, or thiazolidine</p>\n    </ul>\n  </li>\n</ul>",
+                  "dictionaryId": null,
+                  "instanceType": "EligibilityCriterion",
+                  "category": {
+                    "id": "Code_178",
+                    "code": "C25532",
+                    "codeSystem": "http://www.cdisc.org",
+                    "codeSystemVersion": "2023-09-29",
+                    "decode": "Inclusion Criteria",
+                    "instanceType": "Code"
+                  },
+                  "identifier": "1",
+                  "nextId": null,
+                  "previousId": null,
+                  "contextId": null
+                },
+                {
+                  "id": "EligibilityCriterion_2",
+                  "name": "INC2",
+                  "label": "",
+                  "description": "Male contraception critierion",
+                  "text": "<p>male patients: agree to use an effective method of contraception for the duration of the study and for 28 days following the last study treatment</p>",
+                  "dictionaryId": null,
+                  "instanceType": "EligibilityCriterion",
+                  "category": {
+                    "id": "Code_179",
+                    "code": "C25532",
+                    "codeSystem": "http://www.cdisc.org",
+                    "codeSystemVersion": "2023-09-29",
+                    "decode": "Inclusion Criteria",
+                    "instanceType": "Code"
+                  },
+                  "identifier": "2",
+                  "nextId": null,
+                  "previousId": null,
+                  "contextId": null
+                },
+                {
+                  "id": "EligibilityCriterion_3",
+                  "name": "INC3",
+                  "label": "",
+                  "description": "",
+                  "text": "",
+                  "dictionaryId": null,
+                  "instanceType": "EligibilityCriterion",
+                  "category": {
+                    "id": "Code_180",
+                    "code": "C25532",
+                    "codeSystem": "http://www.cdisc.org",
+                    "codeSystemVersion": "2023-09-29",
+                    "decode": "Inclusion Criteria",
+                    "instanceType": "Code"
+                  },
+                  "identifier": "3",
+                  "nextId": null,
+                  "previousId": null,
+                  "contextId": null
+                },
+                {
+                  "id": "EligibilityCriterion_4",
+                  "name": "INC4",
+                  "label": "",
+                  "description": "Age critierion",
+                  "text": "<p>are between 18 and 64 years old for T1DM, or between 20 and 70 years old for T2DM at the time of informed consent</p>",
+                  "dictionaryId": null,
+                  "instanceType": "EligibilityCriterion",
+                  "category": {
+                    "id": "Code_181",
+                    "code": "C25532",
+                    "codeSystem": "http://www.cdisc.org",
+                    "codeSystemVersion": "2023-09-29",
+                    "decode": "Inclusion Criteria",
+                    "instanceType": "Code"
+                  },
+                  "identifier": "4",
+                  "nextId": null,
+                  "previousId": null,
+                  "contextId": null
+                },
+                {
+                  "id": "EligibilityCriterion_5",
+                  "name": "INC5",
+                  "label": "",
+                  "description": "Weight critierion",
+                  "text": "<p>have a body mass index of 18.5 to 30.0 kg/m 2 for T1DM, or 18.5 to 35.0 kg/m 2 for T2DM at the time of screening</p>",
+                  "dictionaryId": null,
+                  "instanceType": "EligibilityCriterion",
+                  "category": {
+                    "id": "Code_182",
+                    "code": "C25532",
+                    "codeSystem": "http://www.cdisc.org",
+                    "codeSystemVersion": "2023-09-29",
+                    "decode": "Inclusion Criteria",
+                    "instanceType": "Code"
+                  },
+                  "identifier": "5",
+                  "nextId": null,
+                  "previousId": null,
+                  "contextId": null
+                },
+                {
+                  "id": "EligibilityCriterion_6",
+                  "name": "INC6",
+                  "label": "",
+                  "description": "A1c critierion",
+                  "text": "<p>have a hemoglobin A1c value \u226410% at the time of screening</p>",
+                  "dictionaryId": null,
+                  "instanceType": "EligibilityCriterion",
+                  "category": {
+                    "id": "Code_183",
+                    "code": "C25532",
+                    "codeSystem": "http://www.cdisc.org",
+                    "codeSystemVersion": "2023-09-29",
+                    "decode": "Inclusion Criteria",
+                    "instanceType": "Code"
+                  },
+                  "identifier": "6",
+                  "nextId": null,
+                  "previousId": null,
+                  "contextId": null
+                },
+                {
+                  "id": "EligibilityCriterion_7",
+                  "name": "INC7",
+                  "label": "",
+                  "description": "Labs critierion",
+                  "text": "<p>have clinical laboratory test results within normal reference range (except for glycemic parameters) for the population or investigative site, or results with acceptable deviations that are judged to be not clinically significant by the investigator</p>",
+                  "dictionaryId": null,
+                  "instanceType": "EligibilityCriterion",
+                  "category": {
+                    "id": "Code_184",
+                    "code": "C25532",
+                    "codeSystem": "http://www.cdisc.org",
+                    "codeSystemVersion": "2023-09-29",
+                    "decode": "Inclusion Criteria",
+                    "instanceType": "Code"
+                  },
+                  "identifier": "7",
+                  "nextId": null,
+                  "previousId": null,
+                  "contextId": null
+                },
+                {
+                  "id": "EligibilityCriterion_8",
+                  "name": "INC8",
+                  "label": "",
+                  "description": "Venous critierion",
+                  "text": "<p>have venous access sufficient to allow for blood sampling and administration of insulin for IV administration as per the protocol</p>",
+                  "dictionaryId": null,
+                  "instanceType": "EligibilityCriterion",
+                  "category": {
+                    "id": "Code_185",
+                    "code": "C25532",
+                    "codeSystem": "http://www.cdisc.org",
+                    "codeSystemVersion": "2023-09-29",
+                    "decode": "Inclusion Criteria",
+                    "instanceType": "Code"
+                  },
+                  "identifier": "8",
+                  "nextId": null,
+                  "previousId": null,
+                  "contextId": null
+                },
+                {
+                  "id": "EligibilityCriterion_9",
+                  "name": "INC9",
+                  "label": "",
+                  "description": "Availability critierion",
+                  "text": "<p>are reliable and willing to make themselves available for the duration of the study and are willing to follow study procedures</p>",
+                  "dictionaryId": null,
+                  "instanceType": "EligibilityCriterion",
+                  "category": {
+                    "id": "Code_186",
+                    "code": "C25532",
+                    "codeSystem": "http://www.cdisc.org",
+                    "codeSystemVersion": "2023-09-29",
+                    "decode": "Inclusion Criteria",
+                    "instanceType": "Code"
+                  },
+                  "identifier": "9",
+                  "nextId": null,
+                  "previousId": null,
+                  "contextId": null
+                },
+                {
+                  "id": "EligibilityCriterion_10",
+                  "name": "INC10",
+                  "label": "",
+                  "description": "IC critierion",
+                  "text": "<p>are able and willing to give signed informed consent</p>",
+                  "dictionaryId": null,
+                  "instanceType": "EligibilityCriterion",
+                  "category": {
+                    "id": "Code_187",
+                    "code": "C25532",
+                    "codeSystem": "http://www.cdisc.org",
+                    "codeSystemVersion": "2023-09-29",
+                    "decode": "Inclusion Criteria",
+                    "instanceType": "Code"
+                  },
+                  "identifier": "10",
+                  "nextId": null,
+                  "previousId": null,
+                  "contextId": null
+                },
+                {
+                  "id": "EligibilityCriterion_11",
+                  "name": "EXC11",
+                  "label": "",
+                  "description": "",
+                  "text": "<p>are investigative site personnel directly affiliated with this study and their immediate families. Immediate family is defined as a spouse, biological or legal guardian, child, or sibling</p>",
+                  "dictionaryId": null,
+                  "instanceType": "EligibilityCriterion",
+                  "category": {
+                    "id": "Code_188",
+                    "code": "C25370",
+                    "codeSystem": "http://www.cdisc.org",
+                    "codeSystemVersion": "2023-09-29",
+                    "decode": "Exclusion Criteria",
+                    "instanceType": "Code"
+                  },
+                  "identifier": "11",
+                  "nextId": null,
+                  "previousId": null,
+                  "contextId": null
+                },
+                {
+                  "id": "EligibilityCriterion_12",
+                  "name": "EXC12",
+                  "label": "",
+                  "description": "",
+                  "text": "<p>are Lilly employees</p>",
+                  "dictionaryId": null,
+                  "instanceType": "EligibilityCriterion",
+                  "category": {
+                    "id": "Code_189",
+                    "code": "C25370",
+                    "codeSystem": "http://www.cdisc.org",
+                    "codeSystemVersion": "2023-09-29",
+                    "decode": "Exclusion Criteria",
+                    "instanceType": "Code"
+                  },
+                  "identifier": "12",
+                  "nextId": null,
+                  "previousId": null,
+                  "contextId": null
+                },
+                {
+                  "id": "EligibilityCriterion_13",
+                  "name": "EXC13",
+                  "label": "",
+                  "description": "",
+                  "text": "<p>are currently enrolled in a clinical trial involving an investigational product or any other type of medical research judged not to be scientifically or medically compatible with this study</p>",
+                  "dictionaryId": null,
+                  "instanceType": "EligibilityCriterion",
+                  "category": {
+                    "id": "Code_190",
+                    "code": "C25370",
+                    "codeSystem": "http://www.cdisc.org",
+                    "codeSystemVersion": "2023-09-29",
+                    "decode": "Exclusion Criteria",
+                    "instanceType": "Code"
+                  },
+                  "identifier": "13",
+                  "nextId": null,
+                  "previousId": null,
+                  "contextId": null
+                },
+                {
+                  "id": "EligibilityCriterion_14",
+                  "name": "EXC14",
+                  "label": "",
+                  "description": "",
+                  "text": "<p>have participated, within the last 4 months, in a clinical trial involving an investigational product. If the previous investigational product has a long half-life, 4 months or 5 half-lives (whichever is longer) should have passed from the last dose of investigational product</p>",
+                  "dictionaryId": null,
+                  "instanceType": "EligibilityCriterion",
+                  "category": {
+                    "id": "Code_191",
+                    "code": "C25370",
+                    "codeSystem": "http://www.cdisc.org",
+                    "codeSystemVersion": "2023-09-29",
+                    "decode": "Exclusion Criteria",
+                    "instanceType": "Code"
+                  },
+                  "identifier": "14",
+                  "nextId": null,
+                  "previousId": null,
+                  "contextId": null
+                },
+                {
+                  "id": "EligibilityCriterion_15",
+                  "name": "EXC15",
+                  "label": "",
+                  "description": "",
+                  "text": "<p>have previously completed or withdrawn from this study or any other study investigating LY900018, and have previously received LY900018</p>",
+                  "dictionaryId": null,
+                  "instanceType": "EligibilityCriterion",
+                  "category": {
+                    "id": "Code_192",
+                    "code": "C25370",
+                    "codeSystem": "http://www.cdisc.org",
+                    "codeSystemVersion": "2023-09-29",
+                    "decode": "Exclusion Criteria",
+                    "instanceType": "Code"
+                  },
+                  "identifier": "15",
+                  "nextId": null,
+                  "previousId": null,
+                  "contextId": null
+                },
+                {
+                  "id": "EligibilityCriterion_16",
+                  "name": "EXC16",
+                  "label": "",
+                  "description": "",
+                  "text": "<p>have known allergies or sensitivity to LY900018, glucagon, related compounds, or any components of the formulation, or history of significant atopy</p>",
+                  "dictionaryId": null,
+                  "instanceType": "EligibilityCriterion",
+                  "category": {
+                    "id": "Code_193",
+                    "code": "C25370",
+                    "codeSystem": "http://www.cdisc.org",
+                    "codeSystemVersion": "2023-09-29",
+                    "decode": "Exclusion Criteria",
+                    "instanceType": "Code"
+                  },
+                  "identifier": "16",
+                  "nextId": null,
+                  "previousId": null,
+                  "contextId": null
+                },
+                {
+                  "id": "EligibilityCriterion_17",
+                  "name": "EXC17",
+                  "label": "",
+                  "description": "",
+                  "text": "<p>have an abnormality in the 12-lead ECG that, in the opinion of the investigator, increases the risks associated with participating in the study</p>",
+                  "dictionaryId": null,
+                  "instanceType": "EligibilityCriterion",
+                  "category": {
+                    "id": "Code_194",
+                    "code": "C25370",
+                    "codeSystem": "http://www.cdisc.org",
+                    "codeSystemVersion": "2023-09-29",
+                    "decode": "Exclusion Criteria",
+                    "instanceType": "Code"
+                  },
+                  "identifier": "17",
+                  "nextId": null,
+                  "previousId": null,
+                  "contextId": null
+                },
+                {
+                  "id": "EligibilityCriterion_18",
+                  "name": "EXC18",
+                  "label": "",
+                  "description": "",
+                  "text": "<p>any significant changes in insulin regimen and/or unstable blood glucose control within the past 3 months prior to screening as assessed by the investigator</p>",
+                  "dictionaryId": null,
+                  "instanceType": "EligibilityCriterion",
+                  "category": {
+                    "id": "Code_195",
+                    "code": "C25370",
+                    "codeSystem": "http://www.cdisc.org",
+                    "codeSystemVersion": "2023-09-29",
+                    "decode": "Exclusion Criteria",
+                    "instanceType": "Code"
+                  },
+                  "identifier": "18",
+                  "nextId": null,
+                  "previousId": null,
+                  "contextId": null
+                },
+                {
+                  "id": "EligibilityCriterion_19",
+                  "name": "EXC19",
+                  "label": "",
+                  "description": "",
+                  "text": "<p>have received a total daily dose of insulin &gt;1.2 U/kg at the time of screening</p>",
+                  "dictionaryId": null,
+                  "instanceType": "EligibilityCriterion",
+                  "category": {
+                    "id": "Code_196",
+                    "code": "C25370",
+                    "codeSystem": "http://www.cdisc.org",
+                    "codeSystemVersion": "2023-09-29",
+                    "decode": "Exclusion Criteria",
+                    "instanceType": "Code"
+                  },
+                  "identifier": "19",
+                  "nextId": null,
+                  "previousId": null,
+                  "contextId": null
+                },
+                {
+                  "id": "EligibilityCriterion_20",
+                  "name": "EXC20",
+                  "label": "",
+                  "description": "",
+                  "text": "<p>have poorly controlled hypertension (ie, supine systolic BP &gt;165 mm Hg or supine diastolic BP &gt;95 mm Hg) at screening, or a change in antihypertensive medications within 30 days prior to screening</p>",
+                  "dictionaryId": null,
+                  "instanceType": "EligibilityCriterion",
+                  "category": {
+                    "id": "Code_197",
+                    "code": "C25370",
+                    "codeSystem": "http://www.cdisc.org",
+                    "codeSystemVersion": "2023-09-29",
+                    "decode": "Exclusion Criteria",
+                    "instanceType": "Code"
+                  },
+                  "identifier": "20",
+                  "nextId": null,
+                  "previousId": null,
+                  "contextId": null
+                },
+                {
+                  "id": "EligibilityCriterion_21",
+                  "name": "EXC21",
+                  "label": "",
+                  "description": "",
+                  "text": "<p>have a history of pheochromocytoma (ie, adrenal gland tumor) or insulinoma</p>",
+                  "dictionaryId": null,
+                  "instanceType": "EligibilityCriterion",
+                  "category": {
+                    "id": "Code_198",
+                    "code": "C25370",
+                    "codeSystem": "http://www.cdisc.org",
+                    "codeSystemVersion": "2023-09-29",
+                    "decode": "Exclusion Criteria",
+                    "instanceType": "Code"
+                  },
+                  "identifier": "21",
+                  "nextId": null,
+                  "previousId": null,
+                  "contextId": null
+                },
+                {
+                  "id": "EligibilityCriterion_22",
+                  "name": "EXC22",
+                  "label": "",
+                  "description": "",
+                  "text": "<p>have a history of an episode of severe hypoglycemia (as defined by an episode that required third party assistance for treatment) in the 1 month prior to screening or have a history of loss of consciousness within the last 2 years induced other than by hypoglycemia</p>",
+                  "dictionaryId": null,
+                  "instanceType": "EligibilityCriterion",
+                  "category": {
+                    "id": "Code_199",
+                    "code": "C25370",
+                    "codeSystem": "http://www.cdisc.org",
+                    "codeSystemVersion": "2023-09-29",
+                    "decode": "Exclusion Criteria",
+                    "instanceType": "Code"
+                  },
+                  "identifier": "22",
+                  "nextId": null,
+                  "previousId": null,
+                  "contextId": null
+                },
+                {
+                  "id": "EligibilityCriterion_23",
+                  "name": "EXC23",
+                  "label": "",
+                  "description": "",
+                  "text": "<p>have a history of epilepsy or seizure disorder</p>",
+                  "dictionaryId": null,
+                  "instanceType": "EligibilityCriterion",
+                  "category": {
+                    "id": "Code_200",
+                    "code": "C25370",
+                    "codeSystem": "http://www.cdisc.org",
+                    "codeSystemVersion": "2023-09-29",
+                    "decode": "Exclusion Criteria",
+                    "instanceType": "Code"
+                  },
+                  "identifier": "23",
+                  "nextId": null,
+                  "previousId": null,
+                  "contextId": null
+                },
+                {
+                  "id": "EligibilityCriterion_24",
+                  "name": "EXC24",
+                  "label": "",
+                  "description": "",
+                  "text": "<p>have a history or presence of cardiovascular, respiratory, hepatic, renal, gastrointestinal, endocrine (apart from T1DM or T2DM), hematological, or neurological disorders capable of significantly altering the absorption, metabolism, or elimination of drugs; of constituting a risk when taking the investigational product; or of interfering with the interpretation of data</p>",
+                  "dictionaryId": null,
+                  "instanceType": "EligibilityCriterion",
+                  "category": {
+                    "id": "Code_201",
+                    "code": "C25370",
+                    "codeSystem": "http://www.cdisc.org",
+                    "codeSystemVersion": "2023-09-29",
+                    "decode": "Exclusion Criteria",
+                    "instanceType": "Code"
+                  },
+                  "identifier": "24",
+                  "nextId": null,
+                  "previousId": null,
+                  "contextId": null
+                },
+                {
+                  "id": "EligibilityCriterion_25",
+                  "name": "EXC25",
+                  "label": "",
+                  "description": "",
+                  "text": "<p>have known or ongoing psychiatric disorders that, in the opinion of the investigator, may preclude the patient from following and completing the protocol</p>",
+                  "dictionaryId": null,
+                  "instanceType": "EligibilityCriterion",
+                  "category": {
+                    "id": "Code_202",
+                    "code": "C25370",
+                    "codeSystem": "http://www.cdisc.org",
+                    "codeSystemVersion": "2023-09-29",
+                    "decode": "Exclusion Criteria",
+                    "instanceType": "Code"
+                  },
+                  "identifier": "25",
+                  "nextId": null,
+                  "previousId": null,
+                  "contextId": null
+                },
+                {
+                  "id": "EligibilityCriterion_26",
+                  "name": "EXC26",
+                  "label": "",
+                  "description": "",
+                  "text": "<p>regularly use known drugs of abuse and/or show positive findings on urinary drug screening</p>",
+                  "dictionaryId": null,
+                  "instanceType": "EligibilityCriterion",
+                  "category": {
+                    "id": "Code_203",
+                    "code": "C25370",
+                    "codeSystem": "http://www.cdisc.org",
+                    "codeSystemVersion": "2023-09-29",
+                    "decode": "Exclusion Criteria",
+                    "instanceType": "Code"
+                  },
+                  "identifier": "26",
+                  "nextId": null,
+                  "previousId": null,
+                  "contextId": null
+                },
+                {
+                  "id": "EligibilityCriterion_27",
+                  "name": "EXC27",
+                  "label": "",
+                  "description": "",
+                  "text": "<p>show evidence of human immunodeficiency virus (HIV) infection and/or positive HIV antibodies and/or antigen</p>",
+                  "dictionaryId": null,
+                  "instanceType": "EligibilityCriterion",
+                  "category": {
+                    "id": "Code_204",
+                    "code": "C25370",
+                    "codeSystem": "http://www.cdisc.org",
+                    "codeSystemVersion": "2023-09-29",
+                    "decode": "Exclusion Criteria",
+                    "instanceType": "Code"
+                  },
+                  "identifier": "27",
+                  "nextId": null,
+                  "previousId": null,
+                  "contextId": null
+                },
+                {
+                  "id": "EligibilityCriterion_28",
+                  "name": "EXC28",
+                  "label": "",
+                  "description": "",
+                  "text": "<p>show evidence of hepatitis C and/or positive hepatitis C antibody</p>",
+                  "dictionaryId": null,
+                  "instanceType": "EligibilityCriterion",
+                  "category": {
+                    "id": "Code_205",
+                    "code": "C25370",
+                    "codeSystem": "http://www.cdisc.org",
+                    "codeSystemVersion": "2023-09-29",
+                    "decode": "Exclusion Criteria",
+                    "instanceType": "Code"
+                  },
+                  "identifier": "28",
+                  "nextId": null,
+                  "previousId": null,
+                  "contextId": null
+                },
+                {
+                  "id": "EligibilityCriterion_29",
+                  "name": "EXC29",
+                  "label": "",
+                  "description": "",
+                  "text": "<p>show evidence of hepatitis B and/or positive hepatitis B surface antigen</p>",
+                  "dictionaryId": null,
+                  "instanceType": "EligibilityCriterion",
+                  "category": {
+                    "id": "Code_206",
+                    "code": "C25370",
+                    "codeSystem": "http://www.cdisc.org",
+                    "codeSystemVersion": "2023-09-29",
+                    "decode": "Exclusion Criteria",
+                    "instanceType": "Code"
+                  },
+                  "identifier": "29",
+                  "nextId": null,
+                  "previousId": null,
+                  "contextId": null
+                },
+                {
+                  "id": "EligibilityCriterion_30",
+                  "name": "EXC30",
+                  "label": "",
+                  "description": "",
+                  "text": "<p>show evidence of syphilis and/or are positive for syphilis test</p>",
+                  "dictionaryId": null,
+                  "instanceType": "EligibilityCriterion",
+                  "category": {
+                    "id": "Code_207",
+                    "code": "C25370",
+                    "codeSystem": "http://www.cdisc.org",
+                    "codeSystemVersion": "2023-09-29",
+                    "decode": "Exclusion Criteria",
+                    "instanceType": "Code"
+                  },
+                  "identifier": "30",
+                  "nextId": null,
+                  "previousId": null,
+                  "contextId": null
+                },
+                {
+                  "id": "EligibilityCriterion_31",
+                  "name": "EXC31",
+                  "label": "",
+                  "description": "",
+                  "text": "<p>are women who are lactating</p>",
+                  "dictionaryId": null,
+                  "instanceType": "EligibilityCriterion",
+                  "category": {
+                    "id": "Code_208",
+                    "code": "C25370",
+                    "codeSystem": "http://www.cdisc.org",
+                    "codeSystemVersion": "2023-09-29",
+                    "decode": "Exclusion Criteria",
+                    "instanceType": "Code"
+                  },
+                  "identifier": "31",
+                  "nextId": null,
+                  "previousId": null,
+                  "contextId": null
+                },
+                {
+                  "id": "EligibilityCriterion_32",
+                  "name": "EXC32",
+                  "label": "",
+                  "description": "",
+                  "text": "<p>use of daily systemic beta-blocker, indomethacin, warfarin, anticholinergic drugs</p>",
+                  "dictionaryId": null,
+                  "instanceType": "EligibilityCriterion",
+                  "category": {
+                    "id": "Code_209",
+                    "code": "C25370",
+                    "codeSystem": "http://www.cdisc.org",
+                    "codeSystemVersion": "2023-09-29",
+                    "decode": "Exclusion Criteria",
+                    "instanceType": "Code"
+                  },
+                  "identifier": "32",
+                  "nextId": null,
+                  "previousId": null,
+                  "contextId": null
+                },
+                {
+                  "id": "EligibilityCriterion_33",
+                  "name": "EXC33",
+                  "label": "",
+                  "description": "",
+                  "text": "<p>have donated 400 mL or more blood in the last 12 weeks (males) or in the last 16 weeks (females), or any blood donation (including apheresis) within the last 4 weeks, or total volume of blood donation within 12 months is 1200 mL (males)/800 mL (females) or more at screening</p>",
+                  "dictionaryId": null,
+                  "instanceType": "EligibilityCriterion",
+                  "category": {
+                    "id": "Code_210",
+                    "code": "C25370",
+                    "codeSystem": "http://www.cdisc.org",
+                    "codeSystemVersion": "2023-09-29",
+                    "decode": "Exclusion Criteria",
+                    "instanceType": "Code"
+                  },
+                  "identifier": "33",
+                  "nextId": null,
+                  "previousId": null,
+                  "contextId": null
+                },
+                {
+                  "id": "EligibilityCriterion_34",
+                  "name": "EXC34",
+                  "label": "",
+                  "description": "",
+                  "text": "<p>have an average weekly alcohol intake that exceeds 21 units per week (males up to age 65) and 14 units per week (males over 65 and females), or are unwilling to stop alcohol consumption from Day -2 to discharge from CRU in each period (1 unit = 12 oz or 360 mL of beer; 5 oz or 150 mL of wine; 1.5 oz or 45 mL of distilled spirits)</p>",
+                  "dictionaryId": null,
+                  "instanceType": "EligibilityCriterion",
+                  "category": {
+                    "id": "Code_211",
+                    "code": "C25370",
+                    "codeSystem": "http://www.cdisc.org",
+                    "codeSystemVersion": "2023-09-29",
+                    "decode": "Exclusion Criteria",
+                    "instanceType": "Code"
+                  },
+                  "identifier": "34",
+                  "nextId": null,
+                  "previousId": null,
+                  "contextId": null
+                },
+                {
+                  "id": "EligibilityCriterion_35",
+                  "name": "EXC35",
+                  "label": "",
+                  "description": "",
+                  "text": "<p>in the opinion of the investigator or sponsor, are unsuitable for inclusion in the study</p>",
+                  "dictionaryId": null,
+                  "instanceType": "EligibilityCriterion",
+                  "category": {
+                    "id": "Code_212",
+                    "code": "C25370",
+                    "codeSystem": "http://www.cdisc.org",
+                    "codeSystemVersion": "2023-09-29",
+                    "decode": "Exclusion Criteria",
+                    "instanceType": "Code"
+                  },
+                  "identifier": "35",
+                  "nextId": null,
+                  "previousId": null,
+                  "contextId": null
+                },
+                {
+                  "id": "EligibilityCriterion_36",
+                  "name": "EXC36",
+                  "label": "",
+                  "description": "",
+                  "text": "<p>have pre-proliferative and proliferative retinopathy or maculopathy requiring treatment or not clinically stable in the last 6 months, or patients with active changes in subjective eye symptoms as determined by the investigator if an eye exam has not been performed in the last 6 months. Note: If an eye examination has been performed no more than 6 months before screening, it will not have to be repeated; however, the investigator will need to confirm via interview that there is no change in subjective symptoms.</p>",
+                  "dictionaryId": null,
+                  "instanceType": "EligibilityCriterion",
+                  "category": {
+                    "id": "Code_213",
+                    "code": "C25370",
+                    "codeSystem": "http://www.cdisc.org",
+                    "codeSystemVersion": "2023-09-29",
+                    "decode": "Exclusion Criteria",
+                    "instanceType": "Code"
+                  },
+                  "identifier": "36",
+                  "nextId": null,
+                  "previousId": null,
+                  "contextId": null
+                }
+              ],
               "plannedAge": null,
               "instanceType": "StudyDesignPopulation",
               "cohorts": [
@@ -2895,7 +3360,7 @@
                     "minValue": 18.0,
                     "maxValue": 64.0,
                     "unit": {
-                      "id": "Code_167",
+                      "id": "Code_164",
                       "code": "C29848",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
@@ -2930,7 +3395,7 @@
                     "minValue": 20.0,
                     "maxValue": 70.0,
                     "unit": {
-                      "id": "Code_168",
+                      "id": "Code_165",
                       "code": "C29848",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
@@ -5044,7 +5509,7 @@
               "name": "SECTION 5.2.",
               "sectionNumber": "5.2.",
               "sectionTitle": "Number of Participants",
-              "text": "<div><p>Seventy five patients may be enrolled in order to have at least 66 patients (at least 30 patients with T1DM and T2DM, respectively) complete the study. For purposes of this study, a completer is defined as a patient who completes both periods with evaluable primary outcome. If patients discontinue from the study before completion of both periods with evaluable primary outcome for any reason, the patient may be replaced to ensure 66 patients complete the study. The replacement patients will be assigned the same treatment sequence as the patients to be replaced and will complete that treatment sequence in its entirety. Replacement should not occur beyond 75 patients enrolled, if it is expected to have at least 66 patients complete the study.</p></div>",
+              "text": "<div><p>Seventy five (<usdm:ref klass=\"StudyDesignPopulation\" namexref=\"STUDY_POP\"\n  attribute=\"@plannedEnrollmentNumber/Range/maxValue\"></usdm:ref>) patients may be enrolled in order to have at\nleast <usdm:ref klass=\"StudyDesignPopulation\" namexref=\"STUDY_POP\"\n  attribute=\"@plannedCompletionNumber/Range/maxValue\"></usdm:ref> patients (at least <usdm:ref klass=\"StudyCohort\"\n  namexref=\"T1DM\" attribute=\"@plannedCompletionNumber/Range/maxValue\"></usdm:ref> patients with T1DM and <usdm:ref\n  klass=\"StudyCohort\" namexref=\"T2DM\" attribute=\"@plannedCompletionNumber/Range/maxValue\"></usdm:ref>\nT2DM, respectively) complete the study. For purposes of this study, a\ncompleter is defined as a patient who completes both periods with evaluable primary outcome.\nIf patients discontinue from the study before completion of both periods with evaluable primary\noutcome for any reason, the patient may be replaced to ensure <usdm:ref klass=\"StudyDesignPopulation\"\n  namexref=\"STUDY_POP\" attribute=\"@plannedCompletionNumber/Range/maxValue\"></usdm:ref> patients complete the study.\nThe replacement patients will be assigned the same treatment sequence as the patients to be\nreplaced and will complete that treatment sequence in its entirety. Replacement should not occur\nbeyond <usdm:ref klass=\"StudyDesignPopulation\" namexref=\"STUDY_POP\"\n  attribute=\"@plannedEnrollmentNumber/Range/maxValue\"></usdm:ref> patients enrolled, if it is expected to have at\nleast <usdm:ref klass=\"StudyDesignPopulation\" namexref=\"STUDY_POP\"\n  attribute=\"@plannedCompletionNumber/Range/maxValue\"></usdm:ref> patients complete the study.</p></div>",
               "childIds": [],
               "instanceType": "NarrativeContent"
             },
