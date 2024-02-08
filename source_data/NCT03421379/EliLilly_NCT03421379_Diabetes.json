@@ -5387,11 +5387,10 @@
                 "NarrativeContent_9",
                 "NarrativeContent_10",
                 "NarrativeContent_16",
-                "NarrativeContent_24",
-                "NarrativeContent_36",
-                "NarrativeContent_42",
-                "NarrativeContent_76",
-                "NarrativeContent_103",
+                "NarrativeContent_25",
+                "NarrativeContent_37",
+                "NarrativeContent_43",
+                "NarrativeContent_77",
                 "NarrativeContent_104",
                 "NarrativeContent_105",
                 "NarrativeContent_106",
@@ -5400,7 +5399,8 @@
                 "NarrativeContent_109",
                 "NarrativeContent_110",
                 "NarrativeContent_111",
-                "NarrativeContent_112"
+                "NarrativeContent_112",
+                "NarrativeContent_113"
               ],
               "instanceType": "NarrativeContent"
             },
@@ -5549,7 +5549,8 @@
               "childIds": [
                 "NarrativeContent_17",
                 "NarrativeContent_18",
-                "NarrativeContent_23"
+                "NarrativeContent_19",
+                "NarrativeContent_24"
               ],
               "instanceType": "NarrativeContent"
             },
@@ -5558,26 +5559,35 @@
               "name": "SECTION 6.1.",
               "sectionNumber": "6.1.",
               "sectionTitle": "Inclusion Criteria",
-              "text": "<div><usdm:ref section=\"inclusion\" template=\"plain\"/><usdm:ref section=\"exclusion\" template=\"plain\"/></div>",
+              "text": "<div><p>Patients are eligible for inclusion in the study only if they meet all of the following criteria at screening and/or enrollment:</p><usdm:ref section=\"inclusion\" template=\"plain\"/></div>",
               "childIds": [],
               "instanceType": "NarrativeContent"
             },
             {
               "id": "NarrativeContent_18",
+              "name": "SECTION 6.2",
+              "sectionNumber": "6.2",
+              "sectionTitle": "Exclision Critieria",
+              "text": "<div><p>Patients will be excluded from study enrollment if they meet any of the following criteria at screening and/or enrollment:</p><usdm:ref section=\"exclusion\" template=\"plain\"/></div>",
+              "childIds": [],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_19",
               "name": "SECTION 6.3.",
               "sectionNumber": "6.3.",
               "sectionTitle": "Lifestyle and/or Dietary Requirements",
               "text": "<div><p>Throughout the study, patients may undergo medical assessments and review of compliance with requirements before continuing in the study.</p></div>",
               "childIds": [
-                "NarrativeContent_19",
                 "NarrativeContent_20",
                 "NarrativeContent_21",
-                "NarrativeContent_22"
+                "NarrativeContent_22",
+                "NarrativeContent_23"
               ],
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_19",
+              "id": "NarrativeContent_20",
               "name": "SECTION 6.3.1.",
               "sectionNumber": "6.3.1.",
               "sectionTitle": "Meals and Dietary Restrictions",
@@ -5586,7 +5596,7 @@
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_20",
+              "id": "NarrativeContent_21",
               "name": "SECTION 6.3.2.",
               "sectionNumber": "6.3.2.",
               "sectionTitle": "Caffeine, Alcohol, and Tobacco",
@@ -5595,7 +5605,7 @@
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_21",
+              "id": "NarrativeContent_22",
               "name": "SECTION 6.3.3.",
               "sectionNumber": "6.3.3.",
               "sectionTitle": "Activity",
@@ -5604,7 +5614,7 @@
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_22",
+              "id": "NarrativeContent_23",
               "name": "SECTION 6.3.4.",
               "sectionNumber": "6.3.4.",
               "sectionTitle": "Contraception",
@@ -5613,7 +5623,7 @@
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_23",
+              "id": "NarrativeContent_24",
               "name": "SECTION 6.4.",
               "sectionNumber": "6.4.",
               "sectionTitle": "Screen Failures",
@@ -5622,37 +5632,37 @@
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_24",
+              "id": "NarrativeContent_25",
               "name": "SECTION 7",
               "sectionNumber": "7",
               "sectionTitle": "Treatment",
               "text": "<div></div>",
               "childIds": [
-                "NarrativeContent_25",
-                "NarrativeContent_28",
-                "NarrativeContent_30",
+                "NarrativeContent_26",
+                "NarrativeContent_29",
                 "NarrativeContent_31",
                 "NarrativeContent_32",
                 "NarrativeContent_33",
                 "NarrativeContent_34",
-                "NarrativeContent_35"
-              ],
-              "instanceType": "NarrativeContent"
-            },
-            {
-              "id": "NarrativeContent_25",
-              "name": "SECTION 7.1.",
-              "sectionNumber": "7.1.",
-              "sectionTitle": "Treatment Administered",
-              "text": "<div><p>This study involves a comparison of 3 mg of LY900018 administered once nasally to 1 mg glucagon administered IM (comparator). Table IGBJ.2 shows the study treatment information.</p>\n<p><b>Study Treatments</b></p>\n<p><b>Table IGBJ.2.</b></p>\n<p>Treatment Name LY900018 GlucaGen</p>\n<p>Dosage Formulation Dry powder Dry powder</p>\n<p>Dosage Levels 3 mg glucagon 1 mg glucagon</p>\n<p>Route of Administration Intranasal Intramuscular</p>\n<p>Dosing Instructions Administer a single nasal dose upon hypoglycemia onset</p>\n<p>Administer a single intramuscular<br/>\ninjection upon hypoglycemia onset</p>\n<p>The procedure for insulin-induced hypoglycemia will require an IV infusion of diluted human regular insulin (0.3 U/mL by diluting 15 U human regular insulin [100 U/mL] into 50 mL saline). Details regarding hypoglycemia induction and glucagon administration procedures are included in Sections 9.2.1 and 9.2.2, respectively.</p>\n<p>The investigator or designee is responsible for:</p>\n<p>\uf0b7 \uf0b7 \uf0b7 \uf0b7</p>\n<p>explaining the correct use of the investigational products to the site personnel</p>\n<p>verifying that instructions are followed properly</p>\n<p>maintaining accurate records of investigational product dispensing and collection</p>\n<p>and returning all unused medication to Lilly or its designee at the end of the study</p></div>",
-              "childIds": [
-                "NarrativeContent_26",
-                "NarrativeContent_27"
+                "NarrativeContent_35",
+                "NarrativeContent_36"
               ],
               "instanceType": "NarrativeContent"
             },
             {
               "id": "NarrativeContent_26",
+              "name": "SECTION 7.1.",
+              "sectionNumber": "7.1.",
+              "sectionTitle": "Treatment Administered",
+              "text": "<div><p>This study involves a comparison of 3 mg of LY900018 administered once nasally to 1 mg glucagon administered IM (comparator). Table IGBJ.2 shows the study treatment information.</p>\n<p><b>Study Treatments</b></p>\n<p><b>Table IGBJ.2.</b></p>\n<p>Treatment Name LY900018 GlucaGen</p>\n<p>Dosage Formulation Dry powder Dry powder</p>\n<p>Dosage Levels 3 mg glucagon 1 mg glucagon</p>\n<p>Route of Administration Intranasal Intramuscular</p>\n<p>Dosing Instructions Administer a single nasal dose upon hypoglycemia onset</p>\n<p>Administer a single intramuscular<br/>\ninjection upon hypoglycemia onset</p>\n<p>The procedure for insulin-induced hypoglycemia will require an IV infusion of diluted human regular insulin (0.3 U/mL by diluting 15 U human regular insulin [100 U/mL] into 50 mL saline). Details regarding hypoglycemia induction and glucagon administration procedures are included in Sections 9.2.1 and 9.2.2, respectively.</p>\n<p>The investigator or designee is responsible for:</p>\n<p>\uf0b7 \uf0b7 \uf0b7 \uf0b7</p>\n<p>explaining the correct use of the investigational products to the site personnel</p>\n<p>verifying that instructions are followed properly</p>\n<p>maintaining accurate records of investigational product dispensing and collection</p>\n<p>and returning all unused medication to Lilly or its designee at the end of the study</p></div>",
+              "childIds": [
+                "NarrativeContent_27",
+                "NarrativeContent_28"
+              ],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_27",
               "name": "SECTION 7.1.1.",
               "sectionNumber": "7.1.1.",
               "sectionTitle": "Packaging and Labeling",
@@ -5661,7 +5671,7 @@
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_27",
+              "id": "NarrativeContent_28",
               "name": "SECTION 7.1.2.",
               "sectionNumber": "7.1.2.",
               "sectionTitle": "Medical Devices",
@@ -5670,18 +5680,18 @@
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_28",
+              "id": "NarrativeContent_29",
               "name": "SECTION 7.2.",
               "sectionNumber": "7.2.",
               "sectionTitle": "Method of Treatment Assignment",
               "text": "<div><p>The treatment sequence to be administered for each enrolled patient will be determined according to a randomization table.</p></div>",
               "childIds": [
-                "NarrativeContent_29"
+                "NarrativeContent_30"
               ],
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_29",
+              "id": "NarrativeContent_30",
               "name": "SECTION 7.2.1.",
               "sectionNumber": "7.2.1.",
               "sectionTitle": "Selection and Timing of Doses",
@@ -5690,7 +5700,7 @@
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_30",
+              "id": "NarrativeContent_31",
               "name": "SECTION 7.3.",
               "sectionNumber": "7.3.",
               "sectionTitle": "Blinding",
@@ -5699,7 +5709,7 @@
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_31",
+              "id": "NarrativeContent_32",
               "name": "SECTION 7.4.",
               "sectionNumber": "7.4.",
               "sectionTitle": "Dose Modification",
@@ -5708,7 +5718,7 @@
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_32",
+              "id": "NarrativeContent_33",
               "name": "SECTION 7.5.",
               "sectionNumber": "7.5.",
               "sectionTitle": "Preparation/Handling/Storage/Accountability",
@@ -5717,7 +5727,7 @@
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_33",
+              "id": "NarrativeContent_34",
               "name": "SECTION 7.6.",
               "sectionNumber": "7.6.",
               "sectionTitle": "Treatment Compliance",
@@ -5726,7 +5736,7 @@
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_34",
+              "id": "NarrativeContent_35",
               "name": "SECTION 7.7.",
               "sectionNumber": "7.7.",
               "sectionTitle": "Concomitant Therapy",
@@ -5735,7 +5745,7 @@
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_35",
+              "id": "NarrativeContent_36",
               "name": "SECTION 7.8.",
               "sectionNumber": "7.8.",
               "sectionTitle": "Treatment after the End of the Study",
@@ -5744,32 +5754,32 @@
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_36",
+              "id": "NarrativeContent_37",
               "name": "SECTION 8",
               "sectionNumber": "8",
               "sectionTitle": "Discontinuation Criteria",
               "text": "<div><p>Patients discontinuing from the study prematurely for any reason must complete AE and follow-up procedures as shown in the Schedule of Activities (Section 2).</p></div>",
               "childIds": [
-                "NarrativeContent_37",
-                "NarrativeContent_39",
+                "NarrativeContent_38",
                 "NarrativeContent_40",
-                "NarrativeContent_41"
-              ],
-              "instanceType": "NarrativeContent"
-            },
-            {
-              "id": "NarrativeContent_37",
-              "name": "SECTION 8.1.",
-              "sectionNumber": "8.1.",
-              "sectionTitle": "Discontinuation from Study Treatment",
-              "text": "<div></div>",
-              "childIds": [
-                "NarrativeContent_38"
+                "NarrativeContent_41",
+                "NarrativeContent_42"
               ],
               "instanceType": "NarrativeContent"
             },
             {
               "id": "NarrativeContent_38",
+              "name": "SECTION 8.1.",
+              "sectionNumber": "8.1.",
+              "sectionTitle": "Discontinuation from Study Treatment",
+              "text": "<div></div>",
+              "childIds": [
+                "NarrativeContent_39"
+              ],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_39",
               "name": "SECTION 8.1.1.",
               "sectionNumber": "8.1.1.",
               "sectionTitle": "Discontinuation of Inadvertently Enrolled Patients",
@@ -5778,7 +5788,7 @@
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_39",
+              "id": "NarrativeContent_40",
               "name": "SECTION 8.2.",
               "sectionNumber": "8.2.",
               "sectionTitle": "Discontinuation from the Study",
@@ -5787,7 +5797,7 @@
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_40",
+              "id": "NarrativeContent_41",
               "name": "SECTION 8.3.",
               "sectionNumber": "8.3.",
               "sectionTitle": "Discontinuation of the Study",
@@ -5796,7 +5806,7 @@
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_41",
+              "id": "NarrativeContent_42",
               "name": "SECTION 8.4.",
               "sectionNumber": "8.4.",
               "sectionTitle": "Patients Lost to Follow-up",
@@ -5805,40 +5815,40 @@
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_42",
+              "id": "NarrativeContent_43",
               "name": "SECTION 9",
               "sectionNumber": "9",
               "sectionTitle": "Study Assessments and Procedures",
               "text": "<div><p>Section 2 lists the Schedule of Activities, detailing the study procedures and their timing.</p>\n<p>Appendix 2 lists the laboratory tests that will be performed for this study.</p>\n<p>Appendix 5 provides a summary of the maximum number and volume of invasive samples, for all sampling, during the study.</p>\n<p>Unless otherwise stated in subsections below, all samples collected for specified laboratory tests will be destroyed within 60 days of receipt of confirmed test results. Certain samples may be retained for a longer period, if necessary, to comply with applicable laws, regulations, or laboratory certification standards.</p></div>",
               "childIds": [
-                "NarrativeContent_43",
-                "NarrativeContent_47",
-                "NarrativeContent_55",
-                "NarrativeContent_60",
-                "NarrativeContent_61",
-                "NarrativeContent_69",
-                "NarrativeContent_71",
-                "NarrativeContent_73",
-                "NarrativeContent_74",
-                "NarrativeContent_75"
-              ],
-              "instanceType": "NarrativeContent"
-            },
-            {
-              "id": "NarrativeContent_43",
-              "name": "SECTION 9.1.",
-              "sectionNumber": "9.1.",
-              "sectionTitle": "Efficacy Assessments",
-              "text": "<div><p>Plasma glucose levels will be measured as described in Section 9.2.3 and will be used to assess efficacy outcomes.</p></div>",
-              "childIds": [
                 "NarrativeContent_44",
-                "NarrativeContent_45",
-                "NarrativeContent_46"
+                "NarrativeContent_48",
+                "NarrativeContent_56",
+                "NarrativeContent_61",
+                "NarrativeContent_62",
+                "NarrativeContent_70",
+                "NarrativeContent_72",
+                "NarrativeContent_74",
+                "NarrativeContent_75",
+                "NarrativeContent_76"
               ],
               "instanceType": "NarrativeContent"
             },
             {
               "id": "NarrativeContent_44",
+              "name": "SECTION 9.1.",
+              "sectionNumber": "9.1.",
+              "sectionTitle": "Efficacy Assessments",
+              "text": "<div><p>Plasma glucose levels will be measured as described in Section 9.2.3 and will be used to assess efficacy outcomes.</p></div>",
+              "childIds": [
+                "NarrativeContent_45",
+                "NarrativeContent_46",
+                "NarrativeContent_47"
+              ],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_45",
               "name": "SECTION 9.1.1.",
               "sectionNumber": "9.1.1.",
               "sectionTitle": "Primary Efficacy Assessments",
@@ -5847,7 +5857,7 @@
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_45",
+              "id": "NarrativeContent_46",
               "name": "SECTION 9.1.2.",
               "sectionNumber": "9.1.2.",
               "sectionTitle": "Secondary Efficacy Assessments",
@@ -5856,7 +5866,7 @@
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_46",
+              "id": "NarrativeContent_47",
               "name": "SECTION 9.1.3.",
               "sectionNumber": "9.1.3.",
               "sectionTitle": "Exploratory Efficacy Assessments",
@@ -5865,22 +5875,22 @@
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_47",
+              "id": "NarrativeContent_48",
               "name": "SECTION 9.2.",
               "sectionNumber": "9.2.",
               "sectionTitle": "Procedures",
               "text": "<div></div>",
               "childIds": [
-                "NarrativeContent_48",
                 "NarrativeContent_49",
-                "NarrativeContent_52",
+                "NarrativeContent_50",
                 "NarrativeContent_53",
-                "NarrativeContent_54"
+                "NarrativeContent_54",
+                "NarrativeContent_55"
               ],
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_48",
+              "id": "NarrativeContent_49",
               "name": "SECTION 9.2.1.",
               "sectionNumber": "9.2.1.",
               "sectionTitle": "Insulin-induced Hypoglycemia",
@@ -5889,19 +5899,19 @@
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_49",
+              "id": "NarrativeContent_50",
               "name": "SECTION 9.2.2.",
               "sectionNumber": "9.2.2.",
               "sectionTitle": "Glucagon Administration",
               "text": "<div><p>Approximately 5 minutes after the insulin infusion has stopped, glucagon (either 3 mg LY900018 or 1 mg IMG) will be administered according to randomization. Refer to Section 7 for details regarding treatments.</p></div>",
               "childIds": [
-                "NarrativeContent_50",
-                "NarrativeContent_51"
+                "NarrativeContent_51",
+                "NarrativeContent_52"
               ],
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_50",
+              "id": "NarrativeContent_51",
               "name": "SECTION 9.2.2.1.",
               "sectionNumber": "9.2.2.1.",
               "sectionTitle": "Nasal LY900018 Administration",
@@ -5910,7 +5920,7 @@
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_51",
+              "id": "NarrativeContent_52",
               "name": "SECTION 9.2.2.2.",
               "sectionNumber": "9.2.2.2.",
               "sectionTitle": "Intramuscular Glucagon Administration",
@@ -5919,7 +5929,7 @@
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_52",
+              "id": "NarrativeContent_53",
               "name": "SECTION 9.2.3.",
               "sectionNumber": "9.2.3.",
               "sectionTitle": "Post Glucagon Administration",
@@ -5928,7 +5938,7 @@
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_53",
+              "id": "NarrativeContent_54",
               "name": "SECTION 9.2.4.",
               "sectionNumber": "9.2.4.",
               "sectionTitle": "Procedures for Insufficient Response to Glucagon\nAdministration",
@@ -5937,7 +5947,7 @@
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_54",
+              "id": "NarrativeContent_55",
               "name": "SECTION 9.2.5.",
               "sectionNumber": "9.2.5.",
               "sectionTitle": "End of Admission",
@@ -5946,31 +5956,31 @@
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_55",
+              "id": "NarrativeContent_56",
               "name": "SECTION 9.3.",
               "sectionNumber": "9.3.",
               "sectionTitle": "Adverse Events",
               "text": "<div><p>Investigators are responsible for monitoring the safety of patients who have entered this study and for alerting Lilly or its designee to any event that seems unusual, even if this event may be considered an unanticipated benefit to the patient.</p>\n<p>The investigator is responsible for the appropriate medical care of patients during the study.</p>\n<p>Investigators must document their review of each laboratory safety report.</p>\n<p>The investigator remains responsible for following, through an appropriate health care option, AEs that are serious or otherwise medically important, considered related to the investigational product or the study, or that caused the patient to discontinue the investigational product before completing the study. The patient should be followed until the event resolves, stabilizes with</p>\n<p>appropriate diagnostic evaluation, or is reasonably explained. The frequency of follow-up evaluations of the AE is left to the discretion of the investigator.</p>\n<p>After the informed consent form is signed, study site personnel will record, via CRF, the occurrence and nature of each patient\u2019s preexisting conditions, including clinically significant signs and symptoms of the disease under treatment in the study. Additionally, site personnel will record any change in the condition(s) and the occurrence and nature of any AEs.</p>\n<p>The investigator will interpret and document whether or not an AE has a reasonable possibility of being related to study treatment, medical device, or a study procedure, taking into account the disease, concomitant treatment, or pathologies.</p>\n<p>A \u201creasonable possibility\u201d means that there is a potential cause and effect relationship between the investigational product, medical device, and/or study procedure and the AE.</p>\n<p>Planned surgeries should not be reported as AEs unless the underlying medical condition has worsened during the course of the study.</p></div>",
               "childIds": [
-                "NarrativeContent_56",
-                "NarrativeContent_59"
-              ],
-              "instanceType": "NarrativeContent"
-            },
-            {
-              "id": "NarrativeContent_56",
-              "name": "SECTION 9.3.1.",
-              "sectionNumber": "9.3.1.",
-              "sectionTitle": "Serious Adverse Events",
-              "text": "<div><p>An SAE is any AE from this study that results in one of the following:</p>\n<ul>\n  <li>\n    <p>death</p>\n  </li>\n  <li>\n    <p>initial or prolonged inpatient hospitalization</p>\n  </li>\n  <li>\n    <p>a life-threatening experience (that is, immediate risk of dying)</p>\n  </li>\n  <li>\n    <p>persistent or significant disability/incapacity</p>\n  </li>\n  <li>\n    <p>congenital anomaly/birth defect</p>\n  </li>\n  <li>\n    <p>important medical events that may not be immediately life-threatening or result in death or hospitalization but may jeopardize the patient or may require intervention to prevent one of the other outcomes listed in the definition above when a condition related to the medical device necessitates medical or surgical intervention to preclude either permanent impairment of a body function or permanent damage to a body structure, the serious outcome of \u201crequired intervention\u201d will be assigned.</p>    \n  </li>\n</ul>\n<p>Study site personnel must alert the Lilly CRP/CP, or its designee, of any SAE as soon as practically possible.</p>\n<p>Additionally, study site personnel must alert Lilly Global Patient Safety, or its designee, of any SAE within 24 hours of investigator awareness of the event via a sponsor-approved method. If alerts are issued via telephone, they are to be immediately followed with official notification on study-specific SAE forms. This 24-hour notification requirement refers to the initial SAE information and all follow-up SAE information.</p>\n<p>Although all AEs are recorded in the CRF after signing informed consent, SAE reporting to the sponsor begins after the patient has signed informed consent and has received investigational product. However, if an SAE occurs after signing informed consent, but prior to receiving investigational product, AND is considered reasonably possibly related to a study procedure then it MUST be reported.</p>\n<p>Investigators are not obligated to actively seek AEs or SAEs in patients once they have discontinued from and/or completed the study (the patient summary CRF has been completed). However, if the investigator learns of any SAE, including a death, at any time after a patient has been discharged from the study, and he/she considers the event reasonably possibly related to the study treatment or study participation, the investigator must promptly notify Lilly.</p>\n<p>Pregnancy (maternal or paternal exposure to investigational product) does not meet the definition of an AE. However, to fulfill regulatory requirements any pregnancy should be reported following the SAE process to collect data on the outcome for both mother and fetus.</p></div>",
-              "childIds": [
                 "NarrativeContent_57",
-                "NarrativeContent_58"
+                "NarrativeContent_60"
               ],
               "instanceType": "NarrativeContent"
             },
             {
               "id": "NarrativeContent_57",
+              "name": "SECTION 9.3.1.",
+              "sectionNumber": "9.3.1.",
+              "sectionTitle": "Serious Adverse Events",
+              "text": "<div><p>An SAE is any AE from this study that results in one of the following:</p>\n<ul>\n  <li>\n    <p>death</p>\n  </li>\n  <li>\n    <p>initial or prolonged inpatient hospitalization</p>\n  </li>\n  <li>\n    <p>a life-threatening experience (that is, immediate risk of dying)</p>\n  </li>\n  <li>\n    <p>persistent or significant disability/incapacity</p>\n  </li>\n  <li>\n    <p>congenital anomaly/birth defect</p>\n  </li>\n  <li>\n    <p>important medical events that may not be immediately life-threatening or result in death or hospitalization but may jeopardize the patient or may require intervention to prevent one of the other outcomes listed in the definition above when a condition related to the medical device necessitates medical or surgical intervention to preclude either permanent impairment of a body function or permanent damage to a body structure, the serious outcome of \u201crequired intervention\u201d will be assigned.</p>    \n  </li>\n</ul>\n<p>Study site personnel must alert the Lilly CRP/CP, or its designee, of any SAE as soon as practically possible.</p>\n<p>Additionally, study site personnel must alert Lilly Global Patient Safety, or its designee, of any SAE within 24 hours of investigator awareness of the event via a sponsor-approved method. If alerts are issued via telephone, they are to be immediately followed with official notification on study-specific SAE forms. This 24-hour notification requirement refers to the initial SAE information and all follow-up SAE information.</p>\n<p>Although all AEs are recorded in the CRF after signing informed consent, SAE reporting to the sponsor begins after the patient has signed informed consent and has received investigational product. However, if an SAE occurs after signing informed consent, but prior to receiving investigational product, AND is considered reasonably possibly related to a study procedure then it MUST be reported.</p>\n<p>Investigators are not obligated to actively seek AEs or SAEs in patients once they have discontinued from and/or completed the study (the patient summary CRF has been completed). However, if the investigator learns of any SAE, including a death, at any time after a patient has been discharged from the study, and he/she considers the event reasonably possibly related to the study treatment or study participation, the investigator must promptly notify Lilly.</p>\n<p>Pregnancy (maternal or paternal exposure to investigational product) does not meet the definition of an AE. However, to fulfill regulatory requirements any pregnancy should be reported following the SAE process to collect data on the outcome for both mother and fetus.</p></div>",
+              "childIds": [
+                "NarrativeContent_58",
+                "NarrativeContent_59"
+              ],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_58",
               "name": "SECTION 9.3.1.1.",
               "sectionNumber": "9.3.1.1.",
               "sectionTitle": "Suspected Unexpected Serious Adverse Reactions",
@@ -5979,7 +5989,7 @@
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_58",
+              "id": "NarrativeContent_59",
               "name": "SECTION 9.3.1.2.",
               "sectionNumber": "9.3.1.2.",
               "sectionTitle": "Adverse Event Monitoring with a Systematic Questionnaire",
@@ -5988,7 +5998,7 @@
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_59",
+              "id": "NarrativeContent_60",
               "name": "SECTION 9.3.2.",
               "sectionNumber": "9.3.2.",
               "sectionTitle": "Complaint Handling",
@@ -5997,7 +6007,7 @@
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_60",
+              "id": "NarrativeContent_61",
               "name": "SECTION 9.4.",
               "sectionNumber": "9.4.",
               "sectionTitle": "Treatment of Overdose",
@@ -6006,22 +6016,22 @@
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_61",
+              "id": "NarrativeContent_62",
               "name": "SECTION 9.5.",
               "sectionNumber": "9.5.",
               "sectionTitle": "Safety",
               "text": "<div></div>",
               "childIds": [
-                "NarrativeContent_62",
                 "NarrativeContent_63",
                 "NarrativeContent_64",
                 "NarrativeContent_65",
-                "NarrativeContent_66"
+                "NarrativeContent_66",
+                "NarrativeContent_67"
               ],
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_62",
+              "id": "NarrativeContent_63",
               "name": "SECTION 9.5.1.",
               "sectionNumber": "9.5.1.",
               "sectionTitle": "Laboratory Tests",
@@ -6030,7 +6040,7 @@
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_63",
+              "id": "NarrativeContent_64",
               "name": "SECTION 9.5.2.",
               "sectionNumber": "9.5.2.",
               "sectionTitle": "Vital Signs",
@@ -6039,7 +6049,7 @@
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_64",
+              "id": "NarrativeContent_65",
               "name": "SECTION 9.5.3.",
               "sectionNumber": "9.5.3.",
               "sectionTitle": "Electrocardiograms",
@@ -6048,7 +6058,7 @@
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_65",
+              "id": "NarrativeContent_66",
               "name": "SECTION 9.5.4.",
               "sectionNumber": "9.5.4.",
               "sectionTitle": "Other Tests",
@@ -6057,19 +6067,19 @@
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_66",
+              "id": "NarrativeContent_67",
               "name": "SECTION 9.5.5.",
               "sectionNumber": "9.5.5.",
               "sectionTitle": "Safety Monitoring",
               "text": "<div><p>The Lilly CP or CRP/scientist will monitor safety data throughout the course of the study.</p>\n<p>Lilly will review SAEs within time frames mandated by company procedures. The Lilly CP or CRP will periodically review the following data:</p>\n<ul>\n  <li>\n    <p>trends in safety data</p>\n  </li>\n  <li>\n    <p>laboratory analytes</p>\n  </li>\n  <li>\n    <p>AEs including monitoring of nasal cavity and IM injection site When appropriate, the Lilly CP or CRP will consult with the functionally independent Global Patient Safety therapeutic area physician or clinical research scientist.</p>    \n  </li>\n</ul></div>",
               "childIds": [
-                "NarrativeContent_67",
-                "NarrativeContent_68"
+                "NarrativeContent_68",
+                "NarrativeContent_69"
               ],
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_67",
+              "id": "NarrativeContent_68",
               "name": "SECTION 9.5.5.1.",
               "sectionNumber": "9.5.5.1.",
               "sectionTitle": "Hypoglycemic Event Reporting",
@@ -6078,7 +6088,7 @@
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_68",
+              "id": "NarrativeContent_69",
               "name": "SECTION 9.5.5.2.",
               "sectionNumber": "9.5.5.2.",
               "sectionTitle": "Hepatic Safety",
@@ -6087,18 +6097,18 @@
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_69",
+              "id": "NarrativeContent_70",
               "name": "SECTION 9.6.",
               "sectionNumber": "9.6.",
               "sectionTitle": "Pharmacokinetics",
               "text": "<div><p>At the visits and times specified in the Schedule of Activities (see Section 2), venous blood samples of approximately 4 mL each will be collected to determine the plasma concentrations of</p>\n<p>glucagon. Three samples may be collected per patient at additional time points during the study if warranted and agreed upon between both the investigator and sponsor. Instructions for the collection and handling of blood samples will be provided by the sponsor. The actual date and time (24-hour clock) of each sampling will be recorded.</p></div>",
               "childIds": [
-                "NarrativeContent_70"
+                "NarrativeContent_71"
               ],
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_70",
+              "id": "NarrativeContent_71",
               "name": "SECTION 9.6.1.",
               "sectionNumber": "9.6.1.",
               "sectionTitle": "Bioanalysis",
@@ -6107,18 +6117,18 @@
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_71",
+              "id": "NarrativeContent_72",
               "name": "SECTION 9.7.",
               "sectionNumber": "9.7.",
               "sectionTitle": "Pharmacodynamics",
               "text": "<div><p>At times specified in the Schedule of Activities (see Section 2), venous blood samples will be collected and used to determine PG concentrations.</p>\n<p>The samples will be stored for up to a maximum of 1 year after last patient visit for the study at a facility selected by the sponsor.</p></div>",
               "childIds": [
-                "NarrativeContent_72"
+                "NarrativeContent_73"
               ],
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_72",
+              "id": "NarrativeContent_73",
               "name": "SECTION 9.7.1.",
               "sectionNumber": "9.7.1.",
               "sectionTitle": "Immunogenicity Assessments",
@@ -6127,7 +6137,7 @@
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_73",
+              "id": "NarrativeContent_74",
               "name": "SECTION 9.8.",
               "sectionNumber": "9.8.",
               "sectionTitle": "Genetics",
@@ -6136,7 +6146,7 @@
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_74",
+              "id": "NarrativeContent_75",
               "name": "SECTION 9.9.",
               "sectionNumber": "9.9.",
               "sectionTitle": "Biomarkers",
@@ -6145,7 +6155,7 @@
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_75",
+              "id": "NarrativeContent_76",
               "name": "SECTION 9.10.",
               "sectionNumber": "9.10.",
               "sectionTitle": "Health Economics",
@@ -6154,20 +6164,20 @@
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_76",
+              "id": "NarrativeContent_77",
               "name": "SECTION 10",
               "sectionNumber": "10",
               "sectionTitle": "Statistical Considerations and Data Analysis",
               "text": "<div></div>",
               "childIds": [
-                "NarrativeContent_77",
                 "NarrativeContent_78",
-                "NarrativeContent_82"
+                "NarrativeContent_79",
+                "NarrativeContent_83"
               ],
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_77",
+              "id": "NarrativeContent_78",
               "name": "SECTION 10.1.",
               "sectionNumber": "10.1.",
               "sectionTitle": "Sample Size Determination",
@@ -6176,20 +6186,20 @@
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_78",
+              "id": "NarrativeContent_79",
               "name": "SECTION 10.2.",
               "sectionNumber": "10.2.",
               "sectionTitle": "Populations for Analyses",
               "text": "<div></div>",
               "childIds": [
-                "NarrativeContent_79",
                 "NarrativeContent_80",
-                "NarrativeContent_81"
+                "NarrativeContent_81",
+                "NarrativeContent_82"
               ],
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_79",
+              "id": "NarrativeContent_80",
               "name": "SECTION 10.2.1.",
               "sectionNumber": "10.2.1.",
               "sectionTitle": "Study Participant Disposition",
@@ -6198,7 +6208,7 @@
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_80",
+              "id": "NarrativeContent_81",
               "name": "SECTION 10.2.2.",
               "sectionNumber": "10.2.2.",
               "sectionTitle": "Study Participant Characteristics",
@@ -6207,7 +6217,7 @@
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_81",
+              "id": "NarrativeContent_82",
               "name": "SECTION 10.2.3.",
               "sectionNumber": "10.2.3.",
               "sectionTitle": "Treatment Compliance",
@@ -6216,38 +6226,38 @@
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_82",
+              "id": "NarrativeContent_83",
               "name": "SECTION 10.3.",
               "sectionNumber": "10.3.",
               "sectionTitle": "Statistical Analyses",
               "text": "<div><p>Statistical analysis of this study will be the responsibility of Eli Lilly and Company or its designee.</p>\n<p>Efficacy, PK, and PD analyses will be conducted on the full analysis set. This set includes all data from all randomized patients receiving at least one dose of the investigational product according to the treatment allocation. Safety analyses will be conducted for all enrolled patients, whether or not they completed all protocol requirements. If a patient receives a glucose infusion to prevent the progression to severe hypoglycemia (see Section 9.2.4), data after IV glucose</p>\n<p>infusion may be excluded from the efficacy and PD analyses. Details will be described in the statistical analysis plan (SAP).</p>\n<p>Any change to the data analysis methods described in the protocol will require an amendment ONLY if it changes a principal feature of the protocol. Any other change to the data analysis methods described in the protocol, and the justification for making the change, will be described in the SAP and/or in the clinical study report.</p>\n<p>Additional exploratory analyses of the data will be conducted as deemed appropriate. Study results may be pooled with the results of other studies for population PK analysis purposes to avoid issues with post-hoc analyses and incomplete disclosures of analyses.</p></div>",
               "childIds": [
-                "NarrativeContent_83",
-                "NarrativeContent_89",
-                "NarrativeContent_93",
-                "NarrativeContent_96",
-                "NarrativeContent_99",
+                "NarrativeContent_84",
+                "NarrativeContent_90",
+                "NarrativeContent_94",
+                "NarrativeContent_97",
                 "NarrativeContent_100",
                 "NarrativeContent_101",
-                "NarrativeContent_102"
-              ],
-              "instanceType": "NarrativeContent"
-            },
-            {
-              "id": "NarrativeContent_83",
-              "name": "SECTION 10.3.1.",
-              "sectionNumber": "10.3.1.",
-              "sectionTitle": "Efficacy Analyses",
-              "text": "<div></div>",
-              "childIds": [
-                "NarrativeContent_84",
-                "NarrativeContent_85",
-                "NarrativeContent_87"
+                "NarrativeContent_102",
+                "NarrativeContent_103"
               ],
               "instanceType": "NarrativeContent"
             },
             {
               "id": "NarrativeContent_84",
+              "name": "SECTION 10.3.1.",
+              "sectionNumber": "10.3.1.",
+              "sectionTitle": "Efficacy Analyses",
+              "text": "<div></div>",
+              "childIds": [
+                "NarrativeContent_85",
+                "NarrativeContent_86",
+                "NarrativeContent_88"
+              ],
+              "instanceType": "NarrativeContent"
+            },
+            {
+              "id": "NarrativeContent_85",
               "name": "SECTION 10.3.1.1.",
               "sectionNumber": "10.3.1.1.",
               "sectionTitle": "Primary Efficacy Analysis",
@@ -6256,18 +6266,18 @@
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_85",
+              "id": "NarrativeContent_86",
               "name": "SECTION 10.3.1.2.",
               "sectionNumber": "10.3.1.2.",
               "sectionTitle": "Secondary Efficacy Analyses",
               "text": "<div></div>",
               "childIds": [
-                "NarrativeContent_86"
+                "NarrativeContent_87"
               ],
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_86",
+              "id": "NarrativeContent_87",
               "name": "SECTION 10.3.1.2.1",
               "sectionNumber": "10.3.1.2.1",
               "sectionTitle": "Plasma Glucose Values",
@@ -6276,18 +6286,18 @@
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_87",
+              "id": "NarrativeContent_88",
               "name": "SECTION 10.3.1.3.",
               "sectionNumber": "10.3.1.3.",
               "sectionTitle": "Exploratory Efficacy Analyses",
               "text": "<div></div>",
               "childIds": [
-                "NarrativeContent_88"
+                "NarrativeContent_89"
               ],
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_88",
+              "id": "NarrativeContent_89",
               "name": "SECTION 10.3.1.3.1",
               "sectionNumber": "10.3.1.3.1",
               "sectionTitle": "Symptoms of Hypoglycemia",
@@ -6296,20 +6306,20 @@
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_89",
+              "id": "NarrativeContent_90",
               "name": "SECTION 10.3.2.",
               "sectionNumber": "10.3.2.",
               "sectionTitle": "Safety Analyses",
               "text": "<div></div>",
               "childIds": [
-                "NarrativeContent_90",
                 "NarrativeContent_91",
-                "NarrativeContent_92"
+                "NarrativeContent_92",
+                "NarrativeContent_93"
               ],
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_90",
+              "id": "NarrativeContent_91",
               "name": "SECTION 10.3.2.1.",
               "sectionNumber": "10.3.2.1.",
               "sectionTitle": "Clinical Evaluation of Safety",
@@ -6318,7 +6328,7 @@
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_91",
+              "id": "NarrativeContent_92",
               "name": "SECTION 10.3.2.2.",
               "sectionNumber": "10.3.2.2.",
               "sectionTitle": "Nasal and Non-nasal Score Questionnaire",
@@ -6327,7 +6337,7 @@
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_92",
+              "id": "NarrativeContent_93",
               "name": "SECTION 10.3.2.3.",
               "sectionNumber": "10.3.2.3.",
               "sectionTitle": "Statistical Evaluation of Safety",
@@ -6336,19 +6346,19 @@
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_93",
+              "id": "NarrativeContent_94",
               "name": "SECTION 10.3.3.",
               "sectionNumber": "10.3.3.",
               "sectionTitle": "Pharmacokinetic Analyses",
               "text": "<div></div>",
               "childIds": [
-                "NarrativeContent_94",
-                "NarrativeContent_95"
+                "NarrativeContent_95",
+                "NarrativeContent_96"
               ],
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_94",
+              "id": "NarrativeContent_95",
               "name": "SECTION 10.3.3.1.",
               "sectionNumber": "10.3.3.1.",
               "sectionTitle": "Pharmacokinetic Parameter Estimation",
@@ -6357,7 +6367,7 @@
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_95",
+              "id": "NarrativeContent_96",
               "name": "SECTION 10.3.3.2.",
               "sectionNumber": "10.3.3.2.",
               "sectionTitle": "Pharmacokinetic Statistical Inference",
@@ -6366,19 +6376,19 @@
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_96",
+              "id": "NarrativeContent_97",
               "name": "SECTION 10.3.4.",
               "sectionNumber": "10.3.4.",
               "sectionTitle": "Pharmacodynamic Analyses",
               "text": "<div></div>",
               "childIds": [
-                "NarrativeContent_97",
-                "NarrativeContent_98"
+                "NarrativeContent_98",
+                "NarrativeContent_99"
               ],
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_97",
+              "id": "NarrativeContent_98",
               "name": "SECTION 10.3.4.1.",
               "sectionNumber": "10.3.4.1.",
               "sectionTitle": "Pharmacodynamic Parameter Estimation",
@@ -6387,7 +6397,7 @@
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_98",
+              "id": "NarrativeContent_99",
               "name": "SECTION 10.3.4.2.",
               "sectionNumber": "10.3.4.2.",
               "sectionTitle": "Pharmacodynamic Statistical Inference",
@@ -6396,7 +6406,7 @@
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_99",
+              "id": "NarrativeContent_100",
               "name": "SECTION 10.3.5.",
               "sectionNumber": "10.3.5.",
               "sectionTitle": "Pharmacokinetic/Pharmacodynamic Analyses",
@@ -6405,7 +6415,7 @@
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_100",
+              "id": "NarrativeContent_101",
               "name": "SECTION 10.3.6.",
               "sectionNumber": "10.3.6.",
               "sectionTitle": "Evaluation of Immunogenicity",
@@ -6414,7 +6424,7 @@
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_101",
+              "id": "NarrativeContent_102",
               "name": "SECTION 10.3.7.",
               "sectionNumber": "10.3.7.",
               "sectionTitle": "Data Review During the Study",
@@ -6423,7 +6433,7 @@
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_102",
+              "id": "NarrativeContent_103",
               "name": "SECTION 10.3.8.",
               "sectionNumber": "10.3.8.",
               "sectionTitle": "Interim Analyses",
@@ -6432,7 +6442,7 @@
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_103",
+              "id": "NarrativeContent_104",
               "name": "SECTION 11",
               "sectionNumber": "11",
               "sectionTitle": "References",
@@ -6441,7 +6451,7 @@
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_104",
+              "id": "NarrativeContent_105",
               "name": "SECTION Appendix 1.",
               "sectionNumber": "Appendix 1.",
               "sectionTitle": "Abbreviations and Definitions",
@@ -6450,7 +6460,7 @@
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_105",
+              "id": "NarrativeContent_106",
               "name": "SECTION Appendix 2.",
               "sectionNumber": "Appendix 2.",
               "sectionTitle": "Clinical Laboratory Tests",
@@ -6459,7 +6469,7 @@
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_106",
+              "id": "NarrativeContent_107",
               "name": "SECTION Appendix 3.",
               "sectionNumber": "Appendix 3.",
               "sectionTitle": "Study Governance, Regulatory and Ethical Considerations",
@@ -6468,7 +6478,7 @@
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_107",
+              "id": "NarrativeContent_108",
               "name": "SECTION Appendix 4.",
               "sectionNumber": "Appendix 4.",
               "sectionTitle": "Hepatic Monitoring Tests for Treatment-emergent Abnormality",
@@ -6477,7 +6487,7 @@
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_108",
+              "id": "NarrativeContent_109",
               "name": "SECTION Appendix 5.",
               "sectionNumber": "Appendix 5.",
               "sectionTitle": "Blood Sampling Summary",
@@ -6486,7 +6496,7 @@
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_109",
+              "id": "NarrativeContent_110",
               "name": "SECTION Appendix 6.",
               "sectionNumber": "Appendix 6.",
               "sectionTitle": "Nasal and Non-nasal Score Questionnaire",
@@ -6495,7 +6505,7 @@
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_110",
+              "id": "NarrativeContent_111",
               "name": "SECTION Appendix 7.",
               "sectionNumber": "Appendix 7.",
               "sectionTitle": "Edinburgh Hypoglycemia Scale",
@@ -6504,7 +6514,7 @@
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_111",
+              "id": "NarrativeContent_112",
               "name": "SECTION Appendix 8.",
               "sectionNumber": "Appendix 8.",
               "sectionTitle": "Clarke Hypoglycemia Awareness Survey",
@@ -6513,7 +6523,7 @@
               "instanceType": "NarrativeContent"
             },
             {
-              "id": "NarrativeContent_112",
+              "id": "NarrativeContent_113",
               "name": "SECTION Appendix 9.",
               "sectionNumber": "Appendix 9.",
               "sectionTitle": "Protocol Amendment I8R-JE-IGBJ(a)",
