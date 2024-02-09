@@ -9,25 +9,31 @@ if __name__ == "__main__":
   arg_count = len(sys.argv)
   if arg_count == 1:
     print("You need to provide an input file name minus the file extension")
-  elif arg_count == 2:
-    
+  elif arg_count >= 2:
+
+    pdf_test = True    
+    if arg_count == 3:
+      pdf_test = True if sys.argv[2].strip().lower() in ['true', '1', 't', 'y', 'yes'] else False
+    filename = sys.argv[1].strip()
+    full_filename = f"{filename}.xlsx"
+      
     from usdm_excel import USDMExcel
     from usdm_info import __package_version__ as code_version
     from usdm_info import __model_version__ as model_version
     
     print("")
-    print (f"Test Utility, using USDM Python Package v{code_version} supporting USDM version v{model_version}")
+    print(f"Test Utility, using USDM Python Package v{code_version} supporting USDM version v{model_version}")
+    print(f"Converting {full_filename} with test flag set to {pdf_test}")
     print("")
     print("")
 
-    filename = sys.argv[1].strip()
-    excel = USDMExcel(f"{filename}.xlsx")
+    excel = USDMExcel(full_filename)
     with open(f"{filename}.json", 'w', encoding='utf-8') as f:
       f.write(json.dumps(json.loads(excel.to_json()), indent=2))
     with open(f"{filename}_USDM.html", 'w', encoding='utf-8') as f:
       f.write(excel.to_html())
     with open(f"{filename}_USDM.pdf", 'w+b') as f:
-      f.write(excel.to_pdf())
+      f.write(excel.to_pdf(pdf_test))
     with open(f"{filename}_timeline.html", 'w') as f:
       f.write(excel.to_timeline())
     errors = excel.errors()
