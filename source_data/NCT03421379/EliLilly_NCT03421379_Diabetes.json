@@ -251,9 +251,9 @@
             "encounters": [
               {
                 "id": "Encounter_1",
-                "name": "Screening",
-                "label": "",
-                "description": "",
+                "name": "SCREENING",
+                "label": "Screening",
+                "description": "Screening",
                 "type": {
                   "id": "Code_96",
                   "code": "C25716",
@@ -291,9 +291,9 @@
               },
               {
                 "id": "Encounter_2",
-                "name": "Period 1, Day -1",
-                "label": "",
-                "description": "",
+                "name": "P1 DAY -1",
+                "label": "Period 1, Day -1",
+                "description": "Period 1, Day -1",
                 "type": {
                   "id": "Code_99",
                   "code": "C25716",
@@ -331,9 +331,9 @@
               },
               {
                 "id": "Encounter_3",
-                "name": "Period 1, Day 1",
-                "label": "",
-                "description": "",
+                "name": "P1 DAY 1",
+                "label": "Period 1, Day 1",
+                "description": "Period 1, Day 1",
                 "type": {
                   "id": "Code_102",
                   "code": "C25716",
@@ -371,9 +371,9 @@
               },
               {
                 "id": "Encounter_4",
-                "name": "Wash Out",
-                "label": "",
-                "description": "",
+                "name": "WASHOUT",
+                "label": "Wash Out",
+                "description": "Wash Out",
                 "type": {
                   "id": "Code_105",
                   "code": "C25716",
@@ -411,9 +411,9 @@
               },
               {
                 "id": "Encounter_5",
-                "name": "Period 2, Day -1",
-                "label": "",
-                "description": "",
+                "name": "P2 DAY -1",
+                "label": "Period 2, Day -1",
+                "description": "Period 2, Day -1",
                 "type": {
                   "id": "Code_108",
                   "code": "C25716",
@@ -451,9 +451,9 @@
               },
               {
                 "id": "Encounter_6",
-                "name": "Period 2, Day 1",
-                "label": "",
-                "description": "",
+                "name": "P2 DAY 1",
+                "label": "Period 2, Day 1",
+                "description": "Period 2, Day 1",
                 "type": {
                   "id": "Code_111",
                   "code": "C25716",
@@ -491,9 +491,9 @@
               },
               {
                 "id": "Encounter_7",
-                "name": "Follow-up",
-                "label": "",
-                "description": "",
+                "name": "FOLLOW-UP",
+                "label": "Follow-up",
+                "description": "Follow-up",
                 "type": {
                   "id": "Code_114",
                   "code": "C25716",
@@ -2084,7 +2084,7 @@
               {
                 "id": "StudyEpoch_1",
                 "name": "Screening",
-                "label": "",
+                "label": "Screening",
                 "description": "Screening Epoch",
                 "type": {
                   "id": "Code_121",
@@ -2101,8 +2101,8 @@
               {
                 "id": "StudyEpoch_2",
                 "name": "Period 1",
-                "label": "",
-                "description": "Treatment Epoch",
+                "label": "Period 1",
+                "description": "Treatment Period 1",
                 "type": {
                   "id": "Code_122",
                   "code": "C101526",
@@ -2118,8 +2118,8 @@
               {
                 "id": "StudyEpoch_3",
                 "name": "Wash Out",
-                "label": "",
-                "description": "Treatment Epoch",
+                "label": "Washout",
+                "description": "Washout",
                 "type": {
                   "id": "Code_123",
                   "code": "C42872",
@@ -2135,8 +2135,8 @@
               {
                 "id": "StudyEpoch_4",
                 "name": "Period 2",
-                "label": "",
-                "description": "Treatment Epoch",
+                "label": "Period 2",
+                "description": "Treatment Period 2",
                 "type": {
                   "id": "Code_124",
                   "code": "C101526",
@@ -2152,7 +2152,7 @@
               {
                 "id": "StudyEpoch_5",
                 "name": "Follow-Up",
-                "label": "",
+                "label": "Follow-up Epoch",
                 "description": "Follow-up Epoch",
                 "type": {
                   "id": "Code_125",
@@ -3429,11 +3429,11 @@
                   {
                     "id": "Timing_1",
                     "name": "TIMING_1",
-                    "label": "Screening visit",
+                    "label": "-28 Days",
                     "description": "Screening visit timing",
                     "type": {
                       "id": "Code_8",
-                      "code": "C201264",
+                      "code": "C201357",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Before",
@@ -3442,7 +3442,7 @@
                     "value": "P28D",
                     "relativeToFrom": {
                       "id": "Code_9",
-                      "code": "C201265",
+                      "code": "C201355",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Start to Start",
@@ -3458,11 +3458,11 @@
                   {
                     "id": "Timing_2",
                     "name": "TIMING_2",
-                    "label": "Period 1, Day minus 1",
+                    "label": "-1 Day",
                     "description": "Period 1, Day Minus 1 timing",
                     "type": {
                       "id": "Code_11",
-                      "code": "C201264",
+                      "code": "C201357",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Before",
@@ -3471,7 +3471,7 @@
                     "value": "P1D",
                     "relativeToFrom": {
                       "id": "Code_12",
-                      "code": "C201265",
+                      "code": "C201355",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Start to Start",
@@ -3487,11 +3487,11 @@
                   {
                     "id": "Timing_3",
                     "name": "TIMING_3",
-                    "label": "Period 1, Randomisation",
+                    "label": "Radomisation",
                     "description": "Period 1, Radomisation timing",
                     "type": {
                       "id": "Code_13",
-                      "code": "C201264",
+                      "code": "C201357",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Before",
@@ -3500,7 +3500,7 @@
                     "value": "PT0M",
                     "relativeToFrom": {
                       "id": "Code_14",
-                      "code": "C201265",
+                      "code": "C201355",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Start to Start",
@@ -3516,11 +3516,11 @@
                   {
                     "id": "Timing_4",
                     "name": "TIMING_4",
-                    "label": "Period 1, Pre infusion",
+                    "label": "Pre infusion",
                     "description": "Period 1, Pre infusion timing",
                     "type": {
                       "id": "Code_15",
-                      "code": "C201264",
+                      "code": "C201357",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Before",
@@ -3529,7 +3529,7 @@
                     "value": "PT0M",
                     "relativeToFrom": {
                       "id": "Code_16",
-                      "code": "C201265",
+                      "code": "C201355",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Start to Start",
@@ -3545,11 +3545,11 @@
                   {
                     "id": "Timing_5",
                     "name": "TIMING_5",
-                    "label": "Period 1, Infusion",
+                    "label": "Infusion",
                     "description": "Period 1, Infusion timing",
                     "type": {
                       "id": "Code_17",
-                      "code": "C201264",
+                      "code": "C201357",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Before",
@@ -3558,7 +3558,7 @@
                     "value": "PT0M",
                     "relativeToFrom": {
                       "id": "Code_18",
-                      "code": "C201265",
+                      "code": "C201355",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Start to Start",
@@ -3574,11 +3574,11 @@
                   {
                     "id": "Timing_6",
                     "name": "TIMING_6",
-                    "label": "Period 1,  Treatment",
+                    "label": "Day 1",
                     "description": "Period 1, Treatment anchor",
                     "type": {
                       "id": "Code_19",
-                      "code": "C201264",
+                      "code": "C201358",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Fixed Reference",
@@ -3587,7 +3587,7 @@
                     "value": "P1D",
                     "relativeToFrom": {
                       "id": "Code_20",
-                      "code": "C201265",
+                      "code": "C201355",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Start to Start",
@@ -3603,11 +3603,11 @@
                   {
                     "id": "Timing_7",
                     "name": "TIMING_7",
-                    "label": "Period 1, Discharge",
+                    "label": "Discharge",
                     "description": "Period 1, Discharge timing",
                     "type": {
                       "id": "Code_21",
-                      "code": "C201264",
+                      "code": "C201356",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "After",
@@ -3616,7 +3616,7 @@
                     "value": "PT0M",
                     "relativeToFrom": {
                       "id": "Code_22",
-                      "code": "C201265",
+                      "code": "C201355",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Start to Start",
@@ -3636,7 +3636,7 @@
                     "description": "Washout timing",
                     "type": {
                       "id": "Code_23",
-                      "code": "C201264",
+                      "code": "C201356",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "After",
@@ -3645,7 +3645,7 @@
                     "value": "P3D",
                     "relativeToFrom": {
                       "id": "Code_24",
-                      "code": "C201265",
+                      "code": "C201355",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Start to Start",
@@ -3661,11 +3661,11 @@
                   {
                     "id": "Timing_9",
                     "name": "TIMING_9",
-                    "label": "Period 2, Day minus 1",
+                    "label": "-1 Day",
                     "description": "Period 2, Day Minus 1 timing",
                     "type": {
                       "id": "Code_26",
-                      "code": "C201264",
+                      "code": "C201356",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "After",
@@ -3674,7 +3674,7 @@
                     "value": "P0D",
                     "relativeToFrom": {
                       "id": "Code_27",
-                      "code": "C201265",
+                      "code": "C201355",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Start to Start",
@@ -3690,11 +3690,11 @@
                   {
                     "id": "Timing_10",
                     "name": "TIMING_10",
-                    "label": "Period 2, Pre infusion",
+                    "label": "Pre infusion",
                     "description": "Period 2, Pre infusion timing",
                     "type": {
                       "id": "Code_28",
-                      "code": "C201264",
+                      "code": "C201356",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "After",
@@ -3703,7 +3703,7 @@
                     "value": "P1D",
                     "relativeToFrom": {
                       "id": "Code_29",
-                      "code": "C201265",
+                      "code": "C201355",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Start to Start",
@@ -3719,11 +3719,11 @@
                   {
                     "id": "Timing_11",
                     "name": "TIMING_11",
-                    "label": "Period 2, Infusion",
+                    "label": "Infusion",
                     "description": "Period 2, Infusion timing",
                     "type": {
                       "id": "Code_30",
-                      "code": "C201264",
+                      "code": "C201356",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "After",
@@ -3732,7 +3732,7 @@
                     "value": "PT0M",
                     "relativeToFrom": {
                       "id": "Code_31",
-                      "code": "C201265",
+                      "code": "C201355",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Start to Start",
@@ -3748,11 +3748,11 @@
                   {
                     "id": "Timing_12",
                     "name": "TIMING_12",
-                    "label": "Period 2,  Treatment",
+                    "label": "Day 1",
                     "description": "Period 2, Treatment anchor",
                     "type": {
                       "id": "Code_32",
-                      "code": "C201264",
+                      "code": "C201356",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "After",
@@ -3761,7 +3761,7 @@
                     "value": "PT0M",
                     "relativeToFrom": {
                       "id": "Code_33",
-                      "code": "C201265",
+                      "code": "C201355",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Start to Start",
@@ -3777,11 +3777,11 @@
                   {
                     "id": "Timing_13",
                     "name": "TIMING_13",
-                    "label": "Period 2, Discharge",
+                    "label": "Discharge",
                     "description": "Period 2, Discharge timing",
                     "type": {
                       "id": "Code_34",
-                      "code": "C201264",
+                      "code": "C201356",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "After",
@@ -3790,7 +3790,7 @@
                     "value": "PT0M",
                     "relativeToFrom": {
                       "id": "Code_35",
-                      "code": "C201265",
+                      "code": "C201355",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Start to Start",
@@ -3810,7 +3810,7 @@
                     "description": "Follow Up timing",
                     "type": {
                       "id": "Code_36",
-                      "code": "C201264",
+                      "code": "C201356",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "After",
@@ -3819,7 +3819,7 @@
                     "value": "P28D",
                     "relativeToFrom": {
                       "id": "Code_37",
-                      "code": "C201265",
+                      "code": "C201355",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Start to Start",
@@ -3839,7 +3839,7 @@
                     "description": "Additional Follow Up timing",
                     "type": {
                       "id": "Code_39",
-                      "code": "C201264",
+                      "code": "C201356",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "After",
@@ -3848,7 +3848,7 @@
                     "value": "P1D",
                     "relativeToFrom": {
                       "id": "Code_40",
-                      "code": "C201265",
+                      "code": "C201355",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Start to Start",
@@ -4109,7 +4109,7 @@
                     "description": "Pre Hypoglycemia Induction timing",
                     "type": {
                       "id": "Code_71",
-                      "code": "C201264",
+                      "code": "C201357",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Before",
@@ -4118,7 +4118,7 @@
                     "value": "PT0M",
                     "relativeToFrom": {
                       "id": "Code_72",
-                      "code": "C201265",
+                      "code": "C201355",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Start to Start",
@@ -4138,7 +4138,7 @@
                     "description": "30 min before timing",
                     "type": {
                       "id": "Code_73",
-                      "code": "C201264",
+                      "code": "C201357",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Before",
@@ -4147,7 +4147,7 @@
                     "value": "PT30M",
                     "relativeToFrom": {
                       "id": "Code_74",
-                      "code": "C201265",
+                      "code": "C201355",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Start to Start",
@@ -4167,7 +4167,7 @@
                     "description": "15 min before timing",
                     "type": {
                       "id": "Code_75",
-                      "code": "C201264",
+                      "code": "C201357",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Before",
@@ -4176,7 +4176,7 @@
                     "value": "PT15M",
                     "relativeToFrom": {
                       "id": "Code_76",
-                      "code": "C201265",
+                      "code": "C201355",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Start to Start",
@@ -4196,7 +4196,7 @@
                     "description": "Hypoglycemia Induction timing",
                     "type": {
                       "id": "Code_77",
-                      "code": "C201264",
+                      "code": "C201358",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Fixed Reference",
@@ -4205,7 +4205,7 @@
                     "value": "PT0M",
                     "relativeToFrom": {
                       "id": "Code_78",
-                      "code": "C201265",
+                      "code": "C201355",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Start to Start",
@@ -4225,7 +4225,7 @@
                     "description": "Hypoglycemia Induction complete timing",
                     "type": {
                       "id": "Code_79",
-                      "code": "C201264",
+                      "code": "C201356",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "After",
@@ -4234,7 +4234,7 @@
                     "value": "PT0M",
                     "relativeToFrom": {
                       "id": "Code_80",
-                      "code": "C201265",
+                      "code": "C201355",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Start to Start",
@@ -4340,7 +4340,7 @@
                     "description": "Pre Dose timing",
                     "type": {
                       "id": "Code_41",
-                      "code": "C201264",
+                      "code": "C201357",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Before",
@@ -4349,7 +4349,7 @@
                     "value": "PT0M",
                     "relativeToFrom": {
                       "id": "Code_42",
-                      "code": "C201265",
+                      "code": "C201355",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Start to Start",
@@ -4369,7 +4369,7 @@
                     "description": "Dose Timing",
                     "type": {
                       "id": "Code_43",
-                      "code": "C201264",
+                      "code": "C201358",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Fixed Reference",
@@ -4378,7 +4378,7 @@
                     "value": "PT0M",
                     "relativeToFrom": {
                       "id": "Code_44",
-                      "code": "C201265",
+                      "code": "C201355",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Start to Start",
@@ -4398,7 +4398,7 @@
                     "description": "5 min",
                     "type": {
                       "id": "Code_45",
-                      "code": "C201264",
+                      "code": "C201356",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "After",
@@ -4407,7 +4407,7 @@
                     "value": "PT5M",
                     "relativeToFrom": {
                       "id": "Code_46",
-                      "code": "C201265",
+                      "code": "C201355",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Start to Start",
@@ -4427,7 +4427,7 @@
                     "description": "10 min",
                     "type": {
                       "id": "Code_47",
-                      "code": "C201264",
+                      "code": "C201356",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "After",
@@ -4436,7 +4436,7 @@
                     "value": "PT10M",
                     "relativeToFrom": {
                       "id": "Code_48",
-                      "code": "C201265",
+                      "code": "C201355",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Start to Start",
@@ -4456,7 +4456,7 @@
                     "description": "15 min",
                     "type": {
                       "id": "Code_49",
-                      "code": "C201264",
+                      "code": "C201356",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "After",
@@ -4465,7 +4465,7 @@
                     "value": "PT15M",
                     "relativeToFrom": {
                       "id": "Code_50",
-                      "code": "C201265",
+                      "code": "C201355",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Start to Start",
@@ -4485,7 +4485,7 @@
                     "description": "20 min",
                     "type": {
                       "id": "Code_51",
-                      "code": "C201264",
+                      "code": "C201356",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "After",
@@ -4494,7 +4494,7 @@
                     "value": "PT20M",
                     "relativeToFrom": {
                       "id": "Code_52",
-                      "code": "C201265",
+                      "code": "C201355",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Start to Start",
@@ -4514,7 +4514,7 @@
                     "description": "25 min",
                     "type": {
                       "id": "Code_53",
-                      "code": "C201264",
+                      "code": "C201356",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "After",
@@ -4523,7 +4523,7 @@
                     "value": "PT25M",
                     "relativeToFrom": {
                       "id": "Code_54",
-                      "code": "C201265",
+                      "code": "C201355",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Start to Start",
@@ -4543,7 +4543,7 @@
                     "description": "30 min",
                     "type": {
                       "id": "Code_55",
-                      "code": "C201264",
+                      "code": "C201356",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "After",
@@ -4552,7 +4552,7 @@
                     "value": "PT30M",
                     "relativeToFrom": {
                       "id": "Code_56",
-                      "code": "C201265",
+                      "code": "C201355",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Start to Start",
@@ -4572,7 +4572,7 @@
                     "description": "40 min",
                     "type": {
                       "id": "Code_57",
-                      "code": "C201264",
+                      "code": "C201356",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "After",
@@ -4581,7 +4581,7 @@
                     "value": "PT40M",
                     "relativeToFrom": {
                       "id": "Code_58",
-                      "code": "C201265",
+                      "code": "C201355",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Start to Start",
@@ -4601,7 +4601,7 @@
                     "description": "50min",
                     "type": {
                       "id": "Code_59",
-                      "code": "C201264",
+                      "code": "C201356",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "After",
@@ -4610,7 +4610,7 @@
                     "value": "PT50M",
                     "relativeToFrom": {
                       "id": "Code_60",
-                      "code": "C201265",
+                      "code": "C201355",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Start to Start",
@@ -4630,7 +4630,7 @@
                     "description": "60min",
                     "type": {
                       "id": "Code_61",
-                      "code": "C201264",
+                      "code": "C201356",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "After",
@@ -4639,7 +4639,7 @@
                     "value": "PT60M",
                     "relativeToFrom": {
                       "id": "Code_62",
-                      "code": "C201265",
+                      "code": "C201355",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Start to Start",
@@ -4659,7 +4659,7 @@
                     "description": "90 min",
                     "type": {
                       "id": "Code_63",
-                      "code": "C201264",
+                      "code": "C201356",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "After",
@@ -4668,7 +4668,7 @@
                     "value": "PT90M",
                     "relativeToFrom": {
                       "id": "Code_64",
-                      "code": "C201265",
+                      "code": "C201355",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Start to Start",
@@ -4688,7 +4688,7 @@
                     "description": "120 min",
                     "type": {
                       "id": "Code_65",
-                      "code": "C201264",
+                      "code": "C201356",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "After",
@@ -4697,7 +4697,7 @@
                     "value": "PT120M",
                     "relativeToFrom": {
                       "id": "Code_66",
-                      "code": "C201265",
+                      "code": "C201355",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Start to Start",
@@ -4717,7 +4717,7 @@
                     "description": "240 min",
                     "type": {
                       "id": "Code_67",
-                      "code": "C201264",
+                      "code": "C201356",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "After",
@@ -4726,7 +4726,7 @@
                     "value": "PT240M",
                     "relativeToFrom": {
                       "id": "Code_68",
-                      "code": "C201265",
+                      "code": "C201355",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Start to Start",
@@ -4746,7 +4746,7 @@
                     "description": "Meal Timing",
                     "type": {
                       "id": "Code_69",
-                      "code": "C201264",
+                      "code": "C201356",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "After",
@@ -4755,7 +4755,7 @@
                     "value": "PT0M",
                     "relativeToFrom": {
                       "id": "Code_70",
-                      "code": "C201265",
+                      "code": "C201355",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Start to Start",
@@ -5427,7 +5427,7 @@
               "name": "SECTION 2",
               "sectionNumber": "2",
               "sectionTitle": "Schedule of Activities",
-              "text": "<div><p><b>Timeline: Main Timeline, Potential subject identified</b></p><table class=\"table\"><tr><td></td><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td></tr><tr><td></td><td>StudyEpoch_1</td><td>StudyEpoch_2</td><td>StudyEpoch_2</td><td>StudyEpoch_2</td><td>StudyEpoch_2</td><td>StudyEpoch_2</td><td>StudyEpoch_2</td><td>StudyEpoch_3</td><td>StudyEpoch_4</td><td>StudyEpoch_4</td><td>StudyEpoch_2</td><td>StudyEpoch_2</td><td>StudyEpoch_2</td><td>StudyEpoch_5</td><td>StudyEpoch_5</td></tr><tr><td></td><td>Encounter_1</td><td>Encounter_2</td><td>Encounter_3</td><td>Encounter_3</td><td>Encounter_3</td><td>Encounter_3</td><td>Encounter_3</td><td>Encounter_4</td><td>Encounter_5</td><td>Encounter_6</td><td>Encounter_3</td><td>Encounter_3</td><td>Encounter_3</td><td>Encounter_7</td><td>Encounter_7</td></tr><tr><td>Informed Consent</td><td>X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Randomization</td><td></td><td></td><td>X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Admission to CRU</td><td></td><td>X</td><td></td><td></td><td></td><td></td><td></td><td></td><td>X</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Discharge from CRU</td><td></td><td></td><td></td><td></td><td></td><td></td><td>X</td><td></td><td></td><td></td><td></td><td></td><td>X</td><td></td><td></td></tr><tr><td>Medical History</td><td>X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Collect Pre-existing Conditions and Adverse Events</td><td>X</td><td>X</td><td></td><td>X</td><td></td><td></td><td></td><td>X</td><td>X</td><td></td><td></td><td></td><td></td><td>X</td><td></td></tr><tr><td>Physical Exam</td><td>X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>X</td><td></td></tr><tr><td>Height and Weight</td><td>X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>X</td><td></td></tr><tr><td>Hypoglycemic Events</td><td></td><td></td><td></td><td></td><td></td><td>X</td><td></td><td></td><td></td><td></td><td></td><td>X</td><td></td><td></td><td></td></tr><tr><td>Collect Concomitant Medications</td><td>X</td><td>X</td><td></td><td>X</td><td></td><td></td><td></td><td>X</td><td>X</td><td>X</td><td></td><td></td><td></td><td>X</td><td></td></tr><tr><td>Insulin infusion to Induce Hypoglycemia</td><td></td><td></td><td></td><td></td><td>X</td><td></td><td></td><td></td><td></td><td></td><td>X</td><td></td><td></td><td></td><td></td></tr><tr><td>PG Monitoring</td><td></td><td></td><td></td><td></td><td>X</td><td></td><td></td><td></td><td></td><td></td><td>X</td><td></td><td></td><td></td><td></td></tr><tr><td>Study Treatment Administration</td><td></td><td></td><td></td><td></td><td></td><td>X</td><td></td><td></td><td></td><td></td><td></td><td>X</td><td></td><td></td><td></td></tr><tr><td>Vital Signs (Supine Blood Pressure, Pulse Rate, and Body Temperature)</td><td>X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>X</td><td></td></tr><tr><td>Single 12-lead ECG (Local)</td><td>X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>X</td><td></td></tr><tr><td>Clinical Serology Tests</td><td>X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Clinical Lab Tests</td><td>X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>X</td><td></td></tr><tr><td>HbA1c</td><td>X</td><td></td><td></td><td>X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Pregnancy Test (Female patients of childbearing potential only)</td><td>X</td><td>X</td><td></td><td></td><td></td><td></td><td></td><td></td><td>X</td><td></td><td></td><td></td><td></td><td>X</td><td></td></tr><tr><td>FSH (Female patients only)</td><td>X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Ethanol testing</td><td>X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Urine Drug Screen</td><td>X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>PK (Glucagon)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>X</td><td>X</td></tr><tr><td>Genetic Sample (stored)</td><td></td><td>X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Anti-glucagon Antibodies</td><td></td><td></td><td></td><td>X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>X</td><td>X</td></tr><tr><td>Clarke Hypoglycemia Awareness Survey</td><td></td><td>X</td><td></td><td></td><td></td><td></td><td></td><td></td><td>X</td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table><p><b>Timeline: Hypoinduction, Insulin Infusion</b></p><table class=\"table\"><tr><td></td><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Vital Signs (Supine Blood Pressure, Pulse Rate, and Body Temperature)</td><td>X</td><td></td><td></td><td></td><td></td></tr><tr><td>Triplicate 12-lead ECG (Central)</td><td></td><td>X</td><td>X</td><td></td><td></td></tr><tr><td>Clinical Lab Tests</td><td>X</td><td></td><td></td><td></td><td></td></tr><tr><td>PK (Glucagon)</td><td>X</td><td></td><td></td><td></td><td></td></tr><tr><td>Plasma Glucose for PD</td><td>X</td><td></td><td></td><td></td><td>X</td></tr><tr><td>Nasal and Non-nasal Score Quaestionnaire</td><td>X</td><td></td><td></td><td></td><td></td></tr><tr><td>Edinburgh Hypoglycemia Scale: Experimental Hypoglycemia</td><td>X</td><td></td><td></td><td></td><td></td></tr><tr><td>Weight</td><td>X</td><td></td><td></td><td></td><td></td></tr><tr><td>Injection-Site Assessment</td><td>X</td><td></td><td></td><td></td><td></td></tr><tr><td>Nasal Inspection</td><td>X</td><td></td><td></td><td></td><td></td></tr></table><p><b>Timeline: Treatment Phase, Study Treatment Administration</b></p><table class=\"table\"><tr><td></td><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Physical Exam</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>X</td><td></td></tr><tr><td>Insulin infusion to Induce Hypoglycemia</td><td></td><td>X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Vital Signs (Supine Blood Pressure, Pulse Rate, and Body Temperature)</td><td>X</td><td></td><td></td><td></td><td>X</td><td></td><td></td><td>X</td><td></td><td></td><td>X</td><td></td><td>X</td><td>X</td><td></td></tr><tr><td>Triplicate 12-lead ECG (Central)</td><td>X</td><td></td><td></td><td></td><td>X</td><td></td><td></td><td>X</td><td></td><td></td><td>X</td><td></td><td>X</td><td>X</td><td></td></tr><tr><td>PK (Glucagon)</td><td>X</td><td></td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td></td></tr><tr><td>Plasma Glucose for PD</td><td>X</td><td></td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td></td></tr><tr><td>Nasal and Non-nasal Score Quaestionnaire</td><td></td><td></td><td></td><td></td><td>X</td><td></td><td></td><td>X</td><td></td><td></td><td>X</td><td></td><td>X</td><td></td><td></td></tr><tr><td>Edinburgh Hypoglycemia Scale: Experimental Hypoglycemia</td><td>X</td><td></td><td></td><td></td><td>X</td><td></td><td></td><td>X</td><td></td><td></td><td>X</td><td></td><td>X</td><td></td><td></td></tr><tr><td>Injection-Site Assessment</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>X</td><td></td><td></td><td></td></tr><tr><td>Nasal Inspection</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>X</td><td></td><td></td><td></td></tr><tr><td>Meal</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>X</td></tr></table></div>",
+              "text": "<div><p><b>Timeline: Main Timeline, Potential subject identified</b></p><table class=\"table\"><tr><td></td><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td></tr><tr><td></td><td>Screening</td><td>Period 1</td><td>Period 1</td><td>Period 1</td><td>Period 1</td><td>Period 1</td><td>Period 1</td><td>Washout</td><td>Period 2</td><td>Period 2</td><td>Period 1</td><td>Period 1</td><td>Period 1</td><td>Follow-up Epoch</td><td>Follow-up Epoch</td></tr><tr><td></td><td>Screening</td><td>Period 1, Day -1</td><td>Period 1, Day 1</td><td>Period 1, Day 1</td><td>Period 1, Day 1</td><td>Period 1, Day 1</td><td>Period 1, Day 1</td><td>Wash Out</td><td>Period 2, Day -1</td><td>Period 2, Day 1</td><td>Period 1, Day 1</td><td>Period 1, Day 1</td><td>Period 1, Day 1</td><td>Follow-up</td><td>Follow-up</td></tr><tr><td></td><td>-28 Days</td><td>-1 Day</td><td>Radomisation</td><td>Pre infusion</td><td>Infusion</td><td>Day 1</td><td>Discharge</td><td>Washout</td><td>-1 Day</td><td>Pre infusion</td><td>Infusion</td><td>Day 1</td><td>Discharge</td><td>Follow up</td><td>Additional Follow Up</td></tr><tr><td>Informed Consent</td><td>X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Randomization</td><td></td><td></td><td>X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Admission to CRU</td><td></td><td>X</td><td></td><td></td><td></td><td></td><td></td><td></td><td>X</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Discharge from CRU</td><td></td><td></td><td></td><td></td><td></td><td></td><td>X</td><td></td><td></td><td></td><td></td><td></td><td>X</td><td></td><td></td></tr><tr><td>Medical History</td><td>X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Collect Pre-existing Conditions and Adverse Events</td><td>X</td><td>X</td><td></td><td>X</td><td></td><td></td><td></td><td>X</td><td>X</td><td></td><td></td><td></td><td></td><td>X</td><td></td></tr><tr><td>Physical Exam</td><td>X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>X</td><td></td></tr><tr><td>Height and Weight</td><td>X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>X</td><td></td></tr><tr><td>Hypoglycemic Events</td><td></td><td></td><td></td><td></td><td></td><td>X</td><td></td><td></td><td></td><td></td><td></td><td>X</td><td></td><td></td><td></td></tr><tr><td>Collect Concomitant Medications</td><td>X</td><td>X</td><td></td><td>X</td><td></td><td></td><td></td><td>X</td><td>X</td><td>X</td><td></td><td></td><td></td><td>X</td><td></td></tr><tr><td>Insulin infusion to Induce Hypoglycemia</td><td></td><td></td><td></td><td></td><td>X</td><td></td><td></td><td></td><td></td><td></td><td>X</td><td></td><td></td><td></td><td></td></tr><tr><td>PG Monitoring</td><td></td><td></td><td></td><td></td><td>X</td><td></td><td></td><td></td><td></td><td></td><td>X</td><td></td><td></td><td></td><td></td></tr><tr><td>Study Treatment Administration</td><td></td><td></td><td></td><td></td><td></td><td>X</td><td></td><td></td><td></td><td></td><td></td><td>X</td><td></td><td></td><td></td></tr><tr><td>Vital Signs (Supine Blood Pressure, Pulse Rate, and Body Temperature)</td><td>X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>X</td><td></td></tr><tr><td>Single 12-lead ECG (Local)</td><td>X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>X</td><td></td></tr><tr><td>Clinical Serology Tests</td><td>X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Clinical Lab Tests</td><td>X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>X</td><td></td></tr><tr><td>HbA1c</td><td>X</td><td></td><td></td><td>X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Pregnancy Test (Female patients of childbearing potential only)</td><td>X</td><td>X</td><td></td><td></td><td></td><td></td><td></td><td></td><td>X</td><td></td><td></td><td></td><td></td><td>X</td><td></td></tr><tr><td>FSH (Female patients only)</td><td>X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Ethanol testing</td><td>X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Urine Drug Screen</td><td>X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>PK (Glucagon)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>X</td><td>X</td></tr><tr><td>Genetic Sample (stored)</td><td></td><td>X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Anti-glucagon Antibodies</td><td></td><td></td><td></td><td>X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>X</td><td>X</td></tr><tr><td>Clarke Hypoglycemia Awareness Survey</td><td></td><td>X</td><td></td><td></td><td></td><td></td><td></td><td></td><td>X</td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table><p><b>Timeline: Hypoinduction, Insulin Infusion</b></p><table class=\"table\"><tr><td></td><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>Pre Hypoglycemia Induction</td><td>30 min before</td><td>15 min before</td><td>Hypoglycemia Induction</td><td>Hypoglycemia Induction finished</td></tr><tr><td>Vital Signs (Supine Blood Pressure, Pulse Rate, and Body Temperature)</td><td>X</td><td></td><td></td><td></td><td></td></tr><tr><td>Triplicate 12-lead ECG (Central)</td><td></td><td>X</td><td>X</td><td></td><td></td></tr><tr><td>Clinical Lab Tests</td><td>X</td><td></td><td></td><td></td><td></td></tr><tr><td>PK (Glucagon)</td><td>X</td><td></td><td></td><td></td><td></td></tr><tr><td>Plasma Glucose for PD</td><td>X</td><td></td><td></td><td></td><td>X</td></tr><tr><td>Nasal and Non-nasal Score Quaestionnaire</td><td>X</td><td></td><td></td><td></td><td></td></tr><tr><td>Edinburgh Hypoglycemia Scale: Experimental Hypoglycemia</td><td>X</td><td></td><td></td><td></td><td></td></tr><tr><td>Weight</td><td>X</td><td></td><td></td><td></td><td></td></tr><tr><td>Injection-Site Assessment</td><td>X</td><td></td><td></td><td></td><td></td></tr><tr><td>Nasal Inspection</td><td>X</td><td></td><td></td><td></td><td></td></tr></table><p><b>Timeline: Treatment Phase, Study Treatment Administration</b></p><table class=\"table\"><tr><td></td><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>Pre Dose</td><td>Dose</td><td>5 min</td><td>10 min</td><td>15 min</td><td>20 min</td><td>25 min</td><td>30 min</td><td>40 min</td><td>50min</td><td>60min</td><td>90 min</td><td>120 min</td><td>240 min</td><td>Meal</td></tr><tr><td>Physical Exam</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>X</td><td></td></tr><tr><td>Insulin infusion to Induce Hypoglycemia</td><td></td><td>X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Vital Signs (Supine Blood Pressure, Pulse Rate, and Body Temperature)</td><td>X</td><td></td><td></td><td></td><td>X</td><td></td><td></td><td>X</td><td></td><td></td><td>X</td><td></td><td>X</td><td>X</td><td></td></tr><tr><td>Triplicate 12-lead ECG (Central)</td><td>X</td><td></td><td></td><td></td><td>X</td><td></td><td></td><td>X</td><td></td><td></td><td>X</td><td></td><td>X</td><td>X</td><td></td></tr><tr><td>PK (Glucagon)</td><td>X</td><td></td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td></td></tr><tr><td>Plasma Glucose for PD</td><td>X</td><td></td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td></td></tr><tr><td>Nasal and Non-nasal Score Quaestionnaire</td><td></td><td></td><td></td><td></td><td>X</td><td></td><td></td><td>X</td><td></td><td></td><td>X</td><td></td><td>X</td><td></td><td></td></tr><tr><td>Edinburgh Hypoglycemia Scale: Experimental Hypoglycemia</td><td>X</td><td></td><td></td><td></td><td>X</td><td></td><td></td><td>X</td><td></td><td></td><td>X</td><td></td><td>X</td><td></td><td></td></tr><tr><td>Injection-Site Assessment</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>X</td><td></td><td></td><td></td></tr><tr><td>Nasal Inspection</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>X</td><td></td><td></td><td></td></tr><tr><td>Meal</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>X</td></tr></table></div>",
               "childIds": [],
               "instanceType": "NarrativeContent"
             },
