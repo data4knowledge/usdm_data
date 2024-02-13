@@ -1295,7 +1295,7 @@
                 "label": "",
                 "description": "",
                 "previousId": "Activity_29",
-                "nextId": null,
+                "nextId": "Activity_31",
                 "definedProcedures": [],
                 "biomedicalConceptIds": [],
                 "bcCategoryIds": [],
@@ -1308,8 +1308,8 @@
                 "name": "Adverse events",
                 "label": "",
                 "description": "",
-                "previousId": null,
-                "nextId": null,
+                "previousId": "Activity_30",
+                "nextId": "Activity_32",
                 "definedProcedures": [],
                 "biomedicalConceptIds": [
                   "BiomedicalConcept_1"
@@ -1324,8 +1324,8 @@
                 "name": "Check adverse events",
                 "label": "",
                 "description": "",
-                "previousId": "Activity_30",
-                "nextId": null,
+                "previousId": "Activity_31",
+                "nextId": "Activity_33",
                 "definedProcedures": [],
                 "biomedicalConceptIds": [],
                 "bcCategoryIds": [],
@@ -1338,7 +1338,7 @@
                 "name": "Supine",
                 "label": "Subject supine",
                 "description": "",
-                "previousId": null,
+                "previousId": "Activity_32",
                 "nextId": "Activity_34",
                 "definedProcedures": [
                   {
@@ -6411,7 +6411,7 @@
                     "description": "Screening timing",
                     "type": {
                       "id": "Code_14",
-                      "code": "C201264",
+                      "code": "C201357",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Before",
@@ -6420,7 +6420,7 @@
                     "value": "P2W",
                     "relativeToFrom": {
                       "id": "Code_15",
-                      "code": "C201265",
+                      "code": "C201355",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Start to Start",
@@ -6440,7 +6440,7 @@
                     "description": "Pre dose timing",
                     "type": {
                       "id": "Code_16",
-                      "code": "C201264",
+                      "code": "C201357",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Before",
@@ -6449,7 +6449,7 @@
                     "value": "P2D",
                     "relativeToFrom": {
                       "id": "Code_17",
-                      "code": "C201265",
+                      "code": "C201355",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Start to Start",
@@ -6469,7 +6469,7 @@
                     "description": "Dosing anchor",
                     "type": {
                       "id": "Code_19",
-                      "code": "C201264",
+                      "code": "C201358",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Fixed Reference",
@@ -6478,7 +6478,7 @@
                     "value": "P1D",
                     "relativeToFrom": {
                       "id": "Code_20",
-                      "code": "C201265",
+                      "code": "C201355",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Start to Start",
@@ -6498,7 +6498,7 @@
                     "description": "Week 2 timing",
                     "type": {
                       "id": "Code_21",
-                      "code": "C201264",
+                      "code": "C201356",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "After",
@@ -6507,7 +6507,7 @@
                     "value": "P2W",
                     "relativeToFrom": {
                       "id": "Code_22",
-                      "code": "C201265",
+                      "code": "C201355",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Start to Start",
@@ -6527,7 +6527,7 @@
                     "description": "Week 4 timing",
                     "type": {
                       "id": "Code_24",
-                      "code": "C201264",
+                      "code": "C201356",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "After",
@@ -6536,7 +6536,7 @@
                     "value": "P4W",
                     "relativeToFrom": {
                       "id": "Code_25",
-                      "code": "C201265",
+                      "code": "C201355",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Start to Start",
@@ -6556,7 +6556,7 @@
                     "description": "Week 6 timing",
                     "type": {
                       "id": "Code_27",
-                      "code": "C201264",
+                      "code": "C201356",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "After",
@@ -6565,7 +6565,7 @@
                     "value": "P6W",
                     "relativeToFrom": {
                       "id": "Code_28",
-                      "code": "C201265",
+                      "code": "C201355",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Start to Start",
@@ -6585,7 +6585,7 @@
                     "description": "Week 8 timing",
                     "type": {
                       "id": "Code_30",
-                      "code": "C201264",
+                      "code": "C201356",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "After",
@@ -6594,7 +6594,7 @@
                     "value": "P8W",
                     "relativeToFrom": {
                       "id": "Code_31",
-                      "code": "C201265",
+                      "code": "C201355",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Start to Start",
@@ -6614,7 +6614,7 @@
                     "description": "Week 12 timing",
                     "type": {
                       "id": "Code_35",
-                      "code": "C201264",
+                      "code": "C201356",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "After",
@@ -6623,7 +6623,7 @@
                     "value": "P12W",
                     "relativeToFrom": {
                       "id": "Code_36",
-                      "code": "C201265",
+                      "code": "C201355",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Start to Start",
@@ -6643,7 +6643,7 @@
                     "description": "Week 16 timing",
                     "type": {
                       "id": "Code_40",
-                      "code": "C201264",
+                      "code": "C201356",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "After",
@@ -6652,7 +6652,7 @@
                     "value": "P16W",
                     "relativeToFrom": {
                       "id": "Code_41",
-                      "code": "C201265",
+                      "code": "C201355",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Start to Start",
@@ -6672,7 +6672,7 @@
                     "description": "Week 20 timing",
                     "type": {
                       "id": "Code_45",
-                      "code": "C201264",
+                      "code": "C201356",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "After",
@@ -6681,7 +6681,7 @@
                     "value": "P20W",
                     "relativeToFrom": {
                       "id": "Code_46",
-                      "code": "C201265",
+                      "code": "C201355",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Start to Start",
@@ -6701,7 +6701,7 @@
                     "description": "Week 24 timing",
                     "type": {
                       "id": "Code_50",
-                      "code": "C201264",
+                      "code": "C201356",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "After",
@@ -6710,7 +6710,7 @@
                     "value": "P24W",
                     "relativeToFrom": {
                       "id": "Code_51",
-                      "code": "C201265",
+                      "code": "C201355",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Start to Start",
@@ -6730,7 +6730,7 @@
                     "description": "Week 26 timing",
                     "type": {
                       "id": "Code_53",
-                      "code": "C201264",
+                      "code": "C201356",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "After",
@@ -6739,7 +6739,7 @@
                     "value": "P26W",
                     "relativeToFrom": {
                       "id": "Code_54",
-                      "code": "C201265",
+                      "code": "C201355",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Start to Start",
@@ -6759,7 +6759,7 @@
                     "description": "Week 8 at home timing",
                     "type": {
                       "id": "Code_33",
-                      "code": "C201264",
+                      "code": "C201356",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "After",
@@ -6768,7 +6768,7 @@
                     "value": "P2W",
                     "relativeToFrom": {
                       "id": "Code_34",
-                      "code": "C201265",
+                      "code": "C201355",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Start to Start",
@@ -6788,7 +6788,7 @@
                     "description": "Week 12 at home timing",
                     "type": {
                       "id": "Code_38",
-                      "code": "C201264",
+                      "code": "C201356",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "After",
@@ -6797,7 +6797,7 @@
                     "value": "P2W",
                     "relativeToFrom": {
                       "id": "Code_39",
-                      "code": "C201265",
+                      "code": "C201355",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Start to Start",
@@ -6817,7 +6817,7 @@
                     "description": "Week 16 at home timing",
                     "type": {
                       "id": "Code_43",
-                      "code": "C201264",
+                      "code": "C201356",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "After",
@@ -6826,7 +6826,7 @@
                     "value": "P2W",
                     "relativeToFrom": {
                       "id": "Code_44",
-                      "code": "C201265",
+                      "code": "C201355",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Start to Start",
@@ -6846,7 +6846,7 @@
                     "description": "Week 20 at home timing",
                     "type": {
                       "id": "Code_48",
-                      "code": "C201264",
+                      "code": "C201356",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "After",
@@ -6855,7 +6855,7 @@
                     "value": "P2W",
                     "relativeToFrom": {
                       "id": "Code_49",
-                      "code": "C201265",
+                      "code": "C201355",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Start to Start",
@@ -7193,7 +7193,7 @@
                     "description": "Adverse Event",
                     "type": {
                       "id": "Code_56",
-                      "code": "C201264",
+                      "code": "C201358",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Fixed Reference",
@@ -7202,7 +7202,7 @@
                     "value": "P1D",
                     "relativeToFrom": {
                       "id": "Code_57",
-                      "code": "C201265",
+                      "code": "C201355",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Start to Start",
@@ -7254,7 +7254,7 @@
                     "description": "Early Termination",
                     "type": {
                       "id": "Code_58",
-                      "code": "C201264",
+                      "code": "C201358",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Fixed Reference",
@@ -7263,7 +7263,7 @@
                     "value": "P1D",
                     "relativeToFrom": {
                       "id": "Code_59",
-                      "code": "C201265",
+                      "code": "C201355",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Start to Start",
@@ -7329,7 +7329,7 @@
                     "description": "Supine",
                     "type": {
                       "id": "Code_60",
-                      "code": "C201264",
+                      "code": "C201358",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Fixed Reference",
@@ -7338,7 +7338,7 @@
                     "value": "PT0M",
                     "relativeToFrom": {
                       "id": "Code_61",
-                      "code": "C201265",
+                      "code": "C201355",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Start to Start",
@@ -7358,7 +7358,7 @@
                     "description": "VS while supine",
                     "type": {
                       "id": "Code_62",
-                      "code": "C201264",
+                      "code": "C201356",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "After",
@@ -7367,7 +7367,7 @@
                     "value": "PT5M",
                     "relativeToFrom": {
                       "id": "Code_63",
-                      "code": "C201265",
+                      "code": "C201355",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Start to Start",
@@ -7387,7 +7387,7 @@
                     "description": "Standing",
                     "type": {
                       "id": "Code_64",
-                      "code": "C201264",
+                      "code": "C201356",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "After",
@@ -7396,7 +7396,7 @@
                     "value": "PT0M",
                     "relativeToFrom": {
                       "id": "Code_65",
-                      "code": "C201265",
+                      "code": "C201353",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "End to Start",
@@ -7416,7 +7416,7 @@
                     "description": "VS while standing",
                     "type": {
                       "id": "Code_66",
-                      "code": "C201264",
+                      "code": "C201356",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "After",
@@ -7425,7 +7425,7 @@
                     "value": "PT1M",
                     "relativeToFrom": {
                       "id": "Code_67",
-                      "code": "C201265",
+                      "code": "C201355",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Start to Start",
@@ -7445,7 +7445,7 @@
                     "description": "Standing",
                     "type": {
                       "id": "Code_68",
-                      "code": "C201264",
+                      "code": "C201356",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "After",
@@ -7454,7 +7454,7 @@
                     "value": "PT0M",
                     "relativeToFrom": {
                       "id": "Code_69",
-                      "code": "C201265",
+                      "code": "C201353",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "End to Start",
@@ -7474,7 +7474,7 @@
                     "description": "VS while standing",
                     "type": {
                       "id": "Code_70",
-                      "code": "C201264",
+                      "code": "C201356",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "After",
@@ -7483,7 +7483,7 @@
                     "value": "PT2M",
                     "relativeToFrom": {
                       "id": "Code_71",
-                      "code": "C201265",
+                      "code": "C201355",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
                       "decode": "Start to Start",
@@ -7582,21 +7582,9 @@
                 "label": "IE Dictionary",
                 "description": "Dictionary for IE",
                 "parameterMap": {
-                  "min_age": {
-                    "klass": "Range",
-                    "id": "Range_3",
-                    "attribute": "maxValue"
-                  },
-                  "max_age": {
-                    "klass": "Range",
-                    "id": "Range_3",
-                    "attribute": "minValue"
-                  },
-                  "StudyPopulation": {
-                    "klass": "StudyDesignPopulation",
-                    "id": "StudyDesignPopulation_1",
-                    "attribute": "description"
-                  }
+                  "min_age": "<usdm:ref klass=\"Range\" id=\"Range_3\" attribute=\"maxValue\"></usdm:ref>",
+                  "max_age": "<usdm:ref klass=\"Range\" id=\"Range_3\" attribute=\"minValue\"></usdm:ref>",
+                  "StudyPopulation": "<usdm:ref klass=\"StudyDesignPopulation\" id=\"StudyDesignPopulation_1\" attribute=\"description\"></usdm:ref>"
                 },
                 "instanceType": "SyntaxTemplateDictionary"
               },
@@ -7606,11 +7594,7 @@
                 "label": "Assessment Dictionary",
                 "description": "Dictionary for Study Assessments",
                 "parameterMap": {
-                  "Activity1": {
-                    "klass": "Activity",
-                    "id": "Activity_6",
-                    "attribute": "label"
-                  }
+                  "Activity1": "<usdm:ref klass=\"Activity\" id=\"Activity_6\" attribute=\"label\"></usdm:ref>"
                 },
                 "instanceType": "SyntaxTemplateDictionary"
               }
@@ -7832,7 +7816,7 @@
               "name": "SECTION 0",
               "sectionNumber": "0",
               "sectionTitle": "TITLE PAGE",
-              "text": "<div><usdm:section name=\"M11-title-page\"></div>",
+              "text": "<div><table><tr><th style=\"vertical-align: top; text-align: left\"><p>Sponsor Confidentiality Statement:</p></th><td style=\"vertical-align: top; text-align: left\"><p></p></td></tr><tr><th style=\"vertical-align: top; text-align: left\"><p>Full Title:</p></th><td style=\"vertical-align: top; text-align: left\"><p><usdm:ref attribute=\"text\" id=\"StudyTitle_3\" klass=\"StudyTitle\"></usdm:ref></p></td></tr><tr><th style=\"vertical-align: top; text-align: left\"><p>Trial Acronym:</p></th><td style=\"vertical-align: top; text-align: left\"><p><usdm:ref attribute=\"text\" id=\"StudyTitle_1\" klass=\"StudyTitle\"></usdm:ref></p></td></tr><tr><th style=\"vertical-align: top; text-align: left\"><p>Protocol Identifier:</p></th><td style=\"vertical-align: top; text-align: left\"><p><usdm:ref attribute=\"studyIdentifier\" id=\"StudyIdentifier_1\" klass=\"StudyIdentifier\"></usdm:ref></p></td></tr><tr><th style=\"vertical-align: top; text-align: left\"><p>Original Protocol:</p></th><td style=\"vertical-align: top; text-align: left\"><p></p></td></tr><tr><th style=\"vertical-align: top; text-align: left\"><p>Version Number:</p></th><td style=\"vertical-align: top; text-align: left\"><p><usdm:ref attribute=\"versionIdentifier\" id=\"StudyVersion_1\" klass=\"StudyVersion\"></usdm:ref></p></td></tr><tr><th style=\"vertical-align: top; text-align: left\"><p>Version Date:</p></th><td style=\"vertical-align: top; text-align: left\"><p><usdm:ref attribute=\"dateValue\" id=\"GovernanceDate_2\" klass=\"GovernanceDate\"></usdm:ref></p></td></tr><tr><th style=\"vertical-align: top; text-align: left\"><p>Amendment Identifier:</p></th><td style=\"vertical-align: top; text-align: left\"><p><usdm:ref attribute=\"number\" id=\"StudyAmendment_1\" klass=\"StudyAmendment\"></usdm:ref></p></td></tr><tr><th style=\"vertical-align: top; text-align: left\"><p>Amendment Scope:</p></th><td style=\"vertical-align: top; text-align: left\"><p><usdm:ref attribute=\"decode\" id=\"Code_74\" klass=\"Code\"></usdm:ref></p></td></tr><tr><th style=\"vertical-align: top; text-align: left\"><p>Compound Codes(s):</p></th><td style=\"vertical-align: top; text-align: left\"><p></p></td></tr><tr><th style=\"vertical-align: top; text-align: left\"><p>Compound Name(s):</p></th><td style=\"vertical-align: top; text-align: left\"><p></p></td></tr><tr><th style=\"vertical-align: top; text-align: left\"><p>Trial Phase:</p></th><td style=\"vertical-align: top; text-align: left\"><p><usdm:ref attribute=\"decode\" id=\"Code_2\" klass=\"Code\"></usdm:ref></p></td></tr><tr><th style=\"vertical-align: top; text-align: left\"><p>Short Title:</p></th><td style=\"vertical-align: top; text-align: left\"><p><usdm:ref attribute=\"text\" id=\"StudyTitle_2\" klass=\"StudyTitle\"></usdm:ref></p></td></tr><tr><th style=\"vertical-align: top; text-align: left\"><p>Sponsor Name and Address:</p></th><td style=\"vertical-align: top; text-align: left\"><p><usdm:ref attribute=\"name\" id=\"Organization_1\" klass=\"Organization\"></usdm:ref>, <usdm:ref attribute=\"text\" id=\"Address_1\" klass=\"Address\"></usdm:ref></p></td></tr><tr><th style=\"vertical-align: top; text-align: left\"><p>Regulatory Agency Identifier Number(s):</p></th><td style=\"vertical-align: top; text-align: left\"><p><usdm:ref attribute=\"studyIdentifier\" id=\"StudyIdentifier_2\" klass=\"StudyIdentifier\"></usdm:ref></p></td></tr><tr><th style=\"vertical-align: top; text-align: left\"><p>Spondor Approval Date:</p></th><td style=\"vertical-align: top; text-align: left\"><p><usdm:ref attribute=\"dateValue\" id=\"GovernanceDate_1\" klass=\"GovernanceDate\"></usdm:ref></p></td></tr></table></div>",
               "childIds": [],
               "instanceType": "NarrativeContent"
             },
@@ -7922,7 +7906,7 @@
               "name": "SECTION 3.1",
               "sectionNumber": "3.1",
               "sectionTitle": "Primary Objectives",
-              "text": "<div><usdm:section name=\"M11-objective-endpoints\"></div>",
+              "text": "<div><table><tr><td style=\"vertical-align: top; text-align: left\"><p><usdm:ref attribute=\"text\" id=\"Objective_1\" klass=\"Objective\"></usdm:ref></p></td><td style=\"vertical-align: top; text-align: left\"><p><usdm:ref attribute=\"text\" id=\"Endpoint_1\" klass=\"Endpoint\"></usdm:ref></p><p><usdm:ref attribute=\"text\" id=\"Endpoint_2\" klass=\"Endpoint\"></usdm:ref></p></td></tr><tr><td style=\"vertical-align: top; text-align: left\"><p><usdm:ref attribute=\"text\" id=\"Objective_2\" klass=\"Objective\"></usdm:ref></p></td><td style=\"vertical-align: top; text-align: left\"><p><usdm:ref attribute=\"text\" id=\"Endpoint_3\" klass=\"Endpoint\"></usdm:ref></p><p><usdm:ref attribute=\"text\" id=\"Endpoint_4\" klass=\"Endpoint\"></usdm:ref></p><p><usdm:ref attribute=\"text\" id=\"Endpoint_5\" klass=\"Endpoint\"></usdm:ref></p></td></tr><tr><td style=\"vertical-align: top; text-align: left\"><p><usdm:ref attribute=\"text\" id=\"Objective_3\" klass=\"Objective\"></usdm:ref></p></td><td style=\"vertical-align: top; text-align: left\"><p><usdm:ref attribute=\"text\" id=\"Endpoint_6\" klass=\"Endpoint\"></usdm:ref></p><p><usdm:ref attribute=\"text\" id=\"Endpoint_7\" klass=\"Endpoint\"></usdm:ref></p><p><usdm:ref attribute=\"text\" id=\"Endpoint_8\" klass=\"Endpoint\"></usdm:ref></p></td></tr></table></div>",
               "childIds": [],
               "instanceType": "NarrativeContent"
             },
@@ -8039,7 +8023,7 @@
               "name": "SECTION 5.1",
               "sectionNumber": "5.1",
               "sectionTitle": "Selection of Trial Population",
-              "text": "<div><p>For Lilly studies, the following definitions are used:</p>\n<div>\n  <div><strong>Screen</strong></div>\n  <div>\n    <p>Screening is the act of determining if an individual meets minimum requirements to become part of a pool of potential candidates for participation in a clinical study.</p>\n    <p>In this study, <strong>screening</strong> will include asking the candidate preliminary questions (such as age and general health status) and conducting invasive or diagnostic procedures and/or tests (for example, diagnostic psychological tests, x-rays, blood draws). Patients will sign the consent at their screening visit, thereby consenting to undergo the screening procedures and to participate in the study if they qualify.</p>\n  </div>  \n</div>\n<div>\n  <div>To <strong>enter</strong></div>\n  <div>\n    <p>Patients <strong>entered</strong> into the study are those from whom informed consent for the study has been obtained. Adverse events will be reported for each patient who has <strong>entered</strong> the study, even if the patient is never assigned to a treatment group (<strong>enrolled</strong>).</p></div>\n  </div>  \n</div>\n<div>\n  <div>To <strong>enroll</strong></div>\n  <div>\n    <p>Patients who are enrolled in the study are those who have been assigned to a treatment group. Patients who are entered into the study but fail to meet criteria specified in the protocol for treatment assignment will not be enrolled in the study.</p></div>\n  </div>  \n</div>\n<p>At Visit 1, patients who meet the enrollment criteria of Mini-Mental State Examination (MMSE) score of 10 to 23 (Attachment LZZT.6), Hachinski Ischemia Score \u22644 (Attachment LZZT.8), a physical exam, safety labs, ECG, and urinalysis, will proceed to Visit 2 and Visit 3. At Visit 3, patients whose CNS imaging and other pending labs from Visit 1 satisfy the inclusion criteria (Section 3.4.2.1) will be enrolled in the study. Approximately 300 patients with a diagnosis of probable mild to moderate AD will be enrolled in the study.</p></div>",
+              "text": "<div><p>For Lilly studies, the following definitions are used:</p>\n<div>\n<div><strong>Screen</strong></div>\n<div>\n<p>Screening is the act of determining if an individual meets minimum requirements to become part of a pool of potential candidates for participation in a clinical study.</p>\n<p>In this study, <strong>screening</strong> will include asking the candidate preliminary questions (such as age and general health status) and conducting invasive or diagnostic procedures and/or tests (for example, diagnostic psychological tests, x-rays, blood draws). Patients will sign the consent at their screening visit, thereby consenting to undergo the screening procedures and to participate in the study if they qualify.</p>\n</div>\n</div>\n<div>\n<div>To <strong>enter</strong></div>\n<div>\n<p>Patients <strong>entered</strong> into the study are those from whom informed consent for the study has been obtained. Adverse events will be reported for each patient who has <strong>entered</strong> the study, even if the patient is never assigned to a treatment group (<strong>enrolled</strong>).</p></div>\n</div>\n</div>\n<div>\n<div>To <strong>enroll</strong></div>\n<div>\n<p>Patients who are enrolled in the study are those who have been assigned to a treatment group. Patients who are entered into the study but fail to meet criteria specified in the protocol for treatment assignment will not be enrolled in the study.</p></div>\n</div>\n\n<p>At Visit 1, patients who meet the enrollment criteria of Mini-Mental State Examination (MMSE) score of 10 to 23 (Attachment LZZT.6), Hachinski Ischemia Score \u22644 (Attachment LZZT.8), a physical exam, safety labs, ECG, and urinalysis, will proceed to Visit 2 and Visit 3. At Visit 3, patients whose CNS imaging and other pending labs from Visit 1 satisfy the inclusion criteria (Section 3.4.2.1) will be enrolled in the study. Approximately 300 patients with a diagnosis of probable mild to moderate AD will be enrolled in the study.</p>",
               "childIds": [],
               "instanceType": "NarrativeContent"
             },
@@ -8057,7 +8041,7 @@
               "name": "SECTION 5.3",
               "sectionNumber": "5.3",
               "sectionTitle": "Inclusion Criteria",
-              "text": "<div><usdm:section name=\"M11-inclusion\"></div>",
+              "text": "<div><p>Patients may be included in the study only if they meet <strong>all</strong> the following criteria:</p><table><tr><td style=\"vertical-align: top; text-align: left\"><p>1</p></td><td style=\"vertical-align: top; text-align: left\"><p><usdm:ref attribute=\"text\" id=\"EligibilityCriterion_1\" klass=\"EligibilityCriterion\"></usdm:ref></p></td></tr><tr><td style=\"vertical-align: top; text-align: left\"><p>2</p></td><td style=\"vertical-align: top; text-align: left\"><p><usdm:ref attribute=\"text\" id=\"EligibilityCriterion_2\" klass=\"EligibilityCriterion\"></usdm:ref></p></td></tr><tr><td style=\"vertical-align: top; text-align: left\"><p>3</p></td><td style=\"vertical-align: top; text-align: left\"><p><usdm:ref attribute=\"text\" id=\"EligibilityCriterion_3\" klass=\"EligibilityCriterion\"></usdm:ref></p></td></tr></table></div>",
               "childIds": [],
               "instanceType": "NarrativeContent"
             },
@@ -8066,7 +8050,7 @@
               "name": "SECTION 5.4",
               "sectionNumber": "5.4",
               "sectionTitle": "Exclusion Criteria",
-              "text": "<div><usdm:section name=\"M11-exclusion\"></div>",
+              "text": "<div><p>Patients may be excluded in the study for <strong>any</strong> of the following reasons:</p><table><tr><td style=\"vertical-align: top; text-align: left\"><p>9</p></td><td style=\"vertical-align: top; text-align: left\"><p><usdm:ref attribute=\"text\" id=\"EligibilityCriterion_4\" klass=\"EligibilityCriterion\"></usdm:ref></p></td></tr></table></div>",
               "childIds": [],
               "instanceType": "NarrativeContent"
             },
