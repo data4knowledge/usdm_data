@@ -13,6 +13,10 @@ delete_tag_keep_content:
   #   class: s6
   # - tag: span
   #   class: s7
+  - tag: span
+    class: s9
+  - tag: span
+    class: s10
   # - tag: span
   #   class: s11
   # - tag: span
@@ -37,56 +41,58 @@ delete_tag_keep_content:
   #   class: s21
   # - tag: span
   #   class: s22
-  # - tag: span
-  #   class: s23
-  # - tag: span
-  #   class: s24
+  - tag: span
+    class: s23
+  - tag: span
+    class: s24
   - tag: span
     class: s25
-  # - tag: span
-  #   class: s26
-  # - tag: span
-  #   class: s27
-  # - tag: span
-  #   class: s28
+  - tag: span
+    class: s26
+  - tag: span
+    class: s27
+  - tag: span
+    class: s28
   - tag: span
     class: s29
-  # - tag: span
-  #   class: s30
-  # - tag: span
-  #   class: s31
-  # - tag: span
-  #   class: s32
-  # - tag: span
-  #   class: s33
-  # - tag: span
-  #   class: s34
+  - tag: span
+    class: s30
+  - tag: span
+    class: s31
+  - tag: span
+    class: s32
+  - tag: span
+    class: s33
+  - tag: span
+    class: s34
   # - tag: span
   #   class: s35
   # - tag: span
   #   class: s36
   # - tag: span
   #   class: s37
-  # - tag: span
-  #   class: s38
-  # - tag: span
-  #   class: s39
-  # - tag: span
-  #   class: s40
-  # - tag: span
-  #   class: s41
-  # - tag: span
-  #   class: s42
-  # - tag: span
-  #   class: s43
-  # - tag: span
-  #   class: s45
-  # - tag: span
-  #   class: s46
+  - tag: span
+    class: s38
+  - tag: span
+    class: s39
+  - tag: span
+    class: s40
+  - tag: span
+    class: s41
+  - tag: span
+    class: s42
+  - tag: span
+    class: s43
+  - tag: span
+    class: s44
+  - tag: span
+    class: s45
+  - tag: span
+    class: s46
   # - tag: span
   #   class: s47
-  # - tag: span
-  #   class: s48
+  - tag: span
+    class: s48
   # - tag: span
   #   class: s49
   # - tag: span
@@ -143,10 +149,10 @@ delete_tag_keep_content:
   #   class: s76
   # - tag: span
   #   class: s77
-  # - tag: span
-  #   class: s78
-  # - tag: span
-  #   class: s79
+  - tag: span
+    class: s78
+  - tag: span
+    class: s79
   # - tag: span
   #   class: s80
   # - tag: span
@@ -194,8 +200,8 @@ delete_tag_keep_content:
 delete_tag_and_content:
   - tag: p
     class: p1
-  # - tag: p
-  #   class: p3
+  - tag: p
+    class: p3
   # - tag: p
   #   class: p2
 replace_tag: 
@@ -256,12 +262,15 @@ delete_attribute:
   # - tag: p
   #   attribute: class
   #   value: p7
+  - tag: p
+    attribute: class
+    value: p8
   # - tag: p
   #   attribute: class
   #   value: p9
-  # - tag: p
-  #   attribute: class
-  #   value: p10
+  - tag: p
+    attribute: class
+    value: p10
   - tag: p
     attribute: class
     value: p11
@@ -295,4 +304,6 @@ replace_string:
   - from: '’'  
     to: "'"
   - from: '<p class="p3"><br/></p>'
+    to: ''
+  - from: '</p>\n<p>'
     to: ''
