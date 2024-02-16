@@ -33,43 +33,43 @@ ScheduledActivityInstance_35(ScheduledActivityInstance)
 ScheduledActivityInstance_34 -->|default| ScheduledActivityInstance_35
 ScheduleTimelineExit_3([Exit])
 ScheduledActivityInstance_35 -->|exit| ScheduleTimelineExit_3
-Timing_1((Screening visit
+Timing_1((-28 Days
 Before
 P28D
 P0D..P26D))
 Timing_1 -->|from| ScheduledActivityInstance_21
 Timing_1 -->|to| ScheduledActivityInstance_22
-Timing_2((Period 1, Day minus 1
+Timing_2((-1 Day
 Before
 P1D
 None..None))
 Timing_2 -->|from| ScheduledActivityInstance_22
 Timing_2 -->|to| ScheduledActivityInstance_26
-Timing_3((Period 1, Randomisation
+Timing_3((Radomisation
 Before
 PT0M
 None..None))
 Timing_3 -->|from| ScheduledActivityInstance_23
 Timing_3 -->|to| ScheduledActivityInstance_24
-Timing_4((Period 1, Pre infusion
+Timing_4((Pre infusion
 Before
 PT0M
 None..None))
 Timing_4 -->|from| ScheduledActivityInstance_24
 Timing_4 -->|to| ScheduledActivityInstance_25
-Timing_5((Period 1, Infusion
+Timing_5((Infusion
 Before
 PT0M
 None..None))
 Timing_5 -->|from| ScheduledActivityInstance_25
 Timing_5 -->|to| ScheduledActivityInstance_26
-Timing_6((Period 1,  Treatment
+Timing_6((Day 1
 Fixed Reference
 P1D
 None..None))
 Timing_6 -->|from| ScheduledActivityInstance_26
 Timing_6 -->|to| ScheduledActivityInstance_26
-Timing_7((Period 1, Discharge
+Timing_7((Discharge
 After
 PT0M
 None..None))
@@ -81,31 +81,31 @@ P3D
 P0D..P11D))
 Timing_8 -->|from| ScheduledActivityInstance_28
 Timing_8 -->|to| ScheduledActivityInstance_27
-Timing_9((Period 2, Day minus 1
+Timing_9((-1 Day
 After
 P0D
 None..None))
 Timing_9 -->|from| ScheduledActivityInstance_29
 Timing_9 -->|to| ScheduledActivityInstance_28
-Timing_10((Period 2, Pre infusion
+Timing_10((Pre infusion
 After
 P1D
 None..None))
 Timing_10 -->|from| ScheduledActivityInstance_30
 Timing_10 -->|to| ScheduledActivityInstance_29
-Timing_11((Period 2, Infusion
+Timing_11((Infusion
 After
 PT0M
 None..None))
 Timing_11 -->|from| ScheduledActivityInstance_31
 Timing_11 -->|to| ScheduledActivityInstance_30
-Timing_12((Period 2,  Treatment
+Timing_12((Day 1
 After
 PT0M
 None..None))
 Timing_12 -->|from| ScheduledActivityInstance_32
 Timing_12 -->|to| ScheduledActivityInstance_31
-Timing_13((Period 2, Discharge
+Timing_13((Discharge
 After
 PT0M
 None..None))
