@@ -2337,10 +2337,10 @@
                 "description": "LY900018",
                 "role": {
                   "id": "Code_151",
-                  "code": "role1",
-                  "codeSystem": "M11",
-                  "codeSystemVersion": "None set",
-                  "decode": "role1",
+                  "code": "C41161",
+                  "codeSystem": "http://www.cdisc.org",
+                  "codeSystemVersion": "2023-09-29",
+                  "decode": "Experimental Intervention",
                   "instanceType": "Code"
                 },
                 "type": {
@@ -2379,7 +2379,7 @@
                     "id": "AgentAdministration_1",
                     "name": "LY_ADMIN",
                     "label": "",
-                    "description": "Admin Desc 1",
+                    "description": "Administer a single nasal dose upon hypoglycemia onset",
                     "duration": {
                       "id": "AdministrationDuration_1",
                       "quantity": {
@@ -2434,10 +2434,10 @@
                 ],
                 "productDesignation": {
                   "id": "Code_154",
-                  "code": "desig1",
-                  "codeSystem": "M11",
-                  "codeSystemVersion": "None set",
-                  "decode": "desig_1",
+                  "code": "C99909x1",
+                  "codeSystem": "http://www.cdisc.org",
+                  "codeSystemVersion": "2023-09-29",
+                  "decode": "IMP",
                   "instanceType": "Code"
                 },
                 "pharmacologicClass": {
@@ -2453,14 +2453,14 @@
               {
                 "id": "StudyIntervention_2",
                 "name": "IMG",
-                "label": "Glucagon",
-                "description": "GlucaGen",
+                "label": "GlucaGen",
+                "description": "Glucagon",
                 "role": {
                   "id": "Code_161",
-                  "code": "role2",
-                  "codeSystem": "M11",
-                  "codeSystemVersion": "None set",
-                  "decode": "role2",
+                  "code": "C41161",
+                  "codeSystem": "http://www.cdisc.org",
+                  "codeSystemVersion": "2023-09-29",
+                  "decode": "Experimental Intervention",
                   "instanceType": "Code"
                 },
                 "type": {
@@ -2499,7 +2499,7 @@
                     "id": "AgentAdministration_2",
                     "name": "IMG_ADMIN",
                     "label": "",
-                    "description": "Admin Desc 2",
+                    "description": "Administer a single intramuscular injection upon hypoglycemia onset",
                     "duration": {
                       "id": "AdministrationDuration_2",
                       "quantity": {
@@ -2554,10 +2554,10 @@
                 ],
                 "productDesignation": {
                   "id": "Code_164",
-                  "code": "desig2",
-                  "codeSystem": "M11",
-                  "codeSystemVersion": "None set",
-                  "decode": "desig_2",
+                  "code": "C99909x1",
+                  "codeSystem": "http://www.cdisc.org",
+                  "codeSystemVersion": "2023-09-29",
+                  "decode": "IMP",
                   "instanceType": "Code"
                 },
                 "pharmacologicClass": {
@@ -5895,7 +5895,7 @@
               "name": "SECTION 7.1.",
               "sectionNumber": "7.1.",
               "sectionTitle": "Treatment Administered",
-              "text": "<div><p>This study involves a comparison of 3 mg of LY900018 administered once nasally to 1 mg glucagon administered IM (comparator). Table IGBJ.2 shows the study treatment information.</p>\n<p><b>Study Treatments</b></p>\n<p><b>Table IGBJ.2.</b></p>\n<p>Treatment Name LY900018 GlucaGen</p>\n<p>Dosage Formulation Dry powder Dry powder</p>\n<p>Dosage Levels 3 mg glucagon 1 mg glucagon</p>\n<p>Route of Administration Intranasal Intramuscular</p>\n<p>Dosing Instructions Administer a single nasal dose upon hypoglycemia onset</p>\n<p>Administer a single intramuscular<br/>\ninjection upon hypoglycemia onset</p>\n<p>The procedure for insulin-induced hypoglycemia will require an IV infusion of diluted human regular insulin (0.3 U/mL by diluting 15 U human regular insulin [100 U/mL] into 50 mL saline). Details regarding hypoglycemia induction and glucagon administration procedures are included in Sections 9.2.1 and 9.2.2, respectively.</p>\n<p>The investigator or designee is responsible for:</p>\n<p>\uf0b7 \uf0b7 \uf0b7 \uf0b7</p>\n<p>explaining the correct use of the investigational products to the site personnel</p>\n<p>verifying that instructions are followed properly</p>\n<p>maintaining accurate records of investigational product dispensing and collection</p>\n<p>and returning all unused medication to Lilly or its designee at the end of the study</p></div>",
+              "text": "<div><p>This study involves a comparison of 3 mg of LY900018 administered once nasally to 1 mg glucagon administered IM (comparator). Table IGBJ.2 shows the study treatment information.</p>\n<p><b>Table IGBJ.2. Study Treatments</b></p>\n<table class=\"table\">\n<tr>\n<th><p>Treatment Name</p></th>\n<td><p><usdm:ref attribute=\"label\" id=\"StudyIntervention_1\" klass=\"StudyIntervention\"></usdm:ref></p></td>\n<td><p><usdm:ref attribute=\"label\" id=\"StudyIntervention_2\" klass=\"StudyIntervention\"></usdm:ref></p></td>\n</tr>\n<tr>\n<th><p>Dosage Formulation</p></th>\n<td><p>Dry powder</p></td>\n<td><p>Dry powder</p></td>\n</tr>\n<tr>\n<th><p>Dosage Levels  </p></th>\n<td><p><usdm:ref attribute=\"value\" id=\"Quantity_3\" klass=\"Quantity\"></usdm:ref> <usdm:ref attribute=\"decode\" id=\"Code_148\" klass=\"Code\"></usdm:ref> glucagon</p></td>\n<td><p><usdm:ref attribute=\"value\" id=\"Quantity_6\" klass=\"Quantity\"></usdm:ref> <usdm:ref attribute=\"decode\" id=\"Code_158\" klass=\"Code\"></usdm:ref> glucagon</p></td>\n</tr>\n<tr>\n<th><p>Route of Administration</p></th>\n<td><p><usdm:ref attribute=\"decode\" id=\"Code_147\" klass=\"Code\"></usdm:ref></p></td>\n<td><p><usdm:ref attribute=\"decode\" id=\"Code_157\" klass=\"Code\"></usdm:ref></p></td>\n</tr>\n<tr>\n<th>Dosing Instructions</th>\n<td><usdm:ref attribute=\"description\" id=\"AgentAdministration_1\" klass=\"AgentAdministration\"></usdm:ref></td>\n<td><usdm:ref attribute=\"description\" id=\"AgentAdministration_2\" klass=\"AgentAdministration\"></usdm:ref></td>\n</tr>\n</table>\n<p>The procedure for insulin-induced hypoglycemia will require an IV infusion of diluted human regular insulin (0.3 U/mL by diluting 15 U human regular insulin [100 U/mL] into 50 mL saline). Details regarding hypoglycemia induction and glucagon administration procedures are included in Sections 9.2.1 and 9.2.2, respectively.</p>\n<p>The investigator or designee is responsible for:</p>\n<ul>\n<ul><p>explaining the correct use of the investigational products to the site personnel</p></ul>\n<ul><p>verifying that instructions are followed properly</p></ul>\n<ul><p>maintaining accurate records of investigational product dispensing and collection</p></ul>\n<ul><p>and returning all unused medication to Lilly or its designee at the end of the study</p></ul>\n</ul></div>",
               "childIds": [
                 "NarrativeContent_27",
                 "NarrativeContent_28"
