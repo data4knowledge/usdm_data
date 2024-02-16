@@ -1,5 +1,5 @@
 import logging
-log = logging.basicConfig(level=logging.DEBUG)
+log = logging.basicConfig(level=logging.INFO)
 
 import sys
 import json

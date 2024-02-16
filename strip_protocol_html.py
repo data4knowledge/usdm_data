@@ -14,14 +14,18 @@ def read_html_file(filename):
     return f.read()
 
 def read_yaml_file(filename):
-  with open(f'{filename}_config.yaml', "r") as stream:
-    return yaml.safe_load(stream)
+  with open(f'{filename}_config.yaml', "r") as f:
+    return yaml.safe_load(f)
 
 def write_csv_file(filename, contents):
   with open(f'{filename}_sections.csv', "w") as f:
     writer = csv.DictWriter(f, fieldnames=['sectionNumber',	'name',	'sectionTitle',	'text'])
     writer.writeheader()
     writer.writerows(contents)
+
+def write_yaml_file(filename, data):
+  with open(f'{filename}_sections.yaml', "w") as f:
+    return yaml.dump(data, f, default_flow_style=False)
 
 def get_section_number(text):
   parts = text.split(' ')
@@ -75,14 +79,14 @@ def find_by_path_recurse(root, items):
 if __name__ == "__main__":
 
   parser = argparse.ArgumentParser(
-    prog='HTML Tag Stripper',
-    description='Will strip unwanted tags from a HTML file',
+    prog='HTML Tag Stripping Utility',
+    description='Will strip unwanted tags from a HTML fil based on a configuration file',
     epilog='Note: Not that sophisticated! :)'
   )
-  parser.add_argument('filename', help="The name of the HTML file with path.") 
+  parser.add_argument('filename', help="The name of the HTML file with path without the file extension") 
   args = parser.parse_args()
 
-  print (f"\n\nProtocol Utility\n\n")
+  print (f"\n\nHTML Tag Stripping Utility\n\n")
 
   kill_list = []
   filename = args.filename
@@ -121,7 +125,8 @@ if __name__ == "__main__":
     for match in soup.findAll(item['tag'], {item['attribute']: item['value']}):
       match.attrs = {key:value for key,value in match.attrs.items() if key != item['attribute']}
 
-  # Clean out spans
+  # Clean out spans with no text, single space or line feeds
+  print(f"Removing empty spans")
   for match in soup.findAll('span'):
     if not match.text:
       match.unwrap()
@@ -129,6 +134,13 @@ if __name__ == "__main__":
       match.unwrap()
     elif match.text == chr(10):
       match.unwrap()
+
+  # Clean out paragraphs of line breaks
+  print(f"Removing breaks and newlines from paragraphs")
+  for tag in soup.findAll('p'):
+    for br in soup.findAll('br'):
+      br.replace_with(' ')
+    tag.text.replace('\n', ' ')
 
   # Manual string replacements
   text = str(soup)
@@ -193,5 +205,7 @@ if __name__ == "__main__":
 
   print("\n\nSaving CSV file")
   write_csv_file(filename, list(headings.values()))
+  print("\n\nSaving YAML file")
+  write_yaml_file(filename, list(headings.values()))
 
   print(f"\n\nDone\n\n")
