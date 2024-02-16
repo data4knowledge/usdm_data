@@ -760,7 +760,7 @@
                 "label": "Collect Concomitant Medications",
                 "description": "Concomitant Medication",
                 "previousId": "Activity_9",
-                "nextId": "Activity_12",
+                "nextId": "Activity_11",
                 "definedProcedures": [],
                 "biomedicalConceptIds": [],
                 "bcCategoryIds": [],
@@ -771,12 +771,12 @@
                 "instanceType": "Activity"
               },
               {
-                "id": "Activity_12",
+                "id": "Activity_11",
                 "name": "INSULIN_INFUSION",
                 "label": "Insulin infusion to Induce Hypoglycemia",
                 "description": "Insulin infusion",
                 "previousId": "Activity_10",
-                "nextId": "Activity_13",
+                "nextId": "Activity_12",
                 "definedProcedures": [],
                 "biomedicalConceptIds": [],
                 "bcCategoryIds": [],
@@ -785,12 +785,12 @@
                 "instanceType": "Activity"
               },
               {
-                "id": "Activity_13",
+                "id": "Activity_12",
                 "name": "PG_MONITOR",
                 "label": "PG Monitoring",
                 "description": "PG Monitoring",
-                "previousId": "Activity_12",
-                "nextId": "Activity_14",
+                "previousId": "Activity_11",
+                "nextId": "Activity_13",
                 "definedProcedures": [],
                 "biomedicalConceptIds": [],
                 "bcCategoryIds": [],
@@ -799,12 +799,12 @@
                 "instanceType": "Activity"
               },
               {
-                "id": "Activity_14",
+                "id": "Activity_13",
                 "name": "STUDY_TREATMENT",
                 "label": "Study Treatment Administration",
                 "description": "Study Treatment administration",
-                "previousId": "Activity_13",
-                "nextId": "Activity_17",
+                "previousId": "Activity_12",
+                "nextId": "Activity_16",
                 "definedProcedures": [],
                 "biomedicalConceptIds": [],
                 "bcCategoryIds": [],
@@ -813,12 +813,12 @@
                 "instanceType": "Activity"
               },
               {
-                "id": "Activity_17",
+                "id": "Activity_16",
                 "name": "VITAL_SIGNS",
                 "label": "Vital Signs (Supine Blood Pressure, Pulse Rate, and Body Temperature)",
                 "description": "Vital Signs",
-                "previousId": "Activity_14",
-                "nextId": "Activity_18",
+                "previousId": "Activity_13",
+                "nextId": "Activity_17",
                 "definedProcedures": [],
                 "biomedicalConceptIds": [
                   "BiomedicalConcept_1",
@@ -833,10 +833,24 @@
                 "instanceType": "Activity"
               },
               {
-                "id": "Activity_18",
+                "id": "Activity_17",
                 "name": "SINGLE_ECG",
                 "label": "Single 12-lead ECG (Local)",
                 "description": "Single 12-lead ECG (Local)",
+                "previousId": "Activity_16",
+                "nextId": "Activity_18",
+                "definedProcedures": [],
+                "biomedicalConceptIds": [],
+                "bcCategoryIds": [],
+                "bcSurrogateIds": [],
+                "timelineId": "",
+                "instanceType": "Activity"
+              },
+              {
+                "id": "Activity_18",
+                "name": "TRIPLICATE_ECG",
+                "label": "Triplicate 12-lead ECG (Central)",
+                "description": "Triplicate 12-lead ECG",
                 "previousId": "Activity_17",
                 "nextId": "Activity_19",
                 "definedProcedures": [],
@@ -848,25 +862,11 @@
               },
               {
                 "id": "Activity_19",
-                "name": "TRIPLICATE_ECG",
-                "label": "Triplicate 12-lead ECG (Central)",
-                "description": "Triplicate 12-lead ECG",
-                "previousId": "Activity_18",
-                "nextId": "Activity_20",
-                "definedProcedures": [],
-                "biomedicalConceptIds": [],
-                "bcCategoryIds": [],
-                "bcSurrogateIds": [],
-                "timelineId": "",
-                "instanceType": "Activity"
-              },
-              {
-                "id": "Activity_20",
                 "name": "SEROLOGY",
                 "label": "Clinical Serology Tests",
                 "description": "Clinical Serology Tests",
-                "previousId": "Activity_19",
-                "nextId": "Activity_21",
+                "previousId": "Activity_18",
+                "nextId": "Activity_20",
                 "definedProcedures": [],
                 "biomedicalConceptIds": [],
                 "bcCategoryIds": [],
@@ -880,12 +880,12 @@
                 "instanceType": "Activity"
               },
               {
-                "id": "Activity_21",
+                "id": "Activity_20",
                 "name": "LAB_TESTS",
                 "label": "Clinical Lab Tests",
                 "description": "Clinical Lab Tests",
-                "previousId": "Activity_20",
-                "nextId": "Activity_22",
+                "previousId": "Activity_19",
+                "nextId": "Activity_21",
                 "definedProcedures": [],
                 "biomedicalConceptIds": [],
                 "bcCategoryIds": [],
@@ -936,12 +936,12 @@
                 "instanceType": "Activity"
               },
               {
-                "id": "Activity_22",
+                "id": "Activity_21",
                 "name": "HBA1C",
                 "label": "HbA1c",
                 "description": "HbA1c",
-                "previousId": "Activity_21",
-                "nextId": "Activity_23",
+                "previousId": "Activity_20",
+                "nextId": "Activity_22",
                 "definedProcedures": [],
                 "biomedicalConceptIds": [],
                 "bcCategoryIds": [],
@@ -952,10 +952,24 @@
                 "instanceType": "Activity"
               },
               {
-                "id": "Activity_23",
+                "id": "Activity_22",
                 "name": "PREGNANCY",
                 "label": "Pregnancy Test (Female patients of childbearing potential only)",
                 "description": "Pregnancy Tests",
+                "previousId": "Activity_21",
+                "nextId": "Activity_23",
+                "definedProcedures": [],
+                "biomedicalConceptIds": [],
+                "bcCategoryIds": [],
+                "bcSurrogateIds": [],
+                "timelineId": "",
+                "instanceType": "Activity"
+              },
+              {
+                "id": "Activity_23",
+                "name": "FSH",
+                "label": "FSH (Female patients only)",
+                "description": "Follicle-stimulating hormone",
                 "previousId": "Activity_22",
                 "nextId": "Activity_24",
                 "definedProcedures": [],
@@ -967,9 +981,9 @@
               },
               {
                 "id": "Activity_24",
-                "name": "FSH",
-                "label": "FSH (Female patients only)",
-                "description": "Follicle-stimulating hormone",
+                "name": "ETHANOL",
+                "label": "Ethanol testing",
+                "description": "Ethanol testing",
                 "previousId": "Activity_23",
                 "nextId": "Activity_25",
                 "definedProcedures": [],
@@ -981,9 +995,9 @@
               },
               {
                 "id": "Activity_25",
-                "name": "ETHANOL",
-                "label": "Ethanol testing",
-                "description": "Ethanol testing",
+                "name": "DRUG_SCREEN",
+                "label": "Urine Drug Screen",
+                "description": "Urine Drug Screen",
                 "previousId": "Activity_24",
                 "nextId": "Activity_26",
                 "definedProcedures": [],
@@ -995,9 +1009,9 @@
               },
               {
                 "id": "Activity_26",
-                "name": "DRUG_SCREEN",
-                "label": "Urine Drug Screen",
-                "description": "Urine Drug Screen",
+                "name": "PK_GLUCAGON",
+                "label": "PK (Glucagon)",
+                "description": "PK (Glucagon)",
                 "previousId": "Activity_25",
                 "nextId": "Activity_27",
                 "definedProcedures": [],
@@ -1009,9 +1023,9 @@
               },
               {
                 "id": "Activity_27",
-                "name": "PK_GLUCAGON",
-                "label": "PK (Glucagon)",
-                "description": "PK (Glucagon)",
+                "name": "PLASMA_GLUCOSE",
+                "label": "Plasma Glucose for PD",
+                "description": "Plasma Glucose for PD",
                 "previousId": "Activity_26",
                 "nextId": "Activity_28",
                 "definedProcedures": [],
@@ -1023,9 +1037,9 @@
               },
               {
                 "id": "Activity_28",
-                "name": "PLASMA_GLUCOSE",
-                "label": "Plasma Glucose for PD",
-                "description": "Plasma Glucose for PD",
+                "name": "GENETIC_SAMPLE",
+                "label": "Genetic Sample (stored)",
+                "description": "Genetic Sample",
                 "previousId": "Activity_27",
                 "nextId": "Activity_29",
                 "definedProcedures": [],
@@ -1037,9 +1051,9 @@
               },
               {
                 "id": "Activity_29",
-                "name": "GENETIC_SAMPLES",
-                "label": "Genetic Sample (stored)",
-                "description": "Genetic Sample",
+                "name": "ANTIBODIES",
+                "label": "Anti-glucagon Antibodies",
+                "description": "Anti-glucagon antibodies",
                 "previousId": "Activity_28",
                 "nextId": "Activity_30",
                 "definedProcedures": [],
@@ -1051,9 +1065,9 @@
               },
               {
                 "id": "Activity_30",
-                "name": "ANTIBODIES",
-                "label": "Anti-glucagon Antibodies",
-                "description": "Anti-glucagon antibodies",
+                "name": "CLARKE_SURVEY",
+                "label": "Clarke Hypoglycemia Awareness Survey",
+                "description": "Clarke Hypoglycemia Awareness Survey",
                 "previousId": "Activity_29",
                 "nextId": "Activity_31",
                 "definedProcedures": [],
@@ -1065,9 +1079,9 @@
               },
               {
                 "id": "Activity_31",
-                "name": "CLARKE_SURVEY",
-                "label": "Clarke Hypoglycemia Awareness Survey",
-                "description": "Clarke Hypoglycemia Awareness Survey",
+                "name": "NASAL_SCORE",
+                "label": "Nasal and Non-nasal Score Quaestionnaire",
+                "description": "Nasal and Non-nasal Score Quaestionnaire",
                 "previousId": "Activity_30",
                 "nextId": "Activity_32",
                 "definedProcedures": [],
@@ -1079,25 +1093,11 @@
               },
               {
                 "id": "Activity_32",
-                "name": "NASAL_SCORE",
-                "label": "Nasal and Non-nasal Score Quaestionnaire",
-                "description": "Nasal and Non-nasal Score Quaestionnaire",
-                "previousId": "Activity_31",
-                "nextId": "Activity_33",
-                "definedProcedures": [],
-                "biomedicalConceptIds": [],
-                "bcCategoryIds": [],
-                "bcSurrogateIds": [],
-                "timelineId": "",
-                "instanceType": "Activity"
-              },
-              {
-                "id": "Activity_33",
                 "name": "EDINBURGH_SCALE",
                 "label": "Edinburgh Hypoglycemia Scale: Experimental Hypoglycemia",
                 "description": "Edinburgh Hypoglycemia Scale: Experimental Hypoglycemia",
-                "previousId": "Activity_32",
-                "nextId": "Activity_35",
+                "previousId": "Activity_31",
+                "nextId": "Activity_34",
                 "definedProcedures": [],
                 "biomedicalConceptIds": [],
                 "bcCategoryIds": [],
@@ -1106,12 +1106,12 @@
                 "instanceType": "Activity"
               },
               {
-                "id": "Activity_35",
+                "id": "Activity_34",
                 "name": "WEIGHT",
                 "label": "Weight",
                 "description": "Weight",
-                "previousId": "Activity_33",
-                "nextId": "Activity_15",
+                "previousId": "Activity_32",
+                "nextId": "Activity_14",
                 "definedProcedures": [],
                 "biomedicalConceptIds": [],
                 "bcCategoryIds": [],
@@ -1122,12 +1122,12 @@
                 "instanceType": "Activity"
               },
               {
-                "id": "Activity_15",
+                "id": "Activity_14",
                 "name": "INJ_SITE_ASSESSMENT",
                 "label": "Injection-Site Assessment",
                 "description": "Injection Site Assessment",
-                "previousId": "Activity_35",
-                "nextId": "Activity_16",
+                "previousId": "Activity_34",
+                "nextId": "Activity_15",
                 "definedProcedures": [
                   {
                     "id": "Procedure_7",
@@ -1154,13 +1154,31 @@
                 "instanceType": "Activity"
               },
               {
-                "id": "Activity_16",
+                "id": "Activity_15",
                 "name": "NASAL_INSPECTION",
                 "label": "Nasal Inspection",
                 "description": "Nasal inspection",
-                "previousId": "Activity_15",
-                "nextId": "Activity_11",
-                "definedProcedures": [],
+                "previousId": "Activity_14",
+                "nextId": "Activity_33",
+                "definedProcedures": [
+                  {
+                    "id": "Procedure_8",
+                    "name": "NASAL_INSP",
+                    "label": "Nasal site inspection",
+                    "description": "Nasal site inspection",
+                    "procedureType": "",
+                    "code": {
+                      "id": "Code_95",
+                      "code": "0004",
+                      "codeSystem": "SPONSOR",
+                      "codeSystemVersion": "12",
+                      "decode": "Nasal site inspection",
+                      "instanceType": "Code"
+                    },
+                    "studyInterventionId": null,
+                    "instanceType": "Procedure"
+                  }
+                ],
                 "biomedicalConceptIds": [],
                 "bcCategoryIds": [],
                 "bcSurrogateIds": [],
@@ -1168,11 +1186,11 @@
                 "instanceType": "Activity"
               },
               {
-                "id": "Activity_11",
+                "id": "Activity_33",
                 "name": "MEAL",
                 "label": "Meal",
                 "description": "Meal",
-                "previousId": "Activity_16",
+                "previousId": "Activity_15",
                 "nextId": null,
                 "definedProcedures": [
                   {
@@ -4118,15 +4136,15 @@
                       "Activity_7",
                       "Activity_8",
                       "Activity_10",
+                      "Activity_16",
                       "Activity_17",
-                      "Activity_18",
+                      "Activity_19",
                       "Activity_20",
                       "Activity_21",
                       "Activity_22",
                       "Activity_23",
                       "Activity_24",
-                      "Activity_25",
-                      "Activity_26"
+                      "Activity_25"
                     ],
                     "encounterId": "Encounter_1"
                   },
@@ -4141,9 +4159,9 @@
                       "Activity_3",
                       "Activity_6",
                       "Activity_10",
-                      "Activity_23",
-                      "Activity_29",
-                      "Activity_31"
+                      "Activity_22",
+                      "Activity_28",
+                      "Activity_30"
                     ],
                     "encounterId": "Encounter_2"
                   },
@@ -4169,8 +4187,8 @@
                     "activityIds": [
                       "Activity_6",
                       "Activity_10",
-                      "Activity_22",
-                      "Activity_30"
+                      "Activity_21",
+                      "Activity_29"
                     ],
                     "encounterId": "Encounter_3"
                   },
@@ -4182,8 +4200,8 @@
                     "epochId": "StudyEpoch_2",
                     "instanceType": "ScheduledActivityInstance",
                     "activityIds": [
-                      "Activity_12",
-                      "Activity_13"
+                      "Activity_11",
+                      "Activity_12"
                     ],
                     "encounterId": "Encounter_3"
                   },
@@ -4196,7 +4214,7 @@
                     "instanceType": "ScheduledActivityInstance",
                     "activityIds": [
                       "Activity_9",
-                      "Activity_14"
+                      "Activity_13"
                     ],
                     "encounterId": "Encounter_3"
                   },
@@ -4236,8 +4254,8 @@
                       "Activity_3",
                       "Activity_6",
                       "Activity_10",
-                      "Activity_23",
-                      "Activity_31"
+                      "Activity_22",
+                      "Activity_30"
                     ],
                     "encounterId": "Encounter_5"
                   },
@@ -4261,8 +4279,8 @@
                     "epochId": "StudyEpoch_2",
                     "instanceType": "ScheduledActivityInstance",
                     "activityIds": [
-                      "Activity_12",
-                      "Activity_13"
+                      "Activity_11",
+                      "Activity_12"
                     ],
                     "encounterId": "Encounter_3"
                   },
@@ -4275,7 +4293,7 @@
                     "instanceType": "ScheduledActivityInstance",
                     "activityIds": [
                       "Activity_9",
-                      "Activity_14"
+                      "Activity_13"
                     ],
                     "encounterId": "Encounter_3"
                   },
@@ -4303,12 +4321,12 @@
                       "Activity_7",
                       "Activity_8",
                       "Activity_10",
+                      "Activity_16",
                       "Activity_17",
-                      "Activity_18",
-                      "Activity_21",
-                      "Activity_23",
-                      "Activity_27",
-                      "Activity_30"
+                      "Activity_20",
+                      "Activity_22",
+                      "Activity_26",
+                      "Activity_29"
                     ],
                     "encounterId": "Encounter_7"
                   },
@@ -4320,8 +4338,8 @@
                     "epochId": "StudyEpoch_5",
                     "instanceType": "ScheduledActivityInstance",
                     "activityIds": [
-                      "Activity_27",
-                      "Activity_30"
+                      "Activity_26",
+                      "Activity_29"
                     ],
                     "encounterId": "Encounter_7"
                   }
@@ -4498,15 +4516,15 @@
                     "epochId": null,
                     "instanceType": "ScheduledActivityInstance",
                     "activityIds": [
-                      "Activity_35",
+                      "Activity_34",
+                      "Activity_14",
                       "Activity_15",
                       "Activity_16",
-                      "Activity_17",
-                      "Activity_21",
+                      "Activity_20",
+                      "Activity_26",
                       "Activity_27",
-                      "Activity_28",
-                      "Activity_32",
-                      "Activity_33"
+                      "Activity_31",
+                      "Activity_32"
                     ],
                     "encounterId": null
                   },
@@ -4518,7 +4536,7 @@
                     "epochId": null,
                     "instanceType": "ScheduledActivityInstance",
                     "activityIds": [
-                      "Activity_19"
+                      "Activity_18"
                     ],
                     "encounterId": null
                   },
@@ -4530,7 +4548,7 @@
                     "epochId": null,
                     "instanceType": "ScheduledActivityInstance",
                     "activityIds": [
-                      "Activity_19"
+                      "Activity_18"
                     ],
                     "encounterId": null
                   },
@@ -4552,7 +4570,7 @@
                     "epochId": null,
                     "instanceType": "ScheduledActivityInstance",
                     "activityIds": [
-                      "Activity_28"
+                      "Activity_27"
                     ],
                     "encounterId": null
                   }
@@ -5019,11 +5037,11 @@
                     "epochId": null,
                     "instanceType": "ScheduledActivityInstance",
                     "activityIds": [
-                      "Activity_17",
-                      "Activity_19",
+                      "Activity_16",
+                      "Activity_18",
+                      "Activity_26",
                       "Activity_27",
-                      "Activity_28",
-                      "Activity_33"
+                      "Activity_32"
                     ],
                     "encounterId": null
                   },
@@ -5035,7 +5053,7 @@
                     "epochId": null,
                     "instanceType": "ScheduledActivityInstance",
                     "activityIds": [
-                      "Activity_12"
+                      "Activity_11"
                     ],
                     "encounterId": null
                   },
@@ -5047,8 +5065,8 @@
                     "epochId": null,
                     "instanceType": "ScheduledActivityInstance",
                     "activityIds": [
-                      "Activity_27",
-                      "Activity_28"
+                      "Activity_26",
+                      "Activity_27"
                     ],
                     "encounterId": null
                   },
@@ -5060,8 +5078,8 @@
                     "epochId": null,
                     "instanceType": "ScheduledActivityInstance",
                     "activityIds": [
-                      "Activity_27",
-                      "Activity_28"
+                      "Activity_26",
+                      "Activity_27"
                     ],
                     "encounterId": null
                   },
@@ -5073,12 +5091,12 @@
                     "epochId": null,
                     "instanceType": "ScheduledActivityInstance",
                     "activityIds": [
-                      "Activity_17",
-                      "Activity_19",
+                      "Activity_16",
+                      "Activity_18",
+                      "Activity_26",
                       "Activity_27",
-                      "Activity_28",
-                      "Activity_32",
-                      "Activity_33"
+                      "Activity_31",
+                      "Activity_32"
                     ],
                     "encounterId": null
                   },
@@ -5090,8 +5108,8 @@
                     "epochId": null,
                     "instanceType": "ScheduledActivityInstance",
                     "activityIds": [
-                      "Activity_27",
-                      "Activity_28"
+                      "Activity_26",
+                      "Activity_27"
                     ],
                     "encounterId": null
                   },
@@ -5103,8 +5121,8 @@
                     "epochId": null,
                     "instanceType": "ScheduledActivityInstance",
                     "activityIds": [
-                      "Activity_27",
-                      "Activity_28"
+                      "Activity_26",
+                      "Activity_27"
                     ],
                     "encounterId": null
                   },
@@ -5116,12 +5134,12 @@
                     "epochId": null,
                     "instanceType": "ScheduledActivityInstance",
                     "activityIds": [
-                      "Activity_17",
-                      "Activity_19",
+                      "Activity_16",
+                      "Activity_18",
+                      "Activity_26",
                       "Activity_27",
-                      "Activity_28",
-                      "Activity_32",
-                      "Activity_33"
+                      "Activity_31",
+                      "Activity_32"
                     ],
                     "encounterId": null
                   },
@@ -5133,8 +5151,8 @@
                     "epochId": null,
                     "instanceType": "ScheduledActivityInstance",
                     "activityIds": [
-                      "Activity_27",
-                      "Activity_28"
+                      "Activity_26",
+                      "Activity_27"
                     ],
                     "encounterId": null
                   },
@@ -5146,8 +5164,8 @@
                     "epochId": null,
                     "instanceType": "ScheduledActivityInstance",
                     "activityIds": [
-                      "Activity_27",
-                      "Activity_28"
+                      "Activity_26",
+                      "Activity_27"
                     ],
                     "encounterId": null
                   },
@@ -5159,12 +5177,12 @@
                     "epochId": null,
                     "instanceType": "ScheduledActivityInstance",
                     "activityIds": [
-                      "Activity_17",
-                      "Activity_19",
+                      "Activity_16",
+                      "Activity_18",
+                      "Activity_26",
                       "Activity_27",
-                      "Activity_28",
-                      "Activity_32",
-                      "Activity_33"
+                      "Activity_31",
+                      "Activity_32"
                     ],
                     "encounterId": null
                   },
@@ -5176,10 +5194,10 @@
                     "epochId": null,
                     "instanceType": "ScheduledActivityInstance",
                     "activityIds": [
+                      "Activity_14",
                       "Activity_15",
-                      "Activity_16",
-                      "Activity_27",
-                      "Activity_28"
+                      "Activity_26",
+                      "Activity_27"
                     ],
                     "encounterId": null
                   },
@@ -5191,12 +5209,12 @@
                     "epochId": null,
                     "instanceType": "ScheduledActivityInstance",
                     "activityIds": [
-                      "Activity_17",
-                      "Activity_19",
+                      "Activity_16",
+                      "Activity_18",
+                      "Activity_26",
                       "Activity_27",
-                      "Activity_28",
-                      "Activity_32",
-                      "Activity_33"
+                      "Activity_31",
+                      "Activity_32"
                     ],
                     "encounterId": null
                   },
@@ -5209,10 +5227,10 @@
                     "instanceType": "ScheduledActivityInstance",
                     "activityIds": [
                       "Activity_7",
-                      "Activity_17",
-                      "Activity_19",
-                      "Activity_27",
-                      "Activity_28"
+                      "Activity_16",
+                      "Activity_18",
+                      "Activity_26",
+                      "Activity_27"
                     ],
                     "encounterId": null
                   },
@@ -5224,7 +5242,7 @@
                     "epochId": null,
                     "instanceType": "ScheduledActivityInstance",
                     "activityIds": [
-                      "Activity_11"
+                      "Activity_33"
                     ],
                     "encounterId": null
                   }
@@ -5257,7 +5275,7 @@
                 "dictionaryId": null,
                 "contextIds": [],
                 "appliesToIds": [
-                  "Activity_12"
+                  "Activity_11"
                 ],
                 "instanceType": "Condition"
               },
@@ -5270,7 +5288,7 @@
                 "dictionaryId": null,
                 "contextIds": [],
                 "appliesToIds": [
-                  "Activity_14"
+                  "Activity_13"
                 ],
                 "instanceType": "Condition"
               },
@@ -5283,7 +5301,7 @@
                 "dictionaryId": null,
                 "contextIds": [],
                 "appliesToIds": [
-                  "Activity_15"
+                  "Activity_14"
                 ],
                 "instanceType": "Condition"
               },
@@ -5296,7 +5314,7 @@
                 "dictionaryId": null,
                 "contextIds": [],
                 "appliesToIds": [
-                  "Activity_21"
+                  "Activity_20"
                 ],
                 "instanceType": "Condition"
               },
@@ -5309,7 +5327,7 @@
                 "dictionaryId": null,
                 "contextIds": [],
                 "appliesToIds": [
-                  "Activity_23"
+                  "Activity_22"
                 ],
                 "instanceType": "Condition"
               },
@@ -5322,7 +5340,7 @@
                 "dictionaryId": null,
                 "contextIds": [],
                 "appliesToIds": [
-                  "Activity_25"
+                  "Activity_24"
                 ],
                 "instanceType": "Condition"
               },
@@ -5400,7 +5418,7 @@
                 "dictionaryId": null,
                 "contextIds": [],
                 "appliesToIds": [
-                  "Activity_12"
+                  "Activity_11"
                 ],
                 "instanceType": "Condition"
               },
@@ -5413,7 +5431,7 @@
                 "dictionaryId": null,
                 "contextIds": [],
                 "appliesToIds": [
-                  "Activity_21"
+                  "Activity_20"
                 ],
                 "instanceType": "Condition"
               },
@@ -5426,7 +5444,7 @@
                 "dictionaryId": null,
                 "contextIds": [],
                 "appliesToIds": [
-                  "Activity_23"
+                  "Activity_22"
                 ],
                 "instanceType": "Condition"
               },
@@ -5439,7 +5457,7 @@
                 "dictionaryId": null,
                 "contextIds": [],
                 "appliesToIds": [
-                  "Activity_24"
+                  "Activity_23"
                 ],
                 "instanceType": "Condition"
               },
@@ -5452,8 +5470,8 @@
                 "dictionaryId": null,
                 "contextIds": [],
                 "appliesToIds": [
-                  "Activity_25",
-                  "Activity_26"
+                  "Activity_24",
+                  "Activity_25"
                 ],
                 "instanceType": "Condition"
               },
@@ -5465,7 +5483,9 @@
                 "text": "Single sample for pharmacogenetic analysis taken prior to/on Period 1 Day -1.",
                 "dictionaryId": null,
                 "contextIds": [],
-                "appliesToIds": [],
+                "appliesToIds": [
+                  "Activity_28"
+                ],
                 "instanceType": "Condition"
               },
               {
@@ -5477,7 +5497,7 @@
                 "dictionaryId": null,
                 "contextIds": [],
                 "appliesToIds": [
-                  "Activity_30"
+                  "Activity_29"
                 ],
                 "instanceType": "Condition"
               },
@@ -5490,7 +5510,7 @@
                 "dictionaryId": null,
                 "contextIds": [],
                 "appliesToIds": [
-                  "Activity_16"
+                  "Activity_15"
                 ],
                 "instanceType": "Condition"
               },
@@ -5503,7 +5523,7 @@
                 "dictionaryId": null,
                 "contextIds": [],
                 "appliesToIds": [
-                  "Activity_19"
+                  "Activity_18"
                 ],
                 "instanceType": "Condition"
               },
@@ -5516,7 +5536,7 @@
                 "dictionaryId": null,
                 "contextIds": [],
                 "appliesToIds": [
-                  "Activity_27"
+                  "Activity_26"
                 ],
                 "instanceType": "Condition"
               },
@@ -5529,7 +5549,7 @@
                 "dictionaryId": null,
                 "contextIds": [],
                 "appliesToIds": [
-                  "Activity_28"
+                  "Activity_27"
                 ],
                 "instanceType": "Condition"
               },
@@ -5542,7 +5562,7 @@
                 "dictionaryId": null,
                 "contextIds": [],
                 "appliesToIds": [
-                  "Activity_32"
+                  "Activity_31"
                 ],
                 "instanceType": "Condition"
               },
@@ -5555,7 +5575,7 @@
                 "dictionaryId": null,
                 "contextIds": [],
                 "appliesToIds": [
-                  "Activity_33"
+                  "Activity_32"
                 ],
                 "instanceType": "Condition"
               }
@@ -5668,7 +5688,7 @@
               "name": "SECTION 2",
               "sectionNumber": "2",
               "sectionTitle": "Schedule of Activities",
-              "text": "<div><div class=\"page soa-page table-responsive\"><p><b>Timeline: Main Timeline, Potential subject identified</b></p><table class=\"table table-bordered table-sm\" style=\"width:100%\"><tr><td><p class=\"soa-activity-text\"></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"StudyEpoch_1\" klass=\"StudyEpoch\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"StudyEpoch_2\" klass=\"StudyEpoch\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"StudyEpoch_2\" klass=\"StudyEpoch\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"StudyEpoch_2\" klass=\"StudyEpoch\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"StudyEpoch_2\" klass=\"StudyEpoch\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"StudyEpoch_2\" klass=\"StudyEpoch\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"StudyEpoch_2\" klass=\"StudyEpoch\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"StudyEpoch_3\" klass=\"StudyEpoch\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"StudyEpoch_4\" klass=\"StudyEpoch\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"StudyEpoch_4\" klass=\"StudyEpoch\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"StudyEpoch_2\" klass=\"StudyEpoch\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"StudyEpoch_2\" klass=\"StudyEpoch\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"StudyEpoch_2\" klass=\"StudyEpoch\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"StudyEpoch_5\" klass=\"StudyEpoch\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"StudyEpoch_5\" klass=\"StudyEpoch\"></usdm:ref></p></td></tr><tr><td><p class=\"soa-activity-text\"></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Encounter_1\" klass=\"Encounter\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Encounter_2\" klass=\"Encounter\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Encounter_3\" klass=\"Encounter\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Encounter_3\" klass=\"Encounter\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Encounter_3\" klass=\"Encounter\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Encounter_3\" klass=\"Encounter\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Encounter_3\" klass=\"Encounter\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Encounter_4\" klass=\"Encounter\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Encounter_5\" klass=\"Encounter\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Encounter_6\" klass=\"Encounter\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Encounter_3\" klass=\"Encounter\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Encounter_3\" klass=\"Encounter\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Encounter_3\" klass=\"Encounter\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Encounter_7\" klass=\"Encounter\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Encounter_7\" klass=\"Encounter\"></usdm:ref></p></td></tr><tr><td><p class=\"soa-activity-text\"></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_1\" klass=\"Timing\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_2\" klass=\"Timing\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_3\" klass=\"Timing\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_4\" klass=\"Timing\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_5\" klass=\"Timing\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_6\" klass=\"Timing\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_7\" klass=\"Timing\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_8\" klass=\"Timing\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_9\" klass=\"Timing\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_10\" klass=\"Timing\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_11\" klass=\"Timing\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_12\" klass=\"Timing\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_13\" klass=\"Timing\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_14\" klass=\"Timing\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_15\" klass=\"Timing\"></usdm:ref></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_1\" klass=\"Activity\"></usdm:ref></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_2\" klass=\"Activity\"></usdm:ref></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_3\" klass=\"Activity\"></usdm:ref></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_4\" klass=\"Activity\"></usdm:ref></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_5\" klass=\"Activity\"></usdm:ref></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_6\" klass=\"Activity\"></usdm:ref></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_7\" klass=\"Activity\"></usdm:ref></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_8\" klass=\"Activity\"></usdm:ref></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_9\" klass=\"Activity\"></usdm:ref></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_10\" klass=\"Activity\"></usdm:ref> [c]</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_12\" klass=\"Activity\"></usdm:ref> [c]</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_13\" klass=\"Activity\"></usdm:ref></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_14\" klass=\"Activity\"></usdm:ref> [c]</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_17\" klass=\"Activity\"></usdm:ref></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_18\" klass=\"Activity\"></usdm:ref></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_20\" klass=\"Activity\"></usdm:ref></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_21\" klass=\"Activity\"></usdm:ref> [c]</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_22\" klass=\"Activity\"></usdm:ref></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_23\" klass=\"Activity\"></usdm:ref> [c]</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_24\" klass=\"Activity\"></usdm:ref> [c]</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_25\" klass=\"Activity\"></usdm:ref> [c]</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_26\" klass=\"Activity\"></usdm:ref> [c]</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_27\" klass=\"Activity\"></usdm:ref> [c]</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\">X</p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_29\" klass=\"Activity\"></usdm:ref></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_30\" klass=\"Activity\"></usdm:ref> [c]</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\">X</p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_31\" klass=\"Activity\"></usdm:ref></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td></tr></table></div><div class=\"page soa-page table-responsive\"><p><b>Timeline: Hypoinduction, Insulin Infusion</b></p><table class=\"table table-bordered table-sm\" style=\"width:100%\"><tr><td><p class=\"soa-activity-text\"></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_31\" klass=\"Timing\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_32\" klass=\"Timing\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_33\" klass=\"Timing\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_34\" klass=\"Timing\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_35\" klass=\"Timing\"></usdm:ref></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_17\" klass=\"Activity\"></usdm:ref></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_19\" klass=\"Activity\"></usdm:ref> [c]</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_21\" klass=\"Activity\"></usdm:ref> [c]</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_27\" klass=\"Activity\"></usdm:ref> [c]</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_28\" klass=\"Activity\"></usdm:ref> [c]</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_32\" klass=\"Activity\"></usdm:ref> [c]</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_33\" klass=\"Activity\"></usdm:ref> [c]</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_35\" klass=\"Activity\"></usdm:ref></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_15\" klass=\"Activity\"></usdm:ref> [c]</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_16\" klass=\"Activity\"></usdm:ref> [c]</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td></tr></table></div><div class=\"page soa-page table-responsive\"><p><b>Timeline: Treatment Phase, Study Treatment Administration</b></p><table class=\"table table-bordered table-sm\" style=\"width:100%\"><tr><td><p class=\"soa-activity-text\"></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_16\" klass=\"Timing\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_17\" klass=\"Timing\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_18\" klass=\"Timing\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_19\" klass=\"Timing\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_20\" klass=\"Timing\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_21\" klass=\"Timing\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_22\" klass=\"Timing\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_23\" klass=\"Timing\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_24\" klass=\"Timing\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_25\" klass=\"Timing\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_26\" klass=\"Timing\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_27\" klass=\"Timing\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_28\" klass=\"Timing\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_29\" klass=\"Timing\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_30\" klass=\"Timing\"></usdm:ref></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_7\" klass=\"Activity\"></usdm:ref></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_12\" klass=\"Activity\"></usdm:ref> [c]</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_17\" klass=\"Activity\"></usdm:ref></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_19\" klass=\"Activity\"></usdm:ref> [c]</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_27\" klass=\"Activity\"></usdm:ref> [c]</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_28\" klass=\"Activity\"></usdm:ref> [c]</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_32\" klass=\"Activity\"></usdm:ref> [c]</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_33\" klass=\"Activity\"></usdm:ref> [c]</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_15\" klass=\"Activity\"></usdm:ref> [c]</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_16\" klass=\"Activity\"></usdm:ref> [c]</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_11\" klass=\"Activity\"></usdm:ref></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td></tr></table></div></div>",
+              "text": "<div>\n<div class=\"col-md-8 offset-md-2 text-center\">\n<p class=\"usdm-warning\">Note:</p>\n<p class=\"usdm-warning\">The following SoA timelines are auto generated using the detailed study design held within the USDM.</p>\n</div>\n <div class=\"page soa-page table-responsive\"><p><b>Timeline: Main Timeline, Potential subject identified</b></p><table class=\"table table-bordered table-sm\" style=\"width:100%\"><tr><td><p class=\"soa-activity-text\"></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"StudyEpoch_1\" klass=\"StudyEpoch\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"StudyEpoch_2\" klass=\"StudyEpoch\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"StudyEpoch_2\" klass=\"StudyEpoch\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"StudyEpoch_2\" klass=\"StudyEpoch\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"StudyEpoch_2\" klass=\"StudyEpoch\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"StudyEpoch_2\" klass=\"StudyEpoch\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"StudyEpoch_2\" klass=\"StudyEpoch\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"StudyEpoch_3\" klass=\"StudyEpoch\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"StudyEpoch_4\" klass=\"StudyEpoch\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"StudyEpoch_4\" klass=\"StudyEpoch\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"StudyEpoch_2\" klass=\"StudyEpoch\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"StudyEpoch_2\" klass=\"StudyEpoch\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"StudyEpoch_2\" klass=\"StudyEpoch\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"StudyEpoch_5\" klass=\"StudyEpoch\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"StudyEpoch_5\" klass=\"StudyEpoch\"></usdm:ref></p></td></tr><tr><td><p class=\"soa-activity-text\"></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Encounter_1\" klass=\"Encounter\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Encounter_2\" klass=\"Encounter\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Encounter_3\" klass=\"Encounter\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Encounter_3\" klass=\"Encounter\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Encounter_3\" klass=\"Encounter\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Encounter_3\" klass=\"Encounter\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Encounter_3\" klass=\"Encounter\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Encounter_4\" klass=\"Encounter\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Encounter_5\" klass=\"Encounter\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Encounter_6\" klass=\"Encounter\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Encounter_3\" klass=\"Encounter\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Encounter_3\" klass=\"Encounter\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Encounter_3\" klass=\"Encounter\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Encounter_7\" klass=\"Encounter\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Encounter_7\" klass=\"Encounter\"></usdm:ref></p></td></tr><tr><td><p class=\"soa-activity-text\"></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_1\" klass=\"Timing\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_2\" klass=\"Timing\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_3\" klass=\"Timing\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_4\" klass=\"Timing\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_5\" klass=\"Timing\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_6\" klass=\"Timing\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_7\" klass=\"Timing\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_8\" klass=\"Timing\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_9\" klass=\"Timing\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_10\" klass=\"Timing\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_11\" klass=\"Timing\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_12\" klass=\"Timing\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_13\" klass=\"Timing\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_14\" klass=\"Timing\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_15\" klass=\"Timing\"></usdm:ref></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_1\" klass=\"Activity\"></usdm:ref></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_2\" klass=\"Activity\"></usdm:ref></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_3\" klass=\"Activity\"></usdm:ref></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_4\" klass=\"Activity\"></usdm:ref></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_5\" klass=\"Activity\"></usdm:ref></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_6\" klass=\"Activity\"></usdm:ref></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_7\" klass=\"Activity\"></usdm:ref></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_8\" klass=\"Activity\"></usdm:ref></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_9\" klass=\"Activity\"></usdm:ref></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_10\" klass=\"Activity\"></usdm:ref> [c]</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_11\" klass=\"Activity\"></usdm:ref> [c]</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_12\" klass=\"Activity\"></usdm:ref></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_13\" klass=\"Activity\"></usdm:ref> [c]</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_16\" klass=\"Activity\"></usdm:ref></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_17\" klass=\"Activity\"></usdm:ref></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_19\" klass=\"Activity\"></usdm:ref></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_20\" klass=\"Activity\"></usdm:ref> [c]</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_21\" klass=\"Activity\"></usdm:ref></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_22\" klass=\"Activity\"></usdm:ref> [c]</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_23\" klass=\"Activity\"></usdm:ref> [c]</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_24\" klass=\"Activity\"></usdm:ref> [c]</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_25\" klass=\"Activity\"></usdm:ref> [c]</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_26\" klass=\"Activity\"></usdm:ref> [c]</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\">X</p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_28\" klass=\"Activity\"></usdm:ref> [c]</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_29\" klass=\"Activity\"></usdm:ref> [c]</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\">X</p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_30\" klass=\"Activity\"></usdm:ref></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td></tr></table></div><div class=\"page soa-page table-responsive\"><p><b>Timeline: Hypoinduction, Insulin Infusion</b></p><table class=\"table table-bordered table-sm\" style=\"width:100%\"><tr><td><p class=\"soa-activity-text\"></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_31\" klass=\"Timing\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_32\" klass=\"Timing\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_33\" klass=\"Timing\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_34\" klass=\"Timing\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_35\" klass=\"Timing\"></usdm:ref></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_16\" klass=\"Activity\"></usdm:ref></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_18\" klass=\"Activity\"></usdm:ref> [c]</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_20\" klass=\"Activity\"></usdm:ref> [c]</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_26\" klass=\"Activity\"></usdm:ref> [c]</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_27\" klass=\"Activity\"></usdm:ref> [c]</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_31\" klass=\"Activity\"></usdm:ref> [c]</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_32\" klass=\"Activity\"></usdm:ref> [c]</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_34\" klass=\"Activity\"></usdm:ref></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_14\" klass=\"Activity\"></usdm:ref> [c]</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_15\" klass=\"Activity\"></usdm:ref> [c]</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td></tr></table></div><div class=\"page soa-page table-responsive\"><p><b>Timeline: Treatment Phase, Study Treatment Administration</b></p><table class=\"table table-bordered table-sm\" style=\"width:100%\"><tr><td><p class=\"soa-activity-text\"></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_16\" klass=\"Timing\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_17\" klass=\"Timing\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_18\" klass=\"Timing\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_19\" klass=\"Timing\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_20\" klass=\"Timing\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_21\" klass=\"Timing\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_22\" klass=\"Timing\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_23\" klass=\"Timing\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_24\" klass=\"Timing\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_25\" klass=\"Timing\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_26\" klass=\"Timing\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_27\" klass=\"Timing\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_28\" klass=\"Timing\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_29\" klass=\"Timing\"></usdm:ref></p></td><td><p class=\"soa-body-text\"><usdm:ref attribute=\"label\" id=\"Timing_30\" klass=\"Timing\"></usdm:ref></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_7\" klass=\"Activity\"></usdm:ref></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_11\" klass=\"Activity\"></usdm:ref> [c]</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_16\" klass=\"Activity\"></usdm:ref></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_18\" klass=\"Activity\"></usdm:ref> [c]</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_26\" klass=\"Activity\"></usdm:ref> [c]</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_27\" klass=\"Activity\"></usdm:ref> [c]</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_31\" klass=\"Activity\"></usdm:ref> [c]</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_32\" klass=\"Activity\"></usdm:ref> [c]</p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_14\" klass=\"Activity\"></usdm:ref> [c]</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_15\" klass=\"Activity\"></usdm:ref> [c]</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td></tr><tr><td><p class=\"soa-activity-text\"><usdm:ref attribute=\"label\" id=\"Activity_33\" klass=\"Activity\"></usdm:ref></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\"></p></td><td><p class=\"soa-body-text\">X</p></td></tr></table></div></div>",
               "childIds": [],
               "instanceType": "NarrativeContent"
             },
@@ -5895,7 +5915,7 @@
               "name": "SECTION 7.1.",
               "sectionNumber": "7.1.",
               "sectionTitle": "Treatment Administered",
-              "text": "<div><p>This study involves a comparison of 3 mg of LY900018 administered once nasally to 1 mg glucagon administered IM (comparator). Table IGBJ.2 shows the study treatment information.</p>\n<p><b>Table IGBJ.2. Study Treatments</b></p>\n<table class=\"table\">\n<tr>\n<th><p>Treatment Name</p></th>\n<td><p><usdm:ref attribute=\"label\" id=\"StudyIntervention_1\" klass=\"StudyIntervention\"></usdm:ref></p></td>\n<td><p><usdm:ref attribute=\"label\" id=\"StudyIntervention_2\" klass=\"StudyIntervention\"></usdm:ref></p></td>\n</tr>\n<tr>\n<th><p>Dosage Formulation</p></th>\n<td><p>Dry powder</p></td>\n<td><p>Dry powder</p></td>\n</tr>\n<tr>\n<th><p>Dosage Levels  </p></th>\n<td><p><usdm:ref attribute=\"value\" id=\"Quantity_3\" klass=\"Quantity\"></usdm:ref> <usdm:ref attribute=\"decode\" id=\"Code_148\" klass=\"Code\"></usdm:ref> glucagon</p></td>\n<td><p><usdm:ref attribute=\"value\" id=\"Quantity_6\" klass=\"Quantity\"></usdm:ref> <usdm:ref attribute=\"decode\" id=\"Code_158\" klass=\"Code\"></usdm:ref> glucagon</p></td>\n</tr>\n<tr>\n<th><p>Route of Administration</p></th>\n<td><p><usdm:ref attribute=\"decode\" id=\"Code_147\" klass=\"Code\"></usdm:ref></p></td>\n<td><p><usdm:ref attribute=\"decode\" id=\"Code_157\" klass=\"Code\"></usdm:ref></p></td>\n</tr>\n<tr>\n<th>Dosing Instructions</th>\n<td><usdm:ref attribute=\"description\" id=\"AgentAdministration_1\" klass=\"AgentAdministration\"></usdm:ref></td>\n<td><usdm:ref attribute=\"description\" id=\"AgentAdministration_2\" klass=\"AgentAdministration\"></usdm:ref></td>\n</tr>\n</table>\n<p>The procedure for insulin-induced hypoglycemia will require an IV infusion of diluted human regular insulin (0.3 U/mL by diluting 15 U human regular insulin [100 U/mL] into 50 mL saline). Details regarding hypoglycemia induction and glucagon administration procedures are included in Sections 9.2.1 and 9.2.2, respectively.</p>\n<p>The investigator or designee is responsible for:</p>\n<ul>\n<ul><p>explaining the correct use of the investigational products to the site personnel</p></ul>\n<ul><p>verifying that instructions are followed properly</p></ul>\n<ul><p>maintaining accurate records of investigational product dispensing and collection</p></ul>\n<ul><p>and returning all unused medication to Lilly or its designee at the end of the study</p></ul>\n</ul></div>",
+              "text": "<div><p>This study involves a comparison of 3 mg of LY900018 administered once nasally to 1 mg glucagon administered IM (comparator). Table IGBJ.2 shows the study treatment information.</p>\n<p><b>Table IGBJ.2. Study Treatments</b></p>\n<table class=\"table\">\n<tr>\n<th><p>Treatment Name</p></th>\n<td><p><usdm:ref attribute=\"label\" id=\"StudyIntervention_1\" klass=\"StudyIntervention\"></usdm:ref></p></td>\n<td><p><usdm:ref attribute=\"label\" id=\"StudyIntervention_2\" klass=\"StudyIntervention\"></usdm:ref></p></td>\n</tr>\n<tr>\n<th><p>Dosage Formulation</p></th>\n<td><p>Dry powder</p></td>\n<td><p>Dry powder</p></td>\n</tr>\n<tr>\n<th><p>Dosage Levels  </p></th>\n<td><p><usdm:ref attribute=\"value\" id=\"Quantity_3\" klass=\"Quantity\"></usdm:ref> <usdm:ref attribute=\"decode\" id=\"Code_148\" klass=\"Code\"></usdm:ref> glucagon</p></td>\n<td><p><usdm:ref attribute=\"value\" id=\"Quantity_6\" klass=\"Quantity\"></usdm:ref> <usdm:ref attribute=\"decode\" id=\"Code_158\" klass=\"Code\"></usdm:ref> glucagon</p></td>\n</tr>\n<tr>\n<th><p>Route of Administration</p></th>\n<td><p><usdm:ref attribute=\"decode\" id=\"Code_147\" klass=\"Code\"></usdm:ref></p></td>\n<td><p><usdm:ref attribute=\"decode\" id=\"Code_157\" klass=\"Code\"></usdm:ref></p></td>\n</tr>\n<tr>\n<th>Dosing Instructions</th>\n<td><usdm:ref attribute=\"description\" id=\"AgentAdministration_1\" klass=\"AgentAdministration\"></usdm:ref></td>\n<td><usdm:ref attribute=\"description\" id=\"AgentAdministration_2\" klass=\"AgentAdministration\"></usdm:ref></td>\n</tr>\n</table>\n<p>The procedure for insulin-induced hypoglycemia will require an IV infusion of diluted human regular insulin (0.3 U/mL by diluting 15 U human regular insulin [100 U/mL] into 50 mL saline). Details regarding hypoglycemia induction and glucagon administration procedures are included in Sections 9.2.1 and 9.2.2, respectively.</p>\n<p>The investigator or designee is responsible for:</p>\n<ul>\n<li><p>explaining the correct use of the investigational products to the site personnel</p></li>\n<li><p>verifying that instructions are followed properly</p></li>\n<li><p>maintaining accurate records of investigational product dispensing and collection</p></li>\n<li><p>and returning all unused medication to Lilly or its designee at the end of the study</p></li>\n</ul></div>",
               "childIds": [
                 "NarrativeContent_27",
                 "NarrativeContent_28"
