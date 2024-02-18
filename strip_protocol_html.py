@@ -76,6 +76,10 @@ def find_by_path_recurse(root, items):
   else:
     return tags
 
+def section_number_key(section_number):
+  text = section_number[:-1] if section_number.endswith('.') else section_number
+  return text.replace('.', '-')
+
 if __name__ == "__main__":
 
   parser = argparse.ArgumentParser(
@@ -187,7 +191,7 @@ if __name__ == "__main__":
     section_number = get_section_number(heading)
     if section_number:
       section_title = get_section_title(heading)
-      headings[section_number] = {'sectionNumber': section_number, 'name': '', 'sectionTitle': section_title, 'text': ''}
+      headings[section_number_key(section_number)] = {'sectionNumber': section_number, 'name': '', 'sectionTitle': section_title, 'text': ''}
       sections.append(section_number)
 
   for match in soup.findAll("h1"):
@@ -200,12 +204,12 @@ if __name__ == "__main__":
         else:
           if str(tag) != '\n':
             elements.append(str(tag))
-      headings[section_number]['text'] = ('\n').join(elements)
+      headings[section_number_key(section_number)]['text'] = ('\n').join(elements)
       print(f"Processing section '{section_number}'")
 
   print("\n\nSaving CSV file")
   write_csv_file(filename, list(headings.values()))
   print("\n\nSaving YAML file")
-  write_yaml_file(filename, list(headings.values()))
+  write_yaml_file(filename, headings)
 
   print(f"\n\nDone\n\n")
