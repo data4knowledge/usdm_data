@@ -1881,7 +1881,26 @@
     label: Condition_1
     name: COND1
     text: Performed if patient is an insulin-dependent diabetic
-- id: 214
+- id: 212
+  properties:
+    _type: Condition
+    appliesToIds:
+    - Activity_27
+    - Activity_28
+    - Activity_29
+    - Activity_30
+    contextIds:
+    - ScheduledActivityInstance_9
+    description: Questionnaire practice condition
+    dictionaryId: null
+    id: Condition_2
+    instanceType: Condition
+    label: Condition_2
+    name: COND2
+    text: Practice only - It is recommended that a sampling of the CIBIC+, ADAS-Cog,
+      DAD, and NPI-X be administered at Visit 1. Data from this sampling would not
+      be considered as study data and would not be collected.
+- id: 215
   properties:
     _type: Address
     city: city
@@ -1902,7 +1921,7 @@
     state: state
     text: line, city, district, state, postal_code, United Kingdom of Great Britain
       and Northern Ireland
-- id: 216
+- id: 217
   properties:
     _type: StudySite
     currentEnrollment: null
@@ -1911,7 +1930,7 @@
     instanceType: StudySite
     label: StudySite_1
     name: SITE_1
-- id: 212
+- id: 213
   properties:
     _type: ResearchOrganization
     id: ResearchOrganization_1
@@ -2022,7 +2041,7 @@
       decode: Pharmacokinetic Study
       id: Code_140
       instanceType: Code
-- id: 217
+- id: 218
   properties:
     _type: StudyTitle
     id: StudyTitle_1
@@ -2037,7 +2056,7 @@
       decode: Study Acronym
       id: Code_3
       instanceType: Code
-- id: 219
+- id: 220
   properties:
     _type: StudyTitle
     id: StudyTitle_2
@@ -2052,7 +2071,7 @@
       decode: Brief Study Title
       id: Code_5
       instanceType: Code
-- id: 221
+- id: 222
   properties:
     _type: StudyTitle
     id: StudyTitle_3
@@ -2068,7 +2087,7 @@
       decode: Official Study Title
       id: Code_6
       instanceType: Code
-- id: 223
+- id: 224
   properties:
     _type: StudyTitle
     id: StudyTitle_4
@@ -2124,4 +2143,3 @@
     id: null
     instanceType: Study
     label: Study
-    name: Study_CDISC PILOT - LZZT
