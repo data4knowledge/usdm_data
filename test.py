@@ -3,7 +3,27 @@ log = logging.basicConfig(level=logging.INFO)
 
 import sys
 import json
-import yaml
+import csv
+
+def save_as_csv_file(errors, filename):
+  with open(f"{filename}.csv", 'w', encoding='utf-8') as f:
+    writer = csv.DictWriter(f, fieldnames=['sheet','row','column','message','level'])
+    writer.writeheader()
+    writer.writerows(errors)
+
+def save_as_json_file(raw_json, filename):
+  with open(f"{filename}.json", 'w', encoding='utf-8') as f:
+    json_object = json.loads(raw_json)
+    json.dump(json_object, f, indent=2)
+
+def save_as_html_file(html, filename, suffix):
+  with open(f"{filename}_{suffix}.html", 'w', encoding='utf-8') as f:
+    f.write(html)
+
+def save_as_pdf_file(data, filename, suffix):
+  with open(f"{filename}_{suffix}.pdf", 'w+b') as f:
+    f.write(data)
+
 
 if __name__ == "__main__":
   arg_count = len(sys.argv)
@@ -28,18 +48,11 @@ if __name__ == "__main__":
     print("")
 
     excel = USDMExcel(full_filename)
-    with open(f"{filename}.json", 'w', encoding='utf-8') as f:
-      f.write(json.dumps(json.loads(excel.to_json()), indent=2))
-    with open(f"{filename}_USDM.html", 'w', encoding='utf-8') as f:
-      f.write(excel.to_html())
-    with open(f"{filename}_USDM.pdf", 'w+b') as f:
-      f.write(excel.to_pdf(pdf_test))
-    with open(f"{filename}_timeline.html", 'w') as f:
-      f.write(excel.to_timeline())
-    errors = excel.errors()
-    if len(errors) > 0:
-      with open(f"{filename}_errors.yaml", 'w', encoding='utf-8') as f:
-        yaml.dump(errors, f, default_flow_style=False)
+    save_as_json_file(json.dumps(json.loads(excel.to_json())), filename)
+    save_as_csv_file(excel.errors(), filename)
+    save_as_html_file(excel.to_html(), filename, 'USDM')
+    save_as_pdf_file(excel.to_pdf(pdf_test), filename, 'USDM')
+    save_as_html_file(excel.to_timeline(), filename, 'timeline')
 
   else:
     print("Multiple command line arguments detected.")
