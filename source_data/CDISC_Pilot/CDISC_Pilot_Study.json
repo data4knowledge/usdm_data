@@ -1,6 +1,7 @@
 {
   "study": {
     "id": null,
+    "name": "Study_CDISC PILOT - LZZT",
     "description": null,
     "label": null,
     "versions": [
@@ -8416,7 +8417,7 @@
               "name": "SECTION 0",
               "sectionNumber": "0",
               "sectionTitle": "Title Page",
-              "text": "<div><p><b>Missing content: invalid method name</b></p>\n<p><b>Protocol Missing content: invalid method name(c)</b></p>\n<p><b>Missing content: invalid method name</b></p></div>",
+              "text": "<div><p><b><usdm:ref attribute=\"text\" id=\"StudyTitle_2\" klass=\"StudyTitle\"></usdm:ref></b></p>\n<p><b>Protocol <usdm:ref attribute=\"studyIdentifier\" id=\"StudyIdentifier_1\" klass=\"StudyIdentifier\"></usdm:ref>(c)</b></p>\n<p><b>Missing content: invalid method name</b></p></div>",
               "childIds": [],
               "instanceType": "NarrativeContent"
             },
