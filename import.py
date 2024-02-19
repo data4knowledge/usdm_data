@@ -47,7 +47,7 @@ def file_suffix(view):
 studies = [
   # { 'path': 'NCT04320615', 'filename': 'Roche_NCT04320615_COVID', 'protocol': False},
   { 'path': 'CDISC_Pilot', 'filename': 'CDISC_Pilot_Study', 'protocol': True},
-  { 'path': 'NCT03421379', 'filename': 'EliLilly_NCT03421379_Diabetes', 'protocol': False},
+  { 'path': 'NCT03421379', 'filename': 'EliLilly_NCT03421379_Diabetes', 'protocol': True},
 ]
 
 print (f"\n\nImport Utility, using USDM Python Package v{code_version} supporting USDM version v{model_version}\n\n")
