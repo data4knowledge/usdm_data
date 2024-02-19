@@ -6401,8 +6401,8 @@
                   "name": "IN01",
                   "label": "Age greater than 50",
                   "description": "",
-                  "text": "<p>Males and postmenopausal females at least 50 years of age.</p>",
-                  "dictionaryId": null,
+                  "text": "<p>Males and postmenopausal females at least <usdm:tag name=\"min_age\"/> years of age.</p>",
+                  "dictionaryId": "SyntaxTemplateDictionary_1",
                   "instanceType": "EligibilityCriterion",
                   "category": {
                     "id": "Code_351",
@@ -6422,8 +6422,8 @@
                   "name": "IN02",
                   "label": "Diagnosis of Alzheimer's",
                   "description": "",
-                  "text": "<p>Diagnosis of probable AD as defined by National Institute of Neurological and Communicative Disorders and Stroke (NINCDS) and the Alzheimer's Disease and Related Disorders Association (ADRDA) guidelines (Attachment LZZT.7).</p>",
-                  "dictionaryId": null,
+                  "text": "<p><usdm:tag name=\"StudyPopulation\"/> as defined by National Institute of Neurological and Communicative Disorders and Stroke (NINCDS) and the Alzheimer's Disease and Related Disorders Association (ADRDA) guidelines (Attachment LZZT.7).</p>",
+                  "dictionaryId": "SyntaxTemplateDictionary_1",
                   "instanceType": "EligibilityCriterion",
                   "category": {
                     "id": "Code_352",
@@ -6443,8 +6443,8 @@
                   "name": "IN03",
                   "label": "MMSE Score",
                   "description": "",
-                  "text": "<p>MMSE score of 10 to 23.</p>",
-                  "dictionaryId": null,
+                  "text": "<p><usdm:tag name=\"Activity1\"/> score of 10 to 23.</p>",
+                  "dictionaryId": "SyntaxTemplateDictionary_2",
                   "instanceType": "EligibilityCriterion",
                   "category": {
                     "id": "Code_353",
@@ -8260,8 +8260,8 @@
                 "label": "IE Dictionary",
                 "description": "Dictionary for IE",
                 "parameterMap": {
-                  "min_age": "<usdm:ref klass=\"Range\" id=\"Range_3\" attribute=\"maxValue\"></usdm:ref>",
-                  "max_age": "<usdm:ref klass=\"Range\" id=\"Range_3\" attribute=\"minValue\"></usdm:ref>",
+                  "min_age": "<usdm:ref klass=\"Range\" id=\"Range_3\" attribute=\"minValue\"></usdm:ref>",
+                  "max_age": "<usdm:ref klass=\"Range\" id=\"Range_3\" attribute=\"maxValue\"></usdm:ref>",
                   "StudyPopulation": "<usdm:ref klass=\"StudyDesignPopulation\" id=\"StudyDesignPopulation_1\" attribute=\"description\"></usdm:ref>"
                 },
                 "instanceType": "SyntaxTemplateDictionary"
