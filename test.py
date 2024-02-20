@@ -1,7 +1,5 @@
+import argparse
 import logging
-log = logging.basicConfig(level=logging.INFO)
-
-import sys
 import json
 import csv
 
@@ -24,35 +22,37 @@ def save_as_pdf_file(data, filename, suffix):
   with open(f"{filename}_{suffix}.pdf", 'w+b') as f:
     f.write(data)
 
-
 if __name__ == "__main__":
-  arg_count = len(sys.argv)
-  if arg_count == 1:
-    print("You need to provide an input file name minus the file extension")
-  elif arg_count >= 2:
+  parser = argparse.ArgumentParser(
+    prog='USDM Test Program',
+    description='Will take the USDM conformant Excel workbook and transform into USDM JSON, HTML, PDF etc',
+    epilog='Note: Not that sophisticated! :)'
+  )
+  parser.add_argument('filename', help="The name of the Excel file without the '.xlsx' extension.") 
+  parser.add_argument("--no_watermark", action="store_true", help="Remove watermark, default is watermark") 
+  parser.add_argument('--debug', action='store_true', help='print debug messages to stderr')
+  args = parser.parse_args()
+  filename = args.filename
+  watermark = not args.no_watermark
+  debug = args.debug
+  level = logging.DEBUG if debug else logging.INFO
 
-    pdf_test = True    
-    if arg_count == 3:
-      pdf_test = True if sys.argv[2].strip().lower() in ['true', '1', 't', 'y', 'yes'] else False
-    filename = sys.argv[1].strip()
-    full_filename = f"{filename}.xlsx"
-      
-    from usdm_excel import USDMExcel
-    from usdm_info import __package_version__ as code_version
-    from usdm_info import __model_version__ as model_version
+  full_filename = f"{filename}.xlsx"
+  log = logging.basicConfig(level=level)
     
-    print("")
-    print(f"Test Utility, using USDM Python Package v{code_version} supporting USDM version v{model_version}")
-    print(f"Converting {full_filename} with test flag set to {pdf_test}")
-    print("")
-    print("")
+  from usdm_excel import USDMExcel
+  from usdm_info import __package_version__ as code_version
+  from usdm_info import __model_version__ as model_version
+  
+  print("")
+  print(f"Test Utility, using USDM Python Package v{code_version} supporting USDM version v{model_version}")
+  print(f"Converting {full_filename} with test flag set to {watermark}")
+  print("")
+  print("")
 
-    excel = USDMExcel(full_filename)
-    save_as_json_file(json.dumps(json.loads(excel.to_json())), filename)
-    save_as_csv_file(excel.errors(), filename)
-    save_as_html_file(excel.to_html(), filename, 'USDM')
-    save_as_pdf_file(excel.to_pdf(pdf_test), filename, 'USDM')
-    save_as_html_file(excel.to_timeline(), filename, 'timeline')
-
-  else:
-    print("Multiple command line arguments detected.")
+  excel = USDMExcel(full_filename)
+  save_as_json_file(json.dumps(json.loads(excel.to_json())), filename)
+  save_as_csv_file(excel.errors(), filename)
+  save_as_html_file(excel.to_html(), filename, 'USDM')
+  save_as_pdf_file(excel.to_pdf(watermark), filename, 'USDM')
+  save_as_html_file(excel.to_timeline(), filename, 'timeline')
