@@ -932,7 +932,7 @@
               {
                 "id": "Activity_5",
                 "name": "Hachinski",
-                "label": "Hachinski",
+                "label": "Hachinski Ischemic Scale",
                 "description": "",
                 "previousId": "Activity_4",
                 "nextId": "Activity_6",
@@ -6615,8 +6615,8 @@
                   "name": "IN04",
                   "label": "Hachinski Ischemic Score",
                   "description": "",
-                  "text": "<p>Hachinski Ischemic Scale score of \u22644 (Attachment LZZT.8).</p>",
-                  "dictionaryId": null,
+                  "text": "<p><usdm:tag name=\"Activity2\"/>  score of \u22644 (Attachment LZZT.8).</p>",
+                  "dictionaryId": "SyntaxTemplateDictionary_2",
                   "instanceType": "EligibilityCriterion",
                   "category": {
                     "id": "Code_361",
@@ -8423,7 +8423,8 @@
                 "label": "Assessment Dictionary",
                 "description": "Dictionary for Study Assessments",
                 "parameterMap": {
-                  "Activity1": "<usdm:ref klass=\"Activity\" id=\"Activity_6\" attribute=\"label\"></usdm:ref>"
+                  "Activity1": "<usdm:ref klass=\"Activity\" id=\"Activity_6\" attribute=\"label\"></usdm:ref>",
+                  "Activity2": "<usdm:ref klass=\"Activity\" id=\"Activity_5\" attribute=\"label\"></usdm:ref>"
                 },
                 "instanceType": "SyntaxTemplateDictionary"
               }
