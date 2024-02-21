@@ -45,9 +45,9 @@ def file_suffix(view):
   return ''
 
 studies = [
-  # { 'path': 'NCT04320615', 'filename': 'Roche_NCT04320615_COVID', 'protocol': False, 'watermark': False},
-  { 'path': 'CDISC_Pilot', 'filename': 'CDISC_Pilot_Study', 'protocol': True, 'watermark': False},
-  { 'path': 'NCT03421379', 'filename': 'EliLilly_NCT03421379_Diabetes', 'protocol': True, 'watermark': False},
+  # { 'path': 'NCT04320615', 'filename': 'Roche_NCT04320615_COVID', 'protocol': False, 'watermark': False, 'highlight': False},
+  { 'path': 'CDISC_Pilot', 'filename': 'CDISC_Pilot_Study', 'protocol': True, 'watermark': False, 'highlight': True},
+  { 'path': 'NCT03421379', 'filename': 'EliLilly_NCT03421379_Diabetes', 'protocol': True, 'watermark': False, 'highlight': True},
 ]
 
 print (f"\n\nImport Utility, using USDM Python Package v{code_version} supporting USDM version v{model_version}\n\n")
@@ -66,8 +66,11 @@ for study in studies:
     save_as_node_file(nodes, study, view)
     save_as_edges_file(edges, study, view)
   if study['protocol']:
-    print(f"\n\nProtocol HTML and PDF (watermark={study['watermark']})\n\n")
+    print(f"\n\nProtocol HTML and PDF (watermark={study['watermark']}, highlight={study['highlight']})\n\n")
+    if study['highlight']:
+      save_as_html_file(x.to_html(True), study, 'highlight')
     save_as_html_file(x.to_html(), study, 'USDM')
+    save_as_html_file(x.to_timeline(), study, 'timeline')
     save_as_pdf_file(x.to_pdf(study['watermark']), study, 'USDM')
   print(f"\n\nERRORS:\n{x.errors()}\n\n")
   print(f"----- + -----\n\n")

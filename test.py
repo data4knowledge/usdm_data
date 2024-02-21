@@ -55,6 +55,8 @@ if __name__ == "__main__":
   excel = USDMExcel(full_filename)
   save_as_json_file(json.dumps(json.loads(excel.to_json())), filename)
   save_as_csv_file(excel.errors(), filename)
-  save_as_html_file(excel.to_html(highlight), filename, 'USDM')
+  if highlight:
+    save_as_html_file(excel.to_html(highlight), filename, 'highlight')
+  save_as_html_file(excel.to_html(), filename, 'USDM')
   save_as_pdf_file(excel.to_pdf(watermark), filename, 'USDM')
   save_as_html_file(excel.to_timeline(), filename, 'timeline')
