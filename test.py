@@ -29,11 +29,13 @@ if __name__ == "__main__":
     epilog='Note: Not that sophisticated! :)'
   )
   parser.add_argument('filename', help="The name of the Excel file without the '.xlsx' extension.") 
-  parser.add_argument("--no_watermark", action="store_true", help="Remove watermark, default is watermark") 
+  parser.add_argument("--no_watermark", action="store_true", help="No watermark, default is to show watermark") 
+  parser.add_argument("--highlight", action="store_false", help="Highlight USDM content, default is not to highlight") 
   parser.add_argument('--debug', action='store_true', help='print debug messages to stderr')
   args = parser.parse_args()
   filename = args.filename
   watermark = not args.no_watermark
+  highlight = not args.highlight
   debug = args.debug
   level = logging.DEBUG if debug else logging.INFO
 
@@ -46,13 +48,13 @@ if __name__ == "__main__":
   
   print("")
   print(f"Test Utility, using USDM Python Package v{code_version} supporting USDM version v{model_version}")
-  print(f"Converting {full_filename} with test flag set to {watermark}")
+  print(f"Converting {full_filename} with watermark set {'on' if watermark else 'off'} and highlights {'on' if highlight else 'off'}")
   print("")
   print("")
 
   excel = USDMExcel(full_filename)
   save_as_json_file(json.dumps(json.loads(excel.to_json())), filename)
   save_as_csv_file(excel.errors(), filename)
-  save_as_html_file(excel.to_html(), filename, 'USDM')
+  save_as_html_file(excel.to_html(highlight), filename, 'USDM')
   save_as_pdf_file(excel.to_pdf(watermark), filename, 'USDM')
   save_as_html_file(excel.to_timeline(), filename, 'timeline')
