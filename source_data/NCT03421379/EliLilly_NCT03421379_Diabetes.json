@@ -887,7 +887,10 @@
                 "previousId": "Activity_19",
                 "nextId": "Activity_21",
                 "definedProcedures": [],
-                "biomedicalConceptIds": [],
+                "biomedicalConceptIds": [
+                  "BiomedicalConcept_3",
+                  "BiomedicalConcept_4"
+                ],
                 "bcCategoryIds": [],
                 "bcSurrogateIds": [
                   "BiomedicalConceptSurrogate_13",
@@ -928,9 +931,7 @@
                   "BiomedicalConceptSurrogate_48",
                   "BiomedicalConceptSurrogate_49",
                   "BiomedicalConceptSurrogate_50",
-                  "BiomedicalConceptSurrogate_51",
-                  "BiomedicalConceptSurrogate_52",
-                  "BiomedicalConceptSurrogate_53"
+                  "BiomedicalConceptSurrogate_51"
                 ],
                 "timelineId": "",
                 "instanceType": "Activity"
@@ -946,7 +947,7 @@
                 "biomedicalConceptIds": [],
                 "bcCategoryIds": [],
                 "bcSurrogateIds": [
-                  "BiomedicalConceptSurrogate_54"
+                  "BiomedicalConceptSurrogate_52"
                 ],
                 "timelineId": "",
                 "instanceType": "Activity"
@@ -1226,12 +1227,12 @@
                 "synonyms": [
                   "Pulse"
                 ],
-                "reference": "/mdr/bc/packages/2022-10-26/biomedicalconcepts/C49676",
+                "reference": "/mdr/bc/packages/2023-12-12/biomedicalconcepts/C49676",
                 "properties": [
                   {
                     "id": "BiomedicalConceptProperty_1",
-                    "name": "Vital Signs Result",
-                    "label": "Vital Signs Result",
+                    "name": "Clinical Test Result",
+                    "label": "Clinical Test Result",
                     "isRequired": true,
                     "isEnabled": true,
                     "datatype": "integer",
@@ -1240,10 +1241,10 @@
                       "id": "AliasCode_4",
                       "standardCode": {
                         "id": "Code_132",
-                        "code": "C173522",
+                        "code": "C77140",
                         "codeSystem": "NCI Thesaurus",
                         "codeSystemVersion": "",
-                        "decode": "Vital Signs Result",
+                        "decode": "Clinical Test Result",
                         "instanceType": "Code"
                       },
                       "standardCodeAliases": [],
@@ -1290,8 +1291,8 @@
                   },
                   {
                     "id": "BiomedicalConceptProperty_3",
-                    "name": "Vital Signs Location",
-                    "label": "Vital Signs Location",
+                    "name": "Anatomic Site",
+                    "label": "Anatomic Site",
                     "isRequired": true,
                     "isEnabled": true,
                     "datatype": "string",
@@ -1300,10 +1301,10 @@
                       "id": "AliasCode_6",
                       "standardCode": {
                         "id": "Code_135",
-                        "code": "C83088",
+                        "code": "C13717",
                         "codeSystem": "NCI Thesaurus",
                         "codeSystemVersion": "",
-                        "decode": "Vital Signs Location",
+                        "decode": "Anatomic Site",
                         "instanceType": "Code"
                       },
                       "standardCodeAliases": [],
@@ -1313,8 +1314,8 @@
                   },
                   {
                     "id": "BiomedicalConceptProperty_4",
-                    "name": "Vital Signs Laterality",
-                    "label": "Vital Signs Laterality",
+                    "name": "Laterality",
+                    "label": "Laterality",
                     "isRequired": true,
                     "isEnabled": true,
                     "datatype": "string",
@@ -1323,10 +1324,10 @@
                       "id": "AliasCode_7",
                       "standardCode": {
                         "id": "Code_136",
-                        "code": "C123975",
+                        "code": "C25185",
                         "codeSystem": "NCI Thesaurus",
                         "codeSystemVersion": "",
-                        "decode": "Vital Signs Laterality",
+                        "decode": "Laterality",
                         "instanceType": "Code"
                       },
                       "standardCodeAliases": [],
@@ -1359,8 +1360,8 @@
                   },
                   {
                     "id": "BiomedicalConceptProperty_6",
-                    "name": "Vital Signs Position",
-                    "label": "Vital Signs Position",
+                    "name": "Body Position",
+                    "label": "Body Position",
                     "isRequired": true,
                     "isEnabled": true,
                     "datatype": "string",
@@ -1369,10 +1370,10 @@
                       "id": "AliasCode_9",
                       "standardCode": {
                         "id": "Code_138",
-                        "code": "C83114",
+                        "code": "C62164",
                         "codeSystem": "NCI Thesaurus",
                         "codeSystemVersion": "",
-                        "decode": "Vital Signs Position",
+                        "decode": "Body Position",
                         "instanceType": "Code"
                       },
                       "standardCodeAliases": [],
@@ -1403,12 +1404,12 @@
                 "synonyms": [
                   "Temperature"
                 ],
-                "reference": "/mdr/bc/packages/2022-10-26/biomedicalconcepts/C174446",
+                "reference": "/mdr/bc/packages/2023-12-12/biomedicalconcepts/C174446",
                 "properties": [
                   {
                     "id": "BiomedicalConceptProperty_7",
-                    "name": "Vital Signs Result",
-                    "label": "Vital Signs Result",
+                    "name": "Clinical Test Result",
+                    "label": "Clinical Test Result",
                     "isRequired": true,
                     "isEnabled": true,
                     "datatype": "decimal",
@@ -1417,10 +1418,10 @@
                       "id": "AliasCode_11",
                       "standardCode": {
                         "id": "Code_140",
-                        "code": "C173522",
+                        "code": "C77140",
                         "codeSystem": "NCI Thesaurus",
                         "codeSystemVersion": "",
-                        "decode": "Vital Signs Result",
+                        "decode": "Clinical Test Result",
                         "instanceType": "Code"
                       },
                       "standardCodeAliases": [],
@@ -1467,8 +1468,8 @@
                   },
                   {
                     "id": "BiomedicalConceptProperty_9",
-                    "name": "Vital Signs Location",
-                    "label": "Vital Signs Location",
+                    "name": "Anatomic Site",
+                    "label": "Anatomic Site",
                     "isRequired": true,
                     "isEnabled": true,
                     "datatype": "string",
@@ -1477,10 +1478,10 @@
                       "id": "AliasCode_13",
                       "standardCode": {
                         "id": "Code_143",
-                        "code": "C83088",
+                        "code": "C13717",
                         "codeSystem": "NCI Thesaurus",
                         "codeSystemVersion": "",
-                        "decode": "Vital Signs Location",
+                        "decode": "Anatomic Site",
                         "instanceType": "Code"
                       },
                       "standardCodeAliases": [],
@@ -1497,6 +1498,195 @@
                     "codeSystem": "NCI Thesaurus",
                     "codeSystemVersion": "",
                     "decode": "Body Temperature",
+                    "instanceType": "Code"
+                  },
+                  "standardCodeAliases": [],
+                  "instanceType": "AliasCode"
+                },
+                "instanceType": "BiomedicalConcept"
+              },
+              {
+                "id": "BiomedicalConcept_3",
+                "name": "Specific Gravity",
+                "label": "Specific Gravity",
+                "synonyms": [
+                  "SPGRAV"
+                ],
+                "reference": "/mdr/bc/packages/2023-12-12/biomedicalconcepts/C64832",
+                "properties": [
+                  {
+                    "id": "BiomedicalConceptProperty_10",
+                    "name": "Laboratory Test Result",
+                    "label": "Laboratory Test Result",
+                    "isRequired": true,
+                    "isEnabled": true,
+                    "datatype": "decimal",
+                    "responseCodes": [],
+                    "code": {
+                      "id": "AliasCode_15",
+                      "standardCode": {
+                        "id": "Code_145",
+                        "code": "C36292",
+                        "codeSystem": "NCI Thesaurus",
+                        "codeSystemVersion": "",
+                        "decode": "Laboratory Test Result",
+                        "instanceType": "Code"
+                      },
+                      "standardCodeAliases": [],
+                      "instanceType": "AliasCode"
+                    },
+                    "instanceType": "BiomedicalConceptProperty"
+                  },
+                  {
+                    "id": "BiomedicalConceptProperty_11",
+                    "name": "Laboratory Test Fasting Status",
+                    "label": "Laboratory Test Fasting Status",
+                    "isRequired": true,
+                    "isEnabled": true,
+                    "datatype": "boolean",
+                    "responseCodes": [],
+                    "code": {
+                      "id": "AliasCode_16",
+                      "standardCode": {
+                        "id": "Code_146",
+                        "code": "C83309",
+                        "codeSystem": "NCI Thesaurus",
+                        "codeSystemVersion": "",
+                        "decode": "Laboratory Test Fasting Status",
+                        "instanceType": "Code"
+                      },
+                      "standardCodeAliases": [],
+                      "instanceType": "AliasCode"
+                    },
+                    "instanceType": "BiomedicalConceptProperty"
+                  },
+                  {
+                    "id": "BiomedicalConceptProperty_12",
+                    "name": "Biospecimen Type",
+                    "label": "Biospecimen Type",
+                    "isRequired": true,
+                    "isEnabled": true,
+                    "datatype": "string",
+                    "responseCodes": [],
+                    "code": {
+                      "id": "AliasCode_17",
+                      "standardCode": {
+                        "id": "Code_147",
+                        "code": "C70713",
+                        "codeSystem": "NCI Thesaurus",
+                        "codeSystemVersion": "",
+                        "decode": "Biospecimen Type",
+                        "instanceType": "Code"
+                      },
+                      "standardCodeAliases": [],
+                      "instanceType": "AliasCode"
+                    },
+                    "instanceType": "BiomedicalConceptProperty"
+                  }
+                ],
+                "code": {
+                  "id": "AliasCode_14",
+                  "standardCode": {
+                    "id": "Code_144",
+                    "code": "C64832",
+                    "codeSystem": "NCI Thesaurus",
+                    "codeSystemVersion": "",
+                    "decode": "Specific Gravity",
+                    "instanceType": "Code"
+                  },
+                  "standardCodeAliases": [],
+                  "instanceType": "AliasCode"
+                },
+                "instanceType": "BiomedicalConcept"
+              },
+              {
+                "id": "BiomedicalConcept_4",
+                "name": "pH",
+                "label": "pH",
+                "synonyms": [
+                  "PH",
+                  "potential of Hydrogen"
+                ],
+                "reference": "/mdr/bc/packages/2023-12-12/biomedicalconcepts/C45997",
+                "properties": [
+                  {
+                    "id": "BiomedicalConceptProperty_13",
+                    "name": "Laboratory Test Result",
+                    "label": "Laboratory Test Result",
+                    "isRequired": true,
+                    "isEnabled": true,
+                    "datatype": "decimal",
+                    "responseCodes": [],
+                    "code": {
+                      "id": "AliasCode_19",
+                      "standardCode": {
+                        "id": "Code_149",
+                        "code": "C36292",
+                        "codeSystem": "NCI Thesaurus",
+                        "codeSystemVersion": "",
+                        "decode": "Laboratory Test Result",
+                        "instanceType": "Code"
+                      },
+                      "standardCodeAliases": [],
+                      "instanceType": "AliasCode"
+                    },
+                    "instanceType": "BiomedicalConceptProperty"
+                  },
+                  {
+                    "id": "BiomedicalConceptProperty_14",
+                    "name": "Laboratory Test Fasting Status",
+                    "label": "Laboratory Test Fasting Status",
+                    "isRequired": true,
+                    "isEnabled": true,
+                    "datatype": "boolean",
+                    "responseCodes": [],
+                    "code": {
+                      "id": "AliasCode_20",
+                      "standardCode": {
+                        "id": "Code_150",
+                        "code": "C83309",
+                        "codeSystem": "NCI Thesaurus",
+                        "codeSystemVersion": "",
+                        "decode": "Laboratory Test Fasting Status",
+                        "instanceType": "Code"
+                      },
+                      "standardCodeAliases": [],
+                      "instanceType": "AliasCode"
+                    },
+                    "instanceType": "BiomedicalConceptProperty"
+                  },
+                  {
+                    "id": "BiomedicalConceptProperty_15",
+                    "name": "Biospecimen Type",
+                    "label": "Biospecimen Type",
+                    "isRequired": true,
+                    "isEnabled": true,
+                    "datatype": "string",
+                    "responseCodes": [],
+                    "code": {
+                      "id": "AliasCode_21",
+                      "standardCode": {
+                        "id": "Code_151",
+                        "code": "C70713",
+                        "codeSystem": "NCI Thesaurus",
+                        "codeSystemVersion": "",
+                        "decode": "Biospecimen Type",
+                        "instanceType": "Code"
+                      },
+                      "standardCodeAliases": [],
+                      "instanceType": "AliasCode"
+                    },
+                    "instanceType": "BiomedicalConceptProperty"
+                  }
+                ],
+                "code": {
+                  "id": "AliasCode_18",
+                  "standardCode": {
+                    "id": "Code_148",
+                    "code": "C45997",
+                    "codeSystem": "NCI Thesaurus",
+                    "codeSystemVersion": "",
+                    "decode": "pH",
                     "instanceType": "Code"
                   },
                   "standardCodeAliases": [],
@@ -1853,22 +2043,6 @@
               },
               {
                 "id": "BiomedicalConceptSurrogate_45",
-                "name": "Specific gravity",
-                "label": "Specific gravity",
-                "description": "Specific gravity",
-                "reference": "None set",
-                "instanceType": "BiomedicalConceptSurrogate"
-              },
-              {
-                "id": "BiomedicalConceptSurrogate_46",
-                "name": "pH",
-                "label": "pH",
-                "description": "pH",
-                "reference": "None set",
-                "instanceType": "BiomedicalConceptSurrogate"
-              },
-              {
-                "id": "BiomedicalConceptSurrogate_47",
                 "name": "Protein",
                 "label": "Protein",
                 "description": "Protein",
@@ -1876,7 +2050,7 @@
                 "instanceType": "BiomedicalConceptSurrogate"
               },
               {
-                "id": "BiomedicalConceptSurrogate_48",
+                "id": "BiomedicalConceptSurrogate_46",
                 "name": "Glucose",
                 "label": "Glucose",
                 "description": "Glucose",
@@ -1884,7 +2058,7 @@
                 "instanceType": "BiomedicalConceptSurrogate"
               },
               {
-                "id": "BiomedicalConceptSurrogate_49",
+                "id": "BiomedicalConceptSurrogate_47",
                 "name": "Ketones",
                 "label": "Ketones",
                 "description": "Ketones",
@@ -1892,7 +2066,7 @@
                 "instanceType": "BiomedicalConceptSurrogate"
               },
               {
-                "id": "BiomedicalConceptSurrogate_50",
+                "id": "BiomedicalConceptSurrogate_48",
                 "name": "Bilirubin",
                 "label": "Bilirubin",
                 "description": "Bilirubin",
@@ -1900,7 +2074,7 @@
                 "instanceType": "BiomedicalConceptSurrogate"
               },
               {
-                "id": "BiomedicalConceptSurrogate_51",
+                "id": "BiomedicalConceptSurrogate_49",
                 "name": "Urobilinogen",
                 "label": "Urobilinogen",
                 "description": "Urobilinogen",
@@ -1908,7 +2082,7 @@
                 "instanceType": "BiomedicalConceptSurrogate"
               },
               {
-                "id": "BiomedicalConceptSurrogate_52",
+                "id": "BiomedicalConceptSurrogate_50",
                 "name": "Blood",
                 "label": "Blood",
                 "description": "Blood",
@@ -1916,7 +2090,7 @@
                 "instanceType": "BiomedicalConceptSurrogate"
               },
               {
-                "id": "BiomedicalConceptSurrogate_53",
+                "id": "BiomedicalConceptSurrogate_51",
                 "name": "Nitrite",
                 "label": "Nitrite",
                 "description": "Nitrite",
@@ -1924,7 +2098,7 @@
                 "instanceType": "BiomedicalConceptSurrogate"
               },
               {
-                "id": "BiomedicalConceptSurrogate_54",
+                "id": "BiomedicalConceptSurrogate_52",
                 "name": "HbA1c",
                 "label": "HbA1c",
                 "description": "HbA1c",
@@ -2316,7 +2490,7 @@
                 "description": "Diabetes mellitus type 1",
                 "codes": [
                   {
-                    "id": "Code_144",
+                    "id": "Code_152",
                     "code": "46635009",
                     "codeSystem": "SNOMED",
                     "codeSystemVersion": "January 31, 2018",
@@ -2334,7 +2508,7 @@
                 "description": "Diabetes mellitus type 2",
                 "codes": [
                   {
-                    "id": "Code_145",
+                    "id": "Code_153",
                     "code": "44054006",
                     "codeSystem": "SNOMED",
                     "codeSystemVersion": "January 31, 2018",
@@ -2354,7 +2528,7 @@
                 "label": "LY900018",
                 "description": "LY900018",
                 "role": {
-                  "id": "Code_151",
+                  "id": "Code_159",
                   "code": "C41161",
                   "codeSystem": "http://www.cdisc.org",
                   "codeSystemVersion": "2023-09-29",
@@ -2362,7 +2536,7 @@
                   "instanceType": "Code"
                 },
                 "type": {
-                  "id": "Code_152",
+                  "id": "Code_160",
                   "code": "C1909",
                   "codeSystem": "http://www.cdisc.org",
                   "codeSystemVersion": "2023-09-29",
@@ -2373,7 +2547,7 @@
                   "id": "Quantity_4",
                   "value": 1.0,
                   "unit": {
-                    "id": "Code_155",
+                    "id": "Code_163",
                     "code": "C25301",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-09-29",
@@ -2384,7 +2558,7 @@
                 },
                 "codes": [
                   {
-                    "id": "Code_150",
+                    "id": "Code_158",
                     "code": "A",
                     "codeSystem": "SPONSOR",
                     "codeSystemVersion": "12",
@@ -2404,7 +2578,7 @@
                         "id": "Quantity_2",
                         "value": 1.0,
                         "unit": {
-                          "id": "Code_146",
+                          "id": "Code_154",
                           "code": "C25301",
                           "codeSystem": "http://www.cdisc.org",
                           "codeSystemVersion": "2023-09-29",
@@ -2422,7 +2596,7 @@
                       "id": "Quantity_3",
                       "value": 3.0,
                       "unit": {
-                        "id": "Code_148",
+                        "id": "Code_156",
                         "code": "C28253",
                         "codeSystem": "http://www.cdisc.org",
                         "codeSystemVersion": "2023-09-29",
@@ -2432,7 +2606,7 @@
                       "instanceType": "Quantity"
                     },
                     "route": {
-                      "id": "Code_147",
+                      "id": "Code_155",
                       "code": "C38284",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
@@ -2440,7 +2614,7 @@
                       "instanceType": "Code"
                     },
                     "frequency": {
-                      "id": "Code_149",
+                      "id": "Code_157",
                       "code": "C64576",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
@@ -2451,7 +2625,7 @@
                   }
                 ],
                 "productDesignation": {
-                  "id": "Code_154",
+                  "id": "Code_162",
                   "code": "C99909x1",
                   "codeSystem": "http://www.cdisc.org",
                   "codeSystemVersion": "2023-09-29",
@@ -2459,7 +2633,7 @@
                   "instanceType": "Code"
                 },
                 "pharmacologicClass": {
-                  "id": "Code_153",
+                  "id": "Code_161",
                   "code": "A",
                   "codeSystem": "FDA",
                   "codeSystemVersion": "None set",
@@ -2474,7 +2648,7 @@
                 "label": "GlucaGen",
                 "description": "Glucagon",
                 "role": {
-                  "id": "Code_161",
+                  "id": "Code_169",
                   "code": "C41161",
                   "codeSystem": "http://www.cdisc.org",
                   "codeSystemVersion": "2023-09-29",
@@ -2482,7 +2656,7 @@
                   "instanceType": "Code"
                 },
                 "type": {
-                  "id": "Code_162",
+                  "id": "Code_170",
                   "code": "C1909",
                   "codeSystem": "http://www.cdisc.org",
                   "codeSystemVersion": "2023-09-29",
@@ -2493,7 +2667,7 @@
                   "id": "Quantity_7",
                   "value": 1.0,
                   "unit": {
-                    "id": "Code_165",
+                    "id": "Code_173",
                     "code": "C25301",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-09-29",
@@ -2504,7 +2678,7 @@
                 },
                 "codes": [
                   {
-                    "id": "Code_160",
+                    "id": "Code_168",
                     "code": "A",
                     "codeSystem": "SPONSOR",
                     "codeSystemVersion": "12",
@@ -2524,7 +2698,7 @@
                         "id": "Quantity_5",
                         "value": 1.0,
                         "unit": {
-                          "id": "Code_156",
+                          "id": "Code_164",
                           "code": "C25301",
                           "codeSystem": "http://www.cdisc.org",
                           "codeSystemVersion": "2023-09-29",
@@ -2542,7 +2716,7 @@
                       "id": "Quantity_6",
                       "value": 1.0,
                       "unit": {
-                        "id": "Code_158",
+                        "id": "Code_166",
                         "code": "C28253",
                         "codeSystem": "http://www.cdisc.org",
                         "codeSystemVersion": "2023-09-29",
@@ -2552,7 +2726,7 @@
                       "instanceType": "Quantity"
                     },
                     "route": {
-                      "id": "Code_157",
+                      "id": "Code_165",
                       "code": "C28161",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
@@ -2560,7 +2734,7 @@
                       "instanceType": "Code"
                     },
                     "frequency": {
-                      "id": "Code_159",
+                      "id": "Code_167",
                       "code": "C64576",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
@@ -2571,7 +2745,7 @@
                   }
                 ],
                 "productDesignation": {
-                  "id": "Code_164",
+                  "id": "Code_172",
                   "code": "C99909x1",
                   "codeSystem": "http://www.cdisc.org",
                   "codeSystemVersion": "2023-09-29",
@@ -2579,7 +2753,7 @@
                   "instanceType": "Code"
                 },
                 "pharmacologicClass": {
-                  "id": "Code_163",
+                  "id": "Code_171",
                   "code": "A",
                   "codeSystem": "FDA",
                   "codeSystemVersion": "None set",
@@ -2599,7 +2773,7 @@
                 "dictionaryId": null,
                 "instanceType": "Objective",
                 "level": {
-                  "id": "Code_170",
+                  "id": "Code_178",
                   "code": "C85826",
                   "codeSystem": "http://www.cdisc.org",
                   "codeSystemVersion": "2023-09-29",
@@ -2617,7 +2791,7 @@
                     "instanceType": "Endpoint",
                     "purpose": "",
                     "level": {
-                      "id": "Code_169",
+                      "id": "Code_177",
                       "code": "C94496",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
@@ -2636,7 +2810,7 @@
                 "dictionaryId": null,
                 "instanceType": "Objective",
                 "level": {
-                  "id": "Code_172",
+                  "id": "Code_180",
                   "code": "C85827",
                   "codeSystem": "http://www.cdisc.org",
                   "codeSystemVersion": "2023-09-29",
@@ -2654,7 +2828,7 @@
                     "instanceType": "Endpoint",
                     "purpose": "",
                     "level": {
-                      "id": "Code_171",
+                      "id": "Code_179",
                       "code": "C139173",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
@@ -2673,7 +2847,7 @@
                 "dictionaryId": null,
                 "instanceType": "Objective",
                 "level": {
-                  "id": "Code_174",
+                  "id": "Code_182",
                   "code": "C85827",
                   "codeSystem": "http://www.cdisc.org",
                   "codeSystemVersion": "2023-09-29",
@@ -2691,7 +2865,7 @@
                     "instanceType": "Endpoint",
                     "purpose": "",
                     "level": {
-                      "id": "Code_173",
+                      "id": "Code_181",
                       "code": "C139173",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
@@ -2710,7 +2884,7 @@
                 "dictionaryId": null,
                 "instanceType": "Objective",
                 "level": {
-                  "id": "Code_176",
+                  "id": "Code_184",
                   "code": "C85827",
                   "codeSystem": "http://www.cdisc.org",
                   "codeSystemVersion": "2023-09-29",
@@ -2728,7 +2902,7 @@
                     "instanceType": "Endpoint",
                     "purpose": "",
                     "level": {
-                      "id": "Code_175",
+                      "id": "Code_183",
                       "code": "C139173",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
@@ -2747,7 +2921,7 @@
                 "dictionaryId": null,
                 "instanceType": "Objective",
                 "level": {
-                  "id": "Code_178",
+                  "id": "Code_186",
                   "code": "C85827",
                   "codeSystem": "http://www.cdisc.org",
                   "codeSystemVersion": "2023-09-29",
@@ -2765,7 +2939,7 @@
                     "instanceType": "Endpoint",
                     "purpose": "",
                     "level": {
-                      "id": "Code_177",
+                      "id": "Code_185",
                       "code": "C170559",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
@@ -2784,7 +2958,7 @@
                 "dictionaryId": null,
                 "instanceType": "Objective",
                 "level": {
-                  "id": "Code_180",
+                  "id": "Code_188",
                   "code": "C85827",
                   "codeSystem": "http://www.cdisc.org",
                   "codeSystemVersion": "2023-09-29",
@@ -2802,7 +2976,7 @@
                     "instanceType": "Endpoint",
                     "purpose": "",
                     "level": {
-                      "id": "Code_179",
+                      "id": "Code_187",
                       "code": "C170559",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
@@ -2846,7 +3020,7 @@
                   "dictionaryId": null,
                   "instanceType": "EligibilityCriterion",
                   "category": {
-                    "id": "Code_181",
+                    "id": "Code_189",
                     "code": "C25532",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-09-29",
@@ -2867,7 +3041,7 @@
                   "dictionaryId": null,
                   "instanceType": "EligibilityCriterion",
                   "category": {
-                    "id": "Code_182",
+                    "id": "Code_190",
                     "code": "C25532",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-09-29",
@@ -2888,7 +3062,7 @@
                   "dictionaryId": null,
                   "instanceType": "EligibilityCriterion",
                   "category": {
-                    "id": "Code_183",
+                    "id": "Code_191",
                     "code": "C25532",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-09-29",
@@ -2909,7 +3083,7 @@
                   "dictionaryId": null,
                   "instanceType": "EligibilityCriterion",
                   "category": {
-                    "id": "Code_184",
+                    "id": "Code_192",
                     "code": "C25532",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-09-29",
@@ -2930,7 +3104,7 @@
                   "dictionaryId": null,
                   "instanceType": "EligibilityCriterion",
                   "category": {
-                    "id": "Code_185",
+                    "id": "Code_193",
                     "code": "C25532",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-09-29",
@@ -2951,7 +3125,7 @@
                   "dictionaryId": null,
                   "instanceType": "EligibilityCriterion",
                   "category": {
-                    "id": "Code_186",
+                    "id": "Code_194",
                     "code": "C25532",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-09-29",
@@ -2972,7 +3146,7 @@
                   "dictionaryId": null,
                   "instanceType": "EligibilityCriterion",
                   "category": {
-                    "id": "Code_187",
+                    "id": "Code_195",
                     "code": "C25532",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-09-29",
@@ -2993,7 +3167,7 @@
                   "dictionaryId": null,
                   "instanceType": "EligibilityCriterion",
                   "category": {
-                    "id": "Code_188",
+                    "id": "Code_196",
                     "code": "C25532",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-09-29",
@@ -3014,7 +3188,7 @@
                   "dictionaryId": null,
                   "instanceType": "EligibilityCriterion",
                   "category": {
-                    "id": "Code_189",
+                    "id": "Code_197",
                     "code": "C25532",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-09-29",
@@ -3035,7 +3209,7 @@
                   "dictionaryId": null,
                   "instanceType": "EligibilityCriterion",
                   "category": {
-                    "id": "Code_190",
+                    "id": "Code_198",
                     "code": "C25532",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-09-29",
@@ -3056,7 +3230,7 @@
                   "dictionaryId": null,
                   "instanceType": "EligibilityCriterion",
                   "category": {
-                    "id": "Code_191",
+                    "id": "Code_199",
                     "code": "C25370",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-09-29",
@@ -3077,7 +3251,7 @@
                   "dictionaryId": null,
                   "instanceType": "EligibilityCriterion",
                   "category": {
-                    "id": "Code_192",
+                    "id": "Code_200",
                     "code": "C25370",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-09-29",
@@ -3098,7 +3272,7 @@
                   "dictionaryId": null,
                   "instanceType": "EligibilityCriterion",
                   "category": {
-                    "id": "Code_193",
+                    "id": "Code_201",
                     "code": "C25370",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-09-29",
@@ -3119,7 +3293,7 @@
                   "dictionaryId": null,
                   "instanceType": "EligibilityCriterion",
                   "category": {
-                    "id": "Code_194",
+                    "id": "Code_202",
                     "code": "C25370",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-09-29",
@@ -3140,7 +3314,7 @@
                   "dictionaryId": null,
                   "instanceType": "EligibilityCriterion",
                   "category": {
-                    "id": "Code_195",
+                    "id": "Code_203",
                     "code": "C25370",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-09-29",
@@ -3161,7 +3335,7 @@
                   "dictionaryId": null,
                   "instanceType": "EligibilityCriterion",
                   "category": {
-                    "id": "Code_196",
+                    "id": "Code_204",
                     "code": "C25370",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-09-29",
@@ -3182,7 +3356,7 @@
                   "dictionaryId": null,
                   "instanceType": "EligibilityCriterion",
                   "category": {
-                    "id": "Code_197",
+                    "id": "Code_205",
                     "code": "C25370",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-09-29",
@@ -3203,7 +3377,7 @@
                   "dictionaryId": null,
                   "instanceType": "EligibilityCriterion",
                   "category": {
-                    "id": "Code_198",
+                    "id": "Code_206",
                     "code": "C25370",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-09-29",
@@ -3224,7 +3398,7 @@
                   "dictionaryId": null,
                   "instanceType": "EligibilityCriterion",
                   "category": {
-                    "id": "Code_199",
+                    "id": "Code_207",
                     "code": "C25370",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-09-29",
@@ -3245,7 +3419,7 @@
                   "dictionaryId": null,
                   "instanceType": "EligibilityCriterion",
                   "category": {
-                    "id": "Code_200",
+                    "id": "Code_208",
                     "code": "C25370",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-09-29",
@@ -3266,7 +3440,7 @@
                   "dictionaryId": null,
                   "instanceType": "EligibilityCriterion",
                   "category": {
-                    "id": "Code_201",
+                    "id": "Code_209",
                     "code": "C25370",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-09-29",
@@ -3287,7 +3461,7 @@
                   "dictionaryId": null,
                   "instanceType": "EligibilityCriterion",
                   "category": {
-                    "id": "Code_202",
+                    "id": "Code_210",
                     "code": "C25370",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-09-29",
@@ -3308,7 +3482,7 @@
                   "dictionaryId": null,
                   "instanceType": "EligibilityCriterion",
                   "category": {
-                    "id": "Code_203",
+                    "id": "Code_211",
                     "code": "C25370",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-09-29",
@@ -3329,7 +3503,7 @@
                   "dictionaryId": null,
                   "instanceType": "EligibilityCriterion",
                   "category": {
-                    "id": "Code_204",
+                    "id": "Code_212",
                     "code": "C25370",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-09-29",
@@ -3350,7 +3524,7 @@
                   "dictionaryId": null,
                   "instanceType": "EligibilityCriterion",
                   "category": {
-                    "id": "Code_205",
+                    "id": "Code_213",
                     "code": "C25370",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-09-29",
@@ -3371,7 +3545,7 @@
                   "dictionaryId": null,
                   "instanceType": "EligibilityCriterion",
                   "category": {
-                    "id": "Code_206",
+                    "id": "Code_214",
                     "code": "C25370",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-09-29",
@@ -3392,7 +3566,7 @@
                   "dictionaryId": null,
                   "instanceType": "EligibilityCriterion",
                   "category": {
-                    "id": "Code_207",
+                    "id": "Code_215",
                     "code": "C25370",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-09-29",
@@ -3413,7 +3587,7 @@
                   "dictionaryId": null,
                   "instanceType": "EligibilityCriterion",
                   "category": {
-                    "id": "Code_208",
+                    "id": "Code_216",
                     "code": "C25370",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-09-29",
@@ -3434,7 +3608,7 @@
                   "dictionaryId": null,
                   "instanceType": "EligibilityCriterion",
                   "category": {
-                    "id": "Code_209",
+                    "id": "Code_217",
                     "code": "C25370",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-09-29",
@@ -3455,7 +3629,7 @@
                   "dictionaryId": null,
                   "instanceType": "EligibilityCriterion",
                   "category": {
-                    "id": "Code_210",
+                    "id": "Code_218",
                     "code": "C25370",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-09-29",
@@ -3476,7 +3650,7 @@
                   "dictionaryId": null,
                   "instanceType": "EligibilityCriterion",
                   "category": {
-                    "id": "Code_211",
+                    "id": "Code_219",
                     "code": "C25370",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-09-29",
@@ -3497,7 +3671,7 @@
                   "dictionaryId": null,
                   "instanceType": "EligibilityCriterion",
                   "category": {
-                    "id": "Code_212",
+                    "id": "Code_220",
                     "code": "C25370",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-09-29",
@@ -3518,7 +3692,7 @@
                   "dictionaryId": null,
                   "instanceType": "EligibilityCriterion",
                   "category": {
-                    "id": "Code_213",
+                    "id": "Code_221",
                     "code": "C25370",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-09-29",
@@ -3539,7 +3713,7 @@
                   "dictionaryId": null,
                   "instanceType": "EligibilityCriterion",
                   "category": {
-                    "id": "Code_214",
+                    "id": "Code_222",
                     "code": "C25370",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-09-29",
@@ -3560,7 +3734,7 @@
                   "dictionaryId": null,
                   "instanceType": "EligibilityCriterion",
                   "category": {
-                    "id": "Code_215",
+                    "id": "Code_223",
                     "code": "C25370",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-09-29",
@@ -3581,7 +3755,7 @@
                   "dictionaryId": null,
                   "instanceType": "EligibilityCriterion",
                   "category": {
-                    "id": "Code_216",
+                    "id": "Code_224",
                     "code": "C25370",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-09-29",
@@ -3619,7 +3793,7 @@
                     "minValue": 18.0,
                     "maxValue": 64.0,
                     "unit": {
-                      "id": "Code_167",
+                      "id": "Code_175",
                       "code": "C29848",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
@@ -3654,7 +3828,7 @@
                     "minValue": 20.0,
                     "maxValue": 70.0,
                     "unit": {
-                      "id": "Code_168",
+                      "id": "Code_176",
                       "code": "C29848",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-09-29",
@@ -5915,7 +6089,7 @@
               "name": "SECTION 7.1.",
               "sectionNumber": "7.1.",
               "sectionTitle": "Treatment Administered",
-              "text": "<div><p>This study involves a comparison of 3 mg of LY900018 administered once nasally to 1 mg glucagon administered IM (comparator). Table IGBJ.2 shows the study treatment information.</p>\n<p><b>Table IGBJ.2. Study Treatments</b></p>\n<table class=\"table\">\n<tr>\n<th><p>Treatment Name</p></th>\n<td><p><usdm:ref attribute=\"label\" id=\"StudyIntervention_1\" klass=\"StudyIntervention\"></usdm:ref></p></td>\n<td><p><usdm:ref attribute=\"label\" id=\"StudyIntervention_2\" klass=\"StudyIntervention\"></usdm:ref></p></td>\n</tr>\n<tr>\n<th><p>Dosage Formulation</p></th>\n<td><p>Dry powder</p></td>\n<td><p>Dry powder</p></td>\n</tr>\n<tr>\n<th><p>Dosage Levels  </p></th>\n<td><p><usdm:ref attribute=\"value\" id=\"Quantity_3\" klass=\"Quantity\"></usdm:ref> <usdm:ref attribute=\"decode\" id=\"Code_148\" klass=\"Code\"></usdm:ref> glucagon</p></td>\n<td><p><usdm:ref attribute=\"value\" id=\"Quantity_6\" klass=\"Quantity\"></usdm:ref> <usdm:ref attribute=\"decode\" id=\"Code_158\" klass=\"Code\"></usdm:ref> glucagon</p></td>\n</tr>\n<tr>\n<th><p>Route of Administration</p></th>\n<td><p><usdm:ref attribute=\"decode\" id=\"Code_147\" klass=\"Code\"></usdm:ref></p></td>\n<td><p><usdm:ref attribute=\"decode\" id=\"Code_157\" klass=\"Code\"></usdm:ref></p></td>\n</tr>\n<tr>\n<th>Dosing Instructions</th>\n<td><usdm:ref attribute=\"description\" id=\"AgentAdministration_1\" klass=\"AgentAdministration\"></usdm:ref></td>\n<td><usdm:ref attribute=\"description\" id=\"AgentAdministration_2\" klass=\"AgentAdministration\"></usdm:ref></td>\n</tr>\n</table>\n<p>The procedure for insulin-induced hypoglycemia will require an IV infusion of diluted human regular insulin (0.3 U/mL by diluting 15 U human regular insulin [100 U/mL] into 50 mL saline). Details regarding hypoglycemia induction and glucagon administration procedures are included in Sections 9.2.1 and 9.2.2, respectively.</p>\n<p>The investigator or designee is responsible for:</p>\n<ul>\n<li><p>explaining the correct use of the investigational products to the site personnel</p></li>\n<li><p>verifying that instructions are followed properly</p></li>\n<li><p>maintaining accurate records of investigational product dispensing and collection</p></li>\n<li><p>and returning all unused medication to Lilly or its designee at the end of the study</p></li>\n</ul></div>",
+              "text": "<div><p>This study involves a comparison of 3 mg of LY900018 administered once nasally to 1 mg glucagon administered IM (comparator). Table IGBJ.2 shows the study treatment information.</p>\n<p><b>Table IGBJ.2. Study Treatments</b></p>\n<table class=\"table\">\n<tr>\n<th><p>Treatment Name</p></th>\n<td><p><usdm:ref attribute=\"label\" id=\"StudyIntervention_1\" klass=\"StudyIntervention\"></usdm:ref></p></td>\n<td><p><usdm:ref attribute=\"label\" id=\"StudyIntervention_2\" klass=\"StudyIntervention\"></usdm:ref></p></td>\n</tr>\n<tr>\n<th><p>Dosage Formulation</p></th>\n<td><p>Dry powder</p></td>\n<td><p>Dry powder</p></td>\n</tr>\n<tr>\n<th><p>Dosage Levels  </p></th>\n<td><p><usdm:ref attribute=\"value\" id=\"Quantity_3\" klass=\"Quantity\"></usdm:ref> <usdm:ref attribute=\"decode\" id=\"Code_156\" klass=\"Code\"></usdm:ref> glucagon</p></td>\n<td><p><usdm:ref attribute=\"value\" id=\"Quantity_6\" klass=\"Quantity\"></usdm:ref> <usdm:ref attribute=\"decode\" id=\"Code_166\" klass=\"Code\"></usdm:ref> glucagon</p></td>\n</tr>\n<tr>\n<th><p>Route of Administration</p></th>\n<td><p><usdm:ref attribute=\"decode\" id=\"Code_155\" klass=\"Code\"></usdm:ref></p></td>\n<td><p><usdm:ref attribute=\"decode\" id=\"Code_165\" klass=\"Code\"></usdm:ref></p></td>\n</tr>\n<tr>\n<th>Dosing Instructions</th>\n<td><usdm:ref attribute=\"description\" id=\"AgentAdministration_1\" klass=\"AgentAdministration\"></usdm:ref></td>\n<td><usdm:ref attribute=\"description\" id=\"AgentAdministration_2\" klass=\"AgentAdministration\"></usdm:ref></td>\n</tr>\n</table>\n<p>The procedure for insulin-induced hypoglycemia will require an IV infusion of diluted human regular insulin (0.3 U/mL by diluting 15 U human regular insulin [100 U/mL] into 50 mL saline). Details regarding hypoglycemia induction and glucagon administration procedures are included in Sections 9.2.1 and 9.2.2, respectively.</p>\n<p>The investigator or designee is responsible for:</p>\n<ul>\n<li><p>explaining the correct use of the investigational products to the site personnel</p></li>\n<li><p>verifying that instructions are followed properly</p></li>\n<li><p>maintaining accurate records of investigational product dispensing and collection</p></li>\n<li><p>and returning all unused medication to Lilly or its designee at the end of the study</p></li>\n</ul></div>",
               "childIds": [
                 "NarrativeContent_27",
                 "NarrativeContent_28"
