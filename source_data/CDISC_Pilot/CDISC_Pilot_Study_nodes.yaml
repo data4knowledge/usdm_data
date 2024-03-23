@@ -143,7 +143,6 @@
     instanceType: StudyAmendment
     label: StudyAmendment_1
     number: '1'
-    previousId: null
     substantialImpact: true
     summary: Updated inclusion criteria
 - id: 20
@@ -399,9 +398,6 @@
     instanceType: Encounter
     label: Encounter_1
     name: E1
-    nextId: Encounter_2
-    previousId: null
-    scheduledAtId: null
 - id: 48
   properties:
     _type: Code
@@ -449,9 +445,6 @@
     instanceType: Encounter
     label: Encounter_2
     name: E2
-    nextId: Encounter_3
-    previousId: Encounter_1
-    scheduledAtId: Timing_2
     transitionStartRule: null
 - id: 53
   properties:
@@ -509,9 +502,6 @@
     instanceType: Encounter
     label: Encounter_3
     name: E3
-    nextId: Encounter_4
-    previousId: Encounter_2
-    scheduledAtId: null
 - id: 59
   properties:
     _type: Code
@@ -550,9 +540,6 @@
     instanceType: Encounter
     label: Encounter_4
     name: E4
-    nextId: Encounter_5
-    previousId: Encounter_3
-    scheduledAtId: Timing_4
     transitionEndRule: null
     transitionStartRule: null
 - id: 63
@@ -593,9 +580,6 @@
     instanceType: Encounter
     label: Encounter_5
     name: E5
-    nextId: Encounter_6
-    previousId: Encounter_4
-    scheduledAtId: Timing_5
     transitionEndRule: null
     transitionStartRule: null
 - id: 67
@@ -636,9 +620,6 @@
     instanceType: Encounter
     label: Encounter_6
     name: E7
-    nextId: Encounter_7
-    previousId: Encounter_5
-    scheduledAtId: Timing_6
     transitionEndRule: null
     transitionStartRule: null
 - id: 71
@@ -689,9 +670,6 @@
     instanceType: Encounter
     label: Encounter_7
     name: E8
-    nextId: Encounter_8
-    previousId: Encounter_6
-    scheduledAtId: Timing_7
     transitionEndRule: null
     transitionStartRule: null
 - id: 76
@@ -742,9 +720,6 @@
     instanceType: Encounter
     label: Encounter_8
     name: E9
-    nextId: Encounter_9
-    previousId: Encounter_7
-    scheduledAtId: Timing_9
     transitionEndRule: null
     transitionStartRule: null
 - id: 81
@@ -795,9 +770,6 @@
     instanceType: Encounter
     label: Encounter_9
     name: E10
-    nextId: Encounter_10
-    previousId: Encounter_8
-    scheduledAtId: Timing_11
     transitionEndRule: null
     transitionStartRule: null
 - id: 86
@@ -848,9 +820,6 @@
     instanceType: Encounter
     label: Encounter_10
     name: E11
-    nextId: Encounter_11
-    previousId: Encounter_9
-    scheduledAtId: Timing_13
     transitionEndRule: null
     transitionStartRule: null
 - id: 91
@@ -891,9 +860,6 @@
     instanceType: Encounter
     label: Encounter_11
     name: E12
-    nextId: Encounter_12
-    previousId: Encounter_10
-    scheduledAtId: Timing_15
     transitionEndRule: null
     transitionStartRule: null
 - id: 95
@@ -943,9 +909,6 @@
     instanceType: Encounter
     label: Encounter_12
     name: E13
-    nextId: null
-    previousId: Encounter_11
-    scheduledAtId: Timing_16
     transitionStartRule: null
 - id: 99
   properties:
@@ -956,9 +919,6 @@
     instanceType: Activity
     label: Activity_1
     name: Informed consent
-    nextId: Activity_2
-    previousId: null
-    timelineId: ''
 - id: 100
   properties:
     _type: Activity
@@ -968,9 +928,6 @@
     instanceType: Activity
     label: Activity_2
     name: Inclusion/exclusion criteria
-    nextId: Activity_3
-    previousId: Activity_1
-    timelineId: ''
 - id: 101
   properties:
     _type: Activity
@@ -980,9 +937,6 @@
     instanceType: Activity
     label: Activity_3
     name: Patient number assigned
-    nextId: Activity_4
-    previousId: Activity_2
-    timelineId: ''
 - id: 102
   properties:
     _type: Activity
@@ -992,9 +946,6 @@
     instanceType: Activity
     label: Activity_4
     name: Demographics
-    nextId: Activity_5
-    previousId: Activity_3
-    timelineId: ''
 - id: 103
   properties:
     _type: Activity
@@ -1004,9 +955,6 @@
     instanceType: Activity
     label: Activity_5
     name: Hachinski
-    nextId: Activity_6
-    previousId: Activity_4
-    timelineId: ''
 - id: 104
   properties:
     _type: Activity
@@ -1016,9 +964,6 @@
     instanceType: Activity
     label: Activity_6
     name: MMSE
-    nextId: Activity_7
-    previousId: Activity_5
-    timelineId: ''
 - id: 105
   properties:
     _type: Activity
@@ -1028,9 +973,6 @@
     instanceType: Activity
     label: Activity_7
     name: Physical examination
-    nextId: Activity_8
-    previousId: Activity_6
-    timelineId: ''
 - id: 106
   properties:
     _type: Activity
@@ -1040,9 +982,6 @@
     instanceType: Activity
     label: Activity_8
     name: Medical history
-    nextId: Activity_9
-    previousId: Activity_7
-    timelineId: ''
 - id: 107
   properties:
     _type: Activity
@@ -1052,9 +991,6 @@
     instanceType: Activity
     label: Activity_9
     name: Habits
-    nextId: Activity_10
-    previousId: Activity_8
-    timelineId: ''
 - id: 108
   properties:
     _type: Activity
@@ -1064,9 +1000,6 @@
     instanceType: Activity
     label: Activity_10
     name: Chest X-ray
-    nextId: Activity_11
-    previousId: Activity_9
-    timelineId: ''
 - id: 109
   properties:
     _type: Activity
@@ -1076,9 +1009,6 @@
     instanceType: Activity
     label: Activity_11
     name: Apo E genotyping
-    nextId: Activity_12
-    previousId: Activity_10
-    timelineId: ''
 - id: 110
   properties:
     _type: Activity
@@ -1088,9 +1018,6 @@
     instanceType: Activity
     label: Activity_12
     name: Patient randomised
-    nextId: Activity_13
-    previousId: Activity_11
-    timelineId: ''
 - id: 111
   properties:
     _type: Activity
@@ -1100,9 +1027,6 @@
     instanceType: Activity
     label: Activity_13
     name: Vital signs / Temperature
-    nextId: Activity_14
-    previousId: Activity_12
-    timelineId: ScheduleTimeline_3
 - id: 112
   properties:
     _type: Activity
@@ -1112,9 +1036,6 @@
     instanceType: Activity
     label: Activity_14
     name: Ambulatory ECG placed
-    nextId: Activity_15
-    previousId: Activity_13
-    timelineId: ''
 - id: 113
   properties:
     _type: Activity
@@ -1124,9 +1045,6 @@
     instanceType: Activity
     label: Activity_15
     name: Ambulatory ECG removed
-    nextId: Activity_16
-    previousId: Activity_14
-    timelineId: ''
 - id: 114
   properties:
     _type: Activity
@@ -1136,9 +1054,6 @@
     instanceType: Activity
     label: Activity_16
     name: ECG
-    nextId: Activity_17
-    previousId: Activity_15
-    timelineId: ''
 - id: 115
   properties:
     _type: Activity
@@ -1148,9 +1063,6 @@
     instanceType: Activity
     label: Activity_17
     name: Placebo TTS test
-    nextId: Activity_18
-    previousId: Activity_16
-    timelineId: ''
 - id: 118
   properties:
     _type: Code
@@ -1170,7 +1082,6 @@
     label: Procedure_1
     name: PR1
     procedureType: CT Scan
-    studyInterventionId: null
 - id: 116
   properties:
     _type: Activity
@@ -1179,9 +1090,6 @@
     instanceType: Activity
     label: Activity_18
     name: CT scan
-    nextId: Activity_19
-    previousId: Activity_17
-    timelineId: ''
 - id: 119
   properties:
     _type: Activity
@@ -1191,9 +1099,6 @@
     instanceType: Activity
     label: Activity_19
     name: Concomitant medications
-    nextId: Activity_20
-    previousId: Activity_18
-    timelineId: ''
 - id: 120
   properties:
     _type: Activity
@@ -1203,9 +1108,6 @@
     instanceType: Activity
     label: Activity_20
     name: Hematology
-    nextId: Activity_21
-    previousId: Activity_19
-    timelineId: ''
 - id: 121
   properties:
     _type: Activity
@@ -1215,9 +1117,6 @@
     instanceType: Activity
     label: Activity_21
     name: Chemistry
-    nextId: Activity_22
-    previousId: Activity_20
-    timelineId: ''
 - id: 122
   properties:
     _type: Activity
@@ -1227,9 +1126,6 @@
     instanceType: Activity
     label: Activity_22
     name: Uninalysis
-    nextId: Activity_23
-    previousId: Activity_21
-    timelineId: ''
 - id: 123
   properties:
     _type: Activity
@@ -1239,9 +1135,6 @@
     instanceType: Activity
     label: Activity_23
     name: Plasma Specimen (Xanomeline)
-    nextId: Activity_24
-    previousId: Activity_22
-    timelineId: ''
 - id: 124
   properties:
     _type: Activity
@@ -1251,9 +1144,6 @@
     instanceType: Activity
     label: Activity_24
     name: Hemoglobin A1C
-    nextId: Activity_25
-    previousId: Activity_23
-    timelineId: ''
 - id: 125
   properties:
     _type: Activity
@@ -1263,9 +1153,6 @@
     instanceType: Activity
     label: Activity_25
     name: Study drug
-    nextId: Activity_26
-    previousId: Activity_24
-    timelineId: ''
 - id: 126
   properties:
     _type: Activity
@@ -1275,9 +1162,6 @@
     instanceType: Activity
     label: Activity_26
     name: TTS Acceptability Survey
-    nextId: Activity_27
-    previousId: Activity_25
-    timelineId: ''
 - id: 127
   properties:
     _type: Activity
@@ -1287,9 +1171,6 @@
     instanceType: Activity
     label: Activity_27
     name: ADAS-Cog
-    nextId: Activity_28
-    previousId: Activity_26
-    timelineId: ''
 - id: 128
   properties:
     _type: Activity
@@ -1299,9 +1180,6 @@
     instanceType: Activity
     label: Activity_28
     name: CIBIC+
-    nextId: Activity_29
-    previousId: Activity_27
-    timelineId: ''
 - id: 129
   properties:
     _type: Activity
@@ -1311,9 +1189,6 @@
     instanceType: Activity
     label: Activity_29
     name: DAD
-    nextId: Activity_30
-    previousId: Activity_28
-    timelineId: ''
 - id: 130
   properties:
     _type: Activity
@@ -1323,9 +1198,6 @@
     instanceType: Activity
     label: Activity_30
     name: NPI-X
-    nextId: Activity_31
-    previousId: Activity_29
-    timelineId: ''
 - id: 131
   properties:
     _type: Activity
@@ -1335,9 +1207,6 @@
     instanceType: Activity
     label: Activity_31
     name: Adverse events
-    nextId: Activity_32
-    previousId: Activity_30
-    timelineId: ''
 - id: 132
   properties:
     _type: Activity
@@ -1347,9 +1216,6 @@
     instanceType: Activity
     label: Activity_32
     name: Check adverse events
-    nextId: Activity_33
-    previousId: Activity_31
-    timelineId: ScheduleTimeline_1
 - id: 135
   properties:
     _type: Code
@@ -1369,7 +1235,6 @@
     label: Procedure_2
     name: PR_SUPINE
     procedureType: ''
-    studyInterventionId: null
 - id: 133
   properties:
     _type: Activity
@@ -1378,9 +1243,6 @@
     instanceType: Activity
     label: Activity_33
     name: Supine
-    nextId: Activity_34
-    previousId: Activity_32
-    timelineId: ''
 - id: 136
   properties:
     _type: Activity
@@ -1390,9 +1252,6 @@
     instanceType: Activity
     label: Activity_34
     name: Vital Signs Supine
-    nextId: Activity_35
-    previousId: Activity_33
-    timelineId: ''
 - id: 139
   properties:
     _type: Code
@@ -1412,7 +1271,6 @@
     label: Procedure_3
     name: PR_STAND
     procedureType: ''
-    studyInterventionId: null
 - id: 137
   properties:
     _type: Activity
@@ -1421,9 +1279,6 @@
     instanceType: Activity
     label: Activity_35
     name: Stand
-    nextId: Activity_36
-    previousId: Activity_34
-    timelineId: ''
 - id: 140
   properties:
     _type: Activity
@@ -1433,9 +1288,6 @@
     instanceType: Activity
     label: Activity_36
     name: Vital Signs Standing
-    nextId: null
-    previousId: Activity_35
-    timelineId: ''
 - id: 144
   properties:
     _type: Code
@@ -10402,7 +10254,6 @@
     instanceType: StudyArm
     label: StudyArm_1
     name: Placebo
-    populationIds: []
 - id: 1146
   properties:
     _type: Code
@@ -10432,7 +10283,6 @@
     instanceType: StudyArm
     label: StudyArm_2
     name: Xanomeline Low Dose
-    populationIds: []
 - id: 1149
   properties:
     _type: Code
@@ -10462,154 +10312,93 @@
     instanceType: StudyArm
     label: StudyArm_3
     name: Xanomeline High Dose
-    populationIds: []
 - id: 1151
   properties:
     _type: StudyCell
-    armId: StudyArm_1
-    elementIds:
-    - StudyElement_1
-    epochId: StudyEpoch_1
     id: StudyCell_1
     instanceType: StudyCell
     label: StudyCell_1
 - id: 1152
   properties:
     _type: StudyCell
-    armId: StudyArm_1
-    elementIds:
-    - StudyElement_2
-    epochId: StudyEpoch_2
     id: StudyCell_2
     instanceType: StudyCell
     label: StudyCell_2
 - id: 1153
   properties:
     _type: StudyCell
-    armId: StudyArm_1
-    elementIds:
-    - StudyElement_2
-    epochId: StudyEpoch_3
     id: StudyCell_3
     instanceType: StudyCell
     label: StudyCell_3
 - id: 1154
   properties:
     _type: StudyCell
-    armId: StudyArm_1
-    elementIds:
-    - StudyElement_2
-    epochId: StudyEpoch_4
     id: StudyCell_4
     instanceType: StudyCell
     label: StudyCell_4
 - id: 1155
   properties:
     _type: StudyCell
-    armId: StudyArm_1
-    elementIds:
-    - StudyElement_7
-    epochId: StudyEpoch_5
     id: StudyCell_5
     instanceType: StudyCell
     label: StudyCell_5
 - id: 1156
   properties:
     _type: StudyCell
-    armId: StudyArm_2
-    elementIds:
-    - StudyElement_1
-    epochId: StudyEpoch_1
     id: StudyCell_6
     instanceType: StudyCell
     label: StudyCell_6
 - id: 1157
   properties:
     _type: StudyCell
-    armId: StudyArm_2
-    elementIds:
-    - StudyElement_3
-    epochId: StudyEpoch_2
     id: StudyCell_7
     instanceType: StudyCell
     label: StudyCell_7
 - id: 1158
   properties:
     _type: StudyCell
-    armId: StudyArm_2
-    elementIds:
-    - StudyElement_3
-    epochId: StudyEpoch_3
     id: StudyCell_8
     instanceType: StudyCell
     label: StudyCell_8
 - id: 1159
   properties:
     _type: StudyCell
-    armId: StudyArm_2
-    elementIds:
-    - StudyElement_3
-    epochId: StudyEpoch_4
     id: StudyCell_9
     instanceType: StudyCell
     label: StudyCell_9
 - id: 1160
   properties:
     _type: StudyCell
-    armId: StudyArm_2
-    elementIds:
-    - StudyElement_7
-    epochId: StudyEpoch_5
     id: StudyCell_10
     instanceType: StudyCell
     label: StudyCell_10
 - id: 1161
   properties:
     _type: StudyCell
-    armId: StudyArm_3
-    elementIds:
-    - StudyElement_1
-    epochId: StudyEpoch_1
     id: StudyCell_11
     instanceType: StudyCell
     label: StudyCell_11
 - id: 1162
   properties:
     _type: StudyCell
-    armId: StudyArm_3
-    elementIds:
-    - StudyElement_4
-    epochId: StudyEpoch_2
     id: StudyCell_12
     instanceType: StudyCell
     label: StudyCell_12
 - id: 1163
   properties:
     _type: StudyCell
-    armId: StudyArm_3
-    elementIds:
-    - StudyElement_5
-    epochId: StudyEpoch_3
     id: StudyCell_13
     instanceType: StudyCell
     label: StudyCell_13
 - id: 1164
   properties:
     _type: StudyCell
-    armId: StudyArm_3
-    elementIds:
-    - StudyElement_6
-    epochId: StudyEpoch_4
     id: StudyCell_14
     instanceType: StudyCell
     label: StudyCell_14
 - id: 1165
   properties:
     _type: StudyCell
-    armId: StudyArm_3
-    elementIds:
-    - StudyElement_7
-    epochId: StudyEpoch_5
     id: StudyCell_15
     instanceType: StudyCell
     label: StudyCell_15
@@ -10648,8 +10437,6 @@
     instanceType: StudyEpoch
     label: StudyEpoch_1
     name: Screening
-    nextId: StudyEpoch_2
-    previousId: null
 - id: 1171
   properties:
     _type: Code
@@ -10668,8 +10455,6 @@
     instanceType: StudyEpoch
     label: StudyEpoch_2
     name: Treatment 1
-    nextId: StudyEpoch_3
-    previousId: StudyEpoch_1
 - id: 1173
   properties:
     _type: Code
@@ -10688,8 +10473,6 @@
     instanceType: StudyEpoch
     label: StudyEpoch_3
     name: Treatment 2
-    nextId: StudyEpoch_4
-    previousId: StudyEpoch_2
 - id: 1175
   properties:
     _type: Code
@@ -10708,8 +10491,6 @@
     instanceType: StudyEpoch
     label: StudyEpoch_4
     name: Treatment 3
-    nextId: StudyEpoch_5
-    previousId: StudyEpoch_3
 - id: 1177
   properties:
     _type: Code
@@ -10728,8 +10509,6 @@
     instanceType: StudyEpoch
     label: StudyEpoch_5
     name: Follow-Up
-    nextId: null
-    previousId: StudyEpoch_4
 - id: 1179
   properties:
     _type: TransitionRule
@@ -10757,7 +10536,6 @@
     instanceType: StudyElement
     label: StudyElement_1
     name: EL1
-    studyInterventionIds: []
 - id: 1182
   properties:
     _type: TransitionRule
@@ -10775,7 +10553,6 @@
     instanceType: StudyElement
     label: StudyElement_2
     name: EL2
-    studyInterventionIds: []
     transitionEndRule: null
 - id: 1184
   properties:
@@ -10804,7 +10581,6 @@
     instanceType: StudyElement
     label: StudyElement_7
     name: EL7
-    studyInterventionIds: []
 - id: 1187
   properties:
     _type: TransitionRule
@@ -10822,7 +10598,6 @@
     instanceType: StudyElement
     label: StudyElement_3
     name: EL3
-    studyInterventionIds: []
     transitionEndRule: null
 - id: 1189
   properties:
@@ -10841,7 +10616,6 @@
     instanceType: StudyElement
     label: StudyElement_4
     name: EL4
-    studyInterventionIds: []
     transitionEndRule: null
 - id: 1191
   properties:
@@ -10861,7 +10635,6 @@
     instanceType: StudyElement
     label: StudyElement_5
     name: EL5
-    studyInterventionIds: []
     transitionEndRule: null
 - id: 1193
   properties:
@@ -10881,7 +10654,6 @@
     instanceType: StudyElement
     label: StudyElement_6
     name: EL6
-    studyInterventionIds: []
     transitionEndRule: null
 - id: 1195
   properties:
@@ -10962,7 +10734,6 @@
   properties:
     _type: Endpoint
     description: ''
-    dictionaryId: null
     id: Endpoint_1
     instanceType: Endpoint
     label: Endpoint_1
@@ -10984,7 +10755,6 @@
   properties:
     _type: Endpoint
     description: ''
-    dictionaryId: null
     id: Endpoint_2
     instanceType: Endpoint
     label: Endpoint_2
@@ -10996,7 +10766,6 @@
   properties:
     _type: Objective
     description: Main objective
-    dictionaryId: null
     id: Objective_1
     instanceType: Objective
     label: Objective_1
@@ -11028,7 +10797,6 @@
   properties:
     _type: Endpoint
     description: ''
-    dictionaryId: null
     id: Endpoint_3
     instanceType: Endpoint
     label: Endpoint_3
@@ -11049,7 +10817,6 @@
   properties:
     _type: Endpoint
     description: ''
-    dictionaryId: null
     id: Endpoint_4
     instanceType: Endpoint
     label: Endpoint_4
@@ -11072,7 +10839,6 @@
     description: The change from baseline laboratory value will be  calculated as
       the difference between the baseline lab value and the endpoint value (i.e.,
       the value at the specified visit) or the end of treatment observation
-    dictionaryId: null
     id: Endpoint_5
     instanceType: Endpoint
     label: Endpoint_5
@@ -11083,7 +10849,6 @@
   properties:
     _type: Objective
     description: Safety
-    dictionaryId: null
     id: Objective_2
     instanceType: Objective
     label: Objective_2
@@ -11113,7 +10878,6 @@
   properties:
     _type: Endpoint
     description: ''
-    dictionaryId: null
     id: Endpoint_6
     instanceType: Endpoint
     label: Endpoint_6
@@ -11135,7 +10899,6 @@
   properties:
     _type: Endpoint
     description: ''
-    dictionaryId: null
     id: Endpoint_7
     instanceType: Endpoint
     label: Endpoint_7
@@ -11157,7 +10920,6 @@
   properties:
     _type: Endpoint
     description: ''
-    dictionaryId: null
     id: Endpoint_8
     instanceType: Endpoint
     label: Endpoint_8
@@ -11168,7 +10930,6 @@
   properties:
     _type: Objective
     description: Behaviour
-    dictionaryId: null
     id: Objective_3
     instanceType: Objective
     label: Objective_3
@@ -11202,7 +10963,6 @@
   properties:
     _type: Endpoint
     description: ''
-    dictionaryId: null
     id: Endpoint_9
     instanceType: Endpoint
     label: Endpoint_9
@@ -11213,7 +10973,6 @@
   properties:
     _type: Objective
     description: ''
-    dictionaryId: null
     id: Objective_4
     instanceType: Objective
     label: Objective_4
@@ -11245,7 +11004,6 @@
   properties:
     _type: Endpoint
     description: ''
-    dictionaryId: null
     id: Endpoint_10
     instanceType: Endpoint
     label: Endpoint_10
@@ -11256,7 +11014,6 @@
   properties:
     _type: Objective
     description: ''
-    dictionaryId: null
     id: Objective_5
     instanceType: Objective
     label: Objective_5
@@ -11289,7 +11046,6 @@
   properties:
     _type: Endpoint
     description: ''
-    dictionaryId: null
     id: Endpoint_11
     instanceType: Endpoint
     label: Endpoint_11
@@ -11300,7 +11056,6 @@
   properties:
     _type: Objective
     description: ''
-    dictionaryId: null
     id: Objective_6
     instanceType: Objective
     label: Objective_6
@@ -11339,16 +11094,12 @@
 - id: 1237
   properties:
     _type: EligibilityCriterion
-    contextId: null
     description: ''
-    dictionaryId: SyntaxTemplateDictionary_1
     id: EligibilityCriterion_1
     identifier: '01'
     instanceType: EligibilityCriterion
     label: EligibilityCriterion_1
     name: IN01
-    nextId: null
-    previousId: null
     text: <p>Males and postmenopausal females at least <usdm:tag name="min_age"/>
       years of age.</p>
 - id: 1240
@@ -11364,16 +11115,12 @@
 - id: 1239
   properties:
     _type: EligibilityCriterion
-    contextId: null
     description: ''
-    dictionaryId: SyntaxTemplateDictionary_1
     id: EligibilityCriterion_2
     identifier: '02'
     instanceType: EligibilityCriterion
     label: EligibilityCriterion_2
     name: IN02
-    nextId: null
-    previousId: null
     text: <p><usdm:tag name="StudyPopulation"/> as defined by National Institute of
       Neurological and Communicative Disorders and Stroke (NINCDS) and the Alzheimer's
       Disease and Related Disorders Association (ADRDA) guidelines (Attachment LZZT.7).</p>
@@ -11390,16 +11137,12 @@
 - id: 1241
   properties:
     _type: EligibilityCriterion
-    contextId: null
     description: ''
-    dictionaryId: SyntaxTemplateDictionary_2
     id: EligibilityCriterion_3
     identifier: '03'
     instanceType: EligibilityCriterion
     label: EligibilityCriterion_3
     name: IN03
-    nextId: null
-    previousId: null
     text: <p><usdm:tag name="Activity1"/> score of 10 to 23.</p>
 - id: 1244
   properties:
@@ -11414,16 +11157,12 @@
 - id: 1243
   properties:
     _type: EligibilityCriterion
-    contextId: null
     description: ''
-    dictionaryId: SyntaxTemplateDictionary_2
     id: EligibilityCriterion_4
     identifier: '04'
     instanceType: EligibilityCriterion
     label: EligibilityCriterion_4
     name: IN04
-    nextId: null
-    previousId: null
     text: "<p><usdm:tag name=\"Activity2\"/>  score of \u22644 (Attachment LZZT.8).</p>"
 - id: 1246
   properties:
@@ -11438,16 +11177,12 @@
 - id: 1245
   properties:
     _type: EligibilityCriterion
-    contextId: null
     description: ''
-    dictionaryId: null
     id: EligibilityCriterion_5
     identifier: '05'
     instanceType: EligibilityCriterion
     label: EligibilityCriterion_5
     name: IN05
-    nextId: null
-    previousId: null
     text: "<p>CNS imaging (CT scan or MRI of brain) compatible with AD within past\
       \ 1 year.</p>\n<p>The following findings are incompatible with AD:</p>\n<ol\
       \ type=\"a\">\n  <li>\n    <p>Large vessel strokes</p>\n    <ol>\n      <li>\n\
@@ -11488,16 +11223,12 @@
 - id: 1247
   properties:
     _type: EligibilityCriterion
-    contextId: null
     description: ''
-    dictionaryId: null
     id: EligibilityCriterion_6
     identifier: '06'
     instanceType: EligibilityCriterion
     label: EligibilityCriterion_6
     name: IN06
-    nextId: null
-    previousId: null
     text: <p>Investigator has obtained informed consent signed by the patient (and/or
       legal representative) and by the caregiver.</p>
 - id: 1250
@@ -11513,16 +11244,12 @@
 - id: 1249
   properties:
     _type: EligibilityCriterion
-    contextId: null
     description: ''
-    dictionaryId: null
     id: EligibilityCriterion_7
     identifier: '07'
     instanceType: EligibilityCriterion
     label: EligibilityCriterion_7
     name: IN07
-    nextId: null
-    previousId: null
     text: <p>Geographic proximity to investigator's site that allows adequate follow-up.</p>
 - id: 1252
   properties:
@@ -11537,16 +11264,12 @@
 - id: 1251
   properties:
     _type: EligibilityCriterion
-    contextId: null
     description: ''
-    dictionaryId: null
     id: EligibilityCriterion_8
     identifier: 08
     instanceType: EligibilityCriterion
     label: EligibilityCriterion_8
     name: IN08
-    nextId: null
-    previousId: null
     text: <p>A reliable caregiver who is in frequent or daily contact with the patient
       and who will accompany the patient to the office and/or be available by telephone
       at designated times, will monitor administration of prescribed medications,
@@ -11566,16 +11289,12 @@
 - id: 1253
   properties:
     _type: EligibilityCriterion
-    contextId: null
     description: ''
-    dictionaryId: null
     id: EligibilityCriterion_9
     identifier: 09
     instanceType: EligibilityCriterion
     label: EligibilityCriterion_9
     name: EX01
-    nextId: null
-    previousId: null
     text: <p>Persons who have previously completed or withdrawn from this study or
       any other study investigating xanomeline TTS or the oral formulation of xanomeline.</p>
 - id: 1256
@@ -11591,16 +11310,12 @@
 - id: 1255
   properties:
     _type: EligibilityCriterion
-    contextId: null
     description: ''
-    dictionaryId: null
     id: EligibilityCriterion_10
     identifier: '10'
     instanceType: EligibilityCriterion
     label: EligibilityCriterion_10
     name: EX02
-    nextId: null
-    previousId: null
     text: <p>Use of any investigational agent or approved Alzheimer's therapeutic
       medication within 30 days prior to enrollment into the study.</p>
 - id: 1258
@@ -11616,16 +11331,12 @@
 - id: 1257
   properties:
     _type: EligibilityCriterion
-    contextId: null
     description: ''
-    dictionaryId: null
     id: EligibilityCriterion_11
     identifier: '11'
     instanceType: EligibilityCriterion
     label: EligibilityCriterion_11
     name: EX03
-    nextId: null
-    previousId: null
     text: <p>Serious illness which required hospitalization within 3 months of screening.</p>
 - id: 1260
   properties:
@@ -11640,16 +11351,12 @@
 - id: 1259
   properties:
     _type: EligibilityCriterion
-    contextId: null
     description: ''
-    dictionaryId: null
     id: EligibilityCriterion_12
     identifier: '12'
     instanceType: EligibilityCriterion
     label: EligibilityCriterion_12
     name: EX04
-    nextId: null
-    previousId: null
     text: '<p>Diagnosis of serious neurological conditions, including </p>
 
       <ol type="a">
@@ -11684,16 +11391,12 @@
 - id: 1261
   properties:
     _type: EligibilityCriterion
-    contextId: null
     description: ''
-    dictionaryId: null
     id: EligibilityCriterion_13
     identifier: '13'
     instanceType: EligibilityCriterion
     label: EligibilityCriterion_13
     name: EX05
-    nextId: null
-    previousId: null
     text: <p>Episode of depression meeting DSM-IV criteria within 3 months of screening.</p>
 - id: 1264
   properties:
@@ -11708,16 +11411,12 @@
 - id: 1263
   properties:
     _type: EligibilityCriterion
-    contextId: null
     description: ''
-    dictionaryId: null
     id: EligibilityCriterion_14
     identifier: '14'
     instanceType: EligibilityCriterion
     label: EligibilityCriterion_14
     name: EX06
-    nextId: null
-    previousId: null
     text: '<p>A history within the last 5 years of the following:</p>
 
       <ol type="a">
@@ -11742,16 +11441,12 @@
 - id: 1265
   properties:
     _type: EligibilityCriterion
-    contextId: null
     description: ''
-    dictionaryId: null
     id: EligibilityCriterion_15
     identifier: '15'
     instanceType: EligibilityCriterion
     label: EligibilityCriterion_15
     name: EX07
-    nextId: null
-    previousId: null
     text: <p>A history of syncope within the last 5 years.</p>
 - id: 1268
   properties:
@@ -11766,16 +11461,12 @@
 - id: 1267
   properties:
     _type: EligibilityCriterion
-    contextId: null
     description: ''
-    dictionaryId: null
     id: EligibilityCriterion_16
     identifier: 16b
     instanceType: EligibilityCriterion
     label: EligibilityCriterion_16
     name: EX08
-    nextId: null
-    previousId: null
     text: "<p>Evidence from ECG recording at screening of any of the following conditions\
       \ :</p>\n<ol type=\"a\">\n<li><p>Left bundle branch block</p></li>\n<li><p>Bradycardia\
       \ \u226450 beats per minute</p></li>\n<li><p>Sinus pauses &gt;2 seconds</p></li>\n\
@@ -11797,16 +11488,12 @@
 - id: 1269
   properties:
     _type: EligibilityCriterion
-    contextId: null
     description: ''
-    dictionaryId: null
     id: EligibilityCriterion_17
     identifier: '17'
     instanceType: EligibilityCriterion
     label: EligibilityCriterion_17
     name: EX09
-    nextId: null
-    previousId: null
     text: '<p>A history within the last 5 years of a serious cardiovascular disorder,
       including</p>
 
@@ -11838,16 +11525,12 @@
 - id: 1271
   properties:
     _type: EligibilityCriterion
-    contextId: null
     description: ''
-    dictionaryId: null
     id: EligibilityCriterion_18
     identifier: '18'
     instanceType: EligibilityCriterion
     label: EligibilityCriterion_18
     name: EX10
-    nextId: null
-    previousId: null
     text: "<p>A history within the last 5 years of a serious gastrointestinal disorder,\
       \ including \n<ol type=\"a\">\n<li><p>Chronic peptic/duodenal/gastric/esophageal\
       \ ulcer that are untreated or refractory to treatment</p></li>\n<li><p>Symptomatic\
@@ -11867,16 +11550,12 @@
 - id: 1273
   properties:
     _type: EligibilityCriterion
-    contextId: null
     description: ''
-    dictionaryId: null
     id: EligibilityCriterion_19
     identifier: '19'
     instanceType: EligibilityCriterion
     label: EligibilityCriterion_19
     name: EX11
-    nextId: null
-    previousId: null
     text: '<p>A history within the last 5 years of a serious endocrine disorder, including</p>
 
       <ol type="a">
@@ -11905,16 +11584,12 @@
 - id: 1275
   properties:
     _type: EligibilityCriterion
-    contextId: null
     description: ''
-    dictionaryId: null
     id: EligibilityCriterion_20
     identifier: '20'
     instanceType: EligibilityCriterion
     label: EligibilityCriterion_20
     name: EX12
-    nextId: null
-    previousId: null
     text: '<p> A history within the last 5 years of a serious respiratory disorder,
       including</p>
 
@@ -11938,16 +11613,12 @@
 - id: 1277
   properties:
     _type: EligibilityCriterion
-    contextId: null
     description: ''
-    dictionaryId: null
     id: EligibilityCriterion_21
     identifier: '21'
     instanceType: EligibilityCriterion
     label: EligibilityCriterion_21
     name: EX13
-    nextId: null
-    previousId: null
     text: '<p>A history within the last 5 years of a serious genitourinary disorder,
       including</p>
 
@@ -11971,16 +11642,12 @@
 - id: 1279
   properties:
     _type: EligibilityCriterion
-    contextId: null
     description: ''
-    dictionaryId: null
     id: EligibilityCriterion_22
     identifier: '22'
     instanceType: EligibilityCriterion
     label: EligibilityCriterion_22
     name: EX14
-    nextId: null
-    previousId: null
     text: '<p>A history within the last 5 years of a serious rheumatologic disorder,
       including</p>
 
@@ -12006,16 +11673,12 @@
 - id: 1281
   properties:
     _type: EligibilityCriterion
-    contextId: null
     description: ''
-    dictionaryId: null
     id: EligibilityCriterion_23
     identifier: '23'
     instanceType: EligibilityCriterion
     label: EligibilityCriterion_23
     name: EX15
-    nextId: null
-    previousId: null
     text: <p>A known history of human immunodeficiency virus (HIV) within the last
       5 years.</p>
 - id: 1284
@@ -12031,16 +11694,12 @@
 - id: 1283
   properties:
     _type: EligibilityCriterion
-    contextId: null
     description: ''
-    dictionaryId: null
     id: EligibilityCriterion_24
     identifier: '24'
     instanceType: EligibilityCriterion
     label: EligibilityCriterion_24
     name: EX16
-    nextId: null
-    previousId: null
     text: '<p>A history within the last 5 years of a serious infectious disease including</p>
 
       <ol type="a">
@@ -12065,16 +11724,12 @@
 - id: 1285
   properties:
     _type: EligibilityCriterion
-    contextId: null
     description: ''
-    dictionaryId: null
     id: EligibilityCriterion_25
     identifier: '25'
     instanceType: EligibilityCriterion
     label: EligibilityCriterion_25
     name: EX17
-    nextId: null
-    previousId: null
     text: <p>A history within the last 5 years of a primary or recurrent malignant
       disease with the exception of resected cutaneous squamous cell carcinoma in
       situ, basal cell carcinoma, cervical carcinoma in situ, or in situ prostate
@@ -12092,16 +11747,12 @@
 - id: 1287
   properties:
     _type: EligibilityCriterion
-    contextId: null
     description: ''
-    dictionaryId: null
     id: EligibilityCriterion_26
     identifier: '26'
     instanceType: EligibilityCriterion
     label: EligibilityCriterion_26
     name: EX18
-    nextId: null
-    previousId: null
     text: <p>Visual, hearing, or communication disabilities impairing the ability
       to participate in the study; (for example, inability to speak or understand
       English, illiteracy).</p>
@@ -12118,16 +11769,12 @@
 - id: 1289
   properties:
     _type: EligibilityCriterion
-    contextId: null
     description: ''
-    dictionaryId: null
     id: EligibilityCriterion_27
     identifier: 27b
     instanceType: EligibilityCriterion
     label: EligibilityCriterion_27
     name: EX19
-    nextId: null
-    previousId: null
     text: "<p>Laboratory test values exceeding the Lilly Reference Range III for the\
       \ patient's age in any of the following analytes: \u2191 creatinine, \u2191\
       \ total bilirubin, \u2191 SGOT, \u2191 SGPT, \u2191 alkaline phosphatase, \u2191\
@@ -12150,16 +11797,12 @@
 - id: 1291
   properties:
     _type: EligibilityCriterion
-    contextId: null
     description: ''
-    dictionaryId: null
     id: EligibilityCriterion_28
     identifier: 28b
     instanceType: EligibilityCriterion
     label: EligibilityCriterion_28
     name: EX20
-    nextId: null
-    previousId: null
     text: "<p>Central laboratory test values below reference range for folate, and\
       \ Vitamin B 12 , and outside reference range for thyroid function tests.</p>\n\
       <ol type=\"a\">\n<li><p>Folate reference range 2.0 to 25.0 ng/mL. Patients will\
@@ -12192,16 +11835,12 @@
 - id: 1293
   properties:
     _type: EligibilityCriterion
-    contextId: null
     description: ''
-    dictionaryId: null
     id: EligibilityCriterion_29
     identifier: 29b
     instanceType: EligibilityCriterion
     label: EligibilityCriterion_29
     name: EX21
-    nextId: null
-    previousId: null
     text: '<p>Positive syphilis screening.</p>
 
       <p>Positive syphilis screening. As determined by positive RPR followed up by
@@ -12221,16 +11860,12 @@
 - id: 1295
   properties:
     _type: EligibilityCriterion
-    contextId: null
     description: ''
-    dictionaryId: null
     id: EligibilityCriterion_30
     identifier: 30b
     instanceType: EligibilityCriterion
     label: EligibilityCriterion_30
     name: EX22
-    nextId: null
-    previousId: null
     text: <p>Glycosylated hemoglobin (A1C). Required only on patients with known diabetes
       mellitus or random blood sugar &gt;200 on screening labs. Patients will be excluded
       if levels are &gt;9.5%</p>
@@ -12247,16 +11882,12 @@
 - id: 1297
   properties:
     _type: EligibilityCriterion
-    contextId: null
     description: ''
-    dictionaryId: null
     id: EligibilityCriterion_31
     identifier: 31b
     instanceType: EligibilityCriterion
     label: EligibilityCriterion_31
     name: EX23
-    nextId: null
-    previousId: null
     text: "<p>Treatment with the following medications within the specified washout\
       \ periods prior to enrollment and during the study:</p>\n<ol type=\"a\">\n \
       \ <li>\n    <p>Anticonvulsants including but not limited to </p>\n    <table\
@@ -13121,8 +12752,6 @@
     instanceType: ScheduledActivityInstance
     label: ScheduledActivityInstance_9
     name: SCREEN1
-    timelineExitId: null
-    timelineId: null
 - id: 1352
   properties:
     _type: ScheduledActivityInstance
@@ -13131,8 +12760,6 @@
     instanceType: ScheduledActivityInstance
     label: ScheduledActivityInstance_10
     name: SCREEN2
-    timelineExitId: null
-    timelineId: null
 - id: 1353
   properties:
     _type: ScheduledActivityInstance
@@ -13141,8 +12768,6 @@
     instanceType: ScheduledActivityInstance
     label: ScheduledActivityInstance_11
     name: DOSE
-    timelineExitId: null
-    timelineId: null
 - id: 1354
   properties:
     _type: ScheduledActivityInstance
@@ -13151,8 +12776,6 @@
     instanceType: ScheduledActivityInstance
     label: ScheduledActivityInstance_12
     name: WK2
-    timelineExitId: null
-    timelineId: null
 - id: 1355
   properties:
     _type: ScheduledActivityInstance
@@ -13161,8 +12784,6 @@
     instanceType: ScheduledActivityInstance
     label: ScheduledActivityInstance_13
     name: WK4
-    timelineExitId: null
-    timelineId: null
 - id: 1356
   properties:
     _type: ScheduledActivityInstance
@@ -13171,8 +12792,6 @@
     instanceType: ScheduledActivityInstance
     label: ScheduledActivityInstance_14
     name: WK6
-    timelineExitId: null
-    timelineId: null
 - id: 1357
   properties:
     _type: ScheduledActivityInstance
@@ -13181,8 +12800,6 @@
     instanceType: ScheduledActivityInstance
     label: ScheduledActivityInstance_15
     name: WK8
-    timelineExitId: null
-    timelineId: null
 - id: 1358
   properties:
     _type: ScheduledActivityInstance
@@ -13191,8 +12808,6 @@
     instanceType: ScheduledActivityInstance
     label: ScheduledActivityInstance_16
     name: WK8N
-    timelineExitId: null
-    timelineId: null
 - id: 1359
   properties:
     _type: ScheduledActivityInstance
@@ -13201,8 +12816,6 @@
     instanceType: ScheduledActivityInstance
     label: ScheduledActivityInstance_17
     name: WK12
-    timelineExitId: null
-    timelineId: null
 - id: 1360
   properties:
     _type: ScheduledActivityInstance
@@ -13211,8 +12824,6 @@
     instanceType: ScheduledActivityInstance
     label: ScheduledActivityInstance_18
     name: WK12N
-    timelineExitId: null
-    timelineId: null
 - id: 1361
   properties:
     _type: ScheduledActivityInstance
@@ -13221,8 +12832,6 @@
     instanceType: ScheduledActivityInstance
     label: ScheduledActivityInstance_19
     name: WK16
-    timelineExitId: null
-    timelineId: null
 - id: 1362
   properties:
     _type: ScheduledActivityInstance
@@ -13231,8 +12840,6 @@
     instanceType: ScheduledActivityInstance
     label: ScheduledActivityInstance_20
     name: WK16N
-    timelineExitId: null
-    timelineId: null
 - id: 1363
   properties:
     _type: ScheduledActivityInstance
@@ -13241,8 +12848,6 @@
     instanceType: ScheduledActivityInstance
     label: ScheduledActivityInstance_21
     name: WK20
-    timelineExitId: null
-    timelineId: null
 - id: 1364
   properties:
     _type: ScheduledActivityInstance
@@ -13251,8 +12856,6 @@
     instanceType: ScheduledActivityInstance
     label: ScheduledActivityInstance_22
     name: WK20N
-    timelineExitId: null
-    timelineId: null
 - id: 1365
   properties:
     _type: ScheduledActivityInstance
@@ -13261,8 +12864,6 @@
     instanceType: ScheduledActivityInstance
     label: ScheduledActivityInstance_23
     name: WK24
-    timelineExitId: null
-    timelineId: null
 - id: 1366
   properties:
     _type: ScheduledActivityInstance
@@ -13271,14 +12872,11 @@
     instanceType: ScheduledActivityInstance
     label: ScheduledActivityInstance_24
     name: WK26
-    timelineExitId: ScheduleTimelineExit_4
-    timelineId: null
 - id: 1301
   properties:
     _type: ScheduleTimeline
     description: This is the main timeline for the study design.
     entryCondition: Potential subject identified
-    entryId: ScheduledActivityInstance_9
     id: ScheduleTimeline_4
     instanceType: ScheduleTimeline
     label: ScheduleTimeline_4
@@ -13331,14 +12929,11 @@
     instanceType: ScheduledActivityInstance
     label: ScheduledActivityInstance_1
     name: AE
-    timelineExitId: ScheduleTimelineExit_1
-    timelineId: null
 - id: 1367
   properties:
     _type: ScheduleTimeline
     description: This is the adverse event timeline
     entryCondition: Subject suffers an adverse event
-    entryId: ScheduledActivityInstance_1
     id: ScheduleTimeline_1
     instanceType: ScheduleTimeline
     label: ScheduleTimeline_1
@@ -13391,14 +12986,11 @@
     instanceType: ScheduledActivityInstance
     label: ScheduledActivityInstance_2
     name: ET
-    timelineExitId: ScheduleTimelineExit_2
-    timelineId: null
 - id: 1373
   properties:
     _type: ScheduleTimeline
     description: This is the early termination processing
     entryCondition: Subject terminates the study early
-    entryId: ScheduledActivityInstance_2
     id: ScheduleTimeline_2
     instanceType: ScheduleTimeline
     label: ScheduleTimeline_2
@@ -13616,8 +13208,6 @@
     instanceType: ScheduledActivityInstance
     label: ScheduledActivityInstance_3
     name: VS_5MIN
-    timelineExitId: null
-    timelineId: null
 - id: 1400
   properties:
     _type: ScheduledActivityInstance
@@ -13626,8 +13216,6 @@
     instanceType: ScheduledActivityInstance
     label: ScheduledActivityInstance_4
     name: VS_SUPINE
-    timelineExitId: null
-    timelineId: null
 - id: 1401
   properties:
     _type: ScheduledActivityInstance
@@ -13636,8 +13224,6 @@
     instanceType: ScheduledActivityInstance
     label: ScheduledActivityInstance_5
     name: VS_1MIN
-    timelineExitId: null
-    timelineId: null
 - id: 1402
   properties:
     _type: ScheduledActivityInstance
@@ -13646,8 +13232,6 @@
     instanceType: ScheduledActivityInstance
     label: ScheduledActivityInstance_6
     name: VS_STAND1
-    timelineExitId: null
-    timelineId: null
 - id: 1403
   properties:
     _type: ScheduledActivityInstance
@@ -13656,8 +13240,6 @@
     instanceType: ScheduledActivityInstance
     label: ScheduledActivityInstance_7
     name: VS_2MIN
-    timelineExitId: null
-    timelineId: null
 - id: 1404
   properties:
     _type: ScheduledActivityInstance
@@ -13666,14 +13248,11 @@
     instanceType: ScheduledActivityInstance
     label: ScheduledActivityInstance_8
     name: VS_STAND3
-    timelineExitId: ScheduleTimelineExit_3
-    timelineId: null
 - id: 1379
   properties:
     _type: ScheduleTimeline
     description: BP Profile
     entryCondition: Automatic execution
-    entryId: ScheduledActivityInstance_3
     id: ScheduleTimeline_3
     instanceType: ScheduleTimeline
     label: ScheduleTimeline_3
@@ -13739,12 +13318,7 @@
 - id: 1412
   properties:
     _type: Condition
-    appliesToIds:
-    - Activity_24
-    contextIds:
-    - ScheduledActivityInstance_9
     description: Hemoglobin A<sup>1C</sup> and insulin-dependent subjects
-    dictionaryId: null
     id: Condition_1
     instanceType: Condition
     label: Condition_1
@@ -13753,15 +13327,7 @@
 - id: 1413
   properties:
     _type: Condition
-    appliesToIds:
-    - Activity_27
-    - Activity_28
-    - Activity_29
-    - Activity_30
-    contextIds:
-    - ScheduledActivityInstance_9
     description: Questionnaire practice condition
-    dictionaryId: null
     id: Condition_2
     instanceType: Condition
     label: Condition_2
@@ -13825,7 +13391,6 @@
     _type: StudyDesign
     bcCategories: []
     description: The main design for the study
-    documentVersionId: null
     estimands: []
     id: StudyDesign_1
     instanceType: StudyDesign
@@ -13909,7 +13474,6 @@
 - id: 2
   properties:
     _type: StudyVersion
-    documentVersionId: StudyProtocolDocumentVersion_1
     id: StudyVersion_1
     instanceType: StudyVersion
     label: StudyVersion_1
@@ -13983,43 +13547,20 @@
 - id: 1436
   properties:
     _type: NarrativeContent
-    childIds:
-    - NarrativeContent_2
-    - NarrativeContent_3
-    - NarrativeContent_4
-    - NarrativeContent_7
-    - NarrativeContent_49
-    - NarrativeContent_63
-    - NarrativeContent_67
-    - NarrativeContent_68
-    - NarrativeContent_69
-    - NarrativeContent_70
-    - NarrativeContent_71
-    - NarrativeContent_72
-    - NarrativeContent_73
-    - NarrativeContent_74
-    - NarrativeContent_75
-    - NarrativeContent_76
-    - NarrativeContent_77
     id: NarrativeContent_1
     instanceType: NarrativeContent
     label: NarrativeContent_1
     name: ROOT
-    nextId: NarrativeContent_2
-    previousId: null
     sectionNumber: '0'
     sectionTitle: Root
     text: ''
 - id: 1437
   properties:
     _type: NarrativeContent
-    childIds: []
     id: NarrativeContent_2
     instanceType: NarrativeContent
     label: NarrativeContent_2
     name: SECTION 0
-    nextId: NarrativeContent_3
-    previousId: NarrativeContent_1
     sectionNumber: '0'
     sectionTitle: Title Page
     text: "<div><div class=\"container\">\n<div class=\"row mt-5\">\n<div class=\"\
@@ -14037,13 +13578,10 @@
 - id: 1438
   properties:
     _type: NarrativeContent
-    childIds: []
     id: NarrativeContent_3
     instanceType: NarrativeContent
     label: NarrativeContent_3
     name: SECTION 1
-    nextId: NarrativeContent_4
-    previousId: NarrativeContent_2
     sectionNumber: '1'
     sectionTitle: Introduction
     text: '<div><p>The M1 muscarinic-cholinergic receptor is 1 of 5 characterized
@@ -14092,28 +13630,20 @@
 - id: 1439
   properties:
     _type: NarrativeContent
-    childIds:
-    - NarrativeContent_5
-    - NarrativeContent_6
     id: NarrativeContent_4
     instanceType: NarrativeContent
     label: NarrativeContent_4
     name: SECTION 2
-    nextId: NarrativeContent_5
-    previousId: NarrativeContent_3
     sectionNumber: '2'
     sectionTitle: Objectives
     text: <div></div>
 - id: 1440
   properties:
     _type: NarrativeContent
-    childIds: []
     id: NarrativeContent_5
     instanceType: NarrativeContent
     label: NarrativeContent_5
     name: SECTION 2.1.
-    nextId: NarrativeContent_6
-    previousId: NarrativeContent_4
     sectionNumber: 2.1.
     sectionTitle: Primary Objectives
     text: '<div><p>The primary objectives of this study are</p>
@@ -14128,13 +13658,10 @@
 - id: 1441
   properties:
     _type: NarrativeContent
-    childIds: []
     id: NarrativeContent_6
     instanceType: NarrativeContent
     label: NarrativeContent_6
     name: SECTION 2.2
-    nextId: NarrativeContent_7
-    previousId: NarrativeContent_5
     sectionNumber: '2.2'
     sectionTitle: Secondary Objectives
     text: '<div><p>The secondary objectives of this study are</p>
@@ -14153,37 +13680,20 @@
 - id: 1442
   properties:
     _type: NarrativeContent
-    childIds:
-    - NarrativeContent_8
-    - NarrativeContent_9
-    - NarrativeContent_10
-    - NarrativeContent_12
-    - NarrativeContent_20
-    - NarrativeContent_21
-    - NarrativeContent_24
-    - NarrativeContent_25
-    - NarrativeContent_26
-    - NarrativeContent_42
-    - NarrativeContent_48
     id: NarrativeContent_7
     instanceType: NarrativeContent
     label: NarrativeContent_7
     name: SECTION 3
-    nextId: NarrativeContent_8
-    previousId: NarrativeContent_6
     sectionNumber: '3'
     sectionTitle: Investigational Plan
     text: <div></div>
 - id: 1443
   properties:
     _type: NarrativeContent
-    childIds: []
     id: NarrativeContent_8
     instanceType: NarrativeContent
     label: NarrativeContent_8
     name: SECTION 3.1.
-    nextId: NarrativeContent_9
-    previousId: NarrativeContent_7
     sectionNumber: 3.1.
     sectionTitle: Summary of Study Design
     text: '<div><p>Patients with probable mild to moderate AD will be studied in a
@@ -14251,13 +13761,10 @@
 - id: 1444
   properties:
     _type: NarrativeContent
-    childIds: []
     id: NarrativeContent_9
     instanceType: NarrativeContent
     label: NarrativeContent_9
     name: SECTION 3.2.
-    nextId: NarrativeContent_10
-    previousId: NarrativeContent_8
     sectionNumber: 3.2.
     sectionTitle: Discussion of Design and Control
     text: '<div><p>Previous studies of the oral formulation have shown that xanomeline
@@ -14282,14 +13789,10 @@
 - id: 1445
   properties:
     _type: NarrativeContent
-    childIds:
-    - NarrativeContent_11
     id: NarrativeContent_10
     instanceType: NarrativeContent
     label: NarrativeContent_10
     name: SECTION 3.3.
-    nextId: NarrativeContent_11
-    previousId: NarrativeContent_9
     sectionNumber: 3.3.
     sectionTitle: Investigator Information
     text: <div><p>The name, title, and institution of the investigator(s) is/are listed
@@ -14301,13 +13804,10 @@
 - id: 1446
   properties:
     _type: NarrativeContent
-    childIds: []
     id: NarrativeContent_11
     instanceType: NarrativeContent
     label: NarrativeContent_11
     name: SECTION 3.3.1.
-    nextId: NarrativeContent_12
-    previousId: NarrativeContent_10
     sectionNumber: 3.3.1.
     sectionTitle: Final Report Signature
     text: '<div><p>The final report coordinating investigator will sign the final
@@ -14321,30 +13821,20 @@
 - id: 1447
   properties:
     _type: NarrativeContent
-    childIds:
-    - NarrativeContent_13
-    - NarrativeContent_14
-    - NarrativeContent_18
-    - NarrativeContent_19
     id: NarrativeContent_12
     instanceType: NarrativeContent
     label: NarrativeContent_12
     name: SECTION 3.4.
-    nextId: NarrativeContent_13
-    previousId: NarrativeContent_11
     sectionNumber: 3.4.
     sectionTitle: Study Population
     text: <div></div>
 - id: 1448
   properties:
     _type: NarrativeContent
-    childIds: []
     id: NarrativeContent_13
     instanceType: NarrativeContent
     label: NarrativeContent_13
     name: SECTION 3.4.1.
-    nextId: NarrativeContent_14
-    previousId: NarrativeContent_12
     sectionNumber: 3.4.1.
     sectionTitle: Entry Procedures
     text: <div><p>An Ethical Review Board (ERB) approved informed consent will be
@@ -14353,16 +13843,10 @@
 - id: 1449
   properties:
     _type: NarrativeContent
-    childIds:
-    - NarrativeContent_15
-    - NarrativeContent_16
-    - NarrativeContent_17
     id: NarrativeContent_14
     instanceType: NarrativeContent
     label: NarrativeContent_14
     name: SECTION 3.4.2.
-    nextId: NarrativeContent_15
-    previousId: NarrativeContent_13
     sectionNumber: 3.4.2.
     sectionTitle: Criteria for Enrollment
     text: "<div><p>For Lilly studies, the following definitions are used:</p>\n<div\
@@ -14395,13 +13879,10 @@
 - id: 1450
   properties:
     _type: NarrativeContent
-    childIds: []
     id: NarrativeContent_15
     instanceType: NarrativeContent
     label: NarrativeContent_15
     name: SECTION 3.4.2.1.
-    nextId: NarrativeContent_16
-    previousId: NarrativeContent_14
     sectionNumber: 3.4.2.1.
     sectionTitle: Inclusion Criteria
     text: '<div><p>Patients may be included in the study only if they meet <b>all</b>
@@ -14419,13 +13900,10 @@
 - id: 1451
   properties:
     _type: NarrativeContent
-    childIds: []
     id: NarrativeContent_16
     instanceType: NarrativeContent
     label: NarrativeContent_16
     name: SECTION 3.4.2.2.
-    nextId: NarrativeContent_17
-    previousId: NarrativeContent_15
     sectionNumber: 3.4.2.2.
     sectionTitle: Exclusion Criteria
     text: '<div><p>Patients will be excluded from the study for <b>any</b> of the
@@ -14458,13 +13936,10 @@
 - id: 1452
   properties:
     _type: NarrativeContent
-    childIds: []
     id: NarrativeContent_17
     instanceType: NarrativeContent
     label: NarrativeContent_17
     name: SECTION 3.4.2.3
-    nextId: NarrativeContent_18
-    previousId: NarrativeContent_16
     sectionNumber: 3.4.2.3
     sectionTitle: Violation of Criteria for Enrollment
     text: <div><p>The criteria for enrollment must be followed explicitly. If there
@@ -14477,13 +13952,10 @@
 - id: 1453
   properties:
     _type: NarrativeContent
-    childIds: []
     id: NarrativeContent_18
     instanceType: NarrativeContent
     label: NarrativeContent_18
     name: SECTION 3.4.3.
-    nextId: NarrativeContent_19
-    previousId: NarrativeContent_17
     sectionNumber: 3.4.3.
     sectionTitle: Disease Diagnostic Criteria
     text: "<div><p>Probable AD will be defined clinically by NINCDS/ADRDA guidelines\
@@ -14500,13 +13972,10 @@
 - id: 1454
   properties:
     _type: NarrativeContent
-    childIds: []
     id: NarrativeContent_19
     instanceType: NarrativeContent
     label: NarrativeContent_19
     name: SECTION 3.4.4.
-    nextId: NarrativeContent_20
-    previousId: NarrativeContent_18
     sectionNumber: 3.4.4.
     sectionTitle: Sample Size
     text: <div><p>Approximately 100 patients will be randomized to each of the 3 treatment
@@ -14518,13 +13987,10 @@
 - id: 1455
   properties:
     _type: NarrativeContent
-    childIds: []
     id: NarrativeContent_20
     instanceType: NarrativeContent
     label: NarrativeContent_20
     name: SECTION 3.5.
-    nextId: NarrativeContent_21
-    previousId: NarrativeContent_19
     sectionNumber: 3.5.
     sectionTitle: Patient Assignment
     text: '<div><p>Commencing at Visit 1, all patients will be assigned an identification
@@ -14536,28 +14002,20 @@
 - id: 1456
   properties:
     _type: NarrativeContent
-    childIds:
-    - NarrativeContent_22
-    - NarrativeContent_23
     id: NarrativeContent_21
     instanceType: NarrativeContent
     label: NarrativeContent_21
     name: SECTION 3.6.
-    nextId: NarrativeContent_22
-    previousId: NarrativeContent_20
     sectionNumber: 3.6.
     sectionTitle: Dosage and Administration
     text: <div></div>
 - id: 1457
   properties:
     _type: NarrativeContent
-    childIds: []
     id: NarrativeContent_22
     instanceType: NarrativeContent
     label: NarrativeContent_22
     name: SECTION 3.6.1.
-    nextId: NarrativeContent_23
-    previousId: NarrativeContent_21
     sectionNumber: 3.6.1.
     sectionTitle: Materials and Supplies
     text: '<div><table class="table small">
@@ -14590,13 +14048,10 @@
 - id: 1458
   properties:
     _type: NarrativeContent
-    childIds: []
     id: NarrativeContent_23
     instanceType: NarrativeContent
     label: NarrativeContent_23
     name: SECTION 3.6.2.
-    nextId: NarrativeContent_24
-    previousId: NarrativeContent_22
     sectionNumber: 3.6.2.
     sectionTitle: TTS Administration Procedures
     text: '<div><p>To test acute tolerance of transdermal formulation, patients will
@@ -14704,13 +14159,10 @@
 - id: 1459
   properties:
     _type: NarrativeContent
-    childIds: []
     id: NarrativeContent_24
     instanceType: NarrativeContent
     label: NarrativeContent_24
     name: SECTION 3.7.
-    nextId: NarrativeContent_25
-    previousId: NarrativeContent_23
     sectionNumber: 3.7.
     sectionTitle: Blinding
     text: '<div><p>The study will be double-blind. To further preserve the blinding
@@ -14729,13 +14181,10 @@
 - id: 1460
   properties:
     _type: NarrativeContent
-    childIds: []
     id: NarrativeContent_25
     instanceType: NarrativeContent
     label: NarrativeContent_25
     name: SECTION 3.8.
-    nextId: NarrativeContent_26
-    previousId: NarrativeContent_24
     sectionNumber: 3.8.
     sectionTitle: Concomitant Therapy
     text: "<div><p>Intermittent use of chloral hydrate, zolpidem, or lorazepam is\
@@ -14769,33 +14218,20 @@
 - id: 1461
   properties:
     _type: NarrativeContent
-    childIds:
-    - NarrativeContent_27
-    - NarrativeContent_30
-    - NarrativeContent_31
-    - NarrativeContent_40
-    - NarrativeContent_41
     id: NarrativeContent_26
     instanceType: NarrativeContent
     label: NarrativeContent_26
     name: SECTION 3.9.
-    nextId: NarrativeContent_27
-    previousId: NarrativeContent_25
     sectionNumber: 3.9.
     sectionTitle: Efficacy, Pharmacokinetic, and Safety Evaluations
     text: <div></div>
 - id: 1462
   properties:
     _type: NarrativeContent
-    childIds:
-    - NarrativeContent_28
-    - NarrativeContent_29
     id: NarrativeContent_27
     instanceType: NarrativeContent
     label: NarrativeContent_27
     name: SECTION 3.9.1.
-    nextId: NarrativeContent_28
-    previousId: NarrativeContent_26
     sectionNumber: 3.9.1.
     sectionTitle: Efficacy
     text: <div><p>See Schedule of Events, Attachment LZZT.1 for the times of the study
@@ -14803,13 +14239,10 @@
 - id: 1463
   properties:
     _type: NarrativeContent
-    childIds: []
     id: NarrativeContent_28
     instanceType: NarrativeContent
     label: NarrativeContent_28
     name: SECTION 3.9.1.1.
-    nextId: NarrativeContent_29
-    previousId: NarrativeContent_27
     sectionNumber: 3.9.1.1.
     sectionTitle: Efficacy Measures
     text: "<div><p>The following measures will be performed in the course of the study.\
@@ -14866,13 +14299,10 @@
 - id: 1464
   properties:
     _type: NarrativeContent
-    childIds: []
     id: NarrativeContent_29
     instanceType: NarrativeContent
     label: NarrativeContent_29
     name: SECTION 3.9.1.2.
-    nextId: NarrativeContent_30
-    previousId: NarrativeContent_28
     sectionNumber: 3.9.1.2.
     sectionTitle: Efficacy Criteria
     text: '<div><p>Group mean changes from baseline in the primary efficacy parameters
@@ -14889,13 +14319,10 @@
 - id: 1465
   properties:
     _type: NarrativeContent
-    childIds: []
     id: NarrativeContent_30
     instanceType: NarrativeContent
     label: NarrativeContent_30
     name: SECTION 3.9.2.
-    nextId: NarrativeContent_31
-    previousId: NarrativeContent_29
     sectionNumber: 3.9.2.
     sectionTitle: Pharmacokinetics
     text: "<div><p>Blood samples (7 mL) for the determination of xanomeline concentrations\
@@ -14925,17 +14352,10 @@
 - id: 1466
   properties:
     _type: NarrativeContent
-    childIds:
-    - NarrativeContent_32
-    - NarrativeContent_33
-    - NarrativeContent_36
-    - NarrativeContent_37
     id: NarrativeContent_31
     instanceType: NarrativeContent
     label: NarrativeContent_31
     name: SECTION 3.9.3.
-    nextId: NarrativeContent_32
-    previousId: NarrativeContent_30
     sectionNumber: 3.9.3.
     sectionTitle: Safety
     text: '<div><p>Investigators are responsible for monitoring the safety of patients
@@ -14948,13 +14368,10 @@
 - id: 1467
   properties:
     _type: NarrativeContent
-    childIds: []
     id: NarrativeContent_32
     instanceType: NarrativeContent
     label: NarrativeContent_32
     name: SECTION 3.9.3.1.
-    nextId: NarrativeContent_33
-    previousId: NarrativeContent_31
     sectionNumber: 3.9.3.1.
     sectionTitle: Safety Measures
     text: <div><p>Safety measures will be performed at designated times by recording
@@ -14964,15 +14381,10 @@
 - id: 1468
   properties:
     _type: NarrativeContent
-    childIds:
-    - NarrativeContent_34
-    - NarrativeContent_35
     id: NarrativeContent_33
     instanceType: NarrativeContent
     label: NarrativeContent_33
     name: SECTION 3.9.3.2.
-    nextId: NarrativeContent_34
-    previousId: NarrativeContent_32
     sectionNumber: 3.9.3.2.
     sectionTitle: Clinical Adverse Events
     text: '<div><p>Lilly has standards for reporting adverse events that are to be
@@ -14993,13 +14405,10 @@
 - id: 1469
   properties:
     _type: NarrativeContent
-    childIds: []
     id: NarrativeContent_34
     instanceType: NarrativeContent
     label: NarrativeContent_34
     name: SECTION 3.9.3.2.1.
-    nextId: NarrativeContent_35
-    previousId: NarrativeContent_33
     sectionNumber: 3.9.3.2.1.
     sectionTitle: Adverse Event Reporting Requirements
     text: "<div><p>All adverse events must be reported to CRO via case report form.</p>\n\
@@ -15023,13 +14432,10 @@
 - id: 1470
   properties:
     _type: NarrativeContent
-    childIds: []
     id: NarrativeContent_35
     instanceType: NarrativeContent
     label: NarrativeContent_35
     name: SECTION 3.9.3.2.2.
-    nextId: NarrativeContent_36
-    previousId: NarrativeContent_34
     sectionNumber: 3.9.3.2.2.
     sectionTitle: Serious Adverse Events
     text: '<div><p>Study site personnel must report to CRO immediately, by telephone,
@@ -15066,13 +14472,10 @@
 - id: 1471
   properties:
     _type: NarrativeContent
-    childIds: []
     id: NarrativeContent_36
     instanceType: NarrativeContent
     label: NarrativeContent_36
     name: SECTION 3.9.3.3.
-    nextId: NarrativeContent_37
-    previousId: NarrativeContent_35
     sectionNumber: 3.9.3.3.
     sectionTitle: Clinical Laboratory Tests
     text: "<div><p>Table LZZT.1 lists the clinical laboratory tests that will be performed\
@@ -15127,15 +14530,10 @@
 - id: 1472
   properties:
     _type: NarrativeContent
-    childIds:
-    - NarrativeContent_38
-    - NarrativeContent_39
     id: NarrativeContent_37
     instanceType: NarrativeContent
     label: NarrativeContent_37
     name: SECTION 3.9.3.4
-    nextId: NarrativeContent_38
-    previousId: NarrativeContent_36
     sectionNumber: 3.9.3.4
     sectionTitle: Other Safety Measures
     text: "<div><b>Patients experiencing Rash and/or Eosinophilia</b>\n<p>The administration\
@@ -15187,13 +14585,10 @@
 - id: 1473
   properties:
     _type: NarrativeContent
-    childIds: []
     id: NarrativeContent_38
     instanceType: NarrativeContent
     label: NarrativeContent_38
     name: SECTION 3.9.3.4.1
-    nextId: NarrativeContent_39
-    previousId: NarrativeContent_37
     sectionNumber: 3.9.3.4.1
     sectionTitle: Vital Sign Determination
     text: '<div><p>Patient should lie supine quietly for at least 5 minutes prior
@@ -15210,13 +14605,10 @@
 - id: 1474
   properties:
     _type: NarrativeContent
-    childIds: []
     id: NarrativeContent_39
     instanceType: NarrativeContent
     label: NarrativeContent_39
     name: SECTION 3.9.3.4.2
-    nextId: NarrativeContent_40
-    previousId: NarrativeContent_38
     sectionNumber: 3.9.3.4.2
     sectionTitle: Cardiovascular Safety Measures
     text: "<div><p>Cardiovascular status will be assessed during the trial with the\
@@ -15240,13 +14632,10 @@
 - id: 1475
   properties:
     _type: NarrativeContent
-    childIds: []
     id: NarrativeContent_40
     instanceType: NarrativeContent
     label: NarrativeContent_40
     name: SECTION 3.9.4.
-    nextId: NarrativeContent_41
-    previousId: NarrativeContent_39
     sectionNumber: 3.9.4.
     sectionTitle: Safety Monitoring
     text: "<div><p>The CRO research physician will monitor safety data throughout\
@@ -15335,13 +14724,10 @@
 - id: 1476
   properties:
     _type: NarrativeContent
-    childIds: []
     id: NarrativeContent_41
     instanceType: NarrativeContent
     label: NarrativeContent_41
     name: SECTION 3.9.5.
-    nextId: NarrativeContent_42
-    previousId: NarrativeContent_40
     sectionNumber: 3.9.5.
     sectionTitle: Appropriateness and Consistency of Measurements
     text: <div><p>The medications and efficacy measurements have been used in other
@@ -15349,30 +14735,20 @@
 - id: 1477
   properties:
     _type: NarrativeContent
-    childIds:
-    - NarrativeContent_43
-    - NarrativeContent_45
-    - NarrativeContent_46
     id: NarrativeContent_42
     instanceType: NarrativeContent
     label: NarrativeContent_42
     name: SECTION 3.10.
-    nextId: NarrativeContent_43
-    previousId: NarrativeContent_41
     sectionNumber: 3.10.
     sectionTitle: Patient Disposition Criteria
     text: <div></div>
 - id: 1478
   properties:
     _type: NarrativeContent
-    childIds:
-    - NarrativeContent_44
     id: NarrativeContent_43
     instanceType: NarrativeContent
     label: NarrativeContent_43
     name: SECTION 3.10.1.
-    nextId: NarrativeContent_44
-    previousId: NarrativeContent_42
     sectionNumber: 3.10.1.
     sectionTitle: Discontinuations
     text: "<div><p>Participation in the study shall be terminated for any patient\
@@ -15397,13 +14773,10 @@
 - id: 1479
   properties:
     _type: NarrativeContent
-    childIds: []
     id: NarrativeContent_44
     instanceType: NarrativeContent
     label: NarrativeContent_44
     name: SECTION 3.10.1.1.
-    nextId: NarrativeContent_45
-    previousId: NarrativeContent_43
     sectionNumber: 3.10.1.1.
     sectionTitle: Retrieval of Discontinuations
     text: <div><p>If possible, patients who have terminated early will be retrieved
@@ -15414,13 +14787,10 @@
 - id: 1480
   properties:
     _type: NarrativeContent
-    childIds: []
     id: NarrativeContent_45
     instanceType: NarrativeContent
     label: NarrativeContent_45
     name: SECTION 3.10.2.
-    nextId: NarrativeContent_46
-    previousId: NarrativeContent_44
     sectionNumber: 3.10.2.
     sectionTitle: Qualifications for Analysis
     text: <div><p>All patients who are enrolled in the study will be included in the
@@ -15431,14 +14801,10 @@
 - id: 1481
   properties:
     _type: NarrativeContent
-    childIds:
-    - NarrativeContent_47
     id: NarrativeContent_46
     instanceType: NarrativeContent
     label: NarrativeContent_46
     name: SECTION 3.10.3.
-    nextId: NarrativeContent_47
-    previousId: NarrativeContent_45
     sectionNumber: 3.10.3.
     sectionTitle: Study Extensions
     text: <div><p>Patients who successfully complete the study will be eligible for
@@ -15451,13 +14817,10 @@
 - id: 1482
   properties:
     _type: NarrativeContent
-    childIds: []
     id: NarrativeContent_47
     instanceType: NarrativeContent
     label: NarrativeContent_47
     name: SECTION 3.10.3.1.
-    nextId: NarrativeContent_48
-    previousId: NarrativeContent_46
     sectionNumber: 3.10.3.1.
     sectionTitle: Compliance
     text: "<div><p>Because patients enrolled in this study will be outpatients, the\
@@ -15479,13 +14842,10 @@
 - id: 1483
   properties:
     _type: NarrativeContent
-    childIds: []
     id: NarrativeContent_48
     instanceType: NarrativeContent
     label: NarrativeContent_48
     name: SECTION 3.11.
-    nextId: NarrativeContent_49
-    previousId: NarrativeContent_47
     sectionNumber: 3.11.
     sectionTitle: Quality Assurance
     text: "<div><p>To ensure both the safety of participants in the study, and the\
@@ -15510,34 +14870,20 @@
 - id: 1484
   properties:
     _type: NarrativeContent
-    childIds:
-    - NarrativeContent_50
-    - NarrativeContent_51
-    - NarrativeContent_52
-    - NarrativeContent_58
-    - NarrativeContent_59
-    - NarrativeContent_60
-    - NarrativeContent_61
-    - NarrativeContent_62
     id: NarrativeContent_49
     instanceType: NarrativeContent
     label: NarrativeContent_49
     name: SECTION 4
-    nextId: NarrativeContent_50
-    previousId: NarrativeContent_48
     sectionNumber: '4'
     sectionTitle: Data Analysis Methods
     text: <div></div>
 - id: 1485
   properties:
     _type: NarrativeContent
-    childIds: []
     id: NarrativeContent_50
     instanceType: NarrativeContent
     label: NarrativeContent_50
     name: SECTION 4.1.
-    nextId: NarrativeContent_51
-    previousId: NarrativeContent_49
     sectionNumber: 4.1.
     sectionTitle: General Considerations
     text: "<div><p>In general, all patients will be included in all analyses of efficacy\
@@ -15555,13 +14901,10 @@
 - id: 1486
   properties:
     _type: NarrativeContent
-    childIds: []
     id: NarrativeContent_51
     instanceType: NarrativeContent
     label: NarrativeContent_51
     name: SECTION 4.2.
-    nextId: NarrativeContent_52
-    previousId: NarrativeContent_50
     sectionNumber: 4.2.
     sectionTitle: "Demographics and Patient Characteristics Measured at \nBaseline"
     text: <div><p>All measures (for example, age, gender, origin) obtained at either
@@ -15577,31 +14920,20 @@
 - id: 1487
   properties:
     _type: NarrativeContent
-    childIds:
-    - NarrativeContent_53
-    - NarrativeContent_54
-    - NarrativeContent_55
-    - NarrativeContent_56
-    - NarrativeContent_57
     id: NarrativeContent_52
     instanceType: NarrativeContent
     label: NarrativeContent_52
     name: SECTION 4.3.
-    nextId: NarrativeContent_53
-    previousId: NarrativeContent_51
     sectionNumber: 4.3.
     sectionTitle: Efficacy Analyses
     text: <div></div>
 - id: 1488
   properties:
     _type: NarrativeContent
-    childIds: []
     id: NarrativeContent_53
     instanceType: NarrativeContent
     label: NarrativeContent_53
     name: SECTION 4.3.1.
-    nextId: NarrativeContent_54
-    previousId: NarrativeContent_52
     sectionNumber: 4.3.1.
     sectionTitle: Efficacy Variables to be Analyzed
     text: "<div><p>Efficacy measures are described in Section 3.9.1.1. As stated in\
@@ -15643,13 +14975,10 @@
 - id: 1489
   properties:
     _type: NarrativeContent
-    childIds: []
     id: NarrativeContent_54
     instanceType: NarrativeContent
     label: NarrativeContent_54
     name: SECTION 4.3.2.
-    nextId: NarrativeContent_55
-    previousId: NarrativeContent_53
     sectionNumber: 4.3.2.
     sectionTitle: Times of Analyses
     text: "<div><p>Baseline data will be collected at Visit 3.</p>\n<p>The primary\
@@ -15682,13 +15011,10 @@
 - id: 1490
   properties:
     _type: NarrativeContent
-    childIds: []
     id: NarrativeContent_55
     instanceType: NarrativeContent
     label: NarrativeContent_55
     name: SECTION 4.3.3.
-    nextId: NarrativeContent_56
-    previousId: NarrativeContent_54
     sectionNumber: 4.3.3.
     sectionTitle: Statistical Methodology
     text: "<div><p>The primary method to be used for the primary efficacy variables\
@@ -15747,13 +15073,10 @@
 - id: 1491
   properties:
     _type: NarrativeContent
-    childIds: []
     id: NarrativeContent_56
     instanceType: NarrativeContent
     label: NarrativeContent_56
     name: SECTION 4.3.4.
-    nextId: NarrativeContent_57
-    previousId: NarrativeContent_55
     sectionNumber: 4.3.4.
     sectionTitle: One-sided Justification
     text: "<div><p>All comparisons between xanomeline and placebo with respect to\
@@ -15791,13 +15114,10 @@
 - id: 1492
   properties:
     _type: NarrativeContent
-    childIds: []
     id: NarrativeContent_57
     instanceType: NarrativeContent
     label: NarrativeContent_57
     name: SECTION 4.3.5.
-    nextId: NarrativeContent_58
-    previousId: NarrativeContent_56
     sectionNumber: 4.3.5.
     sectionTitle: Nominal P-value Adjustments
     text: "<div><p>When there are multiple outcomes, and the study drug is declared\
@@ -15836,13 +15156,10 @@
 - id: 1493
   properties:
     _type: NarrativeContent
-    childIds: []
     id: NarrativeContent_58
     instanceType: NarrativeContent
     label: NarrativeContent_58
     name: SECTION 4.4.
-    nextId: NarrativeContent_59
-    previousId: NarrativeContent_57
     sectionNumber: 4.4.
     sectionTitle: Safety Analyses
     text: '<div><p>Although safety data is collected at the 24 week visit for retrieved
@@ -15877,13 +15194,10 @@
 - id: 1494
   properties:
     _type: NarrativeContent
-    childIds: []
     id: NarrativeContent_59
     instanceType: NarrativeContent
     label: NarrativeContent_59
     name: SECTION 4.5.
-    nextId: NarrativeContent_60
-    previousId: NarrativeContent_58
     sectionNumber: 4.5.
     sectionTitle: Subgroup Analyses
     text: <div><p>The effect of age, gender, origin, baseline disease severity as
@@ -15898,13 +15212,10 @@
 - id: 1495
   properties:
     _type: NarrativeContent
-    childIds: []
     id: NarrativeContent_60
     instanceType: NarrativeContent
     label: NarrativeContent_60
     name: SECTION 4.6.
-    nextId: NarrativeContent_61
-    previousId: NarrativeContent_59
     sectionNumber: 4.6.
     sectionTitle: Interim Efficacy Analyses
     text: '<div><p>Two interim efficacy analyses are planned. The first interim analysis
@@ -15931,13 +15242,10 @@
 - id: 1496
   properties:
     _type: NarrativeContent
-    childIds: []
     id: NarrativeContent_61
     instanceType: NarrativeContent
     label: NarrativeContent_61
     name: SECTION 4.7.
-    nextId: NarrativeContent_62
-    previousId: NarrativeContent_60
     sectionNumber: 4.7.
     sectionTitle: Interim Safety Analyses
     text: <div><p>An analysis of the cardiovascular safety monitoring (see section
@@ -15954,13 +15262,10 @@
 - id: 1497
   properties:
     _type: NarrativeContent
-    childIds: []
     id: NarrativeContent_62
     instanceType: NarrativeContent
     label: NarrativeContent_62
     name: SECTION 4.8.
-    nextId: NarrativeContent_63
-    previousId: NarrativeContent_61
     sectionNumber: 4.8.
     sectionTitle: Pharmacokinetic/Pharmacodynamic Analyses
     text: <div><p>Plasma concentrations of xanomeline will be determined from samples
@@ -15977,29 +15282,20 @@
 - id: 1498
   properties:
     _type: NarrativeContent
-    childIds:
-    - NarrativeContent_64
-    - NarrativeContent_65
-    - NarrativeContent_66
     id: NarrativeContent_63
     instanceType: NarrativeContent
     label: NarrativeContent_63
     name: SECTION 5
-    nextId: NarrativeContent_64
-    previousId: NarrativeContent_62
     sectionNumber: '5'
     sectionTitle: "Informed Consent, Ethical Review, and Regulatory \nConsiderations"
     text: <div></div>
 - id: 1499
   properties:
     _type: NarrativeContent
-    childIds: []
     id: NarrativeContent_64
     instanceType: NarrativeContent
     label: NarrativeContent_64
     name: SECTION 5.1.
-    nextId: NarrativeContent_65
-    previousId: NarrativeContent_63
     sectionNumber: 5.1.
     sectionTitle: Informed Consent
     text: "<div><p>In the United States and Canada, the investigator is responsible\
@@ -16046,13 +15342,10 @@
 - id: 1500
   properties:
     _type: NarrativeContent
-    childIds: []
     id: NarrativeContent_65
     instanceType: NarrativeContent
     label: NarrativeContent_65
     name: SECTION 5.2.
-    nextId: NarrativeContent_66
-    previousId: NarrativeContent_64
     sectionNumber: 5.2.
     sectionTitle: Ethical Review
     text: "<div><p>The name and address of the ethical review board are listed on\
@@ -16067,13 +15360,10 @@
 - id: 1501
   properties:
     _type: NarrativeContent
-    childIds: []
     id: NarrativeContent_66
     instanceType: NarrativeContent
     label: NarrativeContent_66
     name: SECTION 5.3.
-    nextId: NarrativeContent_67
-    previousId: NarrativeContent_65
     sectionNumber: 5.3.
     sectionTitle: Regulatory Considerations
     text: '<div><p>This study will be conducted in accordance with the ethical principles
@@ -16087,13 +15377,10 @@
 - id: 1502
   properties:
     _type: NarrativeContent
-    childIds: []
     id: NarrativeContent_67
     instanceType: NarrativeContent
     label: NarrativeContent_67
     name: SECTION 6
-    nextId: NarrativeContent_68
-    previousId: NarrativeContent_66
     sectionNumber: '6'
     sectionTitle: References
     text: "<div><div class=\"container\">\n<div class=\"row\">\n<div class=\"col-md-10\
@@ -16134,13 +15421,10 @@
 - id: 1503
   properties:
     _type: NarrativeContent
-    childIds: []
     id: NarrativeContent_68
     instanceType: NarrativeContent
     label: NarrativeContent_68
     name: SECTION Appendix 1
-    nextId: NarrativeContent_69
-    previousId: NarrativeContent_67
     sectionNumber: Appendix 1
     sectionTitle: Protocol Attachment LZZT.1. Schedule of Events for Protocol H2Q-MC-LZZT(c)
     text: "<div>\n<div class=\"col-md-8 offset-md-2 text-center\">\n<p class=\"usdm-warning\"\
@@ -16638,13 +15922,10 @@
 - id: 1504
   properties:
     _type: NarrativeContent
-    childIds: []
     id: NarrativeContent_69
     instanceType: NarrativeContent
     label: NarrativeContent_69
     name: SECTION Appendix 2
-    nextId: NarrativeContent_70
-    previousId: NarrativeContent_68
     sectionNumber: Appendix 2
     sectionTitle: Protocol Attachment LZZT.2. Alzheimer's Disease Assessment Scale-Cognitive
       Subscale (ADAS-Cog) with Attention and Concentration Tasks
@@ -16663,13 +15944,10 @@
 - id: 1505
   properties:
     _type: NarrativeContent
-    childIds: []
     id: NarrativeContent_70
     instanceType: NarrativeContent
     label: NarrativeContent_70
     name: SECTION Appendix 3
-    nextId: NarrativeContent_71
-    previousId: NarrativeContent_69
     sectionNumber: Appendix 3
     sectionTitle: Protocol Attachment LZZT.3. Video-referenced Clinician's Interview-Based
       Impression of Change (CIBIC+)
@@ -16688,13 +15966,10 @@
 - id: 1506
   properties:
     _type: NarrativeContent
-    childIds: []
     id: NarrativeContent_71
     instanceType: NarrativeContent
     label: NarrativeContent_71
     name: SECTION Appendix 4
-    nextId: NarrativeContent_72
-    previousId: NarrativeContent_70
     sectionNumber: Appendix 4
     sectionTitle: Protocol Attachment LZZT.4. Revised Neuropsychiatric Inventory (NPI-X)
     text: '<div>
@@ -16712,13 +15987,10 @@
 - id: 1507
   properties:
     _type: NarrativeContent
-    childIds: []
     id: NarrativeContent_72
     instanceType: NarrativeContent
     label: NarrativeContent_72
     name: SECTION Appendix 5
-    nextId: NarrativeContent_73
-    previousId: NarrativeContent_71
     sectionNumber: Appendix 5
     sectionTitle: Protocol Attachment LZZT.5. Disability Assessment for Dementia (DAD)
     text: '<div>
@@ -16736,13 +16008,10 @@
 - id: 1508
   properties:
     _type: NarrativeContent
-    childIds: []
     id: NarrativeContent_73
     instanceType: NarrativeContent
     label: NarrativeContent_73
     name: SECTION Appendix 6
-    nextId: NarrativeContent_74
-    previousId: NarrativeContent_72
     sectionNumber: Appendix 6
     sectionTitle: Protocol Attachment LZZT.6. Mini-Mental State Examination (MMSE)
     text: '<div>
@@ -16760,13 +16029,10 @@
 - id: 1509
   properties:
     _type: NarrativeContent
-    childIds: []
     id: NarrativeContent_74
     instanceType: NarrativeContent
     label: NarrativeContent_74
     name: SECTION Appendix 7
-    nextId: NarrativeContent_75
-    previousId: NarrativeContent_73
     sectionNumber: Appendix 7
     sectionTitle: Protocol Attachment LZZT.7. NINCDS/ADRDA Guidelines
     text: '<div>
@@ -16784,13 +16050,10 @@
 - id: 1510
   properties:
     _type: NarrativeContent
-    childIds: []
     id: NarrativeContent_75
     instanceType: NarrativeContent
     label: NarrativeContent_75
     name: SECTION Appendix 8
-    nextId: NarrativeContent_76
-    previousId: NarrativeContent_74
     sectionNumber: Appendix 8
     sectionTitle: Protocol Attachment LZZT.8. Hachinski Ischemic Scale
     text: '<div>
@@ -16808,13 +16071,10 @@
 - id: 1511
   properties:
     _type: NarrativeContent
-    childIds: []
     id: NarrativeContent_76
     instanceType: NarrativeContent
     label: NarrativeContent_76
     name: SECTION Appendix 9
-    nextId: NarrativeContent_77
-    previousId: NarrativeContent_75
     sectionNumber: Appendix 9
     sectionTitle: Protocol Attachment LZZT.9. TTS Acceptability Survey
     text: '<div>
@@ -16832,13 +16092,10 @@
 - id: 1512
   properties:
     _type: NarrativeContent
-    childIds: []
     id: NarrativeContent_77
     instanceType: NarrativeContent
     label: NarrativeContent_77
     name: SECTION Appendix 10
-    nextId: null
-    previousId: NarrativeContent_76
     sectionNumber: Appendix 10
     sectionTitle: Protocol Attachment LZZT.10. Protocol Signatures
     text: '<div>
@@ -16856,7 +16113,6 @@
 - id: 1428
   properties:
     _type: StudyProtocolDocumentVersion
-    childIds: []
     id: StudyProtocolDocumentVersion_1
     instanceType: StudyProtocolDocumentVersion
     label: StudyProtocolDocumentVersion_1

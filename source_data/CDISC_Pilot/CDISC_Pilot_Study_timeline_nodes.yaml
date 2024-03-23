@@ -22,9 +22,6 @@
     instanceType: Encounter
     label: Encounter_1
     name: E1
-    nextId: Encounter_2
-    previousId: null
-    scheduledAtId: null
     transitionEndRule: {}
     transitionStartRule: {}
     type:
@@ -59,9 +56,6 @@
     instanceType: Encounter
     label: Encounter_2
     name: E2
-    nextId: Encounter_3
-    previousId: Encounter_1
-    scheduledAtId: Timing_2
     transitionEndRule: {}
     transitionStartRule: null
     type:
@@ -96,9 +90,6 @@
     instanceType: Encounter
     label: Encounter_3
     name: E3
-    nextId: Encounter_4
-    previousId: Encounter_2
-    scheduledAtId: null
     transitionEndRule: {}
     transitionStartRule: {}
     type:
@@ -133,9 +124,6 @@
     instanceType: Encounter
     label: Encounter_4
     name: E4
-    nextId: Encounter_5
-    previousId: Encounter_3
-    scheduledAtId: Timing_4
     transitionEndRule: null
     transitionStartRule: null
     type:
@@ -170,9 +158,6 @@
     instanceType: Encounter
     label: Encounter_5
     name: E5
-    nextId: Encounter_6
-    previousId: Encounter_4
-    scheduledAtId: Timing_5
     transitionEndRule: null
     transitionStartRule: null
     type:
@@ -207,9 +192,6 @@
     instanceType: Encounter
     label: Encounter_6
     name: E7
-    nextId: Encounter_7
-    previousId: Encounter_5
-    scheduledAtId: Timing_6
     transitionEndRule: null
     transitionStartRule: null
     type:
@@ -251,9 +233,6 @@
     instanceType: Encounter
     label: Encounter_7
     name: E8
-    nextId: Encounter_8
-    previousId: Encounter_6
-    scheduledAtId: Timing_7
     transitionEndRule: null
     transitionStartRule: null
     type:
@@ -295,9 +274,6 @@
     instanceType: Encounter
     label: Encounter_8
     name: E9
-    nextId: Encounter_9
-    previousId: Encounter_7
-    scheduledAtId: Timing_9
     transitionEndRule: null
     transitionStartRule: null
     type:
@@ -339,9 +315,6 @@
     instanceType: Encounter
     label: Encounter_9
     name: E10
-    nextId: Encounter_10
-    previousId: Encounter_8
-    scheduledAtId: Timing_11
     transitionEndRule: null
     transitionStartRule: null
     type:
@@ -383,9 +356,6 @@
     instanceType: Encounter
     label: Encounter_10
     name: E11
-    nextId: Encounter_11
-    previousId: Encounter_9
-    scheduledAtId: Timing_13
     transitionEndRule: null
     transitionStartRule: null
     type:
@@ -420,9 +390,6 @@
     instanceType: Encounter
     label: Encounter_11
     name: E12
-    nextId: Encounter_12
-    previousId: Encounter_10
-    scheduledAtId: Timing_15
     transitionEndRule: null
     transitionStartRule: null
     type:
@@ -457,9 +424,6 @@
     instanceType: Encounter
     label: Encounter_12
     name: E13
-    nextId: null
-    previousId: Encounter_11
-    scheduledAtId: Timing_16
     transitionEndRule: {}
     transitionStartRule: null
     type:
@@ -479,9 +443,6 @@
     instanceType: Activity
     label: Activity_1
     name: Informed consent
-    nextId: Activity_2
-    previousId: null
-    timelineId: ''
 - id: 68
   properties:
     _type: Activity
@@ -491,9 +452,6 @@
     instanceType: Activity
     label: Activity_2
     name: Inclusion/exclusion criteria
-    nextId: Activity_3
-    previousId: Activity_1
-    timelineId: ''
 - id: 69
   properties:
     _type: Activity
@@ -503,9 +461,6 @@
     instanceType: Activity
     label: Activity_3
     name: Patient number assigned
-    nextId: Activity_4
-    previousId: Activity_2
-    timelineId: ''
 - id: 70
   properties:
     _type: Activity
@@ -515,9 +470,6 @@
     instanceType: Activity
     label: Activity_4
     name: Demographics
-    nextId: Activity_5
-    previousId: Activity_3
-    timelineId: ''
 - id: 71
   properties:
     _type: Activity
@@ -527,9 +479,6 @@
     instanceType: Activity
     label: Activity_5
     name: Hachinski
-    nextId: Activity_6
-    previousId: Activity_4
-    timelineId: ''
 - id: 72
   properties:
     _type: Activity
@@ -539,9 +488,6 @@
     instanceType: Activity
     label: Activity_6
     name: MMSE
-    nextId: Activity_7
-    previousId: Activity_5
-    timelineId: ''
 - id: 73
   properties:
     _type: Activity
@@ -551,9 +497,6 @@
     instanceType: Activity
     label: Activity_7
     name: Physical examination
-    nextId: Activity_8
-    previousId: Activity_6
-    timelineId: ''
 - id: 74
   properties:
     _type: Activity
@@ -563,9 +506,6 @@
     instanceType: Activity
     label: Activity_8
     name: Medical history
-    nextId: Activity_9
-    previousId: Activity_7
-    timelineId: ''
 - id: 75
   properties:
     _type: Activity
@@ -575,9 +515,6 @@
     instanceType: Activity
     label: Activity_9
     name: Habits
-    nextId: Activity_10
-    previousId: Activity_8
-    timelineId: ''
 - id: 76
   properties:
     _type: Activity
@@ -587,9 +524,6 @@
     instanceType: Activity
     label: Activity_10
     name: Chest X-ray
-    nextId: Activity_11
-    previousId: Activity_9
-    timelineId: ''
 - id: 77
   properties:
     _type: Activity
@@ -599,9 +533,6 @@
     instanceType: Activity
     label: Activity_11
     name: Apo E genotyping
-    nextId: Activity_12
-    previousId: Activity_10
-    timelineId: ''
 - id: 78
   properties:
     _type: Activity
@@ -611,9 +542,6 @@
     instanceType: Activity
     label: Activity_12
     name: Patient randomised
-    nextId: Activity_13
-    previousId: Activity_11
-    timelineId: ''
 - id: 79
   properties:
     _type: Activity
@@ -623,9 +551,6 @@
     instanceType: Activity
     label: Activity_13
     name: Vital signs / Temperature
-    nextId: Activity_14
-    previousId: Activity_12
-    timelineId: ScheduleTimeline_3
 - id: 80
   properties:
     _type: Activity
@@ -635,9 +560,6 @@
     instanceType: Activity
     label: Activity_14
     name: Ambulatory ECG placed
-    nextId: Activity_15
-    previousId: Activity_13
-    timelineId: ''
 - id: 81
   properties:
     _type: Activity
@@ -647,9 +569,6 @@
     instanceType: Activity
     label: Activity_15
     name: Ambulatory ECG removed
-    nextId: Activity_16
-    previousId: Activity_14
-    timelineId: ''
 - id: 82
   properties:
     _type: Activity
@@ -659,9 +578,6 @@
     instanceType: Activity
     label: Activity_16
     name: ECG
-    nextId: Activity_17
-    previousId: Activity_15
-    timelineId: ''
 - id: 83
   properties:
     _type: Activity
@@ -671,9 +587,6 @@
     instanceType: Activity
     label: Activity_17
     name: Placebo TTS test
-    nextId: Activity_18
-    previousId: Activity_16
-    timelineId: ''
 - id: 84
   properties:
     _type: Activity
@@ -683,9 +596,6 @@
     instanceType: Activity
     label: Activity_18
     name: CT scan
-    nextId: Activity_19
-    previousId: Activity_17
-    timelineId: ''
 - id: 85
   properties:
     _type: Activity
@@ -695,9 +605,6 @@
     instanceType: Activity
     label: Activity_19
     name: Concomitant medications
-    nextId: Activity_20
-    previousId: Activity_18
-    timelineId: ''
 - id: 86
   properties:
     _type: Activity
@@ -707,9 +614,6 @@
     instanceType: Activity
     label: Activity_20
     name: Hematology
-    nextId: Activity_21
-    previousId: Activity_19
-    timelineId: ''
 - id: 87
   properties:
     _type: Activity
@@ -719,9 +623,6 @@
     instanceType: Activity
     label: Activity_21
     name: Chemistry
-    nextId: Activity_22
-    previousId: Activity_20
-    timelineId: ''
 - id: 88
   properties:
     _type: Activity
@@ -731,9 +632,6 @@
     instanceType: Activity
     label: Activity_22
     name: Uninalysis
-    nextId: Activity_23
-    previousId: Activity_21
-    timelineId: ''
 - id: 89
   properties:
     _type: Activity
@@ -743,9 +641,6 @@
     instanceType: Activity
     label: Activity_23
     name: Plasma Specimen (Xanomeline)
-    nextId: Activity_24
-    previousId: Activity_22
-    timelineId: ''
 - id: 90
   properties:
     _type: Activity
@@ -755,9 +650,6 @@
     instanceType: Activity
     label: Activity_24
     name: Hemoglobin A1C
-    nextId: Activity_25
-    previousId: Activity_23
-    timelineId: ''
 - id: 91
   properties:
     _type: Activity
@@ -767,9 +659,6 @@
     instanceType: Activity
     label: Activity_25
     name: Study drug
-    nextId: Activity_26
-    previousId: Activity_24
-    timelineId: ''
 - id: 92
   properties:
     _type: Activity
@@ -779,9 +668,6 @@
     instanceType: Activity
     label: Activity_26
     name: TTS Acceptability Survey
-    nextId: Activity_27
-    previousId: Activity_25
-    timelineId: ''
 - id: 93
   properties:
     _type: Activity
@@ -791,9 +677,6 @@
     instanceType: Activity
     label: Activity_27
     name: ADAS-Cog
-    nextId: Activity_28
-    previousId: Activity_26
-    timelineId: ''
 - id: 94
   properties:
     _type: Activity
@@ -803,9 +686,6 @@
     instanceType: Activity
     label: Activity_28
     name: CIBIC+
-    nextId: Activity_29
-    previousId: Activity_27
-    timelineId: ''
 - id: 95
   properties:
     _type: Activity
@@ -815,9 +695,6 @@
     instanceType: Activity
     label: Activity_29
     name: DAD
-    nextId: Activity_30
-    previousId: Activity_28
-    timelineId: ''
 - id: 96
   properties:
     _type: Activity
@@ -827,9 +704,6 @@
     instanceType: Activity
     label: Activity_30
     name: NPI-X
-    nextId: Activity_31
-    previousId: Activity_29
-    timelineId: ''
 - id: 97
   properties:
     _type: Activity
@@ -839,9 +713,6 @@
     instanceType: Activity
     label: Activity_31
     name: Adverse events
-    nextId: Activity_32
-    previousId: Activity_30
-    timelineId: ''
 - id: 98
   properties:
     _type: Activity
@@ -851,9 +722,6 @@
     instanceType: Activity
     label: Activity_32
     name: Check adverse events
-    nextId: Activity_33
-    previousId: Activity_31
-    timelineId: ScheduleTimeline_1
 - id: 99
   properties:
     _type: Activity
@@ -863,9 +731,6 @@
     instanceType: Activity
     label: Activity_33
     name: Supine
-    nextId: Activity_34
-    previousId: Activity_32
-    timelineId: ''
 - id: 100
   properties:
     _type: Activity
@@ -875,9 +740,6 @@
     instanceType: Activity
     label: Activity_34
     name: Vital Signs Supine
-    nextId: Activity_35
-    previousId: Activity_33
-    timelineId: ''
 - id: 101
   properties:
     _type: Activity
@@ -887,9 +749,6 @@
     instanceType: Activity
     label: Activity_35
     name: Stand
-    nextId: Activity_36
-    previousId: Activity_34
-    timelineId: ''
 - id: 102
   properties:
     _type: Activity
@@ -899,9 +758,6 @@
     instanceType: Activity
     label: Activity_36
     name: Vital Signs Standing
-    nextId: null
-    previousId: Activity_35
-    timelineId: ''
 - id: 103
   properties:
     _type: Masking
@@ -1395,8 +1251,6 @@
     instanceType: ScheduledActivityInstance
     label: ScheduledActivityInstance_9
     name: SCREEN1
-    timelineExitId: null
-    timelineId: null
 - id: 156
   properties:
     _type: ScheduledActivityInstance
@@ -1405,8 +1259,6 @@
     instanceType: ScheduledActivityInstance
     label: ScheduledActivityInstance_10
     name: SCREEN2
-    timelineExitId: null
-    timelineId: null
 - id: 157
   properties:
     _type: ScheduledActivityInstance
@@ -1415,8 +1267,6 @@
     instanceType: ScheduledActivityInstance
     label: ScheduledActivityInstance_11
     name: DOSE
-    timelineExitId: null
-    timelineId: null
 - id: 158
   properties:
     _type: ScheduledActivityInstance
@@ -1425,8 +1275,6 @@
     instanceType: ScheduledActivityInstance
     label: ScheduledActivityInstance_12
     name: WK2
-    timelineExitId: null
-    timelineId: null
 - id: 159
   properties:
     _type: ScheduledActivityInstance
@@ -1435,8 +1283,6 @@
     instanceType: ScheduledActivityInstance
     label: ScheduledActivityInstance_13
     name: WK4
-    timelineExitId: null
-    timelineId: null
 - id: 160
   properties:
     _type: ScheduledActivityInstance
@@ -1445,8 +1291,6 @@
     instanceType: ScheduledActivityInstance
     label: ScheduledActivityInstance_14
     name: WK6
-    timelineExitId: null
-    timelineId: null
 - id: 161
   properties:
     _type: ScheduledActivityInstance
@@ -1455,8 +1299,6 @@
     instanceType: ScheduledActivityInstance
     label: ScheduledActivityInstance_15
     name: WK8
-    timelineExitId: null
-    timelineId: null
 - id: 162
   properties:
     _type: ScheduledActivityInstance
@@ -1465,8 +1307,6 @@
     instanceType: ScheduledActivityInstance
     label: ScheduledActivityInstance_16
     name: WK8N
-    timelineExitId: null
-    timelineId: null
 - id: 163
   properties:
     _type: ScheduledActivityInstance
@@ -1475,8 +1315,6 @@
     instanceType: ScheduledActivityInstance
     label: ScheduledActivityInstance_17
     name: WK12
-    timelineExitId: null
-    timelineId: null
 - id: 164
   properties:
     _type: ScheduledActivityInstance
@@ -1485,8 +1323,6 @@
     instanceType: ScheduledActivityInstance
     label: ScheduledActivityInstance_18
     name: WK12N
-    timelineExitId: null
-    timelineId: null
 - id: 165
   properties:
     _type: ScheduledActivityInstance
@@ -1495,8 +1331,6 @@
     instanceType: ScheduledActivityInstance
     label: ScheduledActivityInstance_19
     name: WK16
-    timelineExitId: null
-    timelineId: null
 - id: 166
   properties:
     _type: ScheduledActivityInstance
@@ -1505,8 +1339,6 @@
     instanceType: ScheduledActivityInstance
     label: ScheduledActivityInstance_20
     name: WK16N
-    timelineExitId: null
-    timelineId: null
 - id: 167
   properties:
     _type: ScheduledActivityInstance
@@ -1515,8 +1347,6 @@
     instanceType: ScheduledActivityInstance
     label: ScheduledActivityInstance_21
     name: WK20
-    timelineExitId: null
-    timelineId: null
 - id: 168
   properties:
     _type: ScheduledActivityInstance
@@ -1525,8 +1355,6 @@
     instanceType: ScheduledActivityInstance
     label: ScheduledActivityInstance_22
     name: WK20N
-    timelineExitId: null
-    timelineId: null
 - id: 169
   properties:
     _type: ScheduledActivityInstance
@@ -1535,8 +1363,6 @@
     instanceType: ScheduledActivityInstance
     label: ScheduledActivityInstance_23
     name: WK24
-    timelineExitId: null
-    timelineId: null
 - id: 170
   properties:
     _type: ScheduledActivityInstance
@@ -1545,14 +1371,11 @@
     instanceType: ScheduledActivityInstance
     label: ScheduledActivityInstance_24
     name: WK26
-    timelineExitId: ScheduleTimelineExit_4
-    timelineId: null
 - id: 105
   properties:
     _type: ScheduleTimeline
     description: This is the main timeline for the study design.
     entryCondition: Potential subject identified
-    entryId: ScheduledActivityInstance_9
     id: ScheduleTimeline_4
     instanceType: ScheduleTimeline
     label: ScheduleTimeline_4
@@ -1601,14 +1424,11 @@
     instanceType: ScheduledActivityInstance
     label: ScheduledActivityInstance_1
     name: AE
-    timelineExitId: ScheduleTimelineExit_1
-    timelineId: null
 - id: 171
   properties:
     _type: ScheduleTimeline
     description: This is the adverse event timeline
     entryCondition: Subject suffers an adverse event
-    entryId: ScheduledActivityInstance_1
     id: ScheduleTimeline_1
     instanceType: ScheduleTimeline
     label: ScheduleTimeline_1
@@ -1657,14 +1477,11 @@
     instanceType: ScheduledActivityInstance
     label: ScheduledActivityInstance_2
     name: ET
-    timelineExitId: ScheduleTimelineExit_2
-    timelineId: null
 - id: 177
   properties:
     _type: ScheduleTimeline
     description: This is the early termination processing
     entryCondition: Subject terminates the study early
-    entryId: ScheduledActivityInstance_2
     id: ScheduleTimeline_2
     instanceType: ScheduleTimeline
     label: ScheduleTimeline_2
@@ -1858,8 +1675,6 @@
     instanceType: ScheduledActivityInstance
     label: ScheduledActivityInstance_3
     name: VS_5MIN
-    timelineExitId: null
-    timelineId: null
 - id: 204
   properties:
     _type: ScheduledActivityInstance
@@ -1868,8 +1683,6 @@
     instanceType: ScheduledActivityInstance
     label: ScheduledActivityInstance_4
     name: VS_SUPINE
-    timelineExitId: null
-    timelineId: null
 - id: 205
   properties:
     _type: ScheduledActivityInstance
@@ -1878,8 +1691,6 @@
     instanceType: ScheduledActivityInstance
     label: ScheduledActivityInstance_5
     name: VS_1MIN
-    timelineExitId: null
-    timelineId: null
 - id: 206
   properties:
     _type: ScheduledActivityInstance
@@ -1888,8 +1699,6 @@
     instanceType: ScheduledActivityInstance
     label: ScheduledActivityInstance_6
     name: VS_STAND1
-    timelineExitId: null
-    timelineId: null
 - id: 207
   properties:
     _type: ScheduledActivityInstance
@@ -1898,8 +1707,6 @@
     instanceType: ScheduledActivityInstance
     label: ScheduledActivityInstance_7
     name: VS_2MIN
-    timelineExitId: null
-    timelineId: null
 - id: 208
   properties:
     _type: ScheduledActivityInstance
@@ -1908,14 +1715,11 @@
     instanceType: ScheduledActivityInstance
     label: ScheduledActivityInstance_8
     name: VS_STAND3
-    timelineExitId: ScheduleTimelineExit_3
-    timelineId: null
 - id: 183
   properties:
     _type: ScheduleTimeline
     description: BP Profile
     entryCondition: Automatic execution
-    entryId: ScheduledActivityInstance_3
     id: ScheduleTimeline_3
     instanceType: ScheduleTimeline
     label: ScheduleTimeline_3
@@ -1981,12 +1785,7 @@
 - id: 216
   properties:
     _type: Condition
-    appliesToIds:
-    - Activity_24
-    contextIds:
-    - ScheduledActivityInstance_9
     description: Hemoglobin A<sup>1C</sup> and insulin-dependent subjects
-    dictionaryId: null
     id: Condition_1
     instanceType: Condition
     label: Condition_1
@@ -1995,15 +1794,7 @@
 - id: 217
   properties:
     _type: Condition
-    appliesToIds:
-    - Activity_27
-    - Activity_28
-    - Activity_29
-    - Activity_30
-    contextIds:
-    - ScheduledActivityInstance_9
     description: Questionnaire practice condition
-    dictionaryId: null
     id: Condition_2
     instanceType: Condition
     label: Condition_2
@@ -2082,7 +1873,6 @@
       id: Code_144
       instanceType: Code
     description: The main design for the study
-    documentVersionId: null
     elements: {}
     epochs: {}
     estimands: []
@@ -2227,7 +2017,6 @@
       id: Code_4
       instanceType: Code
     dateValues: {}
-    documentVersionId: StudyProtocolDocumentVersion_1
     id: StudyVersion_1
     instanceType: StudyVersion
     label: StudyVersion_1
