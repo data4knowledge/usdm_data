@@ -1,4 +1,4 @@
-import os
+import argparse
 import sys
 import json
 import requests
@@ -34,16 +34,22 @@ class Service():
       self.display_response("Get", endpoint_url, r)
       return r.json()
 
-
 def file_read(filename):
   f = open('%s.json' % (filename))
   return json.load(f)
 
 if __name__ == "__main__":
+  parser = argparse.ArgumentParser(
+    prog='USDM Inject Program',
+    description='Will send a USDM JSON file to a specified endpoint',
+    epilog='Note: Not that sophisticated! :)'
+  )
+  parser.add_argument('filename', help="The name of the JSON file. Provide the full path but without the JSON extension") 
+  parser.add_argument('endpoint', help="The name of the endpoint. Can be web or localhost.")
+  args = parser.parse_args()
+  filename = args.filename
+  endpoint = args.endpoint
   
-  endpoint = sys.argv[1]
-  filename = sys.argv[2]
   service = Service(endpoint)
-  
   data = file_read(filename)
   service.post("studyDefinitions", json.dumps(data))
