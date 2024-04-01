@@ -28,16 +28,18 @@ def write_yaml_file(filename, data):
     return yaml.dump(data, f, default_flow_style=False)
 
 def get_section_number(text):
-  parts = text.split(' ')
-  if parts[0][0].isdigit():
-    section_number = parts[0]
-    if len(parts) > 1 and parts[1].startswith('.'):
-      section_number = f"{section_number}."
-    return section_number
-  elif parts[0].lower() == 'appendix':
-    if len(parts) > 1: 
-      section_number = f"{parts[0]} {parts[1]}"
+  if text.strip():
+    #print(f"TEXT: '{text}'")
+    parts = text.strip().split(' ')
+    if parts[0][0].isdigit():
+      section_number = parts[0]
+      if len(parts) > 1 and parts[1].startswith('.'):
+        section_number = f"{section_number}."
       return section_number
+    elif parts[0].lower() == 'appendix':
+      if len(parts) > 1: 
+        section_number = f"{parts[0]} {parts[1]}"
+        return section_number
   return None
 
 def get_section_title(text):
