@@ -25,8 +25,8 @@ delete_tag_keep_content:
   #   class: s13
   # - tag: span
   #   class: s14
-  # - tag: span
-  #   class: s15
+  - tag: span
+    class: s15
   # - tag: span
   #   class: s16
   # - tag: span
@@ -197,36 +197,36 @@ delete_tag_keep_content:
   #   class: s100
   # - tag: span
   #   class: s101
-delete_tag_and_content:
-  - tag: p
-    class: p1
-  - tag: p
-    class: p3
+delete_tag_and_content: []
+  # - tag: p
+  #   class: p1
+  # - tag: p
+  #   class: p3
   # - tag: p
   #   class: p2
 replace_tag: 
   - from:
       - tag: p
-        class: p2
+        class: p3
     to:
       tag: h1
       kill: 
       - b
-  - from:
-      - tag: p
-        class: p4
-    to:
-      tag: h1
-      kill: 
-      - b
-  - from:
-      - tag: p
-        class: p6
-    to:
-      tag: h1
-      kill: 
-      - b
-      - i
+  # - from:
+  #     - tag: p
+  #       class: p4
+  #   to:
+  #     tag: h1
+  #     kill: 
+  #     - b
+  # - from:
+  #     - tag: p
+  #       class: p6
+  #   to:
+  #     tag: h1
+  #     kill: 
+  #     - b
+  #     - i
   # - from:
   #     - tag: p
   #       class: p7
@@ -258,22 +258,22 @@ replace_tag:
 delete_attribute:
   - tag: p
     attribute: class
-    value: p5
-  # - tag: p
-  #   attribute: class
-  #   value: p7
+    value: p1
   - tag: p
     attribute: class
-    value: p8
+    value: p2
+  # - tag: p
+  #   attribute: class
+  #   value: p8
   # - tag: p
   #   attribute: class
   #   value: p9
-  - tag: p
-    attribute: class
-    value: p10
-  - tag: p
-    attribute: class
-    value: p11
+  # - tag: p
+  #   attribute: class
+  #   value: p10
+  # - tag: p
+  #   attribute: class
+  #   value: p11
   # - tag: p
   #   attribute: class
   #   value: p13
