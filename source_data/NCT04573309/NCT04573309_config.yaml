@@ -318,3 +318,7 @@ replace_string:
     to: ''
   - from: '</p>\n<p>'
     to: ''
+  - from: '<p> \n</p>'
+    to: ''
+  - from: '<p></p>'
+    to: ''
