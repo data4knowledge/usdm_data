@@ -316,9 +316,11 @@ replace_string:
     to: "'"
   - from: '<p class="p3"><br/></p>'
     to: ''
-  - from: '</p>\n<p>'
-    to: ''
-  - from: '<p> \n</p>'
-    to: ''
+  # - from: "<p> \n</p>"
+  #   to: ''
+  # - from: "<p>\n</p>\n"
+  #   to: ''
+  # - from: "<p>\n</p>"
+  #   to: ''
   - from: '<p></p>'
     to: ''

@@ -1,3 +1,4 @@
+import re
 import argparse
 from bs4 import BeautifulSoup
 import yaml
@@ -148,17 +149,22 @@ if __name__ == "__main__":
       br.replace_with(' ')
     tag.text.replace('\n', ' ')
 
-  # Manual string replacements
+  # Get the resulting text
   text = str(soup)
+
+  # Regex: Replace 'page N of N'
+  print(f"Replacing 'Page N of M'")
+  text = re.sub(r'(\s?Page \d{1,4} of \d{1,4})', '', text)
+
+  # Manual string replacements
   for item in actions['replace_string']:
     print(f"Replacing text, '{item['from']}' --> '{item['to']}'")
     text = text.replace(item['from'], item['to'])
 
-  # Replace 'page N of N'
-  import re
-  print(f"Replacing 'Page N of M'")
-  text = re.sub(r'(\s?Page \d{1,4} of \d{1,4})', '', text)
+  # Regex: Clean empty paragraphs with new lines
+  text = re.sub("<p>\s*</p>\s*", '', text)
 
+  # Now deal with headings
   soup = BeautifulSoup(text, 'html.parser')
 
   body = soup.find('body')  
