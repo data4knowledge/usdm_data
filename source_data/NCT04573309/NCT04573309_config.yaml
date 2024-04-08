@@ -300,6 +300,10 @@ delete_attribute:
   #   attribute: class
   #   value: p25
 replace_string:
+  - from: 'Alexion Confidential'
+    to: ''
+  - from: 'Protocol Amendment 3.1 (US) 18 Mar 2022'
+    to: ''
   - from: '</b><b>'
     to: ''
   - from: '</b> <b>'
