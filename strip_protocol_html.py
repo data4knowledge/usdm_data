@@ -6,7 +6,7 @@ import csv
 section_num = -1000
 
 def write_html_file(filename, contents):
-  with open(f'{filename}_stripped.html', 'w', encoding='utf-8') as f:
+  with open(f'{filename}_stripped.html', 'w') as f:
     f.write(contents)
 
 def read_html_file(filename):
@@ -142,7 +142,7 @@ if __name__ == "__main__":
       match.unwrap()
 
   # Clean out paragraphs of line breaks
-  print(f"Removing breaks and newlines from paragraphs")
+  print(f"Removing breaks and newlines from paragraphs ... this takes some time!")
   for tag in soup.findAll('p'):
     for br in soup.findAll('br'):
       br.replace_with(' ')
@@ -153,6 +153,11 @@ if __name__ == "__main__":
   for item in actions['replace_string']:
     print(f"Replacing text, '{item['from']}' --> '{item['to']}'")
     text = text.replace(item['from'], item['to'])
+
+  # Replace 'page N of N'
+  import re
+  print(f"Replacing 'Page N of M'")
+  text = re.sub(r'(\s?Page \d{1,4} of \d{1,4})', '', text)
 
   soup = BeautifulSoup(text, 'html.parser')
 
