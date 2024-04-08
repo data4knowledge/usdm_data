@@ -86,7 +86,7 @@ if __name__ == "__main__":
 
   parser = argparse.ArgumentParser(
     prog='HTML Tag Stripping Utility',
-    description='Will strip unwanted tags from a HTML fil based on a configuration file',
+    description='Will strip unwanted tags from a HTML file based on a configuration file',
     epilog='Note: Not that sophisticated! :)'
   )
   parser.add_argument('filename', help="The name of the HTML file with path without the file extension") 
