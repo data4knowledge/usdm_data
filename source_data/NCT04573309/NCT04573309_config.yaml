@@ -9,10 +9,12 @@ delete_tag_keep_content:
     class: s4
   - tag: span
     class: s5
-  # - tag: span
-  #   class: s6
+  - tag: span
+    class: s6
   # - tag: span
   #   class: s7
+  - tag: span
+    class: s8
   - tag: span
     class: s9
   - tag: span
@@ -23,8 +25,8 @@ delete_tag_keep_content:
   #   class: s12
   # - tag: span
   #   class: s13
-  # - tag: span
-  #   class: s14
+  - tag: span
+    class: s14
   - tag: span
     class: s15
   # - tag: span
@@ -262,6 +264,9 @@ delete_attribute:
   - tag: p
     attribute: class
     value: p2
+  - tag: p
+    attribute: class
+    value: p5
   # - tag: p
   #   attribute: class
   #   value: p8
