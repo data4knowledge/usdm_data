@@ -67,8 +67,8 @@ delete_tag_keep_content:
     class: s33
   - tag: span
     class: s34
-  # - tag: span
-  #   class: s35
+  - tag: span
+    class: s35
   # - tag: span
   #   class: s36
   # - tag: span
@@ -91,8 +91,8 @@ delete_tag_keep_content:
     class: s45
   - tag: span
     class: s46
-  # - tag: span
-  #   class: s47
+  - tag: span
+    class: s47
   - tag: span
     class: s48
   # - tag: span
@@ -103,8 +103,8 @@ delete_tag_keep_content:
   #   class: s51
   # - tag: span
   #   class: s52
-  # - tag: span
-  #   class: s53
+  - tag: span
+    class: s53
   # - tag: span
   #   class: s54
   # - tag: span
@@ -121,12 +121,12 @@ delete_tag_keep_content:
   #   class: s60
   # - tag: span
   #   class: s61
-  # - tag: span
-  #   class: s62
-  # - tag: span
-  #   class: s63
-  # - tag: span
-  #   class: s64
+  - tag: span
+    class: s62
+  - tag: span
+    class: s63
+  - tag: span
+    class: s64
   # - tag: span
   #   class: s65
   # - tag: span
@@ -199,13 +199,15 @@ delete_tag_keep_content:
   #   class: s100
   # - tag: span
   #   class: s101
-delete_tag_and_content: []
+delete_tag_and_content:
   # - tag: p
   #   class: p1
   # - tag: p
-  #   class: p3
-  # - tag: p
   #   class: p2
+  # - tag: p
+  #   class: p3
+  - tag: p
+    class: p4
 replace_tag: 
   - from:
       - tag: p
