@@ -4,7 +4,7 @@ log = logging.basicConfig(level=logging.INFO)
 import json
 import yaml
 import csv
-from usdm_excel import USDMExcel
+from usdm_db import USDMDb
 from usdm_info import __package_version__ as code_version
 from usdm_info import __model_version__ as model_version
 
@@ -54,17 +54,18 @@ print (f"\n\nImport Utility, using USDM Python Package v{code_version} supportin
 for study in studies:
   print (f"Processing study {(study['filename'])} ...\n\n")
   file_path = "source_data/%s/%s.xlsx" % (study['path'], study['filename'])
-  x = USDMExcel(file_path)
+  x = USDMDb()
+  errors = x.from_excel(file_path)
   print("\n\nJSON and Errors\n\n")
   save_as_json_file(x.to_json(), study)
-  save_as_csv_file(x.errors(), study)
+  save_as_csv_file(errors, study)
   print("Timeline\n\n")
   save_as_html_file(x.to_timeline(), study, 'timeline')
-  for view in [USDMExcel.FULL_VIEW, USDMExcel.TIMELINE_VIEW]:
-    print(f"{str(view)} view\n\n")
-    nodes, edges = x.to_nodes_and_edges(view)
-    save_as_node_file(nodes, study, view)
-    save_as_edges_file(edges, study, view)
+  # for view in [USDMDb.FULL_VIEW, USDMDb.TIMELINE_VIEW]:
+  #   print(f"{str(view)} view\n\n")
+  #   nodes, edges = x.to_nodes_and_edges(view)
+  #   save_as_node_file(nodes, study, view)
+  #   save_as_edges_file(edges, study, view)
   if study['protocol']:
     print(f"\n\nProtocol HTML and PDF (watermark={study['watermark']}, highlight={study['highlight']})\n\n")
     if study['highlight']:
@@ -72,5 +73,5 @@ for study in studies:
     save_as_html_file(x.to_html(), study, 'USDM')
     save_as_html_file(x.to_timeline(), study, 'timeline')
     save_as_pdf_file(x.to_pdf(study['watermark']), study, 'USDM')
-  print(f"\n\nERRORS:\n{x.errors()}\n\n")
+  print(f"\n\nERRORS:\n{errors}\n\n")
   print(f"----- + -----\n\n")

@@ -41,8 +41,8 @@ if __name__ == "__main__":
 
   full_filename = f"{filename}.xlsx"
   log = logging.basicConfig(level=level)
-    
-  from usdm_excel import USDMExcel
+  
+  from usdm_db import USDMDb
   from usdm_info import __package_version__ as code_version
   from usdm_info import __model_version__ as model_version
   
@@ -52,11 +52,12 @@ if __name__ == "__main__":
   print("")
   print("")
 
-  excel = USDMExcel(full_filename)
-  save_as_json_file(json.dumps(json.loads(excel.to_json())), filename)
-  save_as_csv_file(excel.errors(), filename)
+  usdm = USDMDb()
+  errors = usdm.from_excel(full_filename)
+  save_as_json_file(json.dumps(json.loads(usdm.to_json())), filename)
+  save_as_csv_file(errors, filename)
   if highlight:
-    save_as_html_file(excel.to_html(highlight), filename, 'highlight')
-  save_as_html_file(excel.to_html(), filename, 'USDM')
-  save_as_pdf_file(excel.to_pdf(watermark), filename, 'USDM')
-  save_as_html_file(excel.to_timeline(), filename, 'timeline')
+    save_as_html_file(usdm.to_html(highlight), filename, 'highlight')
+  save_as_html_file(usdm.to_html(), filename, 'USDM')
+  save_as_pdf_file(usdm.to_pdf(watermark), filename, 'USDM')
+  save_as_html_file(usdm.to_timeline(), filename, 'timeline')
