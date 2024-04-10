@@ -40,7 +40,7 @@ def save_as_edges_file(nodes, details, view):
   save_as_yaml_file(nodes, f"source_data/{details['path']}/{details['filename']}_{suffix}edges.yaml")
 
 def file_suffix(view):
-  if view == USDMExcel.TIMELINE_VIEW:
+  if view == USDMDb.TIMELINE_VIEW:
     return 'timeline_'
   return ''
 
