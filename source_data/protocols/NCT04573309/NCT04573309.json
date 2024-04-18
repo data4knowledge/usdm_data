@@ -5811,33 +5811,15 @@
               {
                 "id": "Indication_1",
                 "name": "IND1",
-                "label": "Alzheimer's disease",
-                "description": "Alzheimer's disease",
+                "label": "Wilson's Disease",
+                "description": "Wilson's Disease",
                 "codes": [
                   {
                     "id": "Code_475",
-                    "code": "G30.9",
-                    "codeSystem": "ICD-10-CM",
-                    "codeSystemVersion": "1",
-                    "decode": "Alzheimer's disease; unspecified",
-                    "instanceType": "Code"
-                  }
-                ],
-                "isRareDisease": false,
-                "instanceType": "Indication"
-              },
-              {
-                "id": "Indication_2",
-                "name": "IND2",
-                "label": "Alzheimer's disease",
-                "description": "Alzheimer's disease",
-                "codes": [
-                  {
-                    "id": "Code_476",
-                    "code": "26929004",
+                    "code": "88518009",
                     "codeSystem": "SNOMED",
                     "codeSystemVersion": "January 31, 2018",
-                    "decode": "Alzheimer's disease",
+                    "decode": "Wilson's disease",
                     "instanceType": "Code"
                   }
                 ],
@@ -5860,7 +5842,229 @@
                 "instanceType": "Masking"
               }
             ],
-            "studyInterventions": [],
+            "studyInterventions": [
+              {
+                "id": "StudyIntervention_1",
+                "name": "ALXN1840",
+                "label": "ALXN1840",
+                "description": "ALXN1840 (formerly WTX101)",
+                "role": {
+                  "id": "Code_481",
+                  "code": "C41161",
+                  "codeSystem": "http://www.cdisc.org",
+                  "codeSystemVersion": "2023-12-15",
+                  "decode": "Experimental Intervention",
+                  "instanceType": "Code"
+                },
+                "type": {
+                  "id": "Code_482",
+                  "code": "C1909",
+                  "codeSystem": "http://www.cdisc.org",
+                  "codeSystemVersion": "2023-12-15",
+                  "decode": "Pharmacologic Substance",
+                  "instanceType": "Code"
+                },
+                "minimumResponseDuration": {
+                  "id": "Quantity_4",
+                  "value": 1.0,
+                  "unit": {
+                    "id": "AliasCode_82",
+                    "standardCode": {
+                      "id": "Code_485",
+                      "code": "C25301",
+                      "codeSystem": "http://www.cdisc.org",
+                      "codeSystemVersion": "2023-12-15",
+                      "decode": "Day",
+                      "instanceType": "Code"
+                    },
+                    "standardCodeAliases": [],
+                    "instanceType": "AliasCode"
+                  },
+                  "instanceType": "Quantity"
+                },
+                "codes": [
+                  {
+                    "id": "Code_480",
+                    "code": "ALXN1840",
+                    "codeSystem": "SPONSOR",
+                    "codeSystemVersion": "12",
+                    "decode": "ALXN1840",
+                    "instanceType": "Code"
+                  }
+                ],
+                "administrations": [
+                  {
+                    "id": "AgentAdministration_1",
+                    "name": "15_MG",
+                    "label": "",
+                    "description": "15 mg/day",
+                    "duration": {
+                      "id": "AdministrationDuration_1",
+                      "quantity": {
+                        "id": "Quantity_2",
+                        "value": 28.0,
+                        "unit": {
+                          "id": "AliasCode_78",
+                          "standardCode": {
+                            "id": "Code_476",
+                            "code": "C25301",
+                            "codeSystem": "http://www.cdisc.org",
+                            "codeSystemVersion": "2023-12-15",
+                            "decode": "Day",
+                            "instanceType": "Code"
+                          },
+                          "standardCodeAliases": [],
+                          "instanceType": "AliasCode"
+                        },
+                        "instanceType": "Quantity"
+                      },
+                      "description": "",
+                      "durationWillVary": true,
+                      "reasonDurationWillVary": "Need reason",
+                      "instanceType": "AdministrationDuration"
+                    },
+                    "dose": {
+                      "id": "Quantity_3",
+                      "value": 15.0,
+                      "unit": {
+                        "id": "AliasCode_79",
+                        "standardCode": {
+                          "id": "Code_478",
+                          "code": "C28253",
+                          "codeSystem": "http://www.cdisc.org",
+                          "codeSystemVersion": "2023-12-15",
+                          "decode": "Milligram",
+                          "instanceType": "Code"
+                        },
+                        "standardCodeAliases": [],
+                        "instanceType": "AliasCode"
+                      },
+                      "instanceType": "Quantity"
+                    },
+                    "route": {
+                      "id": "AliasCode_80",
+                      "standardCode": {
+                        "id": "Code_477",
+                        "code": "C38288",
+                        "codeSystem": "http://www.cdisc.org",
+                        "codeSystemVersion": "2023-12-15",
+                        "decode": "Oral Route of Administration",
+                        "instanceType": "Code"
+                      },
+                      "standardCodeAliases": [],
+                      "instanceType": "AliasCode"
+                    },
+                    "frequency": {
+                      "id": "AliasCode_81",
+                      "standardCode": {
+                        "id": "Code_479",
+                        "code": "C25473",
+                        "codeSystem": "http://www.cdisc.org",
+                        "codeSystemVersion": "2023-12-15",
+                        "decode": "Daily",
+                        "instanceType": "Code"
+                      },
+                      "standardCodeAliases": [],
+                      "instanceType": "AliasCode"
+                    },
+                    "instanceType": "AgentAdministration"
+                  },
+                  {
+                    "id": "AgentAdministration_2",
+                    "name": "30_MG",
+                    "label": "",
+                    "description": "30 mg/day (administered as 2 \u00d7 15 mg ALXN1840 tablets)",
+                    "duration": {
+                      "id": "AdministrationDuration_2",
+                      "quantity": {
+                        "id": "Quantity_5",
+                        "value": 11.0,
+                        "unit": {
+                          "id": "AliasCode_83",
+                          "standardCode": {
+                            "id": "Code_486",
+                            "code": "C25301",
+                            "codeSystem": "http://www.cdisc.org",
+                            "codeSystemVersion": "2023-12-15",
+                            "decode": "Day",
+                            "instanceType": "Code"
+                          },
+                          "standardCodeAliases": [],
+                          "instanceType": "AliasCode"
+                        },
+                        "instanceType": "Quantity"
+                      },
+                      "description": "",
+                      "durationWillVary": true,
+                      "reasonDurationWillVary": "Need reason",
+                      "instanceType": "AdministrationDuration"
+                    },
+                    "dose": {
+                      "id": "Quantity_6",
+                      "value": 30.0,
+                      "unit": {
+                        "id": "AliasCode_84",
+                        "standardCode": {
+                          "id": "Code_488",
+                          "code": "C28253",
+                          "codeSystem": "http://www.cdisc.org",
+                          "codeSystemVersion": "2023-12-15",
+                          "decode": "Milligram",
+                          "instanceType": "Code"
+                        },
+                        "standardCodeAliases": [],
+                        "instanceType": "AliasCode"
+                      },
+                      "instanceType": "Quantity"
+                    },
+                    "route": {
+                      "id": "AliasCode_85",
+                      "standardCode": {
+                        "id": "Code_487",
+                        "code": "C38288",
+                        "codeSystem": "http://www.cdisc.org",
+                        "codeSystemVersion": "2023-12-15",
+                        "decode": "Oral Route of Administration",
+                        "instanceType": "Code"
+                      },
+                      "standardCodeAliases": [],
+                      "instanceType": "AliasCode"
+                    },
+                    "frequency": {
+                      "id": "AliasCode_86",
+                      "standardCode": {
+                        "id": "Code_489",
+                        "code": "C25473",
+                        "codeSystem": "http://www.cdisc.org",
+                        "codeSystemVersion": "2023-12-15",
+                        "decode": "Daily",
+                        "instanceType": "Code"
+                      },
+                      "standardCodeAliases": [],
+                      "instanceType": "AliasCode"
+                    },
+                    "instanceType": "AgentAdministration"
+                  }
+                ],
+                "productDesignation": {
+                  "id": "Code_484",
+                  "code": "C99909x1",
+                  "codeSystem": "http://www.cdisc.org",
+                  "codeSystemVersion": "2023-12-15",
+                  "decode": "IMP",
+                  "instanceType": "Code"
+                },
+                "pharmacologicClass": {
+                  "id": "Code_483",
+                  "code": "A",
+                  "codeSystem": "FDA",
+                  "codeSystemVersion": "None set",
+                  "decode": "B",
+                  "instanceType": "Code"
+                },
+                "instanceType": "StudyIntervention"
+              }
+            ],
             "objectives": [
               {
                 "id": "Objective_1",
@@ -5871,7 +6075,7 @@
                 "dictionaryId": null,
                 "instanceType": "Objective",
                 "level": {
-                  "id": "Code_480",
+                  "id": "Code_493",
                   "code": "C85826",
                   "codeSystem": "http://www.cdisc.org",
                   "codeSystemVersion": "2023-12-15",
@@ -5889,7 +6093,7 @@
                     "instanceType": "Endpoint",
                     "purpose": "",
                     "level": {
-                      "id": "Code_479",
+                      "id": "Code_492",
                       "code": "C94496",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-12-15",
@@ -5908,7 +6112,7 @@
                 "dictionaryId": null,
                 "instanceType": "Objective",
                 "level": {
-                  "id": "Code_482",
+                  "id": "Code_495",
                   "code": "C85827",
                   "codeSystem": "http://www.cdisc.org",
                   "codeSystemVersion": "2023-12-15",
@@ -5926,7 +6130,7 @@
                     "instanceType": "Endpoint",
                     "purpose": "",
                     "level": {
-                      "id": "Code_481",
+                      "id": "Code_494",
                       "code": "C139173",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-12-15",
@@ -5945,7 +6149,7 @@
                 "dictionaryId": null,
                 "instanceType": "Objective",
                 "level": {
-                  "id": "Code_484",
+                  "id": "Code_497",
                   "code": "C85827",
                   "codeSystem": "http://www.cdisc.org",
                   "codeSystemVersion": "2023-12-15",
@@ -5963,7 +6167,7 @@
                     "instanceType": "Endpoint",
                     "purpose": "",
                     "level": {
-                      "id": "Code_483",
+                      "id": "Code_496",
                       "code": "C139173",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-12-15",
@@ -5982,7 +6186,7 @@
                 "dictionaryId": null,
                 "instanceType": "Objective",
                 "level": {
-                  "id": "Code_486",
+                  "id": "Code_499",
                   "code": "C85827",
                   "codeSystem": "http://www.cdisc.org",
                   "codeSystemVersion": "2023-12-15",
@@ -6000,7 +6204,7 @@
                     "instanceType": "Endpoint",
                     "purpose": "",
                     "level": {
-                      "id": "Code_485",
+                      "id": "Code_498",
                       "code": "C139173",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-12-15",
@@ -6019,7 +6223,7 @@
                 "dictionaryId": null,
                 "instanceType": "Objective",
                 "level": {
-                  "id": "Code_488",
+                  "id": "Code_501",
                   "code": "C85827",
                   "codeSystem": "http://www.cdisc.org",
                   "codeSystemVersion": "2023-12-15",
@@ -6037,7 +6241,7 @@
                     "instanceType": "Endpoint",
                     "purpose": "",
                     "level": {
-                      "id": "Code_487",
+                      "id": "Code_500",
                       "code": "C139173",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-12-15",
@@ -6056,7 +6260,7 @@
                 "dictionaryId": null,
                 "instanceType": "Objective",
                 "level": {
-                  "id": "Code_490",
+                  "id": "Code_503",
                   "code": "C85827",
                   "codeSystem": "http://www.cdisc.org",
                   "codeSystemVersion": "2023-12-15",
@@ -6074,7 +6278,7 @@
                     "instanceType": "Endpoint",
                     "purpose": "",
                     "level": {
-                      "id": "Code_489",
+                      "id": "Code_502",
                       "code": "C139173",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-12-15",
@@ -6093,7 +6297,7 @@
                 "dictionaryId": null,
                 "instanceType": "Objective",
                 "level": {
-                  "id": "Code_492",
+                  "id": "Code_505",
                   "code": "C85827",
                   "codeSystem": "http://www.cdisc.org",
                   "codeSystemVersion": "2023-12-15",
@@ -6111,7 +6315,7 @@
                     "instanceType": "Endpoint",
                     "purpose": "",
                     "level": {
-                      "id": "Code_491",
+                      "id": "Code_504",
                       "code": "C139173",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-12-15",
@@ -6130,7 +6334,7 @@
                 "dictionaryId": null,
                 "instanceType": "Objective",
                 "level": {
-                  "id": "Code_494",
+                  "id": "Code_507",
                   "code": "C85827",
                   "codeSystem": "http://www.cdisc.org",
                   "codeSystemVersion": "2023-12-15",
@@ -6148,7 +6352,7 @@
                     "instanceType": "Endpoint",
                     "purpose": "",
                     "level": {
-                      "id": "Code_493",
+                      "id": "Code_506",
                       "code": "C139173",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-12-15",
@@ -6167,7 +6371,7 @@
                 "dictionaryId": null,
                 "instanceType": "Objective",
                 "level": {
-                  "id": "Code_496",
+                  "id": "Code_509",
                   "code": "C163559",
                   "codeSystem": "http://www.cdisc.org",
                   "codeSystemVersion": "2023-12-15",
@@ -6185,7 +6389,7 @@
                     "instanceType": "Endpoint",
                     "purpose": "",
                     "level": {
-                      "id": "Code_495",
+                      "id": "Code_508",
                       "code": "C170559",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-12-15",
@@ -6204,7 +6408,7 @@
                 "dictionaryId": null,
                 "instanceType": "Objective",
                 "level": {
-                  "id": "Code_498",
+                  "id": "Code_511",
                   "code": "C163559",
                   "codeSystem": "http://www.cdisc.org",
                   "codeSystemVersion": "2023-12-15",
@@ -6222,7 +6426,7 @@
                     "instanceType": "Endpoint",
                     "purpose": "",
                     "level": {
-                      "id": "Code_497",
+                      "id": "Code_510",
                       "code": "C170559",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-12-15",
@@ -6241,7 +6445,7 @@
                 "dictionaryId": null,
                 "instanceType": "Objective",
                 "level": {
-                  "id": "Code_500",
+                  "id": "Code_513",
                   "code": "C163559",
                   "codeSystem": "http://www.cdisc.org",
                   "codeSystemVersion": "2023-12-15",
@@ -6259,7 +6463,7 @@
                     "instanceType": "Endpoint",
                     "purpose": "",
                     "level": {
-                      "id": "Code_499",
+                      "id": "Code_512",
                       "code": "C170559",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-12-15",
@@ -6278,7 +6482,7 @@
                 "dictionaryId": null,
                 "instanceType": "Objective",
                 "level": {
-                  "id": "Code_502",
+                  "id": "Code_515",
                   "code": "C163559",
                   "codeSystem": "http://www.cdisc.org",
                   "codeSystemVersion": "2023-12-15",
@@ -6296,7 +6500,7 @@
                     "instanceType": "Endpoint",
                     "purpose": "",
                     "level": {
-                      "id": "Code_501",
+                      "id": "Code_514",
                       "code": "C170559",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-12-15",
@@ -6315,7 +6519,7 @@
                 "dictionaryId": null,
                 "instanceType": "Objective",
                 "level": {
-                  "id": "Code_504",
+                  "id": "Code_517",
                   "code": "C163559",
                   "codeSystem": "http://www.cdisc.org",
                   "codeSystemVersion": "2023-12-15",
@@ -6333,7 +6537,7 @@
                     "instanceType": "Endpoint",
                     "purpose": "",
                     "level": {
-                      "id": "Code_503",
+                      "id": "Code_516",
                       "code": "C170559",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-12-15",
@@ -6352,7 +6556,7 @@
                 "dictionaryId": null,
                 "instanceType": "Objective",
                 "level": {
-                  "id": "Code_506",
+                  "id": "Code_519",
                   "code": "C163559",
                   "codeSystem": "http://www.cdisc.org",
                   "codeSystemVersion": "2023-12-15",
@@ -6370,7 +6574,7 @@
                     "instanceType": "Endpoint",
                     "purpose": "",
                     "level": {
-                      "id": "Code_505",
+                      "id": "Code_518",
                       "code": "C170559",
                       "codeSystem": "http://www.cdisc.org",
                       "codeSystemVersion": "2023-12-15",
@@ -6405,7 +6609,7 @@
               },
               "plannedSex": [
                 {
-                  "id": "Code_478",
+                  "id": "Code_491",
                   "code": "C49636",
                   "codeSystem": "http://www.cdisc.org",
                   "codeSystemVersion": "2023-12-15",
@@ -6423,7 +6627,7 @@
                   "dictionaryId": null,
                   "instanceType": "EligibilityCriterion",
                   "category": {
-                    "id": "Code_507",
+                    "id": "Code_520",
                     "code": "C25532",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-12-15",
@@ -6444,7 +6648,7 @@
                   "dictionaryId": null,
                   "instanceType": "EligibilityCriterion",
                   "category": {
-                    "id": "Code_508",
+                    "id": "Code_521",
                     "code": "C25532",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-12-15",
@@ -6465,7 +6669,7 @@
                   "dictionaryId": null,
                   "instanceType": "EligibilityCriterion",
                   "category": {
-                    "id": "Code_509",
+                    "id": "Code_522",
                     "code": "C25532",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-12-15",
@@ -6486,7 +6690,7 @@
                   "dictionaryId": null,
                   "instanceType": "EligibilityCriterion",
                   "category": {
-                    "id": "Code_510",
+                    "id": "Code_523",
                     "code": "C25532",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-12-15",
@@ -6507,7 +6711,7 @@
                   "dictionaryId": null,
                   "instanceType": "EligibilityCriterion",
                   "category": {
-                    "id": "Code_511",
+                    "id": "Code_524",
                     "code": "C25532",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-12-15",
@@ -6528,7 +6732,7 @@
                   "dictionaryId": null,
                   "instanceType": "EligibilityCriterion",
                   "category": {
-                    "id": "Code_512",
+                    "id": "Code_525",
                     "code": "C25532",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-12-15",
@@ -6549,7 +6753,7 @@
                   "dictionaryId": null,
                   "instanceType": "EligibilityCriterion",
                   "category": {
-                    "id": "Code_513",
+                    "id": "Code_526",
                     "code": "C25532",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-12-15",
@@ -6570,7 +6774,7 @@
                   "dictionaryId": null,
                   "instanceType": "EligibilityCriterion",
                   "category": {
-                    "id": "Code_514",
+                    "id": "Code_527",
                     "code": "C25532",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-12-15",
@@ -6591,7 +6795,7 @@
                   "dictionaryId": null,
                   "instanceType": "EligibilityCriterion",
                   "category": {
-                    "id": "Code_515",
+                    "id": "Code_528",
                     "code": "C25532",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-12-15",
@@ -6612,7 +6816,7 @@
                   "dictionaryId": null,
                   "instanceType": "EligibilityCriterion",
                   "category": {
-                    "id": "Code_516",
+                    "id": "Code_529",
                     "code": "C25532",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-12-15",
@@ -6633,7 +6837,7 @@
                   "dictionaryId": null,
                   "instanceType": "EligibilityCriterion",
                   "category": {
-                    "id": "Code_517",
+                    "id": "Code_530",
                     "code": "C25532",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-12-15",
@@ -6654,7 +6858,7 @@
                   "dictionaryId": null,
                   "instanceType": "EligibilityCriterion",
                   "category": {
-                    "id": "Code_518",
+                    "id": "Code_531",
                     "code": "C25532",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-12-15",
@@ -6675,7 +6879,7 @@
                   "dictionaryId": null,
                   "instanceType": "EligibilityCriterion",
                   "category": {
-                    "id": "Code_519",
+                    "id": "Code_532",
                     "code": "C25370",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-12-15",
@@ -6696,7 +6900,7 @@
                   "dictionaryId": null,
                   "instanceType": "EligibilityCriterion",
                   "category": {
-                    "id": "Code_520",
+                    "id": "Code_533",
                     "code": "C25370",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-12-15",
@@ -6717,7 +6921,7 @@
                   "dictionaryId": null,
                   "instanceType": "EligibilityCriterion",
                   "category": {
-                    "id": "Code_521",
+                    "id": "Code_534",
                     "code": "C25370",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-12-15",
@@ -6738,7 +6942,7 @@
                   "dictionaryId": null,
                   "instanceType": "EligibilityCriterion",
                   "category": {
-                    "id": "Code_522",
+                    "id": "Code_535",
                     "code": "C25370",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-12-15",
@@ -6759,7 +6963,7 @@
                   "dictionaryId": null,
                   "instanceType": "EligibilityCriterion",
                   "category": {
-                    "id": "Code_523",
+                    "id": "Code_536",
                     "code": "C25370",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-12-15",
@@ -6780,7 +6984,7 @@
                   "dictionaryId": null,
                   "instanceType": "EligibilityCriterion",
                   "category": {
-                    "id": "Code_524",
+                    "id": "Code_537",
                     "code": "C25370",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-12-15",
@@ -6801,7 +7005,7 @@
                   "dictionaryId": null,
                   "instanceType": "EligibilityCriterion",
                   "category": {
-                    "id": "Code_525",
+                    "id": "Code_538",
                     "code": "C25370",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-12-15",
@@ -6822,7 +7026,7 @@
                   "dictionaryId": null,
                   "instanceType": "EligibilityCriterion",
                   "category": {
-                    "id": "Code_526",
+                    "id": "Code_539",
                     "code": "C25370",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-12-15",
@@ -6843,7 +7047,7 @@
                   "dictionaryId": null,
                   "instanceType": "EligibilityCriterion",
                   "category": {
-                    "id": "Code_527",
+                    "id": "Code_540",
                     "code": "C25370",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-12-15",
@@ -6864,7 +7068,7 @@
                   "dictionaryId": null,
                   "instanceType": "EligibilityCriterion",
                   "category": {
-                    "id": "Code_528",
+                    "id": "Code_541",
                     "code": "C25370",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-12-15",
@@ -6885,7 +7089,7 @@
                   "dictionaryId": null,
                   "instanceType": "EligibilityCriterion",
                   "category": {
-                    "id": "Code_529",
+                    "id": "Code_542",
                     "code": "C25370",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-12-15",
@@ -6906,7 +7110,7 @@
                   "dictionaryId": null,
                   "instanceType": "EligibilityCriterion",
                   "category": {
-                    "id": "Code_530",
+                    "id": "Code_543",
                     "code": "C25370",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-12-15",
@@ -6927,7 +7131,7 @@
                   "dictionaryId": null,
                   "instanceType": "EligibilityCriterion",
                   "category": {
-                    "id": "Code_531",
+                    "id": "Code_544",
                     "code": "C25370",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-12-15",
@@ -6948,7 +7152,7 @@
                   "dictionaryId": null,
                   "instanceType": "EligibilityCriterion",
                   "category": {
-                    "id": "Code_532",
+                    "id": "Code_545",
                     "code": "C25370",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-12-15",
@@ -6969,7 +7173,7 @@
                   "dictionaryId": null,
                   "instanceType": "EligibilityCriterion",
                   "category": {
-                    "id": "Code_533",
+                    "id": "Code_546",
                     "code": "C25370",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-12-15",
@@ -6990,7 +7194,7 @@
                   "dictionaryId": null,
                   "instanceType": "EligibilityCriterion",
                   "category": {
-                    "id": "Code_534",
+                    "id": "Code_547",
                     "code": "C25370",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-12-15",
@@ -7011,7 +7215,7 @@
                   "dictionaryId": null,
                   "instanceType": "EligibilityCriterion",
                   "category": {
-                    "id": "Code_535",
+                    "id": "Code_548",
                     "code": "C25370",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-12-15",
@@ -7032,7 +7236,7 @@
                   "dictionaryId": null,
                   "instanceType": "EligibilityCriterion",
                   "category": {
-                    "id": "Code_536",
+                    "id": "Code_549",
                     "code": "C25370",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-12-15",
@@ -7053,7 +7257,7 @@
                   "dictionaryId": null,
                   "instanceType": "EligibilityCriterion",
                   "category": {
-                    "id": "Code_537",
+                    "id": "Code_550",
                     "code": "C25370",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-12-15",
@@ -7071,7 +7275,7 @@
                 "minValue": 50.0,
                 "maxValue": 100.0,
                 "unit": {
-                  "id": "Code_477",
+                  "id": "Code_490",
                   "code": "C29848",
                   "codeSystem": "http://www.cdisc.org",
                   "codeSystemVersion": "2023-12-15",
@@ -10928,7 +11132,7 @@
                 "name": "SITE_ORG_1",
                 "label": "Site Org",
                 "organizationType": {
-                  "id": "Code_538",
+                  "id": "Code_551",
                   "code": "C70793",
                   "codeSystem": "http://www.cdisc.org",
                   "codeSystemVersion": "2023-12-15",
@@ -10946,7 +11150,7 @@
                   "state": "state",
                   "postalCode": "postal_code",
                   "country": {
-                    "id": "Code_539",
+                    "id": "Code_552",
                     "code": "GBR",
                     "codeSystem": "ISO 3166 1 alpha3",
                     "codeSystemVersion": "2020-08",
