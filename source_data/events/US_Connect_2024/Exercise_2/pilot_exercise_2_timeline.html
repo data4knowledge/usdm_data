@@ -1,0 +1,202 @@
+<!DOCTYPE html><html><head></head><body><h1>Main Timeline</h1><pre class="mermaid">
+graph LR
+ScheduleTimeline_3([Potential subject identified])
+ScheduledActivityInstance_8(ScheduledActivityInstance)
+ScheduleTimeline_3 -->|first| ScheduledActivityInstance_8
+ScheduledActivityInstance_9(ScheduledActivityInstance)
+ScheduledActivityInstance_8 -->|default| ScheduledActivityInstance_9
+ScheduledActivityInstance_10(ScheduledActivityInstance)
+ScheduledActivityInstance_9 -->|default| ScheduledActivityInstance_10
+ScheduledActivityInstance_11(ScheduledActivityInstance)
+ScheduledActivityInstance_10 -->|default| ScheduledActivityInstance_11
+ScheduledActivityInstance_12(ScheduledActivityInstance)
+ScheduledActivityInstance_11 -->|default| ScheduledActivityInstance_12
+ScheduledActivityInstance_13(ScheduledActivityInstance)
+ScheduledActivityInstance_12 -->|default| ScheduledActivityInstance_13
+ScheduledActivityInstance_14(ScheduledActivityInstance)
+ScheduledActivityInstance_13 -->|default| ScheduledActivityInstance_14
+ScheduledActivityInstance_15(ScheduledActivityInstance)
+ScheduledActivityInstance_14 -->|default| ScheduledActivityInstance_15
+ScheduledActivityInstance_16(ScheduledActivityInstance)
+ScheduledActivityInstance_15 -->|default| ScheduledActivityInstance_16
+ScheduledActivityInstance_17(ScheduledActivityInstance)
+ScheduledActivityInstance_16 -->|default| ScheduledActivityInstance_17
+ScheduledActivityInstance_18(ScheduledActivityInstance)
+ScheduledActivityInstance_17 -->|default| ScheduledActivityInstance_18
+ScheduledActivityInstance_19(ScheduledActivityInstance)
+ScheduledActivityInstance_18 -->|default| ScheduledActivityInstance_19
+ScheduledActivityInstance_20(ScheduledActivityInstance)
+ScheduledActivityInstance_19 -->|default| ScheduledActivityInstance_20
+ScheduledActivityInstance_21(ScheduledActivityInstance)
+ScheduledActivityInstance_20 -->|default| ScheduledActivityInstance_21
+ScheduledActivityInstance_22(ScheduledActivityInstance)
+ScheduledActivityInstance_21 -->|default| ScheduledActivityInstance_22
+ScheduledActivityInstance_23(ScheduledActivityInstance)
+ScheduledActivityInstance_22 -->|default| ScheduledActivityInstance_23
+ScheduleTimelineExit_3([Exit])
+ScheduledActivityInstance_23 -->|exit| ScheduleTimelineExit_3
+Timing_1((Screening
+Before
+P2W
+None..None))
+Timing_1 -->|from| ScheduledActivityInstance_8
+Timing_1 -->|to| ScheduledActivityInstance_10
+Timing_2((Pre dose
+Before
+P2D
+PT4H..PT0H))
+Timing_2 -->|from| ScheduledActivityInstance_9
+Timing_2 -->|to| ScheduledActivityInstance_10
+Timing_3((Dosing
+Fixed Reference
+P1D
+None..None))
+Timing_3 -->|from| ScheduledActivityInstance_10
+Timing_3 -->|to| ScheduledActivityInstance_10
+Timing_4((Week 2
+After
+P2W
+P3D..P3D))
+Timing_4 -->|from| ScheduledActivityInstance_11
+Timing_4 -->|to| ScheduledActivityInstance_10
+Timing_5((Week 4
+After
+P4W
+P3D..P3D))
+Timing_5 -->|from| ScheduledActivityInstance_12
+Timing_5 -->|to| ScheduledActivityInstance_10
+Timing_6((Week 6
+After
+P6W
+P3D..P3D))
+Timing_6 -->|from| ScheduledActivityInstance_13
+Timing_6 -->|to| ScheduledActivityInstance_10
+Timing_7((Week 8
+After
+P8W
+P3D..P3D))
+Timing_7 -->|from| ScheduledActivityInstance_14
+Timing_7 -->|to| ScheduledActivityInstance_10
+Timing_9((Week 12
+After
+P12W
+P4D..P4D))
+Timing_9 -->|from| ScheduledActivityInstance_16
+Timing_9 -->|to| ScheduledActivityInstance_10
+Timing_11((Week 16
+After
+P16W
+P4D..P4D))
+Timing_11 -->|from| ScheduledActivityInstance_18
+Timing_11 -->|to| ScheduledActivityInstance_10
+Timing_13((Week 20
+After
+P20W
+P4D..P4D))
+Timing_13 -->|from| ScheduledActivityInstance_20
+Timing_13 -->|to| ScheduledActivityInstance_10
+Timing_15((Week 24
+After
+P24W
+P4D..P4D))
+Timing_15 -->|from| ScheduledActivityInstance_22
+Timing_15 -->|to| ScheduledActivityInstance_10
+Timing_16((Week 26
+After
+P26W
+P3D..P3D))
+Timing_16 -->|from| ScheduledActivityInstance_23
+Timing_16 -->|to| ScheduledActivityInstance_10
+Timing_8((Week 8 Home
+After
+P2W
+None..None))
+Timing_8 -->|from| ScheduledActivityInstance_15
+Timing_8 -->|to| ScheduledActivityInstance_14
+Timing_10((Week 12 Home
+After
+P2W
+None..None))
+Timing_10 -->|from| ScheduledActivityInstance_17
+Timing_10 -->|to| ScheduledActivityInstance_16
+Timing_12((Week 16 Home
+After
+P2W
+None..None))
+Timing_12 -->|from| ScheduledActivityInstance_19
+Timing_12 -->|to| ScheduledActivityInstance_18
+Timing_14((Week 20 Home
+After
+P2W
+None..None))
+Timing_14 -->|from| ScheduledActivityInstance_21
+Timing_14 -->|to| ScheduledActivityInstance_20
+</pre><h1>Adverse Event Timeline</h1><pre class="mermaid">
+graph LR
+ScheduleTimeline_1([Subject suffers an adverse event])
+ScheduledActivityInstance_1(ScheduledActivityInstance)
+ScheduleTimeline_1 -->|first| ScheduledActivityInstance_1
+ScheduleTimelineExit_1([Exit])
+ScheduledActivityInstance_1 -->|exit| ScheduleTimelineExit_1
+Timing_17((Adverse Event
+Fixed Reference
+P1D
+None..None))
+Timing_17 -->|from| ScheduledActivityInstance_1
+Timing_17 -->|to| ScheduledActivityInstance_1
+</pre><h1>Vital Sign Blood Pressure Timeline</h1><pre class="mermaid">
+graph LR
+ScheduleTimeline_2([Automatic execution])
+ScheduledActivityInstance_2(ScheduledActivityInstance)
+ScheduleTimeline_2 -->|first| ScheduledActivityInstance_2
+ScheduledActivityInstance_3(ScheduledActivityInstance)
+ScheduledActivityInstance_2 -->|default| ScheduledActivityInstance_3
+ScheduledActivityInstance_4(ScheduledActivityInstance)
+ScheduledActivityInstance_3 -->|default| ScheduledActivityInstance_4
+ScheduledActivityInstance_5(ScheduledActivityInstance)
+ScheduledActivityInstance_4 -->|default| ScheduledActivityInstance_5
+ScheduledActivityInstance_6(ScheduledActivityInstance)
+ScheduledActivityInstance_5 -->|default| ScheduledActivityInstance_6
+ScheduledActivityInstance_7(ScheduledActivityInstance)
+ScheduledActivityInstance_6 -->|default| ScheduledActivityInstance_7
+ScheduleTimelineExit_2([Exit])
+ScheduledActivityInstance_7 -->|exit| ScheduleTimelineExit_2
+Timing_18((Supine
+Fixed Reference
+PT0M
+None..None))
+Timing_18 -->|from| ScheduledActivityInstance_2
+Timing_18 -->|to| ScheduledActivityInstance_2
+Timing_19((VS while supine
+After
+PT5M
+None..None))
+Timing_19 -->|from| ScheduledActivityInstance_3
+Timing_19 -->|to| ScheduledActivityInstance_2
+Timing_20((Standing
+After
+PT0M
+None..None))
+Timing_20 -->|from| ScheduledActivityInstance_4
+Timing_20 -->|to| ScheduledActivityInstance_3
+Timing_21((VS while standing
+After
+PT1M
+None..None))
+Timing_21 -->|from| ScheduledActivityInstance_5
+Timing_21 -->|to| ScheduledActivityInstance_4
+Timing_22((Standing
+After
+PT0M
+None..None))
+Timing_22 -->|from| ScheduledActivityInstance_6
+Timing_22 -->|to| ScheduledActivityInstance_5
+Timing_23((VS while standing
+After
+PT2M
+None..None))
+Timing_23 -->|from| ScheduledActivityInstance_7
+Timing_23 -->|to| ScheduledActivityInstance_6
+</pre><script type="module">import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+mermaid.initialize({ startOnLoad: true });
+</script></body></html>

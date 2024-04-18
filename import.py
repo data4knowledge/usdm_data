@@ -8,21 +8,23 @@ from usdm_db import USDMDb
 from usdm_info import __package_version__ as code_version
 from usdm_info import __model_version__ as model_version
 
+ROOT_PATH = "source_data/protocols/"
+
 def save_as_html_file(html, details, suffix):
-  with open(f"source_data/{details['path']}/{details['filename']}_{suffix}.html", 'w', encoding='utf-8') as f:
+  with open(f"{ROOT_PATH}{details['path']}/{details['filename']}_{suffix}.html", 'w', encoding='utf-8') as f:
     f.write(html)
 
 def save_as_pdf_file(data, details, suffix):
-  with open(f"source_data/{details['path']}/{details['filename']}_{suffix}.pdf", 'w+b') as f:
+  with open(f"{ROOT_PATH}{details['path']}/{details['filename']}_{suffix}.pdf", 'w+b') as f:
     f.write(data)
 
 def save_as_json_file(raw_json, details):
-  with open(f"source_data/{details['path']}/{details['filename']}.json", 'w', encoding='utf-8') as f:
+  with open(f"{ROOT_PATH}{details['path']}/{details['filename']}.json", 'w', encoding='utf-8') as f:
     json_object = json.loads(raw_json)
     json.dump(json_object, f, indent=2)
 
 def save_as_csv_file(errors, details):
-  with open(f"source_data/{details['path']}/{details['filename']}.csv", 'w', encoding='utf-8') as f:
+  with open(f"{ROOT_PATH}{details['path']}/{details['filename']}.csv", 'w', encoding='utf-8') as f:
     writer = csv.DictWriter(f, fieldnames=['sheet','row','column','message','level'])
     writer.writeheader()
     writer.writerows(errors)
@@ -33,11 +35,11 @@ def save_as_yaml_file(data, filepath):
 
 def save_as_node_file(nodes, details, view):
   suffix = file_suffix(view)
-  save_as_yaml_file(nodes, f"source_data/{details['path']}/{details['filename']}_{suffix}nodes.yaml")
+  save_as_yaml_file(nodes, f"{ROOT_PATH}{details['path']}/{details['filename']}_{suffix}nodes.yaml")
 
 def save_as_edges_file(nodes, details, view):
   suffix = file_suffix(view)
-  save_as_yaml_file(nodes, f"source_data/{details['path']}/{details['filename']}_{suffix}edges.yaml")
+  save_as_yaml_file(nodes, f"{ROOT_PATH}{details['path']}/{details['filename']}_{suffix}edges.yaml")
 
 def file_suffix(view):
   if view == USDMDb.TIMELINE_VIEW:
@@ -53,7 +55,7 @@ studies = [
 print (f"\n\nImport Utility, using USDM Python Package v{code_version} supporting USDM version v{model_version}\n\n")
 for study in studies:
   print (f"Processing study {(study['filename'])} ...\n\n")
-  file_path = "source_data/%s/%s.xlsx" % (study['path'], study['filename'])
+  file_path = "{ROOT_PATH}%s/%s.xlsx" % (study['path'], study['filename'])
   x = USDMDb()
   errors = x.from_excel(file_path)
   print("\n\nJSON and Errors\n\n")

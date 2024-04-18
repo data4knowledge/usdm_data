@@ -1,0 +1,280 @@
+delete_tag_keep_content:
+  - tag: span
+    class: s1
+  - tag: span
+    class: s2
+  - tag: span
+    class: s3
+  - tag: span
+    class: s4
+  - tag: span
+    class: s6
+  - tag: span
+    class: s7
+  - tag: span
+    class: s11
+  - tag: span
+    class: s12
+  - tag: span
+    class: s13
+  - tag: span
+    class: s14
+  - tag: span
+    class: s15
+  - tag: span
+    class: s16
+  - tag: span
+    class: s17
+  - tag: span
+    class: s18
+  - tag: span
+    class: s19
+  - tag: span
+    class: s20
+  - tag: span
+    class: s21
+  - tag: span
+    class: s22
+  - tag: span
+    class: s23
+  - tag: span
+    class: s24
+  - tag: span
+    class: s25
+  - tag: span
+    class: s26
+  - tag: span
+    class: s27
+  - tag: span
+    class: s28
+  - tag: span
+    class: s29
+  - tag: span
+    class: s30
+  - tag: span
+    class: s31
+  - tag: span
+    class: s32
+  - tag: span
+    class: s33
+  - tag: span
+    class: s34
+  - tag: span
+    class: s35
+  - tag: span
+    class: s36
+  - tag: span
+    class: s37
+  - tag: span
+    class: s38
+  - tag: span
+    class: s39
+  - tag: span
+    class: s40
+  - tag: span
+    class: s41
+  - tag: span
+    class: s42
+  - tag: span
+    class: s43
+  - tag: span
+    class: s45
+  - tag: span
+    class: s46
+  - tag: span
+    class: s47
+  - tag: span
+    class: s48
+  - tag: span
+    class: s49
+  - tag: span
+    class: s50
+  - tag: span
+    class: s51
+  - tag: span
+    class: s52
+  - tag: span
+    class: s53
+  - tag: span
+    class: s54
+  - tag: span
+    class: s55
+  - tag: span
+    class: s56
+  - tag: span
+    class: s57
+  - tag: span
+    class: s58
+  - tag: span
+    class: s59
+  - tag: span
+    class: s60
+  - tag: span
+    class: s61
+  - tag: span
+    class: s62
+  - tag: span
+    class: s63
+  - tag: span
+    class: s64
+  - tag: span
+    class: s65
+  - tag: span
+    class: s66
+  - tag: span
+    class: s68
+  - tag: span
+    class: s69
+  - tag: span
+    class: s70
+  - tag: span
+    class: s71
+  - tag: span
+    class: s72
+  - tag: span
+    class: s73
+  - tag: span
+    class: s74
+  - tag: span
+    class: s75
+  - tag: span
+    class: s76
+  - tag: span
+    class: s77
+  - tag: span
+    class: s78
+  - tag: span
+    class: s79
+  - tag: span
+    class: s80
+  - tag: span
+    class: s81
+  - tag: span
+    class: s82
+  - tag: span
+    class: s83
+  - tag: span
+    class: s84
+  - tag: span
+    class: s85
+  - tag: span
+    class: s86
+  - tag: span
+    class: s87
+  - tag: span
+    class: s88
+  - tag: span
+    class: s89
+  - tag: span
+    class: s90
+  - tag: span
+    class: s91
+  - tag: span
+    class: s92
+  - tag: span
+    class: s93
+  - tag: span
+    class: s94
+  - tag: span
+    class: s95
+  - tag: span
+    class: s96
+  - tag: span
+    class: s97
+  - tag: span
+    class: s98
+  - tag: span
+    class: s99
+  - tag: span
+    class: s100
+  - tag: span
+    class: s101
+delete_tag_and_content:
+  - tag: p
+    class: p6
+  - tag: p
+    class: p3
+  - tag: p
+    class: p2
+replace_tag:
+  - from:
+      - tag: p
+        class: p4
+    to:
+      tag: h1
+      kill: 
+      - b
+  - from:
+      - tag: p
+        class: p5
+    to:
+      tag: h1
+      kill: 
+      - b
+  - from:
+      - tag: p
+        class: p7
+      - tag: span
+        class: s67
+    to:
+      tag: h2
+      kill: 
+      - span
+  - from:
+      - tag: p
+        class: p6
+      - tag: span
+        class: s2
+    to:
+      tag: p
+      kill: 
+      - span
+  - from:
+      - tag: p
+        class: p24
+      - tag: span
+        class: s1
+    to:
+      tag: h1
+      kill: 
+      - span
+      - b
+delete_attribute:
+  - tag: p
+    attribute: class
+    value: p1
+  - tag: p
+    attribute: class
+    value: p7
+  - tag: p
+    attribute: class
+    value: p9
+  - tag: p
+    attribute: class
+    value: p10
+  - tag: p
+    attribute: class
+    value: p11
+  - tag: p
+    attribute: class
+    value: p13
+  - tag: p
+    attribute: class
+    value: p14
+  - tag: p
+    attribute: class
+    value: p17
+  - tag: p
+    attribute: class
+    value: p19
+  - tag: p
+    attribute: class
+    value: p21
+  - tag: p
+    attribute: class
+    value: p25
+replace_string:
+  - from: '</b><b>'
+    to: ''
+  - from: '</b> <b>'
+    to: ' '
