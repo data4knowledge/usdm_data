@@ -11433,10 +11433,10 @@
               "description": "Original protocol approval date",
               "type": {
                 "id": "Code_9",
-                "code": "C99903x1",
+                "code": "C132352",
                 "codeSystem": "http://www.cdisc.org",
                 "codeSystemVersion": "2023-12-15",
-                "decode": "Protocol Effective Date",
+                "decode": "Sponsor Approval Date",
                 "instanceType": "Code"
               },
               "dateValue": "2020-05-12",
@@ -11464,10 +11464,10 @@
               "description": "Amendment 1 approval date",
               "type": {
                 "id": "Code_11",
-                "code": "C99903x1",
+                "code": "C132352",
                 "codeSystem": "http://www.cdisc.org",
                 "codeSystemVersion": "2023-12-15",
-                "decode": "Protocol Effective Date",
+                "decode": "Sponsor Approval Date",
                 "instanceType": "Code"
               },
               "dateValue": "2020-08-18",
@@ -11495,10 +11495,10 @@
               "description": "Amendment 2 approval date",
               "type": {
                 "id": "Code_13",
-                "code": "C99903x1",
+                "code": "C132352",
                 "codeSystem": "http://www.cdisc.org",
                 "codeSystemVersion": "2023-12-15",
-                "decode": "Protocol Effective Date",
+                "decode": "Sponsor Approval Date",
                 "instanceType": "Code"
               },
               "dateValue": "2021-03-19",
@@ -11526,10 +11526,10 @@
               "description": "Amendment 3 approval date",
               "type": {
                 "id": "Code_15",
-                "code": "C99903x1",
+                "code": "C132352",
                 "codeSystem": "http://www.cdisc.org",
                 "codeSystemVersion": "2023-12-15",
-                "decode": "Protocol Effective Date",
+                "decode": "Sponsor Approval Date",
                 "instanceType": "Code"
               },
               "dateValue": "2021-08-31",
@@ -11557,10 +11557,10 @@
               "description": "Amendment 3.1 approval date",
               "type": {
                 "id": "Code_17",
-                "code": "C99903x1",
+                "code": "C132352",
                 "codeSystem": "http://www.cdisc.org",
                 "codeSystemVersion": "2023-12-15",
-                "decode": "Protocol Effective Date",
+                "decode": "Sponsor Approval Date",
                 "instanceType": "Code"
               },
               "dateValue": "2022-03-18",
@@ -11569,20 +11569,20 @@
                   "id": "GeographicScope_5",
                   "type": {
                     "id": "Code_19",
-                    "code": "C41129",
+                    "code": "C25464",
                     "codeSystem": "http://www.cdisc.org",
                     "codeSystemVersion": "2023-12-15",
-                    "decode": "Region",
+                    "decode": "Country",
                     "instanceType": "Code"
                   },
                   "code": {
                     "id": "AliasCode_2",
                     "standardCode": {
                       "id": "Code_18",
-                      "code": "150",
+                      "code": "USA",
                       "codeSystem": "ISO 3166 1 alpha3",
                       "codeSystemVersion": "2020-08",
-                      "decode": "Europe",
+                      "decode": "United States of America",
                       "instanceType": "Code"
                     },
                     "standardCodeAliases": [],
