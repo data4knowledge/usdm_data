@@ -10,6 +10,10 @@ from usdm_info import __model_version__ as model_version
 
 ROOT_PATH = "source_data/protocols/"
 
+def read_yaml_file(filename):
+  with open(f'{filename}.yaml', "r") as f:
+    return yaml.safe_load(f)
+  
 def save_as_html_file(html, details, suffix):
   with open(f"{ROOT_PATH}{details['path']}/{details['filename']}_{suffix}.html", 'w', encoding='utf-8') as f:
     f.write(html)
@@ -46,16 +50,12 @@ def file_suffix(view):
     return 'timeline_'
   return ''
 
-studies = [
-  # { 'path': 'NCT04320615', 'filename': 'Roche_NCT04320615_COVID', 'protocol': False, 'watermark': False, 'highlight': False},
-  { 'path': 'CDISC_Pilot', 'filename': 'CDISC_Pilot_Study', 'protocol': True, 'watermark': False, 'highlight': True},
-  { 'path': 'NCT03421379', 'filename': 'EliLilly_NCT03421379_Diabetes', 'protocol': True, 'watermark': False, 'highlight': True},
-]
+studies = read_yaml_file('config_data/studies')
 
 print (f"\n\nImport Utility, using USDM Python Package v{code_version} supporting USDM version v{model_version}\n\n")
 for study in studies:
   print (f"Processing study {(study['filename'])} ...\n\n")
-  file_path = "{ROOT_PATH}%s/%s.xlsx" % (study['path'], study['filename'])
+  file_path = f"{ROOT_PATH}%s/%s.xlsx" % (study['path'], study['filename'])
   x = USDMDb()
   errors = x.from_excel(file_path)
   print("\n\nJSON and Errors\n\n")
