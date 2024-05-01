@@ -9,8 +9,9 @@ def save_as_csv_file(errors, filename):
     writer.writeheader()
     writer.writerows(errors)
 
-def save_as_json_file(raw_json, filename):
-  with open(f"{filename}.json", 'w', encoding='utf-8') as f:
+def save_as_json_file(raw_json, filename, suffix=''):
+  filename = f"{filename}_{suffix}.json" if suffix else f"{filename}.json"
+  with open(f"{filename}", 'w', encoding='utf-8') as f:
     json_object = json.loads(raw_json)
     json.dump(json_object, f, indent=2)
 
@@ -31,11 +32,13 @@ if __name__ == "__main__":
   parser.add_argument('filename', help="The name of the Excel file without the '.xlsx' extension.") 
   parser.add_argument("--no_watermark", action="store_true", help="No watermark, default is to show watermark") 
   parser.add_argument("--highlight", action="store_false", help="Highlight USDM content, default is not to highlight") 
+  parser.add_argument("--m11", action="store_false", help="Generate the M11 fhir message as JSON") 
   parser.add_argument('--debug', action='store_true', help='print debug messages to stderr')
   args = parser.parse_args()
   filename = args.filename
   watermark = not args.no_watermark
   highlight = not args.highlight
+  m11 = not args.m11
   debug = args.debug
   level = logging.DEBUG if debug else logging.INFO
 
@@ -48,7 +51,7 @@ if __name__ == "__main__":
   
   print("")
   print(f"Test Utility, using USDM Python Package v{code_version} supporting USDM version v{model_version}")
-  print(f"Converting {full_filename} with watermark set {'on' if watermark else 'off'} and highlights {'on' if highlight else 'off'}")
+  print(f"Converting {full_filename} with watermark set {'on' if watermark else 'off'}, highlights {'on' if highlight else 'off'}, M11 FHIR message set {'on' if m11 else 'off'}")
   print("")
   print("")
 
@@ -61,3 +64,5 @@ if __name__ == "__main__":
   save_as_html_file(usdm.to_html(), filename, 'USDM')
   save_as_pdf_file(usdm.to_pdf(watermark), filename, 'USDM')
   save_as_html_file(usdm.to_timeline(), filename, 'timeline')
+  if m11:
+    save_as_json_file(usdm.to_fhir(), filename, 'fhir')
