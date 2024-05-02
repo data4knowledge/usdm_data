@@ -82,6 +82,5 @@ if __name__ == "__main__":
   save_as_html_file(usdm.to_html(), output_path, root_filename, 'USDM')
   save_as_pdf_file(usdm.to_pdf(watermark), output_path, root_filename, 'USDM')
   save_as_html_file(usdm.to_timeline(), output_path, root_filename, 'timeline')
-  print(f"M11: {usdm.was_m11()}")
   if usdm.was_m11():
     save_as_json_file(usdm.to_fhir(), output_path, root_filename, 'fhir')
