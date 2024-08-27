@@ -72,7 +72,7 @@ if __name__ == "__main__":
 
   usdm = USDMDb()
   errors = usdm.from_excel(full_filename)
-  template = usdm.default_template() if not template else template
+  template = usdm.default_template() if not template else template.upper()
   save_as_json_file(json.dumps(json.loads(usdm.to_json())), output_path, root_filename)
   save_as_csv_file(errors, output_path, root_filename)
   if highlight:
