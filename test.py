@@ -3,7 +3,10 @@ import logging
 import json
 import csv
 import os
-
+from usdm_db import USDMDb
+from usdm_info import __package_version__ as code_version
+from usdm_info import __model_version__ as model_version  
+  
 def save_as_csv_file(errors, output_path, filename):
   full_filename = os.path.join(output_path, f"{filename}.csv")
   print(f"CSV: {full_filename}")
@@ -52,17 +55,11 @@ if __name__ == "__main__":
   debug = args.debug
   level = logging.DEBUG if debug else logging.INFO
 
-  #full_filename = f"{filename}.xlsx"
-  #full_filename = os.path.join(input_path, f"{filename}.xlsx")
   input_path, tail = os.path.split(filename)
   root_filename = tail.replace(".xlsx", "")
   full_filename = filename
   output_path = output_path if output_path else input_path
   log = logging.basicConfig(level=level)
-  
-  from usdm_db import USDMDb
-  from usdm_info import __package_version__ as code_version
-  from usdm_info import __model_version__ as model_version
   
   print("")
   print(f"Test Utility, using USDM Python Package v{code_version} supporting USDM version v{model_version}")
@@ -74,13 +71,14 @@ if __name__ == "__main__":
   print("")
 
   usdm = USDMDb()
-  errors = usdm.from_excel(full_filename, template)
+  errors = usdm.from_excel(full_filename)
+  template = usdm.default_template() if not template else template
   save_as_json_file(json.dumps(json.loads(usdm.to_json())), output_path, root_filename)
   save_as_csv_file(errors, output_path, root_filename)
   if highlight:
-    save_as_html_file(usdm.to_html(highlight), output_path, root_filename, 'highlight')
-  save_as_html_file(usdm.to_html(), output_path, root_filename, 'USDM')
-  save_as_pdf_file(usdm.to_pdf(watermark), output_path, root_filename, 'USDM')
+    save_as_html_file(usdm.to_html(template, highlight), output_path, root_filename, 'highlight')
+  save_as_html_file(usdm.to_html(template), output_path, root_filename, 'USDM')
+  save_as_pdf_file(usdm.to_pdf(template, watermark), output_path, root_filename, 'USDM')
   save_as_html_file(usdm.to_timeline(), output_path, root_filename, 'timeline')
-  if usdm.was_m11():
+  if usdm.is_m11():
     save_as_json_file(usdm.to_fhir(), output_path, root_filename, 'fhir')
