@@ -59,7 +59,7 @@ for study in studies:
   file_path = f"{ROOT_PATH}%s/%s.xlsx" % (study['input_path'], study['filename'])
   study['output_path'] = study['output_path'] if study['output_path'] else study['input_path']
   x = USDMDb()
-  errors = x.from_excel(file_path, study['override_template'])
+  errors = x.from_excel(file_path)
   print("\n\nJSON and Errors\n\n")
   save_as_json_file(x.to_json(), study)
   save_as_csv_file(errors, study)
@@ -68,11 +68,11 @@ for study in studies:
   if study['protocol']:
     print(f"\n\nProtocol HTML and PDF (watermark={study['watermark']}, highlight={study['highlight']})\n\n")
     if study['highlight']:
-      save_as_html_file(x.to_html(True), study, 'highlight')
-    save_as_html_file(x.to_html(), study, 'USDM')
+      save_as_html_file(x.to_html(study['use_template'], True), study, 'highlight')
+    save_as_html_file(x.to_html(study['use_template']), study, 'USDM')
     save_as_html_file(x.to_timeline(), study, 'timeline')
-    save_as_pdf_file(x.to_pdf(study['watermark']), study, 'USDM')
-    if x.was_m11():
+    save_as_pdf_file(x.to_pdf(study['use_template'], study['watermark']), study, 'USDM')
+    if x.is_m11():
       save_as_json_file(x.to_fhir(), study, 'fhir')
   print(f"\n\nERRORS:\n{errors}\n\n")
   print(f"----- + -----\n\n")
