@@ -6,7 +6,12 @@ import os
 from usdm_db import USDMDb
 from usdm_info import __package_version__ as code_version
 from usdm_info import __model_version__ as model_version  
-  
+
+def make_template_dir(path, template):
+  full_path = os.path.join(path, template.lower())
+  os.mkdir(full_path) 
+  return full_path
+
 def save_as_csv_file(errors, output_path, filename):
   full_filename = os.path.join(output_path, f"{filename}.csv")
   print(f"CSV: {full_filename}")
@@ -75,10 +80,12 @@ if __name__ == "__main__":
   template = usdm.default_template() if not template else template.upper()
   save_as_json_file(json.dumps(json.loads(usdm.to_json())), output_path, root_filename)
   save_as_csv_file(errors, output_path, root_filename)
-  if highlight:
-    save_as_html_file(usdm.to_html(template, highlight), output_path, root_filename, 'highlight')
-  save_as_html_file(usdm.to_html(template), output_path, root_filename, 'USDM')
-  save_as_pdf_file(usdm.to_pdf(template, watermark), output_path, root_filename, 'USDM')
   save_as_html_file(usdm.to_timeline(), output_path, root_filename, 'timeline')
-  if usdm.is_m11():
-    save_as_json_file(usdm.to_fhir("M11"), output_path, root_filename, 'fhir')
+  for template in usdm.templates():
+    template_output_path = make_template_dir(output_path, template)
+    save_as_html_file(usdm.to_html(template), template_output_path, root_filename, 'USDM')
+    save_as_pdf_file(usdm.to_pdf(template, watermark), template_output_path, root_filename, 'USDM')
+    if highlight:
+      save_as_html_file(usdm.to_html(template, highlight), template_output_path, root_filename, 'highlight')
+    if usdm.is_m11() and template == "M11":
+      save_as_json_file(usdm.to_fhir(template), template_output_path, root_filename, 'fhir')
