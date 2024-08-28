@@ -9,8 +9,13 @@ from usdm_info import __model_version__ as model_version
 
 def make_template_dir(path, template):
   full_path = os.path.join(path, template.lower())
-  os.mkdir(full_path) 
-  return full_path
+  try:
+    os.mkdir(full_path) 
+    return full_path
+  except FileExistsError as e:
+    return full_path
+  except Exception as e:
+    raise e
 
 def save_as_csv_file(errors, output_path, filename):
   full_filename = os.path.join(output_path, f"{filename}.csv")
