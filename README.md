@@ -17,3 +17,15 @@ The current set of mapped studies are:
 - Simpe Example 1, 2 and 3 showing the basic use of the spreadsheet format
 - Cycles 1 and 2 showing the ability to model cycles within studies
 - Profile 1 to demonstrate the use of profiles (additional timelines)
+
+# Issues
+
+## Certificates
+
+If you get a cetificate error on Mac OS 
+
+```[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate````
+
+then run the command 
+
+```/Applications/Python 3.10/Install Certificates.command```
