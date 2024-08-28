@@ -69,7 +69,6 @@ for study in studies:
   print (f"Processing study {(study['filename'])} ...\n\n")
   file_path = f"{ROOT_PATH}%s/%s.xlsx" % (study['input_path'], study['filename'])
   study['output_path'] = study['output_path'] if study['output_path'] else study['input_path']
-  template = template.upper()
   x = USDMDb()
   errors = x.from_excel(file_path)
   print("\n\nJSON and Errors\n\n")
