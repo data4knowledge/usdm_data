@@ -4,25 +4,25 @@
   protocol: True
   watermark: False
   highlight: True
-  override_template: null
+  use_template: 'lilly'
 - input_path: 'CDISC_Pilot'
   output_path: 'CDISC_Pilot_M11'
   filename: 'CDISC_Pilot_Study'
   protocol: True
   watermark: False
   highlight: True
-  override_template: 'm11'
+  use_template: 'm11'
 - input_path: 'NCT03421379'
   output_path: null
   filename: 'EliLilly_NCT03421379_Diabetes'
   protocol: True
   watermark: False
   highlight: True
-  override_template: null
+  use_template: 'sponsor'
 - input_path: 'NCT04573309'
   output_path: null
   filename: 'NCT04573309'
   protocol: True
   watermark: False
   highlight: True
-  override_template: null
+  use_template: 'sponsor'
