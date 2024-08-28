@@ -74,6 +74,6 @@ for study in studies:
     save_as_html_file(x.to_timeline(), study, 'timeline')
     save_as_pdf_file(x.to_pdf(study['use_template'], study['watermark']), study, 'USDM')
     if x.is_m11():
-      save_as_json_file(x.to_fhir(), study, 'fhir')
+      save_as_json_file(x.to_fhir('M11'), study, 'fhir')
   print(f"\n\nERRORS:\n{errors}\n\n")
   print(f"----- + -----\n\n")
