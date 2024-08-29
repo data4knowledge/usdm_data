@@ -277,8 +277,8 @@
         "studyIdentifiers": [
           {
             "id": "StudyIdentifier_1",
-            "studyIdentifier": "ALXN1840-WD-204",
-            "studyIdentifierScope": {
+            "text": "ALXN1840-WD-204",
+            "scope": {
               "id": "Organization_1",
               "name": "Alexion",
               "label": "Alexion",
@@ -316,8 +316,8 @@
           },
           {
             "id": "StudyIdentifier_2",
-            "studyIdentifier": "NCT04573309",
-            "studyIdentifierScope": {
+            "text": "NCT04573309",
+            "scope": {
               "id": "Organization_2",
               "name": "CT.gov",
               "label": "ClinicalTrials.gov",
@@ -355,8 +355,8 @@
           },
           {
             "id": "StudyIdentifier_3",
-            "studyIdentifier": "2020-001104-41",
-            "studyIdentifierScope": {
+            "text": "2020-001104-41",
+            "scope": {
               "id": "Organization_3",
               "name": "EMA",
               "label": "European Medicines Agency",
@@ -394,8 +394,8 @@
           },
           {
             "id": "StudyIdentifier_4",
-            "studyIdentifier": "119006",
-            "studyIdentifierScope": {
+            "text": "119006",
+            "scope": {
               "id": "Organization_4",
               "name": "FDA",
               "label": "Food & Drug Administration",
@@ -432,6 +432,7 @@
             "instanceType": "StudyIdentifier"
           }
         ],
+        "referenceIdentifiers": [],
         "studyDesigns": [
           {
             "id": "StudyDesign_1",
@@ -11888,7 +11889,7 @@
           {
             "id": "NarrativeContentItem_1",
             "name": "NCI_1",
-            "text": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"container\">\n<div class=\"row mt-5\">\n<div class=\"col-md-10 offset-md-1 text-center\">\n<p><b>TITLE PAGE</b></p>\n</div>\n</div>\n</div>\n<p><b>Protocol Title: </b><usdm:ref attribute=\"text\" id=\"StudyTitle_2\" klass=\"StudyTitle\"></usdm:ref></p>\n<p><b>Protocol Number: </b><usdm:ref attribute=\"studyIdentifier\" id=\"StudyIdentifier_1\" klass=\"StudyIdentifier\"></usdm:ref></p>\n<p><b>Amendment Number: </b>TBD</p>\n<p><b>Compound: </b>TBD</p>\n<p><b>Study Phase: </b><usdm:ref attribute=\"decode\" id=\"Code_2\" klass=\"Code\"></usdm:ref></p>\n<p><b>Short Title: </b><usdm:ref attribute=\"text\" id=\"StudyTitle_1\" klass=\"StudyTitle\"></usdm:ref></p>\n<p><b>Sponsor Name: </b><usdm:ref attribute=\"name\" id=\"Organization_1\" klass=\"Organization\"></usdm:ref>, <usdm:ref attribute=\"text\" id=\"Address_1\" klass=\"Address\"></usdm:ref></p>\n<p><b>Legal Registered Address:</b><usdm:ref attribute=\"name\" id=\"Organization_1\" klass=\"Organization\"></usdm:ref>, <usdm:ref attribute=\"text\" id=\"Address_1\" klass=\"Address\"></usdm:ref></p>\n<p><b>Regulatory Agency Identifier Number(s)</b></p>\n<p><usdm:ref attribute=\"studyIdentifier\" id=\"StudyIdentifier_2\" klass=\"StudyIdentifier\"></usdm:ref>, <usdm:ref attribute=\"studyIdentifier\" id=\"StudyIdentifier_3\" klass=\"StudyIdentifier\"></usdm:ref>, <usdm:ref attribute=\"studyIdentifier\" id=\"StudyIdentifier_4\" klass=\"StudyIdentifier\"></usdm:ref></p>\n<b>Approval Date:</b>\n<p><b><usdm:ref attribute=\"label\" id=\"GovernanceDate_1\" klass=\"GovernanceDate\"></usdm:ref> <usdm:ref attribute=\"dateValue\" id=\"GovernanceDate_1\" klass=\"GovernanceDate\"></usdm:ref></b></p>\n<p><b>Amendment 1 18 Aug 2020</b></p>\n<p><b>Amendment 2 19 Mar 2021</b></p>\n<p><b>Amendment 3 31 Aug 2021</b></p>\n<p><b>Amendment 3.1 (US) 18 Mar 2022</b></p>\n<p><b>Sponsor Signatory:</b></p>\n<div class=\"container\">\n<div class=\"row mt-5\">\n<div class=\"col-md-6\">\n<p>____________________________________</p>\n</div>\n<div class=\"col-md-6\">\n<p>____________________________________</p>\n<p><b>Date</b></p>\n</div>\n</div>\n</div>\n<p><b>Medical Monitor Name and Contact Information can be found in the Study Contact List.</b></p>\n<div class=\"container\">\n<div class=\"row mt-5\">\n<div class=\"col-md-10 offset-md-1 text-center\">\n<p>INVESTIGATOR'S AGREEMENT</p>\n</div>\n</div>\n</div>\n<p>I have read the study protocol amendment 3.1 and agree to conduct the study in accordance with this protocol, all applicable government regulations, the principles of the ICH E6 Guidelines for Good Clinical Practice, and the principles of the World Medical Association Declaration of Helsinki. I also agree to maintain the confidentiality of all information received or developed in connection with this protocol.</p>\n<p>____________________________________</p>\n<p>Printed Name of Investigator</p>\n<p>_____________________________________</p>\n<p>Signature of Investigator</p>\n<p>_______________</p>\n<p>Date</p>\n<p><b>PROTOCOL AMENDMENT SUMMARY OF CHANGES TABLE</b></p>\n<p><b>Amendment 3.1 (US), 18 Mar 2022</b></p>\n<p>This amendment is considered to be substantial based on the criteria set forth in Article 10(a) of Directive 2001/20/EC of the European Parliament and the Council of the European Union, the US Food and Drug Administration's (FDA) regulation at 21 CFR part 312.30(b), and any applicable local regulations.</p>\n<p><b>Overall Rationale for the Amendment</b></p>\n<p>The main reason for preparation of this amendment was to clarify study procedures occurring across different sites in the US, so as to facilitate participant recruitment across different regions of the US, and to lessen inconvenience for participants without compromising the quality of the study.</p>\n<p><b>Changes to the Protocol</b></p>\n<table class=\"table align-top table-bordered\">\n<tr>\n<th>Section # and Name</th>\n<th>Description of Change</th>\n<th>Brief Rationale and/or Clarifications</th>\n</tr>\n<tr>\n<td><p>Section 1.3 Schedule of Activities (SoA), Table 1</p></td>\n<td><p>Addition of text to the footnote to state that procedures specific to screening sites (only in the US) detailed in Section 8</p></td>\n<td><p>As per Section 8 (below).</p></td>\n</tr>\n<tr>\n<td><p>4.2 Scientific Rationale for Study Design</p></td>\n<td><p>Number of days changed from 30 days to 21 days in the following sentence:</p>\n<ul><li><p>However, the physiologic turnover of human gastrointestinal epithelial cells is 3 - 5 days (Darwich, 2014); therefore, the inhibitory effect of zinc on intestinal copper absorption is expected to be minimal <del>30</del> <ins>21</ins> days after discontinuation of zinc.</p></li></ul></td>\n<td><p>To align the number of days with the mention of zinc discontinuation elsewhere in the protocol.</p></td>\n</tr>\n<tr>\n<td><p>Section 8 Study Assessments and Procedures</p></td>\n<td><p>Addition of text applicable only to the US that details the possibility for sites in the US to only perform screening procedures and not any of the remaining study procedures.</p></td>\n<td><p>To facilitate participant recruitment across different regions of the US and to lessen inconvenience for participants without compromising the quality of the study.</p></td>\n</tr>\n</table></div>",
+            "text": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"container\">\n<div class=\"row mt-5\">\n<div class=\"col-md-10 offset-md-1 text-center\">\n<p><b>TITLE PAGE</b></p>\n</div>\n</div>\n</div>\n<p><b>Protocol Title: </b><usdm:ref attribute=\"text\" id=\"StudyTitle_2\" klass=\"StudyTitle\"></usdm:ref></p>\n<p><b>Protocol Number: </b><usdm:ref attribute=\"text\" id=\"StudyIdentifier_1\" klass=\"StudyIdentifier\"></usdm:ref></p>\n<p><b>Amendment Number: </b>TBD</p>\n<p><b>Compound: </b>TBD</p>\n<p><b>Study Phase: </b><usdm:ref attribute=\"decode\" id=\"Code_2\" klass=\"Code\"></usdm:ref></p>\n<p><b>Short Title: </b><usdm:ref attribute=\"text\" id=\"StudyTitle_1\" klass=\"StudyTitle\"></usdm:ref></p>\n<p><b>Sponsor Name: </b><usdm:ref attribute=\"name\" id=\"Organization_1\" klass=\"Organization\"></usdm:ref>, <usdm:ref attribute=\"text\" id=\"Address_1\" klass=\"Address\"></usdm:ref></p>\n<p><b>Legal Registered Address:</b><usdm:ref attribute=\"name\" id=\"Organization_1\" klass=\"Organization\"></usdm:ref>, <usdm:ref attribute=\"text\" id=\"Address_1\" klass=\"Address\"></usdm:ref></p>\n<p><b>Regulatory Agency Identifier Number(s)</b></p>\n<p><usdm:ref attribute=\"text\" id=\"StudyIdentifier_2\" klass=\"StudyIdentifier\"></usdm:ref>, <usdm:ref attribute=\"text\" id=\"StudyIdentifier_3\" klass=\"StudyIdentifier\"></usdm:ref>, <usdm:ref attribute=\"text\" id=\"StudyIdentifier_4\" klass=\"StudyIdentifier\"></usdm:ref></p>\n<b>Approval Date:</b>\n<p><b><usdm:ref attribute=\"label\" id=\"GovernanceDate_1\" klass=\"GovernanceDate\"></usdm:ref> <usdm:ref attribute=\"dateValue\" id=\"GovernanceDate_1\" klass=\"GovernanceDate\"></usdm:ref></b></p>\n<p><b>Amendment 1 18 Aug 2020</b></p>\n<p><b>Amendment 2 19 Mar 2021</b></p>\n<p><b>Amendment 3 31 Aug 2021</b></p>\n<p><b>Amendment 3.1 (US) 18 Mar 2022</b></p>\n<p><b>Sponsor Signatory:</b></p>\n<div class=\"container\">\n<div class=\"row mt-5\">\n<div class=\"col-md-6\">\n<p>____________________________________</p>\n</div>\n<div class=\"col-md-6\">\n<p>____________________________________</p>\n<p><b>Date</b></p>\n</div>\n</div>\n</div>\n<p><b>Medical Monitor Name and Contact Information can be found in the Study Contact List.</b></p>\n<div class=\"container\">\n<div class=\"row mt-5\">\n<div class=\"col-md-10 offset-md-1 text-center\">\n<p>INVESTIGATOR'S AGREEMENT</p>\n</div>\n</div>\n</div>\n<p>I have read the study protocol amendment 3.1 and agree to conduct the study in accordance with this protocol, all applicable government regulations, the principles of the ICH E6 Guidelines for Good Clinical Practice, and the principles of the World Medical Association Declaration of Helsinki. I also agree to maintain the confidentiality of all information received or developed in connection with this protocol.</p>\n<p>____________________________________</p>\n<p>Printed Name of Investigator</p>\n<p>_____________________________________</p>\n<p>Signature of Investigator</p>\n<p>_______________</p>\n<p>Date</p>\n<p><b>PROTOCOL AMENDMENT SUMMARY OF CHANGES TABLE</b></p>\n<p><b>Amendment 3.1 (US), 18 Mar 2022</b></p>\n<p>This amendment is considered to be substantial based on the criteria set forth in Article 10(a) of Directive 2001/20/EC of the European Parliament and the Council of the European Union, the US Food and Drug Administration's (FDA) regulation at 21 CFR part 312.30(b), and any applicable local regulations.</p>\n<p><b>Overall Rationale for the Amendment</b></p>\n<p>The main reason for preparation of this amendment was to clarify study procedures occurring across different sites in the US, so as to facilitate participant recruitment across different regions of the US, and to lessen inconvenience for participants without compromising the quality of the study.</p>\n<p><b>Changes to the Protocol</b></p>\n<table class=\"table align-top table-bordered\">\n<tr>\n<th>Section # and Name</th>\n<th>Description of Change</th>\n<th>Brief Rationale and/or Clarifications</th>\n</tr>\n<tr>\n<td><p>Section 1.3 Schedule of Activities (SoA), Table 1</p></td>\n<td><p>Addition of text to the footnote to state that procedures specific to screening sites (only in the US) detailed in Section 8</p></td>\n<td><p>As per Section 8 (below).</p></td>\n</tr>\n<tr>\n<td><p>4.2 Scientific Rationale for Study Design</p></td>\n<td><p>Number of days changed from 30 days to 21 days in the following sentence:</p>\n<ul><li><p>However, the physiologic turnover of human gastrointestinal epithelial cells is 3 - 5 days (Darwich, 2014); therefore, the inhibitory effect of zinc on intestinal copper absorption is expected to be minimal <del>30</del> <ins>21</ins> days after discontinuation of zinc.</p></li></ul></td>\n<td><p>To align the number of days with the mention of zinc discontinuation elsewhere in the protocol.</p></td>\n</tr>\n<tr>\n<td><p>Section 8 Study Assessments and Procedures</p></td>\n<td><p>Addition of text applicable only to the US that details the possibility for sites in the US to only perform screening procedures and not any of the remaining study procedures.</p></td>\n<td><p>To facilitate participant recruitment across different regions of the US and to lessen inconvenience for participants without compromising the quality of the study.</p></td>\n</tr>\n</table></div>",
             "instanceType": "NarrativeContentItem"
           },
           {
@@ -14339,7 +14340,7 @@
     ],
     "instanceType": "Study"
   },
-  "usdmVersion": "3.5.0",
+  "usdmVersion": "3.6.0",
   "systemName": "CDISC USDM E2J",
-  "systemVersion": "0.52.0"
+  "systemVersion": "0.53.0"
 }
