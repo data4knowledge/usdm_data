@@ -74,8 +74,9 @@ for study in studies:
   print("\n\nJSON and Errors\n\n")
   save_as_json_file(x.to_json(), study)
   save_as_csv_file(errors, study)
-  print("Timeline\n\n")
-  save_as_html_file(x.to_timeline(), study, 'timeline')
+  if study['timeline']:
+    print("Timeline\n\n")
+    save_as_html_file(x.to_timeline(), study, 'timeline')
   for template in x.templates():
     study['output_path'] = make_template_dir(study['output_path'], template)
     if study['protocol']:
