@@ -12590,7 +12590,33 @@
           }
         ],
         "abbreviations": [],
-        "roles": [],
+        "roles": [
+          {
+            "id": "StudyRole_1",
+            "name": "ROLE_1",
+            "label": "Sponsor",
+            "description": "Sponsor role",
+            "code": {
+              "id": "Code_603",
+              "code": "C70793",
+              "codeSystem": "http://www.cdisc.org",
+              "codeSystemVersion": "2023-12-15",
+              "decode": "Sponsor",
+              "instanceType": "Code"
+            },
+            "appliesToIds": [],
+            "assignedPersons": [],
+            "organizationIds": [
+              "Organization_1"
+            ],
+            "masking": {
+              "id": "Masking_2",
+              "description": "Masked",
+              "instanceType": "Masking"
+            },
+            "instanceType": "StudyRole"
+          }
+        ],
         "organizations": [
           {
             "id": "Organization_3",
@@ -12753,7 +12779,7 @@
         "label": null,
         "description": null,
         "language": {
-          "id": "Code_603",
+          "id": "Code_604",
           "code": "en",
           "codeSystem": "ISO",
           "codeSystemVersion": "1",
@@ -12761,7 +12787,7 @@
           "instanceType": "Code"
         },
         "type": {
-          "id": "Code_604",
+          "id": "Code_605",
           "code": "C12345",
           "codeSystem": "http://www.cdisc.org",
           "codeSystemVersion": "2023-12-15",
@@ -13906,7 +13932,7 @@
         "label": null,
         "description": null,
         "language": {
-          "id": "Code_605",
+          "id": "Code_606",
           "code": "en",
           "codeSystem": "ISO",
           "codeSystemVersion": "1",
@@ -13914,7 +13940,7 @@
           "instanceType": "Code"
         },
         "type": {
-          "id": "Code_606",
+          "id": "Code_607",
           "code": "C12345",
           "codeSystem": "http://www.cdisc.org",
           "codeSystemVersion": "2023-12-15",
