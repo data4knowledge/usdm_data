@@ -12443,7 +12443,33 @@
             "instanceType": "Abbreviation"
           }
         ],
-        "roles": [],
+        "roles": [
+          {
+            "id": "StudyRole_1",
+            "name": "ROLE_1",
+            "label": "Sponsor",
+            "description": "Sponsor role",
+            "code": {
+              "id": "Code_564",
+              "code": "C70793",
+              "codeSystem": "http://www.cdisc.org",
+              "codeSystemVersion": "2023-12-15",
+              "decode": "Sponsor",
+              "instanceType": "Code"
+            },
+            "appliesToIds": [],
+            "assignedPersons": [],
+            "organizationIds": [
+              "Organization_1"
+            ],
+            "masking": {
+              "id": "Masking_2",
+              "description": "Masked",
+              "instanceType": "Masking"
+            },
+            "instanceType": "StudyRole"
+          }
+        ],
         "organizations": [
           {
             "id": "Organization_1",
@@ -12641,7 +12667,7 @@
         "label": null,
         "description": null,
         "language": {
-          "id": "Code_564",
+          "id": "Code_565",
           "code": "en",
           "codeSystem": "ISO",
           "codeSystemVersion": "1",
@@ -12649,7 +12675,7 @@
           "instanceType": "Code"
         },
         "type": {
-          "id": "Code_565",
+          "id": "Code_566",
           "code": "C12345",
           "codeSystem": "http://www.cdisc.org",
           "codeSystemVersion": "2023-12-15",
