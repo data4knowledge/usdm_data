@@ -77,23 +77,26 @@ if __name__ == "__main__":
       "error_context": [],
   }
   list_errors(errtree)
-  if len(errlist["json_path"]) > 0:
+  count = len(errlist["json_path"])
+  if count > 0:
       errdf = pd.DataFrame.from_dict(errlist)
-      timestamp = (
-          datetime.fromisoformat(datetime.now().isoformat())
-          .replace(microsecond=0)
-          .isoformat()
-          .replace(":", "-")
-      )
-      with pd.ExcelWriter(
-          os.path.join(
-              ".",
-              f"{os.path.basename(args.data_file).split('.')[0]}" +
-              f"-{timestamp}.xlsx",
-          )
-      ) as writer:
-          errdf.to_excel(
-              writer,
-              sheet_name="Errors",
-              index=False,
-          )
+      pretty = json.dumps(errlist, indent=4, sort_keys=True)
+      print(f"ERRORS: Error Count: {count}\n\n{pretty}")
+      # timestamp = (
+      #     datetime.fromisoformat(datetime.now().isoformat())
+      #     .replace(microsecond=0)
+      #     .isoformat()
+      #     .replace(":", "-")
+      # )
+      # with pd.ExcelWriter(
+      #     os.path.join(
+      #         ".",
+      #         f"{os.path.basename(args.data_file).split('.')[0]}" +
+      #         f"-{timestamp}.xlsx",
+      #     )
+      # ) as writer:
+      #     errdf.to_excel(
+      #         writer,
+      #         sheet_name="Errors",
+      #         index=False,
+      #     )
