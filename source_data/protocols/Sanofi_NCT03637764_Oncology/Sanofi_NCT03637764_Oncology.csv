@@ -1,4 +1,5 @@
 sheet,row,column,message,level
+studyOrganizations,5,6,"Address '' does not contain the required fields (lines, district, city, state, postal code and country code) using ',' separator characters, only 0 found",Error
 studyDesignTiming,14,9,"Could not decode the range value, possible typographical errors '0..? Days'",Error
 studyDesignTiming,15,9,"Could not decode the range value, possible typographical errors '0..? Days'",Error
 studyDesignTiming,16,9,"Could not decode the range value, possible typographical errors '0..? Days'",Error
@@ -22,9 +23,6 @@ studyAmendments,2,-1,"No geographic scope column found, assuming global scope.",
 studyAmendments,3,-1,"No geographic scope column found, assuming global scope.",Warning
 studyAmendments,4,-1,"No geographic scope column found, assuming global scope.",Warning
 studyAmendments,5,-1,"No geographic scope column found, assuming global scope.",Warning
-studyIdentifiers,1,7,"Address '46 Avenue De La Grande Armee|Paris | ile-de-France |75017 |France' does not contain the required fields (lines, district, city, state, postal code and country code) using '|' separator characters, only 5 found",Error
-studyIdentifiers,2,7,"Address '8600 Rockville Pike,Bethesda, MD, 20894, USA' does not contain the required fields (lines, district, city, state, postal code and country code) using ',' separator characters, only 5 found",Error
-studyIdentifiers,5,7,"Address '' does not contain the required fields (lines, district, city, state, postal code and country code) using ',' separator characters, only 0 found",Error
 studyDesign,9,2,"Failed to decode masking role data '', no '=' detected",Error
 PKTimeline,,,"Default reference from C1D1_EOI_A to C1D1_EOI_A30 cannot be made, not found on the same timeline",Error
 PKTimeline,,,"Default reference from C1D8_PRE to C1D8_SOI cannot be made, not found on the same timeline",Error
@@ -33,9 +31,7 @@ BMTimeline,18,3,"No activity 'If feasible, biomarker analyses listed below for â
 BMTimeline,,,Unable to find activity '' when adding to schedule instance,Warning
 BMTimeline,,,Unable to find activity '' when adding to schedule instance,Warning
 BMTimeline,,,Unable to find activity '' when adding to schedule instance,Warning
-,,,"Duplicate cross reference detected, class 'ScheduleTimeline' with name 'PK Timeline'",Error
 eventTimeline,12,3,"No activity 'Prior/Concomitant Medication' found, so one has been created",Warning
-,,,"Duplicate cross reference detected, class 'ScheduledDecisionInstance' with name 'Cx_END'",Error
 mainTimeline,,,Failed to find epoch with name 'Long-term Follow-up',Warning
 mainTimeline,,,"Default reference from C1D15 to C2D1 cannot be made, not found on the same timeline",Error
 mainTimeline,,,"Default reference from CxD1 to C2_END cannot be made, not found on the same timeline",Error
@@ -67,7 +63,6 @@ dictionaries,14,7,"Failed to translate reference path 'SectionNumber', could not
 dictionaries,15,7,"Failed to translate reference path 'SectionNumber', could not find start instance 'NarrativeContent', 'NC_120'",Error
 studyDesignEligibilityCriteria,3,6,"Failed to find 'Appendix 11: Section <usdm:tag name=""Sect10_11""/>' in dictionary 'Ref_dict'",Warning
 studyDesignEligibilityCriteria,39,6,Failed to find 'MDRD' in dictionary 'Ref_dict',Warning
-studyDesignSites,1,-1,Error attempting to read cell 'siteCountry'. Exception: Failed to detect column(s) 'siteCountry' in sheet,Error
 studyDesignConditions,1,6,Could not resolve condition reference 'treatment phase',Error
 studyDesignConditions,1,6,"No condition references found for 'treatment phase', at least one required",Error
 studyDesignConditions,12,6,Could not resolve condition reference 'Isatuximab Administration',Error
