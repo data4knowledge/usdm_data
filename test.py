@@ -89,7 +89,7 @@ if __name__ == "__main__":
   for template in usdm.templates():
     template_output_path = make_template_dir(output_path, template)
     save_as_html_file(usdm.to_html(template), template_output_path, root_filename, 'USDM')
-    save_as_pdf_file(usdm.to_pdf(template, watermark), template_output_path, root_filename, 'USDM')
+    #save_as_pdf_file(usdm.to_pdf(template, watermark), template_output_path, root_filename, 'USDM')
     if highlight:
       save_as_html_file(usdm.to_html(template, highlight), template_output_path, root_filename, 'highlight')
     if usdm.is_m11() and template == "M11":

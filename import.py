@@ -84,7 +84,7 @@ for study in studies:
       if study['highlight']:
         save_as_html_file(x.to_html(template, True), study, 'highlight')
       save_as_html_file(x.to_html(template), study, 'USDM')
-      save_as_pdf_file(x.to_pdf(template, study['watermark']), study, 'USDM')
+      #save_as_pdf_file(x.to_pdf(template, study['watermark']), study, 'USDM')
       if x.is_m11() and template == "M11":
         save_as_json_file(x.to_fhir(template), study, 'fhir')
   print(f"\n\nERRORS:\n{errors}\n\n")
