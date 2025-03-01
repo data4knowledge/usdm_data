@@ -2,10 +2,10 @@
   "resourceType": "Bundle",
   "identifier": {
     "system": "urn:ietf:rfc:3986",
-    "value": "urn:uuid:ccb86996-4891-4285-ab80-668e79b4418a"
+    "value": "urn:uuid:de9f3f86-8afe-4f84-9f77-7e3c08397175"
   },
   "type": "document",
-  "timestamp": "2025-02-28T11:30:23.926539+00:00",
+  "timestamp": "2025-03-01T13:44:18.196008+00:00",
   "entry": [
     {
       "fullUrl": "https://www.example.com/Composition/1234",
@@ -15,7 +15,7 @@
         "type": {
           "text": "EvidenceReport"
         },
-        "date": "2025-02-28T11:30:23.926539+00:00",
+        "date": "2025-03-01T13:44:18.196008+00:00",
         "author": [
           {
             "display": "USDM"
@@ -250,7 +250,7 @@
             },
             "text": {
               "status": "generated",
-              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Patients may be included in the study only if they meet <strong>all</strong> the following criteria:</p><table><tr><td style=\"vertical-align: top; text-align: left\"><p>1</p></td><td style=\"vertical-align: top; text-align: left\"><p>Subjects shall be between id='Quantity_10' value=50.0 unit=AliasCode(id='AliasCode_207', standardCode=Code(id='Code_531', code='C29848', codeSystem='http://www.cdisc.org', codeSystemVersion='2024-09-27', decode='Year', instanceType='Code'), standardCodeAliases=[], instanceType='AliasCode') instanceType='Quantity' and id='Quantity_11' value=100.0 unit=AliasCode(id='AliasCode_207', standardCode=Code(id='Code_531', code='C29848', codeSystem='http://www.cdisc.org', codeSystemVersion='2024-09-27', decode='Year', instanceType='Code'), standardCodeAliases=[], instanceType='AliasCode') instanceType='Quantity'</p></td></tr><tr><td style=\"vertical-align: top; text-align: left\"><p>2</p></td><td style=\"vertical-align: top; text-align: left\"><p>Patients with Probable Mild to Moderate Alzheimer's Disease as defined by the NINCDS and the ADRDA guidelines (Attachment LZZT.7)</p></td></tr><tr><td style=\"vertical-align: top; text-align: left\"><p>3</p></td><td style=\"vertical-align: top; text-align: left\"><p>MMSE score of 10 to 23</p></td></tr></table></div>"
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Patients may be included in the study only if they meet <strong>all</strong> the following criteria:</p><table><tr><td style=\"vertical-align: top; text-align: left\"><p>1</p></td><td style=\"vertical-align: top; text-align: left\"><p>Subjects shall be between 50.0 and 100.0</p></td></tr><tr><td style=\"vertical-align: top; text-align: left\"><p>2</p></td><td style=\"vertical-align: top; text-align: left\"><p>Patients with Probable Mild to Moderate Alzheimer's Disease as defined by the NINCDS and the ADRDA guidelines (Attachment LZZT.7)</p></td></tr><tr><td style=\"vertical-align: top; text-align: left\"><p>3</p></td><td style=\"vertical-align: top; text-align: left\"><p>MMSE score of 10 to 23</p></td></tr></table></div>"
             }
           },
           {
