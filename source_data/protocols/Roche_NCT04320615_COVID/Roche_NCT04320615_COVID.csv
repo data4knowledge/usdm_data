@@ -1,40 +1,68 @@
 sheet,row,column,message,level
-studyIdentifiers,1,6,"Address does not contain the required fields (line, city, district, state, postal code and country code) using ',' separator characters, only 0 found",Error
-studyIdentifiers,2,6,"Address does not contain the required fields (line, city, district, state, postal code and country code) using ',' separator characters, only 0 found",Error
-mainTimeline,6,4,"Could not decode the duration value, no value and units found in '0..2 Days'",Error
-mainTimeline,6,5,Could not decode the duration value 'Pre Dose',Error
-mainTimeline,6,7,Ignoring '+' in +24 Hours,Warning
-mainTimeline,6,8,Ignoring '+' in +36 Hours,Warning
-mainTimeline,6,9,Ignoring '+' in +24 Hours,Warning
-mainTimeline,6,10,Ignoring '+' in +24 Hours,Warning
-mainTimeline,6,11,Ignoring '+' in +24 Hours,Warning
-mainTimeline,6,12,Ignoring '+' in +24 Hours,Warning
-mainTimeline,6,13,Ignoring '+' in +24 Hours,Warning
-mainTimeline,6,14,Ignoring '+' in +24 Hours,Warning
-mainTimeline,6,15,Ignoring '+' in +24 Hours,Warning
-mainTimeline,6,16,Ignoring '+' in +24 Hours,Warning
-mainTimeline,6,17,Ignoring '+' in +24 Hours,Warning
-mainTimeline,6,18,Ignoring '+' in +24 Hours,Warning
-mainTimeline,6,19,Ignoring '+' in +24 Hours,Warning
-mainTimeline,6,20,Ignoring '+' in +24 Hours,Warning
-mainTimeline,6,21,Ignoring '+' in +24 Hours,Warning
-mainTimeline,6,22,Ignoring '+' in +24 Hours,Warning
-mainTimeline,6,23,Ignoring '+' in +24 Hours,Warning
-mainTimeline,6,24,Ignoring '+' in +24 Hours,Warning
-mainTimeline,6,25,Ignoring '+' in +24 Hours,Warning
-mainTimeline,6,26,Ignoring '+' in +24 Hours,Warning
-mainTimeline,6,27,Ignoring '+' in +24 Hours,Warning
-mainTimeline,6,28,Ignoring '+' in +24 Hours,Warning
-mainTimeline,6,29,Ignoring '+' in +24 Hours,Warning
-mainTimeline,6,30,Ignoring '+' in +24 Hours,Warning
-mainTimeline,6,31,Ignoring '+' in +24 Hours,Warning
-mainTimeline,6,32,Ignoring '+' in +24 Hours,Warning
-mainTimeline,6,33,Ignoring '+' in +24 Hours,Warning
-mainTimeline,6,34,Ignoring '+' in +24 Hours,Warning
-mainTimeline,6,35,Ignoring '+' in +7 Days,Warning
-mainTimeline,8,35,Ignoring '-' in -3Days,Warning
-mainTimeline,6,36,Ignoring '+' in +10 Days,Warning
-mainTimeline,8,36,Ignoring '-' in -3Days,Warning
-mainTimeline,6,37,Ignoring '+' in +15 Days,Warning
-mainTimeline,8,37,Ignoring '-' in -3Days,Warning
-mainTimeline,6,38,Ignoring '+' in +30 Days,Warning
+studyDesign,11,1,"Masking has been moved to the 'roles' sheet, value ignored",Warning
+studyDesign,12,2,Empty cell detected where multiple CDISC CT values expected.,Error
+mainTimeline,10,3,"No activity 'Informed consent' found, so one has been created",Warning
+mainTimeline,11,3,"No activity 'Inclusion/exclusion criteria' found, so one has been created",Warning
+mainTimeline,12,3,"No activity 'Demographics' found, so one has been created",Warning
+mainTimeline,13,3,"No activity 'Randomization' found, so one has been created",Warning
+mainTimeline,14,3,"No activity 'Medical history' found, so one has been created",Warning
+mainTimeline,15,3,"No activity 'Physical examination' found, so one has been created",Warning
+mainTimeline,16,3,"No activity 'Weight' found, so one has been created",Warning
+mainTimeline,17,3,"No activity 'COVID-19 Diagnosis' found, so one has been created",Warning
+mainTimeline,18,3,"No activity 'Chest X-ray/CT scan' found, so one has been created",Warning
+mainTimeline,19,3,"No activity 'ECG' found, so one has been created",Warning
+mainTimeline,20,3,"No activity 'Pregnancy test' found, so one has been created",Warning
+mainTimeline,21,3,"No activity 'PaO2/FiO2' found, so one has been created",Warning
+mainTimeline,22,3,"No activity 'SpO2' found, so one has been created",Warning
+mainTimeline,23,3,"No activity 'Vital signs' found, so one has been created",Warning
+mainTimeline,24,3,"No activity 'Ordinal scoring' found, so one has been created",Warning
+mainTimeline,25,3,"No activity 'Adverse events' found, so one has been created",Warning
+mainTimeline,26,3,"No activity 'Concomitant medications' found, so one has been created",Warning
+mainTimeline,27,3,"No activity 'Hematology' found, so one has been created",Warning
+mainTimeline,28,3,"No activity 'Chemistry' found, so one has been created",Warning
+mainTimeline,29,3,"No activity 'Study drug administration' found, so one has been created",Warning
+mainTimeline,30,2,"Both parent 'Central Labs' and child activity 'Serum PD (CRP, IL-6, sIL-6R)' found, child has been ignored",Warning
+mainTimeline,30,3,"No activity 'Central Labs' found, so one has been created",Warning
+mainTimeline,31,3,"No activity 'Serum PK' found, so one has been created",Warning
+mainTimeline,32,3,"No activity 'Serum sample for exploratory biomarkers' found, so one has been created",Warning
+mainTimeline,33,3,"No activity 'SARS-CoV-2 viral load' found, so one has been created",Warning
+mainTimeline,34,3,"No activity 'Serum SARS-CoV-2 antibody titer' found, so one has been created",Warning
+mainTimeline,35,3,"No activity 'Cryopreserved PBMCs' found, so one has been created",Warning
+mainTimeline,36,3,"No activity 'Whole blood in PAXgene tubes for RNA analyses' found, so one has been created",Warning
+mainTimeline,,,"Unable to find activity 'Serum PD (CRP, IL-6, sIL-6R)' when adding to schedule instance",Warning
+mainTimeline,,,"Unable to find activity 'Serum PD (CRP, IL-6, sIL-6R)' when adding to schedule instance",Warning
+mainTimeline,,,"Unable to find activity 'Serum PD (CRP, IL-6, sIL-6R)' when adding to schedule instance",Warning
+mainTimeline,,,"Unable to find activity 'Serum PD (CRP, IL-6, sIL-6R)' when adding to schedule instance",Warning
+mainTimeline,,,"Unable to find activity 'Serum PD (CRP, IL-6, sIL-6R)' when adding to schedule instance",Warning
+mainTimeline,,,"Unable to find activity 'Serum PD (CRP, IL-6, sIL-6R)' when adding to schedule instance",Warning
+mainTimeline,,,"Unable to find activity 'Serum PD (CRP, IL-6, sIL-6R)' when adding to schedule instance",Warning
+mainTimeline,,,"Unable to find activity 'Serum PD (CRP, IL-6, sIL-6R)' when adding to schedule instance",Warning
+mainTimeline,,,"Unable to find activity 'Serum PD (CRP, IL-6, sIL-6R)' when adding to schedule instance",Warning
+mainTimeline,,,"Unable to find activity 'Serum PD (CRP, IL-6, sIL-6R)' when adding to schedule instance",Warning
+mainTimeline,,,"Unable to find activity 'Serum PD (CRP, IL-6, sIL-6R)' when adding to schedule instance",Warning
+mainTimeline,,,Child activity with name 'Informed consent' does not have a parent specified,Error
+mainTimeline,,,Child activity with name 'Inclusion/exclusion criteria' does not have a parent specified,Error
+mainTimeline,,,Child activity with name 'Demographics' does not have a parent specified,Error
+mainTimeline,,,Child activity with name 'Randomization' does not have a parent specified,Error
+mainTimeline,,,Child activity with name 'Medical history' does not have a parent specified,Error
+mainTimeline,,,Child activity with name 'Physical examination' does not have a parent specified,Error
+mainTimeline,,,Child activity with name 'Weight' does not have a parent specified,Error
+mainTimeline,,,Child activity with name 'COVID-19 Diagnosis' does not have a parent specified,Error
+mainTimeline,,,Child activity with name 'Chest X-ray/CT scan' does not have a parent specified,Error
+mainTimeline,,,Child activity with name 'ECG' does not have a parent specified,Error
+mainTimeline,,,Child activity with name 'Pregnancy test' does not have a parent specified,Error
+mainTimeline,,,Child activity with name 'PaO2/FiO2' does not have a parent specified,Error
+mainTimeline,,,Child activity with name 'SpO2' does not have a parent specified,Error
+mainTimeline,,,Child activity with name 'Vital signs' does not have a parent specified,Error
+mainTimeline,,,Child activity with name 'Ordinal scoring' does not have a parent specified,Error
+mainTimeline,,,Child activity with name 'Adverse events' does not have a parent specified,Error
+mainTimeline,,,Child activity with name 'Concomitant medications' does not have a parent specified,Error
+mainTimeline,,,Child activity with name 'Hematology' does not have a parent specified,Error
+mainTimeline,,,Child activity with name 'Chemistry' does not have a parent specified,Error
+mainTimeline,,,Child activity with name 'Study drug administration' does not have a parent specified,Error
+Legacy,118,2,"Error with section number incresing by more than one level, section '5.3.4'.",Error
+Legacy,,,Exception. Error [] while reading sheet 'Legacy'. See log for additional details.,Error
+studyDesignEstimands,1,-1,Error attempting to read cell 'populationSubset'. Exception: Failed to detect column(s) 'populationSubset' in sheet,Error
+studyDesignEstimands,1,-1,Error attempting to read cell 'intercurrentEventText'. Exception: Failed to detect column(s) 'intercurrentEventText' in sheet,Error
+studyDesignEstimands,,,Unable to find population or cohort with name '',Error
+studyDesignEstimands,,,"Failed to add IntercurrentEvent, no Estimand set",Error

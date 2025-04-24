@@ -1,0 +1,288 @@
+<!DOCTYPE html><html><head></head><body><h1>Main Timeline</h1><pre class="mermaid">
+graph LR
+ScheduleTimeline_1([Potential subject identified])
+ScheduledActivityInstance_1(ScheduledActivityInstance)
+ScheduleTimeline_1 -->|first| ScheduledActivityInstance_1
+ScheduledActivityInstance_2(ScheduledActivityInstance)
+ScheduledActivityInstance_1 -->|default| ScheduledActivityInstance_2
+ScheduledActivityInstance_3(ScheduledActivityInstance)
+ScheduledActivityInstance_2 -->|default| ScheduledActivityInstance_3
+ScheduledActivityInstance_4(ScheduledActivityInstance)
+ScheduledActivityInstance_3 -->|default| ScheduledActivityInstance_4
+ScheduledActivityInstance_5(ScheduledActivityInstance)
+ScheduledActivityInstance_4 -->|default| ScheduledActivityInstance_5
+ScheduledActivityInstance_6(ScheduledActivityInstance)
+ScheduledActivityInstance_5 -->|default| ScheduledActivityInstance_6
+ScheduledActivityInstance_7(ScheduledActivityInstance)
+ScheduledActivityInstance_6 -->|default| ScheduledActivityInstance_7
+ScheduledActivityInstance_8(ScheduledActivityInstance)
+ScheduledActivityInstance_7 -->|default| ScheduledActivityInstance_8
+ScheduledActivityInstance_9(ScheduledActivityInstance)
+ScheduledActivityInstance_8 -->|default| ScheduledActivityInstance_9
+ScheduledActivityInstance_10(ScheduledActivityInstance)
+ScheduledActivityInstance_9 -->|default| ScheduledActivityInstance_10
+ScheduledActivityInstance_11(ScheduledActivityInstance)
+ScheduledActivityInstance_10 -->|default| ScheduledActivityInstance_11
+ScheduledActivityInstance_12(ScheduledActivityInstance)
+ScheduledActivityInstance_11 -->|default| ScheduledActivityInstance_12
+ScheduledActivityInstance_13(ScheduledActivityInstance)
+ScheduledActivityInstance_12 -->|default| ScheduledActivityInstance_13
+ScheduledActivityInstance_14(ScheduledActivityInstance)
+ScheduledActivityInstance_13 -->|default| ScheduledActivityInstance_14
+ScheduledActivityInstance_15(ScheduledActivityInstance)
+ScheduledActivityInstance_14 -->|default| ScheduledActivityInstance_15
+ScheduledActivityInstance_16(ScheduledActivityInstance)
+ScheduledActivityInstance_15 -->|default| ScheduledActivityInstance_16
+ScheduledActivityInstance_17(ScheduledActivityInstance)
+ScheduledActivityInstance_16 -->|default| ScheduledActivityInstance_17
+ScheduledActivityInstance_18(ScheduledActivityInstance)
+ScheduledActivityInstance_17 -->|default| ScheduledActivityInstance_18
+ScheduledActivityInstance_19(ScheduledActivityInstance)
+ScheduledActivityInstance_18 -->|default| ScheduledActivityInstance_19
+ScheduledActivityInstance_20(ScheduledActivityInstance)
+ScheduledActivityInstance_19 -->|default| ScheduledActivityInstance_20
+ScheduledActivityInstance_21(ScheduledActivityInstance)
+ScheduledActivityInstance_20 -->|default| ScheduledActivityInstance_21
+ScheduledActivityInstance_22(ScheduledActivityInstance)
+ScheduledActivityInstance_21 -->|default| ScheduledActivityInstance_22
+ScheduledActivityInstance_23(ScheduledActivityInstance)
+ScheduledActivityInstance_22 -->|default| ScheduledActivityInstance_23
+ScheduledActivityInstance_24(ScheduledActivityInstance)
+ScheduledActivityInstance_23 -->|default| ScheduledActivityInstance_24
+ScheduledActivityInstance_25(ScheduledActivityInstance)
+ScheduledActivityInstance_24 -->|default| ScheduledActivityInstance_25
+ScheduledActivityInstance_26(ScheduledActivityInstance)
+ScheduledActivityInstance_25 -->|default| ScheduledActivityInstance_26
+ScheduledActivityInstance_27(ScheduledActivityInstance)
+ScheduledActivityInstance_26 -->|default| ScheduledActivityInstance_27
+ScheduledActivityInstance_28(ScheduledActivityInstance)
+ScheduledActivityInstance_27 -->|default| ScheduledActivityInstance_28
+ScheduledActivityInstance_29(ScheduledActivityInstance)
+ScheduledActivityInstance_28 -->|default| ScheduledActivityInstance_29
+ScheduledActivityInstance_30(ScheduledActivityInstance)
+ScheduledActivityInstance_29 -->|default| ScheduledActivityInstance_30
+ScheduledActivityInstance_31(ScheduledActivityInstance)
+ScheduledActivityInstance_30 -->|default| ScheduledActivityInstance_31
+ScheduledActivityInstance_32(ScheduledActivityInstance)
+ScheduledActivityInstance_31 -->|default| ScheduledActivityInstance_32
+ScheduledActivityInstance_33(ScheduledActivityInstance)
+ScheduledActivityInstance_32 -->|default| ScheduledActivityInstance_33
+ScheduledActivityInstance_34(ScheduledActivityInstance)
+ScheduledActivityInstance_33 -->|default| ScheduledActivityInstance_34
+ScheduledActivityInstance_35(ScheduledActivityInstance)
+ScheduledActivityInstance_34 -->|default| ScheduledActivityInstance_35
+ScheduleTimelineExit_1([Exit])
+ScheduledActivityInstance_35 -->|exit| ScheduleTimelineExit_1
+Timing_1((Screening
+Before
+P1D
+P1D..P1D))
+Timing_1 -->|from| ScheduledActivityInstance_1
+Timing_1 -->|to| ScheduledActivityInstance_3
+Timing_2((Pre dose
+Before
+PT4H
+None..None))
+Timing_2 -->|from| ScheduledActivityInstance_2
+Timing_2 -->|to| ScheduledActivityInstance_3
+Timing_3((Dosing
+Fixed Reference
+P1D
+None..None))
+Timing_3 -->|from| ScheduledActivityInstance_3
+Timing_3 -->|to| ScheduledActivityInstance_3
+Timing_4((15 min after infusion
+After
+PT15M
+PT0H..PT1H))
+Timing_4 -->|from| ScheduledActivityInstance_4
+Timing_4 -->|to| ScheduledActivityInstance_3
+Timing_5((24 hrs after infusion
+After
+PT24H
+PT4H..PT4H))
+Timing_5 -->|from| ScheduledActivityInstance_5
+Timing_5 -->|to| ScheduledActivityInstance_3
+Timing_6((36 hrs after infusion
+After
+PT36H
+PT4H..PT4H))
+Timing_6 -->|from| ScheduledActivityInstance_6
+Timing_6 -->|to| ScheduledActivityInstance_3
+Timing_7((Day 3
+After
+P2D
+None..None))
+Timing_7 -->|from| ScheduledActivityInstance_7
+Timing_7 -->|to| ScheduledActivityInstance_3
+Timing_8((Day 4
+After
+P3D
+None..None))
+Timing_8 -->|from| ScheduledActivityInstance_8
+Timing_8 -->|to| ScheduledActivityInstance_3
+Timing_9((Day 5
+After
+P4D
+None..None))
+Timing_9 -->|from| ScheduledActivityInstance_9
+Timing_9 -->|to| ScheduledActivityInstance_3
+Timing_10((Day 6
+After
+P5D
+None..None))
+Timing_10 -->|from| ScheduledActivityInstance_10
+Timing_10 -->|to| ScheduledActivityInstance_3
+Timing_11((Day 7
+After
+P6D
+None..None))
+Timing_11 -->|from| ScheduledActivityInstance_11
+Timing_11 -->|to| ScheduledActivityInstance_3
+Timing_12((Day 8
+After
+P7D
+None..None))
+Timing_12 -->|from| ScheduledActivityInstance_12
+Timing_12 -->|to| ScheduledActivityInstance_3
+Timing_13((Day 9
+After
+P8D
+None..None))
+Timing_13 -->|from| ScheduledActivityInstance_13
+Timing_13 -->|to| ScheduledActivityInstance_3
+Timing_14((Day 10
+After
+P9D
+None..None))
+Timing_14 -->|from| ScheduledActivityInstance_14
+Timing_14 -->|to| ScheduledActivityInstance_3
+Timing_15((Day 11
+After
+P10D
+None..None))
+Timing_15 -->|from| ScheduledActivityInstance_15
+Timing_15 -->|to| ScheduledActivityInstance_3
+Timing_16((Day 12
+After
+P11D
+None..None))
+Timing_16 -->|from| ScheduledActivityInstance_16
+Timing_16 -->|to| ScheduledActivityInstance_3
+Timing_17((Day 13
+After
+P12D
+None..None))
+Timing_17 -->|from| ScheduledActivityInstance_17
+Timing_17 -->|to| ScheduledActivityInstance_3
+Timing_18((Day 14
+After
+P13D
+None..None))
+Timing_18 -->|from| ScheduledActivityInstance_18
+Timing_18 -->|to| ScheduledActivityInstance_3
+Timing_19((Day 15
+After
+P14D
+None..None))
+Timing_19 -->|from| ScheduledActivityInstance_19
+Timing_19 -->|to| ScheduledActivityInstance_3
+Timing_20((Day 16
+After
+P15D
+None..None))
+Timing_20 -->|from| ScheduledActivityInstance_20
+Timing_20 -->|to| ScheduledActivityInstance_3
+Timing_21((Day 17
+After
+P16D
+None..None))
+Timing_21 -->|from| ScheduledActivityInstance_21
+Timing_21 -->|to| ScheduledActivityInstance_3
+Timing_22((Day 18
+After
+P17D
+None..None))
+Timing_22 -->|from| ScheduledActivityInstance_22
+Timing_22 -->|to| ScheduledActivityInstance_3
+Timing_23((Day 19
+After
+P18D
+None..None))
+Timing_23 -->|from| ScheduledActivityInstance_23
+Timing_23 -->|to| ScheduledActivityInstance_3
+Timing_24((Day 20
+After
+P19D
+None..None))
+Timing_24 -->|from| ScheduledActivityInstance_24
+Timing_24 -->|to| ScheduledActivityInstance_3
+Timing_25((Day 21
+After
+P20D
+None..None))
+Timing_25 -->|from| ScheduledActivityInstance_25
+Timing_25 -->|to| ScheduledActivityInstance_3
+Timing_26((Day 22
+After
+P21D
+None..None))
+Timing_26 -->|from| ScheduledActivityInstance_26
+Timing_26 -->|to| ScheduledActivityInstance_3
+Timing_27((Day 23
+After
+P22D
+None..None))
+Timing_27 -->|from| ScheduledActivityInstance_27
+Timing_27 -->|to| ScheduledActivityInstance_3
+Timing_28((Day 24
+After
+P23D
+None..None))
+Timing_28 -->|from| ScheduledActivityInstance_28
+Timing_28 -->|to| ScheduledActivityInstance_3
+Timing_29((Day 25
+After
+P24D
+None..None))
+Timing_29 -->|from| ScheduledActivityInstance_29
+Timing_29 -->|to| ScheduledActivityInstance_3
+Timing_30((Day 26
+After
+P25D
+None..None))
+Timing_30 -->|from| ScheduledActivityInstance_30
+Timing_30 -->|to| ScheduledActivityInstance_3
+Timing_31((Day 27
+After
+P26D
+None..None))
+Timing_31 -->|from| ScheduledActivityInstance_31
+Timing_31 -->|to| ScheduledActivityInstance_3
+Timing_32((Day 28
+After
+P27D
+None..None))
+Timing_32 -->|from| ScheduledActivityInstance_32
+Timing_32 -->|to| ScheduledActivityInstance_3
+Timing_33((Day 35
+After
+P34D
+P3D..P3D))
+Timing_33 -->|from| ScheduledActivityInstance_33
+Timing_33 -->|to| ScheduledActivityInstance_3
+Timing_34((Day 45
+After
+P44D
+P3D..P3D))
+Timing_34 -->|from| ScheduledActivityInstance_34
+Timing_34 -->|to| ScheduledActivityInstance_3
+Timing_35((Day 60
+After
+P59D
+P3D..P3D))
+Timing_35 -->|from| ScheduledActivityInstance_35
+Timing_35 -->|to| ScheduledActivityInstance_3
+</pre><script type="module">import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+mermaid.initialize({ startOnLoad: true });
+</script></body></html>
