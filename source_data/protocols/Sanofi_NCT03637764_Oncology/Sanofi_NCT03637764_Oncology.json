@@ -4501,6 +4501,7 @@
                     "encounterId": null
                   }
                 ],
+                "plannedDuration": null,
                 "instanceType": "ScheduleTimeline"
               },
               {
@@ -6156,6 +6157,7 @@
                     "encounterId": "Encounter_9"
                   }
                 ],
+                "plannedDuration": null,
                 "instanceType": "ScheduleTimeline"
               },
               {
@@ -6613,6 +6615,7 @@
                     "encounterId": "Encounter_9"
                   }
                 ],
+                "plannedDuration": null,
                 "instanceType": "ScheduleTimeline"
               },
               {
@@ -6801,6 +6804,7 @@
                     "encounterId": null
                   }
                 ],
+                "plannedDuration": null,
                 "instanceType": "ScheduleTimeline"
               }
             ],
@@ -9987,8 +9991,9 @@
                 "label": "",
                 "description": "10 mg/kg weekly",
                 "duration": {
-                  "id": "AdministrationDuration_1",
+                  "id": "Duration_1",
                   "extensionAttributes": [],
+                  "text": "",
                   "quantity": {
                     "id": "Quantity_6",
                     "extensionAttributes": [],
@@ -10010,10 +10015,9 @@
                     },
                     "instanceType": "Quantity"
                   },
-                  "description": "",
                   "durationWillVary": false,
                   "reasonDurationWillVary": "",
-                  "instanceType": "AdministrationDuration"
+                  "instanceType": "Duration"
                 },
                 "dose": {
                   "id": "Quantity_7",
@@ -10139,13 +10143,13 @@
                 "label": "",
                 "description": "10 mg/kg every 3 weeks",
                 "duration": {
-                  "id": "AdministrationDuration_2",
+                  "id": "Duration_2",
                   "extensionAttributes": [],
+                  "text": "",
                   "quantity": null,
-                  "description": "",
                   "durationWillVary": true,
                   "reasonDurationWillVary": "Based on safety and toxicity",
-                  "instanceType": "AdministrationDuration"
+                  "instanceType": "Duration"
                 },
                 "dose": {
                   "id": "Quantity_9",
@@ -10271,13 +10275,13 @@
                 "label": "",
                 "description": "1200 mg every 3 weeks",
                 "duration": {
-                  "id": "AdministrationDuration_3",
+                  "id": "Duration_3",
                   "extensionAttributes": [],
+                  "text": "",
                   "quantity": null,
-                  "description": "",
                   "durationWillVary": true,
                   "reasonDurationWillVary": "Based on safety and toxicity",
-                  "instanceType": "AdministrationDuration"
+                  "instanceType": "Duration"
                 },
                 "dose": {
                   "id": "Quantity_11",

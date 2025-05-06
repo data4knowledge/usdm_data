@@ -8343,6 +8343,7 @@
                     "encounterId": "Encounter_50"
                   }
                 ],
+                "plannedDuration": null,
                 "instanceType": "ScheduleTimeline"
               },
               {
@@ -8414,6 +8415,7 @@
                     "encounterId": null
                   }
                 ],
+                "plannedDuration": null,
                 "instanceType": "ScheduleTimeline"
               },
               {
@@ -8493,6 +8495,7 @@
                     "encounterId": null
                   }
                 ],
+                "plannedDuration": null,
                 "instanceType": "ScheduleTimeline"
               },
               {
@@ -9048,6 +9051,7 @@
                     "encounterId": null
                   }
                 ],
+                "plannedDuration": null,
                 "instanceType": "ScheduleTimeline"
               },
               {
@@ -9137,6 +9141,7 @@
                     "encounterId": null
                   }
                 ],
+                "plannedDuration": null,
                 "instanceType": "ScheduleTimeline"
               }
             ],
@@ -11497,8 +11502,9 @@
                 "label": "",
                 "description": "15 mg/day",
                 "duration": {
-                  "id": "AdministrationDuration_1",
+                  "id": "Duration_1",
                   "extensionAttributes": [],
+                  "text": "",
                   "quantity": {
                     "id": "Quantity_5",
                     "extensionAttributes": [],
@@ -11520,10 +11526,9 @@
                     },
                     "instanceType": "Quantity"
                   },
-                  "description": "",
                   "durationWillVary": true,
                   "reasonDurationWillVary": "Need reason",
-                  "instanceType": "AdministrationDuration"
+                  "instanceType": "Duration"
                 },
                 "dose": {
                   "id": "Quantity_6",
@@ -11588,8 +11593,9 @@
                 "label": "",
                 "description": "30 mg/day (administered as 2 \u00d7 15 mg ALXN1840 tablets)",
                 "duration": {
-                  "id": "AdministrationDuration_2",
+                  "id": "Duration_2",
                   "extensionAttributes": [],
+                  "text": "",
                   "quantity": {
                     "id": "Quantity_8",
                     "extensionAttributes": [],
@@ -11611,10 +11617,9 @@
                     },
                     "instanceType": "Quantity"
                   },
-                  "description": "",
                   "durationWillVary": true,
                   "reasonDurationWillVary": "Need reason",
-                  "instanceType": "AdministrationDuration"
+                  "instanceType": "Duration"
                 },
                 "dose": {
                   "id": "Quantity_9",

@@ -3661,6 +3661,7 @@
                     "encounterId": "Encounter_12"
                   }
                 ],
+                "plannedDuration": null,
                 "instanceType": "ScheduleTimeline"
               },
               {
@@ -3732,6 +3733,7 @@
                     "encounterId": null
                   }
                 ],
+                "plannedDuration": null,
                 "instanceType": "ScheduleTimeline"
               },
               {
@@ -3817,6 +3819,7 @@
                     "encounterId": null
                   }
                 ],
+                "plannedDuration": null,
                 "instanceType": "ScheduleTimeline"
               },
               {
@@ -4133,6 +4136,7 @@
                     "encounterId": null
                   }
                 ],
+                "plannedDuration": null,
                 "instanceType": "ScheduleTimeline"
               }
             ],
@@ -6148,8 +6152,9 @@
                 "label": "",
                 "description": "50 cm2 Patch",
                 "duration": {
-                  "id": "AdministrationDuration_1",
+                  "id": "Duration_1",
                   "extensionAttributes": [],
+                  "text": "",
                   "quantity": {
                     "id": "Quantity_2",
                     "extensionAttributes": [],
@@ -6171,10 +6176,9 @@
                     },
                     "instanceType": "Quantity"
                   },
-                  "description": "",
                   "durationWillVary": false,
                   "reasonDurationWillVary": "Need reason",
-                  "instanceType": "AdministrationDuration"
+                  "instanceType": "Duration"
                 },
                 "dose": {
                   "id": "Quantity_3",
@@ -6239,8 +6243,9 @@
                 "label": "",
                 "description": "75 cm2 Patch",
                 "duration": {
-                  "id": "AdministrationDuration_2",
+                  "id": "Duration_2",
                   "extensionAttributes": [],
+                  "text": "",
                   "quantity": {
                     "id": "Quantity_5",
                     "extensionAttributes": [],
@@ -6262,10 +6267,9 @@
                     },
                     "instanceType": "Quantity"
                   },
-                  "description": "",
                   "durationWillVary": false,
                   "reasonDurationWillVary": "Need reason",
-                  "instanceType": "AdministrationDuration"
+                  "instanceType": "Duration"
                 },
                 "dose": {
                   "id": "Quantity_6",
