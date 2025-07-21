@@ -6,6 +6,7 @@ import json
 import yaml
 import csv
 from usdm_db import USDMDb
+from usdm4 import USDM4
 from usdm_info import __package_version__ as code_version
 from usdm_info import __model_version__ as model_version
 
@@ -63,12 +64,14 @@ def file_suffix(view):
   return ''
 
 studies = read_yaml_file('config_data/studies')
+usdm4 = USDM4()
 
 print (f"\n\nImport Utility, using USDM Python Package v{code_version} supporting USDM version v{model_version}\n\n")
 for study in studies:
   print (f"Processing study {(study['filename'])} ...\n\n")
   file_path = f"{ROOT_PATH}%s/%s.xlsx" % (study['input_path'], study['filename'])
   study['output_path'] = study['output_path'] if study['output_path'] else study['input_path']
+  json_path = study['output_path']
   x = USDMDb()
   errors = x.from_excel(file_path)
   print("\n\nJSON and Errors\n\n")
@@ -88,4 +91,14 @@ for study in studies:
       if x.is_m11() and template == "M11":
         save_as_json_file(x.to_fhir(template), study, 'fhir')
   print(f"\n\nERRORS:\n{errors}\n\n")
-  print(f"----- + -----\n\n")
+
+  filename = f"{ROOT_PATH}{json_path}/{study['filename']}.json"
+  result = usdm4.validate(filename)
+  for v in result.to_dict():
+    if v['status'] not in ['Not Implemented']: 
+      print(f"{v['rule_id']}: {v['status']}")
+      if v['status'] != 'Success':
+        print(f"- {v['rule_text']}")
+        print(f"- {v['message']}")
+        print(f"- {v['path']}")
+  print(f"\n\nVALID: {result.passed_or_not_implemented()}\n\n") 

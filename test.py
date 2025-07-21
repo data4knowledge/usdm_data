@@ -4,6 +4,7 @@ import json
 import csv
 import os
 from usdm_db import USDMDb
+from usdm4 import USDM4
 from usdm_info import __package_version__ as code_version
 from usdm_info import __model_version__ as model_version  
 
@@ -81,6 +82,7 @@ if __name__ == "__main__":
   print("")
 
   usdm = USDMDb()
+  usdm4 = USDM4()
   errors = usdm.from_excel(full_filename)
   template = usdm.default_template() if not template else template.upper()
   save_as_json_file(json.dumps(json.loads(usdm.to_json())), output_path, root_filename)
@@ -94,3 +96,15 @@ if __name__ == "__main__":
       save_as_html_file(usdm.to_html(template, highlight), template_output_path, root_filename, 'highlight')
     if usdm.is_m11() and template == "M11":
       save_as_json_file(usdm.to_fhir(template), template_output_path, root_filename, 'fhir')
+
+  print(f"\n\n")
+  filename = f"{output_path}/{root_filename}.json"
+  result = usdm4.validate(filename)
+  for v in result.to_dict():
+    if v['status'] not in ['Not Implemented']: 
+      print(f"{v['rule_id']}: {v['status']}")
+      if v['status'] != 'Success':
+        print(f"- {v['rule_text']}")
+        print(f"- {v['message']}")
+        print(f"- {v['path']}")
+  print(f"\n\nVALID: {result.passed_or_not_implemented()}\n\n") 
