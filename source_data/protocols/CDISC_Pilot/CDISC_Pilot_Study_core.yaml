@@ -3,7 +3,7 @@ version: 4-0
 is_valid: false
 rules_executed: 205
 rules_skipped: 2
-finding_count: 18
+finding_count: 16
 execution_error_count: 6642
 ct_packages_available: 200
 ct_packages_loaded:
@@ -26,24 +26,6 @@ findings:
     details:
       plannedSex: '[Code_642: Both (C49636)]'
       check: true
-- rule_id: CORE-000879
-  description: For CDISC codelist references (where the code system is 'http://www.cdisc.org'),
-    the code system version must be a valid CDISC terminology release date in ISO
-    8601 date format.
-  message: The code system is "http://www.cdisc.org" but the code system version is
-    not a valid CDISC terminology release date in ISO 8601 date format.
-  error_count: 1
-  errors:
-  - instance_id: Code_693
-    path: /study/versions/0/biomedicalConcepts/32/code/standardCode
-    details:
-      parent_id: AliasCode_265
-      parent_rel: standardCode
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: null
-      parent_entity: AliasCode
-      code: C198218
-      decode: Not Set
 - rule_id: CORE-000427
   description: Within a code system and corresponding version, a one-to-one relationship
     between code and decode is expected.
@@ -54,33 +36,33 @@ findings:
   - instance_id: Code_619
     path: /study/versions/0/biomedicalConcepts/12/properties/2/code/standardCode
     details:
+      codeSystem: http://www.cdisc.org
+      code: No Concept Code
       parent_id: AliasCode_249
       parent_rel: standardCode
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2024-09-27'
-      parent_entity: AliasCode
-      code: No Concept Code
       decode: LBORRESU
+      parent_entity: AliasCode
+      codeSystemVersion: '2024-09-27'
   - instance_id: Code_163
     path: /study/versions/0/biomedicalConcepts/13/properties/2/code/standardCode
     details:
+      codeSystem: http://www.cdisc.org
+      code: No Concept Code
       parent_id: AliasCode_27
       parent_rel: standardCode
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2024-09-27'
-      parent_entity: AliasCode
-      code: No Concept Code
       decode: AEHLGT
+      parent_entity: AliasCode
+      codeSystemVersion: '2024-09-27'
   - instance_id: Code_164
     path: /study/versions/0/biomedicalConcepts/13/properties/3/code/standardCode
     details:
+      codeSystem: http://www.cdisc.org
+      code: No Concept Code
       parent_id: AliasCode_28
       parent_rel: standardCode
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2024-09-27'
-      parent_entity: AliasCode
-      code: No Concept Code
       decode: AEHLGTCD
+      parent_entity: AliasCode
+      codeSystemVersion: '2024-09-27'
 - rule_id: CORE-001077
   description: If an interventional model indicates a cross-over, parallel or factorial
     design then more than 1 intervention is expected.
@@ -190,14 +172,14 @@ findings:
     name: Study Design 1
     details:
       parent_id: StudyVersion_1
+      $num_primary_obj: 2
       parent_rel: studyDesigns
-      parent_entity: StudyVersion
       $primary_objectives:
+      - To document the safety profile of the xanomeline TTS.
       - To determine if there is a statistically significant relationship (overall
         Type 1 erroralpha=0.05) between the change in both the ADAS-Cog (11) and CIBIC+
         scores, and drug dose (0, 50 cm2 [54 mg], and 75 cm2 [81 mg]).
-      - To document the safety profile of the xanomeline TTS.
-      $num_primary_obj: 2
+      parent_entity: StudyVersion
 - rule_id: CORE-001016
   description: A planned duration is expected for the main timeline.
   message: The planned duration is not specified for the main timeline.
@@ -214,26 +196,20 @@ findings:
   description: Only one version of any code system is expected to be used within a
     study version.
   message: More than one code system version is used for the code system.
-  error_count: 3
+  error_count: 2
   errors:
   - instance_id: Code_1
     path: /study/versions/0/organizations/0/type
     details:
-      codeSystem: http://www.cdisc.org
       codeSystemVersion: '2025-09-26'
-      $record_count: 197
+      codeSystem: http://www.cdisc.org
+      $record_count: 198
   - instance_id: Code_161
     path: /study/versions/0/biomedicalConcepts/13/properties/0/code/standardCode
     details:
-      codeSystem: http://www.cdisc.org
       codeSystemVersion: '2024-09-27'
-      $record_count: 465
-  - instance_id: Code_693
-    path: /study/versions/0/biomedicalConcepts/32/code/standardCode
-    details:
       codeSystem: http://www.cdisc.org
-      codeSystemVersion: null
-      $record_count: 1
+      $record_count: 465
 - rule_id: CORE-001071
   description: A masking is expected to be defined for at least two study roles in
     a study design with a double blind blinding schema.

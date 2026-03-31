@@ -3,14 +3,14 @@ version: 4-0
 is_valid: false
 rules_executed: 205
 rules_skipped: 2
-finding_count: 27
+finding_count: 25
 execution_error_count: 5447
 ct_packages_available: 200
 ct_packages_loaded:
-- sdtmct-2025-09-26
-- ddfct-2025-09-26
 - sdtmct-2024-09-27
 - ddfct-2024-09-27
+- sdtmct-2025-09-26
+- ddfct-2025-09-26
 findings:
 - rule_id: CORE-000996
   description: A planned sex must either include a single entry of male or female
@@ -26,24 +26,6 @@ findings:
     details:
       plannedSex: '[Code_591: Both (C49636)]'
       check: true
-- rule_id: CORE-000879
-  description: For CDISC codelist references (where the code system is 'http://www.cdisc.org'),
-    the code system version must be a valid CDISC terminology release date in ISO
-    8601 date format.
-  message: The code system is "http://www.cdisc.org" but the code system version is
-    not a valid CDISC terminology release date in ISO 8601 date format.
-  error_count: 1
-  errors:
-  - instance_id: Code_644
-    path: /study/versions/0/biomedicalConcepts/36/code/standardCode
-    details:
-      parent_id: AliasCode_276
-      parent_rel: standardCode
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: null
-      parent_entity: AliasCode
-      code: C198218
-      decode: Not Set
 - rule_id: CORE-000973
   description: There must be exactly one study role with a code of sponsor.
   message: There is not exactly one study role with a code of sponsor (where code.code
@@ -283,26 +265,20 @@ findings:
   description: Only one version of any code system is expected to be used within a
     study version.
   message: More than one code system version is used for the code system.
-  error_count: 3
+  error_count: 2
   errors:
   - instance_id: Code_1
     path: /study/versions/0/organizations/0/type
     details:
-      codeSystem: http://www.cdisc.org
       codeSystemVersion: '2025-09-26'
-      $record_count: 186
+      codeSystem: http://www.cdisc.org
+      $record_count: 187
   - instance_id: Code_135
     path: /study/versions/0/biomedicalConcepts/35/properties/0/code/standardCode
     details:
-      codeSystem: http://www.cdisc.org
       codeSystemVersion: '2024-09-27'
-      $record_count: 438
-  - instance_id: Code_644
-    path: /study/versions/0/biomedicalConcepts/36/code/standardCode
-    details:
       codeSystem: http://www.cdisc.org
-      codeSystemVersion: null
-      $record_count: 1
+      $record_count: 438
 - rule_id: CORE-000945
   description: Syntax template text is expected to be HTML formatted.
   message: The text attribute contains non-conformant XHTML.

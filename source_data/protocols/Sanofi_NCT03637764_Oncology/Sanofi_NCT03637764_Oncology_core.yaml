@@ -3,14 +3,14 @@ version: 4-0
 is_valid: false
 rules_executed: 205
 rules_skipped: 2
-finding_count: 96
+finding_count: 94
 execution_error_count: 5878
 ct_packages_available: 200
 ct_packages_loaded:
-- sdtmct-2025-09-26
-- ddfct-2025-09-26
 - sdtmct-2024-09-27
 - ddfct-2024-09-27
+- sdtmct-2025-09-26
+- ddfct-2025-09-26
 findings:
 - rule_id: CORE-000971
   description: At least one attribute must be specified for an address.
@@ -131,38 +131,38 @@ findings:
     path: /study/versions/0/studyDesigns/0/scheduleTimelines/0/instances/4
     name: C1D15
     details:
+      timelineExitId: null
+      defaultConditionId: null
       parent_id: ScheduleTimeline_4
       parent_rel: instances
-      timelineExitId: null
       parent_entity: ScheduleTimeline
-      defaultConditionId: null
   - instance_id: ScheduledActivityInstance_47
     path: /study/versions/0/studyDesigns/0/scheduleTimelines/0/instances/5
     name: CxD1
     details:
+      timelineExitId: null
+      defaultConditionId: null
       parent_id: ScheduleTimeline_4
       parent_rel: instances
-      timelineExitId: null
       parent_entity: ScheduleTimeline
-      defaultConditionId: null
   - instance_id: ScheduledActivityInstance_3
     path: /study/versions/0/studyDesigns/0/scheduleTimelines/1/instances/2
     name: C1D1_EOI_A
     details:
+      timelineExitId: null
+      defaultConditionId: null
       parent_id: ScheduleTimeline_1
       parent_rel: instances
-      timelineExitId: null
       parent_entity: ScheduleTimeline
-      defaultConditionId: null
   - instance_id: ScheduledActivityInstance_9
     path: /study/versions/0/studyDesigns/0/scheduleTimelines/1/instances/8
     name: C1D8_PRE
     details:
+      timelineExitId: null
+      defaultConditionId: null
       parent_id: ScheduleTimeline_1
       parent_rel: instances
-      timelineExitId: null
       parent_entity: ScheduleTimeline
-      defaultConditionId: null
 - rule_id: CORE-000870
   description: All scheduled activity instances in the main timeline are expected
     to refer to an epoch.
@@ -179,24 +179,6 @@ findings:
       mainTimeline: true
       parent_rel: instances
       parent_entity: ScheduleTimeline
-- rule_id: CORE-000879
-  description: For CDISC codelist references (where the code system is 'http://www.cdisc.org'),
-    the code system version must be a valid CDISC terminology release date in ISO
-    8601 date format.
-  message: The code system is "http://www.cdisc.org" but the code system version is
-    not a valid CDISC terminology release date in ISO 8601 date format.
-  error_count: 1
-  errors:
-  - instance_id: Code_510
-    path: /study/versions/0/biomedicalConcepts/13/code/standardCode
-    details:
-      parent_id: AliasCode_158
-      parent_rel: standardCode
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: null
-      parent_entity: AliasCode
-      code: C198218
-      decode: Not Set
 - rule_id: CORE-000973
   description: There must be exactly one study role with a code of sponsor.
   message: There is not exactly one study role with a code of sponsor (where code.code
@@ -456,11 +438,11 @@ findings:
     name: POP1
     details:
       parent_id: InterventionalStudyDesign_1
-      id.StudyCohort: StudyCohort_1
-      parent_rel: population
       name.StudyCohort: COHORT1
-      plannedSex: false
+      id.StudyCohort: StudyCohort_1
       plannedSex.StudyCohort: false
+      parent_rel: population
+      plannedSex: false
       parent_entity: InterventionalStudyDesign
       plannedSex.decode: Not in dataset
       plannedSex.decode.StudyCohort: Not in dataset
@@ -469,11 +451,11 @@ findings:
     name: POP1
     details:
       parent_id: InterventionalStudyDesign_1
-      id.StudyCohort: StudyCohort_2
-      parent_rel: population
       name.StudyCohort: COHORT2
-      plannedSex: false
+      id.StudyCohort: StudyCohort_2
       plannedSex.StudyCohort: false
+      parent_rel: population
+      plannedSex: false
       parent_entity: InterventionalStudyDesign
       plannedSex.decode: Not in dataset
       plannedSex.decode.StudyCohort: Not in dataset
@@ -482,11 +464,11 @@ findings:
     name: POP1
     details:
       parent_id: InterventionalStudyDesign_1
-      id.StudyCohort: StudyCohort_3
-      parent_rel: population
       name.StudyCohort: COHORT3
-      plannedSex: false
+      id.StudyCohort: StudyCohort_3
       plannedSex.StudyCohort: false
+      parent_rel: population
+      plannedSex: false
       parent_entity: InterventionalStudyDesign
       plannedSex.decode: Not in dataset
       plannedSex.decode.StudyCohort: Not in dataset
@@ -495,11 +477,11 @@ findings:
     name: POP1
     details:
       parent_id: InterventionalStudyDesign_1
-      id.StudyCohort: StudyCohort_4
-      parent_rel: population
       name.StudyCohort: COHORT4
-      plannedSex: false
+      id.StudyCohort: StudyCohort_4
       plannedSex.StudyCohort: false
+      parent_rel: population
+      plannedSex: false
       parent_entity: InterventionalStudyDesign
       plannedSex.decode: Not in dataset
       plannedSex.decode.StudyCohort: Not in dataset
@@ -552,71 +534,71 @@ findings:
     name: C1D1
     details:
       parent_id: Timing_14
+      parent_id.Timing: ScheduleTimeline_3
       parent_rel: relativeToScheduledInstanceId
+      parent_entity: Timing
       $parent_of_scheduled_instance:
       - ScheduleTimeline_4
-      parent_entity: Timing
-      parent_id.Timing: ScheduleTimeline_3
   - instance_id: ScheduledActivityInstance_48
     path: /study/versions/0/studyDesigns/0/scheduleTimelines/3/timings/1/relativeToScheduledInstanceId
     name: EOT
     details:
       parent_id: Timing_16
+      parent_id.Timing: ScheduleTimeline_3
       parent_rel: relativeToScheduledInstanceId
+      parent_entity: Timing
       $parent_of_scheduled_instance:
       - ScheduleTimeline_4
-      parent_entity: Timing
-      parent_id.Timing: ScheduleTimeline_3
   - instance_id: ScheduledActivityInstance_50
     path: /study/versions/0/studyDesigns/0/scheduleTimelines/3/timings/3/relativeToScheduledInstanceId
     name: SFU2
     details:
       parent_id: Timing_17
+      parent_id.Timing: ScheduleTimeline_3
       parent_rel: relativeToScheduledInstanceId
+      parent_entity: Timing
       $parent_of_scheduled_instance:
       - ScheduleTimeline_4
-      parent_entity: Timing
-      parent_id.Timing: ScheduleTimeline_3
   - instance_id: ScheduledDecisionInstance_1
     path: /study/versions/0/studyDesigns/0/scheduleTimelines/0/timings/6/relativeFromScheduledInstanceId
     name: Cx_END
     details:
       parent_id: Timing_7
+      parent_id.Timing: ScheduleTimeline_4
       parent_rel: relativeFromScheduledInstanceId
+      parent_entity: Timing
       $parent_of_scheduled_instance:
       - ScheduleTimeline_1
-      parent_entity: Timing
-      parent_id.Timing: ScheduleTimeline_4
   - instance_id: ScheduledDecisionInstance_1
     path: /study/versions/0/studyDesigns/0/scheduleTimelines/0/timings/7/relativeToScheduledInstanceId
     name: Cx_END
     details:
       parent_id: Timing_8
+      parent_id.Timing: ScheduleTimeline_4
       parent_rel: relativeToScheduledInstanceId
+      parent_entity: Timing
       $parent_of_scheduled_instance:
       - ScheduleTimeline_1
-      parent_entity: Timing
-      parent_id.Timing: ScheduleTimeline_4
   - instance_id: ScheduledDecisionInstance_1
     path: /study/versions/0/studyDesigns/0/scheduleTimelines/0/timings/8/relativeToScheduledInstanceId
     name: Cx_END
     details:
       parent_id: Timing_9
+      parent_id.Timing: ScheduleTimeline_4
       parent_rel: relativeToScheduledInstanceId
+      parent_entity: Timing
       $parent_of_scheduled_instance:
       - ScheduleTimeline_1
-      parent_entity: Timing
-      parent_id.Timing: ScheduleTimeline_4
   - instance_id: ScheduledDecisionInstance_1
     path: /study/versions/0/studyDesigns/0/scheduleTimelines/0/timings/9/relativeToScheduledInstanceId
     name: Cx_END
     details:
       parent_id: Timing_10
+      parent_id.Timing: ScheduleTimeline_4
       parent_rel: relativeToScheduledInstanceId
+      parent_entity: Timing
       $parent_of_scheduled_instance:
       - ScheduleTimeline_1
-      parent_entity: Timing
-      parent_id.Timing: ScheduleTimeline_4
 - rule_id: CORE-001048
   description: Epoch ordering using previous and next attributes is expected to be
     consistent with the order of corresponding scheduled activity instances according
@@ -662,8 +644,8 @@ findings:
     name: Phase 1
     details:
       parent_id: StudyVersion_1
+      $num_primary_obj: 3
       parent_rel: studyDesigns
-      parent_entity: StudyVersion
       $primary_objectives:
       - "<p>Phase 1: To characterize the safety and tolerability of I in combination\
         \ with A in participants with unresectable hepatocellular \ncarcinoma (HCC),\
@@ -675,7 +657,7 @@ findings:
         atezolizumab in participants with HCC or SCCHN or EOC.</p>'
       - '<p>Phase 2: To assess the progression free survival rate at 6 months (PFS-6)
         of I in combination with A, or as a single agent in participants with GBM</p>'
-      $num_primary_obj: 3
+      parent_entity: StudyVersion
 - rule_id: CORE-001016
   description: A planned duration is expected for the main timeline.
   message: The planned duration is not specified for the main timeline.
@@ -729,200 +711,200 @@ findings:
     path: /study/versions/0/studyDesigns/0/scheduleTimelines/1/timings/2
     name: TIM20
     details:
-      parent_id: ScheduleTimeline_1
+      windowUpper: null
       windowLower: null
+      parent_id: ScheduleTimeline_1
       valueLabel: 60 minutes
       parent_rel: timings
-      parent_entity: ScheduleTimeline
-      windowUpper: null
       windowLabel: -5..5 minutes
+      parent_entity: ScheduleTimeline
   - instance_id: Timing_21
     path: /study/versions/0/studyDesigns/0/scheduleTimelines/1/timings/7
     name: TIM21
     details:
-      parent_id: ScheduleTimeline_1
+      windowUpper: null
       windowLower: null
+      parent_id: ScheduleTimeline_1
       valueLabel: 30 minutes
       parent_rel: timings
-      parent_entity: ScheduleTimeline
-      windowUpper: null
       windowLabel: -10..10 minutes
+      parent_entity: ScheduleTimeline
   - instance_id: Timing_22
     path: /study/versions/0/studyDesigns/0/scheduleTimelines/1/timings/9
     name: TIM22
     details:
-      parent_id: ScheduleTimeline_1
+      windowUpper: null
       windowLower: null
+      parent_id: ScheduleTimeline_1
       valueLabel: 0 minutes
       parent_rel: timings
-      parent_entity: ScheduleTimeline
-      windowUpper: null
       windowLabel: -10..0 minutes
+      parent_entity: ScheduleTimeline
   - instance_id: Timing_24
     path: /study/versions/0/studyDesigns/0/scheduleTimelines/1/timings/10
     name: TIM24
     details:
-      parent_id: ScheduleTimeline_1
+      windowUpper: null
       windowLower: null
+      parent_id: ScheduleTimeline_1
       valueLabel: 4 hours
       parent_rel: timings
-      parent_entity: ScheduleTimeline
-      windowUpper: null
       windowLabel: -30..30 minutes
+      parent_entity: ScheduleTimeline
   - instance_id: Timing_30
     path: /study/versions/0/studyDesigns/0/scheduleTimelines/1/timings/11
     name: TIM30
     details:
-      parent_id: ScheduleTimeline_1
+      windowUpper: null
       windowLower: null
+      parent_id: ScheduleTimeline_1
       valueLabel: 0 minutes
       parent_rel: timings
-      parent_entity: ScheduleTimeline
-      windowUpper: null
       windowLabel: -10..0 minutes
+      parent_entity: ScheduleTimeline
   - instance_id: Timing_31
     path: /study/versions/0/studyDesigns/0/scheduleTimelines/1/timings/14
     name: TIM31
     details:
-      parent_id: ScheduleTimeline_1
+      windowUpper: null
       windowLower: null
+      parent_id: ScheduleTimeline_1
       valueLabel: 150 minutes
       parent_rel: timings
-      parent_entity: ScheduleTimeline
-      windowUpper: null
       windowLabel: -45..60 minutes
+      parent_entity: ScheduleTimeline
   - instance_id: Timing_34
     path: /study/versions/0/studyDesigns/0/scheduleTimelines/1/timings/16
     name: TIM34
     details:
-      parent_id: ScheduleTimeline_1
+      windowUpper: null
       windowLower: null
+      parent_id: ScheduleTimeline_1
       valueLabel: 30 minutes
       parent_rel: timings
-      parent_entity: ScheduleTimeline
-      windowUpper: null
       windowLabel: 0..30 minutes
+      parent_entity: ScheduleTimeline
   - instance_id: Timing_36
     path: /study/versions/0/studyDesigns/0/scheduleTimelines/1/timings/18
     name: TIM36
     details:
-      parent_id: ScheduleTimeline_1
+      windowUpper: null
       windowLower: null
+      parent_id: ScheduleTimeline_1
       valueLabel: 150 minutes
       parent_rel: timings
-      parent_entity: ScheduleTimeline
-      windowUpper: null
       windowLabel: -45..60 minutes
+      parent_entity: ScheduleTimeline
   - instance_id: Timing_35
     path: /study/versions/0/studyDesigns/0/scheduleTimelines/1/timings/19
     name: TIM35
     details:
-      parent_id: ScheduleTimeline_1
+      windowUpper: null
       windowLower: null
+      parent_id: ScheduleTimeline_1
       valueLabel: 0 minutes
       parent_rel: timings
-      parent_entity: ScheduleTimeline
-      windowUpper: null
       windowLabel: -10..0 minutes
+      parent_entity: ScheduleTimeline
   - instance_id: Timing_39
     path: /study/versions/0/studyDesigns/0/scheduleTimelines/1/timings/21
     name: TIM39
     details:
-      parent_id: ScheduleTimeline_1
+      windowUpper: null
       windowLower: null
+      parent_id: ScheduleTimeline_1
       valueLabel: 30 minutes
       parent_rel: timings
-      parent_entity: ScheduleTimeline
-      windowUpper: null
       windowLabel: 0..30 minutes
+      parent_entity: ScheduleTimeline
   - instance_id: Timing_42
     path: /study/versions/0/studyDesigns/0/scheduleTimelines/1/timings/24
     name: TIM42
     details:
-      parent_id: ScheduleTimeline_1
+      windowUpper: null
       windowLower: null
+      parent_id: ScheduleTimeline_1
       valueLabel: 30 minutes
       parent_rel: timings
-      parent_entity: ScheduleTimeline
-      windowUpper: null
       windowLabel: 0..30 minutes
+      parent_entity: ScheduleTimeline
   - instance_id: Timing_44
     path: /study/versions/0/studyDesigns/0/scheduleTimelines/1/timings/26
     name: TIM44
     details:
-      parent_id: ScheduleTimeline_1
+      windowUpper: null
       windowLower: null
+      parent_id: ScheduleTimeline_1
       valueLabel: 150 minutes
       parent_rel: timings
-      parent_entity: ScheduleTimeline
-      windowUpper: null
       windowLabel: -45..60 minutes
+      parent_entity: ScheduleTimeline
   - instance_id: Timing_43
     path: /study/versions/0/studyDesigns/0/scheduleTimelines/1/timings/27
     name: TIM43
     details:
-      parent_id: ScheduleTimeline_1
+      windowUpper: null
       windowLower: null
+      parent_id: ScheduleTimeline_1
       valueLabel: 0 minutes
       parent_rel: timings
-      parent_entity: ScheduleTimeline
-      windowUpper: null
       windowLabel: -10..0 minutes
+      parent_entity: ScheduleTimeline
   - instance_id: Timing_47
     path: /study/versions/0/studyDesigns/0/scheduleTimelines/1/timings/29
     name: TIM47
     details:
-      parent_id: ScheduleTimeline_1
+      windowUpper: null
       windowLower: null
+      parent_id: ScheduleTimeline_1
       valueLabel: 30 minutes
       parent_rel: timings
-      parent_entity: ScheduleTimeline
-      windowUpper: null
       windowLabel: 0..30 minutes
+      parent_entity: ScheduleTimeline
   - instance_id: Timing_14
     path: /study/versions/0/studyDesigns/0/scheduleTimelines/3/timings/0
     name: TIM14
     details:
-      parent_id: ScheduleTimeline_3
+      windowUpper: null
       windowLower: null
+      parent_id: ScheduleTimeline_3
       valueLabel: 0 minutes
       parent_rel: timings
-      parent_entity: ScheduleTimeline
-      windowUpper: null
       windowLabel: 0..? Days
+      parent_entity: ScheduleTimeline
   - instance_id: Timing_16
     path: /study/versions/0/studyDesigns/0/scheduleTimelines/3/timings/1
     name: TIM16
     details:
-      parent_id: ScheduleTimeline_3
+      windowUpper: null
       windowLower: null
+      parent_id: ScheduleTimeline_3
       valueLabel: 0 minutes
       parent_rel: timings
-      parent_entity: ScheduleTimeline
-      windowUpper: null
       windowLabel: 0..? Days
+      parent_entity: ScheduleTimeline
   - instance_id: Timing_15
     path: /study/versions/0/studyDesigns/0/scheduleTimelines/3/timings/2
     name: TIM15
     details:
-      parent_id: ScheduleTimeline_3
+      windowUpper: null
       windowLower: null
+      parent_id: ScheduleTimeline_3
       valueLabel: 0 minutes
       parent_rel: timings
-      parent_entity: ScheduleTimeline
-      windowUpper: null
       windowLabel: 0..? Days
+      parent_entity: ScheduleTimeline
   - instance_id: Timing_17
     path: /study/versions/0/studyDesigns/0/scheduleTimelines/3/timings/3
     name: TIM17
     details:
-      parent_id: ScheduleTimeline_3
+      windowUpper: null
       windowLower: null
+      parent_id: ScheduleTimeline_3
       valueLabel: 0 minutes
       parent_rel: timings
-      parent_entity: ScheduleTimeline
-      windowUpper: null
       windowLabel: 0..? Days
+      parent_entity: ScheduleTimeline
 - rule_id: CORE-001074
   description: Any parameter name referenced in a tag in the text should be specified
     in the data dictionary parameter maps.
@@ -1034,26 +1016,20 @@ findings:
   description: Only one version of any code system is expected to be used within a
     study version.
   message: More than one code system version is used for the code system.
-  error_count: 3
+  error_count: 2
   errors:
   - instance_id: Code_1
     path: /study/versions/0/organizations/0/type
     details:
-      codeSystem: http://www.cdisc.org
       codeSystemVersion: '2025-09-26'
-      $record_count: 301
+      codeSystem: http://www.cdisc.org
+      $record_count: 302
   - instance_id: Code_292
     path: /study/versions/0/biomedicalConcepts/0/properties/0/code/standardCode
     details:
-      codeSystem: http://www.cdisc.org
       codeSystemVersion: '2024-09-27'
-      $record_count: 110
-  - instance_id: Code_510
-    path: /study/versions/0/biomedicalConcepts/13/code/standardCode
-    details:
       codeSystem: http://www.cdisc.org
-      codeSystemVersion: null
-      $record_count: 1
+      $record_count: 110
 - rule_id: CORE-000945
   description: Syntax template text is expected to be HTML formatted.
   message: The text attribute contains non-conformant XHTML.

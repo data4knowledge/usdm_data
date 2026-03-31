@@ -3,14 +3,14 @@ version: 4-0
 is_valid: false
 rules_executed: 205
 rules_skipped: 2
-finding_count: 42
+finding_count: 40
 execution_error_count: 6747
 ct_packages_available: 200
 ct_packages_loaded:
-- sdtmct-2025-09-26
-- ddfct-2025-09-26
 - sdtmct-2024-09-27
 - ddfct-2024-09-27
+- sdtmct-2025-09-26
+- ddfct-2025-09-26
 findings:
 - rule_id: CORE-000996
   description: A planned sex must either include a single entry of male or female
@@ -26,24 +26,6 @@ findings:
     details:
       plannedSex: '[Code_562: Both (C49636)]'
       check: true
-- rule_id: CORE-000879
-  description: For CDISC codelist references (where the code system is 'http://www.cdisc.org'),
-    the code system version must be a valid CDISC terminology release date in ISO
-    8601 date format.
-  message: The code system is "http://www.cdisc.org" but the code system version is
-    not a valid CDISC terminology release date in ISO 8601 date format.
-  error_count: 1
-  errors:
-  - instance_id: Code_624
-    path: /study/versions/0/biomedicalConcepts/13/code/standardCode
-    details:
-      parent_id: AliasCode_115
-      parent_rel: standardCode
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: null
-      parent_entity: AliasCode
-      code: C198218
-      decode: Not Set
 - rule_id: CORE-000427
   description: Within a code system and corresponding version, a one-to-one relationship
     between code and decode is expected.
@@ -54,23 +36,23 @@ findings:
   - instance_id: Code_368
     path: /study/versions/0/biomedicalConcepts/12/properties/2/code/standardCode
     details:
+      codeSystem: http://www.cdisc.org
+      code: No Concept Code
       parent_id: AliasCode_13
       parent_rel: standardCode
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2024-09-27'
-      parent_entity: AliasCode
-      code: No Concept Code
       decode: AEHLGT
+      parent_entity: AliasCode
+      codeSystemVersion: '2024-09-27'
   - instance_id: Code_369
     path: /study/versions/0/biomedicalConcepts/12/properties/3/code/standardCode
     details:
+      codeSystem: http://www.cdisc.org
+      code: No Concept Code
       parent_id: AliasCode_14
       parent_rel: standardCode
-      codeSystem: http://www.cdisc.org
-      codeSystemVersion: '2024-09-27'
-      parent_entity: AliasCode
-      code: No Concept Code
       decode: AEHLGTCD
+      parent_entity: AliasCode
+      codeSystemVersion: '2024-09-27'
 - rule_id: CORE-001070
   description: A masking is not expected to be defined for any study role in a study
     design with an open label blinding schema.
@@ -100,66 +82,66 @@ findings:
     path: /study/documentedBy/0/versions/0
     name: P_APPROVE_ORG
     details:
+      dateValue: '2020-05-12'
       parent_id: StudyDefinitionDocument_1
       type.code.GeographicScope: C68846
-      type.decode: Approval Date
-      parent_rel: versions
-      type.decode.GeographicScope: Global
-      code.standardCode.code: null
-      parent_entity: StudyDefinitionDocument
-      version: '3.1'
-      type.code: C71476
       code.standardCode.decode: null
-      dateValue: '2020-05-12'
+      parent_rel: versions
+      version: '3.1'
+      type.decode.GeographicScope: Global
       id.GovernanceDate: GovernanceDate_1
+      type.code: C71476
+      parent_entity: StudyDefinitionDocument
+      type.decode: Approval Date
+      code.standardCode.code: null
   - instance_id: StudyDefinitionDocumentVersion_1
     path: /study/documentedBy/0/versions/0
     name: P_APPROVE_A1
     details:
+      dateValue: '2020-08-18'
       parent_id: StudyDefinitionDocument_1
       type.code.GeographicScope: C68846
-      type.decode: Approval Date
-      parent_rel: versions
-      type.decode.GeographicScope: Global
-      code.standardCode.code: null
-      parent_entity: StudyDefinitionDocument
-      version: '3.1'
-      type.code: C71476
       code.standardCode.decode: null
-      dateValue: '2020-08-18'
+      parent_rel: versions
+      version: '3.1'
+      type.decode.GeographicScope: Global
       id.GovernanceDate: GovernanceDate_2
+      type.code: C71476
+      parent_entity: StudyDefinitionDocument
+      type.decode: Approval Date
+      code.standardCode.code: null
   - instance_id: StudyDefinitionDocumentVersion_1
     path: /study/documentedBy/0/versions/0
     name: P_APPROVE_A2
     details:
+      dateValue: '2021-03-19'
       parent_id: StudyDefinitionDocument_1
       type.code.GeographicScope: C68846
-      type.decode: Approval Date
-      parent_rel: versions
-      type.decode.GeographicScope: Global
-      code.standardCode.code: null
-      parent_entity: StudyDefinitionDocument
-      version: '3.1'
-      type.code: C71476
       code.standardCode.decode: null
-      dateValue: '2021-03-19'
+      parent_rel: versions
+      version: '3.1'
+      type.decode.GeographicScope: Global
       id.GovernanceDate: GovernanceDate_3
+      type.code: C71476
+      parent_entity: StudyDefinitionDocument
+      type.decode: Approval Date
+      code.standardCode.code: null
   - instance_id: StudyDefinitionDocumentVersion_1
     path: /study/documentedBy/0/versions/0
     name: P_APPROVE_A3
     details:
+      dateValue: '2021-08-31'
       parent_id: StudyDefinitionDocument_1
       type.code.GeographicScope: C68846
-      type.decode: Approval Date
-      parent_rel: versions
-      type.decode.GeographicScope: Global
-      code.standardCode.code: null
-      parent_entity: StudyDefinitionDocument
-      version: '3.1'
-      type.code: C71476
       code.standardCode.decode: null
-      dateValue: '2021-08-31'
+      parent_rel: versions
+      version: '3.1'
+      type.decode.GeographicScope: Global
       id.GovernanceDate: GovernanceDate_4
+      type.code: C71476
+      parent_entity: StudyDefinitionDocument
+      type.decode: Approval Date
+      code.standardCode.code: null
 - rule_id: CORE-001065
   description: Within a study design, if study type is Interventional then at least
     one intervention is expected to be referenced from a procedure.
@@ -512,13 +494,13 @@ findings:
     path: /study/versions/0/studyDesigns/0/scheduleTimelines/3/timings/0
     name: TIM53
     details:
-      parent_id: ScheduleTimeline_3
+      windowUpper: null
       windowLower: null
+      parent_id: ScheduleTimeline_3
       valueLabel: 30 minutes
       parent_rel: timings
-      parent_entity: ScheduleTimeline
-      windowUpper: null
       windowLabel: 3..3 minutes
+      parent_entity: ScheduleTimeline
 - rule_id: CORE-000995
   description: If the duration will vary, a quantity is not expected for the duration
     and vice versa.
@@ -544,23 +526,17 @@ findings:
   description: Only one version of any code system is expected to be used within a
     study version.
   message: More than one code system version is used for the code system.
-  error_count: 3
+  error_count: 2
   errors:
   - instance_id: Code_1
     path: /study/versions/0/organizations/0/type
     details:
-      codeSystem: http://www.cdisc.org
       codeSystemVersion: '2025-09-26'
-      $record_count: 424
+      codeSystem: http://www.cdisc.org
+      $record_count: 425
   - instance_id: Code_366
     path: /study/versions/0/biomedicalConcepts/12/properties/0/code/standardCode
     details:
-      codeSystem: http://www.cdisc.org
       codeSystemVersion: '2024-09-27'
-      $record_count: 181
-  - instance_id: Code_624
-    path: /study/versions/0/biomedicalConcepts/13/code/standardCode
-    details:
       codeSystem: http://www.cdisc.org
-      codeSystemVersion: null
-      $record_count: 1
+      $record_count: 181
