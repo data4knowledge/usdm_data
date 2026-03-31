@@ -36,33 +36,33 @@ findings:
   - instance_id: Code_619
     path: /study/versions/0/biomedicalConcepts/12/properties/2/code/standardCode
     details:
-      codeSystem: http://www.cdisc.org
       code: No Concept Code
-      parent_id: AliasCode_249
-      parent_rel: standardCode
       decode: LBORRESU
-      parent_entity: AliasCode
       codeSystemVersion: '2024-09-27'
+      parent_entity: AliasCode
+      parent_rel: standardCode
+      parent_id: AliasCode_249
+      codeSystem: http://www.cdisc.org
   - instance_id: Code_163
     path: /study/versions/0/biomedicalConcepts/13/properties/2/code/standardCode
     details:
-      codeSystem: http://www.cdisc.org
       code: No Concept Code
-      parent_id: AliasCode_27
-      parent_rel: standardCode
       decode: AEHLGT
-      parent_entity: AliasCode
       codeSystemVersion: '2024-09-27'
+      parent_entity: AliasCode
+      parent_rel: standardCode
+      parent_id: AliasCode_27
+      codeSystem: http://www.cdisc.org
   - instance_id: Code_164
     path: /study/versions/0/biomedicalConcepts/13/properties/3/code/standardCode
     details:
-      codeSystem: http://www.cdisc.org
       code: No Concept Code
-      parent_id: AliasCode_28
-      parent_rel: standardCode
       decode: AEHLGTCD
-      parent_entity: AliasCode
       codeSystemVersion: '2024-09-27'
+      parent_entity: AliasCode
+      parent_rel: standardCode
+      parent_id: AliasCode_28
+      codeSystem: http://www.cdisc.org
 - rule_id: CORE-001077
   description: If an interventional model indicates a cross-over, parallel or factorial
     design then more than 1 intervention is expected.
@@ -106,33 +106,33 @@ findings:
     path: /study/versions/0/narrativeContentItems/34
     name: NCI_35
     details:
-      parent_id: StudyVersion_1
-      parent_rel: narrativeContentItems
       $xhtml_errors:
       - 'Invalid XHTML line 8 [ERROR]: Element ''ul'': This element is not expected.'
       - 'Invalid XHTML line 26 [ERROR]: Element ''ul'': This element is not expected.'
       - 'Invalid XHTML line 42 [ERROR]: Element ''ul'': This element is not expected.'
       - 'Invalid XHTML line 83 [ERROR]: Element ''li'': This element is not expected.'
       parent_entity: StudyVersion
+      parent_id: StudyVersion_1
+      parent_rel: narrativeContentItems
   - instance_id: NarrativeContentItem_36
     path: /study/versions/0/narrativeContentItems/35
     name: NCI_36
     details:
-      parent_id: StudyVersion_1
-      parent_rel: narrativeContentItems
       $xhtml_errors:
       - 'Invalid XHTML line 28 [ERROR]: Element ''li'': This element is not expected.'
       parent_entity: StudyVersion
+      parent_id: StudyVersion_1
+      parent_rel: narrativeContentItems
   - instance_id: NarrativeContentItem_38
     path: /study/versions/0/narrativeContentItems/37
     name: NCI_38
     details:
-      parent_id: StudyVersion_1
-      parent_rel: narrativeContentItems
       $xhtml_errors:
       - 'Invalid XHTML line 7 [ERROR]: Element ''ul'': This element is not expected.
         Expected is ( li ).'
       parent_entity: StudyVersion
+      parent_id: StudyVersion_1
+      parent_rel: narrativeContentItems
 - rule_id: CORE-000969
   description: If a dose is specified, then a corresponding administrable product
     must also be specified either directly or embedded in the medical device and vice
@@ -171,15 +171,15 @@ findings:
     path: /study/versions/0/studyDesigns/0
     name: Study Design 1
     details:
-      parent_id: StudyVersion_1
-      $num_primary_obj: 2
-      parent_rel: studyDesigns
       $primary_objectives:
-      - To document the safety profile of the xanomeline TTS.
       - To determine if there is a statistically significant relationship (overall
         Type 1 erroralpha=0.05) between the change in both the ADAS-Cog (11) and CIBIC+
         scores, and drug dose (0, 50 cm2 [54 mg], and 75 cm2 [81 mg]).
+      - To document the safety profile of the xanomeline TTS.
       parent_entity: StudyVersion
+      $num_primary_obj: 2
+      parent_id: StudyVersion_1
+      parent_rel: studyDesigns
 - rule_id: CORE-001016
   description: A planned duration is expected for the main timeline.
   message: The planned duration is not specified for the main timeline.
@@ -201,15 +201,15 @@ findings:
   - instance_id: Code_1
     path: /study/versions/0/organizations/0/type
     details:
-      codeSystemVersion: '2025-09-26'
-      codeSystem: http://www.cdisc.org
       $record_count: 198
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2025-09-26'
   - instance_id: Code_161
     path: /study/versions/0/biomedicalConcepts/13/properties/0/code/standardCode
     details:
-      codeSystemVersion: '2024-09-27'
-      codeSystem: http://www.cdisc.org
       $record_count: 465
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2024-09-27'
 - rule_id: CORE-001071
   description: A masking is expected to be defined for at least two study roles in
     a study design with a double blind blinding schema.
