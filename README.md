@@ -1,31 +1,53 @@
-# Purpose
+# USDM Data
 
-A project that deploys the USDM package and processes study spreadsheets to create
+Processes USDM-conformant Excel workbooks into USDM API JSON, runs CDISC CORE validation, and generates protocol HTML.
 
-- USDM API JSON files
-- PNG of the study nodes and relationships
-- Set of nodes and edges for the study
-- A fltered set of nodes and edges for timelines
+## Scripts
 
-# Studies
+**`import.py`** — Batch import. Processes all studies listed in `config_data/studies.yaml`, generating JSON, error CSVs, CORE validation results, and protocol HTML for each.
 
-The current set of mapped studies are:
+```bash
+python import.py
+```
 
-- Roche NCT04320615 COVID pneumonia
-- Eli Lilly NCT03421379 diabetes
+**`simple.py`** — Single file import. Converts one `.xlsx` file to JSON, saves the error CSV, and runs CORE validation.
+
+```bash
+python simple.py path/to/study.xlsx
+python simple.py path/to/study.xlsx -o /output/dir
+```
+
+## Configuration
+
+`config_data/studies.yaml` defines the studies processed by `import.py`. Each entry specifies the input directory, filename, and whether to generate protocol HTML. All paths are relative to `source_data/protocols/`.
+
+## Output files
+
+For each study, the following files are generated alongside the input `.xlsx`:
+
+- `<name>.json` — USDM API JSON
+- `<name>.csv` — Excel import errors and warnings
+- `<name>_core.yaml` — CDISC CORE validation findings
+- `<template>/<name>_USDM.html` — Protocol HTML (one per template, if enabled)
+
+## Studies
+
+The current set of mapped studies includes:
+
 - CDISC Pilot Study
-- Simpe Example 1, 2 and 3 showing the basic use of the spreadsheet format
-- Cycles 1 and 2 showing the ability to model cycles within studies
-- Profile 1 to demonstrate the use of profiles (additional timelines)
+- Eli Lilly NCT03421379 Diabetes
+- Alexion NCT04573309 Wilson's Disease
+- Sanofi NCT03637764 Oncology
+- Eli Lilly NCT02107703, NCT04004988, NCT04184622, NCT04557384, NCT04677179, NCT05176314, NCT05324124
+- Roche NCT02291289, NCT03817853, NCT04320615
+- Novo Nordisk NCT03548935, NCT03548987, NCT03693430
+- AstraZeneca NCT03402841, Amgen NCT03283098, BMS NCT04730349
+- KalVista NCT05259917, Tesaro NCT01847274, Investigator NCT03523273
 
-# Issues
+## Dependencies
 
-## Certificates
+See `requirements.txt`. The key packages are:
 
-If you get a cetificate error on Mac OS 
+- `usdm` — Excel-to-USDM conversion, model classes, HTML/PDF rendering
+- `usdm4` — USDM v4 support, CDISC CORE validation
 
-```[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate````
-
-then run the command 
-
-```/Applications/Python 3.10/Install Certificates.command```
