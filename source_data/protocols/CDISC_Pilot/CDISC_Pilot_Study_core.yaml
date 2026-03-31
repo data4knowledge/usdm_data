@@ -1,0 +1,252 @@
+file: /Users/daveih/Documents/github/usdm_data/source_data/protocols/CDISC_Pilot/CDISC_Pilot_Study.json
+version: 4-0
+is_valid: false
+rules_executed: 205
+rules_skipped: 2
+finding_count: 18
+execution_error_count: 6642
+ct_packages_available: 200
+ct_packages_loaded:
+- sdtmct-2025-09-26
+- ddfct-2025-09-26
+- sdtmct-2024-09-27
+- ddfct-2024-09-27
+findings:
+- rule_id: CORE-000996
+  description: A planned sex must either include a single entry of male or female
+    or both female and male as entries.
+  message: The planned sex includes more than a single entry of male and/or female
+    either by duplications or unexpected codes.
+  error_count: 1
+  errors:
+  - instance_id: StudyDesignPopulation_1
+    entity: StudyDesignPopulation
+    path: /study/versions/0/studyDesigns/0/population
+    name: POP1
+    details:
+      plannedSex: '[Code_642: Both (C49636)]'
+      check: true
+- rule_id: CORE-000879
+  description: For CDISC codelist references (where the code system is 'http://www.cdisc.org'),
+    the code system version must be a valid CDISC terminology release date in ISO
+    8601 date format.
+  message: The code system is "http://www.cdisc.org" but the code system version is
+    not a valid CDISC terminology release date in ISO 8601 date format.
+  error_count: 1
+  errors:
+  - instance_id: Code_693
+    path: /study/versions/0/biomedicalConcepts/32/code/standardCode
+    details:
+      parent_id: AliasCode_265
+      parent_rel: standardCode
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: null
+      parent_entity: AliasCode
+      code: C198218
+      decode: Not Set
+- rule_id: CORE-000427
+  description: Within a code system and corresponding version, a one-to-one relationship
+    between code and decode is expected.
+  message: There is not a one-to-one relationship between code and decode within a
+    codeSytem and corresponding codeSystemVersion
+  error_count: 3
+  errors:
+  - instance_id: Code_619
+    path: /study/versions/0/biomedicalConcepts/12/properties/2/code/standardCode
+    details:
+      parent_id: AliasCode_249
+      parent_rel: standardCode
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2024-09-27'
+      parent_entity: AliasCode
+      code: No Concept Code
+      decode: LBORRESU
+  - instance_id: Code_163
+    path: /study/versions/0/biomedicalConcepts/13/properties/2/code/standardCode
+    details:
+      parent_id: AliasCode_27
+      parent_rel: standardCode
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2024-09-27'
+      parent_entity: AliasCode
+      code: No Concept Code
+      decode: AEHLGT
+  - instance_id: Code_164
+    path: /study/versions/0/biomedicalConcepts/13/properties/3/code/standardCode
+    details:
+      parent_id: AliasCode_28
+      parent_rel: standardCode
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2024-09-27'
+      parent_entity: AliasCode
+      code: No Concept Code
+      decode: AEHLGTCD
+- rule_id: CORE-001077
+  description: If an interventional model indicates a cross-over, parallel or factorial
+    design then more than 1 intervention is expected.
+  message: The number of study interventions referenced for the interventional study
+    design is not consistent with intervention model specified for the study design
+    - the model indicates a cross-over, parallel or factorial design (model.code is
+    C82637, C82639, or C82638) and there are not references to multiple study interventions.
+  error_count: 1
+  errors:
+  - instance_id: InterventionalStudyDesign_1
+    entity: InterventionalStudyDesign
+    path: /study/versions/0/studyDesigns/0
+    name: Study Design 1
+    details:
+      studyType.code: C98388
+      studyType.decode: Interventional Study
+      model.code: C82639
+      model.decode: Parallel Study
+      '# Referenced Study Interventions': 1
+- rule_id: CORE-001065
+  description: Within a study design, if study type is Interventional then at least
+    one intervention is expected to be referenced from a procedure.
+  message: The study type is Interventional (code=C98388) but a study intervention
+    is not referenced from any procedure.
+  error_count: 1
+  errors:
+  - instance_id: InterventionalStudyDesign_1
+    entity: InterventionalStudyDesign
+    path: /study/versions/0/studyDesigns/0
+    name: Study Design 1
+    details:
+      studyType.code: C98388
+      studyType.decode: Interventional Study
+      '# Referenced Study Interventions': 0
+- rule_id: CORE-001069
+  description: Narrative content item text is expected to be HTML formatted.
+  message: The narrative content item text contains non-conformant XHTML.
+  error_count: 3
+  errors:
+  - instance_id: NarrativeContentItem_35
+    path: /study/versions/0/narrativeContentItems/34
+    name: NCI_35
+    details:
+      parent_id: StudyVersion_1
+      parent_rel: narrativeContentItems
+      $xhtml_errors:
+      - 'Invalid XHTML line 8 [ERROR]: Element ''ul'': This element is not expected.'
+      - 'Invalid XHTML line 26 [ERROR]: Element ''ul'': This element is not expected.'
+      - 'Invalid XHTML line 42 [ERROR]: Element ''ul'': This element is not expected.'
+      - 'Invalid XHTML line 83 [ERROR]: Element ''li'': This element is not expected.'
+      parent_entity: StudyVersion
+  - instance_id: NarrativeContentItem_36
+    path: /study/versions/0/narrativeContentItems/35
+    name: NCI_36
+    details:
+      parent_id: StudyVersion_1
+      parent_rel: narrativeContentItems
+      $xhtml_errors:
+      - 'Invalid XHTML line 28 [ERROR]: Element ''li'': This element is not expected.'
+      parent_entity: StudyVersion
+  - instance_id: NarrativeContentItem_38
+    path: /study/versions/0/narrativeContentItems/37
+    name: NCI_38
+    details:
+      parent_id: StudyVersion_1
+      parent_rel: narrativeContentItems
+      $xhtml_errors:
+      - 'Invalid XHTML line 7 [ERROR]: Element ''ul'': This element is not expected.
+        Expected is ( li ).'
+      parent_entity: StudyVersion
+- rule_id: CORE-000969
+  description: If a dose is specified, then a corresponding administrable product
+    must also be specified either directly or embedded in the medical device and vice
+    versa.
+  message: The administration dose has been specified without an administrable product
+    (either as a direct administrable product or as an embedded product via the related
+    medical device) or vice versa.
+  error_count: 2
+  errors:
+  - instance_id: Administration_1
+    entity: Administration
+    path: /study/versions/0/studyInterventions/0/administrations/0
+    name: PATCH_50
+    details:
+      dose(value/range): 54 Milligram (C28253)
+      administrableProductId: null
+      medicalDeviceId: null
+      check: true
+  - instance_id: Administration_2
+    entity: Administration
+    path: /study/versions/0/studyInterventions/0/administrations/1
+    name: PATCH_75
+    details:
+      dose(value/range): 81 Milligram (C28253)
+      administrableProductId: null
+      medicalDeviceId: null
+      check: true
+- rule_id: CORE-000871
+  description: Within a study design there is expected to be exactly one objective
+    with level 'Primary Objective'.
+  message: There is not exactly one objective with a level of 'Primary Objective'
+    within the study design.
+  error_count: 1
+  errors:
+  - instance_id: InterventionalStudyDesign_1
+    path: /study/versions/0/studyDesigns/0
+    name: Study Design 1
+    details:
+      parent_id: StudyVersion_1
+      parent_rel: studyDesigns
+      parent_entity: StudyVersion
+      $primary_objectives:
+      - To determine if there is a statistically significant relationship (overall
+        Type 1 erroralpha=0.05) between the change in both the ADAS-Cog (11) and CIBIC+
+        scores, and drug dose (0, 50 cm2 [54 mg], and 75 cm2 [81 mg]).
+      - To document the safety profile of the xanomeline TTS.
+      $num_primary_obj: 2
+- rule_id: CORE-001016
+  description: A planned duration is expected for the main timeline.
+  message: The planned duration is not specified for the main timeline.
+  error_count: 1
+  errors:
+  - instance_id: ScheduleTimeline_4
+    entity: ScheduleTimeline
+    path: /study/versions/0/studyDesigns/0/scheduleTimelines/0
+    name: Main Timeline
+    details:
+      mainTimeline: true
+      check: true
+- rule_id: CORE-000808
+  description: Only one version of any code system is expected to be used within a
+    study version.
+  message: More than one code system version is used for the code system.
+  error_count: 3
+  errors:
+  - instance_id: Code_1
+    path: /study/versions/0/organizations/0/type
+    details:
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2025-09-26'
+      $record_count: 197
+  - instance_id: Code_161
+    path: /study/versions/0/biomedicalConcepts/13/properties/0/code/standardCode
+    details:
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2024-09-27'
+      $record_count: 465
+  - instance_id: Code_693
+    path: /study/versions/0/biomedicalConcepts/32/code/standardCode
+    details:
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: null
+      $record_count: 1
+- rule_id: CORE-001071
+  description: A masking is expected to be defined for at least two study roles in
+    a study design with a double blind blinding schema.
+  message: The study design has a double blind blinding schema (code=C15228) but there
+    are not at least two applicable study roles that are masked.
+  error_count: 1
+  errors:
+  - instance_id: InterventionalStudyDesign_1
+    entity: InterventionalStudyDesign
+    path: /study/versions/0/studyDesigns/0
+    name: Study Design 1
+    details:
+      blindingSchema.code: C15228
+      blindingSchema.decode: Double Blind Study
+      '# Masked Roles': 1
+      Applicable Roles: Clinical Study Sponsor[StudyRole_1,Masked]

@@ -1,104 +1,98 @@
-import logging
-log = logging.basicConfig(level=logging.INFO)
+"""Import USDM studies from Excel, validate with CDISC CORE, and export artefacts."""
 
-import os
-import json
-import yaml
 import csv
+import json
+import logging
+import os
+
+import yaml
+
 from usdm_db import USDMDb
 from usdm4 import USDM4
 from usdm_info import __package_version__ as code_version
 from usdm_info import __model_version__ as model_version
 
-ROOT_PATH = "source_data/protocols/"
+logging.basicConfig(level=logging.INFO)
 
-def make_template_dir(path, template):
-  full_path = os.path.join(ROOT_PATH, path, template.lower())
-  try:
-    os.mkdir(full_path) 
-    return os.path.join(path, template.lower())
-  except FileExistsError as e:
-    return os.path.join(path, template.lower())
-  except Exception as e:
-    raise e
+ROOT_PATH = "source_data/protocols"
 
-def read_yaml_file(filename):
-  with open(f'{filename}.yaml', "r") as f:
-    return yaml.safe_load(f)
-  
-def save_as_html_file(html, details, suffix):
-  with open(f"{ROOT_PATH}{details['output_path']}/{details['filename']}_{suffix}.html", 'w', encoding='utf-8') as f:
-    f.write(html)
 
-def save_as_pdf_file(data, details, suffix):
-  with open(f"{ROOT_PATH}{details['output_path']}/{details['filename']}_{suffix}.pdf", 'w+b') as f:
-    f.write(data)
+def read_studies(filename: str) -> list[dict]:
+    with open(f"{filename}.yaml") as f:
+        return yaml.safe_load(f)
 
-def save_as_json_file(raw_json, details, suffix=''):
-  filename = f"{ROOT_PATH}{details['output_path']}/{details['filename']}_{suffix}.json" if suffix else f"{ROOT_PATH}{details['output_path']}/{details['filename']}.json"
-  with open(filename, 'w', encoding='utf-8') as f:
-    json_object = json.loads(raw_json)
-    json.dump(json_object, f, indent=2)
 
-def save_as_csv_file(errors, details):
-  with open(f"{ROOT_PATH}{details['output_path']}/{details['filename']}.csv", 'w', encoding='utf-8') as f:
-    writer = csv.DictWriter(f, fieldnames=['sheet','row','column','message','level'])
-    writer.writeheader()
-    writer.writerows(errors)
+def study_path(study: dict, *parts: str) -> str:
+    """Build an absolute path under ROOT_PATH / study directory."""
+    return os.path.abspath(os.path.join(ROOT_PATH, study["input_path"], *parts))
 
-def save_as_yaml_file(data, filepath):
-  with open(filepath, 'w') as f:
-    yaml.dump(data, f, default_flow_style=False)
 
-def save_as_node_file(nodes, details, view):
-  suffix = file_suffix(view)
-  save_as_yaml_file(nodes, f"{ROOT_PATH}{details['output_path']}/{details['filename']}_{suffix}nodes.yaml")
+def save_json(data_json: str, filepath: str) -> None:
+    with open(filepath, "w", encoding="utf-8") as f:
+        json.dump(json.loads(data_json), f, indent=2)
 
-def save_as_edges_file(nodes, details, view):
-  suffix = file_suffix(view)
-  save_as_yaml_file(nodes, f"{ROOT_PATH}{details['output_path']}/{details['filename']}_{suffix}edges.yaml")
 
-def file_suffix(view):
-  if view == USDMDb.TIMELINE_VIEW:
-    return 'timeline_'
-  return ''
+def save_csv(errors: list[dict], filepath: str) -> None:
+    with open(filepath, "w", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=["sheet", "row", "column", "message", "level"])
+        writer.writeheader()
+        writer.writerows(errors)
 
-studies = read_yaml_file('config_data/studies')
-usdm4 = USDM4()
 
-print (f"\n\nImport Utility, using USDM Python Package v{code_version} supporting USDM version v{model_version}\n\n")
-for study in studies:
-  print (f"Processing study {(study['filename'])} ...\n\n")
-  file_path = f"{ROOT_PATH}%s/%s.xlsx" % (study['input_path'], study['filename'])
-  study['output_path'] = study['output_path'] if study['output_path'] else study['input_path']
-  json_path = study['output_path']
-  x = USDMDb()
-  errors = x.from_excel(file_path)
-  print("\n\nJSON and Errors\n\n")
-  save_as_json_file(x.to_json(), study)
-  save_as_csv_file(errors, study)
-  if study['timeline']:
-    print("Timeline\n\n")
-    save_as_html_file(x.to_timeline(), study, 'timeline')
-  for template in x.templates():
-    study['output_path'] = make_template_dir(study['output_path'], template)
-    if study['protocol']:
-      print(f"\n\nProtocol HTML and PDF (watermark={study['watermark']}, highlight={study['highlight']})\n\n")
-      if study['highlight']:
-        save_as_html_file(x.to_html(template, True), study, 'highlight')
-      save_as_html_file(x.to_html(template), study, 'USDM')
-      #save_as_pdf_file(x.to_pdf(template, study['watermark']), study, 'USDM')
-      if x.is_m11() and template == "M11":
-        save_as_json_file(x.to_fhir(template), study, 'fhir')
-  print(f"\n\nERRORS:\n{errors}\n\n")
+def save_yaml(data: dict, filepath: str) -> None:
+    with open(filepath, "w") as f:
+        yaml.dump(data, f, default_flow_style=False, sort_keys=False)
 
-  filename = f"{ROOT_PATH}{json_path}/{study['filename']}.json"
-  result = usdm4.validate(filename)
-  for v in result.to_dict():
-    if v['status'] not in ['Not Implemented']: 
-      print(f"{v['rule_id']}: {v['status']}")
-      if v['status'] != 'Success':
-        print(f"- {v['rule_text']}")
-        print(f"- {v['message']}")
-        print(f"- {v['path']}")
-  print(f"\n\nVALID: {result.passed_or_not_implemented()}\n\n") 
+
+def save_html(html: str, filepath: str) -> None:
+    with open(filepath, "w", encoding="utf-8") as f:
+        f.write(html)
+
+
+def process_study(study: dict, usdm4: USDM4) -> None:
+    name = study["filename"]
+    xlsx_path = study_path(study, f"{name}.xlsx")
+    json_path = study_path(study, f"{name}.json")
+    csv_path = study_path(study, f"{name}.csv")
+    core_path = study_path(study, f"{name}_core.yaml")
+
+    # Excel → JSON
+    db = USDMDb()
+    errors = db.from_excel(xlsx_path)
+    save_json(db.to_json(), json_path)
+    save_csv(errors, csv_path)
+    print(f"  Exported JSON and error log")
+
+    # CDISC CORE validation
+    print(f"  Validating: {json_path}")
+    result = usdm4.validate_core(json_path)
+    save_yaml(result.to_dict(), core_path)
+    if result.is_valid:
+        print(f"  CORE validation passed")
+    else:
+        print(f"  CORE validation: {result.finding_count} finding(s) across {len(result.findings)} rule(s)")
+
+    # Protocol HTML per template
+    if study.get("protocol"):
+        for template in db.templates():
+            template_dir = study_path(study, template.lower())
+            os.makedirs(template_dir, exist_ok=True)
+            html_path = os.path.join(template_dir, f"{name}_USDM.html")
+            save_html(db.to_html(template), html_path)
+            print(f"  Exported protocol HTML ({template})")
+
+
+def main():
+    studies = read_studies("config_data/studies")
+    usdm4 = USDM4()
+
+    print(f"\nImport Utility — USDM Python Package v{code_version}, USDM v{model_version}\n")
+
+    for study in studies:
+        print(f"Processing {study['filename']} ...")
+        process_study(study, usdm4)
+        print()
+
+
+if __name__ == "__main__":
+    main()

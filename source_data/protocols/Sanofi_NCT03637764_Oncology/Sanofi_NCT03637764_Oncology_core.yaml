@@ -1,0 +1,1124 @@
+file: /Users/daveih/Documents/github/usdm_data/source_data/protocols/Sanofi_NCT03637764_Oncology/Sanofi_NCT03637764_Oncology.json
+version: 4-0
+is_valid: false
+rules_executed: 205
+rules_skipped: 2
+finding_count: 96
+execution_error_count: 5878
+ct_packages_available: 200
+ct_packages_loaded:
+- sdtmct-2025-09-26
+- ddfct-2025-09-26
+- sdtmct-2024-09-27
+- ddfct-2024-09-27
+findings:
+- rule_id: CORE-000971
+  description: At least one attribute must be specified for an address.
+  message: All attributes of the address are blank.
+  error_count: 1
+  errors:
+  - details:
+      text: Missing
+      lines: Missing
+      city: Missing
+      district: Missing
+      state: Missing
+      postalCode: Missing
+      country: Missing
+- rule_id: CORE-001066
+  description: The ordering of activities (using the previous and next attributes)
+    must include the parents (e.g. activities referring to children) preceding their
+    children.
+  message: The previous/next ordering of the activity with respect to child activities
+    is incorrect - the activity has children but its nextId is not one if its childIds,
+    the activity is a child but its previousId is not its parent or another descendant
+    of its parent, and/or the activity's previousId refers to an activity with children
+    but the activity is not one of those children.
+  error_count: 4
+  errors:
+  - instance_id: Activity_23
+    entity: Activity
+    path: /study/versions/0/studyDesigns/0/activities/22
+    name: I administration
+    details:
+      previousId: Activity_22
+      Previous Activity's childIds: []
+      nextId: Activity_24
+      childIds: []
+      Parent Activity's id:
+      - Activity_19
+      - Activity_34
+      Parent Activity's other descendants' ids:
+      - Activity_20
+      - Activity_21
+      - Activity_22
+      - Activity_24
+      - Activity_25
+      - Activity_26
+      - Activity_27
+      - Activity_28
+      - Activity_29
+      - Activity_30
+      - Activity_31
+      - Activity_24
+      Issue(s):
+      - The activity is a child but its previousId does not match the id of either
+        its Parent Activity or any of the Parent Activity's other descendants.
+  - instance_id: Activity_24
+    entity: Activity
+    path: /study/versions/0/studyDesigns/0/activities/23
+    name: A administration
+    details:
+      previousId: Activity_23
+      Previous Activity's childIds: []
+      nextId: Activity_25
+      childIds: []
+      Parent Activity's id:
+      - Activity_19
+      - Activity_34
+      Parent Activity's other descendants' ids:
+      - Activity_20
+      - Activity_21
+      - Activity_22
+      - Activity_23
+      - Activity_25
+      - Activity_26
+      - Activity_27
+      - Activity_28
+      - Activity_29
+      - Activity_30
+      - Activity_31
+      - Activity_23
+      Issue(s):
+      - The activity is a child but its previousId does not match the id of either
+        its Parent Activity or any of the Parent Activity's other descendants.
+  - instance_id: Activity_34
+    entity: Activity
+    path: /study/versions/0/studyDesigns/0/activities/31
+    name: IMP administration (IV infusion)
+    details:
+      previousId: Activity_31
+      Previous Activity's childIds: []
+      nextId: Activity_35
+      childIds:
+      - Activity_24
+      - Activity_23
+      Issue(s):
+      - The activity has children but its nextId does not match any of its childIds.
+  - instance_id: Activity_35
+    entity: Activity
+    path: /study/versions/0/studyDesigns/0/activities/32
+    name: Pharmacokinetics
+    details:
+      previousId: Activity_34
+      Previous Activity's childIds:
+      - Activity_24
+      - Activity_23
+      nextId: Activity_36
+      childIds:
+      - Activity_36
+      - Activity_37
+      Issue(s):
+      - The activity's id does not match any of the childIds of the Previous Activity.
+- rule_id: CORE-000404
+  description: A scheduled activity instance must refer to either a default condition
+    or a timeline exit, but not both.
+  message: The defaultConditionId and timelineExitId attributes are either both populated
+    or both empty.
+  error_count: 4
+  errors:
+  - instance_id: ScheduledActivityInstance_46
+    path: /study/versions/0/studyDesigns/0/scheduleTimelines/0/instances/4
+    name: C1D15
+    details:
+      parent_id: ScheduleTimeline_4
+      parent_rel: instances
+      timelineExitId: null
+      parent_entity: ScheduleTimeline
+      defaultConditionId: null
+  - instance_id: ScheduledActivityInstance_47
+    path: /study/versions/0/studyDesigns/0/scheduleTimelines/0/instances/5
+    name: CxD1
+    details:
+      parent_id: ScheduleTimeline_4
+      parent_rel: instances
+      timelineExitId: null
+      parent_entity: ScheduleTimeline
+      defaultConditionId: null
+  - instance_id: ScheduledActivityInstance_3
+    path: /study/versions/0/studyDesigns/0/scheduleTimelines/1/instances/2
+    name: C1D1_EOI_A
+    details:
+      parent_id: ScheduleTimeline_1
+      parent_rel: instances
+      timelineExitId: null
+      parent_entity: ScheduleTimeline
+      defaultConditionId: null
+  - instance_id: ScheduledActivityInstance_9
+    path: /study/versions/0/studyDesigns/0/scheduleTimelines/1/instances/8
+    name: C1D8_PRE
+    details:
+      parent_id: ScheduleTimeline_1
+      parent_rel: instances
+      timelineExitId: null
+      parent_entity: ScheduleTimeline
+      defaultConditionId: null
+- rule_id: CORE-000870
+  description: All scheduled activity instances in the main timeline are expected
+    to refer to an epoch.
+  message: The scheduled activity instance is in the main timeline but does not refer
+    to an epoch.
+  error_count: 1
+  errors:
+  - instance_id: ScheduledActivityInstance_52
+    path: /study/versions/0/studyDesigns/0/scheduleTimelines/0/instances/12
+    name: EXIT
+    details:
+      epochId: null
+      parent_id: ScheduleTimeline_4
+      mainTimeline: true
+      parent_rel: instances
+      parent_entity: ScheduleTimeline
+- rule_id: CORE-000879
+  description: For CDISC codelist references (where the code system is 'http://www.cdisc.org'),
+    the code system version must be a valid CDISC terminology release date in ISO
+    8601 date format.
+  message: The code system is "http://www.cdisc.org" but the code system version is
+    not a valid CDISC terminology release date in ISO 8601 date format.
+  error_count: 1
+  errors:
+  - instance_id: Code_510
+    path: /study/versions/0/biomedicalConcepts/13/code/standardCode
+    details:
+      parent_id: AliasCode_158
+      parent_rel: standardCode
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: null
+      parent_entity: AliasCode
+      code: C198218
+      decode: Not Set
+- rule_id: CORE-000973
+  description: There must be exactly one study role with a code of sponsor.
+  message: There is not exactly one study role with a code of sponsor (where code.code
+    is C70793).
+  error_count: 1
+  errors:
+  - instance_id: StudyVersion_1
+    entity: StudyVersion
+    path: /study/versions/0
+    details:
+      versionIdentifier: amendment 5
+      '# Sponsor Roles': 0
+- rule_id: CORE-000965
+  description: If a section title is to be displayed then a title must be specified.
+  message: A section title is indicated to be displayed (displaySectionTitle=true)
+    but not specified.
+  error_count: 1
+  errors:
+  - instance_id: NarrativeContent_1
+    entity: NarrativeContent
+    path: /study/documentedBy/0/versions/0/contents/0
+    name: NC_1
+    sectionTitle: ''
+    details:
+      displaySectionTitle: true
+      check: true
+- rule_id: CORE-001065
+  description: Within a study design, if study type is Interventional then at least
+    one intervention is expected to be referenced from a procedure.
+  message: The study type is Interventional (code=C98388) but a study intervention
+    is not referenced from any procedure.
+  error_count: 1
+  errors:
+  - instance_id: InterventionalStudyDesign_1
+    entity: InterventionalStudyDesign
+    path: /study/versions/0/studyDesigns/0
+    name: Phase 1
+    details:
+      studyType.code: C98388
+      studyType.decode: Interventional Study
+      '# Referenced Study Interventions': 0
+- rule_id: CORE-000814
+  description: Within a study version, if a date of a specific type exists with a
+    global geographic scope then no other dates are expected with the same type.
+  message: The study version has a type of governance date with a global geographic
+    scope and either another date of the same type or additional geographic scope(s)
+    defined for the date.
+  error_count: 1
+  errors:
+  - error: Error occurred during operation execution
+    message: 'Failed to execute rule operation. Operation: record_count, Target: None,
+      Domain: GeographicScope, Error: single positional indexer is out-of-bounds'
+- rule_id: CORE-000873
+  description: Date values associated to a study version must be unique regarding
+    the combination of type and geographic scopes of the date.
+  message: The study version has more than one governance date with the same type
+    and geographic scope.
+  error_count: 1
+  errors:
+  - error: An unknown exception has occurred
+    message: Cannot perform 'rand_' with a dtyped [float64] array and scalar of type
+      [bool]
+- rule_id: CORE-001013
+  description: The names of all instances of the same class must be unique.
+  message: The same name has been used for more than one instance of the class.
+  error_count: 9
+  errors:
+  - instance_id: SubjectEnrollment_1
+    entity: SubjectEnrollment
+    path: /study/versions/0/amendments/0/enrollments/0
+    name: XXX
+  - instance_id: SubjectEnrollment_2
+    entity: SubjectEnrollment
+    path: /study/versions/0/amendments/1/enrollments/0
+    name: XXX
+  - instance_id: SubjectEnrollment_3
+    entity: SubjectEnrollment
+    path: /study/versions/0/amendments/2/enrollments/0
+    name: XXX
+  - instance_id: SubjectEnrollment_4
+    entity: SubjectEnrollment
+    path: /study/versions/0/amendments/3/enrollments/0
+    name: XXX
+  - instance_id: SubjectEnrollment_5
+    entity: SubjectEnrollment
+    path: /study/versions/0/amendments/4/enrollments/0
+    name: XXX
+  - instance_id: ScheduleTimeline_1
+    entity: ScheduleTimeline
+    path: /study/versions/0/studyDesigns/0/scheduleTimelines/1
+    name: PK Timeline
+  - instance_id: ScheduleTimeline_2
+    entity: ScheduleTimeline
+    path: /study/versions/0/studyDesigns/0/scheduleTimelines/2
+    name: PK Timeline
+  - instance_id: ScheduledDecisionInstance_4
+    entity: ScheduledDecisionInstance
+    path: /study/versions/0/studyDesigns/0/scheduleTimelines/0/instances/6
+    name: Cx_END
+  - instance_id: ScheduledDecisionInstance_1
+    entity: ScheduledDecisionInstance
+    path: /study/versions/0/studyDesigns/0/scheduleTimelines/1/instances/30
+    name: Cx_END
+- rule_id: CORE-000994
+  description: At least the text or the quantity must be specified for a duration.
+  message: The quantity and text are both missing for the specified duration.
+  error_count: 2
+  errors:
+  - instance_id: Duration_2
+    entity: Duration
+    path: /study/versions/0/studyInterventions/1/administrations/0/duration
+    details:
+      text: ''
+      quantity: null
+      check: true
+  - instance_id: Duration_3
+    entity: Duration
+    path: /study/versions/0/studyInterventions/2/administrations/0/duration
+    details:
+      text: ''
+      quantity: null
+      check: true
+- rule_id: CORE-001069
+  description: Narrative content item text is expected to be HTML formatted.
+  message: The narrative content item text contains non-conformant XHTML.
+  error_count: 1
+  errors:
+  - instance_id: NarrativeContentItem_113
+    path: /study/versions/0/narrativeContentItems/112
+    name: NCI_113
+    details:
+      parent_id: StudyVersion_1
+      parent_rel: narrativeContentItems
+      $xhtml_errors:
+      - 'Invalid XHTML line 96 [ERROR]: Element ''tr'': Missing child element(s).
+        Expected is one of ( th, td ).'
+      - 'Invalid XHTML line 98 [ERROR]: Element ''tr'': Missing child element(s).
+        Expected is one of ( th, td ).'
+      - 'Invalid XHTML line 100 [ERROR]: Element ''tr'': Missing child element(s).
+        Expected is one of ( th, td ).'
+      - 'Invalid XHTML line 102 [ERROR]: Element ''tr'': Missing child element(s).
+        Expected is one of ( th, td ).'
+      parent_entity: StudyVersion
+- rule_id: CORE-001049
+  description: Referenced items in a parameter map must be available elsewhere in
+    the data model.
+  message: The item referenced in the parameter map is not available elsewhere in
+    the model.
+  error_count: 8
+  errors:
+  - instance_id: ParameterMap_5
+    entity: ParameterMap
+    path: /study/versions/0/dictionaries/1/parameterMaps/0
+    details:
+      tag: Sect8_2_1
+      reference: <usdm:ref klass="NarrativeContent" id="NarrativeContent_59" attribute="SectionNumber"></usdm:ref>
+      Referenced Value: '!!NOT FOUND!!'
+  - instance_id: ParameterMap_6
+    entity: ParameterMap
+    path: /study/versions/0/dictionaries/1/parameterMaps/1
+    details:
+      tag: Sect8_2_2
+      reference: <usdm:ref klass="NarrativeContent" id="NarrativeContent_60" attribute="SectionNumber"></usdm:ref>
+      Referenced Value: '!!NOT FOUND!!'
+  - instance_id: ParameterMap_7
+    entity: ParameterMap
+    path: /study/versions/0/dictionaries/1/parameterMaps/2
+    details:
+      tag: Sect8_2_3
+      reference: <usdm:ref klass="NarrativeContent" id="NarrativeContent_61" attribute="SectionNumber"></usdm:ref>
+      Referenced Value: '!!NOT FOUND!!'
+  - instance_id: ParameterMap_8
+    entity: ParameterMap
+    path: /study/versions/0/dictionaries/1/parameterMaps/3
+    details:
+      tag: Sect10_3
+      reference: <usdm:ref klass="NarrativeContent" id="NarrativeContent_104" attribute="SectionNumber"></usdm:ref>
+      Referenced Value: '!!NOT FOUND!!'
+  - instance_id: ParameterMap_9
+    entity: ParameterMap
+    path: /study/versions/0/dictionaries/1/parameterMaps/4
+    details:
+      tag: Sect10_4
+      reference: <usdm:ref klass="NarrativeContent" id="NarrativeContent_105" attribute="SectionNumber"></usdm:ref>
+      Referenced Value: '!!NOT FOUND!!'
+  - instance_id: ParameterMap_10
+    entity: ParameterMap
+    path: /study/versions/0/dictionaries/1/parameterMaps/5
+    details:
+      tag: Sect8_1
+      reference: <usdm:ref klass="NarrativeContent" id="NarrativeContent_57" attribute="SectionNumber"></usdm:ref>
+      Referenced Value: '!!NOT FOUND!!'
+  - instance_id: ParameterMap_11
+    entity: ParameterMap
+    path: /study/versions/0/dictionaries/1/parameterMaps/6
+    details:
+      tag: Sect10_8_1
+      reference: <usdm:ref klass="NarrativeContent" id="NarrativeContent_110" attribute="SectionNumber"></usdm:ref>
+      Referenced Value: '!!NOT FOUND!!'
+  - instance_id: ParameterMap_12
+    entity: ParameterMap
+    path: /study/versions/0/dictionaries/1/parameterMaps/7
+    details:
+      tag: Sect10_1_2
+      reference: <usdm:ref klass="NarrativeContent" id="NarrativeContent_95" attribute="SectionNumber"></usdm:ref>
+      Referenced Value: '!!NOT FOUND!!'
+- rule_id: CORE-000857
+  description: A planned sex must be specified using the Sex of Participants (C66732)
+    SDTM codelist.
+  message: The planned sex is not specified using the Sex of Participants (C66732)
+    SDTM codelist - codeSystem is not "http://www.cdisc.org", codeSystemVersion is
+    not a valid terminology package date, the code or decode (either as preferred
+    term or as submission value) is found in the codelist (case insensitive) but the
+    corresponding decode or code does not match the codelist value (case sensitive),
+    and/or neither code nor decode is found in the codelist.
+  error_count: 2
+  errors:
+  - error: Error occurred during operation execution
+    message: 'Failed to execute rule operation. Operation: codelist_extensible, Target:
+      None, Domain: StudyDesignPopulation, Error: You are trying to merge on object
+      and float64 columns for key ''codeSystemVersion''. If you wish to proceed you
+      should use pd.concat'
+  - error: Error occurred during operation execution
+    message: 'Failed to execute rule operation. Operation: codelist_extensible, Target:
+      None, Domain: StudyCohort, Error: You are trying to merge on object and float64
+      columns for key ''codeSystemVersion''. If you wish to proceed you should use
+      pd.concat'
+- rule_id: CORE-000961
+  description: Encounter ordering using previous and next attributes is expected to
+    be consistent with the order of corresponding scheduled activity instances according
+    to their specified default conditions.
+  message: The order of the encounters in the study design (as defined by the next
+    attribute) does not match the order of encounters as referenced from scheduled
+    activity instances in the main timeline that are ordered by default condition.
+  error_count: 1
+  errors:
+  - instance_id: InterventionalStudyDesign_1
+    entity: InterventionalStudyDesign
+    path: /study/versions/0/studyDesigns/0
+    name: Phase 1
+    details:
+      ScheduleTimeline.mainTimeline: true
+      Encounter order by previous/next: '[ Encounter_1: E1 > Encounter_2: E2 > Encounter_3:
+        E3 > Encounter_4: E4 > Encounter_5: E5 > Encounter_6: E6 > Encounter_7: E7
+        > Encounter_8: E8 > Encounter_9: E9 > Encounter_10: E10 ]'
+      Encounter order by timeline refs: '[ Encounter_1: E1 > Encounter_2: E2 > Encounter_3:
+        E3 > Encounter_4: E4 > Encounter_5: E5 ]'
+- rule_id: CORE-000875
+  description: Within a study design, the planned sex must be specified either in
+    the study population or in all cohorts.
+  message: Planned sex has not been specified for either the study population or the
+    cohort, or it has been specified for both.
+  error_count: 4
+  errors:
+  - instance_id: StudyDesignPopulation_1
+    path: /study/versions/0/studyDesigns/0/population
+    name: POP1
+    details:
+      parent_id: InterventionalStudyDesign_1
+      id.StudyCohort: StudyCohort_1
+      parent_rel: population
+      name.StudyCohort: COHORT1
+      plannedSex: false
+      plannedSex.StudyCohort: false
+      parent_entity: InterventionalStudyDesign
+      plannedSex.decode: Not in dataset
+      plannedSex.decode.StudyCohort: Not in dataset
+  - instance_id: StudyDesignPopulation_1
+    path: /study/versions/0/studyDesigns/0/population
+    name: POP1
+    details:
+      parent_id: InterventionalStudyDesign_1
+      id.StudyCohort: StudyCohort_2
+      parent_rel: population
+      name.StudyCohort: COHORT2
+      plannedSex: false
+      plannedSex.StudyCohort: false
+      parent_entity: InterventionalStudyDesign
+      plannedSex.decode: Not in dataset
+      plannedSex.decode.StudyCohort: Not in dataset
+  - instance_id: StudyDesignPopulation_1
+    path: /study/versions/0/studyDesigns/0/population
+    name: POP1
+    details:
+      parent_id: InterventionalStudyDesign_1
+      id.StudyCohort: StudyCohort_3
+      parent_rel: population
+      name.StudyCohort: COHORT3
+      plannedSex: false
+      plannedSex.StudyCohort: false
+      parent_entity: InterventionalStudyDesign
+      plannedSex.decode: Not in dataset
+      plannedSex.decode.StudyCohort: Not in dataset
+  - instance_id: StudyDesignPopulation_1
+    path: /study/versions/0/studyDesigns/0/population
+    name: POP1
+    details:
+      parent_id: InterventionalStudyDesign_1
+      id.StudyCohort: StudyCohort_4
+      parent_rel: population
+      name.StudyCohort: COHORT4
+      plannedSex: false
+      plannedSex.StudyCohort: false
+      parent_entity: InterventionalStudyDesign
+      plannedSex.decode: Not in dataset
+      plannedSex.decode.StudyCohort: Not in dataset
+- rule_id: CORE-000969
+  description: If a dose is specified, then a corresponding administrable product
+    must also be specified either directly or embedded in the medical device and vice
+    versa.
+  message: The administration dose has been specified without an administrable product
+    (either as a direct administrable product or as an embedded product via the related
+    medical device) or vice versa.
+  error_count: 3
+  errors:
+  - instance_id: Administration_1
+    entity: Administration
+    path: /study/versions/0/studyInterventions/0/administrations/0
+    name: 10_MGKG_QW
+    details:
+      dose(value/range): 20 Milligram per Kilogram (C67401)
+      administrableProductId: null
+      medicalDeviceId: null
+      check: true
+  - instance_id: Administration_2
+    entity: Administration
+    path: /study/versions/0/studyInterventions/1/administrations/0
+    name: 10_MGKG_Q3W
+    details:
+      dose(value/range): 20 Milligram per Kilogram (C67401)
+      administrableProductId: null
+      medicalDeviceId: null
+      check: true
+  - instance_id: Administration_3
+    entity: Administration
+    path: /study/versions/0/studyInterventions/2/administrations/0
+    name: 1200_MG_Q3W
+    details:
+      dose(value/range): 1200 Milligram (C28253)
+      administrableProductId: null
+      medicalDeviceId: null
+      check: true
+- rule_id: CORE-000804
+  description: A timing must only be specified as being relative to/from a scheduled
+    activity/decision instance that is defined within the same timeline as the timing.
+  message: 'The relative to/from scheduled instance of a timing was not defined within
+    the same timeline as the timing: the parent_id of the scheduled instance ($parent_of_scheduled_instance)
+    is not the same as parent_id of the timing (parent_id.Timing).'
+  error_count: 7
+  errors:
+  - instance_id: ScheduledActivityInstance_44
+    path: /study/versions/0/studyDesigns/0/scheduleTimelines/3/timings/0/relativeToScheduledInstanceId
+    name: C1D1
+    details:
+      parent_id: Timing_14
+      parent_rel: relativeToScheduledInstanceId
+      $parent_of_scheduled_instance:
+      - ScheduleTimeline_4
+      parent_entity: Timing
+      parent_id.Timing: ScheduleTimeline_3
+  - instance_id: ScheduledActivityInstance_48
+    path: /study/versions/0/studyDesigns/0/scheduleTimelines/3/timings/1/relativeToScheduledInstanceId
+    name: EOT
+    details:
+      parent_id: Timing_16
+      parent_rel: relativeToScheduledInstanceId
+      $parent_of_scheduled_instance:
+      - ScheduleTimeline_4
+      parent_entity: Timing
+      parent_id.Timing: ScheduleTimeline_3
+  - instance_id: ScheduledActivityInstance_50
+    path: /study/versions/0/studyDesigns/0/scheduleTimelines/3/timings/3/relativeToScheduledInstanceId
+    name: SFU2
+    details:
+      parent_id: Timing_17
+      parent_rel: relativeToScheduledInstanceId
+      $parent_of_scheduled_instance:
+      - ScheduleTimeline_4
+      parent_entity: Timing
+      parent_id.Timing: ScheduleTimeline_3
+  - instance_id: ScheduledDecisionInstance_1
+    path: /study/versions/0/studyDesigns/0/scheduleTimelines/0/timings/6/relativeFromScheduledInstanceId
+    name: Cx_END
+    details:
+      parent_id: Timing_7
+      parent_rel: relativeFromScheduledInstanceId
+      $parent_of_scheduled_instance:
+      - ScheduleTimeline_1
+      parent_entity: Timing
+      parent_id.Timing: ScheduleTimeline_4
+  - instance_id: ScheduledDecisionInstance_1
+    path: /study/versions/0/studyDesigns/0/scheduleTimelines/0/timings/7/relativeToScheduledInstanceId
+    name: Cx_END
+    details:
+      parent_id: Timing_8
+      parent_rel: relativeToScheduledInstanceId
+      $parent_of_scheduled_instance:
+      - ScheduleTimeline_1
+      parent_entity: Timing
+      parent_id.Timing: ScheduleTimeline_4
+  - instance_id: ScheduledDecisionInstance_1
+    path: /study/versions/0/studyDesigns/0/scheduleTimelines/0/timings/8/relativeToScheduledInstanceId
+    name: Cx_END
+    details:
+      parent_id: Timing_9
+      parent_rel: relativeToScheduledInstanceId
+      $parent_of_scheduled_instance:
+      - ScheduleTimeline_1
+      parent_entity: Timing
+      parent_id.Timing: ScheduleTimeline_4
+  - instance_id: ScheduledDecisionInstance_1
+    path: /study/versions/0/studyDesigns/0/scheduleTimelines/0/timings/9/relativeToScheduledInstanceId
+    name: Cx_END
+    details:
+      parent_id: Timing_10
+      parent_rel: relativeToScheduledInstanceId
+      $parent_of_scheduled_instance:
+      - ScheduleTimeline_1
+      parent_entity: Timing
+      parent_id.Timing: ScheduleTimeline_4
+- rule_id: CORE-001048
+  description: Epoch ordering using previous and next attributes is expected to be
+    consistent with the order of corresponding scheduled activity instances according
+    to their specified default conditions.
+  message: The order of the epochs in the study design (as defined by the next attribute)
+    does not match the order of epochs as referenced from scheduled activity instances
+    in the main timeline that are ordered by default condition.
+  error_count: 1
+  errors:
+  - instance_id: InterventionalStudyDesign_1
+    entity: InterventionalStudyDesign
+    path: /study/versions/0/studyDesigns/0
+    name: Phase 1
+    details:
+      ScheduleTimeline.mainTimeline: true
+      Epoch order by previous/next: '[ StudyEpoch_1: SCREENING > StudyEpoch_2: CYCLE1
+        > StudyEpoch_3: CYCLE2+ > StudyEpoch_4: EOT > StudyEpoch_5: SFU > StudyEpoch_6:
+        LTFU ]'
+      Epoch order by timeline refs: '[ StudyEpoch_1: SCREENING > StudyEpoch_2: CYCLE1
+        ]'
+- rule_id: CORE-001054
+  description: There must be exactly one sponsor study identifier (i.e., a study identifier
+    whose scope is an organization that is identified as the organization for the
+    sponsor study role).
+  message: The study version does not have exactly one sponsor study identifier.
+  error_count: 1
+  errors:
+  - instance_id: StudyVersion_1
+    entity: StudyVersion
+    path: /study/versions/0
+    details:
+      versionIdentifier: amendment 5
+      '# Sponsor Identifiers': 0
+- rule_id: CORE-000871
+  description: Within a study design there is expected to be exactly one objective
+    with level 'Primary Objective'.
+  message: There is not exactly one objective with a level of 'Primary Objective'
+    within the study design.
+  error_count: 1
+  errors:
+  - instance_id: InterventionalStudyDesign_1
+    path: /study/versions/0/studyDesigns/0
+    name: Phase 1
+    details:
+      parent_id: StudyVersion_1
+      parent_rel: studyDesigns
+      parent_entity: StudyVersion
+      $primary_objectives:
+      - "<p>Phase 1: To characterize the safety and tolerability of I in combination\
+        \ with A in participants with unresectable hepatocellular \ncarcinoma (HCC),\
+        \ platinum-refractory recurrent/metastatic squamous cell carcinoma of the\
+        \ head and neck (SCCHN), platinumresistant/refractory epithelial ovarian cancer\
+        \ (EOC), or recurrent glioblastoma multiforme (GBM), and to determine the\
+        \ recommended Phase 2 dose (RP2D).</p>"
+      - '<p>Phase 2: To assess response rate (RR) of isatuximab in combination with
+        atezolizumab in participants with HCC or SCCHN or EOC.</p>'
+      - '<p>Phase 2: To assess the progression free survival rate at 6 months (PFS-6)
+        of I in combination with A, or as a single agent in participants with GBM</p>'
+      $num_primary_obj: 3
+- rule_id: CORE-001016
+  description: A planned duration is expected for the main timeline.
+  message: The planned duration is not specified for the main timeline.
+  error_count: 1
+  errors:
+  - instance_id: ScheduleTimeline_4
+    entity: ScheduleTimeline
+    path: /study/versions/0/studyDesigns/0/scheduleTimelines/0
+    name: Main Timeline
+    details:
+      mainTimeline: true
+      check: true
+- rule_id: CORE-000964
+  description: If a section number is to be displayed then a number must be specified.
+  message: A section number is indicated to be displayed (displaySectionNumber=true)
+    but not specified.
+  error_count: 1
+  errors:
+  - instance_id: NarrativeContent_1
+    entity: NarrativeContent
+    path: /study/documentedBy/0/versions/0/contents/0
+    name: NC_1
+    sectionNumber: ''
+    details:
+      displaySectionNumber: true
+      check: true
+- rule_id: CORE-000868
+  description: Each schedule timeline must contain at least one anchor (fixed time)
+    - i.e., at least one scheduled activity instance that is referenced by a Fixed
+    Reference timing.
+  message: The schedule timeline does not contain an anchor (i.e., a scheduled activity
+    instance that is referenced by a Fixed Reference timing).
+  error_count: 1
+  errors:
+  - instance_id: ScheduleTimeline_3
+    path: /study/versions/0/studyDesigns/0/scheduleTimelines/3
+    name: Event Timeline
+    details:
+      parent_id: InterventionalStudyDesign_1
+      parent_rel: scheduleTimelines
+      parent_entity: InterventionalStudyDesign
+- rule_id: CORE-000402
+  description: Timing windows must be fully defined, if one of the window attributes
+    (i.e., window label, window lower, and window upper) is defined then all must
+    be specified.
+  message: One or more of the window attributes (windowLabel, windowLower, windowUpper)
+    is missing.
+  error_count: 18
+  errors:
+  - instance_id: Timing_20
+    path: /study/versions/0/studyDesigns/0/scheduleTimelines/1/timings/2
+    name: TIM20
+    details:
+      parent_id: ScheduleTimeline_1
+      windowLower: null
+      valueLabel: 60 minutes
+      parent_rel: timings
+      parent_entity: ScheduleTimeline
+      windowUpper: null
+      windowLabel: -5..5 minutes
+  - instance_id: Timing_21
+    path: /study/versions/0/studyDesigns/0/scheduleTimelines/1/timings/7
+    name: TIM21
+    details:
+      parent_id: ScheduleTimeline_1
+      windowLower: null
+      valueLabel: 30 minutes
+      parent_rel: timings
+      parent_entity: ScheduleTimeline
+      windowUpper: null
+      windowLabel: -10..10 minutes
+  - instance_id: Timing_22
+    path: /study/versions/0/studyDesigns/0/scheduleTimelines/1/timings/9
+    name: TIM22
+    details:
+      parent_id: ScheduleTimeline_1
+      windowLower: null
+      valueLabel: 0 minutes
+      parent_rel: timings
+      parent_entity: ScheduleTimeline
+      windowUpper: null
+      windowLabel: -10..0 minutes
+  - instance_id: Timing_24
+    path: /study/versions/0/studyDesigns/0/scheduleTimelines/1/timings/10
+    name: TIM24
+    details:
+      parent_id: ScheduleTimeline_1
+      windowLower: null
+      valueLabel: 4 hours
+      parent_rel: timings
+      parent_entity: ScheduleTimeline
+      windowUpper: null
+      windowLabel: -30..30 minutes
+  - instance_id: Timing_30
+    path: /study/versions/0/studyDesigns/0/scheduleTimelines/1/timings/11
+    name: TIM30
+    details:
+      parent_id: ScheduleTimeline_1
+      windowLower: null
+      valueLabel: 0 minutes
+      parent_rel: timings
+      parent_entity: ScheduleTimeline
+      windowUpper: null
+      windowLabel: -10..0 minutes
+  - instance_id: Timing_31
+    path: /study/versions/0/studyDesigns/0/scheduleTimelines/1/timings/14
+    name: TIM31
+    details:
+      parent_id: ScheduleTimeline_1
+      windowLower: null
+      valueLabel: 150 minutes
+      parent_rel: timings
+      parent_entity: ScheduleTimeline
+      windowUpper: null
+      windowLabel: -45..60 minutes
+  - instance_id: Timing_34
+    path: /study/versions/0/studyDesigns/0/scheduleTimelines/1/timings/16
+    name: TIM34
+    details:
+      parent_id: ScheduleTimeline_1
+      windowLower: null
+      valueLabel: 30 minutes
+      parent_rel: timings
+      parent_entity: ScheduleTimeline
+      windowUpper: null
+      windowLabel: 0..30 minutes
+  - instance_id: Timing_36
+    path: /study/versions/0/studyDesigns/0/scheduleTimelines/1/timings/18
+    name: TIM36
+    details:
+      parent_id: ScheduleTimeline_1
+      windowLower: null
+      valueLabel: 150 minutes
+      parent_rel: timings
+      parent_entity: ScheduleTimeline
+      windowUpper: null
+      windowLabel: -45..60 minutes
+  - instance_id: Timing_35
+    path: /study/versions/0/studyDesigns/0/scheduleTimelines/1/timings/19
+    name: TIM35
+    details:
+      parent_id: ScheduleTimeline_1
+      windowLower: null
+      valueLabel: 0 minutes
+      parent_rel: timings
+      parent_entity: ScheduleTimeline
+      windowUpper: null
+      windowLabel: -10..0 minutes
+  - instance_id: Timing_39
+    path: /study/versions/0/studyDesigns/0/scheduleTimelines/1/timings/21
+    name: TIM39
+    details:
+      parent_id: ScheduleTimeline_1
+      windowLower: null
+      valueLabel: 30 minutes
+      parent_rel: timings
+      parent_entity: ScheduleTimeline
+      windowUpper: null
+      windowLabel: 0..30 minutes
+  - instance_id: Timing_42
+    path: /study/versions/0/studyDesigns/0/scheduleTimelines/1/timings/24
+    name: TIM42
+    details:
+      parent_id: ScheduleTimeline_1
+      windowLower: null
+      valueLabel: 30 minutes
+      parent_rel: timings
+      parent_entity: ScheduleTimeline
+      windowUpper: null
+      windowLabel: 0..30 minutes
+  - instance_id: Timing_44
+    path: /study/versions/0/studyDesigns/0/scheduleTimelines/1/timings/26
+    name: TIM44
+    details:
+      parent_id: ScheduleTimeline_1
+      windowLower: null
+      valueLabel: 150 minutes
+      parent_rel: timings
+      parent_entity: ScheduleTimeline
+      windowUpper: null
+      windowLabel: -45..60 minutes
+  - instance_id: Timing_43
+    path: /study/versions/0/studyDesigns/0/scheduleTimelines/1/timings/27
+    name: TIM43
+    details:
+      parent_id: ScheduleTimeline_1
+      windowLower: null
+      valueLabel: 0 minutes
+      parent_rel: timings
+      parent_entity: ScheduleTimeline
+      windowUpper: null
+      windowLabel: -10..0 minutes
+  - instance_id: Timing_47
+    path: /study/versions/0/studyDesigns/0/scheduleTimelines/1/timings/29
+    name: TIM47
+    details:
+      parent_id: ScheduleTimeline_1
+      windowLower: null
+      valueLabel: 30 minutes
+      parent_rel: timings
+      parent_entity: ScheduleTimeline
+      windowUpper: null
+      windowLabel: 0..30 minutes
+  - instance_id: Timing_14
+    path: /study/versions/0/studyDesigns/0/scheduleTimelines/3/timings/0
+    name: TIM14
+    details:
+      parent_id: ScheduleTimeline_3
+      windowLower: null
+      valueLabel: 0 minutes
+      parent_rel: timings
+      parent_entity: ScheduleTimeline
+      windowUpper: null
+      windowLabel: 0..? Days
+  - instance_id: Timing_16
+    path: /study/versions/0/studyDesigns/0/scheduleTimelines/3/timings/1
+    name: TIM16
+    details:
+      parent_id: ScheduleTimeline_3
+      windowLower: null
+      valueLabel: 0 minutes
+      parent_rel: timings
+      parent_entity: ScheduleTimeline
+      windowUpper: null
+      windowLabel: 0..? Days
+  - instance_id: Timing_15
+    path: /study/versions/0/studyDesigns/0/scheduleTimelines/3/timings/2
+    name: TIM15
+    details:
+      parent_id: ScheduleTimeline_3
+      windowLower: null
+      valueLabel: 0 minutes
+      parent_rel: timings
+      parent_entity: ScheduleTimeline
+      windowUpper: null
+      windowLabel: 0..? Days
+  - instance_id: Timing_17
+    path: /study/versions/0/studyDesigns/0/scheduleTimelines/3/timings/3
+    name: TIM17
+    details:
+      parent_id: ScheduleTimeline_3
+      windowLower: null
+      valueLabel: 0 minutes
+      parent_rel: timings
+      parent_entity: ScheduleTimeline
+      windowUpper: null
+      windowLabel: 0..? Days
+- rule_id: CORE-001074
+  description: Any parameter name referenced in a tag in the text should be specified
+    in the data dictionary parameter maps.
+  message: The parameter name referenced in the text is not specified in the data
+    dictionary parameter map - the dictionaryId is missing or invalid, or the parameter
+    name does not match a tag in any of the dictionary's parameter maps.
+  error_count: 11
+  errors:
+  - instance_id: EligibilityCriterionItem_3
+    entity: EligibilityCriterionItem
+    path: /study/versions/0/eligibilityCriterionItems/2
+    name: IN03
+    details:
+      Parameter reference: <usdm:tag name="Sect10_11"/>
+      Parameter name: Sect10_11
+      dictionaryId: SyntaxTemplateDictionary_2
+      Issue: Parameter not in dictionary
+  - instance_id: EligibilityCriterionItem_6
+    entity: EligibilityCriterionItem
+    path: /study/versions/0/eligibilityCriterionItems/5
+    name: IN06
+    details:
+      Parameter reference: <usdm:tag name="Sect10_12"/>
+      Parameter name: Sect10_12
+      dictionaryId: SyntaxTemplateDictionary_2
+      Issue: Parameter not in dictionary
+  - instance_id: EligibilityCriterionItem_7
+    entity: EligibilityCriterionItem
+    path: /study/versions/0/eligibilityCriterionItems/6
+    name: IN07
+    details:
+      Parameter reference: <usdm:tag name="Sect10_13"/>
+      Parameter name: Sect10_13
+      dictionaryId: SyntaxTemplateDictionary_2
+      Issue: Parameter not in dictionary
+  - instance_id: EligibilityCriterionItem_19
+    entity: EligibilityCriterionItem
+    path: /study/versions/0/eligibilityCriterionItems/18
+    name: EX01
+    details:
+      Parameter reference: <usdm:tag name="Sect10_14"/>
+      Parameter name: Sect10_14
+      dictionaryId: SyntaxTemplateDictionary_2
+      Issue: Parameter not in dictionary
+  - instance_id: Condition_3
+    entity: Condition
+    path: /study/versions/0/conditions/2
+    name: COND3
+    details:
+      Parameter reference: <usdm:tag name="Sect8_2_1"/>
+      Parameter name: Sect8_2_1
+      dictionaryId: null
+      Issue: dictionaryId is missing
+  - instance_id: Condition_5
+    entity: Condition
+    path: /study/versions/0/conditions/4
+    name: COND5
+    details:
+      Parameter reference: <usdm:tag name="Sect8_2_2"/>
+      Parameter name: Sect8_2_2
+      dictionaryId: null
+      Issue: dictionaryId is missing
+  - instance_id: Condition_6
+    entity: Condition
+    path: /study/versions/0/conditions/5
+    name: COND6
+    details:
+      Parameter reference: <usdm:tag name="Sect8_2_3"/>
+      Parameter name: Sect8_2_3
+      dictionaryId: null
+      Issue: dictionaryId is missing
+  - instance_id: Condition_8
+    entity: Condition
+    path: /study/versions/0/conditions/7
+    name: COND8
+    details:
+      Parameter reference: <usdm:tag name="Sect10_3"/>
+      Parameter name: Sect10_3
+      dictionaryId: null
+      Issue: dictionaryId is missing
+  - instance_id: Condition_9
+    entity: Condition
+    path: /study/versions/0/conditions/8
+    name: COND9
+    details:
+      Parameter reference: <usdm:tag name="Sect10_3"/>
+      Parameter name: Sect10_3
+      dictionaryId: null
+      Issue: dictionaryId is missing
+  - instance_id: Condition_11
+    entity: Condition
+    path: /study/versions/0/conditions/10
+    name: COND11
+    details:
+      Parameter reference: <usdm:tag name="Sect8_1"/>
+      Parameter name: Sect8_1
+      dictionaryId: null
+      Issue: dictionaryId is missing
+  - instance_id: Condition_42
+    entity: Condition
+    path: /study/versions/0/conditions/41
+    name: COND42
+    details:
+      Parameter reference: <usdm:tag name="incl2"/>
+      Parameter name: incl2
+      dictionaryId: null
+      Issue: dictionaryId is missing
+- rule_id: CORE-000808
+  description: Only one version of any code system is expected to be used within a
+    study version.
+  message: More than one code system version is used for the code system.
+  error_count: 3
+  errors:
+  - instance_id: Code_1
+    path: /study/versions/0/organizations/0/type
+    details:
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2025-09-26'
+      $record_count: 301
+  - instance_id: Code_292
+    path: /study/versions/0/biomedicalConcepts/0/properties/0/code/standardCode
+    details:
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2024-09-27'
+      $record_count: 110
+  - instance_id: Code_510
+    path: /study/versions/0/biomedicalConcepts/13/code/standardCode
+    details:
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: null
+      $record_count: 1
+- rule_id: CORE-000945
+  description: Syntax template text is expected to be HTML formatted.
+  message: The text attribute contains non-conformant XHTML.
+  error_count: 5
+  errors:
+  - instance_id: Condition_4
+    path: /study/versions/0/conditions/3
+    name: COND4
+    details:
+      parent_id: StudyVersion_1
+      parent_rel: conditions
+      $xhtml_errors:
+      - 'Invalid XHTML line 1, col 6 [FATAL]: StartTag: invalid element name'
+      parent_entity: StudyVersion
+  - instance_id: Condition_19
+    path: /study/versions/0/conditions/18
+    name: COND19
+    details:
+      parent_id: StudyVersion_1
+      parent_rel: conditions
+      $xhtml_errors:
+      - 'Invalid XHTML line 1, col 48 [FATAL]: xmlParseEntityRef: no name'
+      parent_entity: StudyVersion
+  - instance_id: Condition_21
+    path: /study/versions/0/conditions/20
+    name: COND21
+    details:
+      parent_id: StudyVersion_1
+      parent_rel: conditions
+      $xhtml_errors:
+      - 'Invalid XHTML line 1, col 73 [FATAL]: expected ''>'''
+      - 'Invalid XHTML (wrapper start) [ERROR]: Element ''body'': Character content
+        other than whitespace is not allowed because the content type is ''element-only''.'
+      parent_entity: StudyVersion
+  - instance_id: Endpoint_10
+    path: /study/versions/0/studyDesigns/0/objectives/7/endpoints/0
+    name: END10
+    details:
+      parent_id: Objective_8
+      parent_rel: endpoints
+      $xhtml_errors:
+      - 'Invalid XHTML line 2, col 70 [FATAL]: Opening and ending tag mismatch: br
+        line 1 and p'
+      - 'Invalid XHTML (wrapper end) [FATAL]: Opening and ending tag mismatch: br
+        line 1 and body'
+      - 'Invalid XHTML (wrapper end) [FATAL]: Opening and ending tag mismatch: p line
+        1 and html'
+      - 'Invalid XHTML line 1 [ERROR]: Element ''br'': Character content is not allowed,
+        because the content type is empty.'
+      - 'Invalid XHTML line 1 [ERROR]: Element ''br'': Element content is not allowed,
+        because the content type is empty.'
+      parent_entity: Objective
+  - instance_id: Endpoint_11
+    path: /study/versions/0/studyDesigns/0/objectives/7/endpoints/1
+    name: END11
+    details:
+      parent_id: Objective_8
+      parent_rel: endpoints
+      $xhtml_errors:
+      - 'Invalid XHTML line 1, col 124 [FATAL]: Opening and ending tag mismatch: br
+        line 1 and p'
+      - 'Invalid XHTML (wrapper end) [FATAL]: Opening and ending tag mismatch: p line
+        1 and body'
+      - 'Invalid XHTML (wrapper end) [FATAL]: Opening and ending tag mismatch: body
+        (wrapper start) and html'
+      - 'Invalid XHTML line 1 [ERROR]: Element ''br'': Character content is not allowed,
+        because the content type is empty.'
+      parent_entity: Objective

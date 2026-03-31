@@ -1,0 +1,359 @@
+file: /Users/daveih/Documents/github/usdm_data/source_data/protocols/EliLilly_NCT03421379_Diabetes/EliLilly_NCT03421379_Diabetes.json
+version: 4-0
+is_valid: false
+rules_executed: 205
+rules_skipped: 2
+finding_count: 27
+execution_error_count: 5447
+ct_packages_available: 200
+ct_packages_loaded:
+- sdtmct-2025-09-26
+- ddfct-2025-09-26
+- sdtmct-2024-09-27
+- ddfct-2024-09-27
+findings:
+- rule_id: CORE-000996
+  description: A planned sex must either include a single entry of male or female
+    or both female and male as entries.
+  message: The planned sex includes more than a single entry of male and/or female
+    either by duplications or unexpected codes.
+  error_count: 1
+  errors:
+  - instance_id: StudyDesignPopulation_1
+    entity: StudyDesignPopulation
+    path: /study/versions/0/studyDesigns/0/population
+    name: STUDY_POP
+    details:
+      plannedSex: '[Code_591: Both (C49636)]'
+      check: true
+- rule_id: CORE-000879
+  description: For CDISC codelist references (where the code system is 'http://www.cdisc.org'),
+    the code system version must be a valid CDISC terminology release date in ISO
+    8601 date format.
+  message: The code system is "http://www.cdisc.org" but the code system version is
+    not a valid CDISC terminology release date in ISO 8601 date format.
+  error_count: 1
+  errors:
+  - instance_id: Code_644
+    path: /study/versions/0/biomedicalConcepts/36/code/standardCode
+    details:
+      parent_id: AliasCode_276
+      parent_rel: standardCode
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: null
+      parent_entity: AliasCode
+      code: C198218
+      decode: Not Set
+- rule_id: CORE-000973
+  description: There must be exactly one study role with a code of sponsor.
+  message: There is not exactly one study role with a code of sponsor (where code.code
+    is C70793).
+  error_count: 1
+  errors:
+  - instance_id: StudyVersion_1
+    entity: StudyVersion
+    path: /study/versions/0
+    details:
+      versionIdentifier: '1'
+      '# Sponsor Roles': 0
+- rule_id: CORE-001068
+  description: Date values associated to a study definition document version must
+    be unique regarding the combination of type and geographic scopes of the date.
+  message: The study definition document version has more than one governance date
+    with the same type and geographic scope.
+  error_count: 1
+  errors:
+  - error: An unknown exception has occurred
+    message: Cannot perform 'rand_' with a dtyped [float64] array and scalar of type
+      [bool]
+- rule_id: CORE-001065
+  description: Within a study design, if study type is Interventional then at least
+    one intervention is expected to be referenced from a procedure.
+  message: The study type is Interventional (code=C98388) but a study intervention
+    is not referenced from any procedure.
+  error_count: 1
+  errors:
+  - instance_id: InterventionalStudyDesign_1
+    entity: InterventionalStudyDesign
+    path: /study/versions/0/studyDesigns/0
+    name: Study Design 1
+    details:
+      studyType.code: C98388
+      studyType.decode: Interventional Study
+      '# Referenced Study Interventions': 0
+- rule_id: CORE-001069
+  description: Narrative content item text is expected to be HTML formatted.
+  message: The narrative content item text contains non-conformant XHTML.
+  error_count: 6
+  errors:
+  - instance_id: NarrativeContentItem_2
+    path: /study/versions/0/narrativeContentItems/1
+    name: NCI_2
+    details:
+      parent_id: StudyVersion_1
+      parent_rel: narrativeContentItems
+      $xhtml_errors:
+      - 'Invalid XHTML (wrapper start) [ERROR]: Element ''body'': Character content
+        other than whitespace is not allowed because the content type is ''element-only''.'
+      parent_entity: StudyVersion
+  - instance_id: NarrativeContentItem_7
+    path: /study/versions/0/narrativeContentItems/6
+    name: NCI_7
+    details:
+      parent_id: StudyVersion_1
+      parent_rel: narrativeContentItems
+      $xhtml_errors:
+      - 'Invalid XHTML line 14 [ERROR]: Element ''u'': This element is not expected.'
+      - 'Invalid XHTML line 15 [ERROR]: Element ''u'': This element is not expected.'
+      - 'Invalid XHTML line 18 [ERROR]: Element ''u'': This element is not expected.'
+      - 'Invalid XHTML line 20 [ERROR]: Element ''u'': This element is not expected.'
+      - 'Invalid XHTML line 21 [ERROR]: Element ''u'': This element is not expected.'
+      - 'Invalid XHTML line 23 [ERROR]: Element ''u'': This element is not expected.'
+      parent_entity: StudyVersion
+  - instance_id: NarrativeContentItem_104
+    path: /study/versions/0/narrativeContentItems/103
+    name: NCI_104
+    details:
+      parent_id: StudyVersion_1
+      parent_rel: narrativeContentItems
+      $xhtml_errors:
+      - 'Invalid XHTML line 242 [ERROR]: Element ''td'': This element is not expected.'
+      parent_entity: StudyVersion
+  - instance_id: NarrativeContentItem_105
+    path: /study/versions/0/narrativeContentItems/104
+    name: NCI_105
+    details:
+      parent_id: StudyVersion_1
+      parent_rel: narrativeContentItems
+      $xhtml_errors:
+      - 'Invalid XHTML line 7 [ERROR]: Element ''ul'': This element is not expected.'
+      - 'Invalid XHTML line 25 [ERROR]: Element ''ul'': This element is not expected.'
+      - 'Invalid XHTML line 44 [ERROR]: Element ''ul'': This element is not expected.'
+      parent_entity: StudyVersion
+  - instance_id: NarrativeContentItem_106
+    path: /study/versions/0/narrativeContentItems/105
+    name: NCI_106
+    details:
+      parent_id: StudyVersion_1
+      parent_rel: narrativeContentItems
+      $xhtml_errors:
+      - 'Invalid XHTML line 77 [ERROR]: Element ''ul'': This element is not expected.
+        Expected is ( li ).'
+      parent_entity: StudyVersion
+  - instance_id: NarrativeContentItem_107
+    path: /study/versions/0/narrativeContentItems/106
+    name: NCI_107
+    details:
+      parent_id: StudyVersion_1
+      parent_rel: narrativeContentItems
+      $xhtml_errors:
+      - 'Invalid XHTML line 10 [ERROR]: Element ''ul'': This element is not expected.'
+      - 'Invalid XHTML line 24 [ERROR]: Element ''ul'': This element is not expected.'
+      - 'Invalid XHTML line 38 [ERROR]: Element ''ul'': This element is not expected.'
+      - 'Invalid XHTML line 45 [ERROR]: Element ''ul'': This element is not expected.'
+      parent_entity: StudyVersion
+- rule_id: CORE-000962
+  description: Within a study design, if a planned completion number is defined, it
+    must be specified either in the study population or in all cohorts.
+  message: A planned completion number has been specified for both the study population
+    and one or more cohorts, or it has been specified for only a subset of the cohorts.
+  error_count: 1
+  errors:
+  - instance_id: StudyDesignPopulation_1
+    entity: StudyDesignPopulation
+    path: /study/versions/0/studyDesigns/0/population
+    name: STUDY_POP
+    details:
+      plannedCompletionNumber(value/range): '66'
+      cohorts.plannedCompletionNumber(value/range): '[StudyCohort_1: 30, StudyCohort_2:
+        30]'
+      check: true
+- rule_id: CORE-000857
+  description: A planned sex must be specified using the Sex of Participants (C66732)
+    SDTM codelist.
+  message: The planned sex is not specified using the Sex of Participants (C66732)
+    SDTM codelist - codeSystem is not "http://www.cdisc.org", codeSystemVersion is
+    not a valid terminology package date, the code or decode (either as preferred
+    term or as submission value) is found in the codelist (case insensitive) but the
+    corresponding decode or code does not match the codelist value (case sensitive),
+    and/or neither code nor decode is found in the codelist.
+  error_count: 1
+  errors:
+  - error: Error occurred during operation execution
+    message: 'Failed to execute rule operation. Operation: codelist_extensible, Target:
+      None, Domain: StudyCohort, Error: You are trying to merge on object and float64
+      columns for key ''codeSystemVersion''. If you wish to proceed you should use
+      pd.concat'
+- rule_id: CORE-000961
+  description: Encounter ordering using previous and next attributes is expected to
+    be consistent with the order of corresponding scheduled activity instances according
+    to their specified default conditions.
+  message: The order of the encounters in the study design (as defined by the next
+    attribute) does not match the order of encounters as referenced from scheduled
+    activity instances in the main timeline that are ordered by default condition.
+  error_count: 1
+  errors:
+  - instance_id: InterventionalStudyDesign_1
+    entity: InterventionalStudyDesign
+    path: /study/versions/0/studyDesigns/0
+    name: Study Design 1
+    details:
+      ScheduleTimeline.mainTimeline: true
+      Encounter order by previous/next: '[ Encounter_1: SCREENING > Encounter_2: P1
+        DAY -1 > Encounter_3: P1 DAY 1 > Encounter_4: WASHOUT > Encounter_5: P2 DAY
+        -1 > Encounter_6: P2 DAY 1 > Encounter_7: FOLLOW-UP ]'
+      Encounter order by timeline refs: '[ Encounter_1: SCREENING > Encounter_2: P1
+        DAY -1 > Encounter_3: P1 DAY 1 > Encounter_4: WASHOUT > Encounter_5: P2 DAY
+        -1 > Encounter_6: P2 DAY 1 > Encounter_3: P1 DAY 1 > Encounter_7: FOLLOW-UP
+        ]'
+- rule_id: CORE-000969
+  description: If a dose is specified, then a corresponding administrable product
+    must also be specified either directly or embedded in the medical device and vice
+    versa.
+  message: The administration dose has been specified without an administrable product
+    (either as a direct administrable product or as an embedded product via the related
+    medical device) or vice versa.
+  error_count: 2
+  errors:
+  - instance_id: Administration_1
+    entity: Administration
+    path: /study/versions/0/studyInterventions/0/administrations/0
+    name: LY_ADMIN
+    details:
+      dose(value/range): 3 Milligram (C28253)
+      administrableProductId: null
+      medicalDeviceId: null
+      check: true
+  - instance_id: Administration_2
+    entity: Administration
+    path: /study/versions/0/studyInterventions/1/administrations/0
+    name: IMG_ADMIN
+    details:
+      dose(value/range): 1 Milligram (C28253)
+      administrableProductId: null
+      medicalDeviceId: null
+      check: true
+- rule_id: CORE-001048
+  description: Epoch ordering using previous and next attributes is expected to be
+    consistent with the order of corresponding scheduled activity instances according
+    to their specified default conditions.
+  message: The order of the epochs in the study design (as defined by the next attribute)
+    does not match the order of epochs as referenced from scheduled activity instances
+    in the main timeline that are ordered by default condition.
+  error_count: 1
+  errors:
+  - instance_id: InterventionalStudyDesign_1
+    entity: InterventionalStudyDesign
+    path: /study/versions/0/studyDesigns/0
+    name: Study Design 1
+    details:
+      ScheduleTimeline.mainTimeline: true
+      Epoch order by previous/next: '[ StudyEpoch_1: Screening > StudyEpoch_2: Period
+        1 > StudyEpoch_3: Wash Out > StudyEpoch_4: Period 2 > StudyEpoch_5: Follow-Up
+        ]'
+      Epoch order by timeline refs: '[ StudyEpoch_1: Screening > StudyEpoch_2: Period
+        1 > StudyEpoch_3: Wash Out > StudyEpoch_4: Period 2 > StudyEpoch_2: Period
+        1 > StudyEpoch_5: Follow-Up ]'
+- rule_id: CORE-001054
+  description: There must be exactly one sponsor study identifier (i.e., a study identifier
+    whose scope is an organization that is identified as the organization for the
+    sponsor study role).
+  message: The study version does not have exactly one sponsor study identifier.
+  error_count: 1
+  errors:
+  - instance_id: StudyVersion_1
+    entity: StudyVersion
+    path: /study/versions/0
+    details:
+      versionIdentifier: '1'
+      '# Sponsor Identifiers': 0
+- rule_id: CORE-001016
+  description: A planned duration is expected for the main timeline.
+  message: The planned duration is not specified for the main timeline.
+  error_count: 1
+  errors:
+  - instance_id: ScheduleTimeline_3
+    entity: ScheduleTimeline
+    path: /study/versions/0/studyDesigns/0/scheduleTimelines/0
+    name: Main Timeline
+    details:
+      mainTimeline: true
+      check: true
+- rule_id: CORE-000808
+  description: Only one version of any code system is expected to be used within a
+    study version.
+  message: More than one code system version is used for the code system.
+  error_count: 3
+  errors:
+  - instance_id: Code_1
+    path: /study/versions/0/organizations/0/type
+    details:
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2025-09-26'
+      $record_count: 186
+  - instance_id: Code_135
+    path: /study/versions/0/biomedicalConcepts/35/properties/0/code/standardCode
+    details:
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2024-09-27'
+      $record_count: 438
+  - instance_id: Code_644
+    path: /study/versions/0/biomedicalConcepts/36/code/standardCode
+    details:
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: null
+      $record_count: 1
+- rule_id: CORE-000945
+  description: Syntax template text is expected to be HTML formatted.
+  message: The text attribute contains non-conformant XHTML.
+  error_count: 5
+  errors:
+  - instance_id: EligibilityCriterionItem_1
+    path: /study/versions/0/eligibilityCriterionItems/0
+    name: INC1
+    details:
+      parent_id: StudyVersion_1
+      parent_rel: eligibilityCriterionItems
+      $xhtml_errors:
+      - 'Invalid XHTML line 6 [ERROR]: Element ''p'': This element is not expected.
+        Expected is ( li ).'
+      - 'Invalid XHTML line 10 [ERROR]: Element ''p'': This element is not expected.
+        Expected is ( li ).'
+      parent_entity: StudyVersion
+  - instance_id: EligibilityCriterionItem_3
+    path: /study/versions/0/eligibilityCriterionItems/2
+    name: INC3
+    details:
+      parent_id: StudyVersion_1
+      parent_rel: eligibilityCriterionItems
+      $xhtml_errors:
+      - 'Invalid XHTML line 46 [ERROR]: Element ''ul'': This element is not expected.
+        Expected is ( li ).'
+      parent_entity: StudyVersion
+  - instance_id: Condition_2
+    path: /study/versions/0/conditions/1
+    name: COND2
+    details:
+      parent_id: StudyVersion_1
+      parent_rel: conditions
+      $xhtml_errors:
+      - 'Invalid XHTML line 1, col 29 [FATAL]: StartTag: invalid element name'
+      parent_entity: StudyVersion
+  - instance_id: Condition_3
+    path: /study/versions/0/conditions/2
+    name: COND3
+    details:
+      parent_id: StudyVersion_1
+      parent_rel: conditions
+      $xhtml_errors:
+      - 'Invalid XHTML line 1, col 37 [FATAL]: StartTag: invalid element name'
+      parent_entity: StudyVersion
+  - instance_id: Condition_13
+    path: /study/versions/0/conditions/12
+    name: COND13
+    details:
+      parent_id: StudyVersion_1
+      parent_rel: conditions
+      $xhtml_errors:
+      - 'Invalid XHTML line 1, col 136 [FATAL]: StartTag: invalid element name'
+      parent_entity: StudyVersion

@@ -1,0 +1,566 @@
+file: /Users/daveih/Documents/github/usdm_data/source_data/protocols/Alexion_NCT04573309_Wilsons/Alexion_NCT04573309_Wilsons.json
+version: 4-0
+is_valid: false
+rules_executed: 205
+rules_skipped: 2
+finding_count: 42
+execution_error_count: 6747
+ct_packages_available: 200
+ct_packages_loaded:
+- sdtmct-2025-09-26
+- ddfct-2025-09-26
+- sdtmct-2024-09-27
+- ddfct-2024-09-27
+findings:
+- rule_id: CORE-000996
+  description: A planned sex must either include a single entry of male or female
+    or both female and male as entries.
+  message: The planned sex includes more than a single entry of male and/or female
+    either by duplications or unexpected codes.
+  error_count: 1
+  errors:
+  - instance_id: StudyDesignPopulation_1
+    entity: StudyDesignPopulation
+    path: /study/versions/0/studyDesigns/0/population
+    name: POP1
+    details:
+      plannedSex: '[Code_562: Both (C49636)]'
+      check: true
+- rule_id: CORE-000879
+  description: For CDISC codelist references (where the code system is 'http://www.cdisc.org'),
+    the code system version must be a valid CDISC terminology release date in ISO
+    8601 date format.
+  message: The code system is "http://www.cdisc.org" but the code system version is
+    not a valid CDISC terminology release date in ISO 8601 date format.
+  error_count: 1
+  errors:
+  - instance_id: Code_624
+    path: /study/versions/0/biomedicalConcepts/13/code/standardCode
+    details:
+      parent_id: AliasCode_115
+      parent_rel: standardCode
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: null
+      parent_entity: AliasCode
+      code: C198218
+      decode: Not Set
+- rule_id: CORE-000427
+  description: Within a code system and corresponding version, a one-to-one relationship
+    between code and decode is expected.
+  message: There is not a one-to-one relationship between code and decode within a
+    codeSytem and corresponding codeSystemVersion
+  error_count: 2
+  errors:
+  - instance_id: Code_368
+    path: /study/versions/0/biomedicalConcepts/12/properties/2/code/standardCode
+    details:
+      parent_id: AliasCode_13
+      parent_rel: standardCode
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2024-09-27'
+      parent_entity: AliasCode
+      code: No Concept Code
+      decode: AEHLGT
+  - instance_id: Code_369
+    path: /study/versions/0/biomedicalConcepts/12/properties/3/code/standardCode
+    details:
+      parent_id: AliasCode_14
+      parent_rel: standardCode
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2024-09-27'
+      parent_entity: AliasCode
+      code: No Concept Code
+      decode: AEHLGTCD
+- rule_id: CORE-001070
+  description: A masking is not expected to be defined for any study role in a study
+    design with an open label blinding schema.
+  message: A masking is defined for the study role, but the role applies to a study
+    design with an open label blinding schema.
+  error_count: 1
+  errors:
+  - instance_id: StudyRole_1
+    entity: StudyRole
+    path: /study/versions/0/roles/0
+    name: ROLE_1
+    details:
+      code: Clinical Study Sponsor
+      masking.text: Masked
+      masking.isMasked: true
+      appliesToIds:
+      - StudyVersion_1
+      StudyDesign.blindingSchema: Open Label Study
+- rule_id: CORE-001068
+  description: Date values associated to a study definition document version must
+    be unique regarding the combination of type and geographic scopes of the date.
+  message: The study definition document version has more than one governance date
+    with the same type and geographic scope.
+  error_count: 4
+  errors:
+  - instance_id: StudyDefinitionDocumentVersion_1
+    path: /study/documentedBy/0/versions/0
+    name: P_APPROVE_ORG
+    details:
+      parent_id: StudyDefinitionDocument_1
+      type.code.GeographicScope: C68846
+      type.decode: Approval Date
+      parent_rel: versions
+      type.decode.GeographicScope: Global
+      code.standardCode.code: null
+      parent_entity: StudyDefinitionDocument
+      version: '3.1'
+      type.code: C71476
+      code.standardCode.decode: null
+      dateValue: '2020-05-12'
+      id.GovernanceDate: GovernanceDate_1
+  - instance_id: StudyDefinitionDocumentVersion_1
+    path: /study/documentedBy/0/versions/0
+    name: P_APPROVE_A1
+    details:
+      parent_id: StudyDefinitionDocument_1
+      type.code.GeographicScope: C68846
+      type.decode: Approval Date
+      parent_rel: versions
+      type.decode.GeographicScope: Global
+      code.standardCode.code: null
+      parent_entity: StudyDefinitionDocument
+      version: '3.1'
+      type.code: C71476
+      code.standardCode.decode: null
+      dateValue: '2020-08-18'
+      id.GovernanceDate: GovernanceDate_2
+  - instance_id: StudyDefinitionDocumentVersion_1
+    path: /study/documentedBy/0/versions/0
+    name: P_APPROVE_A2
+    details:
+      parent_id: StudyDefinitionDocument_1
+      type.code.GeographicScope: C68846
+      type.decode: Approval Date
+      parent_rel: versions
+      type.decode.GeographicScope: Global
+      code.standardCode.code: null
+      parent_entity: StudyDefinitionDocument
+      version: '3.1'
+      type.code: C71476
+      code.standardCode.decode: null
+      dateValue: '2021-03-19'
+      id.GovernanceDate: GovernanceDate_3
+  - instance_id: StudyDefinitionDocumentVersion_1
+    path: /study/documentedBy/0/versions/0
+    name: P_APPROVE_A3
+    details:
+      parent_id: StudyDefinitionDocument_1
+      type.code.GeographicScope: C68846
+      type.decode: Approval Date
+      parent_rel: versions
+      type.decode.GeographicScope: Global
+      code.standardCode.code: null
+      parent_entity: StudyDefinitionDocument
+      version: '3.1'
+      type.code: C71476
+      code.standardCode.decode: null
+      dateValue: '2021-08-31'
+      id.GovernanceDate: GovernanceDate_4
+- rule_id: CORE-001065
+  description: Within a study design, if study type is Interventional then at least
+    one intervention is expected to be referenced from a procedure.
+  message: The study type is Interventional (code=C98388) but a study intervention
+    is not referenced from any procedure.
+  error_count: 1
+  errors:
+  - instance_id: InterventionalStudyDesign_1
+    entity: InterventionalStudyDesign
+    path: /study/versions/0/studyDesigns/0
+    name: Main Design
+    details:
+      studyType.code: C98388
+      studyType.decode: Interventional Study
+      '# Referenced Study Interventions': 0
+- rule_id: CORE-000814
+  description: Within a study version, if a date of a specific type exists with a
+    global geographic scope then no other dates are expected with the same type.
+  message: The study version has a type of governance date with a global geographic
+    scope and either another date of the same type or additional geographic scope(s)
+    defined for the date.
+  error_count: 1
+  errors:
+  - error: Error occurred during operation execution
+    message: 'Failed to execute rule operation. Operation: record_count, Target: None,
+      Domain: GeographicScope, Error: single positional indexer is out-of-bounds'
+- rule_id: CORE-000873
+  description: Date values associated to a study version must be unique regarding
+    the combination of type and geographic scopes of the date.
+  message: The study version has more than one governance date with the same type
+    and geographic scope.
+  error_count: 1
+  errors:
+  - error: An unknown exception has occurred
+    message: Cannot perform 'rand_' with a dtyped [float64] array and scalar of type
+      [bool]
+- rule_id: CORE-001013
+  description: The names of all instances of the same class must be unique.
+  message: The same name has been used for more than one instance of the class.
+  error_count: 4
+  errors:
+  - instance_id: SubjectEnrollment_1
+    entity: SubjectEnrollment
+    path: /study/versions/0/amendments/0/enrollments/0
+    name: XXX
+  - instance_id: SubjectEnrollment_2
+    entity: SubjectEnrollment
+    path: /study/versions/0/amendments/1/enrollments/0
+    name: XXX
+  - instance_id: SubjectEnrollment_3
+    entity: SubjectEnrollment
+    path: /study/versions/0/amendments/2/enrollments/0
+    name: XXX
+  - instance_id: SubjectEnrollment_4
+    entity: SubjectEnrollment
+    path: /study/versions/0/amendments/3/enrollments/0
+    name: XXX
+- rule_id: CORE-001069
+  description: Narrative content item text is expected to be HTML formatted.
+  message: The narrative content item text contains non-conformant XHTML.
+  error_count: 11
+  errors:
+  - instance_id: NarrativeContentItem_3
+    path: /study/versions/0/narrativeContentItems/2
+    name: NCI_3
+    details:
+      parent_id: StudyVersion_1
+      parent_rel: narrativeContentItems
+      $xhtml_errors:
+      - 'Invalid XHTML line 5, col 8 [FATAL]: error parsing attribute name'
+      - 'Invalid XHTML line 5, col 8 [FATAL]: internal error: xmlParseStartTag: problem
+        parsing attributes'
+      - 'Invalid XHTML line 5, col 8 [FATAL]: Couldn''t find end of Start Tag table
+        line 5'
+      - 'Invalid XHTML line 91, col 9 [FATAL]: Opening and ending tag mismatch: p
+        line 1 and table'
+      - 'Invalid XHTML line 105, col 274 [FATAL]: Opening and ending tag mismatch:
+        div line 1 and p'
+      - 'Invalid XHTML line 105, col 280 [FATAL]: Opening and ending tag mismatch:
+        body (wrapper start) and div'
+      - 'Invalid XHTML (wrapper end) [FATAL]: Opening and ending tag mismatch: html
+        (wrapper start) and body'
+      - 'Invalid XHTML line 2 [ERROR]: Element ''p'': This element is not expected.'
+      - 'Invalid XHTML line 98 [ERROR]: Element ''u'': This element is not expected.'
+      parent_entity: StudyVersion
+  - instance_id: NarrativeContentItem_10
+    path: /study/versions/0/narrativeContentItems/9
+    name: NCI_10
+    details:
+      parent_id: StudyVersion_1
+      parent_rel: narrativeContentItems
+      $xhtml_errors:
+      - 'Invalid XHTML line 3, col 8 [FATAL]: error parsing attribute name'
+      - 'Invalid XHTML line 3, col 8 [FATAL]: internal error: xmlParseStartTag: problem
+        parsing attributes'
+      - 'Invalid XHTML line 3, col 8 [FATAL]: Couldn''t find end of Start Tag table
+        line 3'
+      - 'Invalid XHTML line 40, col 19 [FATAL]: Opening and ending tag mismatch: div
+        line 1 and table'
+      - 'Invalid XHTML line 41, col 183 [FATAL]: Opening and ending tag mismatch:
+        body (wrapper start) and div'
+      - 'Invalid XHTML (wrapper end) [FATAL]: Opening and ending tag mismatch: html
+        (wrapper start) and body'
+      - 'Invalid XHTML line 3 [ERROR]: Element ''table'': Missing child element(s).
+        Expected is one of ( caption, col, colgroup, thead, tfoot, tbody, tr ).'
+      - 'Invalid XHTML line 4 [ERROR]: Element ''tr'': This element is not expected.'
+      parent_entity: StudyVersion
+  - instance_id: NarrativeContentItem_12
+    path: /study/versions/0/narrativeContentItems/11
+    name: NCI_12
+    details:
+      parent_id: StudyVersion_1
+      parent_rel: narrativeContentItems
+      $xhtml_errors:
+      - 'Invalid XHTML line 11 [ERROR]: Element ''li'': This element is not expected.'
+      parent_entity: StudyVersion
+  - instance_id: NarrativeContentItem_14
+    path: /study/versions/0/narrativeContentItems/13
+    name: NCI_14
+    details:
+      parent_id: StudyVersion_1
+      parent_rel: narrativeContentItems
+      $xhtml_errors:
+      - 'Invalid XHTML line 1, col 50 [FATAL]: error parsing attribute name'
+      - 'Invalid XHTML line 1, col 50 [FATAL]: internal error: xmlParseStartTag: problem
+        parsing attributes'
+      - 'Invalid XHTML line 1, col 50 [FATAL]: Couldn''t find end of Start Tag table
+        line 1'
+      - 'Invalid XHTML line 87, col 9 [FATAL]: Opening and ending tag mismatch: div
+        line 1 and table'
+      - 'Invalid XHTML line 87, col 15 [FATAL]: Opening and ending tag mismatch: body
+        (wrapper start) and div'
+      - 'Invalid XHTML (wrapper end) [FATAL]: Opening and ending tag mismatch: html
+        (wrapper start) and body'
+      - 'Invalid XHTML line 1 [ERROR]: Element ''table'': Missing child element(s).
+        Expected is one of ( caption, col, colgroup, thead, tfoot, tbody, tr ).'
+      - 'Invalid XHTML line 2 [ERROR]: Element ''tr'': This element is not expected.'
+      parent_entity: StudyVersion
+  - instance_id: NarrativeContentItem_16
+    path: /study/versions/0/narrativeContentItems/15
+    name: NCI_16
+    details:
+      parent_id: StudyVersion_1
+      parent_rel: narrativeContentItems
+      $xhtml_errors:
+      - 'Invalid XHTML line 17, col 8 [FATAL]: error parsing attribute name'
+      - 'Invalid XHTML line 17, col 8 [FATAL]: internal error: xmlParseStartTag: problem
+        parsing attributes'
+      - 'Invalid XHTML line 17, col 8 [FATAL]: Couldn''t find end of Start Tag table
+        line 17'
+      - 'Invalid XHTML line 39, col 9 [FATAL]: Opening and ending tag mismatch: div
+        line 1 and table'
+      - 'Invalid XHTML line 39, col 15 [FATAL]: Opening and ending tag mismatch: body
+        (wrapper start) and div'
+      - 'Invalid XHTML (wrapper end) [FATAL]: Opening and ending tag mismatch: html
+        (wrapper start) and body'
+      - 'Invalid XHTML line 17 [ERROR]: Element ''table'': Missing child element(s).
+        Expected is one of ( caption, col, colgroup, thead, tfoot, tbody, tr ).'
+      - 'Invalid XHTML line 18 [ERROR]: Element ''tr'': This element is not expected.'
+      parent_entity: StudyVersion
+  - instance_id: NarrativeContentItem_34
+    path: /study/versions/0/narrativeContentItems/33
+    name: NCI_34
+    details:
+      parent_id: StudyVersion_1
+      parent_rel: narrativeContentItems
+      $xhtml_errors:
+      - 'Invalid XHTML line 266 [ERROR]: Element ''p'': This element is not expected.'
+      parent_entity: StudyVersion
+  - instance_id: NarrativeContentItem_93
+    path: /study/versions/0/narrativeContentItems/92
+    name: NCI_93
+    details:
+      parent_id: StudyVersion_1
+      parent_rel: narrativeContentItems
+      $xhtml_errors:
+      - 'Invalid XHTML line 14 [ERROR]: Element ''p'': This element is not expected.'
+      parent_entity: StudyVersion
+  - instance_id: NarrativeContentItem_97
+    path: /study/versions/0/narrativeContentItems/96
+    name: NCI_97
+    details:
+      parent_id: StudyVersion_1
+      parent_rel: narrativeContentItems
+      $xhtml_errors:
+      - 'Invalid XHTML line 52 [ERROR]: Element ''ul'': This element is not expected.
+        Expected is ( li ).'
+      - 'Invalid XHTML line 93 [ERROR]: Element ''ul'': This element is not expected.
+        Expected is ( li ).'
+      parent_entity: StudyVersion
+  - instance_id: NarrativeContentItem_98
+    path: /study/versions/0/narrativeContentItems/97
+    name: NCI_98
+    details:
+      parent_id: StudyVersion_1
+      parent_rel: narrativeContentItems
+      $xhtml_errors:
+      - 'Invalid XHTML line 10 [ERROR]: Element ''p'': This element is not expected.
+        Expected is ( li ).'
+      parent_entity: StudyVersion
+  - instance_id: NarrativeContentItem_100
+    path: /study/versions/0/narrativeContentItems/99
+    name: NCI_100
+    details:
+      parent_id: StudyVersion_1
+      parent_rel: narrativeContentItems
+      $xhtml_errors:
+      - 'Invalid XHTML line 18 [ERROR]: Element ''ul'': This element is not expected.'
+      - 'Invalid XHTML line 26 [ERROR]: Element ''ul'': This element is not expected.
+        Expected is ( li ).'
+      - 'Invalid XHTML line 50 [ERROR]: Element ''li'': This element is not expected.'
+      parent_entity: StudyVersion
+  - instance_id: NarrativeContentItem_102
+    path: /study/versions/0/narrativeContentItems/101
+    name: NCI_102
+    details:
+      parent_id: StudyVersion_1
+      parent_rel: narrativeContentItems
+      $xhtml_errors:
+      - 'Invalid XHTML line 11, col 5 [FATAL]: error parsing attribute name'
+      - 'Invalid XHTML line 11, col 5 [FATAL]: internal error: xmlParseStartTag: problem
+        parsing attributes'
+      - 'Invalid XHTML line 11, col 5 [FATAL]: Couldn''t find end of Start Tag td
+        line 11'
+      - 'Invalid XHTML line 11, col 7 [FATAL]: error parsing attribute name'
+      - 'Invalid XHTML line 11, col 7 [FATAL]: internal error: xmlParseStartTag: problem
+        parsing attributes'
+      - 'Invalid XHTML line 11, col 7 [FATAL]: Couldn''t find end of Start Tag p line
+        11'
+      - 'Invalid XHTML line 11, col 50 [FATAL]: Opening and ending tag mismatch: tr
+        line 10 and td'
+      - 'Invalid XHTML line 12, col 6 [FATAL]: Opening and ending tag mismatch: table
+        line 6 and tr'
+      - 'Invalid XHTML line 18, col 14 [FATAL]: Opening and ending tag mismatch: div
+        line 1 and table'
+      - 'Invalid XHTML line 19, col 79 [FATAL]: Opening and ending tag mismatch: body
+        (wrapper start) and div'
+      - 'Invalid XHTML (wrapper end) [FATAL]: Opening and ending tag mismatch: html
+        (wrapper start) and body'
+      - 'Invalid XHTML line 11 [ERROR]: Element ''p'': This element is not expected.'
+      - 'Invalid XHTML line 13 [ERROR]: Element ''tr'': This element is not expected.'
+      parent_entity: StudyVersion
+- rule_id: CORE-000857
+  description: A planned sex must be specified using the Sex of Participants (C66732)
+    SDTM codelist.
+  message: The planned sex is not specified using the Sex of Participants (C66732)
+    SDTM codelist - codeSystem is not "http://www.cdisc.org", codeSystemVersion is
+    not a valid terminology package date, the code or decode (either as preferred
+    term or as submission value) is found in the codelist (case insensitive) but the
+    corresponding decode or code does not match the codelist value (case sensitive),
+    and/or neither code nor decode is found in the codelist.
+  error_count: 1
+  errors:
+  - error: Error occurred during operation execution
+    message: 'Failed to execute rule operation. Operation: codelist_extensible, Target:
+      None, Domain: StudyCohort, Error: You are trying to merge on object and float64
+      columns for key ''codeSystemVersion''. If you wish to proceed you should use
+      pd.concat'
+- rule_id: CORE-000969
+  description: If a dose is specified, then a corresponding administrable product
+    must also be specified either directly or embedded in the medical device and vice
+    versa.
+  message: The administration dose has been specified without an administrable product
+    (either as a direct administrable product or as an embedded product via the related
+    medical device) or vice versa.
+  error_count: 2
+  errors:
+  - instance_id: Administration_1
+    entity: Administration
+    path: /study/versions/0/studyInterventions/0/administrations/0
+    name: 15_MG
+    details:
+      dose(value/range): 15 Milligram (C28253)
+      administrableProductId: null
+      medicalDeviceId: null
+      check: true
+  - instance_id: Administration_2
+    entity: Administration
+    path: /study/versions/0/studyInterventions/0/administrations/1
+    name: 30_MG
+    details:
+      dose(value/range): 30 Milligram (C28253)
+      administrableProductId: null
+      medicalDeviceId: null
+      check: true
+- rule_id: CORE-001016
+  description: A planned duration is expected for the main timeline.
+  message: The planned duration is not specified for the main timeline.
+  error_count: 1
+  errors:
+  - instance_id: ScheduleTimeline_5
+    entity: ScheduleTimeline
+    path: /study/versions/0/studyDesigns/0/scheduleTimelines/0
+    name: Main Timeline
+    details:
+      mainTimeline: true
+      check: true
+- rule_id: CORE-000968
+  description: Within a study definition document version, if a date of a specific
+    type exists with a global geographic scope then no other dates are expected with
+    the same type.
+  message: There is more than one date of this type for the study definition document
+    version, but at least one of the dates has a global geographic scope.
+  error_count: 5
+  errors:
+  - instance_id: GovernanceDate_1
+    entity: GovernanceDate
+    path: /study/documentedBy/0/versions/0/dateValues/0
+    details:
+      type: Approval Date (C71476)
+      dateValue: '2020-05-12'
+      geographicScopes.type: '[GeographicScope_1: Global (C68846)]'
+  - instance_id: GovernanceDate_2
+    entity: GovernanceDate
+    path: /study/documentedBy/0/versions/0/dateValues/1
+    details:
+      type: Approval Date (C71476)
+      dateValue: '2020-08-18'
+      geographicScopes.type: '[GeographicScope_2: Global (C68846)]'
+  - instance_id: GovernanceDate_3
+    entity: GovernanceDate
+    path: /study/documentedBy/0/versions/0/dateValues/2
+    details:
+      type: Approval Date (C71476)
+      dateValue: '2021-03-19'
+      geographicScopes.type: '[GeographicScope_3: Global (C68846)]'
+  - instance_id: GovernanceDate_4
+    entity: GovernanceDate
+    path: /study/documentedBy/0/versions/0/dateValues/3
+    details:
+      type: Approval Date (C71476)
+      dateValue: '2021-08-31'
+      geographicScopes.type: '[GeographicScope_4: Global (C68846)]'
+  - instance_id: GovernanceDate_5
+    entity: GovernanceDate
+    path: /study/documentedBy/0/versions/0/dateValues/4
+    details:
+      type: Approval Date (C71476)
+      dateValue: '2022-03-18'
+      geographicScopes.type: '[GeographicScope_5: Country (C25464)]'
+- rule_id: CORE-000402
+  description: Timing windows must be fully defined, if one of the window attributes
+    (i.e., window label, window lower, and window upper) is defined then all must
+    be specified.
+  message: One or more of the window attributes (windowLabel, windowLower, windowUpper)
+    is missing.
+  error_count: 1
+  errors:
+  - instance_id: Timing_53
+    path: /study/versions/0/studyDesigns/0/scheduleTimelines/3/timings/0
+    name: TIM53
+    details:
+      parent_id: ScheduleTimeline_3
+      windowLower: null
+      valueLabel: 30 minutes
+      parent_rel: timings
+      parent_entity: ScheduleTimeline
+      windowUpper: null
+      windowLabel: 3..3 minutes
+- rule_id: CORE-000995
+  description: If the duration will vary, a quantity is not expected for the duration
+    and vice versa.
+  message: The duration quantity is specified while the duration is indicated to vary
+    or vice versa.
+  error_count: 2
+  errors:
+  - instance_id: Duration_1
+    entity: Duration
+    path: /study/versions/0/studyInterventions/0/administrations/0/duration
+    details:
+      quantity(value/range): 28 Day (C25301)
+      durationWillVary: true
+      check: true
+  - instance_id: Duration_2
+    entity: Duration
+    path: /study/versions/0/studyInterventions/0/administrations/1/duration
+    details:
+      quantity(value/range): 11 Day (C25301)
+      durationWillVary: true
+      check: true
+- rule_id: CORE-000808
+  description: Only one version of any code system is expected to be used within a
+    study version.
+  message: More than one code system version is used for the code system.
+  error_count: 3
+  errors:
+  - instance_id: Code_1
+    path: /study/versions/0/organizations/0/type
+    details:
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2025-09-26'
+      $record_count: 424
+  - instance_id: Code_366
+    path: /study/versions/0/biomedicalConcepts/12/properties/0/code/standardCode
+    details:
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: '2024-09-27'
+      $record_count: 181
+  - instance_id: Code_624
+    path: /study/versions/0/biomedicalConcepts/13/code/standardCode
+    details:
+      codeSystem: http://www.cdisc.org
+      codeSystemVersion: null
+      $record_count: 1
